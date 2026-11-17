@@ -60,6 +60,29 @@ def main():
     } for r in rows]
     if any(not r["id"] for r in requirements):
         raise RuntimeError("Empty requirement ID")
+    qa = json.loads(get(RAW + "/docs/MANUAL_QA_EVIDENCE.json"))
+    if qa.get("schema") != 1 or not isinstance(qa.get("cases"), list):
+        raise RuntimeError("Unsupported manual QA evidence registry")
+    known_ids = {r["id"] for r in requirements}
+    seen_cases = set()
+    allowed_results = {"passed", "failed", "blocked", "not_run"}
+    for case in qa["cases"]:
+        case_id = case.get("id")
+        refs = case.get("requirement_ids")
+        build = case.get("build")
+        if not isinstance(case_id, str) or not case_id or case_id in seen_cases:
+            raise RuntimeError("Empty or duplicate QA case ID")
+        seen_cases.add(case_id)
+        if not isinstance(refs, list) or not refs or any(r not in known_ids for r in refs):
+            raise RuntimeError("QA case references unknown requirements")
+        if case.get("result") not in allowed_results or case.get("scope") not in {"partial", "full"}:
+            raise RuntimeError("Unknown QA evidence result or scope")
+        if not isinstance(build, dict) or not isinstance(case.get("tested_at"), str) or not case.get("evidence_url"):
+            raise RuntimeError("QA record missing build, date or evidence reference")
+        dt.date.fromisoformat(case["tested_at"])
+        if case.get("scope") == "full" and case.get("result") == "passed":
+            if any(r["manual"].lower() not in {"accettata", "superata", "completata", "verificata"} for r in requirements if r["id"] in refs):
+                raise RuntimeError("Full acceptance evidence is inconsistent with the canonical CSV")
     pulls = paged("/pulls", {"state": "open", "sort": "updated", "direction": "desc"})
     closed = paged("/pulls", {"state": "closed", "sort": "updated", "direction": "desc"})
     pull_items = pulls + sorted(closed, key=lambda r: r.get("updated_at", ""), reverse=True)[:80]
@@ -116,6 +139,7 @@ def main():
             "p1": sum(i["priority"] == "P1" for i in issues),
         },
         "prs": prs, "issues": issues,
+        "manualQa": {"schema": 1, "updatedAt": qa.get("updated_at"), "cases": qa["cases"]},
         "package": ({
             "name": latest["name"],
             "createdAt": latest.get("created_at"),
@@ -128,6 +152,8 @@ def main():
             "evidence": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/IMPLEMENTATION_EVIDENCE.json",
             "testbook": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/QA_TESTBOOK.md",
             "securityGate": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/SECURITY_PRIVACY_RELEASE_GATE_1.0.0.md",
+            "qaRegistry": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/MANUAL_QA_EVIDENCE.json",
+            "qaGuide": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/MANUAL_QA_EVIDENCE.md",
         }
     }
     OUT.mkdir(exist_ok=True)
