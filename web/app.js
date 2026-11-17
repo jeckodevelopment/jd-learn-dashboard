@@ -7,7 +7,46 @@ const $=id=>document.getElementById(id);
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const short=s=>String(s||"").trim().replace(/\s+/g," ").slice(0,180);
 const idLink=r=>SOURCE+"/blob/main/docs/REQUIREMENTS_STATUS.csv";
-const areaNames={CAT:"Catalogo",FE:"Frontend",VID:"Video",MAT:"Materiali",COURSE:"Corsi",CRS:"Corsi",LCM:"Ciclo di vita",MAIL:"Email",CERT:"Attestati",ENR:"Iscrizioni",PRG:"Progressi",SEC:"Sicurezza",REL:"Rilascio",DOC:"Documentazione",JML:"Joomla",INT:"Integrazioni"};
+const areaInfo={
+ CAT:["Catalogo formativo","Ricerca, filtri e schede di corsi e percorsi.","Esperienza dello studente"],
+ AUT:["Creazione e pubblicazione corsi","Editor, programmi, versioni e pubblicazione.","Gestione didattica"],
+ LES:["Gestione lezioni","Contenuti, disponibilità e regole di completamento.","Gestione didattica"],
+ VID:["Riproduzione video","Player, controlli e tracciamento della visione.","Esperienza dello studente"],
+ ISC:["Iscrizioni","Ammissione, sospensione e gestione degli iscritti.","Esperienza dello studente"],
+ STU:["Area dello studente","Aula, area personale e ripresa dei corsi.","Esperienza dello studente"],
+ PRO:["Progressi e completamenti","Avanzamento, frequenza e completamento delle attività.","Esperienza dello studente"],
+ QUI:["Quiz e valutazioni","Banca domande e verifiche del percorso formativo.","Gestione didattica"],
+ ATT:["Attestazioni avanzate","Funzioni di attestazione oltre il perimetro essenziale.","Comunicazioni e attestati"],
+ REP:["Report e riepiloghi","Elenchi degli iscritti e dati di consultazione.","Gestione didattica"],
+ NOT:["Notifiche didattiche","Avvisi legati agli eventi e alle scadenze dei corsi.","Comunicazioni e attestati"],
+ SIC:["Sicurezza di base","Protezione degli accessi, dei contenuti e degli allegati.","Qualità e sicurezza"],
+ PRI:["Protezione della privacy","Consenso, conservazione dei dati e diritti degli utenti.","Qualità e sicurezza"],
+ ACC:["Accessibilità","Tastiera, leggibilità, contrasto e compatibilità assistiva.","Qualità e sicurezza"],
+ JOO:["Integrazione con Joomla","Installazione, aggiornamenti e funzionalità native.","Integrazioni e architettura"],
+ CORE:["Funzioni native di Joomla","Categorie, utenti, ACL, lingua e servizi di piattaforma.","Integrazioni e architettura"],
+ UI:["Personalizzazione dell'interfaccia","CSS, override, componenti riutilizzabili e identificativi.","Esperienza dello studente"],
+ PERF:["Prestazioni e scalabilità","Tempi di risposta, carico e capacità del sistema.","Qualità e sicurezza"],
+ ACL:["Permessi e autorizzazioni","Controlli di accesso e privilegi per ruolo e oggetto.","Qualità e sicurezza"],
+ STA:["Scadenze e finestre temporali","Date, fusi orari, disponibilità e condizioni temporali.","Gestione didattica"],
+ SCR:["Interfacce e navigazione","Schermate, percorsi utente e comportamento del frontend.","Esperienza dello studente"],
+ LIFE:["Regole di conservazione","Dipendenze, archiviazione e protezione dei dati storici.","Gestione didattica"],
+ CFG:["Configurazione del sistema","Opzioni, precedenze e regole di configurazione.","Integrazioni e architettura"],
+ EDGE:["Regole e casi particolari","Accessi, prerequisiti, disponibilità e situazioni eccezionali.","Gestione didattica"],
+ DAT:["Validazione dei dati","Controlli sui contenuti e coerenza delle informazioni.","Integrazioni e architettura"],
+ REL:["Preparazione al rilascio","Criteri di accettazione e verifiche per la versione stabile.","Preparazione al rilascio"],
+ PVD:["Provider video","Plugin di riproduzione e integrazione dei servizi video.","Integrazioni e architettura"],
+ MAT:["Materiali didattici","Allegati dei corsi e delle lezioni e accesso controllato.","Gestione didattica"],
+ HTTP:["Comunicazione frontend-server","Endpoint, richieste, risposte e controlli di accesso.","Integrazioni e architettura"],
+ SECDEV:["Sviluppo sicuro","Architettura del codice e difese contro le vulnerabilità.","Qualità e sicurezza"],
+ PBASE:["Plugin video inclusi","Distribuzione e configurazione dei provider supportati.","Integrazioni e architettura"],
+ CERT:["Attestati PDF","Emissione, generazione, download e conservazione.","Comunicazioni e attestati"],
+ MAIL:["Email e comunicazioni","Modelli, messaggi e gestione della coda di invio.","Comunicazioni e attestati"],
+ DOC:["Documentazione e manuali","Guide di installazione, amministrazione e utilizzo.","Preparazione al rilascio"],
+ SEC:["Verifiche di sicurezza","Audit delle vulnerabilità, protezione dei dati e hardening.","Qualità e sicurezza"],
+ LCM:["Gestione del ciclo di vita","Archiviazione, cestinazione, ripristino e storico.","Gestione didattica"]
+};
+const areaNames=Object.fromEntries(Object.entries(areaInfo).map(([k,v])=>[k,v[0]]));
+const areaGroups=["Gestione didattica","Esperienza dello studente","Comunicazioni e attestati","Integrazioni e architettura","Qualità e sicurezza","Preparazione al rilascio"];
 const macroNames={courses:"Corsi e lezioni",catalogue:"Catalogo e frontend",learning_progress:"Progressi",video_materials:"Video e materiali",enrollment:"Iscrizioni",joomla_integrations:"Joomla e integrazioni",release_preparation:"Preparazione release",email_notifications:"Email e notifiche",certificates:"Attestati"};
 const labels={home:"Control Center",features:"Funzionalità",development:"Sviluppo",testing:"Collaudi Joomla",release:"Release readiness"};
 const stateValue=r=>(r.state||"").toLowerCase();
@@ -92,28 +131,43 @@ function rowRequirement(r){
 }
 function featureAreas(){
  const groups={};
- model.requirements.forEach(r=>{let k=r.area||"Altro";(groups[k]??=[]).push(r)});
- return Object.entries(groups).sort((a,b)=>b[1].length-a[1].length);
+ model.requirements.filter(r=>model.filter==="phase2"?r.scope==="Fase 2":inScope(r)).forEach(r=>{
+  const key=r.area||"Altro";(groups[key]??=[]).push(r);
+ });
+ return Object.entries(groups).sort((a,b)=>(areaGroups.indexOf((areaInfo[a[0]]||[])[2])-areaGroups.indexOf((areaInfo[b[0]]||[])[2])) || a[0].localeCompare(b[0]));
 }
 function features(){
- const options=[["all","Tutti gli stati"],["incomplete","Da completare"],["manual","Da collaudare"],["completed","Implementati"],["phase2","Fase 2"]];
- let rows=model.requirements.filter(r=>{
+ const options=[["all","Perimetro 1.0.0"],["incomplete","Da completare"],["manual","Da collaudare"],["completed","Implementati"],["phase2","Solo fase 2"]];
+ const rows=model.requirements.filter(r=>{
+  if(model.filter==="phase2" ? r.scope!=="Fase 2" : !inScope(r))return false;
   if(model.area!=="all"&&r.area!==model.area)return false;
   if(model.filter==="incomplete"&&!incomplete(r))return false;
   if(model.filter==="manual"&&!manualPending(r))return false;
   if(model.filter==="completed"&&!completed(r))return false;
-  if(model.filter==="phase2"&&r.scope!=="Fase 2")return false;
-  return (r.id+" "+r.criteria+" "+r.todo+" "+r.state).toLowerCase().includes(model.query.toLowerCase())
+  return (r.id+" "+(areaNames[r.area]||"")+" "+r.criteria+" "+r.todo+" "+r.state).toLowerCase().includes(model.query.toLowerCase());
  });
  const areas=featureAreas();
- const areaCards='<div class="areas">'+areas.map(([key,group])=>{
-  const done=group.filter(completed).length,percent=100*done/group.length;
-  return '<button class="card area-card" data-area="'+esc(key)+'"><h3>'+esc(areaNames[key]||key)+'</h3><div class="percent">'+pct(percent)+'</div><div class="meter"><span style="width:'+percent+'%"></span></div><p class="meta">'+done+' implementati su '+group.length+' requisiti · '+group.filter(incomplete).length+' incompleti nel perimetro</p></button>'
- }).join("")+'</div>';
- const areaOptions='<div class="toolbar"><select id="area" aria-label="Seleziona macroarea"><option value="all">Tutte le aree</option>'+areas.map(([k])=>'<option value="'+esc(k)+'" '+(model.area===k?"selected":"")+'>'+esc(areaNames[k]||k)+'</option>').join("")+'</select></div>';
- return pageHeader("Funzionalità","Dalla macroarea al singolo requisito. Percentuali delle schede basate sul conteggio dei requisiti implementati, non sulla stima ponderata.")+
- section("Aree funzionali","Seleziona un’area per filtrare i requisiti")+areaCards+
- section("Matrice requisiti","Stato implementativo e collaudo distinti")+areaOptions+toolbar({filters:options,count:rows.length})+
+ const cardsByGroup=areaGroups.map(groupName=>{
+  const included=areas.filter(([key])=>(areaInfo[key]||[])[2]===groupName);
+  if(!included.length)return "";
+  const cards=included.map(([key,group])=>{
+   const done=group.filter(completed).length;
+   const percent=group.length?100*done/group.length:0;
+   const info=areaInfo[key]||[key,"Requisiti del progetto.",groupName];
+   return '<button class="card area-card" data-area="'+esc(key)+'"><div class="area-card-head"><h3>'+esc(info[0])+'</h3><span class="area-code">'+esc(key)+'</span></div>'+
+    '<p class="area-description">'+esc(info[1])+'</p><div class="area-progress"><strong>'+pct(percent)+'</strong><span>'+done+' / '+group.length+' requisiti</span></div>'+
+    '<div class="meter"><span style="width:'+percent+'%"></span></div>'+
+    '<p class="meta">'+(group.length-done)+' non completamente implementati</p></button>';
+  }).join("");
+  return '<section class="area-section"><div class="section-title"><h2>'+esc(groupName)+'</h2><span class="aside">'+included.length+' aree</span></div><div class="areas">'+cards+'</div></section>';
+ }).join("");
+ const unknown=areas.filter(([key])=>!areaInfo[key]);
+ const fallback=unknown.length?'<div class="section-title"><h2>Altre aree</h2></div><div class="areas">'+unknown.map(([key,group])=>'<button class="card area-card" data-area="'+esc(key)+'"><h3>'+esc(key)+'</h3><p class="area-description">Area da classificare</p><strong>'+pct(100*group.filter(completed).length/group.length)+'</strong></button>').join("")+'</div>':"";
+ const areaOptions='<div class="toolbar"><select id="area" aria-label="Seleziona area funzionale"><option value="all">Tutte le aree</option>'+areas.map(([k])=>'<option value="'+esc(k)+'" '+(model.area===k?"selected":"")+'>'+esc(areaNames[k]||k)+'</option>').join("")+'</select></div>';
+ return pageHeader("Funzionalità","Aree descritte in linguaggio chiaro, con avanzamento e requisiti di dettaglio. Le sigle sono solo riferimenti tecnici.")+
+ '<div class="notice">Le percentuali nelle schede indicano la quota di requisiti interamente implementati nell’area. Non equivalgono alla stima ponderata di avanzamento del progetto. I requisiti misti possono includere anche lavorazioni di fase 2.</div>'+
+ cardsByGroup+fallback+
+ section("Matrice requisiti","Implementazione e collaudo Joomla distinti")+areaOptions+toolbar({filters:options,count:rows.length})+
  '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(rowRequirement).join(""):'<div class="empty">Nessun requisito trovato.</div>')+'</div>'+
  (rows.length>120?'<p class="note" style="margin-top:12px">Mostrati i primi 120 risultati: restringi la ricerca.</p>':"");
 }
