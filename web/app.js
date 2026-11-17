@@ -221,11 +221,11 @@ function testing(){
  '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(r=>'<article class="data-row"><div><div class="id">'+esc(r.id)+' · '+esc(areaNames[r.area]||r.area)+'</div><strong>'+excerpt(r.tests||r.criteria,220)+'</strong><p class="desc">Implementazione: '+esc(r.state)+' · Accettazione: '+esc(r.manual)+' · Build verificata: non tracciata nella matrice</p></div><div class="row-meta">'+chip(r.manual,accepted(r)?"ok":"")+'<button data-detail="'+esc(r.id)+'">Apri →</button></div></article>').join(""):'<div class="empty">Nessuna verifica corrispondente.</div>')+'</div>';
 }
 function release(){
- const s=model.snapshot,scope=model.requirements.filter(inScope),missing=scope.filter(incomplete),manual=scope.filter(manualPending);
+ const s=model.snapshot,scope=model.requirements.filter(r=>r.scope==="1.0.0"),mixed=model.requirements.filter(r=>r.scope==="Misto"),missing=scope.filter(incomplete),manual=scope.filter(manualPending);
  const hasP0=(s.counts?.p0||0)>0;
  const groups=[
-  {title:"Completezza funzionale",status:missing.length?"Bloccante":"Da verificare",detail:missing.length+" requisiti 1.0.0/misti non completamente implementati; le voci miste vanno valutate rispetto allo scope.",link:s.links.matrix,label:"Apri requisiti"},
-  {title:"Accettazione Joomla",status:manual.length?"Bloccante":"Da verificare",detail:manual.length+" requisiti senza accettazione completa. Le versioni effettivamente collaudate richiedono evidenze.",link:s.links.testbook,label:"Apri piano collaudi"},
+  {title:"Completezza funzionale",status:missing.length?"Bloccante":"Da verificare",detail:missing.length+" requisiti esclusivamente 1.0.0 non completamente implementati; "+mixed.filter(incomplete).length+" requisiti misti richiedono verifica della parte pertinente alla 1.0.0.",link:s.links.matrix,label:"Apri requisiti"},
+  {title:"Accettazione Joomla",status:manual.length?"Bloccante":"Da verificare",detail:manual.length+" requisiti esclusivamente 1.0.0 senza accettazione completa; "+mixed.filter(manualPending).length+" requisiti misti da valutare. La build collaudata richiede evidenze.",link:s.links.testbook,label:"Apri piano collaudi"},
   {title:"Regressioni P0",status:hasP0?"Bloccante":"Da verificare",detail:hasP0?s.counts.p0+" issue P0 attualmente aperte.":"Nessuna issue P0 aperta; occorre comunque una verifica esplicita delle regressioni.",link:SOURCE+"/issues?q=is%3Aissue+is%3Aopen+label%3AP0",label:"Esamina issue"},
   {title:"Installazione e aggiornamenti",status:"Da verificare",detail:"Servono prove manuali su installazione pulita, upgrade con dati preesistenti e ripristino, riferite alla build candidata.",link:s.links.testbook,label:"Vedi prove"},
   {title:"Sicurezza e privacy",status:"Da verificare",detail:"Verificare audit e accettazione documentale del gate di sicurezza e privacy; la CI non costituisce da sola l'accettazione.",link:s.links.securityGate,label:"Vedi gate"},
