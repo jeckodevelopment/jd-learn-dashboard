@@ -1,1 +1,1555 @@
-{"schema":2,"generatedAt":"1970-01-01T00:00:00Z","source":"https://github.com/jeckodevelopment/jd_learn","progress":null,"macroareas":{},"counts":{"requirements":0,"prOpen":0,"issuesOpen":0,"p0":0,"p1":0},"prs":[],"issues":[],"package":null,"links":{"matrix":"https://github.com/jeckodevelopment/jd_learn/blob/main/docs/REQUIREMENTS_STATUS.csv"}}
+{
+  "schema": 2,
+  "generatedAt": "2026-11-17T21:03:26.350974+00:00",
+  "source": "https://github.com/jeckodevelopment/jd_learn",
+  "sourceCommit": "144885a11030ab2d04bf6cecf36dc853d8eb88a0",
+  "progress": 79.56,
+  "macroareas": {
+    "courses": 81,
+    "catalogue": 81,
+    "learning_progress": 78,
+    "video_materials": 99,
+    "enrollment": 68,
+    "joomla_integrations": 92,
+    "release_preparation": 70,
+    "email_notifications": 72,
+    "certificates": 75
+  },
+  "counts": {
+    "requirements": 249,
+    "prOpen": 0,
+    "issuesOpen": 0,
+    "p0": 0,
+    "p1": 0
+  },
+  "prs": [
+    {
+      "number": 578,
+      "title": "feat(LCM-04): cestinazione e ripristino conservativo dei docenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/578",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T20:52:52Z",
+      "mergedAt": "2026-11-17T20:52:49Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "590b25c7dd596d5193b6f2e371b5af2c37654249",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44173248406"
+      }
+    },
+    {
+      "number": 577,
+      "title": "feat(LCM-03): azioni massive e cancellazione protetta dei percorsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/577",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T20:27:19Z",
+      "mergedAt": "2026-11-17T20:27:16Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "809e50b5664855f0cdfa31ad4740a645d441e09c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44168552575"
+      }
+    },
+    {
+      "number": 576,
+      "title": "feat(LCM-03): cestino e ripristino conservativo dei percorsi formativi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/576",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T20:09:36Z",
+      "mergedAt": "2026-11-17T20:09:34Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "3d2eec3727f4e2d8c34417e9543de6d93b0957c8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44165049270"
+      }
+    },
+    {
+      "number": 575,
+      "title": "feat(LCM-03): archiviazione e ripristino conservativo dei percorsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/575",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T19:48:12Z",
+      "mergedAt": "2026-11-17T19:48:09Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "4002aab8e356fd83d6352487ca83f3576a4667ba",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44161618090"
+      }
+    },
+    {
+      "number": 574,
+      "title": "test(video): proteggere il replay delle lezioni completate e registrare collaudo #573",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/574",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T19:32:07Z",
+      "mergedAt": "2026-11-17T19:32:04Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "d471733135f0ea915162b691afa559c557371f7d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44158661335"
+      }
+    },
+    {
+      "number": 573,
+      "title": "fix(P0 video): consentire la riproduzione di lezioni già completate",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/573",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T19:24:43Z",
+      "mergedAt": "2026-11-17T19:13:19Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "82121d13e5aef5b46fe07000b79f4870d4ace131",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44155252428"
+      }
+    },
+    {
+      "number": 572,
+      "title": "fix(P0 video): ripristinare la riproduzione YouTube dopo regressione PR #571",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/572",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T18:55:23Z",
+      "mergedAt": "2026-11-17T18:55:20Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f73d1d736d44ea24d28e237c78cf3a3b4ffcb356",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44142693193"
+      }
+    },
+    {
+      "number": 571,
+      "title": "feat(youtube): schermata completamento nello spazio del player e replay da inizio",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/571",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T17:28:39Z",
+      "mergedAt": "2026-11-17T17:28:36Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e0edf5d0590f4534b81694c2689afb50a59911fc",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44136631987"
+      }
+    },
+    {
+      "number": 570,
+      "title": "feat(video): player YouTube orientato alla lezione, suggerimenti limitati e CTA di completamento",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/570",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T17:01:57Z",
+      "mergedAt": "2026-11-17T17:01:55Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c71fe729cb9bad9e754f8658e1dbe6e026292d95",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44131502921"
+      }
+    },
+    {
+      "number": 569,
+      "title": "fix(release): allineare versioni, date e nomi di tutte le estensioni JD Learn (#379)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/569",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T16:20:21Z",
+      "mergedAt": "2026-11-17T16:20:18Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e8634835bd251d46c5029b4fc3338807d787b8ed",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44123504983"
+      }
+    },
+    {
+      "number": 568,
+      "title": "feat(certificates): recupero controllato degli attestati mai emessi per completamenti eleggibili",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/568",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T15:46:49Z",
+      "mergedAt": "2026-11-17T15:22:07Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ae7e053a801ad9ae97d1d9b5fc4636bb659148d2",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 567,
+      "title": "docs(cert): registrare collaudo positivo PR #566 e riconciliare requisiti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/567",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T15:46:47Z",
+      "mergedAt": "2026-11-17T15:01:47Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d9860e49276318c0f191dc0b7ed6123dc3cf3eb6",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 566,
+      "title": "fix(certificates): supporto logo PNG e formati raster nel PDF attestati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/566",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T15:46:45Z",
+      "mergedAt": "2026-11-17T14:48:46Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3bcf3acd493809bbe8f24aad24d40c6d6f44d9d9",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 565,
+      "title": "fix(certificates): evitare file temporanei PHP nella generazione PDF e tracciare errori 503 (#564)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/565",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T14:01:57Z",
+      "mergedAt": "2026-11-17T13:45:59Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7d3835f3f68fc10813d674866a5fa3da4b1d0711",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 563,
+      "title": "feat(storage): cartella privata automatica e cifrata per hosting condiviso (#562)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/563",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T13:24:21Z",
+      "mergedAt": "2026-11-17T13:24:19Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6d9b4b9838f05ae32d90e8cda649349eb943ce41",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 561,
+      "title": "fix(certificates): PDF storico pending_render 503 e DATETIME(6) (#560)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/561",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T11:34:43Z",
+      "mergedAt": "2026-11-17T11:34:41Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d10c344ae2aa9ac019d3ace815665a543c7c45ae",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 559,
+      "title": "test(certificates): riprodurre emissione storica 500 e correggere (#558)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/559",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T11:12:38Z",
+      "mergedAt": "2026-11-17T11:12:36Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "94a553ad64acf4bcac42856e3162b6be683a62be",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 557,
+      "title": "fix(certificates): recupero amministrativo controllato dei completamenti storici (#553)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/557",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T09:36:48Z",
+      "mergedAt": "2026-11-17T09:36:45Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "9c3d32a22647810e9fa7daa354157379acbed464",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 556,
+      "title": "fix(certificates): snapshot delle preferenze effettive alla pubblicazione (#553)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/556",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T09:25:12Z",
+      "mergedAt": "2026-11-17T09:25:09Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "50250b4516df2d73a0af747c8a7ea9f138a4482c",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 555,
+      "title": "fix(mail): migrare definitivamente i token Joomla pre-release",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/555",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T09:15:47Z",
+      "mergedAt": "2026-11-17T09:15:45Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "8e29254b12e5d2e037120255a9221487970e6eda",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 552,
+      "title": "docs: reconcile merged PR #551 and safe mail retry QA",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/552",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T08:53:41Z",
+      "mergedAt": "2026-11-17T08:52:14Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3cb8bac843ab349901ace6398206e3751fceba87",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 551,
+      "title": "fix(MAIL-10 #547): manually retry failed pre-SMTP template emails after repair",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/551",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T08:50:45Z",
+      "mergedAt": "2026-11-17T08:50:42Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "40731b8bce4c71b83a11ec8920774b974b799a30",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 550,
+      "title": "docs: reconcile merged mail and certificate fixes #545 #548 #549",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/550",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T08:43:33Z",
+      "mergedAt": "2026-11-17T08:42:07Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "882c45ed7de510513f2c9c2bee9e59c1d1286585",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 549,
+      "title": "feat(CERT-06 #546): show why completed courses have no certificate",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/549",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T08:43:17Z",
+      "mergedAt": "2026-11-17T08:40:26Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "90ebf082aa67d21428c5a16f4ca65aeaedd714ba",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 548,
+      "title": "fix(MAIL-10 #547): show unresolved Joomla template tokens in admin mail queue",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/548",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T08:42:50Z",
+      "mergedAt": "2026-11-17T08:32:22Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d52d74684d986bb28b1ade13f8c945ce84b9c5ec",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 545,
+      "title": "fix(mail): populate required Joomla template tokens on video course completion",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/545",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T08:24:09Z",
+      "mergedAt": "2026-11-17T08:24:07Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3c9d6868049891ad0754fc99e04ce0029f691368",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 544,
+      "title": "docs(P0 #532): reconcile merged PR #543 and installable package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/544",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T08:16:08Z",
+      "mergedAt": "2026-11-17T00:09:13Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4d6301aef9f54f7ddd9e3a51a2e89302dd8848fa",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 543,
+      "title": "fix(P0 #532): delegate autoplay permission to YouTube iframe",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/543",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T08:15:53Z",
+      "mergedAt": "2026-11-17T00:08:08Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "489e574a4455192669256f748400edbdcca6c59d",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 542,
+      "title": "docs(P0 #532): reconcile merged PR #541 CI and downloadable package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/542",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T00:03:33Z",
+      "mergedAt": "2026-11-17T00:01:07Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c04aaae117c896d54a3d5bf92445a68b5ce5db20",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 541,
+      "title": "fix(P0 #532): attach YouTube IFrame API before iframe navigation finishes",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/541",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T00:00:02Z",
+      "mergedAt": "2026-11-16T23:59:59Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "858d6c301e8ca9710c04c3abef4e88b0845a3643",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 540,
+      "title": "docs(P0 #532): reconcile PR #539 merged CI and installable artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/540",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T23:55:24Z",
+      "mergedAt": "2026-11-16T23:40:30Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c4b3d4b0c02235e1f8fe9e9778a34a4def8812e8",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 539,
+      "title": "fix(P0 #532): serialize lesson.begin and video.playback on classroom load",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/539",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T23:39:24Z",
+      "mergedAt": "2026-11-16T23:39:22Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0ddea1f4bf3c4a6845d8a84197c571b382e8884d",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 538,
+      "title": "docs(P0 #532): record PR #537 merge, CI and Safari QA gate",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/538",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T22:38:13Z",
+      "mergedAt": "2026-11-16T22:38:09Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5053534c196d8a84bc420f4710a526d928d65e7e",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 537,
+      "title": "fix(P0 #532): bind metadata fetch safely on Safari/WebKit",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/537",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T22:36:30Z",
+      "mergedAt": "2026-11-16T22:36:28Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "24ae8d56d0a4ef360aaf09d04c0f04197589c1b5",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 536,
+      "title": "docs(P0 #532): riconcilia PR #535, cache JS e collaudo YouTube aperto",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/536",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T21:51:31Z",
+      "mergedAt": "2026-11-16T21:51:28Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7a9deeacd57af370c2ee11667747d357eaa1f970",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 535,
+      "title": "fix(P0 #532): cache busting asset Joomla e diagnosi della richiesta video",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/535",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T21:49:40Z",
+      "mergedAt": "2026-11-16T21:49:38Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9c433206540a843a94aac9557bd5f4ada4bed4fa",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 533,
+      "title": "fix(P0 #532): diagnostica YouTube editor, CSP/referrer e identificazione embed",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/533",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T21:40:54Z",
+      "mergedAt": "2026-11-16T21:25:00Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4d3f71d9c578e908851209d7f0d731ea3ff4f52e",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 531,
+      "title": "docs(AUT-03): registra merge #530, CI e pacchetto Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/531",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T21:39:58Z",
+      "mergedAt": "2026-11-16T21:05:40Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "33d11d8522941d7eee54a6f30ae595db39b27e25",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 534,
+      "title": "docs(P0): riconcilia #533 e mantiene aperta la verifica YouTube #532",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/534",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T21:29:25Z",
+      "mergedAt": "2026-11-16T21:26:29Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "74cb8167b25c3351d35bb2de67d0ddcb06833951",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 530,
+      "title": "AUT-03: avvisi non bloccanti per trascrizioni audio/video mancanti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/530",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T21:04:07Z",
+      "mergedAt": "2026-11-16T21:04:04Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "3150d3cd8a0846b2f5480086e02b1327a9b30fab",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 529,
+      "title": "docs(frontend): reconcile FE-12 PR #528 and teachers 404 fix",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/529",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T21:00:57Z",
+      "mergedAt": "2026-11-16T20:49:37Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "91ff99e8afa88687811b24097c6ea72910290f18",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 528,
+      "title": "FE-12: smoke HTTP reale delle viste pubbliche su Joomla installato",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/528",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T20:48:19Z",
+      "mergedAt": "2026-11-16T20:48:17Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6d860e4cb520c30a6829f1dce7554b34c6dacdde",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 527,
+      "title": "docs(frontend): reconcile FE-12 PR #526 CI and acceptance status",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/527",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T20:18:51Z",
+      "mergedAt": "2026-11-16T20:14:54Z",
+      "labels": [
+        "documentation",
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "306ed113e0ed28d0bc58b03117d24908cf273d9c",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 526,
+      "title": "FE-12: gate strutturale frontend e matrice di accettazione Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/526",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T20:18:28Z",
+      "mergedAt": "2026-11-16T20:13:11Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2bc6fa5bf3ac3c532214b855df0c67acfbc65946",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 525,
+      "title": "docs(frontend): reconcile FE-11 PR #524 merge evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/525",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T20:01:23Z",
+      "mergedAt": "2026-11-16T20:00:25Z",
+      "labels": [
+        "documentation",
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a323fd50498a45e6b140a3e69529744ec17641ce",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 524,
+      "title": "FE-11: opzioni Joomla globali e per-menu coerenti per categorie e catalogo",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/524",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T19:58:29Z",
+      "mergedAt": "2026-11-16T19:58:26Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2160e545c7d2843140732a578865824b6e895e68",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 523,
+      "title": "docs(frontend): reconcile FE-09 PR #522 integration evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/523",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T19:40:47Z",
+      "mergedAt": "2026-11-16T19:40:45Z",
+      "labels": [],
+      "milestone": null,
+      "headSha": "e7f9a628958e4fe3db0d854fa9341370d188c51a",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 522,
+      "title": "FE-09: elenco pubblico docenti e voce menu Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/522",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T19:37:37Z",
+      "mergedAt": "2026-11-16T19:37:35Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b86bfa6b12b0d2290399bbe3bd40b5efa246d582",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 521,
+      "title": "docs(frontend): reconcile FE-08 category PR #520",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/521",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T19:26:18Z",
+      "mergedAt": "2026-11-16T19:23:31Z",
+      "labels": [
+        "documentation",
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6e2674346b0478b917a9f4f7e6b091ccd9534a9a",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 520,
+      "title": "FE-08: sottocategorie e corsi configurabili nella pagina categoria Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/520",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T19:25:19Z",
+      "mergedAt": "2026-11-16T19:21:19Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a34de20ec091dacf71bec7a00962c0cd56846362",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 519,
+      "title": "docs(frontend): reconcile FE-07 pathway PR #518 integration",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/519",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T19:10:15Z",
+      "mergedAt": "2026-11-16T19:09:22Z",
+      "labels": [
+        "documentation",
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8fe731868ee8d88b04f16ce63ce15512256899f3",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 518,
+      "title": "FE-07: catalogo percorsi con copertina e sequenza verticale autorizzata",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/518",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T19:07:27Z",
+      "mergedAt": "2026-11-16T19:07:25Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2d5b9d7f92a7e6582ba3c94082c540f11787c6af",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 517,
+      "title": "docs(frontend): reconcile FE-06 PR #516 CI and package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/517",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:58:43Z",
+      "mergedAt": "2026-11-16T18:53:07Z",
+      "labels": [
+        "documentation",
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2056c919aa2dfa6ef0c189c83a483427022ee5f1",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 516,
+      "title": "FE-06: navigazione personale facoltativa per voce menu Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/516",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:49:28Z",
+      "mergedAt": "2026-11-16T18:49:26Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c8fe0094c4eb9cfca8e12f23716b5140a94c9420",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 515,
+      "title": "docs(frontend): reconcile FE-05 dashboard PR #514 evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/515",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:33:40Z",
+      "mergedAt": "2026-11-16T18:31:40Z",
+      "labels": [
+        "documentation",
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7fc488d9952598263dcceade43e5b6d70b25599b",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 514,
+      "title": "FE-05: dashboard studente La mia formazione con riepilogo e ripresa autorizzata",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/514",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:29:28Z",
+      "mergedAt": "2026-11-16T18:29:27Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0e89c26bf7d700dda690b4a2142ab3d5137ab051",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 513,
+      "title": "docs(frontend): reconcile FE-05 preferences PR #512 evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/513",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:05:59Z",
+      "mergedAt": "2026-11-16T18:05:55Z",
+      "labels": [
+        "documentation",
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "61d874f7c799bc1adbf125f7b7b2cfff6940f245",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 39,
+      "title": "Align M01 requirements with published course editing and simpler teacher profiles",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/39",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:05:23Z",
+      "mergedAt": "2026-11-04T12:17:39Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "50b274d2dd7e43d268448b1a510f6e853b43b24f",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 20,
+      "title": "Reconcile 0.19 requirements and implementation evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/20",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:05:20Z",
+      "mergedAt": "2026-11-01T14:37:17Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e16ebff03467085e3ef02303e908b73dbdd41cf0",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 512,
+      "title": "FE-05: vista privata Preferenze JD Learn con menu Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/512",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:03:38Z",
+      "mergedAt": "2026-11-16T18:03:36Z",
+      "labels": [
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "33ce597162e4ea8c4e651fd007ab4f648e912346",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 67,
+      "title": "Align current JD Learn guidance with merged increments",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/67",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:01:20Z",
+      "mergedAt": "2026-11-07T22:44:53Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f2b71d1064d10fba9bdb20583f2dcddaeb764d19",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 66,
+      "title": "Record merged 0.41.7 lesson fields status",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/66",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:01:17Z",
+      "mergedAt": "2026-11-07T22:41:18Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a9c01f324d72e188689455b62608997d39afccd8",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 63,
+      "title": "docs: record 0.41.5 resume fix and CI evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/63",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:01:14Z",
+      "mergedAt": "2026-11-07T20:47:43Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "bd629360ca76c550943a2ec5793ac11329acd42c",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 61,
+      "title": "docs: record 0.41.4 merge and CI evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/61",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:01:11Z",
+      "mergedAt": "2026-11-07T20:24:33Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "be935d8d582cec2724ad70b08530d2d55cd4dbc5",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 59,
+      "title": "Docs: mappa i requisiti della prima release stabile",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/59",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:01:08Z",
+      "mergedAt": "2026-11-07T19:55:22Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "59e78950e98dfe8116edf73641819334cd3a47ad",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 58,
+      "title": "Docs: definisce il perimetro della prima versione stabile",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/58",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:01:06Z",
+      "mergedAt": "2026-11-07T19:47:24Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9da692f90a8ed2fa8293b16e9eed42ca1460840c",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 44,
+      "title": "Rendere coerente e leggibile lo stato di sviluppo di JD Learn",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/44",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:01:02Z",
+      "mergedAt": "2026-11-04T23:42:22Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d2e8b5ef6af8bee6cca7254b2f01019dcf46d4b0",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 91,
+      "title": "Record provider extensibility CI result",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/91",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:00:10Z",
+      "mergedAt": "2026-11-08T11:41:47Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7f72bb4ccd5f18b4f53e8f13bad49cf76f080690",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 89,
+      "title": "Record enrollment migration CI evidence and prevention",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/89",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:00:07Z",
+      "mergedAt": "2026-11-08T11:13:47Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "dc6f21741824e1b8e9e3d9ce52c0935b6da6d2fd",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 87,
+      "title": "Update JD Learn status after material scheduling merge",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/87",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:00:04Z",
+      "mergedAt": "2026-11-08T09:28:48Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9c07dfefce6222fe71563a4c5e167ecab26c374e",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 81,
+      "title": "Record merged 0.41.12 publication preflight status",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/81",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T18:00:01Z",
+      "mergedAt": "2026-11-08T08:35:52Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a4b140e8707a64c27f6fe1665aadc2fd03bfa3a8",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 79,
+      "title": "docs: registra esito e artefatto della PR 78",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/79",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:59:57Z",
+      "mergedAt": "2026-11-08T03:19:15Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c3486e3e4ea99e6c17ed3ff60d2ea826c956fe03",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 77,
+      "title": "docs: point to current verified package artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/77",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:59:54Z",
+      "mergedAt": "2026-11-08T02:52:54Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a2d90a10b999cabb554c5ae855fe7a788a675ed1",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 75,
+      "title": "docs: record verified 0.41.10 increment",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/75",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:59:51Z",
+      "mergedAt": "2026-11-08T02:45:29Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2367720c078c4d9fbd256320b6a8b5dfe595a4fe",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 73,
+      "title": "docs: prevent recurring integration test failures",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/73",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:59:48Z",
+      "mergedAt": "2026-11-08T00:52:19Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f2a1018f4ca500bbb0eef723c7565f18b5dae9a1",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 72,
+      "title": "docs: preserve maintainer delivery requirements",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/72",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:59:45Z",
+      "mergedAt": "2026-11-08T00:27:41Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c51a968437defd24a842c5e94e1e9cc230d35bb1",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 71,
+      "title": "docs: record R-03 integration and next steps",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/71",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:59:42Z",
+      "mergedAt": "2026-11-08T00:22:31Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f2a33ee5d7492bdd88ad0e13a72bb88ef65603b6",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 69,
+      "title": "Docs: sincronizza lo stato dopo la 0.41.8",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/69",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:59:38Z",
+      "mergedAt": "2026-11-07T23:26:05Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c2427ec596a7e3aa35b044756230ba7dc8507fcb",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 123,
+      "title": "docs: record merged teacher course filter increment",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/123",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:58:38Z",
+      "mergedAt": "2026-11-08T22:47:59Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a27744c3b07d39d4d90d9bca35411f819ec6145a",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 121,
+      "title": "docs: record question bank release evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/121",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-16T17:58:35Z",
+      "mergedAt": "2026-11-08T22:10:00Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ae7e38ed805a78e059453941dfb555ed84c784d8",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    }
+  ],
+  "issues": [],
+  "package": {
+    "name": "JD-Learn-0.57.7-dev",
+    "createdAt": "2026-11-17T20:52:27Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44173248406/artifacts/14369360916"
+  },
+  "links": {
+    "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
+    "matrix": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/REQUIREMENTS_STATUS.csv"
+  }
+}
