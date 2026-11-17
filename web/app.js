@@ -54,6 +54,10 @@ const completed=r=>stateValue(r)==="completata";
 const accepted=r=>/^(accettata|superata|completata|verificata)$/i.test(r.manual||"");
 const inScope=r=>r.scope==="1.0.0"||r.scope==="Misto";
 const manualPending=r=>inScope(r)&&!accepted(r);
+const qaCasesFor=id=>(model.snapshot?.manualQa?.cases||[]).filter(c=>(c.requirement_ids||[]).includes(id));
+const qaResultLabels={passed:"Superato",failed:"Non superato",blocked:"Bloccato",not_run:"Non eseguito"};
+const qaCaseHtml=c=>'<div class="qa-case"><div class="qa-case-head"><strong>'+esc(c.title||c.id)+'</strong>'+chip(qaResultLabels[c.result]||c.result,c.result==="passed"?"ok":"")+'</div><p class="desc">'+esc(c.scope==="partial"?"Verifica parziale":"Verifica completa")+' · '+esc(c.tested_at)+' · Build '+esc(c.build?.version||"non identificata")+'</p><p class="desc">'+esc(c.evidence_note||"")+'</p><div class="qa-case-links">'+(c.build?.artifact_url?href(c.build.artifact_url,"Artefatto ↗"):"")+(c.evidence_url?href(c.evidence_url,"Evidenza ↗"):"")+'</div></div>';
+
 const incomplete=r=>inScope(r)&&!completed(r);
 const nFormat=n=>Number(n||0).toLocaleString("it-IT");
 const href=(u,title,cls="")=>'<a class="'+cls+'" href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">'+esc(title)+'</a>';
@@ -206,19 +210,20 @@ function development(){
 }
 function testing(){
  const scope=model.requirements.filter(inScope);
+ const tracked=new Set((model.snapshot.manualQa?.cases||[]).flatMap(c=>c.requirement_ids||[]));
  const statusCount=k=>scope.filter(r=>(r.manual||"").trim().toLowerCase()===k).length;
  const approved=scope.filter(accepted),pending=scope.filter(manualPending);
  const notRun=statusCount("non eseguita"),partial=statusCount("parziale");
  const failed=scope.filter(r=>/non superat|fallit|respint|bloccato/i.test(r.manual||""));
- const options=[["all","Da collaudare"],["notrun","Non eseguiti"],["partial","Parziali"],["failed","Non superati"],["accepted","Accettati"]];
- let rows=model.filter==="accepted"?approved:model.filter==="notrun"?pending.filter(r=>(r.manual||"").trim().toLowerCase()==="non eseguita"):model.filter==="partial"?pending.filter(r=>(r.manual||"").trim().toLowerCase()==="parziale"):model.filter==="failed"?failed:pending;
+ const options=[["all","Da collaudare"],["notrun","Non eseguiti"],["partial","Parziali"],["failed","Non superati"],["accepted","Accettati"],["evidence","Con evidenza versionata"],["noevidence","Senza evidenza versionata"]];
+ let rows=model.filter==="accepted"?approved:model.filter==="notrun"?pending.filter(r=>(r.manual||"").trim().toLowerCase()==="non eseguita"):model.filter==="partial"?pending.filter(r=>(r.manual||"").trim().toLowerCase()==="parziale"):model.filter==="failed"?failed:model.filter==="evidence"?scope.filter(r=>tracked.has(r.id)):model.filter==="noevidence"?scope.filter(r=>!tracked.has(r.id)):pending;
  rows=rows.filter(r=>(r.id+" "+r.criteria+" "+r.tests+" "+r.manual).toLowerCase().includes(model.query.toLowerCase()));
  const source=model.snapshot.links.testbook||SOURCE+"/blob/main/docs/QA_TESTBOOK.md";
  return pageHeader("Collaudi Joomla","Accettazione funzionale manuale, distinta dal merge della PR e dall’esito della CI.")+
  '<div class="stats">'+stat(pending.length,"Accettazioni pendenti")+stat(notRun,"Non eseguite")+stat(partial,"Parziali")+stat(approved.length,"Accettate")+'</div>'+
- '<div class="notice">Fonte: matrice requisiti · '+href(model.snapshot.links.matrix,"Stati di accettazione ↗")+' · '+href(source,"Piano e prove di collaudo ↗")+'. Il build collaudato non è strutturato nei dati disponibili: non attribuiamo verifiche a una versione senza evidenza. Nessuna modifica ai collaudi dalla dashboard.</div>'+
+ '<div class="notice">Fonte: matrice requisiti · '+href(model.snapshot.links.matrix,"Stati di accettazione ↗")+' · '+href(source,"Piano e prove di collaudo ↗")+'. Il build collaudato non è strutturato nei dati disponibili: non attribuiamo verifiche a una versione senza evidenza. Registro versionato: '+href(model.snapshot.links.qaRegistry||source,"Evidenze con build ↗")+'. Un caso parziale superato non certifica il requisito. Nessuna modifica ai collaudi dalla dashboard.</div>'+
  toolbar({placeholder:"Cerca verifiche Joomla…",filters:options,count:rows.length})+
- '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(r=>'<article class="data-row"><div><div class="id">'+esc(r.id)+' · '+esc(areaNames[r.area]||r.area)+'</div><strong>'+excerpt(r.tests||r.criteria,220)+'</strong><p class="desc">Implementazione: '+esc(r.state)+' · Accettazione: '+esc(r.manual)+' · Build verificata: non tracciata nella matrice</p></div><div class="row-meta">'+chip(r.manual,accepted(r)?"ok":"")+'<button data-detail="'+esc(r.id)+'">Apri →</button></div></article>').join(""):'<div class="empty">Nessuna verifica corrispondente.</div>')+'</div>';
+ '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(r=>'<article class="data-row"><div><div class="id">'+esc(r.id)+' · '+esc(areaNames[r.area]||r.area)+'</div><strong>'+excerpt(r.tests||r.criteria,220)+'</strong><p class="desc">Implementazione: '+esc(r.state)+' · Accettazione: '+esc(r.manual)+'</p><p class="desc">'+(qaCasesFor(r.id).length?qaCasesFor(r.id).map(c=>'Verifica '+esc(c.scope==='partial'?'parziale':'completa')+' · '+esc(c.build?.version||'build non nota')+' · '+esc(c.tested_at)).join(' | '):'Nessuna evidenza versionata registrata')+'</p></div><div class="row-meta">'+chip(r.manual,accepted(r)?"ok":"")+'<button data-detail="'+esc(r.id)+'">Apri →</button></div></article>').join(""):'<div class="empty">Nessuna verifica corrispondente.</div>')+'</div>';
 }
 function release(){
  const s=model.snapshot,scope=model.requirements.filter(r=>r.scope==="1.0.0"),mixed=model.requirements.filter(r=>r.scope==="Misto"),missing=scope.filter(incomplete),manual=scope.filter(manualPending);
@@ -242,7 +247,9 @@ function showDetail(id){
  const block=(t,v)=>'<div class="detail-section"><h3>'+esc(t)+'</h3><p>'+esc(v||"Non documentato")+'</p></div>';
  $("detail-body").innerHTML='<div class="eyebrow">REQUISITO · '+esc(r.area)+'</div><h2>'+esc(r.id)+'</h2>'+chip(r.state,completed(r)?"ok":"")+ " "+chip(r.manual,accepted(r)?"ok":"")+
  block("Criteri funzionali",r.criteria)+block("Residui implementativi",r.todo)+block("Comportamenti da collaudare",r.tests)+
- block("Perimetro",r.scope)+block("Accettazione Joomla (build non tracciata)",r.manual)+block("PR collegate",r.prs)+
+ block("Perimetro",r.scope)+block("Accettazione Joomla (matrice)",r.manual)+
+ '<div class="detail-section"><h3>Evidenze con build identificata</h3>'+(qaCasesFor(r.id).length?qaCasesFor(r.id).map(qaCaseHtml).join(""):'<p>Nessuna verifica versionata registrata; consultare il testbook per lo storico.</p>')+'</div>'+
+ block("PR collegate",r.prs)+
  '<div class="detail-section">'+href(idLink(r),"Apri matrice originale ↗","outline-link")+'</div>';
  $("detail-mask").hidden=false;
  $("detail-close").focus();
