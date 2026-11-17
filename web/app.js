@@ -2,7 +2,7 @@
 /* Public read-only release dashboard. No GitHub credentials or writes. */
 const DATA_ROOT="https://raw.githubusercontent.com/jeckodevelopment/jd-learn-dashboard/main/data/";
 const SOURCE="https://github.com/jeckodevelopment/jd_learn";
-const model={page:"home",snapshot:null,requirements:[],query:"",filter:"all",area:"all",theme:localStorage.getItem("jdlearn-prototype-theme")||"light",loading:false,origin:""};
+const model={page:"home",snapshot:null,history:null,requirements:[],query:"",filter:"all",area:"all",theme:localStorage.getItem("jdlearn-prototype-theme")||"light",loading:false,origin:""};
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const short=s=>String(s||"").trim().replace(/\s+/g," ").slice(0,180);
@@ -76,10 +76,10 @@ async function fetchJson(name){
 async function load(){
   model.loading=true;$("sync-indicator").textContent="Sincronizzazione…";
   try{
-    const [s,rows]=await Promise.all([fetchJson("snapshot.json"),fetchJson("requirements.json")]);
+    const [s,rows,history]=await Promise.all([fetchJson("snapshot.json"),fetchJson("requirements.json"),fetchJson("history.json").catch(()=>null)]);
     if(s.schema!==2||!s.generatedAt||!Array.isArray(rows)||!Array.isArray(s.prs)||!Array.isArray(s.issues)||rows.length!==s.counts.requirements)throw Error("Dataset incoerente");
     if(new Date(s.generatedAt).getTime()<=0||!Number.isFinite(new Date(s.generatedAt).getTime()))throw Error("Timestamp non valido");
-    model.snapshot=s;model.requirements=rows;model.origin="GitHub";
+    model.snapshot=s;model.requirements=rows;model.history=history&&history.schema===1&&Array.isArray(history.events)?history:null;model.origin="GitHub";
     const age=(Date.now()-new Date(s.generatedAt).getTime())/60000;
     const stale=age>90;
     $("sync-indicator").textContent=(stale?"⚠ Dati non aggiornati · ":"● Sincronizzato · ")+formatDate(s.generatedAt);
@@ -102,19 +102,41 @@ function task(title,description,tag,kind,actionId=null,n=1){
 return '<article class="task"><div class="rank">'+esc(String(n).padStart(2,"0"))+'</div><div><h3>'+esc(title)+'</h3><p>'+excerpt(description,210)+'</p></div><div class="meta">'+chip(tag,kind)+(actionId?'<button data-detail="'+esc(actionId)+'">Dettaglio →</button>':'')+'</div></article>';
 }
 function requirementsByAction(){
- const issues=(model.snapshot.issues||[]).filter(i=>i.priority==="P0"||i.priority==="P1").sort((a,b)=>a.priority.localeCompare(b.priority)||(b.updated||"").localeCompare(a.updated||""));
+ const issues=[...(model.snapshot.issues||[])].filter(i=>i.priority==="P0"||i.priority==="P1").sort((a,b)=>a.priority.localeCompare(b.priority)||(b.updated||"").localeCompare(a.updated||""));
+ const open=[...(model.snapshot.prs||[])].filter(p=>p.status==="open"&&p.milestone==="1.0.0");
  const missing=model.requirements.filter(incomplete);
  const pending=model.requirements.filter(r=>completed(r)&&manualPending(r));
- // A "partial" item with only Joomla verification left belongs with acceptance, not development.
- const development=missing.filter(r=>!/^nessuna lacuna runtime specifica|^nessun residuo implementativo|^solo collaudo|^resta solo.*collaud/i.test((r.todo||"").trim()));
- const rank=r=> (r.scope==="1.0.0"?0:1)*10+(stateValue(r)==="non iniziata"?0:1);
- development.sort((a,b)=>rank(a)-rank(b)||a.id.localeCompare(b.id));
- pending.sort((a,b)=>a.id.localeCompare(b.id));
+ const noRuntime=/^(nessuna lacuna runtime|nessun residuo implementativo|nessuna attivit[aà] implementativa|solo collaudo|resta solo.*collaud)/i;
+ const development=missing.filter(r=>r.todo&&r.todo.trim()&&!noRuntime.test(r.todo.trim()));
+ // "Misto" includes phase-2: keep behind requirements explicitly marked for 1.0.0.
+ development.sort((a,b)=>(a.scope==="1.0.0"?0:1)-(b.scope==="1.0.0"?0:1)||
+   (stateValue(a)==="non iniziata"?0:1)-(stateValue(b)==="non iniziata"?0:1)||a.id.localeCompare(b.id));
  const out=[];
- for(const i of issues)out.push({title:"Issue #"+i.number+" · "+i.title,desc:"Priorità "+i.priority+" assegnata nel repository. Controllare impatto e correzione.",tag:i.priority,kind:i.priority.toLowerCase(),url:i.url});
- for(const r of development)out.push({title:(areaNames[r.area]||r.area)+" · "+r.id,desc:short(r.todo||r.criteria||"Requisito implementativo non completo")+". Priorità: "+(r.scope==="1.0.0"?"perimetro stabile":"requisito misto da verificare"),tag:"Sviluppo",kind:"current",id:r.id});
- for(const r of pending)out.push({title:(areaNames[r.area]||r.area)+" · "+r.id,desc:"Verifica Joomla: "+short(r.tests||r.criteria||"Accettazione funzionale da eseguire"),tag:"Collaudo",kind:"",id:r.id});
- return {out,missing,pending,issues,development};
+ for(const i of issues)out.push({title:"Issue #"+i.number+" · "+i.title,desc:"Intervento prioritario "+i.priority+" segnalato nel repository JD Learn.",tag:i.priority,kind:i.priority.toLowerCase(),url:i.url,reason:"Problema aperto"});
+ for(const p of open.slice(0,4))out.push({title:"PR #"+p.number+" · "+p.title,desc:"Attività di sviluppo già in corso, da seguire fino all’integrazione.",tag:"In corso",kind:"current",url:p.url,reason:"Pull request aperta"});
+ for(const r of development)out.push({title:(areaNames[r.area]||r.area)+" · "+r.id,desc:short(r.todo),tag:r.scope==="1.0.0"?"1.0.0":"Misto",kind:"current",id:r.id,reason:r.scope==="1.0.0"?"Requisito obbligatorio incompleto":"Verificare quota 1.0.0"});
+ return {out,issues,open,missing,pending,development};
+}
+function evolutionRows(limit=8){
+ const h=model.history;
+ if(!h)return '<div class="empty">Cronologia non ancora disponibile. La dashboard mostrerà i cambiamenti dopo l’avvio del registro.</div>';
+ const rows=(h.events||[]).slice(0,limit);
+ if(!rows.length)return '<div class="empty">Nessun cambiamento osservato dalla prima rilevazione del '+esc(formatDate(h.baselineAt))+'.</div>';
+ return rows.map(e=>{
+  let title="",detail="",link="";
+  if(e.type==="requirement_changed"){
+   title=(areaNames[(e.id||"").split("-")[0]]||"Requisito")+" · "+e.id;
+   detail="Implementazione: "+e.from+" → "+e.to;
+  }else if(e.type==="requirement_added"){
+   title="Nuovo requisito · "+e.id;detail="Stato iniziale: "+e.to;
+  }else if(e.type==="estimate_changed"){
+   title="Stima di implementazione aggiornata";
+   detail=pct(e.from)+" → "+pct(e.to)+(e.asOf?" · valutazione al "+e.asOf:"");
+  }else if(e.type==="pr_merged"){
+   title="PR #"+e.number+" integrata";detail=e.title;link=e.url;
+  }else return "";
+  return '<article class="evolution-row"><div class="evolution-main"><strong>'+esc(title)+'</strong><p>'+esc(detail)+'</p></div><div class="evolution-side">'+esc(formatDate(e.at))+(link?href(link,"PR ↗"):'')+'</div></article>';
+ }).join("");
 }
 function home(){
 const s=model.snapshot,action=requirementsByAction(),progress=Number(s.progress);
