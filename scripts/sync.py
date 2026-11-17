@@ -130,3 +130,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Manual refresh trigger: 2026-11-17 22:49 Europe/Rome; no functional change.
