@@ -1,0 +1,132 @@
+#!/usr/bin/env python3
+"""Produce a public, source-linked JD Learn release snapshot. Fail on missing required data."""
+import csv
+import datetime as dt
+import io
+import json
+import os
+from pathlib import Path
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+
+BASE = "https://api.github.com/repos/jeckodevelopment/jd_learn"
+RAW = "https://raw.githubusercontent.com/jeckodevelopment/jd_learn/main"
+OUT = Path(__file__).resolve().parents[1] / "data"
+
+def get(url):
+    headers = {"User-Agent": "JDLearnDashboard/2.0", "Accept": "application/vnd.github+json"}
+    token = os.getenv("GITHUB_TOKEN")
+    if token and url.startswith("https://api.github.com/"):
+        headers["Authorization"] = "Bearer " + token
+    with urlopen(Request(url, headers=headers), timeout=35) as response:
+        return response.read().decode("utf-8-sig")
+
+def api(path, params=None):
+    query = ("?" + urlencode(params)) if params else ""
+    return json.loads(get(BASE + path + query))
+
+def paged(path, params=None, limit=1000):
+    result = []
+    for page in range(1, 21):
+        rows = api(path, {**(params or {}), "per_page": 100, "page": page})
+        if not isinstance(rows, list):
+            raise RuntimeError("Unexpected GitHub API response")
+        result.extend(rows)
+        if len(result) > limit:
+            raise RuntimeError("Pagination limit reached; refusing incomplete data")
+        if len(rows) < 100:
+            return result
+    raise RuntimeError("Pagination exhausted")
+
+def priority(labels):
+    names = [v.get("name", "") for v in labels]
+    return next((p for p in ("P0", "P1", "P2") if p in names), "Non assegnata")
+
+def main():
+    rows = list(csv.DictReader(io.StringIO(get(RAW + "/docs/REQUIREMENTS_STATUS.csv"))))
+    if not rows or "Requisito" not in rows[0] or "Stato implementazione" not in rows[0]:
+        raise RuntimeError("Missing canonical requirement columns")
+    evidence = json.loads(get(RAW + "/docs/IMPLEMENTATION_EVIDENCE.json"))
+    requirements = [{
+        "id": r.get("Requisito", "").strip(),
+        "area": r.get("Requisito", "").split("-", 1)[0],
+        "state": r.get("Stato implementazione", ""),
+        "scope": r.get("Perimetro 1.0.0", ""),
+        "manual": r.get("Accettazione Joomla", ""),
+        "prs": r.get("PR implementazione", ""),
+        "todo": r.get("Residui implementativi 1.0.0", ""),
+        "tests": r.get("Verifiche residue 1.0.0", ""),
+        "criteria": r.get("Criteri 1.0.0", ""),
+    } for r in rows]
+    if any(not r["id"] for r in requirements):
+        raise RuntimeError("Empty requirement ID")
+    pulls = paged("/pulls", {"state": "open", "sort": "updated", "direction": "desc"})
+    closed = paged("/pulls", {"state": "closed", "sort": "updated", "direction": "desc"})
+    pull_items = pulls + sorted(closed, key=lambda r: r.get("updated_at", ""), reverse=True)[:80]
+    prs = [{
+        "number": p["number"], "title": p["title"], "url": p["html_url"],
+        "status": "merged" if p.get("merged_at") else ("closed" if p["state"] == "closed" else "open"),
+        "draft": p.get("draft", False), "updated": p["updated_at"],
+        "mergedAt": p.get("merged_at"), "labels": [v["name"] for v in p.get("labels", [])],
+        "milestone": (p.get("milestone") or {}).get("title"),
+        "headSha": (p.get("head") or {}).get("sha"),
+    } for p in pull_items]
+    issues_raw = paged("/issues", {"state": "open", "sort": "updated", "direction": "desc"})
+    issues = [{
+        "number": i["number"], "title": i["title"], "url": i["html_url"],
+        "priority": priority(i.get("labels", [])),
+        "labels": [v["name"] for v in i.get("labels", [])],
+        "updated": i.get("updated_at"),
+        "milestone": (i.get("milestone") or {}).get("title"),
+    } for i in issues_raw if "pull_request" not in i]
+    runs = api("/actions/runs", {"per_page": 100}).get("workflow_runs", [])
+    by_sha = {}
+    for run in runs:
+        sha = run.get("head_sha")
+        if sha and sha not in by_sha:
+            by_sha[sha] = {
+                "status": run.get("status"), "conclusion": run.get("conclusion"),
+                "url": run.get("html_url"),
+            }
+    for pr in prs:
+        pr["ci"] = by_sha.get(pr["headSha"], {"status": "unknown", "conclusion": None, "url": None})
+    artifacts = api("/actions/artifacts", {"per_page": 100}).get("artifacts", [])
+    packages = [a for a in artifacts if a.get("name", "").startswith("JD-Learn-") and not a.get("expired")]
+    packages.sort(key=lambda a: a.get("created_at", ""), reverse=True)
+    latest = packages[0] if packages else None
+    estimate = evidence.get("current_implementation_estimate") or {}
+    macro = estimate.get("macroareas") or {}
+    progress = round(sum(macro.values()) / len(macro), 2) if macro else None
+    snapshot = {
+        "schema": 2,
+        "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "source": "https://github.com/jeckodevelopment/jd_learn",
+        "sourceCommit": api("/commits/main").get("sha"),
+        "progress": progress,
+        "macroareas": macro,
+        "counts": {
+            "requirements": len(requirements),
+            "prOpen": len(pulls),
+            "issuesOpen": len(issues),
+            "p0": sum(i["priority"] == "P0" for i in issues),
+            "p1": sum(i["priority"] == "P1" for i in issues),
+        },
+        "prs": prs, "issues": issues,
+        "package": ({
+            "name": latest["name"],
+            "createdAt": latest.get("created_at"),
+            "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/" +
+                str((latest.get("workflow_run") or {}).get("id")) + "/artifacts/" + str(latest["id"])
+        } if latest else None),
+        "links": {
+            "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
+            "matrix": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/REQUIREMENTS_STATUS.csv",
+        }
+    }
+    OUT.mkdir(exist_ok=True)
+    (OUT / "snapshot.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (OUT / "requirements.json").write_text(json.dumps(requirements, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("Synchronized", len(requirements), "requirements,", len(prs), "PR,", len(issues), "issues")
+
+if __name__ == "__main__":
+    main()
