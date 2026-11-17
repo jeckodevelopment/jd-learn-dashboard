@@ -1,9 +1,11 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-17T21:49:21.746845+00:00",
+  "generatedAt": "2026-11-17T22:05:42.104380+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8626a56b3bb695a2c28b812b676f03df11821fd9",
+  "sourceCommit": "59f040347467e10d96f5f09aa6b67945f7133dc6",
   "progress": 79.56,
+  "progressAsOf": "2026-11-16",
+  "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
   "macroareas": {
     "courses": 81,
     "catalogue": 81,
@@ -17,12 +19,90 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 2,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 589,
+      "title": "docs: riconciliare stato main fino a #587 e anonimizzare riferimenti di prova",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/589",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-17T22:05:29Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9a5aa82ab7db608d8417f6a42d97791ec2b24ffa",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186526700"
+      }
+    },
+    {
+      "number": 588,
+      "title": "feat(governance): misurazione funzionale per criteri verificati della 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/588",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-17T22:04:29Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "af3a6a6b3bf42bdbf1aab56345286474cc9b7a76",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186361405"
+      }
+    },
+    {
+      "number": 587,
+      "title": "docs(LCM-05): rendicontazione post-merge PR #586",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/587",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:57:03Z",
+      "mergedAt": "2026-11-17T21:57:00Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7d23ba67b8453b14549e69b6a673ed1fb8810842",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44185004127"
+      }
+    },
+    {
+      "number": 586,
+      "title": "test(LCM-05): transizioni HTTP autorizzate con token CSRF nativo",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/586",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:55:33Z",
+      "mergedAt": "2026-11-17T21:55:31Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b5a872036e54bb77e36fe7af0aadf4be629e1228",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44183798789"
+      }
+    },
     {
       "number": 585,
       "title": "docs(LCM-05): evidenze post-merge PR #584",
@@ -1504,54 +1584,19 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 79,
-      "title": "docs: registra esito e artefatto della PR 78",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/79",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:59:57Z",
-      "mergedAt": "2026-11-08T03:19:15Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c3486e3e4ea99e6c17ed3ff60d2ea826c956fe03",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 77,
-      "title": "docs: point to current verified package artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/77",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:59:54Z",
-      "mergedAt": "2026-11-08T02:52:54Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a2d90a10b999cabb554c5ae855fe7a788a675ed1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
   "package": {
     "name": "JD-Learn-0.57.7-dev",
-    "createdAt": "2026-11-17T21:40:34Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44181420748/artifacts/14371643366"
+    "createdAt": "2026-11-17T21:55:02Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44183798789/artifacts/14372759614"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
-    "matrix": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/REQUIREMENTS_STATUS.csv"
+    "matrix": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/REQUIREMENTS_STATUS.csv",
+    "evidence": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/IMPLEMENTATION_EVIDENCE.json",
+    "testbook": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/QA_TESTBOOK.md",
+    "securityGate": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/SECURITY_PRIVACY_RELEASE_GATE_1.0.0.md"
   }
 }
