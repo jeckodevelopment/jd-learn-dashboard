@@ -2722,20 +2722,20 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "578",
-    "todo": "Eliminazione fisica condizionata e controllo dei riferimenti storici ed esterni ancora da implementare; cestinazione/ripristino conservativi in PR #578",
+    "prs": "578;579",
+    "todo": "Cancellazione condizionata su assegnazioni e versioni didattiche storiche implementata in PR #579; restano audit riferimenti di estensioni esterne e accettazione Joomla reale",
     "tests": "Verifiche descritte in docs/LIFECYCLE_1.0.0_APPROVED.md; registrare esiti QA_TESTBOOK.md",
     "criteria": "Docenti: non pubblicazione, cestinazione/ripristino, cancellazione condizionata; mantenere account Joomla e riferimenti storici"
   },
   {
     "id": "LCM-05",
     "area": "LCM",
-    "state": "Non iniziata",
+    "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "",
-    "todo": "Gate: test ACL, CSRF, endpoint diretti, Finder/catalogo, attestati/storico, migrazione dati, UI e accettazione Joomla",
-    "tests": "Verifiche descritte in docs/LIFECYCLE_1.0.0_APPROVED.md; registrare esiti QA_TESTBOOK.md",
+    "prs": "581;582;584",
+    "todo": "LCM-05 rimane gate parziale: integrare test HTTP/CSRF, ACL per record e regressioni Finder/SEO, storico e upgrade; nessun intervento runtime nelle PR #581 e #582 GET 405 e POST senza token 403 coperti da PR #584; rimangono prove con token valido e ACL granulari.",
+    "tests": "Collaudo Joomla reale di URL diretti, permessi, POST/CSRF, conservazione relazioni, Finder/SEO, storico, upgrade e interfaccia; registrare evidenze nel QA_TESTBOOK Test negativo HTTP automatico #584 completato; casi positivi e altri gate ancora pendenti.",
     "criteria": "Gate: test ACL, CSRF, endpoint diretti, Finder/catalogo, attestati/storico, migrazione dati, UI e accettazione Joomla"
   }
 ]

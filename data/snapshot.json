@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-17T21:03:26.350974+00:00",
+  "generatedAt": "2026-11-17T21:49:21.746845+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "144885a11030ab2d04bf6cecf36dc853d8eb88a0",
+  "sourceCommit": "8626a56b3bb695a2c28b812b676f03df11821fd9",
   "progress": 79.56,
   "macroareas": {
     "courses": 81,
@@ -23,6 +23,141 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 585,
+      "title": "docs(LCM-05): evidenze post-merge PR #584",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/585",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:42:46Z",
+      "mergedAt": "2026-11-17T21:42:43Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "377a3e77607322545da8db4e24ed9e63cf478269",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44182567728"
+      }
+    },
+    {
+      "number": 584,
+      "title": "test(LCM-05): gate HTTP/CSRF dei controller percorsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/584",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:41:04Z",
+      "mergedAt": "2026-11-17T21:41:03Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b33abe0daa5dc107e311311cf4f205b189b9cf41",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44181420748"
+      }
+    },
+    {
+      "number": 583,
+      "title": "docs(LCM-05): riconciliazione requisiti e tracciabilità PR #581–#582",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/583",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:33:46Z",
+      "mergedAt": "2026-11-17T21:33:43Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f3374577b5f273fd3221af7a0c944d37ebaf61e1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44180983802"
+      }
+    },
+    {
+      "number": 582,
+      "title": "test(LCM-05): negare mutazioni non autorizzate dei percorsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/582",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:27:15Z",
+      "mergedAt": "2026-11-17T21:27:13Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c30d864144f69d9860dd4ce47f1432a7e9d85fae",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44179144122"
+      }
+    },
+    {
+      "number": 581,
+      "title": "test(LCM-05): accessi diretti e isolamento storico dei percorsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/581",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:21:01Z",
+      "mergedAt": "2026-11-17T21:20:58Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8a96d619feee65cbd7043ab1d4740eb1191e5861",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44178153813"
+      }
+    },
+    {
+      "number": 579,
+      "title": "feat(LCM-04): eliminazione definitiva condizionata dei docenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/579",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:08:55Z",
+      "mergedAt": "2026-11-17T21:08:53Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0e76a5c045deb8224f7bebadd1b8e60282ac11e5",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44175893915"
+      }
+    },
+    {
+      "number": 580,
+      "title": "docs: ricognizione post-merge #578 e baseline 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/580",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T21:05:43Z",
+      "mergedAt": "2026-11-17T21:05:41Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c0afe22033bf888220603f3cb0854382b96b5a14",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44176006683"
+      }
+    },
     {
       "number": 578,
       "title": "feat(LCM-04): cestinazione e ripristino conservativo dei docenti",
@@ -1407,146 +1542,13 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 75,
-      "title": "docs: record verified 0.41.10 increment",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/75",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:59:51Z",
-      "mergedAt": "2026-11-08T02:45:29Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2367720c078c4d9fbd256320b6a8b5dfe595a4fe",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 73,
-      "title": "docs: prevent recurring integration test failures",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/73",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:59:48Z",
-      "mergedAt": "2026-11-08T00:52:19Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f2a1018f4ca500bbb0eef723c7565f18b5dae9a1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 72,
-      "title": "docs: preserve maintainer delivery requirements",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/72",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:59:45Z",
-      "mergedAt": "2026-11-08T00:27:41Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c51a968437defd24a842c5e94e1e9cc230d35bb1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 71,
-      "title": "docs: record R-03 integration and next steps",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/71",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:59:42Z",
-      "mergedAt": "2026-11-08T00:22:31Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f2a33ee5d7492bdd88ad0e13a72bb88ef65603b6",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 69,
-      "title": "Docs: sincronizza lo stato dopo la 0.41.8",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/69",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:59:38Z",
-      "mergedAt": "2026-11-07T23:26:05Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c2427ec596a7e3aa35b044756230ba7dc8507fcb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 123,
-      "title": "docs: record merged teacher course filter increment",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/123",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:58:38Z",
-      "mergedAt": "2026-11-08T22:47:59Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a27744c3b07d39d4d90d9bca35411f819ec6145a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 121,
-      "title": "docs: record question bank release evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/121",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T17:58:35Z",
-      "mergedAt": "2026-11-08T22:10:00Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ae7e38ed805a78e059453941dfb555ed84c784d8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
   "package": {
     "name": "JD-Learn-0.57.7-dev",
-    "createdAt": "2026-11-17T20:52:27Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44173248406/artifacts/14369360916"
+    "createdAt": "2026-11-17T21:40:34Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44181420748/artifacts/14371643366"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
