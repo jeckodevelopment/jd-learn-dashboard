@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#f7f9fc">
+<title>JD Learn — Release Control Center (prototipo)</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar" aria-label="Navigazione principale">
+  <div class="brand"><div class="symbol">JD</div><div><strong>JD Learn</strong><small>Release 1.0.0</small></div></div>
+  <div class="nav-heading">WORKSPACE</div>
+  <nav id="navigation">
+    <button class="nav-item active" data-page="home"><span class="ico">◫</span>Control Center</button>
+    <button class="nav-item" data-page="features"><span class="ico">▦</span>Funzionalità</button>
+    <button class="nav-item" data-page="development"><span class="ico">⑂</span>Sviluppo</button>
+    <button class="nav-item" data-page="testing"><span class="ico">☑</span>Collaudi Joomla</button>
+    <button class="nav-item" data-page="release"><span class="ico">◎</span>Release readiness</button>
+  </nav>
+  <div class="sidebar-bottom"><span class="status-dot"></span><span id="side-sync">Sincronizzazione…</span><a target="_blank" rel="noopener" href="https://github.com/jeckodevelopment/jd-learn-dashboard">Sorgenti ↗</a></div>
+</aside>
+<div class="main-shell">
+  <header class="topbar"><div class="breadcrumb">JD Learn <span>/</span> <strong id="breadcrumb">Control Center</strong></div>
+    <div class="top-actions"><span id="sync-indicator">Recupero dati…</span><button id="refresh" class="icon-button" title="Ricarica dati" aria-label="Ricarica dati">↻</button><button id="theme" class="icon-button" title="Cambia tema" aria-label="Cambia tema">◐</button></div></header>
+  <main id="main" tabindex="-1"><section class="loading">Caricamento dei dati verificati…</section></main>
+  <footer><span>Prototipo di progettazione · Non pubblicato sul sito</span><a href="https://github.com/jeckodevelopment/jd_learn" target="_blank" rel="noopener">Repository JD Learn ↗</a></footer>
+</div></div>
+<div id="detail-mask" class="detail-mask" hidden><button class="mask-close" id="mask-close" aria-label="Chiudi dettaglio"></button><aside class="detail-panel" role="dialog" aria-modal="true" aria-label="Dettaglio requisito"><button id="detail-close" class="icon-button close" aria-label="Chiudi">✕</button><div id="detail-body"></div></aside></div>
+<script src="app.js" defer></script>
+</body></html>
