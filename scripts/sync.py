@@ -215,7 +215,7 @@ def main():
         "generatedAt": snapshot["generatedAt"],
         "events": (changes + prior_history["events"])[:200],
     }
-    (OUT / "history.json").write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    (OUT / "history.json").write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (OUT / "snapshot.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (OUT / "requirements.json").write_text(json.dumps(requirements, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Synchronized", len(requirements), "requirements,", len(prs), "PR,", len(issues), "issues")
