@@ -227,9 +227,12 @@ function development(){
    entries.push({date:i.updated,html:'<div><div class="id">ISSUE #'+i.number+'</div><strong>'+href(i.url,i.title)+'</strong><p class="desc">Milestone: '+esc(i.milestone||"Non assegnata")+'</p></div><div class="row-meta">'+chip(i.priority,i.priority.toLowerCase())+'</div>'});
  }
  entries.sort((a,b)=>(b.date||"").localeCompare(a.date||""));
- return pageHeader("Sviluppo","PR e issue sono strumenti di lavoro, non unità di misura del completamento funzionale.")+
+ return pageHeader("Sviluppo","PR, issue e cronologia dei cambiamenti osservati nelle sincronizzazioni.")+
  '<div class="stats">'+stat(s.counts.prOpen,"PR aperte")+stat(nFormat(prs.filter(p=>p.status==="merged").length),"PR integrate · finestra recente")+stat(issues.length,"Issue aperte")+stat(s.counts.p0+s.counts.p1,"Criticità P0 / P1")+'</div>'+
  '<div class="notice">I test automatici sono un requisito obbligatorio per l’integrazione delle PR, perciò non vengono usati come indicatore di avanzamento o come scheda di collaudo.</div>'+
+ section("Evoluzione osservata","Stati dei requisiti, nuove PR integrate e variazioni della stima")+
+ '<div class="card evolution-list">'+evolutionRows(30)+'</div>'+
+ section("Attività GitHub","PR e issue recenti")+
  toolbar({placeholder:"Cerca una PR o issue…",filters:opts,count:entries.length})+
  '<div class="card data-list">'+(entries.length?entries.slice(0,100).map(e=>'<article class="data-row">'+e.html+'</article>').join(""):'<div class="empty">Nessuna attività corrispondente ai filtri.</div>')+'</div>';
 }
@@ -251,21 +254,28 @@ function testing(){
  '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(r=>'<article class="data-row"><div><div class="id">'+esc(r.id)+' · '+esc(areaNames[r.area]||r.area)+'</div><strong>'+excerpt(r.tests||r.criteria,220)+'</strong><p class="desc">Implementazione: '+esc(r.state)+' · Accettazione: '+esc(r.manual)+'</p><p class="desc">'+(qaCasesFor(r.id).length?qaCasesFor(r.id).map(c=>'Verifica '+esc(c.scope==='partial'?'parziale':'completa')+' · '+esc(c.build?.version||'build non nota')+' · '+esc(c.tested_at)).join(' | '):'Nessuna evidenza versionata registrata')+'</p></div><div class="row-meta">'+chip(r.manual,accepted(r)?"ok":"")+'<button data-detail="'+esc(r.id)+'">Apri →</button></div></article>').join(""):'<div class="empty">Nessuna verifica corrispondente.</div>')+'</div>';
 }
 function release(){
- const s=model.snapshot,scope=model.requirements.filter(r=>r.scope==="1.0.0"),mixed=model.requirements.filter(r=>r.scope==="Misto"),missing=scope.filter(incomplete),manual=scope.filter(manualPending);
- const hasP0=(s.counts?.p0||0)>0;
- const groups=[
-  {title:"Completezza funzionale",status:missing.length?"Bloccante":"Da verificare",detail:missing.length+" requisiti esclusivamente 1.0.0 non completamente implementati; "+mixed.filter(incomplete).length+" requisiti misti richiedono verifica della parte pertinente alla 1.0.0.",link:s.links.matrix,label:"Apri requisiti"},
-  {title:"Accettazione Joomla",status:manual.length?"Bloccante":"Da verificare",detail:manual.length+" requisiti esclusivamente 1.0.0 senza accettazione completa; "+mixed.filter(manualPending).length+" requisiti misti da valutare. La build collaudata richiede evidenze.",link:s.links.testbook,label:"Apri piano collaudi"},
-  {title:"Regressioni P0",status:hasP0?"Bloccante":"Da verificare",detail:hasP0?s.counts.p0+" issue P0 attualmente aperte.":"Nessuna issue P0 aperta; occorre comunque una verifica esplicita delle regressioni.",link:SOURCE+"/issues?q=is%3Aissue+is%3Aopen+label%3AP0",label:"Esamina issue"},
-  {title:"Installazione e aggiornamenti",status:"Da verificare",detail:"Servono prove manuali su installazione pulita, upgrade con dati preesistenti e ripristino, riferite alla build candidata.",link:s.links.testbook,label:"Vedi prove"},
-  {title:"Sicurezza e privacy",status:"Da verificare",detail:"Verificare audit e accettazione documentale del gate di sicurezza e privacy; la CI non costituisce da sola l'accettazione.",link:s.links.securityGate,label:"Vedi gate"},
-  {title:"Documentazione",status:"Da verificare",detail:"Verificare manuali, piano, changelog, guida operativa e coerenza con la versione candidata.",link:s.links.plan,label:"Vedi piano"},
-  {title:"Pacchetto di rilascio",status:"Da verificare",detail:"Ultimo artefatto disponibile: "+(s.package?.name||"non disponibile")+". Non è evidenza di un rilascio stabile accettato.",link:s.package?.url,label:"Apri artefatto"}
+ const s=model.snapshot;
+ const core=model.requirements.filter(r=>r.scope==="1.0.0"),mixed=model.requirements.filter(r=>r.scope==="Misto");
+ const missing=core.filter(incomplete),mixedMissing=mixed.filter(incomplete);
+ const pending=core.filter(manualPending),mixedPending=mixed.filter(manualPending);
+ const issues=(s.issues||[]).filter(i=>i.priority==="P0");
+ const development=[
+  {title:"Funzionalità della versione 1.0.0",status:missing.length?"Sviluppo incompleto":"Verifica del perimetro",detail:missing.length+" requisiti esclusivamente 1.0.0 non completamente implementati. "+mixedMissing.length+" requisiti misti richiedono verifica della parte effettivamente obbligatoria.",link:s.links.matrix,label:"Apri matrice"},
+  {title:"Criticità bloccanti",status:issues.length?"Intervento richiesto":"Nessuna P0 aperta",detail:issues.length?issues.length+" issue con priorità P0 ancora aperte.":"Nessuna P0 aperta nel repository, senza presumere che tutti i problemi possibili siano stati rilevati.",link:SOURCE+"/issues?q=is%3Aissue+is%3Aopen+label%3AP0",label:"Apri issue"},
+  {title:"Coerenza del piano e documentazione",status:"Da verificare",detail:"Confrontare piano, matrice e stato del codice; gli aggiornamenti documentali seguono le integrazioni e non sostituiscono le funzionalità.",link:s.links.plan,label:"Apri piano"},
  ];
- const blocked=groups.filter(g=>g.status==="Bloccante").length;
- return pageHeader("Release readiness","Cosa manca alla 1.0.0: criteri bloccanti, verifiche ancora aperte e riferimenti alle fonti.")+
- '<div class="notice"><strong>'+blocked+' gate con impedimenti documentati · '+(groups.length-blocked)+' da verificare.</strong> Nessun gate viene dichiarato superato sulla sola assenza di problemi registrati. '+href(s.links.evidence||s.links.matrix,"Evidenze implementative ↗")+'</div>'+
- '<div class="release-grid">'+groups.map(g=>'<article class="card gate"><div class="gate-top"><h3>'+esc(g.title)+'</h3>'+chip(g.status,g.status==="Bloccante"?"p0":"")+'</div><p>'+esc(g.detail)+'</p>'+(g.link?href(g.link,g.label+" ↗"):'')+'</article>').join("")+'</div>';
+ const later=[
+  {title:"Accettazione manuale Joomla",status:"Fase successiva",detail:pending.length+" requisiti esclusivamente 1.0.0 senza accettazione completa, più "+mixedPending.length+" misti da valutare. Nessun collaudo viene richiesto ora.",link:s.links.testbook,label:"Testbook"},
+  {title:"Installazione, upgrade e ripristino",status:"Fase successiva",detail:"Prove finali sulla build candidata, preservando i dati. L'esito non viene dedotto dai controlli delle PR.",link:s.links.testbook,label:"Piano prove"},
+  {title:"Sicurezza, privacy e accessibilità",status:"Fase successiva",detail:"Accettare i gate di rilascio quando saranno disponibili le evidenze richieste.",link:s.links.securityGate,label:"Gate sicurezza"},
+  {title:"Pacchetto stabile",status:"Fase successiva",detail:"Ultimo artefatto di sviluppo: "+(s.package?.name||"non disponibile")+". Non è una release 1.0.0 accettata.",link:s.package?.url,label:"Artefatto disponibile"},
+ ];
+ const renderGates=items=>'<div class="release-grid">'+items.map(g=>'<article class="card gate"><div class="gate-top"><h3>'+esc(g.title)+'</h3>'+chip(g.status,g.status==="Intervento richiesto"||g.status==="Sviluppo incompleto"?"p1":"")+'</div><p>'+esc(g.detail)+'</p>'+(g.link?href(g.link,g.label+" ↗"):"")+'</article>').join("")+'</div>';
+ return pageHeader("Release readiness","Separazione esplicita fra ciò che dobbiamo ancora sviluppare e le verifiche della fase conclusiva.")+
+ '<div class="notice"><strong>Adesso: completamento funzionale e correzioni bloccanti.</strong> I collaudi e i gate di accettazione sono visibili per pianificazione, non come attività da eseguire ora.</div>'+
+ section("Sviluppo ancora necessario","Interventi da considerare nel percorso 1.0.0")+renderGates(development)+
+ section("Verifiche prima del rilascio","Fase successiva · nessun test richiesto adesso")+renderGates(later)+
+ '<p class="note" style="margin-top:13px">Gli stati riflettono dati documentati. Nessun gate è dichiarato superato in assenza di conferma; i requisiti misti non sono considerati automaticamente blocchi della release.</p>';
 }
 function showDetail(id){
  const r=model.requirements.find(x=>x.id===id);if(!r)return;
