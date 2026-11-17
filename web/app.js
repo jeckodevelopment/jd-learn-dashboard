@@ -198,7 +198,7 @@ function features(){
    return '<button class="card area-card" data-area="'+esc(key)+'"><div class="area-card-head"><h3>'+esc(info[0])+'</h3><span class="area-code">'+esc(key)+'</span></div>'+
     '<p class="area-description">'+esc(info[1])+'</p><div class="area-progress"><strong>'+pct(percent)+'</strong><span>'+done+' / '+group.length+' requisiti</span></div>'+
     '<div class="meter"><span style="width:'+percent+'%"></span></div>'+
-    '<p class="meta">'+(group.length-done)+' non completamente implementati</p></button>';
+    '<div class="area-statuses"><span>'+done+' completi</span><span>'+group.filter(r=>stateValue(r)==="parziale").length+' parziali</span><span>'+group.filter(r=>stateValue(r)==="non iniziata").length+' da iniziare</span></div></button>';
   }).join("");
   return '<section class="area-section"><div class="section-title"><h2>'+esc(groupName)+'</h2><span class="aside">'+included.length+' aree</span></div><div class="areas">'+cards+'</div></section>';
  }).join("");
