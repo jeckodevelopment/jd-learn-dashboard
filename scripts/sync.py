@@ -80,6 +80,11 @@ def main():
         if not isinstance(build, dict) or not isinstance(case.get("tested_at"), str) or not case.get("evidence_url"):
             raise RuntimeError("QA record missing build, date or evidence reference")
         dt.date.fromisoformat(case["tested_at"])
+        if not case["evidence_url"].startswith("https://github.com/jeckodevelopment/jd_learn/"):
+            raise RuntimeError("QA evidence URL must point to a project source")
+        artifact_url = build.get("artifact_url")
+        if artifact_url and not artifact_url.startswith("https://github.com/jeckodevelopment/jd_learn/actions/"):
+            raise RuntimeError("QA artifact URL must point to a project build")
         if case.get("scope") == "full" and case.get("result") == "passed":
             if any(r["manual"].lower() not in {"accettata", "superata", "completata", "verificata"} for r in requirements if r["id"] in refs):
                 raise RuntimeError("Full acceptance evidence is inconsistent with the canonical CSV")
