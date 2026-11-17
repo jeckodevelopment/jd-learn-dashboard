@@ -96,6 +96,8 @@ def main():
     latest = packages[0] if packages else None
     estimate = evidence.get("current_implementation_estimate") or {}
     macro = estimate.get("macroareas") or {}
+    estimate_as_of = estimate.get("as_of")
+    estimate_basis = estimate.get("basis", "")
     progress = round(sum(macro.values()) / len(macro), 2) if macro else None
     snapshot = {
         "schema": 2,
@@ -103,6 +105,8 @@ def main():
         "source": "https://github.com/jeckodevelopment/jd_learn",
         "sourceCommit": api("/commits/main").get("sha"),
         "progress": progress,
+        "progressAsOf": estimate_as_of,
+        "progressBasis": estimate_basis,
         "macroareas": macro,
         "counts": {
             "requirements": len(requirements),
@@ -121,6 +125,9 @@ def main():
         "links": {
             "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
             "matrix": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/REQUIREMENTS_STATUS.csv",
+            "evidence": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/IMPLEMENTATION_EVIDENCE.json",
+            "testbook": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/QA_TESTBOOK.md",
+            "securityGate": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/SECURITY_PRIVACY_RELEASE_GATE_1.0.0.md",
         }
     }
     OUT.mkdir(exist_ok=True)
