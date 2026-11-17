@@ -42,6 +42,45 @@ def priority(labels):
     names = [v.get("name", "") for v in labels]
     return next((p for p in ("P0", "P1", "P2") if p in names), "Non assegnata")
 
+def load_previous(path):
+    """Only compare against a previously committed, valid snapshot."""
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return None
+
+def release_progress_events(old_snapshot, old_rows, new_snapshot, new_rows):
+    if not isinstance(old_snapshot, dict) or not isinstance(old_rows, list):
+        return []
+    before = {r["id"]: r for r in old_rows if isinstance(r, dict) and r.get("id")}
+    events = []
+    when = new_snapshot["generatedAt"]
+    commit = new_snapshot["sourceCommit"]
+    for row in new_rows:
+        old = before.get(row["id"])
+        if not old:
+            events.append({"type": "requirement_added", "at": when, "commit": commit,
+                           "id": row["id"], "to": row["state"]})
+        elif old.get("state") != row["state"]:
+            events.append({"type": "requirement_changed", "at": when, "commit": commit,
+                           "id": row["id"], "from": old.get("state"), "to": row["state"]})
+    prior_prs = {p["number"] for p in old_snapshot.get("prs", []) if p.get("status") == "merged"}
+    for pr in new_snapshot.get("prs", []):
+        if pr.get("status") == "merged" and pr["number"] not in prior_prs:
+            merged_at = pr.get("mergedAt") or ""
+            if merged_at and merged_at > old_snapshot.get("generatedAt", "")[:19]:
+                events.append({"type": "pr_merged", "at": merged_at, "commit": commit,
+                               "number": pr["number"], "title": pr["title"], "url": pr["url"]})
+    old_progress = old_snapshot.get("progress")
+    new_progress = new_snapshot.get("progress")
+    if old_progress is not None and new_progress is not None and old_progress != new_progress:
+        events.append({"type": "estimate_changed", "at": when, "commit": commit,
+                       "from": old_progress, "to": new_progress,
+                       "asOf": new_snapshot.get("progressAsOf")})
+    return events
+
 def main():
     rows = list(csv.DictReader(io.StringIO(get(RAW + "/docs/REQUIREMENTS_STATUS.csv"))))
     if not rows or "Requisito" not in rows[0] or "Stato implementazione" not in rows[0]:
@@ -162,6 +201,21 @@ def main():
         }
     }
     OUT.mkdir(exist_ok=True)
+    prior_snapshot = load_previous(OUT / "snapshot.json")
+    prior_rows = load_previous(OUT / "requirements.json")
+    prior_history = load_previous(OUT / "history.json") or {"schema": 1, "events": []}
+    if prior_history.get("schema") != 1 or not isinstance(prior_history.get("events"), list):
+        raise RuntimeError("Invalid dashboard history format")
+    changes = release_progress_events(prior_snapshot, prior_rows, snapshot, requirements)
+    # Baseline is the first observed dataset; we cannot reconstruct earlier
+    # requirement transitions from current data or PR titles.
+    history = {
+        "schema": 1,
+        "baselineAt": prior_history.get("baselineAt") or (prior_snapshot or snapshot)["generatedAt"],
+        "generatedAt": snapshot["generatedAt"],
+        "events": (changes + prior_history["events"])[:200],
+    }
+    (OUT / "history.json").write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
     (OUT / "snapshot.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (OUT / "requirements.json").write_text(json.dumps(requirements, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Synchronized", len(requirements), "requirements,", len(prs), "PR,", len(issues), "issues")
