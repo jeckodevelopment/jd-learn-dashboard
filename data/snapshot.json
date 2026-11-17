@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-17T22:15:37.694609+00:00",
+  "generatedAt": "2026-11-17T22:28:02.217447+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "626d411aa13f5959916ca5eefe266a742439f412",
+  "sourceCommit": "b6920037113bd0a7ff905e99f21ea6d8dc1ec21d",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -26,23 +26,23 @@
   },
   "prs": [
     {
-      "number": 592,
-      "title": "docs(progress): audit criteri CAT-01–04 e AUT-01–05 per JD Learn 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/592",
+      "number": 594,
+      "title": "docs(progress): audit criteri ISC/STU/PRO per JD Learn 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/594",
       "status": "open",
       "draft": false,
-      "updated": "2026-11-17T22:14:14Z",
+      "updated": "2026-11-17T22:24:23Z",
       "mergedAt": null,
       "labels": [
         "documentation",
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "f0fa386ec13b3d17df1cd335d7efacac2f24cdac",
+      "headSha": "9b1c525e1261305180396c5be6c1344a648f23a4",
       "ci": {
         "status": "in_progress",
         "conclusion": null,
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44188022680"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44189730714"
       }
     },
     {
@@ -62,6 +62,46 @@
         "status": "completed",
         "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186526700"
+      }
+    },
+    {
+      "number": 593,
+      "title": "docs(progress): registrare integrazione audit CAT/AUT #592",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/593",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T22:20:40Z",
+      "mergedAt": "2026-11-17T22:20:38Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a0600f4005b3021a5b9e8d8d005662a58fb4a82e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44189034983"
+      }
+    },
+    {
+      "number": 592,
+      "title": "docs(progress): audit criteri CAT-01–04 e AUT-01–05 per JD Learn 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/592",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T22:19:29Z",
+      "mergedAt": "2026-11-17T22:19:27Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f0fa386ec13b3d17df1cd335d7efacac2f24cdac",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44188022680"
       }
     },
     {
@@ -1549,44 +1589,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 44,
-      "title": "Rendere coerente e leggibile lo stato di sviluppo di JD Learn",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/44",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T18:01:02Z",
-      "mergedAt": "2026-11-04T23:42:22Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d2e8b5ef6af8bee6cca7254b2f01019dcf46d4b0",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 91,
-      "title": "Record provider extensibility CI result",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/91",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T18:00:10Z",
-      "mergedAt": "2026-11-08T11:41:47Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7f72bb4ccd5f18b4f53e8f13bad49cf76f080690",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1618,8 +1620,8 @@
   },
   "package": {
     "name": "JD-Learn-0.57.7-dev",
-    "createdAt": "2026-11-17T22:08:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186361405/artifacts/14375416462"
+    "createdAt": "2026-11-17T22:27:58Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44189730714/artifacts/14377030292"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
