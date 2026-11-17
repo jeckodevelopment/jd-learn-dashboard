@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101d30"><meta name="description" content="JD Learn 1.0.0 - dashboard operativa di sviluppo">
+<title>JD Learn · Release dashboard</title><link rel="stylesheet" href="./styles.css"></head>
+<body><div class="shell">
+<header><div class="brand"><span class="logo">JD</span><div><small>JECKO DEVELOPMENT / RELEASE OPS</small><h1>JD Learn <span>1.0.0</span></h1></div></div><a href="https://github.com/jeckodevelopment/jd_learn" target="_blank" rel="noopener">Repository ↗</a></header>
+<section class="intro"><div><div class="eyebrow">SVILUPPO E RILASCIO</div><h2>Una vista chiara sul lavoro che resta.</h2><p>Requisiti, pull request, criticità e verifiche. Dati pubblici sincronizzati dalla repository ufficiale.</p></div><aside><strong id="health">Caricamento…</strong><span id="asof">Recupero dati in corso</span><button id="reload" type="button">Aggiorna ora ↻</button></aside></section>
+<div id="metrics" class="metrics" aria-live="polite"></div>
+<nav class="tabs" aria-label="Viste"><button class="active" data-tab="priorities">Priorità</button><button data-tab="prs">Pull request</button><button data-tab="requirements">Requisiti</button><button data-tab="areas">Macroaree</button></nav>
+<div class="toolbar"><input id="search" type="search" placeholder="Cerca titolo, ID o numero…" aria-label="Ricerca"><select id="filter" aria-label="Filtro"></select></div>
+<section id="view" aria-live="polite"><p>Caricamento dati…</p></section>
+<footer><span>Fonte: <a href="https://github.com/jeckodevelopment/jd_learn" target="_blank" rel="noopener">jd_learn</a></span><span><a href="https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md">Piano 1.0.0</a> · <a href="https://github.com/jeckodevelopment/jd-learn-dashboard">Sorgenti dashboard</a></span></footer>
+</div><script src="./app.js" defer></script></body></html>
