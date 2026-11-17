@@ -98,30 +98,42 @@ function task(title,description,tag,kind,actionId=null,n=1){
 return '<article class="task"><div class="rank">'+esc(String(n).padStart(2,"0"))+'</div><div><h3>'+esc(title)+'</h3><p>'+excerpt(description,210)+'</p></div><div class="meta">'+chip(tag,kind)+(actionId?'<button data-detail="'+esc(actionId)+'">Dettaglio →</button>':'')+'</div></article>';
 }
 function requirementsByAction(){
- const issues=(model.snapshot.issues||[]).filter(i=>i.priority==="P0"||i.priority==="P1").sort((a,b)=>a.priority.localeCompare(b.priority));
+ const issues=(model.snapshot.issues||[]).filter(i=>i.priority==="P0"||i.priority==="P1").sort((a,b)=>a.priority.localeCompare(b.priority)||(b.updated||"").localeCompare(a.updated||""));
  const missing=model.requirements.filter(incomplete);
  const pending=model.requirements.filter(r=>completed(r)&&manualPending(r));
+ // A "partial" item with only Joomla verification left belongs with acceptance, not development.
+ const development=missing.filter(r=>!/^nessuna lacuna runtime specifica|^nessun residuo implementativo|^solo collaudo|^resta solo.*collaud/i.test((r.todo||"").trim()));
+ const rank=r=> (r.scope==="1.0.0"?0:1)*10+(stateValue(r)==="non iniziata"?0:1);
+ development.sort((a,b)=>rank(a)-rank(b)||a.id.localeCompare(b.id));
+ pending.sort((a,b)=>a.id.localeCompare(b.id));
  const out=[];
- for(const i of issues.slice(0,4))out.push({title:"Issue #"+i.number+" · "+i.title,desc:"Problema prioritario rilevato su GitHub",tag:i.priority,kind:i.priority.toLowerCase(),url:i.url});
- for(const r of missing.slice(0,8))out.push({title:r.id+" · "+(r.criteria||"Requisito da completare"),desc:r.todo||"Implementazione non ancora completa secondo la matrice",tag:"Sviluppo",kind:"current",id:r.id});
- for(const r of pending.slice(0,8))out.push({title:r.id+" · Collaudo Joomla",desc:r.tests||"Accettazione manuale ancora da completare",tag:"Collaudo",kind:"",id:r.id});
- return {out,missing,pending,issues};
+ for(const i of issues)out.push({title:"Issue #"+i.number+" · "+i.title,desc:"Priorità "+i.priority+" assegnata nel repository. Controllare impatto e correzione.",tag:i.priority,kind:i.priority.toLowerCase(),url:i.url});
+ for(const r of development)out.push({title:(areaNames[r.area]||r.area)+" · "+r.id,desc:short(r.todo||r.criteria||"Requisito implementativo non completo")+". Priorità: "+(r.scope==="1.0.0"?"perimetro stabile":"requisito misto da verificare"),tag:"Sviluppo",kind:"current",id:r.id});
+ for(const r of pending)out.push({title:(areaNames[r.area]||r.area)+" · "+r.id,desc:"Verifica Joomla: "+short(r.tests||r.criteria||"Accettazione funzionale da eseguire"),tag:"Collaudo",kind:"",id:r.id});
+ return {out,missing,pending,issues,development};
 }
 function home(){
-const s=model.snapshot,action=requirementsByAction();
-const progress=Number(s.progress);
+const s=model.snapshot,action=requirementsByAction(),progress=Number(s.progress);
 const bar=Number.isFinite(progress)?Math.max(0,Math.min(100,progress)):0;
 const recent=[...s.prs].filter(p=>p.status==="merged").sort((a,b)=>(b.mergedAt||"").localeCompare(a.mergedAt||"")).slice(0,4);
 const next=action.out.slice(0,5);
-return pageHeader("Control Center","La situazione del rilascio, le attività residue e i prossimi interventi. Nessun indicatore superfluo.")+
-'<div class="card progress-card"><div><h2>Avanzamento funzionale documentato</h2><p>Fonte: matrice e stima ufficiale di implementazione</p></div><div class="value">'+esc(pct(s.progress))+'</div><div class="meter"><span style="width:'+bar+'%"></span></div><p class="secondary">Non rappresenta la percentuale di collaudi conclusi.</p></div>'+
-'<div class="stats">'+stat(nFormat(action.missing.length),"Requisiti incompleti · perimetro 1.0.0/misto")+stat(nFormat(action.pending.length),"Collaudi pendenti · implementati")+stat(nFormat(s.counts.prOpen),"Pull request aperte")+stat(nFormat(s.counts.p0+s.counts.p1),"Issue P0 e P1 aperte")+'</div>'+
-section("Prossime azioni","Priorità: criticità → sviluppo → collaudi")+
-'<div class="tasks">'+(next.length?next.map((a,i)=>a.url?'<article class="task"><div class="rank">'+String(i+1).padStart(2,"0")+'</div><div><h3>'+href(a.url,a.title)+'</h3><p>'+esc(a.desc)+'</p></div><div class="meta">'+chip(a.tag,a.kind)+'</div></article>':task(a.title,a.desc,a.tag,a.kind,a.id,i+1)).join(""):'<div class="card empty">Nessuna attività prioritaria deducibile dai dati correnti.</div>')+'</div>'+
-section("Ultimi sviluppi","Cronologia sintetica delle PR integrate")+
+const completedReq=model.requirements.filter(r=>inScope(r)&&completed(r)).length;
+const partialReq=model.requirements.filter(r=>inScope(r)&&stateValue(r)==="parziale").length;
+const notStarted=model.requirements.filter(r=>inScope(r)&&stateValue(r)==="non iniziata").length;
+const macroNames={courses:"Corsi e lezioni",catalogue:"Catalogo",learning_progress:"Progressi",video_materials:"Video e materiali",enrollment:"Iscrizioni",joomla_integrations:"Integrazione Joomla",release_preparation:"Preparazione rilascio",email_notifications:"Email",certificates:"Attestati"};
+const macro=Object.entries(s.macroareas||{}).map(([key,value])=>'<div class="macro-item"><div><span>'+esc(macroNames[key]||key)+'</span><strong>'+pct(value)+'</strong></div><div class="meter"><span style="width:'+Math.max(0,Math.min(100,Number(value)||0))+'%"></span></div></div>').join("");
+return pageHeader("Control Center","Prossime decisioni, avanzamento documentato e verifiche residue per il rilascio stabile.")+
+'<div class="card progress-card"><div><h2>Stima di implementazione funzionale</h2><p>Fonte: evidenze di sviluppo · valutazione al '+esc(s.progressAsOf||"data non disponibile")+'</p></div><div class="value">'+esc(pct(s.progress))+'</div><div class="meter"><span style="width:'+bar+'%"></span></div><p class="secondary">Stima documentata, non calcolata contando PR, né attestazione dei collaudi. '+href(s.links.evidence||s.links.matrix,"Apri motivazione e evidenze ↗")+'</p></div>'+
+'<div class="stats">'+stat(completedReq,"Requisiti completati · 1.0.0/misto")+stat(partialReq,"Requisiti parziali")+stat(notStarted,"Non iniziati")+stat(action.pending.length,"Collaudi da accettare · implementati")+'</div>'+
+section("Prossime azioni","P0/P1 → sviluppo del perimetro 1.0.0 → collaudi")+
+'<div class="tasks">'+(next.length?next.map((a,i)=>a.url?'<article class="task"><div class="rank">'+String(i+1).padStart(2,"0")+'</div><div><h3>'+href(a.url,a.title)+'</h3><p>'+esc(a.desc)+'</p></div><div class="meta">'+chip(a.tag,a.kind)+'</div></article>':task(a.title,a.desc,a.tag,a.kind,a.id,i+1)).join(""):'<div class="card empty">Nessuna azione ricavabile dalle evidenze disponibili.</div>')+'</div>'+
+'<p class="note" style="margin-top:9px">L’ordine si basa su priorità GitHub, perimetro e stato dei requisiti; non sostituisce la decisione sulla prossima PR.</p>'+
+section("Avanzamento per area","Stime documentate, non percentuali di requisiti contati")+
+'<div class="card package-card"><div class="macro-grid">'+macro+'</div></div>'+
+section("Ultimi sviluppi","PR integrate più recenti")+
 '<div class="twocol"><div class="card package-card">'+(recent.length?recent.map(p=>'<div class="timeline-item"><div><strong>'+href(p.url,"#"+p.number+" · "+p.title)+'</strong></div><span>'+esc(p.mergedAt?.slice(0,10)||"")+'</span></div>').join(""):'<p class="note">Nessuna PR integrata recente.</p>')+'</div>'+
-'<aside class="card package-card"><div class="eyebrow">PACCHETTO INSTALLABILE</div><strong>'+esc(s.package?.name||"Non disponibile")+'</strong><p>Artefatto generato da GitHub Actions. Scaricare l’archivio e utilizzare lo ZIP Joomla interno.</p><p style="margin:12px 0">'+esc(formatDate(s.package?.createdAt))+'</p>'+(s.package?.url?href(s.package.url,"Apri artefatto ↗","outline-link"):"")+
-'<div style="margin-top:27px" class="eyebrow">DOCUMENTI DI RIFERIMENTO</div><p style="margin:10px 0">'+href(s.links.plan,"Piano operativo 1.0.0 ↗")+'</p>'+href(s.links.matrix,"Matrice requisiti ↗")+'</aside></div>';
+'<aside class="card package-card"><div class="eyebrow">PACCHETTO INSTALLABILE</div><strong>'+esc(s.package?.name||"Non disponibile")+'</strong><p>Artefatto GitHub Actions: estrarre lo ZIP Joomla interno.</p><p style="margin:12px 0">'+esc(formatDate(s.package?.createdAt))+'</p>'+(s.package?.url?href(s.package.url,"Apri artefatto ↗","outline-link"):"")+
+'<div style="margin-top:25px" class="eyebrow">DOCUMENTI</div><p style="margin:10px 0">'+href(s.links.plan,"Piano operativo 1.0.0 ↗")+'</p>'+href(s.links.matrix,"Matrice requisiti ↗")+'</aside></div>';
 }
 function toolbar({placeholder="Cerca codice o descrizione…",filters=[],count=null}={}){
 return '<div class="toolbar"><input id="search" type="search" placeholder="'+esc(placeholder)+'" value="'+esc(model.query)+'" aria-label="Ricerca elementi"><select id="filter" aria-label="Filtra stato">'+filters.map(o=>'<option value="'+esc(o[0])+'" '+(model.filter===o[0]?"selected":"")+'>'+esc(o[1])+'</option>').join("")+'</select>'+(count===null?"":'<span class="counter">'+nFormat(count)+' elementi</span>')+'</div>';
@@ -193,39 +205,44 @@ function development(){
  '<div class="card data-list">'+(entries.length?entries.slice(0,100).map(e=>'<article class="data-row">'+e.html+'</article>').join(""):'<div class="empty">Nessuna attività corrispondente ai filtri.</div>')+'</div>';
 }
 function testing(){
- const inRelease=model.requirements.filter(inScope),pending=inRelease.filter(manualPending),approved=inRelease.filter(accepted),unperformed=pending.filter(r=>(r.manual||"").toLowerCase()==="non eseguita");
- const options=[["all","Da collaudare"],["notrun","Non eseguiti"],["partial","Parziali"],["accepted","Accettati"]];
- let rows=model.filter==="accepted"?approved:model.filter==="notrun"?unperformed:model.filter==="partial"?pending.filter(r=>(r.manual||"").toLowerCase()==="parziale"):pending;
+ const scope=model.requirements.filter(inScope);
+ const statusCount=k=>scope.filter(r=>(r.manual||"").trim().toLowerCase()===k).length;
+ const approved=scope.filter(accepted),pending=scope.filter(manualPending);
+ const notRun=statusCount("non eseguita"),partial=statusCount("parziale");
+ const failed=scope.filter(r=>/non superat|fallit|respint|bloccato/i.test(r.manual||""));
+ const options=[["all","Da collaudare"],["notrun","Non eseguiti"],["partial","Parziali"],["failed","Non superati"],["accepted","Accettati"]];
+ let rows=model.filter==="accepted"?approved:model.filter==="notrun"?pending.filter(r=>(r.manual||"").trim().toLowerCase()==="non eseguita"):model.filter==="partial"?pending.filter(r=>(r.manual||"").trim().toLowerCase()==="parziale"):model.filter==="failed"?failed:pending;
  rows=rows.filter(r=>(r.id+" "+r.criteria+" "+r.tests+" "+r.manual).toLowerCase().includes(model.query.toLowerCase()));
- return pageHeader("Collaudi Joomla","Qui compaiono esclusivamente le verifiche manuali sul sito di prova. Una PR integrata non equivale a un requisito accettato.")+
- '<div class="stats">'+stat(pending.length,"Accettazioni pendenti")+stat(unperformed.length,"Non eseguite")+stat(pending.length-unperformed.length,"Parziali o altri stati")+stat(approved.length,"Accettazioni completate")+'</div>'+
- '<div class="notice">Gli esiti sono letti dalla colonna «Accettazione Joomla» della matrice ufficiale. Non è possibile modificare i collaudi dalla dashboard pubblica.</div>'+
+ const source=model.snapshot.links.testbook||SOURCE+"/blob/main/docs/QA_TESTBOOK.md";
+ return pageHeader("Collaudi Joomla","Accettazione funzionale manuale, distinta dal merge della PR e dall’esito della CI.")+
+ '<div class="stats">'+stat(pending.length,"Accettazioni pendenti")+stat(notRun,"Non eseguite")+stat(partial,"Parziali")+stat(approved.length,"Accettate")+'</div>'+
+ '<div class="notice">Fonte: matrice requisiti · '+href(model.snapshot.links.matrix,"Stati di accettazione ↗")+' · '+href(source,"Piano e prove di collaudo ↗")+'. Il build collaudato non è strutturato nei dati disponibili: non attribuiamo verifiche a una versione senza evidenza. Nessuna modifica ai collaudi dalla dashboard.</div>'+
  toolbar({placeholder:"Cerca verifiche Joomla…",filters:options,count:rows.length})+
- '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(r=>'<article class="data-row"><div><div class="id">'+esc(r.id)+'</div><strong>'+excerpt(r.tests||r.criteria,220)+'</strong><p class="desc">Implementazione: '+esc(r.state)+' · Accettazione: '+esc(r.manual)+'</p></div><div class="row-meta">'+chip(r.manual,accepted(r)?"ok":"")+'<button data-detail="'+esc(r.id)+'">Apri →</button></div></article>').join(""):'<div class="empty">Nessuna verifica corrispondente.</div>')+'</div>';
+ '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(r=>'<article class="data-row"><div><div class="id">'+esc(r.id)+' · '+esc(areaNames[r.area]||r.area)+'</div><strong>'+excerpt(r.tests||r.criteria,220)+'</strong><p class="desc">Implementazione: '+esc(r.state)+' · Accettazione: '+esc(r.manual)+' · Build verificata: non tracciata nella matrice</p></div><div class="row-meta">'+chip(r.manual,accepted(r)?"ok":"")+'<button data-detail="'+esc(r.id)+'">Apri →</button></div></article>').join(""):'<div class="empty">Nessuna verifica corrispondente.</div>')+'</div>';
 }
 function release(){
- const s=model.snapshot,scope=model.requirements.filter(inScope),pending=scope.filter(incomplete),manual=scope.filter(manualPending);
- const gates=[
-  ["Completezza funzionale",pending.length===0?"Soddisfatto":"Non soddisfatto",pending.length+" requisiti nel perimetro non risultano implementati completamente."],
-  ["Accettazione Joomla",manual.length===0?"Soddisfatto":"Non soddisfatto",manual.length+" requisiti nel perimetro non risultano accettati."],
-  ["Regressioni P0",s.counts.p0===0?"Nessuna P0 aperta":"Criticità rilevate","Stato delle issue etichettate P0; l’assenza di issue non prova l’assenza di regressioni."],
-  ["Installazione e upgrade","Da verificare","Serve evidenza documentale di installazione e aggiornamento sulla versione candidata."],
-  ["Sicurezza e privacy","Da verificare","Verificare il gate ufficiale di sicurezza e privacy prima del rilascio."],
-  ["Documentazione","Da verificare","Verificare completezza, coerenza e aggiornamento dei documenti richiesti."],
-  ["Pacchetto finale","Da verificare","Ultimo artefatto disponibile: "+(s.package?.name||"non disponibile")+". Non equivale ad artefatto di release stabile."]
+ const s=model.snapshot,scope=model.requirements.filter(inScope),missing=scope.filter(incomplete),manual=scope.filter(manualPending);
+ const hasP0=(s.counts?.p0||0)>0;
+ const groups=[
+  {title:"Completezza funzionale",status:missing.length?"Bloccante":"Da verificare",detail:missing.length+" requisiti 1.0.0/misti non completamente implementati; le voci miste vanno valutate rispetto allo scope.",link:s.links.matrix,label:"Apri requisiti"},
+  {title:"Accettazione Joomla",status:manual.length?"Bloccante":"Da verificare",detail:manual.length+" requisiti senza accettazione completa. Le versioni effettivamente collaudate richiedono evidenze.",link:s.links.testbook,label:"Apri piano collaudi"},
+  {title:"Regressioni P0",status:hasP0?"Bloccante":"Da verificare",detail:hasP0?s.counts.p0+" issue P0 attualmente aperte.":"Nessuna issue P0 aperta; occorre comunque una verifica esplicita delle regressioni.",link:SOURCE+"/issues?q=is%3Aissue+is%3Aopen+label%3AP0",label:"Esamina issue"},
+  {title:"Installazione e aggiornamenti",status:"Da verificare",detail:"Servono prove manuali su installazione pulita, upgrade con dati preesistenti e ripristino, riferite alla build candidata.",link:s.links.testbook,label:"Vedi prove"},
+  {title:"Sicurezza e privacy",status:"Da verificare",detail:"Verificare audit e accettazione documentale del gate di sicurezza e privacy; la CI non costituisce da sola l'accettazione.",link:s.links.securityGate,label:"Vedi gate"},
+  {title:"Documentazione",status:"Da verificare",detail:"Verificare manuali, piano, changelog, guida operativa e coerenza con la versione candidata.",link:s.links.plan,label:"Vedi piano"},
+  {title:"Pacchetto di rilascio",status:"Da verificare",detail:"Ultimo artefatto disponibile: "+(s.package?.name||"non disponibile")+". Non è evidenza di un rilascio stabile accettato.",link:s.package?.url,label:"Apri artefatto"}
  ];
- return pageHeader("Release readiness","Una checklist verificabile per la versione stabile. Nessuna percentuale inventata e nessun gate promosso automaticamente senza evidenze.")+
- '<div class="notice">Il controllo automatico delle PR è una condizione obbligatoria del processo di merge, non un indicatore della readiness. I gate non documentati restano «Da verificare».</div>'+
- '<div class="release-grid">'+gates.map(([t,status,desc])=>'<article class="card gate"><h3>'+esc(t)+'</h3><p>'+esc(desc)+'</p><div class="tag">'+esc(status)+'</div></article>').join("")+'</div>'+
- section("Documenti per il rilascio")+
- '<div class="card package-card"><p>'+href(s.links.plan,"Piano operativo delle PR 1.0.0 ↗")+'</p><p style="margin-top:9px">'+href(s.links.matrix,"Matrice ufficiale dei requisiti ↗")+'</p><p style="margin-top:9px">'+href(SOURCE+"/blob/main/docs/SECURITY_PRIVACY_RELEASE_GATE_1.0.0.md","Gate sicurezza e privacy ↗")+'</p></div>';
+ const blocked=groups.filter(g=>g.status==="Bloccante").length;
+ return pageHeader("Release readiness","Cosa manca alla 1.0.0: criteri bloccanti, verifiche ancora aperte e riferimenti alle fonti.")+
+ '<div class="notice"><strong>'+blocked+' gate con impedimenti documentati · '+(groups.length-blocked)+' da verificare.</strong> Nessun gate viene dichiarato superato sulla sola assenza di problemi registrati. '+href(s.links.evidence||s.links.matrix,"Evidenze implementative ↗")+'</div>'+
+ '<div class="release-grid">'+groups.map(g=>'<article class="card gate"><div class="gate-top"><h3>'+esc(g.title)+'</h3>'+chip(g.status,g.status==="Bloccante"?"p0":"")+'</div><p>'+esc(g.detail)+'</p>'+(g.link?href(g.link,g.label+" ↗"):'')+'</article>').join("")+'</div>';
 }
 function showDetail(id){
  const r=model.requirements.find(x=>x.id===id);if(!r)return;
  const block=(t,v)=>'<div class="detail-section"><h3>'+esc(t)+'</h3><p>'+esc(v||"Non documentato")+'</p></div>';
  $("detail-body").innerHTML='<div class="eyebrow">REQUISITO · '+esc(r.area)+'</div><h2>'+esc(r.id)+'</h2>'+chip(r.state,completed(r)?"ok":"")+ " "+chip(r.manual,accepted(r)?"ok":"")+
  block("Criteri funzionali",r.criteria)+block("Residui implementativi",r.todo)+block("Comportamenti da collaudare",r.tests)+
- block("Perimetro",r.scope)+block("PR collegate",r.prs)+
+ block("Perimetro",r.scope)+block("Accettazione Joomla (build non tracciata)",r.manual)+block("PR collegate",r.prs)+
  '<div class="detail-section">'+href(idLink(r),"Apri matrice originale ↗","outline-link")+'</div>';
  $("detail-mask").hidden=false;
  $("detail-close").focus();
