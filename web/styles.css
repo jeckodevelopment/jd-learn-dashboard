@@ -12,3 +12,15 @@
 .area-progress span{font-size:10px;color:var(--muted)}
 .area-card .meta{margin:8px 0 0}
 @media(max-width:760px){.area-card{min-height:0}.area-description{min-height:0}}
+
+/* Evidence-based release views. */
+.macro-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 24px}
+.macro-item>div:first-child{display:flex;justify-content:space-between;gap:10px;align-items:baseline;font-size:12px}
+.macro-item span{color:var(--muted)}
+.macro-item strong{font-size:13px}
+.macro-item .meter{height:6px;margin-top:7px}
+.gate-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.gate-top h3{margin:0}
+.gate a{font-size:11px;font-weight:650}
+@media(max-width:960px){.macro-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:570px){.macro-grid{grid-template-columns:1fr}}
