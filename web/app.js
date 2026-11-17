@@ -29,6 +29,14 @@ async function refresh(){
       metric("Issue P1",snapshot.counts.p1,"Priorità alta"),
       metric("Requisiti",snapshot.counts.requirements,"Matrice 1.0.0")
     ].join("");
+    const pkg=snapshot.package;
+    if(pkg){
+      const panel=document.createElement("div");
+      panel.className="package";
+      panel.innerHTML='<span>Pacchetto installabile più recente</span> <strong>'+link(pkg.url,pkg.name)+'</strong><small>Artefatto GitHub Actions: estrarre lo ZIP Joomla interno · '+esc(pkg.createdAt?.slice(0,10))+'</small>';
+      let old=document.querySelector(".package"); if(old)old.remove();
+      $("metrics").after(panel);
+    }
     populate();render();
   }catch(e){$("health").textContent="⚠ Errore sincronizzazione";$("asof").textContent="Dati non disponibili: "+e.message;$("view").innerHTML='<div class="empty">Impossibile recuperare dati verificati dalla repository. Consultare GitHub o riprovare.</div>';}
 }
