@@ -150,13 +150,16 @@ const macroNames={courses:"Corsi e lezioni",catalogue:"Catalogo",learning_progre
 const macro=Object.entries(s.macroareas||{}).map(([key,value])=>'<div class="macro-item"><div><span>'+esc(macroNames[key]||key)+'</span><strong>'+pct(value)+'</strong></div><div class="meter"><span style="width:'+Math.max(0,Math.min(100,Number(value)||0))+'%"></span></div></div>').join("");
 return pageHeader("Control Center","Prossime decisioni, avanzamento documentato e verifiche residue per il rilascio stabile.")+
 '<div class="card progress-card"><div><h2>Stima di implementazione funzionale</h2><p>Fonte: evidenze di sviluppo · valutazione al '+esc(s.progressAsOf||"data non disponibile")+'</p></div><div class="value">'+esc(pct(s.progress))+'</div><div class="meter"><span style="width:'+bar+'%"></span></div><p class="secondary">Stima documentata, non calcolata contando PR, né attestazione dei collaudi. '+href(s.links.evidence||s.links.matrix,"Apri motivazione e evidenze ↗")+'</p></div>'+
-'<div class="stats">'+stat(completedReq,"Requisiti completati · 1.0.0/misto")+stat(partialReq,"Requisiti parziali")+stat(notStarted,"Non iniziati")+stat(action.pending.length,"Collaudi da accettare · implementati")+'</div>'+
-section("Prossime azioni","P0/P1 → sviluppo del perimetro 1.0.0 → collaudi")+
+'<div class="stats">'+stat(completedReq,"Requisiti completati · 1.0.0/misto")+stat(partialReq,"Requisiti parziali")+stat(notStarted,"Non iniziati")+stat(action.development.length,"Residui implementativi identificati")+'</div>'+
+section("Prossime azioni di sviluppo","P0/P1 → PR aperte → requisiti 1.0.0 → requisiti misti")+
 '<div class="tasks">'+(next.length?next.map((a,i)=>a.url?'<article class="task"><div class="rank">'+String(i+1).padStart(2,"0")+'</div><div><h3>'+href(a.url,a.title)+'</h3><p>'+esc(a.desc)+'</p></div><div class="meta">'+chip(a.tag,a.kind)+'</div></article>':task(a.title,a.desc,a.tag,a.kind,a.id,i+1)).join(""):'<div class="card empty">Nessuna azione ricavabile dalle evidenze disponibili.</div>')+'</div>'+
-'<p class="note" style="margin-top:9px">L’ordine si basa su priorità GitHub, perimetro e stato dei requisiti; non sostituisce la decisione sulla prossima PR.</p>'+
+'<p class="note" style="margin-top:9px">Le attività sono selezionate dalle fonti GitHub e dai residui dichiarati nella matrice. Le verifiche Joomla sono intenzionalmente escluse dalle prossime azioni di sviluppo.</p>'+
 section("Avanzamento per area","Stime documentate, non percentuali di requisiti contati")+
 '<div class="card package-card"><div class="macro-grid">'+macro+'</div></div>'+
-section("Ultimi sviluppi","PR integrate più recenti")+
+section("Cosa è cambiato","Differenze osservate fra sincronizzazioni")+
+'<div class="card evolution-list">'+evolutionRows(5)+'</div>'+
+section("Ultime PR integrate","Storico delle modifiche al codice")+
+
 '<div class="twocol"><div class="card package-card">'+(recent.length?recent.map(p=>'<div class="timeline-item"><div><strong>'+href(p.url,"#"+p.number+" · "+p.title)+'</strong></div><span>'+esc(p.mergedAt?.slice(0,10)||"")+'</span></div>').join(""):'<p class="note">Nessuna PR integrata recente.</p>')+'</div>'+
 '<aside class="card package-card"><div class="eyebrow">PACCHETTO INSTALLABILE</div><strong>'+esc(s.package?.name||"Non disponibile")+'</strong><p>Artefatto GitHub Actions: estrarre lo ZIP Joomla interno.</p><p style="margin:12px 0">'+esc(formatDate(s.package?.createdAt))+'</p>'+(s.package?.url?href(s.package.url,"Apri artefatto ↗","outline-link"):"")+
 '<div style="margin-top:25px" class="eyebrow">DOCUMENTI</div><p style="margin:10px 0">'+href(s.links.plan,"Piano operativo 1.0.0 ↗")+'</p>'+href(s.links.matrix,"Matrice requisiti ↗")+'</aside></div>';
