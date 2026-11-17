@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-17T22:05:42.104380+00:00",
+  "generatedAt": "2026-11-17T22:15:37.694609+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "59f040347467e10d96f5f09aa6b67945f7133dc6",
+  "sourceCommit": "626d411aa13f5959916ca5eefe266a742439f412",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -26,6 +26,26 @@
   },
   "prs": [
     {
+      "number": 592,
+      "title": "docs(progress): audit criteri CAT-01–04 e AUT-01–05 per JD Learn 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/592",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-17T22:14:14Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f0fa386ec13b3d17df1cd335d7efacac2f24cdac",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44188022680"
+      }
+    },
+    {
       "number": 589,
       "title": "docs: riconciliare stato main fino a #587 e anonimizzare riferimenti di prova",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/589",
@@ -39,19 +59,59 @@
       "milestone": "1.0.0",
       "headSha": "9a5aa82ab7db608d8417f6a42d97791ec2b24ffa",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186526700"
+      }
+    },
+    {
+      "number": 591,
+      "title": "docs: registro versionato delle evidenze di collaudo Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/591",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T22:14:35Z",
+      "mergedAt": "2026-11-17T22:14:33Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ab3f3267de4f3297a55bc36f69cb7ebeafb96ede",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44187763829"
+      }
+    },
+    {
+      "number": 590,
+      "title": "docs(progress): registrare prima tranche audit funzionale e merge #588",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/590",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-17T22:10:34Z",
+      "mergedAt": "2026-11-17T22:10:31Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2e4160c3561f728a04f2d1cd9182be76626a840b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44187290116"
       }
     },
     {
       "number": 588,
       "title": "feat(governance): misurazione funzionale per criteri verificati della 1.0.0",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/588",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-17T22:04:29Z",
-      "mergedAt": null,
+      "updated": "2026-11-17T22:09:10Z",
+      "mergedAt": "2026-11-17T22:09:07Z",
       "labels": [
         "documentation",
         "P1"
@@ -59,8 +119,8 @@
       "milestone": "1.0.0",
       "headSha": "af3a6a6b3bf42bdbf1aab56345286474cc9b7a76",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186361405"
       }
     },
@@ -1527,76 +1587,47 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 89,
-      "title": "Record enrollment migration CI evidence and prevention",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/89",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T18:00:07Z",
-      "mergedAt": "2026-11-08T11:13:47Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "dc6f21741824e1b8e9e3d9ce52c0935b6da6d2fd",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 87,
-      "title": "Update JD Learn status after material scheduling merge",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/87",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T18:00:04Z",
-      "mergedAt": "2026-11-08T09:28:48Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9c07dfefce6222fe71563a4c5e167ecab26c374e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 81,
-      "title": "Record merged 0.41.12 publication preflight status",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/81",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T18:00:01Z",
-      "mergedAt": "2026-11-08T08:35:52Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a4b140e8707a64c27f6fe1665aadc2fd03bfa3a8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
+  "manualQa": {
+    "schema": 1,
+    "updatedAt": "2026-11-17",
+    "cases": [
+      {
+        "id": "QA-CERT-EXISTING-PDF-001",
+        "requirement_ids": [
+          "CERT-03",
+          "CERT-05",
+          "CERT-08"
+        ],
+        "title": "Download di un attestato preesistente con logo PNG dopo correzione HTTP 503",
+        "result": "passed",
+        "scope": "partial",
+        "tested_at": "2026-11-17",
+        "build": {
+          "version": "0.57.7-dev",
+          "artifact_url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44106325701/artifacts/14338442764",
+          "pr": 566,
+          "commit": "81df4e888e12b48a6ac25705afa5e18d71cf2c67"
+        },
+        "evidence_url": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
+        "evidence_note": "Il piano documenta la conferma utente del download funzionante dopo installazione dell'artefatto PR #566. Sono esclusi stato ready nel backend, integrità seriale/snapshot, formati alternativi, ACL/HEAD, backup e recupero."
+      }
+    ]
+  },
   "package": {
     "name": "JD-Learn-0.57.7-dev",
-    "createdAt": "2026-11-17T21:55:02Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44183798789/artifacts/14372759614"
+    "createdAt": "2026-11-17T22:08:36Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186361405/artifacts/14375416462"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
     "matrix": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/REQUIREMENTS_STATUS.csv",
     "evidence": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/IMPLEMENTATION_EVIDENCE.json",
     "testbook": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/QA_TESTBOOK.md",
-    "securityGate": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/SECURITY_PRIVACY_RELEASE_GATE_1.0.0.md"
+    "securityGate": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/SECURITY_PRIVACY_RELEASE_GATE_1.0.0.md",
+    "qaRegistry": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/MANUAL_QA_EVIDENCE.json",
+    "qaGuide": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/MANUAL_QA_EVIDENCE.md"
   }
 }
