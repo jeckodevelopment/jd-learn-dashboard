@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:00:48.961050+00:00",
+  "generatedAt": "2026-11-18T18:02:27.781890+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c138a83e6e1cc24512a9999ae59659154a43c79c",
+  "sourceCommit": "4c8e19d392faf894cacf7cbd0a4676da6730a0b2",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -40,6 +40,25 @@
         "status": "in_progress",
         "conclusion": null,
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44364626570"
+      }
+    },
+    {
+      "number": 624,
+      "title": "docs: reconcile PR #622 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/624",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:01:44Z",
+      "mergedAt": "2026-11-18T18:01:41Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "de81fbbb5b780015e5ed9734df6b45793710fe68",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44365058024"
       }
     },
     {
@@ -550,9 +569,9 @@
       "milestone": "1.0.0",
       "headSha": "f44bf531b9e391cbdad9b17e9aa5d469fe605476",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44191886625"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -589,9 +608,9 @@
       "milestone": "1.0.0",
       "headSha": "f0efbc52b5487e947a09b7de9eda95ec72a6fc03",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44190708757"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1542,25 +1561,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "7a9deeacd57af370c2ee11667747d357eaa1f970",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 535,
-      "title": "fix(P0 #532): cache busting asset Joomla e diagnosi della richiesta video",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/535",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T21:49:40Z",
-      "mergedAt": "2026-11-16T21:49:38Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9c433206540a843a94aac9557bd5f4ada4bed4fa",
       "ci": {
         "status": "unknown",
         "conclusion": null,
