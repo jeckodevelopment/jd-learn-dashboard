@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T19:10:04.298392+00:00",
+  "generatedAt": "2026-11-18T19:17:10.710490+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7c84dc1505a312c0f37df5f76475b9f90d4c05fc",
+  "sourceCommit": "c0564064951b77cfc4dead863a454f4427de4b39",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,9 +29,9 @@
       "number": 636,
       "title": "fix: refresh Smart Search after committed archive/restore workflow (0.60.8)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/636",
-      "status": "open",
+      "status": "closed",
       "draft": false,
-      "updated": "2026-11-18T19:06:00Z",
+      "updated": "2026-11-18T19:17:00Z",
       "mergedAt": null,
       "labels": [
         "P1"
@@ -42,6 +42,25 @@
         "status": "unknown",
         "conclusion": null,
         "url": null
+      }
+    },
+    {
+      "number": 639,
+      "title": "fix: refresh Smart Search after archived course workflow (0.60.8)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/639",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T19:16:44Z",
+      "mergedAt": "2026-11-18T19:16:41Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f8c4a137430e0904cecc2c6d43c3a36d1a389b5d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44377965633"
       }
     },
     {
@@ -1526,43 +1545,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 555,
-      "title": "fix(mail): migrare definitivamente i token Joomla pre-release",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/555",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T09:15:47Z",
-      "mergedAt": "2026-11-17T09:15:45Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "8e29254b12e5d2e037120255a9221487970e6eda",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 552,
-      "title": "docs: reconcile merged PR #551 and safe mail retry QA",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/552",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T08:53:41Z",
-      "mergedAt": "2026-11-17T08:52:14Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3cb8bac843ab349901ace6398206e3751fceba87",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1593,9 +1575,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.7-dev",
-    "createdAt": "2026-11-18T19:07:47Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44376325812/artifacts/14462051514"
+    "name": "JD-Learn-0.60.8-dev",
+    "createdAt": "2026-11-18T19:16:09Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44377965633/artifacts/14461888172"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
