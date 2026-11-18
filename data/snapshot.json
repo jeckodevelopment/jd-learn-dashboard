@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T22:54:18.956176+00:00",
+  "generatedAt": "2026-11-18T22:56:06.146146+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ef1911265ad754436b5b87d139c79a0454d217cd",
+  "sourceCommit": "ea379e50fabbad642a605902c7a4c14bd6277a6f",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 676,
+      "title": "docs: record SCR-01 card PR 675 merge and artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/676",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T22:55:33Z",
+      "mergedAt": "2026-11-18T22:55:30Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7014c1f59a8880ab2dad824bc78bf4799102d1f7",
+      "ci": {
+        "status": "completed",
+        "conclusion": "cancelled",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44416028670"
+      }
+    },
     {
       "number": 675,
       "title": "feat(SCR-01): explicit catalog card action and enrollment information",
@@ -462,9 +482,9 @@
       "milestone": "1.0.0",
       "headSha": "51f6f69911d310a94faa9690591e89e33c0af9ed",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44397201734"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1524,26 +1544,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "d9e1fb77988bdd0be10f3bb8013e87c99a93f8c3",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 596,
-      "title": "docs(progress): audit criteri lezioni, video e materiali JD Learn 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/596",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:43:09Z",
-      "mergedAt": "2026-11-17T22:43:06Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f44bf531b9e391cbdad9b17e9aa5d469fe605476",
       "ci": {
         "status": "unknown",
         "conclusion": null,
