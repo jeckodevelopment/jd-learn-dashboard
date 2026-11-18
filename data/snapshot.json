@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:22:05.821884+00:00",
+  "generatedAt": "2026-11-18T21:23:50.649765+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "00b2fee6345990ddd9503962a30bc0e96d23d6b2",
+  "sourceCommit": "6172f6589abbcd37f2a56b9549d547fe14e192eb",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,27 +19,48 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
     {
+      "number": 659,
+      "title": "docs: reconcile CAT-02 PR #657 merge, CI and installable package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/659",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:23:24Z",
+      "mergedAt": "2026-11-18T21:23:22Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c0fab67328d2190ea9b56a5c2b27eb643e6f8977",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44400838240"
+      }
+    },
+    {
       "number": 658,
       "title": "docs: reconcile functional audit batch 12",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/658",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T21:21:37Z",
-      "mergedAt": null,
-      "labels": [],
-      "milestone": null,
-      "headSha": "dc0f3db55106145d11ac188c5946e972b71ffa6f",
+      "updated": "2026-11-18T21:23:22Z",
+      "mergedAt": "2026-11-18T21:23:20Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6a3cdb1189fb4000149c468d893b5c28579c3133",
       "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44400877902"
       }
     },
     {
@@ -493,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "b9ddda3ce197afbe6657d7eb622a85d00b09ce23",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44374865159"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1528,44 +1549,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "0e76a5c045deb8224f7bebadd1b8e60282ac11e5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 580,
-      "title": "docs: ricognizione post-merge #578 e baseline 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/580",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:05:43Z",
-      "mergedAt": "2026-11-17T21:05:41Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c0afe22033bf888220603f3cb0854382b96b5a14",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 578,
-      "title": "feat(LCM-04): cestinazione e ripristino conservativo dei docenti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/578",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T20:52:52Z",
-      "mergedAt": "2026-11-17T20:52:49Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "590b25c7dd596d5193b6f2e371b5af2c37654249",
       "ci": {
         "status": "unknown",
         "conclusion": null,
