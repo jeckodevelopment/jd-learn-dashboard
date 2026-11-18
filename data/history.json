@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T18:14:02.747422+00:00",
+  "generatedAt": "2026-11-18T18:24:01.908795+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T18:23:23Z",
+      "commit": "244ba6837bd305be57c48eb35c0947164fe2bb14",
+      "number": 627,
+      "title": "fix: reflect suspended course delivery in learning pathways (0.60.5)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/627"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T18:13:33Z",

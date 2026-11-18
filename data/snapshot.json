@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:14:02.747422+00:00",
+  "generatedAt": "2026-11-18T18:24:01.908795+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fdbfd5fe39f181a376f50abb4f7493fc9da2cdd5",
+  "sourceCommit": "244ba6837bd305be57c48eb35c0947164fe2bb14",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 627,
+      "title": "fix: reflect suspended course delivery in learning pathways (0.60.5)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/627",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:23:26Z",
+      "mergedAt": "2026-11-18T18:23:23Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5e96c1f02ce89da597d5c74bc0407a53c2d07c27",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44368233834"
+      }
+    },
     {
       "number": 626,
       "title": "docs: reconcile PR #625 merge and 0.60.4 build evidence",
@@ -411,9 +430,9 @@
       "milestone": "1.0.0",
       "headSha": "a85b5f3add47a5c1ca6e93a6875bb186ee0509ea",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44254334616"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -430,9 +449,9 @@
       "milestone": "1.0.0",
       "headSha": "4592317788ae1f320b06f7ce9f1729fa064c22b7",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44209560706"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -450,9 +469,9 @@
       "milestone": "1.0.0",
       "headSha": "364143ed346ce4ab2dae7402e604469217fdd1df",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44203759912"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1529,25 +1548,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 539,
-      "title": "fix(P0 #532): serialize lesson.begin and video.playback on classroom load",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/539",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T23:39:24Z",
-      "mergedAt": "2026-11-16T23:39:22Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0ddea1f4bf3c4a6845d8a84197c571b382e8884d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1578,9 +1578,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.4-dev",
-    "createdAt": "2026-11-18T18:11:18Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44366229491/artifacts/14457216205"
+    "name": "JD-Learn-0.60.5-dev",
+    "createdAt": "2026-11-18T18:22:06Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44368233717/artifacts/14458586723"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
