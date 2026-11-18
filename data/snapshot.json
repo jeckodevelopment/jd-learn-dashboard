@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T19:03:01.227242+00:00",
+  "generatedAt": "2026-11-18T19:08:48.382683+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "35f361e5031ac3a55265db46b6698f281e8cba34",
+  "sourceCommit": "a9d991996213ad738d6c15b68fc9582bd38bf030",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -31,17 +31,36 @@
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/636",
       "status": "open",
       "draft": false,
-      "updated": "2026-11-18T19:02:20Z",
+      "updated": "2026-11-18T19:06:00Z",
       "mergedAt": null,
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "8aadd3621b3708809bb430c8a38af83ae99e67bf",
+      "headSha": "9e791d53b4551b2890da4412da9449c8f79195d4",
       "ci": {
         "status": "unknown",
         "conclusion": null,
         "url": null
+      }
+    },
+    {
+      "number": 637,
+      "title": "Audit 1.0.0: catalogo, roster e installazione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/637",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T19:08:14Z",
+      "mergedAt": "2026-11-18T19:08:11Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d78ea029827bec2f11cb14117f558f4f113434b1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44376325812"
       }
     },
     {
@@ -1544,26 +1563,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 550,
-      "title": "docs: reconcile merged mail and certificate fixes #545 #548 #549",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/550",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T08:43:33Z",
-      "mergedAt": "2026-11-17T08:42:07Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "882c45ed7de510513f2c9c2bee9e59c1d1286585",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1595,8 +1594,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.7-dev",
-    "createdAt": "2026-11-18T19:01:58Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44375326666/artifacts/14459864912"
+    "createdAt": "2026-11-18T19:07:47Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44376325812/artifacts/14462051514"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
