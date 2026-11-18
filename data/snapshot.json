@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T23:18:46.551068+00:00",
+  "generatedAt": "2026-11-18T23:29:00.357646+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "40174159d1cb1c4bdab3cc3bee4b4bec5537051e",
+  "sourceCommit": "96835a68e586ccc057fa5ee6ccff7d594ecd00bd",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,101 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 680,
+      "title": "feat(SCR-01): personal enrollment state and safe resume on catalog cards",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/680",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T23:28:25Z",
+      "mergedAt": "2026-11-18T23:28:22Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f267f5dc0bdff1e3db6d2e6355a80e810eb3654f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44420426374"
+      }
+    },
+    {
+      "number": 589,
+      "title": "docs: riconciliare stato main fino a #587 e anonimizzare riferimenti di prova",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/589",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-18T23:18:57Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9a5aa82ab7db608d8417f6a42d97791ec2b24ffa",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 636,
+      "title": "fix: refresh Smart Search after committed archive/restore workflow (0.60.8)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/636",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-18T23:18:55Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9e791d53b4551b2890da4412da9449c8f79195d4",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 663,
+      "title": "feat(SCR-05): link learner empty state directly to course catalog",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/663",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-18T23:18:49Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d61fed9cf395d0f64c8cee2ba017a2ff0b24140b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404288357"
+      }
+    },
+    {
+      "number": 651,
+      "title": "feat(QUI-02): conservative trash and restore for question bank",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/651",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-18T23:18:46Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5e26e9faf3161740bed74be4b664fa6caf25eb6b",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
     {
       "number": 679,
       "title": "docs: record SCR-01 teacher cards PR 678 merge and artifact",
@@ -79,8 +174,8 @@
       "milestone": "1.0.0",
       "headSha": "891882f26f2c4ecfffbd0e41569d466f434935bc",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44418669108"
       }
     },
@@ -281,25 +376,6 @@
       }
     },
     {
-      "number": 663,
-      "title": "feat(SCR-05): link learner empty state directly to course catalog",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/663",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-18T21:56:42Z",
-      "mergedAt": null,
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d61fed9cf395d0f64c8cee2ba017a2ff0b24140b",
-      "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404288357"
-      }
-    },
-    {
       "number": 666,
       "title": "docs: record completion of 1.0.0 reconciliation",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/666",
@@ -370,9 +446,9 @@
       "milestone": "1.0.0",
       "headSha": "4afbcbc7e87a045e9a737f5f638b9214c1ebcff3",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44402772723"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -389,9 +465,9 @@
       "milestone": "1.0.0",
       "headSha": "497355641ec971144dbe45941cab7f37c20a97ac",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44402600304"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -540,25 +616,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "51f6f69911d310a94faa9690591e89e33c0af9ed",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 651,
-      "title": "feat(QUI-02): conservative trash and restore for question bank",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/651",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-18T21:02:04Z",
-      "mergedAt": null,
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5e26e9faf3161740bed74be4b664fa6caf25eb6b",
       "ci": {
         "status": "unknown",
         "conclusion": null,
@@ -787,25 +844,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "af4732a138007a42b8b13eb8830431828681ce81",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 636,
-      "title": "fix: refresh Smart Search after committed archive/restore workflow (0.60.8)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/636",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-18T19:17:00Z",
-      "mergedAt": null,
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9e791d53b4551b2890da4412da9449c8f79195d4",
       "ci": {
         "status": "unknown",
         "conclusion": null,
@@ -1508,46 +1546,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 601,
-      "title": "docs(progress): registrare merge e CI audit sicurezza/core #600",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/601",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T23:07:34Z",
-      "mergedAt": "2026-11-17T23:07:31Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "63058a1fde31ae5372aab64193d6d92ec3cf243e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 600,
-      "title": "docs(progress): audit sicurezza, privacy, configurazione e core Joomla 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/600",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T23:05:49Z",
-      "mergedAt": "2026-11-17T23:05:47Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8fd9808246b86157dbe6eb0578fe2af4d5bb9f16",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1579,8 +1577,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T23:17:04Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44418669108/artifacts/14481471825"
+    "createdAt": "2026-11-18T23:27:51Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44420426374/artifacts/14481533606"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
