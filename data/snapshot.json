@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T23:12:48.679179+00:00",
+  "generatedAt": "2026-11-18T23:17:18.686011+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "80c0e36f4e716eec1574284ceb5087ea7c786bc8",
+  "sourceCommit": "ba805e622ec3076e63de0af039a7cd76e8d49fa2",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,18 +29,18 @@
       "number": 678,
       "title": "feat(SCR-01): show authorised published teachers on catalog cards",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/678",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T23:11:00Z",
-      "mergedAt": null,
+      "updated": "2026-11-18T23:16:45Z",
+      "mergedAt": "2026-11-18T23:16:43Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
       "headSha": "b5d7a1914d531d96f1b2cfd88f44ad92da93568a",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44418482725"
       }
     },
@@ -407,9 +407,9 @@
       "milestone": "1.0.0",
       "headSha": "c0fab67328d2190ea9b56a5c2b27eb643e6f8977",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44400838240"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1548,26 +1548,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 598,
-      "title": "docs(progress): audit MAIL, CERT, NOT e integrazione Joomla per JD Learn 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/598",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:54:40Z",
-      "mergedAt": "2026-11-17T22:54:38Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "266ca4e109e2bf1e1b90a565428f1660b8cd7845",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1599,8 +1579,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T23:09:04Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44417617454/artifacts/14480292451"
+    "createdAt": "2026-11-18T23:17:04Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44418669108/artifacts/14481471825"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

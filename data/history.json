@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T23:12:48.679179+00:00",
+  "generatedAt": "2026-11-18T23:17:18.686011+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T23:16:43Z",
+      "commit": "ba805e622ec3076e63de0af039a7cd76e8d49fa2",
+      "number": 678,
+      "title": "feat(SCR-01): show authorised published teachers on catalog cards",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/678"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T23:12:23Z",
