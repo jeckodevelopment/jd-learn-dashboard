@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T22:56:06.146146+00:00",
+  "generatedAt": "2026-11-18T23:12:48.679179+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ea379e50fabbad642a605902c7a4c14bd6277a6f",
+  "sourceCommit": "80c0e36f4e716eec1574284ceb5087ea7c786bc8",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,51 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 678,
+      "title": "feat(SCR-01): show authorised published teachers on catalog cards",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/678",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T23:11:00Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b5d7a1914d531d96f1b2cfd88f44ad92da93568a",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44418482725"
+      }
+    },
+    {
+      "number": 677,
+      "title": "feat: separate release development and QA progress",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/677",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T23:12:25Z",
+      "mergedAt": "2026-11-18T23:12:23Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "891882f26f2c4ecfffbd0e41569d466f434935bc",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44418669108"
+      }
+    },
     {
       "number": 676,
       "title": "docs: record SCR-01 card PR 675 merge and artifact",
@@ -406,9 +445,9 @@
       "milestone": "1.0.0",
       "headSha": "9c38badf8327ae6bb7ea6475a0e0402fa1bdaa76",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44399697715"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -425,9 +464,9 @@
       "milestone": "1.0.0",
       "headSha": "68cfeac20131af6aeab9081e2770839979f14bb1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44399016714"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -444,9 +483,9 @@
       "milestone": "1.0.0",
       "headSha": "db37dc237465cae72cb1085c270ac8882ffac6be",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44398771848"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -463,9 +502,9 @@
       "milestone": "1.0.0",
       "headSha": "0bdc97da33977574f1a4057475345636f8557c5e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44398362930"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1529,26 +1568,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 597,
-      "title": "docs(progress): rendicontazione post-merge audit LES/VID/MAT #596",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/597",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:44:56Z",
-      "mergedAt": "2026-11-17T22:44:53Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d9e1fb77988bdd0be10f3bb8013e87c99a93f8c3",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1580,8 +1599,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T22:53:25Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44415053155/artifacts/14478148732"
+    "createdAt": "2026-11-18T23:09:04Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44417617454/artifacts/14480292451"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
