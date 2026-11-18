@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T20:50:17.695552+00:00",
+  "generatedAt": "2026-11-18T20:57:46.381947+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "404aa1efb7f31d13a71dcb2cc8bab4ec4147be4e",
+  "sourceCommit": "ff9d4b991c94a7d2d6edd851f12dece9b4129221",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 650,
+      "title": "docs: reconcile functional audit batches 7 and 8",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/650",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T20:57:24Z",
+      "mergedAt": "2026-11-18T20:57:22Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "727e346abeb267bffe0b877a26f9382d01202d42",
+      "ci": {
+        "status": "queued",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44396397537"
+      }
+    },
     {
       "number": 649,
       "title": "docs: reconcile STA-02 PR #648 merge, CI and artifact",
@@ -476,9 +495,9 @@
       "milestone": "1.0.0",
       "headSha": "c946d57a9a74bd7dd9b10890756ed846d39b0f7a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44367219717"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -495,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "4157e335d82af01137ff3712fac01b68c0764070",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44366229491"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1524,25 +1543,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "e0edf5d0590f4534b81694c2689afb50a59911fc",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 570,
-      "title": "feat(video): player YouTube orientato alla lezione, suggerimenti limitati e CTA di completamento",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/570",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T17:01:57Z",
-      "mergedAt": "2026-11-17T17:01:55Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c71fe729cb9bad9e754f8658e1dbe6e026292d95",
       "ci": {
         "status": "unknown",
         "conclusion": null,

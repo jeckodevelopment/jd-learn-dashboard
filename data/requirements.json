@@ -1314,7 +1314,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "13;648",
+    "prs": "13",
     "todo": "Completare precedenze, UI e accomodamenti dei calendari core non coperti; proroghe/edizioni avanzate differite.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-51; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Precedenze/UI e disponibilità formative complete, accomodamenti/accessibilità e tutte le scadenze della baseline.",
     "criteria": "Le finestre già applicate al tentativo sono congelate; proroghe individuali devono essere autorizzate e tracciate. Se un quiz ha una data finale di disponibilità, non consentire un avvio che dia meno tempo del limite previsto; modalità alternativa di troncamento a scadenza solo esplicita e mostrata prima di iniziare"
