@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T20:57:46.381947+00:00",
+  "generatedAt": "2026-11-18T21:00:04.849822+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ff9d4b991c94a7d2d6edd851f12dece9b4129221",
+  "sourceCommit": "c928f917a66f8fa5c68f40f6d5f6b659dc9b579a",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,50 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 651,
+      "title": "feat(QUI-02): conservative trash and restore for question bank",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/651",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T20:58:24Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5e26e9faf3161740bed74be4b664fa6caf25eb6b",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 652,
+      "title": "docs: record reconciliation PR 650 in history",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/652",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T20:59:40Z",
+      "mergedAt": "2026-11-18T20:59:38Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4dc6505ab70fe58362fa766d229809f77981603c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44396649799"
+      }
+    },
     {
       "number": 650,
       "title": "docs: reconcile functional audit batches 7 and 8",
@@ -39,7 +77,7 @@
       "milestone": "1.0.0",
       "headSha": "727e346abeb267bffe0b877a26f9382d01202d42",
       "ci": {
-        "status": "queued",
+        "status": "in_progress",
         "conclusion": null,
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44396397537"
       }
@@ -476,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "5e96c1f02ce89da597d5c74bc0407a53c2d07c27",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44368233834"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1524,25 +1562,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f73d1d736d44ea24d28e237c78cf3a3b4ffcb356",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 571,
-      "title": "feat(youtube): schermata completamento nello spazio del player e replay da inizio",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/571",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T17:28:39Z",
-      "mergedAt": "2026-11-17T17:28:36Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e0edf5d0590f4534b81694c2689afb50a59911fc",
       "ci": {
         "status": "unknown",
         "conclusion": null,
