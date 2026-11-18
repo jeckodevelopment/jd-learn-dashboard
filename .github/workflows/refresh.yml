@@ -8,32 +8,83 @@ on:
   schedule:
     - cron: '7,37 * * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
   group: jdlearn-dashboard-refresh
   cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Update snapshot from source GitHub repository
+      - name: Update snapshot (retry transient GitHub API failures)
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python scripts/sync.py
-      - name: Validate generated JSON
-        run: python -m json.tool data/snapshot.json >/dev/null && python -m json.tool data/requirements.json >/dev/null && python -m json.tool data/history.json >/dev/null
-      - name: Commit changed data
+        shell: bash
         run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if python scripts/sync.py; then
+              echo "Snapshot successfully generated on attempt ${attempt}" >> "$GITHUB_STEP_SUMMARY"
+              break
+            fi
+            if [ "$attempt" = 3 ]; then
+              echo "Snapshot refresh failed after 3 attempts" >> "$GITHUB_STEP_SUMMARY"
+              exit 1
+            fi
+            echo "::warning::Snapshot attempt ${attempt} failed; retrying in 30 seconds"
+            sleep 30
+          done
+      - name: Validate generated JSON and source freshness
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m json.tool data/snapshot.json >/dev/null
+          python -m json.tool data/requirements.json >/dev/null
+          python -m json.tool data/history.json >/dev/null
+          python - <<'PY'
+          import datetime as dt
+          import json
+          from pathlib import Path
+          snapshot = json.loads(Path("data/snapshot.json").read_text())
+          generated = dt.datetime.fromisoformat(snapshot["generatedAt"].replace("Z", "+00:00"))
+          age = (dt.datetime.now(dt.timezone.utc) - generated).total_seconds()
+          if generated.tzinfo is None or not (-60 <= age < 600):
+              raise SystemExit(f"Snapshot freshness check failed: age={age:.0f}s")
+          print(f"Snapshot generated at {snapshot['generatedAt']} from {snapshot['sourceCommit']}")
+          PY
+      - name: Commit refreshed data
+        shell: bash
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/snapshot.json data/requirements.json data/history.json
-          if ! git diff --cached --quiet; then
+          if git diff --cached --quiet; then
+            echo "No data changes" >> "$GITHUB_STEP_SUMMARY"
+          else
             git commit -m "data: refresh JD Learn release status"
             git push
+            echo "Dashboard data committed to main" >> "$GITHUB_STEP_SUMMARY"
           fi
+      - name: Record failure in workflow summary
+        if: failure()
+        shell: bash
+        run: |
+          {
+            echo "## JD Learn dashboard synchronization failed"
+            echo "Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "No stale data were deliberately published. Check failed steps and retry using Run workflow."
+          } >> "$GITHUB_STEP_SUMMARY"
