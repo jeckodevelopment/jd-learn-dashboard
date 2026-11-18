@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:02:27.781890+00:00",
+  "generatedAt": "2026-11-18T18:06:28.212347+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4c8e19d392faf894cacf7cbd0a4676da6730a0b2",
+  "sourceCommit": "d0c3c3825e4a0d1a2ccb8ec49275794e37bfcbc8",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,12 +29,14 @@
       "number": 623,
       "title": "docs(ci): registrare il collaudo end-to-end della sincronizzazione dashboard",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/623",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T17:58:49Z",
-      "mergedAt": null,
-      "labels": [],
-      "milestone": null,
+      "updated": "2026-11-18T18:05:51Z",
+      "mergedAt": "2026-11-18T18:05:48Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
       "headSha": "0d3b31fb8503545553b929d01be81e6a169fb82f",
       "ci": {
         "status": "in_progress",
@@ -549,9 +551,9 @@
       "milestone": "1.0.0",
       "headSha": "d9e1fb77988bdd0be10f3bb8013e87c99a93f8c3",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44192901879"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1547,25 +1549,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 536,
-      "title": "docs(P0 #532): riconcilia PR #535, cache JS e collaudo YouTube aperto",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/536",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T21:51:31Z",
-      "mergedAt": "2026-11-16T21:51:28Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7a9deeacd57af370c2ee11667747d357eaa1f970",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1596,9 +1579,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.3-dev",
-    "createdAt": "2026-11-18T17:59:46Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44363889430/artifacts/14456133242"
+    "name": "JD-Learn-0.60.2-dev",
+    "createdAt": "2026-11-18T18:02:32Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44364626570/artifacts/14455488867"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
