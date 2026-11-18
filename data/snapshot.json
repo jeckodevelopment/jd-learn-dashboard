@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:23:50.649765+00:00",
+  "generatedAt": "2026-11-18T21:25:47.173132+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "6172f6589abbcd37f2a56b9549d547fe14e192eb",
+  "sourceCommit": "a175b812e52655375f6fa181c3af004a1aeeb515",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 660,
+      "title": "docs: record reconciliation PR 658 in history",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/660",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:25:17Z",
+      "mergedAt": "2026-11-18T21:25:15Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "eabd4fb1051b09a64a860367bc0b4fdd11b5a41e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44401164305"
+      }
+    },
     {
       "number": 659,
       "title": "docs: reconcile CAT-02 PR #657 merge, CI and installable package",
@@ -495,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "005e2df1f52ffee347df0da8ca0d38c2d73ed9eb",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44375326666"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1530,25 +1549,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "8a96d619feee65cbd7043ab1d4740eb1191e5861",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 579,
-      "title": "feat(LCM-04): eliminazione definitiva condizionata dei docenti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/579",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:08:55Z",
-      "mergedAt": "2026-11-17T21:08:53Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0e76a5c045deb8224f7bebadd1b8e60282ac11e5",
       "ci": {
         "status": "unknown",
         "conclusion": null,
