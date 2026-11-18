@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:12:20.198552+00:00",
+  "generatedAt": "2026-11-18T21:13:53.904689+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b6bbc2a653b32608d6655967d184dc688562732b",
+  "sourceCommit": "75fee20138fe0b2b6daf588d5f721a239e9f2c45",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 656,
+      "title": "docs: record reconciliation PR 654 in history",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/656",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:13:29Z",
+      "mergedAt": "2026-11-18T21:13:27Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "68cfeac20131af6aeab9081e2770839979f14bb1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44399016714"
+      }
+    },
     {
       "number": 654,
       "title": "docs: reconcile functional audit batches 9 to 11",
@@ -1530,23 +1549,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "809e50b5664855f0cdfa31ad4740a645d441e09c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 576,
-      "title": "feat(LCM-03): cestino e ripristino conservativo dei percorsi formativi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/576",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T20:09:36Z",
-      "mergedAt": "2026-11-17T20:09:34Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "3d2eec3727f4e2d8c34417e9543de6d93b0957c8",
       "ci": {
         "status": "unknown",
         "conclusion": null,
