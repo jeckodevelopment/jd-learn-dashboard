@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:09:46.051915+00:00",
+  "generatedAt": "2026-11-18T21:12:20.198552+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c2c7e7b14519de738a43e6ad78fcbc810a26070a",
+  "sourceCommit": "b6bbc2a653b32608d6655967d184dc688562732b",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,19 +29,19 @@
       "number": 654,
       "title": "docs: reconcile functional audit batches 9 to 11",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/654",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T21:08:47Z",
-      "mergedAt": null,
+      "updated": "2026-11-18T21:11:47Z",
+      "mergedAt": "2026-11-18T21:11:45Z",
       "labels": [
         "documentation"
       ],
       "milestone": "1.0.0",
-      "headSha": "2a315aef6f3b817ff16c7d40ac4dce12a18c6506",
+      "headSha": "db37dc237465cae72cb1085c270ac8882ffac6be",
       "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44398771848"
       }
     },
     {
@@ -514,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "0df2b448a23e2d6a38ca73fcb40a67c235569cde",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371999765"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -533,9 +533,9 @@
       "milestone": "1.0.0",
       "headSha": "853ef27c8246205b9782bf3ddc2d064fa4a8ab6d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371152047"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1547,23 +1547,6 @@
       "labels": [],
       "milestone": "1.0.0",
       "headSha": "3d2eec3727f4e2d8c34417e9543de6d93b0957c8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 575,
-      "title": "feat(LCM-03): archiviazione e ripristino conservativo dei percorsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/575",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T19:48:12Z",
-      "mergedAt": "2026-11-17T19:48:09Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "4002aab8e356fd83d6352487ca83f3576a4667ba",
       "ci": {
         "status": "unknown",
         "conclusion": null,
