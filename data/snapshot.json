@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:40:00.315174+00:00",
+  "generatedAt": "2026-11-18T18:42:48.446964+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f03c746a532b75ef19de2ce7227d044886390c08",
+  "sourceCommit": "c87d1a016f47b68d3893d854324ee4be38963d3f",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,18 +29,18 @@
       "number": 629,
       "title": "fix: distinguish suspended course delivery from restricted access in pathways (0.60.6)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/629",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T18:33:47Z",
-      "mergedAt": null,
+      "updated": "2026-11-18T18:42:19Z",
+      "mergedAt": "2026-11-18T18:42:17Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
       "headSha": "1c7182340d530bd11009dddf7be556319ad1bafc",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371086549"
       }
     },
@@ -1541,25 +1541,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "4d6301aef9f54f7ddd9e3a51a2e89302dd8848fa",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 543,
-      "title": "fix(P0 #532): delegate autoplay permission to YouTube iframe",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/543",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T08:15:53Z",
-      "mergedAt": "2026-11-17T00:08:08Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "489e574a4455192669256f748400edbdcca6c59d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
