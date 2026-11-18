@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T19:08:48.382683+00:00",
+  "generatedAt": "2026-11-18T19:10:04.298392+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a9d991996213ad738d6c15b68fc9582bd38bf030",
+  "sourceCommit": "7c84dc1505a312c0f37df5f76475b9f90d4c05fc",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -42,6 +42,25 @@
         "status": "unknown",
         "conclusion": null,
         "url": null
+      }
+    },
+    {
+      "number": 638,
+      "title": "Audit 1.0.0: provider video, storage e validazione dei dati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/638",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T19:09:40Z",
+      "mergedAt": "2026-11-18T19:09:38Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "506430f12c71e9fd943233c8b6efd11c56e3d7e7",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44377385900"
       }
     },
     {
@@ -1539,25 +1558,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "3cb8bac843ab349901ace6398206e3751fceba87",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 551,
-      "title": "fix(MAIL-10 #547): manually retry failed pre-SMTP template emails after repair",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/551",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T08:50:45Z",
-      "mergedAt": "2026-11-17T08:50:42Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "40731b8bce4c71b83a11ec8920774b974b799a30",
       "ci": {
         "status": "unknown",
         "conclusion": null,
