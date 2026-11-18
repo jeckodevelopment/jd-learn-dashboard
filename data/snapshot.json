@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:06:28.212347+00:00",
+  "generatedAt": "2026-11-18T18:12:23.597736+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d0c3c3825e4a0d1a2ccb8ec49275794e37bfcbc8",
+  "sourceCommit": "a861ee23719a6e6139115a535c0a0593b32621da",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -26,6 +26,25 @@
   },
   "prs": [
     {
+      "number": 625,
+      "title": "fix: close course admissions and delivery when moving to trash (0.60.4)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/625",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:11:56Z",
+      "mergedAt": "2026-11-18T18:11:53Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4157e335d82af01137ff3712fac01b68c0764070",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44366229491"
+      }
+    },
+    {
       "number": 623,
       "title": "docs(ci): registrare il collaudo end-to-end della sincronizzazione dashboard",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/623",
@@ -39,8 +58,8 @@
       "milestone": "1.0.0",
       "headSha": "0d3b31fb8503545553b929d01be81e6a169fb82f",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "cancelled",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44364626570"
       }
     },
@@ -471,9 +490,9 @@
       "milestone": "1.0.0",
       "headSha": "63058a1fde31ae5372aab64193d6d92ec3cf243e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44196422973"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -491,9 +510,9 @@
       "milestone": "1.0.0",
       "headSha": "8fd9808246b86157dbe6eb0578fe2af4d5bb9f16",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44195632602"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -511,9 +530,9 @@
       "milestone": "1.0.0",
       "headSha": "ef70493057dbe65fc84565688506fccb2d18bf90",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44194678391"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -531,9 +550,9 @@
       "milestone": "1.0.0",
       "headSha": "266ca4e109e2bf1e1b90a565428f1660b8cd7845",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44193835617"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1530,25 +1549,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 537,
-      "title": "fix(P0 #532): bind metadata fetch safely on Safari/WebKit",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/537",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T22:36:30Z",
-      "mergedAt": "2026-11-16T22:36:28Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "24ae8d56d0a4ef360aaf09d04c0f04197589c1b5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1579,9 +1579,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.2-dev",
-    "createdAt": "2026-11-18T18:02:32Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44364626570/artifacts/14455488867"
+    "name": "JD-Learn-0.60.4-dev",
+    "createdAt": "2026-11-18T18:11:18Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44366229491/artifacts/14457216205"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
