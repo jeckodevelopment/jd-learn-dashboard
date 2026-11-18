@@ -162,19 +162,26 @@ def main():
     packages.sort(key=lambda a: a.get("created_at", ""), reverse=True)
     latest = packages[0] if packages else None
     estimate = evidence.get("current_implementation_estimate") or {}
-    macro = estimate.get("macroareas") or {}
-    estimate_as_of = estimate.get("as_of")
+    progress = estimate.get("development_evidence_floor_percent", estimate.get("percent"))
+    manual_progress = estimate.get("manual_acceptance_coverage_percent")
+    manual_acceptance = estimate.get("manual_acceptance") or {}
     estimate_basis = estimate.get("basis", "")
-    progress = round(sum(macro.values()) / len(macro), 2) if macro else None
+    for label, value in (("development", progress), ("manual acceptance", manual_progress)):
+        if not isinstance(value, (int, float)) or not 0 <= value <= 100:
+            raise RuntimeError("Missing or invalid " + label + " progress evidence")
+    if not isinstance(manual_acceptance, dict):
+        raise RuntimeError("Missing manual acceptance summary")
     snapshot = {
         "schema": 2,
         "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
         "source": "https://github.com/jeckodevelopment/jd_learn",
         "sourceCommit": api("/commits/main").get("sha"),
-        "progress": progress,
-        "progressAsOf": estimate_as_of,
+        "progress": progress,  # Backward-compatible alias for development progress.
+        "developmentProgress": progress,
+        "manualAcceptanceProgress": manual_progress,
+        "manualAcceptance": manual_acceptance,
+        "progressAsOf": evidence.get("updated_at"),
         "progressBasis": estimate_basis,
-        "macroareas": macro,
         "counts": {
             "requirements": len(requirements),
             "prOpen": len(pulls),

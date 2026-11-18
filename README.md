@@ -28,3 +28,13 @@ Oltre al cron semiorario e all'avvio manuale, il workflow `refresh.yml` accetta 
 **Configurazione una tantum necessaria:** creare un fine-grained personal access token limitato al solo repository `jeckodevelopment/jd-learn-dashboard`, autorizzazione repository `Contents: Read and write` (necessaria per `POST /repos/{owner}/{repo}/dispatches`). Salvare il token come secret Actions `DASHBOARD_DISPATCH_TOKEN` nel repository `jeckodevelopment/jd_learn`. Non inserirlo nel codice, nel sito o nei log. In alternativa utilizzare un GitHub App installation token con autorizzazione equivalente e provisioning gestito.
 
 In assenza del secret, il job del repository sorgente mostra un warning e termina senza errori; i refresh schedulati restano operativi. Dopo la configurazione verificare un nuovo push/merge su `jd_learn/main`, il job `Notify JD Learn release dashboard`, la run `Refresh JD Learn dashboard data` di tipo `repository_dispatch`, e il timestamp `generatedAt` in `data/snapshot.json`. L'interfaccia della dashboard legge direttamente il JSON dal repository.
+
+
+## Misure di avanzamento JD Learn 1.0.0
+
+La dashboard mostra due percentuali indipendenti, entrambe derivate dalle evidenze ufficiali nel repository `jeckodevelopment/jd_learn`:
+
+- `developmentProgress`: soglia minima confermata dalle evidenze funzionali; i criteri non verificabili o non valutati non contribuiscono come completati.
+- `manualAcceptanceProgress`: requisiti del perimetro 1.0.0 con un esito di collaudo manuale registrato (anche parziale), sul totale dei requisiti in perimetro. La CI non incrementa questa copertura; un esito parziale non equivale ad accettazione completa.
+
+Lo snapshot mantiene `progress` come alias retrocompatibile di `developmentProgress`. Il conteggio dei requisiti con esito, non eseguiti, parziali e accettati è esposto in `manualAcceptance`. I collaudi Joomla possono essere registrati successivamente nella matrice e nel registro delle evidenze manuali.

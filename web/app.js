@@ -139,23 +139,24 @@ function evolutionRows(limit=8){
  }).join("");
 }
 function home(){
-const s=model.snapshot,action=requirementsByAction(),progress=Number(s.progress);
-const bar=Number.isFinite(progress)?Math.max(0,Math.min(100,progress)):0;
+const s=model.snapshot,action=requirementsByAction(),progress=Number(s.developmentProgress??s.progress);
+const developmentBar=Number.isFinite(progress)?Math.max(0,Math.min(100,progress)):0;
+const manualProgress=Number(s.manualAcceptanceProgress);
+const manualBar=Number.isFinite(manualProgress)?Math.max(0,Math.min(100,manualProgress)):0;
+const manualSummary=s.manualAcceptance||{};
 const recent=[...s.prs].filter(p=>p.status==="merged").sort((a,b)=>(b.mergedAt||"").localeCompare(a.mergedAt||"")).slice(0,4);
 const next=action.out.slice(0,5);
 const completedReq=model.requirements.filter(r=>inScope(r)&&completed(r)).length;
 const partialReq=model.requirements.filter(r=>inScope(r)&&stateValue(r)==="parziale").length;
 const notStarted=model.requirements.filter(r=>inScope(r)&&stateValue(r)==="non iniziata").length;
-const macroNames={courses:"Corsi e lezioni",catalogue:"Catalogo",learning_progress:"Progressi",video_materials:"Video e materiali",enrollment:"Iscrizioni",joomla_integrations:"Integrazione Joomla",release_preparation:"Preparazione rilascio",email_notifications:"Email",certificates:"Attestati"};
-const macro=Object.entries(s.macroareas||{}).map(([key,value])=>'<div class="macro-item"><div><span>'+esc(macroNames[key]||key)+'</span><strong>'+pct(value)+'</strong></div><div class="meter"><span style="width:'+Math.max(0,Math.min(100,Number(value)||0))+'%"></span></div></div>').join("");
+
 return pageHeader("Control Center","Prossime decisioni, avanzamento documentato e verifiche residue per il rilascio stabile.")+
-'<div class="card progress-card"><div><h2>Stima di implementazione funzionale</h2><p>Fonte: evidenze di sviluppo · valutazione al '+esc(s.progressAsOf||"data non disponibile")+'</p></div><div class="value">'+esc(pct(s.progress))+'</div><div class="meter"><span style="width:'+bar+'%"></span></div><p class="secondary">Stima documentata, non calcolata contando PR, né attestazione dei collaudi. '+href(s.links.evidence||s.links.matrix,"Apri motivazione e evidenze ↗")+'</p></div>'+
+'<div class="release-grid progress-pair"><div class="card progress-card"><div><h2>Avanzamento dello sviluppo</h2><p>Minimo confermato dalle evidenze funzionali documentate.</p></div><div class="value">'+esc(pct(progress))+'</div><div class="meter"><span style="width:'+developmentBar+'%"></span></div><p class="secondary">Criteri non verificabili o non valutati non aumentano questa percentuale. '+href(s.links.evidence||s.links.matrix,"Apri evidenze ↗")+'</p></div><div class="card progress-card"><div><h2>Copertura dei collaudi manuali</h2><p>Requisiti con almeno un esito registrato · Joomla</p></div><div class="value">'+esc(pct(manualProgress))+'</div><div class="meter"><span style="width:'+manualBar+'%"></span></div><p class="secondary">'+nFormat(manualSummary.requirements_with_recorded_result||0)+' con esito · '+nFormat(manualSummary.requirements_not_run||0)+' non eseguiti · '+nFormat(manualSummary.requirements_passed||0)+' accettati. La CI non contribuisce.</p></div></div>'+
 '<div class="stats">'+stat(completedReq,"Requisiti completati · 1.0.0/misto")+stat(partialReq,"Requisiti parziali")+stat(notStarted,"Non iniziati")+stat(action.development.length,"Residui implementativi identificati")+'</div>'+
 section("Prossime azioni di sviluppo","P0/P1 → PR aperte → requisiti 1.0.0 → requisiti misti")+
 '<div class="tasks">'+(next.length?next.map((a,i)=>a.url?'<article class="task"><div class="rank">'+String(i+1).padStart(2,"0")+'</div><div><h3>'+href(a.url,a.title)+'</h3><p>'+esc(a.desc)+'</p></div><div class="meta">'+chip(a.tag,a.kind)+'</div></article>':task(a.title,a.desc,a.tag,a.kind,a.id,i+1)).join(""):'<div class="card empty">Nessuna azione ricavabile dalle evidenze disponibili.</div>')+'</div>'+
 '<p class="note" style="margin-top:9px">Le attività sono selezionate dalle fonti GitHub e dai residui dichiarati nella matrice. Le verifiche Joomla sono intenzionalmente escluse dalle prossime azioni di sviluppo.</p>'+
-section("Avanzamento per area","Stime documentate, non percentuali di requisiti contati")+
-'<div class="card package-card"><div class="macro-grid">'+macro+'</div></div>'+
+'<div class="notice">Le percentuali sono calcolate separatamente dalle evidenze ufficiali: sviluppo funzionale e collaudo manuale, che può essere completato anche in seguito. '+href(s.links.qaGuide||s.links.qaRegistry,"Come registrare i collaudi ↗")+'</div>'+
 section("Cosa è cambiato","Differenze osservate fra sincronizzazioni")+
 '<div class="card evolution-list">'+evolutionRows(5)+'</div>'+
 section("Ultime PR integrate","Storico delle modifiche al codice")+
@@ -248,7 +249,7 @@ function testing(){
  rows=rows.filter(r=>(r.id+" "+r.criteria+" "+r.tests+" "+r.manual).toLowerCase().includes(model.query.toLowerCase()));
  const source=model.snapshot.links.testbook||SOURCE+"/blob/main/docs/QA_TESTBOOK.md";
  return pageHeader("Collaudi Joomla","Accettazione funzionale manuale, distinta dal merge della PR e dall’esito della CI.")+
- '<div class="stats">'+stat(pending.length,"Accettazioni pendenti")+stat(notRun,"Non eseguite")+stat(partial,"Parziali")+stat(approved.length,"Accettate")+'</div>'+
+ '<div class="release-grid progress-pair"><div class="card progress-card"><div><h2>Copertura collaudo manuale</h2><p>Requisiti con un esito almeno parziale</p></div><div class="value">'+esc(pct(model.snapshot.manualAcceptanceProgress))+'</div><div class="meter"><span style="width:'+Math.max(0,Math.min(100,Number(model.snapshot.manualAcceptanceProgress)||0))+'%"></span></div><p class="secondary">Esiti completi e parziali registrati nella matrice; nessun esito CI viene contato.</p></div><div class="card progress-card"><div><h2>Sviluppo funzionale</h2><p>Misura separata dai collaudi</p></div><div class="value">'+esc(pct(model.snapshot.developmentProgress??model.snapshot.progress))+'</div><div class="meter"><span style="width:'+Math.max(0,Math.min(100,Number(model.snapshot.developmentProgress??model.snapshot.progress)||0))+'%"></span></div><p class="secondary">Minimo confermato dalle evidenze funzionali.</p></div></div>'+'<div class="stats">'+stat(pending.length,"Accettazioni pendenti")+stat(notRun,"Non eseguite")+stat(partial,"Parziali")+stat(approved.length,"Accettate")+'</div>'+
  '<div class="notice">Fonte: matrice requisiti · '+href(model.snapshot.links.matrix,"Stati di accettazione ↗")+' · '+href(source,"Piano e prove di collaudo ↗")+'. Le build sono visualizzate solo per gli scenari con evidenza strutturata; per gli altri non attribuiamo versioni. Registro versionato: '+href(model.snapshot.links.qaRegistry||source,"Evidenze con build ↗")+'. Un caso parziale superato non certifica il requisito. Nessuna modifica ai collaudi dalla dashboard.</div>'+
  toolbar({placeholder:"Cerca verifiche Joomla…",filters:options,count:rows.length})+
  '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(r=>'<article class="data-row"><div><div class="id">'+esc(r.id)+' · '+esc(areaNames[r.area]||r.area)+'</div><strong>'+excerpt(r.tests||r.criteria,220)+'</strong><p class="desc">Implementazione: '+esc(r.state)+' · Accettazione: '+esc(r.manual)+'</p><p class="desc">'+(qaCasesFor(r.id).length?qaCasesFor(r.id).map(c=>'Verifica '+esc(c.scope==='partial'?'parziale':'completa')+' · '+esc(c.build?.version||'build non nota')+' · '+esc(c.tested_at)).join(' | '):'Nessuna evidenza versionata registrata')+'</p></div><div class="row-meta">'+chip(r.manual,accepted(r)?"ok":"")+'<button data-detail="'+esc(r.id)+'">Apri →</button></div></article>').join(""):'<div class="empty">Nessuna verifica corrispondente.</div>')+'</div>';
