@@ -20,3 +20,11 @@ A ogni avvio, lo script prova fino a tre volte a produrre lo snapshot se incontr
 La UI segnala dati **non aggiornati** dopo 90 minuti. Per diagnosticare un blocco, verificare l'ultimo commit di `data/snapshot.json` e la cronologia del workflow: se mancano del tutto le esecuzioni, controllare se GitHub ha disabilitato il workflow schedulato (per inattività o impostazioni Actions); in tal caso il retry nello script non può risolvere il mancato avvio. Se invece i run sono presenti e falliti, consultare lo step fallito. Dopo il ripristino, avviare manualmente il workflow e verificare la data `generatedAt`.
 
 La pubblicazione dei file statici via SFTP è indipendente e resta di competenza di `jeckodevsite`. Il browser legge i dati direttamente dalla repository dedicata.
+
+## Aggiornamento su merge JD Learn
+
+Oltre al cron semiorario e all'avvio manuale, il workflow `refresh.yml` accetta l'evento `repository_dispatch` di tipo `jdlearn-main-updated`. Il repository sorgente invia questo evento ad ogni push su `main` tramite `.github/workflows/notify-dashboard.yml`. I merge su main sono quindi coperti, anche quando il trigger a tempo tarda.
+
+**Configurazione una tantum necessaria:** creare un fine-grained personal access token limitato al solo repository `jeckodevelopment/jd-learn-dashboard`, autorizzazione repository `Contents: Read and write` (necessaria per `POST /repos/{owner}/{repo}/dispatches`). Salvare il token come secret Actions `DASHBOARD_DISPATCH_TOKEN` nel repository `jeckodevelopment/jd_learn`. Non inserirlo nel codice, nel sito o nei log. In alternativa utilizzare un GitHub App installation token con autorizzazione equivalente e provisioning gestito.
+
+In assenza del secret, il job del repository sorgente mostra un warning e termina senza errori; i refresh schedulati restano operativi. Dopo la configurazione verificare un nuovo push/merge su `jd_learn/main`, il job `Notify JD Learn release dashboard`, la run `Refresh JD Learn dashboard data` di tipo `repository_dispatch`, e il timestamp `generatedAt` in `data/snapshot.json`. L'interfaccia della dashboard legge direttamente il JSON dal repository.
