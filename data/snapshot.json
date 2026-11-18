@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:25:29.564680+00:00",
+  "generatedAt": "2026-11-18T18:35:32.654885+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "606f1d55edd55621cbf9d3070c04ecb7d89f844b",
+  "sourceCommit": "2ca19c6dd99c257f1439b525afd12a2d8a684149",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,50 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 629,
+      "title": "fix: distinguish suspended course delivery from restricted access in pathways (0.60.6)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/629",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T18:33:47Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1c7182340d530bd11009dddf7be556319ad1bafc",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371086549"
+      }
+    },
+    {
+      "number": 630,
+      "title": "docs: expose actual 1.0.0 functional criteria audit backlog",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/630",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:34:58Z",
+      "mergedAt": "2026-11-18T18:34:55Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "853ef27c8246205b9782bf3ddc2d064fa4a8ab6d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371152047"
+      }
+    },
     {
       "number": 628,
       "title": "docs: reconcile PR #627 merge, CI and 0.60.5 build",
@@ -335,9 +373,9 @@
       "milestone": "1.0.0",
       "headSha": "57eb7df69dbe61c5f8b6dfa1defd3472ca6dff92",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44272506070"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -354,9 +392,9 @@
       "milestone": "1.0.0",
       "headSha": "484387ccc57c5a877b8ac668b1ce087b0d205ed6",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44270668090"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -373,9 +411,9 @@
       "milestone": "1.0.0",
       "headSha": "44fe01cf25e3ba94e7752302bae88bc614e09bb4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44259770260"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -392,9 +430,9 @@
       "milestone": "1.0.0",
       "headSha": "73cf113caf33a5fdbfc8c3ffc50e7736a09fba97",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44259405041"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1523,25 +1561,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c04aaae117c896d54a3d5bf92445a68b5ce5db20",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 541,
-      "title": "fix(P0 #532): attach YouTube IFrame API before iframe navigation finishes",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/541",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T00:00:02Z",
-      "mergedAt": "2026-11-16T23:59:59Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "858d6c301e8ca9710c04c3abef4e88b0845a3643",
       "ci": {
         "status": "unknown",
         "conclusion": null,
