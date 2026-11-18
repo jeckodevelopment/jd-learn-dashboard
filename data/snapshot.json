@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T19:17:10.710490+00:00",
+  "generatedAt": "2026-11-18T19:19:16.172425+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c0564064951b77cfc4dead863a454f4427de4b39",
+  "sourceCommit": "28859210068fb7c1a5a7ac9ce6fd61051293ac4b",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 640,
+      "title": "docs: reconcile PR #639 archive Finder CI and 0.60.8 artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/640",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T19:18:47Z",
+      "mergedAt": "2026-11-18T19:18:45Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "af4732a138007a42b8b13eb8830431828681ce81",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44379036571"
+      }
+    },
     {
       "number": 636,
       "title": "fix: refresh Smart Search after committed archive/restore workflow (0.60.8)",
@@ -1521,25 +1540,6 @@
       "labels": [],
       "milestone": "1.0.0",
       "headSha": "9c3d32a22647810e9fa7daa354157379acbed464",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 556,
-      "title": "fix(certificates): snapshot delle preferenze effettive alla pubblicazione (#553)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/556",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T09:25:12Z",
-      "mergedAt": "2026-11-17T09:25:09Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "50250b4516df2d73a0af747c8a7ea9f138a4482c",
       "ci": {
         "status": "unknown",
         "conclusion": null,
