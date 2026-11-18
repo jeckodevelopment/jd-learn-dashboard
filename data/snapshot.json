@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T22:04:15.602341+00:00",
+  "generatedAt": "2026-11-18T22:12:37.976781+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e00b850f976a2b4574dff1b2c74f085937d740f3",
+  "sourceCommit": "35f6815b64d45eeae1c09e7a81055ad003bb4429",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 669,
+      "title": "feat(SCR-01): clear catalog filters from empty search results",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/669",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T22:12:07Z",
+      "mergedAt": "2026-11-18T22:12:05Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3327f3d6bacd8c98e69c4fefe613384be3f8a609",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44408381363"
+      }
+    },
     {
       "number": 668,
       "title": "docs: record SCR-05 PR 667 merge and installable artifact",
@@ -515,9 +534,9 @@
       "milestone": "1.0.0",
       "headSha": "885d4dbfab96429761a49ab04006f086b8848f2d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44386551261"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1531,26 +1550,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 590,
-      "title": "docs(progress): registrare prima tranche audit funzionale e merge #588",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/590",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:10:34Z",
-      "mergedAt": "2026-11-17T22:10:31Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2e4160c3561f728a04f2d1cd9182be76626a840b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1582,8 +1581,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T22:00:30Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44406651165/artifacts/14475341488"
+    "createdAt": "2026-11-18T22:10:54Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44408381297/artifacts/14477211344"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
