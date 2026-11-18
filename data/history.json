@@ -1,6 +1,103 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-17T22:28:40.245992+00:00",
-  "events": []
+  "generatedAt": "2026-11-18T02:50:37.727377+00:00",
+  "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T01:58:34Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 605,
+      "title": "docs(evidence): allineare audit 129/214 dopo #603/#604",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/605"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T23:57:49Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 604,
+      "title": "docs(progress): rendicontazione post-merge audit UI/PERF #603",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/604"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T23:56:13Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 603,
+      "title": "docs(progress): audit UI, accessibilità e prestazioni della 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/603"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T23:48:53Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 602,
+      "title": "docs: riconciliare evidenze storiche e audit funzionale post-#578",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/602"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T23:07:31Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 601,
+      "title": "docs(progress): registrare merge e CI audit sicurezza/core #600",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/601"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T23:05:47Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 600,
+      "title": "docs(progress): audit sicurezza, privacy, configurazione e core Joomla 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/600"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T22:55:59Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 599,
+      "title": "docs(progress): rendicontazione post-merge audit NOT/MAIL/CERT/JOO #598",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/599"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T22:54:38Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 598,
+      "title": "docs(progress): audit MAIL, CERT, NOT e integrazione Joomla per JD Learn 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/598"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T22:44:53Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 597,
+      "title": "docs(progress): rendicontazione post-merge audit LES/VID/MAT #596",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/597"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T22:43:06Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 596,
+      "title": "docs(progress): audit criteri lezioni, video e materiali JD Learn 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/596"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T22:31:08Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 595,
+      "title": "docs(privacy): anonimizzare riferimenti alle installazioni di prova (recupero #589)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/595"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-17T22:30:43Z",
+      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
+      "number": 594,
+      "title": "docs(progress): audit criteri ISC/STU/PRO per JD Learn 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/594"
+    }
+  ]
 }
