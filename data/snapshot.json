@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:49:23.733073+00:00",
+  "generatedAt": "2026-11-18T21:50:55.685585+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d059e60bcad11fd57d1ccbe4cb3fb76c9cb0f9d8",
+  "sourceCommit": "f858f947dfc896790667c2a980c6bcaedd9ce92c",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -42,6 +42,25 @@
         "status": "in_progress",
         "conclusion": null,
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404288357"
+      }
+    },
+    {
+      "number": 666,
+      "title": "docs: record completion of 1.0.0 reconciliation",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/666",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:50:24Z",
+      "mergedAt": "2026-11-18T21:50:21Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e58e9aaedbd6b5203498fc9d7c57d0f3ce25c985",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44405516459"
       }
     },
     {
@@ -1547,26 +1566,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "b5a872036e54bb77e36fe7af0aadf4be629e1228",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 585,
-      "title": "docs(LCM-05): evidenze post-merge PR #584",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/585",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:42:46Z",
-      "mergedAt": "2026-11-17T21:42:43Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "377a3e77607322545da8db4e24ed9e63cf478269",
       "ci": {
         "status": "unknown",
         "conclusion": null,
