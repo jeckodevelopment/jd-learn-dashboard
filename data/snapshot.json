@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:13:53.904689+00:00",
+  "generatedAt": "2026-11-18T21:22:05.821884+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "75fee20138fe0b2b6daf588d5f721a239e9f2c45",
+  "sourceCommit": "00b2fee6345990ddd9503962a30bc0e96d23d6b2",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,48 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 658,
+      "title": "docs: reconcile functional audit batch 12",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/658",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T21:21:37Z",
+      "mergedAt": null,
+      "labels": [],
+      "milestone": null,
+      "headSha": "dc0f3db55106145d11ac188c5946e972b71ffa6f",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 657,
+      "title": "feat(CAT-02): show published completion criteria on course page",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/657",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:21:33Z",
+      "mergedAt": "2026-11-18T21:21:31Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9c38badf8327ae6bb7ea6475a0e0402fa1bdaa76",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44399697715"
+      }
+    },
     {
       "number": 656,
       "title": "docs: record reconciliation PR 654 in history",
@@ -476,9 +512,9 @@
       "milestone": "1.0.0",
       "headSha": "62bb399817938af53b26c07eb82208b8cb6e5eeb",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44373913477"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -495,9 +531,9 @@
       "milestone": "1.0.0",
       "headSha": "ed4d572b1482e16155f8389283e3fadbca988f71",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44372734513"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1535,25 +1571,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 577,
-      "title": "feat(LCM-03): azioni massive e cancellazione protetta dei percorsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/577",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T20:27:19Z",
-      "mergedAt": "2026-11-17T20:27:16Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "809e50b5664855f0cdfa31ad4740a645d441e09c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1585,8 +1602,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T21:07:02Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44397201627/artifacts/14471897362"
+    "createdAt": "2026-11-18T21:19:54Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44399697715/artifacts/14472228446"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
