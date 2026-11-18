@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T17:46:25.840512+00:00",
+  "generatedAt": "2026-11-18T18:00:48.961050+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "778d60e0471a3e8a5989fd1681a597b528d8f1db",
+  "sourceCommit": "c138a83e6e1cc24512a9999ae59659154a43c79c",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,20 +19,75 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 2,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
     {
+      "number": 623,
+      "title": "docs(ci): registrare il collaudo end-to-end della sincronizzazione dashboard",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/623",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T17:58:49Z",
+      "mergedAt": null,
+      "labels": [],
+      "milestone": null,
+      "headSha": "0d3b31fb8503545553b929d01be81e6a169fb82f",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44364626570"
+      }
+    },
+    {
+      "number": 622,
+      "title": "fix: block individual enrollment reactivation when course delivery is closed (0.60.3)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/622",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:00:18Z",
+      "mergedAt": "2026-11-18T18:00:15Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fa1bec6e7af724c9941865af4117858255dcd029",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44363889445"
+      }
+    },
+    {
+      "number": 620,
+      "title": "ci: notifica dashboard di rilascio a ogni aggiornamento di main",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/620",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T17:53:27Z",
+      "mergedAt": "2026-11-18T17:53:25Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a84dc739d1a9690e33526ddc03338eac9e8f7fbe",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44362906727"
+      }
+    },
+    {
       "number": 621,
       "title": "docs: reconcile PR #619 merge, CI and package evidence",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/621",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T17:46:01Z",
-      "mergedAt": null,
+      "updated": "2026-11-18T17:46:31Z",
+      "mergedAt": "2026-11-18T17:46:28Z",
       "labels": [
         "documentation"
       ],
@@ -42,23 +97,6 @@
         "status": "completed",
         "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44362285933"
-      }
-    },
-    {
-      "number": 620,
-      "title": "ci: notifica dashboard di rilascio a ogni aggiornamento di main",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/620",
-      "status": "open",
-      "draft": false,
-      "updated": "2026-11-18T17:45:54Z",
-      "mergedAt": null,
-      "labels": [],
-      "milestone": null,
-      "headSha": "e520da0da94a6cc21091e689cef072bf729fe3f4",
-      "ci": {
-        "status": "in_progress",
-        "conclusion": null,
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44362274364"
       }
     },
     {
@@ -531,9 +569,9 @@
       "milestone": "1.0.0",
       "headSha": "9a5aa82ab7db608d8417f6a42d97791ec2b24ffa",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186526700"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -571,9 +609,9 @@
       "milestone": "1.0.0",
       "headSha": "9b1c525e1261305180396c5be6c1344a648f23a4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44189730714"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -591,9 +629,9 @@
       "milestone": "1.0.0",
       "headSha": "a0600f4005b3021a5b9e8d8d005662a58fb4a82e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44189034983"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -611,9 +649,9 @@
       "milestone": "1.0.0",
       "headSha": "f0fa386ec13b3d17df1cd335d7efacac2f24cdac",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44188022680"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -631,9 +669,9 @@
       "milestone": "1.0.0",
       "headSha": "ab3f3267de4f3297a55bc36f69cb7ebeafb96ede",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44187763829"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -651,9 +689,9 @@
       "milestone": "1.0.0",
       "headSha": "2e4160c3561f728a04f2d1cd9182be76626a840b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44187290116"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -671,9 +709,9 @@
       "milestone": "1.0.0",
       "headSha": "af3a6a6b3bf42bdbf1aab56345286474cc9b7a76",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44186361405"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -691,9 +729,9 @@
       "milestone": "1.0.0",
       "headSha": "7d23ba67b8453b14549e69b6a673ed1fb8810842",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44185004127"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1528,63 +1566,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 533,
-      "title": "fix(P0 #532): diagnostica YouTube editor, CSP/referrer e identificazione embed",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/533",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T21:40:54Z",
-      "mergedAt": "2026-11-16T21:25:00Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4d3f71d9c578e908851209d7f0d731ea3ff4f52e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 531,
-      "title": "docs(AUT-03): registra merge #530, CI e pacchetto Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/531",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T21:39:58Z",
-      "mergedAt": "2026-11-16T21:05:40Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "33d11d8522941d7eee54a6f30ae595db39b27e25",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 534,
-      "title": "docs(P0): riconcilia #533 e mantiene aperta la verifica YouTube #532",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/534",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T21:29:25Z",
-      "mergedAt": "2026-11-16T21:26:29Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "74cb8167b25c3351d35bb2de67d0ddcb06833951",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1615,9 +1596,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.2-dev",
-    "createdAt": "2026-11-18T17:41:53Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44360777691/artifacts/14454766049"
+    "name": "JD-Learn-0.60.3-dev",
+    "createdAt": "2026-11-18T17:59:46Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44363889430/artifacts/14456133242"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

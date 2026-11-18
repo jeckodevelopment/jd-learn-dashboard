@@ -2689,7 +2689,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "617;619",
+    "prs": "617;619;622",
     "todo": "Ricontrollo trasversale dei blocchi dei producer, download, migrazioni, notifiche e storico e accettazione su Joomla reale.",
     "tests": "Testare accesso delle iscrizioni pregresse dopo archiviazione e ripristino; riapertura solo esplicita; preservazione attestati e storico; ACL e URL diretti.",
     "criteria": "Archiviazione corsi: blocco nuove iscrizioni e fruizione anche da endpoint diretti; preservare storico personale, frequenze, progressi e attestati; riattivazione senza riapertura automatica"

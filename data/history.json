@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T17:46:25.840512+00:00",
+  "generatedAt": "2026-11-18T18:00:48.961050+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T18:00:15Z",
+      "commit": "c138a83e6e1cc24512a9999ae59659154a43c79c",
+      "number": 622,
+      "title": "fix: block individual enrollment reactivation when course delivery is closed (0.60.3)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/622"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T17:53:25Z",
+      "commit": "c138a83e6e1cc24512a9999ae59659154a43c79c",
+      "number": 620,
+      "title": "ci: notifica dashboard di rilascio a ogni aggiornamento di main",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/620"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T17:46:28Z",
+      "commit": "c138a83e6e1cc24512a9999ae59659154a43c79c",
+      "number": 621,
+      "title": "docs: reconcile PR #619 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/621"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T17:44:39Z",
