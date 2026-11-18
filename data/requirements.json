@@ -2697,12 +2697,12 @@
   {
     "id": "LCM-02",
     "area": "LCM",
-    "state": "Non iniziata",
+    "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "",
-    "todo": "Corsi: toolbar e filtri Joomla, cestinazione/ripristino, eliminazione fisica vietata in presenza di utenti o dipendenze storiche",
-    "tests": "Verifiche descritte in docs/LIFECYCLE_1.0.0_APPROVED.md; registrare esiti QA_TESTBOOK.md",
+    "prs": "613;614",
+    "todo": "Purga condizionata su corso senza riferimenti didattici/storici e conferma dell'audit ACL completo; cestinazione/ripristino realizzati nella 0.59.0.",
+    "tests": "Verificare ACL per ruoli limitati su selezioni massive; storico e attestati, aggiornamento Joomla e collaudo sito reale.",
     "criteria": "Corsi: toolbar e filtri Joomla, cestinazione/ripristino, eliminazione fisica vietata in presenza di utenti o dipendenze storiche"
   },
   {

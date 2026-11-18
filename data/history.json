@@ -1,8 +1,88 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T02:50:37.727377+00:00",
+  "generatedAt": "2026-11-18T11:29:21.033128+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-18T11:29:21.033128+00:00",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "id": "LCM-02",
+      "from": "Non iniziata",
+      "to": "Parziale"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T11:29:13Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 614,
+      "title": "feat: atomic course trash and conservative restore (0.59.0)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/614"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T09:29:23Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 613,
+      "title": "feat: show archived courses in native Joomla administrator list (0.58.0)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/613"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T09:05:03Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 612,
+      "title": "docs: consolidate all 214 requirements and record verified lifecycle gaps",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/612"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T08:52:23Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 611,
+      "title": "docs: reconcile four ACL/security criteria with direct-request evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/611"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T07:33:35Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 610,
+      "title": "docs: reconcile course lifecycle guarantees and identify LCM-01/02 gaps",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/610"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T07:30:56Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 609,
+      "title": "docs: reconcile frontend implementation evidence for 10 criteria",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/609"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T07:09:11Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 608,
+      "title": "docs: verify provider architecture criteria against implementation evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/608"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T07:04:22Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 607,
+      "title": "docs: complete 1.0.0 requirement criteria inventory (214/214)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/607"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T06:55:48Z",
+      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+      "number": 606,
+      "title": "docs: reconcile 12 additional 1.0.0 requirements (tranche 8)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/606"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T01:58:34Z",
