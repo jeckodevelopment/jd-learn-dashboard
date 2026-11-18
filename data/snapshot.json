@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T22:26:52.467589+00:00",
+  "generatedAt": "2026-11-18T22:30:26.628469+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d38ed08bebcf0d2deb654ba70e618505bac59d0a",
+  "sourceCommit": "52be71fd69495341f5e70f09ff54ed31fe53da37",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,18 +29,18 @@
       "number": 672,
       "title": "feat(SCR-01): order published courses by estimated duration",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/672",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T22:24:10Z",
-      "mergedAt": null,
+      "updated": "2026-11-18T22:30:02Z",
+      "mergedAt": "2026-11-18T22:30:00Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
       "headSha": "81445a6a018883b1c91831055fb154d877fb4860",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44411232827"
       }
     },
@@ -1549,26 +1549,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 593,
-      "title": "docs(progress): registrare integrazione audit CAT/AUT #592",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/593",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:20:40Z",
-      "mergedAt": "2026-11-17T22:20:38Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a0600f4005b3021a5b9e8d8d005662a58fb4a82e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1600,8 +1580,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T22:21:33Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44410207063/artifacts/14475609052"
+    "createdAt": "2026-11-18T22:29:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44411232827/artifacts/14478185261"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

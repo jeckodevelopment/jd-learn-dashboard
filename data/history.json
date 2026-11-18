@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T22:26:52.467589+00:00",
+  "generatedAt": "2026-11-18T22:30:26.628469+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T22:30:00Z",
+      "commit": "52be71fd69495341f5e70f09ff54ed31fe53da37",
+      "number": 672,
+      "title": "feat(SCR-01): order published courses by estimated duration",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/672"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T22:26:28Z",
