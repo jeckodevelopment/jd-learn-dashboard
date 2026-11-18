@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:44:31.188944+00:00",
+  "generatedAt": "2026-11-18T18:54:36.932920+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f8aa0bfd4c3661357ca8610aac53ddc5cfdfb209",
+  "sourceCommit": "71585010aaeb7b55ba3a94d20c266cc815a39f78",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 633,
+      "title": "fix: refresh Smart Search after course trash and restore (0.60.7)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/633",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:54:02Z",
+      "mergedAt": "2026-11-18T18:53:59Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "62bb399817938af53b26c07eb82208b8cb6e5eeb",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44373913477"
+      }
+    },
     {
       "number": 632,
       "title": "docs: reconcile PR #629 CI and 0.60.6 package evidence",
@@ -392,9 +411,9 @@
       "milestone": "1.0.0",
       "headSha": "d97b957b58ec82f01a2ecccf75e6480db250057d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44275416929"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1526,25 +1545,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 545,
-      "title": "fix(mail): populate required Joomla template tokens on video course completion",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/545",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T08:24:09Z",
-      "mergedAt": "2026-11-17T08:24:07Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3c9d6868049891ad0754fc99e04ce0029f691368",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1575,9 +1575,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.6-dev",
-    "createdAt": "2026-11-18T18:37:49Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371086549/artifacts/14458874147"
+    "name": "JD-Learn-0.60.7-dev",
+    "createdAt": "2026-11-18T18:53:21Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44373913398/artifacts/14461081746"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
