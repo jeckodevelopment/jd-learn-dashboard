@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:54:36.932920+00:00",
+  "generatedAt": "2026-11-18T18:56:05.425830+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "71585010aaeb7b55ba3a94d20c266cc815a39f78",
+  "sourceCommit": "5eaa2f664ade987b0970cfe6386bb17edf18b26b",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 634,
+      "title": "docs: reconcile PR #633 merge, CI and 0.60.7 artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/634",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:55:39Z",
+      "mergedAt": "2026-11-18T18:55:37Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b9ddda3ce197afbe6657d7eb622a85d00b09ce23",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44374865159"
+      }
+    },
     {
       "number": 633,
       "title": "fix: refresh Smart Search after course trash and restore (0.60.7)",
@@ -1521,25 +1540,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "90ebf082aa67d21428c5a16f4ca65aeaedd714ba",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 548,
-      "title": "fix(MAIL-10 #547): show unresolved Joomla template tokens in admin mail queue",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/548",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T08:42:50Z",
-      "mergedAt": "2026-11-17T08:32:22Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d52d74684d986bb28b1ade13f8c945ce84b9c5ec",
       "ci": {
         "status": "unknown",
         "conclusion": null,
