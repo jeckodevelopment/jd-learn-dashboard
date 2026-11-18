@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T19:32:28.293102+00:00",
+  "generatedAt": "2026-11-18T19:58:47.374244+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "03cefe6421e7d60719536c73a5d97ac409c93cab",
+  "sourceCommit": "30b59ca6052f4c21e315620fd246029d019e0fda",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 642,
+      "title": "Audit 1.0.0: release, accessibilità, prestazioni e manuali",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/642",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T19:58:19Z",
+      "mergedAt": "2026-11-18T19:58:16Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2ab279536b9eaf50dd2972162fe36cb4bf1786d2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44385892853"
+      }
+    },
     {
       "number": 641,
       "title": "Audit 1.0.0: quiz, accesso didattico, notifiche e attestati",
@@ -495,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "583299551a778340fe1a358d74835e0182444a0d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44312056175"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1525,23 +1544,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "d10c344ae2aa9ac019d3ace815665a543c7c45ae",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 559,
-      "title": "test(certificates): riprodurre emissione storica 500 e correggere (#558)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/559",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T11:12:38Z",
-      "mergedAt": "2026-11-17T11:12:36Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "94a553ad64acf4bcac42856e3162b6be683a62be",
       "ci": {
         "status": "unknown",
         "conclusion": null,
