@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:12:23.597736+00:00",
+  "generatedAt": "2026-11-18T18:14:02.747422+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a861ee23719a6e6139115a535c0a0593b32621da",
+  "sourceCommit": "fdbfd5fe39f181a376f50abb4f7493fc9da2cdd5",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 626,
+      "title": "docs: reconcile PR #625 merge and 0.60.4 build evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/626",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:13:35Z",
+      "mergedAt": "2026-11-18T18:13:33Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c946d57a9a74bd7dd9b10890756ed846d39b0f7a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44367219717"
+      }
+    },
     {
       "number": 625,
       "title": "fix: close course admissions and delivery when moving to trash (0.60.4)",
@@ -451,9 +470,9 @@
       "milestone": "1.0.0",
       "headSha": "5adfe09aedf24f0066509e1a2c48aa98096a9d9c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44202943937"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -470,9 +489,9 @@
       "milestone": "1.0.0",
       "headSha": "958d62752293c78c23c22a46f7a0cd8eb9e37852",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44198188567"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1524,26 +1543,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "0ddea1f4bf3c4a6845d8a84197c571b382e8884d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 538,
-      "title": "docs(P0 #532): record PR #537 merge, CI and Safari QA gate",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/538",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T22:38:13Z",
-      "mergedAt": "2026-11-16T22:38:09Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5053534c196d8a84bc420f4710a526d928d65e7e",
       "ci": {
         "status": "unknown",
         "conclusion": null,
