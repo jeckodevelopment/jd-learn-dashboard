@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:25:47.173132+00:00",
+  "generatedAt": "2026-11-18T21:33:57.460888+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a175b812e52655375f6fa181c3af004a1aeeb515",
+  "sourceCommit": "717338660536dbd7567cca949895a627e5f46057",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,48 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 662,
+      "title": "docs: record reconciliation PR 661 in history",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/662",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T21:33:48Z",
+      "mergedAt": null,
+      "labels": [],
+      "milestone": null,
+      "headSha": "4afbcbc7e87a045e9a737f5f638b9214c1ebcff3",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 661,
+      "title": "docs: reconcile functional audit batch 13",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/661",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:33:23Z",
+      "mergedAt": "2026-11-18T21:33:20Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "497355641ec971144dbe45941cab7f37c20a97ac",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44402600304"
+      }
+    },
     {
       "number": 660,
       "title": "docs: record reconciliation PR 658 in history",
@@ -1530,25 +1566,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c30d864144f69d9860dd4ce47f1432a7e9d85fae",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 581,
-      "title": "test(LCM-05): accessi diretti e isolamento storico dei percorsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/581",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:21:01Z",
-      "mergedAt": "2026-11-17T21:20:58Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8a96d619feee65cbd7043ab1d4740eb1191e5861",
       "ci": {
         "status": "unknown",
         "conclusion": null,

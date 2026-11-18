@@ -16,7 +16,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "162;207;468;500;522;657",
+    "prs": "162;207;468;500;522",
     "todo": "Completare anteprime pubbliche e uniformità delle azioni della scheda core; metadati canonical/social di base implementati dalla PR #207.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-41; AC-42; AC-121; AC-124; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Completare azioni per approvazioni/anteprime/attestati, metadati social e regole di completamento; collaudo integrale della scheda e dei collegamenti docente.",
     "criteria": "Scheda e azioni di accesso/avvio/ripresa, docenti e programma non quiz."
@@ -467,7 +467,7 @@
     "state": "Completata",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "13;120;194;653",
+    "prs": "13;120;194",
     "todo": "Nessuno nella sola eccezione amministrativa AC-131.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-45; AC-80; AC-131; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Rivalutazioni, disponibilità specifiche, UI/accessibilità completa e collaudo end-to-end dei singoli criteri; vedere anche tempi/annullamenti/proroghe già implementati nelle guide dedicate. AC-131 integrata in main 0.41.27-dev: lista Search Tools separata dal form, crea/duplica/elimina con CSRF/ACL e cancellazione bloccata sulle revisioni usate; collaudo manuale Joomla AC-131 ancora pendente; nessuna funzionalità didattica quiz aggiunta.",
     "criteria": "Sola amministrazione banca esistente: elenco/form, crea/duplica/elimina (AC-131)."
