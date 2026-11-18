@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T20:33:15.804259+00:00",
+  "generatedAt": "2026-11-18T20:34:52.113946+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e25c0d39b47f96e426fd15b3cd32dd34cc8683a6",
+  "sourceCommit": "fc7bc72d0fbc71b37dab22f56a7f1b7b005ff741",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 647,
+      "title": "docs: reconcile MAIL-08 PR #646 merge, CI and artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/647",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T20:34:22Z",
+      "mergedAt": "2026-11-18T20:34:19Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e24c46fda3990d3b28299bd87c104b2bf168e8c0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44392322514"
+      }
+    },
     {
       "number": 646,
       "title": "fix(MAIL-08): deduplicate repeated test emails",
@@ -1524,26 +1543,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "ae7e053a801ad9ae97d1d9b5fc4636bb659148d2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 567,
-      "title": "docs(cert): registrare collaudo positivo PR #566 e riconciliare requisiti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/567",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T15:46:47Z",
-      "mergedAt": "2026-11-17T15:01:47Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d9860e49276318c0f191dc0b7ed6123dc3cf3eb6",
       "ci": {
         "status": "unknown",
         "conclusion": null,
