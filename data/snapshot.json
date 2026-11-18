@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T20:02:46.737949+00:00",
+  "generatedAt": "2026-11-18T20:12:09.262550+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "64ac22af4de8251d2a4baa314d5b9acbf5f6561c",
+  "sourceCommit": "6c333424eb9890dfd61349891da4e2c659733c57",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,19 +29,19 @@
       "number": 643,
       "title": "fix: inviare notifica di completamento corso anche dopo quiz",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/643",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T20:02:36Z",
-      "mergedAt": null,
+      "updated": "2026-11-18T20:11:38Z",
+      "mergedAt": "2026-11-18T20:11:35Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "3a8d966e58a9c063277f25d20c66fbee6be72a6f",
+      "headSha": "abf2a7aea13ecf154fe22a9a932304c70e32fbd1",
       "ci": {
-        "status": "queued",
-        "conclusion": null,
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44386807221"
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44387407332"
       }
     },
     {
@@ -533,9 +533,9 @@
       "milestone": "1.0.0",
       "headSha": "4723758d8aa08f403b8373d732473cfe59e6460c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44335367902"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1549,25 +1549,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 563,
-      "title": "feat(storage): cartella privata automatica e cifrata per hosting condiviso (#562)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/563",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T13:24:21Z",
-      "mergedAt": "2026-11-17T13:24:19Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6d9b4b9838f05ae32d90e8cda649349eb943ce41",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1599,8 +1580,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T19:16:09Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44377965633/artifacts/14461888172"
+    "createdAt": "2026-11-18T20:09:48Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44387407274/artifacts/14465298593"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

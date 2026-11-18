@@ -654,7 +654,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "288;291;295;297;299;313;344;361;366;367;397;399;401;464",
+    "prs": "288;291;295;297;299;313;344;361;366;367;397;399;401;464;643",
     "todo": "Completare notifiche di modifiche didattiche significative e avvisi ai responsabili; nuove lezioni da pianificazione coperte parzialmente da #397. Restano collaudi/altre rifiniture MAIL-H. Resta avviso ai responsabili delle richieste e collaudo email Joomla/SMTP; MAIL-03 integrazione #399 ancora da accettare. MAIL-G notifiche ai responsabili #401 implementate; PR #464 aggiunge i produttori di contesto email; restano QA sul sito e scenari limite.",
     "tests": "Collaudare ciascun evento e preferenza su Joomla; per MAIL-04 eseguire test di soglia, idempotenza, override, account/stato completamento e SMTP dal testbook.",
     "criteria": "NOT-01 core: template operativi Joomla e consegna idempotente; MAIL-04: promemoria facoltativo prima della scadenza, soglia 1–30 giorni (default 3), default disabilitato, override per corso, solo iscritti attivi non completati, Scheduler/outbox e rivalidazione all’invio."
@@ -2425,7 +2425,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "291;297;299;361;366;367",
+    "prs": "291;297;299;361;366;367;643",
     "todo": "Ricognizione puntuale ancora necessaria per distinguere incrementi implementati e residui; nessuna completezza attribuita in assenza di evidenze specifiche.",
     "tests": "Verificare flussi e permessi con Joomla 6.2, SMTP reale, upgrade e scenari negativi; registrare ogni esito nel testbook.",
     "criteria": "Inviare notifiche sulle reali transizioni di richiesta/conferma iscrizione, iscrizione amministrativa, sospensione, riattivazione, annullamento e completamento corso."

@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T20:02:46.737949+00:00",
+  "generatedAt": "2026-11-18T20:12:09.262550+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T20:11:35Z",
+      "commit": "6c333424eb9890dfd61349891da4e2c659733c57",
+      "number": 643,
+      "title": "fix: inviare notifica di completamento corso anche dopo quiz",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/643"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T20:02:08Z",
