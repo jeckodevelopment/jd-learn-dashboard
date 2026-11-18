@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T17:37:20.230655+00:00",
+  "generatedAt": "2026-11-18T17:46:25.840512+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
+  "sourceCommit": "778d60e0471a3e8a5989fd1681a597b528d8f1db",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,29 +19,65 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 2,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
     {
+      "number": 621,
+      "title": "docs: reconcile PR #619 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/621",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T17:46:01Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f0736d58bc08e7b746367811869ee290cb9c38ed",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44362285933"
+      }
+    },
+    {
+      "number": 620,
+      "title": "ci: notifica dashboard di rilascio a ogni aggiornamento di main",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/620",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T17:45:54Z",
+      "mergedAt": null,
+      "labels": [],
+      "milestone": null,
+      "headSha": "e520da0da94a6cc21091e689cef072bf729fe3f4",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44362274364"
+      }
+    },
+    {
       "number": 619,
       "title": "fix: prevent premature course reactivation while archived (0.60.2)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/619",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T17:35:34Z",
-      "mergedAt": null,
+      "updated": "2026-11-18T17:44:41Z",
+      "mergedAt": "2026-11-18T17:44:39Z",
       "labels": [
         "P0"
       ],
       "milestone": "1.0.0",
-      "headSha": "976459cfed859e3224749787999e6d8d7f12ce2a",
+      "headSha": "f8a785b99be135fa10f1622e661ef04c063df15a",
       "ci": {
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44360390408"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44360777877"
       }
     },
     {
@@ -674,9 +710,9 @@
       "milestone": "1.0.0",
       "headSha": "b5a872036e54bb77e36fe7af0aadf4be629e1228",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44183798789"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -694,9 +730,9 @@
       "milestone": "1.0.0",
       "headSha": "377a3e77607322545da8db4e24ed9e63cf478269",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44182567728"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1549,23 +1585,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 530,
-      "title": "AUT-03: avvisi non bloccanti per trascrizioni audio/video mancanti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/530",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T21:04:07Z",
-      "mergedAt": "2026-11-16T21:04:04Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "3150d3cd8a0846b2f5480086e02b1327a9b30fab",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1596,9 +1615,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.1-dev",
-    "createdAt": "2026-11-18T13:52:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44317299310/artifacts/14433541319"
+    "name": "JD-Learn-0.60.2-dev",
+    "createdAt": "2026-11-18T17:41:53Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44360777691/artifacts/14454766049"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

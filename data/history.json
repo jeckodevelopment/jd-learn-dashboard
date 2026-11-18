@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T17:37:20.230655+00:00",
+  "generatedAt": "2026-11-18T17:46:25.840512+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T17:44:39Z",
+      "commit": "778d60e0471a3e8a5989fd1681a597b528d8f1db",
+      "number": 619,
+      "title": "fix: prevent premature course reactivation while archived (0.60.2)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/619"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-18T17:37:20.230655+00:00",
