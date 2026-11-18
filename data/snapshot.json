@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T11:29:21.033128+00:00",
+  "generatedAt": "2026-11-18T17:37:20.230655+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
+  "sourceCommit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,19 +19,110 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
     {
+      "number": 619,
+      "title": "fix: prevent premature course reactivation while archived (0.60.2)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/619",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T17:35:34Z",
+      "mergedAt": null,
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "976459cfed859e3224749787999e6d8d7f12ce2a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44360390408"
+      }
+    },
+    {
+      "number": 618,
+      "title": "docs: consolidamento unico baseline 1.0.0 e gate di riconciliazione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/618",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T16:34:10Z",
+      "mergedAt": "2026-11-18T16:34:07Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4723758d8aa08f403b8373d732473cfe59e6460c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44335367902"
+      }
+    },
+    {
+      "number": 616,
+      "title": "docs: clarify historical LCM-02 status after PR #614/#615",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/616",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T14:18:44Z",
+      "mergedAt": "2026-11-18T14:18:42Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "583299551a778340fe1a358d74835e0182444a0d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44312056175"
+      }
+    },
+    {
+      "number": 617,
+      "title": "fix: archived courses never reopen admissions or delivery on restore (0.60.1)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/617",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T13:54:24Z",
+      "mergedAt": "2026-11-18T13:54:22Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "e4293964b52fc14e00ef4a114b91007198a89d53",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44317299313"
+      }
+    },
+    {
+      "number": 615,
+      "title": "feat: guard permanent course deletion by historical dependencies (0.60.0)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/615",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T11:55:58Z",
+      "mergedAt": "2026-11-18T11:55:56Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "4f93ef85646082c50d2efa03cabdddbd530dd5cf",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44298366927"
+      }
+    },
+    {
       "number": 614,
       "title": "feat: atomic course trash and conservative restore (0.59.0)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/614",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T11:29:13Z",
+      "updated": "2026-11-18T11:29:15Z",
       "mergedAt": "2026-11-18T11:29:13Z",
       "labels": [],
       "milestone": "1.0.0",
@@ -622,9 +713,9 @@
       "milestone": "1.0.0",
       "headSha": "b33abe0daa5dc107e311311cf4f205b189b9cf41",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44181420748"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -642,9 +733,9 @@
       "milestone": "1.0.0",
       "headSha": "f3374577b5f273fd3221af7a0c944d37ebaf61e1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44180983802"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -661,9 +752,9 @@
       "milestone": "1.0.0",
       "headSha": "c30d864144f69d9860dd4ce47f1432a7e9d85fae",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44179144122"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -680,9 +771,9 @@
       "milestone": "1.0.0",
       "headSha": "8a96d619feee65cbd7043ab1d4740eb1191e5861",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44178153813"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -699,9 +790,9 @@
       "milestone": "1.0.0",
       "headSha": "0e76a5c045deb8224f7bebadd1b8e60282ac11e5",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44175893915"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -718,9 +809,9 @@
       "milestone": "1.0.0",
       "headSha": "c0afe22033bf888220603f3cb0854382b96b5a14",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44176006683"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -737,9 +828,9 @@
       "milestone": "1.0.0",
       "headSha": "590b25c7dd596d5193b6f2e371b5af2c37654249",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44173248406"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -756,9 +847,9 @@
       "milestone": "1.0.0",
       "headSha": "809e50b5664855f0cdfa31ad4740a645d441e09c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44168552575"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -773,9 +864,9 @@
       "milestone": "1.0.0",
       "headSha": "3d2eec3727f4e2d8c34417e9543de6d93b0957c8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44165049270"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -790,9 +881,9 @@
       "milestone": "1.0.0",
       "headSha": "4002aab8e356fd83d6352487ca83f3576a4667ba",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44161618090"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1475,83 +1566,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 529,
-      "title": "docs(frontend): reconcile FE-12 PR #528 and teachers 404 fix",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/529",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T21:00:57Z",
-      "mergedAt": "2026-11-16T20:49:37Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "91ff99e8afa88687811b24097c6ea72910290f18",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 528,
-      "title": "FE-12: smoke HTTP reale delle viste pubbliche su Joomla installato",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/528",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T20:48:19Z",
-      "mergedAt": "2026-11-16T20:48:17Z",
-      "labels": [
-        "frontend"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6d860e4cb520c30a6829f1dce7554b34c6dacdde",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 527,
-      "title": "docs(frontend): reconcile FE-12 PR #526 CI and acceptance status",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/527",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T20:18:51Z",
-      "mergedAt": "2026-11-16T20:14:54Z",
-      "labels": [
-        "documentation",
-        "frontend"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "306ed113e0ed28d0bc58b03117d24908cf273d9c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 526,
-      "title": "FE-12: gate strutturale frontend e matrice di accettazione Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/526",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T20:18:28Z",
-      "mergedAt": "2026-11-16T20:13:11Z",
-      "labels": [
-        "frontend"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2bc6fa5bf3ac3c532214b855df0c67acfbc65946",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1582,9 +1596,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.59.0-dev",
-    "createdAt": "2026-11-18T11:15:09Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44292410656/artifacts/14421514683"
+    "name": "JD-Learn-0.60.1-dev",
+    "createdAt": "2026-11-18T13:52:36Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44317299310/artifacts/14433541319"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

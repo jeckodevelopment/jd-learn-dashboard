@@ -1,8 +1,48 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T11:29:21.033128+00:00",
+  "generatedAt": "2026-11-18T17:37:20.230655+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-18T17:37:20.230655+00:00",
+      "commit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
+      "id": "LCM-01",
+      "from": "Non iniziata",
+      "to": "Parziale"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T16:34:07Z",
+      "commit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
+      "number": 618,
+      "title": "docs: consolidamento unico baseline 1.0.0 e gate di riconciliazione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/618"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T14:18:42Z",
+      "commit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
+      "number": 616,
+      "title": "docs: clarify historical LCM-02 status after PR #614/#615",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/616"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T13:54:22Z",
+      "commit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
+      "number": 617,
+      "title": "fix: archived courses never reopen admissions or delivery on restore (0.60.1)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/617"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T11:55:56Z",
+      "commit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
+      "number": 615,
+      "title": "feat: guard permanent course deletion by historical dependencies (0.60.0)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/615"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-18T11:29:21.033128+00:00",
