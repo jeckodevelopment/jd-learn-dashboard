@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:07:55.254813+00:00",
+  "generatedAt": "2026-11-18T21:09:46.051915+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7aa1eea9009030f47e25ca6eb476ae471582c0fb",
+  "sourceCommit": "c2c7e7b14519de738a43e6ad78fcbc810a26070a",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,50 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 654,
+      "title": "docs: reconcile functional audit batches 9 to 11",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/654",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T21:08:47Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2a315aef6f3b817ff16c7d40ac4dce12a18c6506",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 655,
+      "title": "docs: reconcile QUI-02 PR #653 merge, CI and package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/655",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:09:11Z",
+      "mergedAt": "2026-11-18T21:09:08Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0bdc97da33977574f1a4057475345636f8557c5e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44398362930"
+      }
+    },
     {
       "number": 653,
       "title": "feat(QUI-02): conservative trash and restore for question bank",
@@ -457,9 +495,9 @@
       "milestone": "1.0.0",
       "headSha": "1c7182340d530bd11009dddf7be556319ad1bafc",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371086549"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1526,23 +1564,6 @@
       "labels": [],
       "milestone": "1.0.0",
       "headSha": "4002aab8e356fd83d6352487ca83f3576a4667ba",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 574,
-      "title": "test(video): proteggere il replay delle lezioni completate e registrare collaudo #573",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/574",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T19:32:07Z",
-      "mergedAt": "2026-11-17T19:32:04Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "d471733135f0ea915162b691afa559c557371f7d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
