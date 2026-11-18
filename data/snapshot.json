@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T22:02:29.973845+00:00",
+  "generatedAt": "2026-11-18T22:04:15.602341+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7051e98c7570db62814c8daa6895fa09c7669d49",
+  "sourceCommit": "e00b850f976a2b4574dff1b2c74f085937d740f3",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 668,
+      "title": "docs: record SCR-05 PR 667 merge and installable artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/668",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T22:03:46Z",
+      "mergedAt": "2026-11-18T22:03:44Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b91df4190ed406c00eeab3634326df1a6c8a8777",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44407663524"
+      }
+    },
     {
       "number": 667,
       "title": "feat(SCR-05): link empty learner-course state to catalog (rebased)",
@@ -1526,26 +1546,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "2e4160c3561f728a04f2d1cd9182be76626a840b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 588,
-      "title": "feat(governance): misurazione funzionale per criteri verificati della 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/588",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:09:10Z",
-      "mergedAt": "2026-11-17T22:09:07Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "af3a6a6b3bf42bdbf1aab56345286474cc9b7a76",
       "ci": {
         "status": "unknown",
         "conclusion": null,
