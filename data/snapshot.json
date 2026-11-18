@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T22:12:37.976781+00:00",
+  "generatedAt": "2026-11-18T22:13:45.262062+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "35f6815b64d45eeae1c09e7a81055ad003bb4429",
+  "sourceCommit": "6896141f88bf81df730b5a39f8424b6c6d1bce98",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 670,
+      "title": "docs: reconcile SCR-01 PR 669 merge, CI and package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/670",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T22:13:15Z",
+      "mergedAt": "2026-11-18T22:13:13Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9867d948cdfcc8fc6bdf185ca776830b94f72976",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44409338081"
+      }
+    },
     {
       "number": 669,
       "title": "feat(SCR-01): clear catalog filters from empty search results",
@@ -1525,26 +1545,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f0fa386ec13b3d17df1cd335d7efacac2f24cdac",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 591,
-      "title": "docs: registro versionato delle evidenze di collaudo Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/591",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:14:35Z",
-      "mergedAt": "2026-11-17T22:14:33Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ab3f3267de4f3297a55bc36f69cb7ebeafb96ede",
       "ci": {
         "status": "unknown",
         "conclusion": null,
