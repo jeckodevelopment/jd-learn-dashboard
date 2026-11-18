@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:46:21.097160+00:00",
+  "generatedAt": "2026-11-18T21:49:23.733073+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "cffa0e562f7779dfb494d5461c14e8e998ce1d45",
+  "sourceCommit": "d059e60bcad11fd57d1ccbe4cb3fb76c9cb0f9d8",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -42,6 +42,25 @@
         "status": "in_progress",
         "conclusion": null,
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404288357"
+      }
+    },
+    {
+      "number": 665,
+      "title": "docs: complete functional audit of JD Learn 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/665",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:49:01Z",
+      "mergedAt": "2026-11-18T21:48:59Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "941471ef97f4c6f76ef662cacaabdf2617637014",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44405226043"
       }
     },
     {
@@ -476,9 +495,9 @@
       "milestone": "1.0.0",
       "headSha": "acc991d02a7a551bd58f0cbbfa89c1cde2bea09b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44381437401"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1553,25 +1572,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 584,
-      "title": "test(LCM-05): gate HTTP/CSRF dei controller percorsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/584",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:41:04Z",
-      "mergedAt": "2026-11-17T21:41:03Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b33abe0daa5dc107e311311cf4f205b189b9cf41",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1603,8 +1603,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T21:19:54Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44399697715/artifacts/14472228446"
+    "createdAt": "2026-11-18T21:46:46Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404288357/artifacts/14474657901"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
