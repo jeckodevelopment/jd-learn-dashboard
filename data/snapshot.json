@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T22:13:45.262062+00:00",
+  "generatedAt": "2026-11-18T22:26:52.467589+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "6896141f88bf81df730b5a39f8424b6c6d1bce98",
+  "sourceCommit": "d38ed08bebcf0d2deb654ba70e618505bac59d0a",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,51 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 672,
+      "title": "feat(SCR-01): order published courses by estimated duration",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/672",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T22:24:10Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "81445a6a018883b1c91831055fb154d877fb4860",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44411232827"
+      }
+    },
+    {
+      "number": 671,
+      "title": "chore: enforce PR metadata and functional doc sync",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/671",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T22:26:30Z",
+      "mergedAt": "2026-11-18T22:26:28Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e781f14dc68dee0aa4fe554a0e52e89840400941",
+      "ci": {
+        "status": "completed",
+        "conclusion": "cancelled",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44410207094"
+      }
+    },
     {
       "number": 670,
       "title": "docs: reconcile SCR-01 PR 669 merge, CI and package",
@@ -516,9 +555,9 @@
       "milestone": "1.0.0",
       "headSha": "4b06ddf2542c2cc5ecf6b17d99129260be106a5c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44388822200"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -535,9 +574,9 @@
       "milestone": "1.0.0",
       "headSha": "abf2a7aea13ecf154fe22a9a932304c70e32fbd1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44387407332"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1530,26 +1569,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 592,
-      "title": "docs(progress): audit criteri CAT-01–04 e AUT-01–05 per JD Learn 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/592",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:19:29Z",
-      "mergedAt": "2026-11-17T22:19:27Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f0fa386ec13b3d17df1cd335d7efacac2f24cdac",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1581,8 +1600,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T22:10:54Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44408381297/artifacts/14477211344"
+    "createdAt": "2026-11-18T22:21:33Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44410207063/artifacts/14475609052"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
