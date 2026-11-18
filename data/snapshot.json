@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T22:33:24.167781+00:00",
+  "generatedAt": "2026-11-18T22:38:03.699717+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "622e5d28282399b0da1c8ef6fc56174ddeed23c8",
+  "sourceCommit": "3f2a5e305643ee1325d06cd8a52022e981946cec",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,10 +29,10 @@
       "number": 674,
       "title": "docs: complete PR follow-through policy",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/674",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T22:31:56Z",
-      "mergedAt": null,
+      "updated": "2026-11-18T22:37:27Z",
+      "mergedAt": "2026-11-18T22:37:24Z",
       "labels": [
         "documentation",
         "P1"
@@ -40,8 +40,8 @@
       "milestone": "1.0.0",
       "headSha": "ed31dbdb1b8eaf9d2e4ebfe60add61567f4d3610",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44412462267"
       }
     },
@@ -519,9 +519,9 @@
       "milestone": "1.0.0",
       "headSha": "3f2c26778dccf5dbbc3dd7845669bd21f227b1e8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44394985356"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1549,26 +1549,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 595,
-      "title": "docs(privacy): anonimizzare riferimenti alle installazioni di prova (recupero #589)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/595",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:31:10Z",
-      "mergedAt": "2026-11-17T22:31:08Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f0efbc52b5487e947a09b7de9eda95ec72a6fc03",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1600,8 +1580,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T22:29:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44411232827/artifacts/14478185261"
+    "createdAt": "2026-11-18T22:36:55Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44412462267/artifacts/14479220595"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
