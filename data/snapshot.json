@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T20:48:06.460682+00:00",
+  "generatedAt": "2026-11-18T20:50:17.695552+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3519b3bf4ff9c61517e9eada5396260b4bbe46fc",
+  "sourceCommit": "404aa1efb7f31d13a71dcb2cc8bab4ec4147be4e",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 649,
+      "title": "docs: reconcile STA-02 PR #648 merge, CI and artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/649",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T20:49:45Z",
+      "mergedAt": "2026-11-18T20:49:43Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3f2c26778dccf5dbbc3dd7845669bd21f227b1e8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44394985356"
+      }
+    },
     {
       "number": 648,
       "title": "fix(STA-02): block timed quiz start beyond learning window",
@@ -1524,25 +1543,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c71fe729cb9bad9e754f8658e1dbe6e026292d95",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 569,
-      "title": "fix(release): allineare versioni, date e nomi di tutte le estensioni JD Learn (#379)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/569",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T16:20:21Z",
-      "mergedAt": "2026-11-17T16:20:18Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e8634835bd251d46c5029b4fc3338807d787b8ed",
       "ci": {
         "status": "unknown",
         "conclusion": null,
