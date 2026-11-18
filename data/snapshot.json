@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:35:32.654885+00:00",
+  "generatedAt": "2026-11-18T18:40:00.315174+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "2ca19c6dd99c257f1439b525afd12a2d8a684149",
+  "sourceCommit": "f03c746a532b75ef19de2ce7227d044886390c08",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -42,6 +42,25 @@
         "status": "in_progress",
         "conclusion": null,
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371086549"
+      }
+    },
+    {
+      "number": 631,
+      "title": "docs(audit): reconcile CAT-04 Finder implementation with code evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/631",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:39:25Z",
+      "mergedAt": "2026-11-18T18:39:23Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0df2b448a23e2d6a38ca73fcb40a67c235569cde",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371999765"
       }
     },
     {
@@ -1546,26 +1565,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 542,
-      "title": "docs(P0 #532): reconcile merged PR #541 CI and downloadable package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/542",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T00:03:33Z",
-      "mergedAt": "2026-11-17T00:01:07Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c04aaae117c896d54a3d5bf92445a68b5ce5db20",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1596,9 +1595,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.5-dev",
-    "createdAt": "2026-11-18T18:22:06Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44368233717/artifacts/14458586723"
+    "name": "JD-Learn-0.60.6-dev",
+    "createdAt": "2026-11-18T18:37:49Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44371086549/artifacts/14458874147"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
