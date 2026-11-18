@@ -2491,7 +2491,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "313;325;415;429;439;440;442;444",
+    "prs": "313;325;415;429;439;440;442;444;646",
     "todo": "Ricognizione puntuale ancora necessaria per distinguere incrementi implementati e residui; nessuna completezza attribuita in assenza di evidenze specifiche.",
     "tests": "Verificare flussi e permessi con Joomla 6.2, SMTP reale, upgrade e scenari negativi; registrare ogni esito nel testbook.",
     "criteria": "Anteprima resa, conteggio destinatari, conferma esplicita e test verso indirizzo autorizzato; impedire doppi invii da doppio click."

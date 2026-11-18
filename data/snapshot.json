@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T20:15:00.150085+00:00",
+  "generatedAt": "2026-11-18T20:33:15.804259+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e01c88fa0531c5eda9ab4ef27528ad1c48b9b8b3",
+  "sourceCommit": "e25c0d39b47f96e426fd15b3cd32dd34cc8683a6",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 646,
+      "title": "fix(MAIL-08): deduplicate repeated test emails",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/646",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T20:32:45Z",
+      "mergedAt": "2026-11-18T20:32:43Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5bfc546629cbfc0fd12ecfacf77e953357cce2d2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44391196376"
+      }
+    },
     {
       "number": 645,
       "title": "docs: reconcile quiz completion notification PR #643 evidence",
@@ -495,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "a84dc739d1a9690e33526ddc03338eac9e8f7fbe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44362906727"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -514,9 +533,9 @@
       "milestone": "1.0.0",
       "headSha": "f0736d58bc08e7b746367811869ee290cb9c38ed",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44362285933"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1530,25 +1549,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 566,
-      "title": "fix(certificates): supporto logo PNG e formati raster nel PDF attestati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/566",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T15:46:45Z",
-      "mergedAt": "2026-11-17T14:48:46Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3bcf3acd493809bbe8f24aad24d40c6d6f44d9d9",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1580,8 +1580,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T20:09:48Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44387407274/artifacts/14465298593"
+    "createdAt": "2026-11-18T20:31:17Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44391196376/artifacts/14467907127"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
