@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:42:48.446964+00:00",
+  "generatedAt": "2026-11-18T18:44:31.188944+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c87d1a016f47b68d3893d854324ee4be38963d3f",
+  "sourceCommit": "f8aa0bfd4c3661357ca8610aac53ddc5cfdfb209",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 632,
+      "title": "docs: reconcile PR #629 CI and 0.60.6 package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/632",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:43:52Z",
+      "mergedAt": "2026-11-18T18:43:51Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ed4d572b1482e16155f8389283e3fadbca988f71",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44372734513"
+      }
+    },
     {
       "number": 629,
       "title": "fix: distinguish suspended course delivery from restricted access in pathways (0.60.6)",
@@ -1521,26 +1540,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "3c9d6868049891ad0754fc99e04ce0029f691368",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 544,
-      "title": "docs(P0 #532): reconcile merged PR #543 and installable package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/544",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T08:16:08Z",
-      "mergedAt": "2026-11-17T00:09:13Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4d6301aef9f54f7ddd9e3a51a2e89302dd8848fa",
       "ci": {
         "status": "unknown",
         "conclusion": null,
