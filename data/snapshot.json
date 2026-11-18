@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T23:29:00.357646+00:00",
+  "generatedAt": "2026-11-18T23:30:32.509646+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "96835a68e586ccc057fa5ee6ccff7d594ecd00bd",
+  "sourceCommit": "8ee60dda2e493ec92c9463c92cff72ebbe7b0d5a",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 681,
+      "title": "docs: reconcile SCR-01 enrollment cards PR 680 merge and artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/681",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T23:29:59Z",
+      "mergedAt": "2026-11-18T23:29:56Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1e08ec69be874c80d302a537049d948fc36e38c2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44421163334"
+      }
+    },
     {
       "number": 680,
       "title": "feat(SCR-01): personal enrollment state and safe resume on catalog cards",
@@ -1522,25 +1542,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "5adfe09aedf24f0066509e1a2c48aa98096a9d9c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 602,
-      "title": "docs: riconciliare evidenze storiche e audit funzionale post-#578",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/602",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T23:48:56Z",
-      "mergedAt": "2026-11-17T23:48:53Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "958d62752293c78c23c22a46f7a0cd8eb9e37852",
       "ci": {
         "status": "unknown",
         "conclusion": null,
