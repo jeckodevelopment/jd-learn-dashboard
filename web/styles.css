@@ -43,3 +43,8 @@
 .evolution-side{display:flex;flex-direction:column;align-items:flex-end;gap:3px;white-space:nowrap;font-size:10px;color:var(--muted)}
 .evolution-side a{font-weight:650}
 @media(max-width:600px){.evolution-row{flex-direction:column;gap:5px}.evolution-side{align-items:flex-start;flex-direction:row;gap:12px}}
+
+/* Separate release progress measures on wide and narrow screens. */
+.progress-pair{margin:0 0 14px}
+.progress-pair .progress-card{min-width:0}
+@media(max-width:760px){.progress-pair{grid-template-columns:1fr}}
