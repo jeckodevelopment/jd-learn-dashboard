@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:33:57.460888+00:00",
+  "generatedAt": "2026-11-18T21:34:50.938333+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "717338660536dbd7567cca949895a627e5f46057",
+  "sourceCommit": "efac65f86c0d36ab7570ff68063f1ad723e78b5a",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,7 +19,7 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -29,17 +29,19 @@
       "number": 662,
       "title": "docs: record reconciliation PR 661 in history",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/662",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-18T21:33:48Z",
-      "mergedAt": null,
-      "labels": [],
-      "milestone": null,
+      "updated": "2026-11-18T21:34:17Z",
+      "mergedAt": "2026-11-18T21:34:15Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
       "headSha": "4afbcbc7e87a045e9a737f5f638b9214c1ebcff3",
       "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44402772723"
       }
     },
     {
@@ -531,9 +533,9 @@
       "milestone": "1.0.0",
       "headSha": "d78ea029827bec2f11cb14117f558f4f113434b1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44376325812"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1547,25 +1549,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f3374577b5f273fd3221af7a0c944d37ebaf61e1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 582,
-      "title": "test(LCM-05): negare mutazioni non autorizzate dei percorsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/582",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:27:15Z",
-      "mergedAt": "2026-11-17T21:27:13Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c30d864144f69d9860dd4ce47f1432a7e9d85fae",
       "ci": {
         "status": "unknown",
         "conclusion": null,
