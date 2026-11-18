@@ -156,7 +156,7 @@ return pageHeader("Control Center","Prossime decisioni, avanzamento documentato 
 section("Prossime azioni di sviluppo","P0/P1 → PR aperte → requisiti 1.0.0 → requisiti misti")+
 '<div class="tasks">'+(next.length?next.map((a,i)=>a.url?'<article class="task"><div class="rank">'+String(i+1).padStart(2,"0")+'</div><div><h3>'+href(a.url,a.title)+'</h3><p>'+esc(a.desc)+'</p></div><div class="meta">'+chip(a.tag,a.kind)+'</div></article>':task(a.title,a.desc,a.tag,a.kind,a.id,i+1)).join(""):'<div class="card empty">Nessuna azione ricavabile dalle evidenze disponibili.</div>')+'</div>'+
 '<p class="note" style="margin-top:9px">Le attività sono selezionate dalle fonti GitHub e dai residui dichiarati nella matrice. Le verifiche Joomla sono intenzionalmente escluse dalle prossime azioni di sviluppo.</p>'+
-'<div class="notice">Le percentuali globales sont calculées séparément à partir de docs/IMPLEMENTATION_EVIDENCE.json : développement fonctionnel et collaudo manuel, qui peut être complété ultérieurement. '+href(s.links.qaGuide||s.links.qaRegistry,"Come registrare i collaudi ↗")+'</div>'+
+'<div class="notice">Le percentuali sono calcolate separatamente dalle evidenze ufficiali: sviluppo funzionale e collaudo manuale, che può essere completato anche in seguito. '+href(s.links.qaGuide||s.links.qaRegistry,"Come registrare i collaudi ↗")+'</div>'+
 section("Cosa è cambiato","Differenze osservate fra sincronizzazioni")+
 '<div class="card evolution-list">'+evolutionRows(5)+'</div>'+
 section("Ultime PR integrate","Storico delle modifiche al codice")+
