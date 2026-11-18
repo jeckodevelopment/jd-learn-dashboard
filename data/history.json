@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T21:50:55.685585+00:00",
+  "generatedAt": "2026-11-18T22:02:29.973845+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T22:01:58Z",
+      "commit": "7051e98c7570db62814c8daa6895fa09c7669d49",
+      "number": 667,
+      "title": "feat(SCR-05): link empty learner-course state to catalog (rebased)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/667"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T21:50:21Z",

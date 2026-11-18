@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:50:55.685585+00:00",
+  "generatedAt": "2026-11-18T22:02:29.973845+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f858f947dfc896790667c2a980c6bcaedd9ce92c",
+  "sourceCommit": "7051e98c7570db62814c8daa6895fa09c7669d49",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,19 +19,38 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
     {
+      "number": 667,
+      "title": "feat(SCR-05): link empty learner-course state to catalog (rebased)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/667",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T22:02:00Z",
+      "mergedAt": "2026-11-18T22:01:58Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "365744d19e2266d50eeae6493496c8dfc6ea0232",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44406651165"
+      }
+    },
+    {
       "number": 663,
       "title": "feat(SCR-05): link learner empty state directly to course catalog",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/663",
-      "status": "open",
+      "status": "closed",
       "draft": false,
-      "updated": "2026-11-18T21:42:44Z",
+      "updated": "2026-11-18T21:56:42Z",
       "mergedAt": null,
       "labels": [
         "P1"
@@ -39,8 +58,8 @@
       "milestone": "1.0.0",
       "headSha": "d61fed9cf395d0f64c8cee2ba017a2ff0b24140b",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404288357"
       }
     },
@@ -495,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "2ab279536b9eaf50dd2972162fe36cb4bf1786d2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44385892853"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1532,45 +1551,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 587,
-      "title": "docs(LCM-05): rendicontazione post-merge PR #586",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/587",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:57:03Z",
-      "mergedAt": "2026-11-17T21:57:00Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7d23ba67b8453b14549e69b6a673ed1fb8810842",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 586,
-      "title": "test(LCM-05): transizioni HTTP autorizzate con token CSRF nativo",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/586",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:55:33Z",
-      "mergedAt": "2026-11-17T21:55:31Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b5a872036e54bb77e36fe7af0aadf4be629e1228",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1602,8 +1582,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T21:46:46Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404288357/artifacts/14474657901"
+    "createdAt": "2026-11-18T22:00:30Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44406651165/artifacts/14475341488"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
