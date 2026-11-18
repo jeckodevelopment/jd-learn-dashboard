@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T19:19:16.172425+00:00",
+  "generatedAt": "2026-11-18T19:32:28.293102+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "28859210068fb7c1a5a7ac9ce6fd61051293ac4b",
+  "sourceCommit": "03cefe6421e7d60719536c73a5d97ac409c93cab",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 641,
+      "title": "Audit 1.0.0: quiz, accesso didattico, notifiche e attestati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/641",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T19:32:13Z",
+      "mergedAt": "2026-11-18T19:32:11Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "acc991d02a7a551bd58f0cbbfa89c1cde2bea09b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44381437401"
+      }
+    },
     {
       "number": 640,
       "title": "docs: reconcile PR #639 archive Finder CI and 0.60.8 artifact",
@@ -510,9 +529,9 @@
       "milestone": "1.0.0",
       "headSha": "4f93ef85646082c50d2efa03cabdddbd530dd5cf",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44298366927"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1523,23 +1542,6 @@
       "labels": [],
       "milestone": "1.0.0",
       "headSha": "94a553ad64acf4bcac42856e3162b6be683a62be",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 557,
-      "title": "fix(certificates): recupero amministrativo controllato dei completamenti storici (#553)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/557",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T09:36:48Z",
-      "mergedAt": "2026-11-17T09:36:45Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "9c3d32a22647810e9fa7daa354157379acbed464",
       "ci": {
         "status": "unknown",
         "conclusion": null,

@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T19:19:16.172425+00:00",
+  "generatedAt": "2026-11-18T19:32:28.293102+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T19:32:11Z",
+      "commit": "03cefe6421e7d60719536c73a5d97ac409c93cab",
+      "number": 641,
+      "title": "Audit 1.0.0: quiz, accesso didattico, notifiche e attestati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/641"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T19:18:45Z",
