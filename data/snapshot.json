@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:56:05.425830+00:00",
+  "generatedAt": "2026-11-18T19:03:01.227242+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "5eaa2f664ade987b0970cfe6386bb17edf18b26b",
+  "sourceCommit": "35f361e5031ac3a55265db46b6698f281e8cba34",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,50 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 636,
+      "title": "fix: refresh Smart Search after committed archive/restore workflow (0.60.8)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/636",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T19:02:20Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8aadd3621b3708809bb430c8a38af83ae99e67bf",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 635,
+      "title": "Audit 1.0.0: registro verificabile e prime evidenze sul lifecycle",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/635",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T19:02:26Z",
+      "mergedAt": "2026-11-18T19:02:23Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "005e2df1f52ffee347df0da8ca0d38c2d73ed9eb",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44375326666"
+      }
+    },
     {
       "number": 634,
       "title": "docs: reconcile PR #633 merge, CI and 0.60.7 artifact",
@@ -413,9 +451,9 @@
       "milestone": "1.0.0",
       "headSha": "5607b01d2520981001c90989d97c33c7ea2d9e0c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44292410656"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1526,25 +1564,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 549,
-      "title": "feat(CERT-06 #546): show why completed courses have no certificate",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/549",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T08:43:17Z",
-      "mergedAt": "2026-11-17T08:40:26Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "90ebf082aa67d21428c5a16f4ca65aeaedd714ba",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1576,8 +1595,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.7-dev",
-    "createdAt": "2026-11-18T18:53:21Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44373913398/artifacts/14461081746"
+    "createdAt": "2026-11-18T19:01:58Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44375326666/artifacts/14459864912"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
