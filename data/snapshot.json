@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:34:50.938333+00:00",
+  "generatedAt": "2026-11-18T21:46:21.097160+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "efac65f86c0d36ab7570ff68063f1ad723e78b5a",
+  "sourceCommit": "cffa0e562f7779dfb494d5461c14e8e998ce1d45",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,50 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 663,
+      "title": "feat(SCR-05): link learner empty state directly to course catalog",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/663",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T21:42:44Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d61fed9cf395d0f64c8cee2ba017a2ff0b24140b",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404288357"
+      }
+    },
+    {
+      "number": 664,
+      "title": "docs: reconcile functional audit batch 14",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/664",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:45:58Z",
+      "mergedAt": "2026-11-18T21:45:55Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5420299e40fcaae8b8e480063318b1661a2dbd29",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44404719816"
+      }
+    },
     {
       "number": 662,
       "title": "docs: record reconciliation PR 661 in history",
@@ -457,9 +495,9 @@
       "milestone": "1.0.0",
       "headSha": "af4732a138007a42b8b13eb8830431828681ce81",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44379036571"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -495,9 +533,9 @@
       "milestone": "1.0.0",
       "headSha": "f8c4a137430e0904cecc2c6d43c3a36d1a389b5d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44377965633"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -514,9 +552,9 @@
       "milestone": "1.0.0",
       "headSha": "506430f12c71e9fd943233c8b6efd11c56e3d7e7",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44377385900"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1529,26 +1567,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "b33abe0daa5dc107e311311cf4f205b189b9cf41",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 583,
-      "title": "docs(LCM-05): riconciliazione requisiti e tracciabilità PR #581–#582",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/583",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T21:33:46Z",
-      "mergedAt": "2026-11-17T21:33:43Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f3374577b5f273fd3221af7a0c944d37ebaf61e1",
       "ci": {
         "status": "unknown",
         "conclusion": null,
