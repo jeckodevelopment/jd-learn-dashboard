@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T23:17:18.686011+00:00",
+  "generatedAt": "2026-11-18T23:18:46.551068+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ba805e622ec3076e63de0af039a7cd76e8d49fa2",
+  "sourceCommit": "40174159d1cb1c4bdab3cc3bee4b4bec5537051e",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 679,
+      "title": "docs: record SCR-01 teacher cards PR 678 merge and artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/679",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T23:18:21Z",
+      "mergedAt": "2026-11-18T23:18:19Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "bbc8fa9a591fc1bfabddbebd3b683b622ae7fe3e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44419466820"
+      }
+    },
     {
       "number": 678,
       "title": "feat(SCR-01): show authorised published teachers on catalog cards",
@@ -388,9 +408,9 @@
       "milestone": "1.0.0",
       "headSha": "eabd4fb1051b09a64a860367bc0b4fdd11b5a41e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44401164305"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -426,9 +446,9 @@
       "milestone": "1.0.0",
       "headSha": "6a3cdb1189fb4000149c468d893b5c28579c3133",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44400877902"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1523,26 +1543,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "8fd9808246b86157dbe6eb0578fe2af4d5bb9f16",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 599,
-      "title": "docs(progress): rendicontazione post-merge audit NOT/MAIL/CERT/JOO #598",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/599",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T22:56:01Z",
-      "mergedAt": "2026-11-17T22:55:59Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ef70493057dbe65fc84565688506fccb2d18bf90",
       "ci": {
         "status": "unknown",
         "conclusion": null,
