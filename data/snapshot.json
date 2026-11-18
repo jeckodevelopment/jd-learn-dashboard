@@ -1,12 +1,22 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T23:48:48.824424+00:00",
+  "generatedAt": "2026-11-18T23:57:29.204409+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "fcd2a7fc6ff3c127473e3b1a0884bd3ba44bcc84",
-  "progress": null,
-  "progressAsOf": null,
+  "progress": 54.12,
+  "developmentProgress": 54.12,
+  "manualAcceptanceProgress": 4.67,
+  "manualAcceptance": {
+    "requirements_with_recorded_result": 10,
+    "requirements_not_run": 204,
+    "requirements_partial": 10,
+    "requirements_passed": 0,
+    "requirements_failed": 0,
+    "coverage_percent": 4.67,
+    "fully_accepted_percent": 0
+  },
+  "progressAsOf": "2026-11-15",
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
-  "macroareas": {},
   "counts": {
     "requirements": 249,
     "prOpen": 0,
@@ -30,8 +40,8 @@
       "milestone": "1.0.0",
       "headSha": "88e58939dc65b18356ed9d970006853eff3e2b3c",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44423813658"
       }
     },
@@ -1568,8 +1578,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T23:44:49Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44422816071/artifacts/14482732719"
+    "createdAt": "2026-11-18T23:53:01Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44423813658/artifacts/14483616361"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
