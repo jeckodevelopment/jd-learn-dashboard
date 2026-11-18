@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T18:24:01.908795+00:00",
+  "generatedAt": "2026-11-18T18:25:29.564680+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "244ba6837bd305be57c48eb35c0947164fe2bb14",
+  "sourceCommit": "606f1d55edd55621cbf9d3070c04ecb7d89f844b",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 628,
+      "title": "docs: reconcile PR #627 merge, CI and 0.60.5 build",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/628",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T18:24:56Z",
+      "mergedAt": "2026-11-18T18:24:54Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "83827a6e381a5a93960b60857c88858835d1dc32",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44369328457"
+      }
+    },
     {
       "number": 627,
       "title": "fix: reflect suspended course delivery in learning pathways (0.60.5)",
@@ -392,9 +411,9 @@
       "milestone": "1.0.0",
       "headSha": "83cfd00d1a59ba1b26fc5442c923d487e9213809",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44256589660"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -411,9 +430,9 @@
       "milestone": "1.0.0",
       "headSha": "0cb4b9e28d757a8a1a0f1c2f17e4bd3e3e12df29",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44255492570"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1523,26 +1542,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "858d6c301e8ca9710c04c3abef4e88b0845a3643",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 540,
-      "title": "docs(P0 #532): reconcile PR #539 merged CI and installable artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/540",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-16T23:55:24Z",
-      "mergedAt": "2026-11-16T23:40:30Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c4b3d4b0c02235e1f8fe9e9778a34a4def8812e8",
       "ci": {
         "status": "unknown",
         "conclusion": null,
