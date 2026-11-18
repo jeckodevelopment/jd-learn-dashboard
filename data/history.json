@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-18T19:58:47.374244+00:00",
+  "generatedAt": "2026-11-18T20:02:46.737949+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-18T20:02:08Z",
+      "commit": "64ac22af4de8251d2a4baa314d5b9acbf5f6561c",
+      "number": 644,
+      "title": "Audit 1.0.0: editor, ACL, ciclo di vita e trasporto Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/644"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T19:58:16Z",

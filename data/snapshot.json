@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T19:58:47.374244+00:00",
+  "generatedAt": "2026-11-18T20:02:46.737949+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "30b59ca6052f4c21e315620fd246029d019e0fda",
+  "sourceCommit": "64ac22af4de8251d2a4baa314d5b9acbf5f6561c",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,12 +19,50 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 643,
+      "title": "fix: inviare notifica di completamento corso anche dopo quiz",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/643",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-18T20:02:36Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3a8d966e58a9c063277f25d20c66fbee6be72a6f",
+      "ci": {
+        "status": "queued",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44386807221"
+      }
+    },
+    {
+      "number": 644,
+      "title": "Audit 1.0.0: editor, ACL, ciclo di vita e trasporto Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/644",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T20:02:10Z",
+      "mergedAt": "2026-11-18T20:02:08Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "885d4dbfab96429761a49ab04006f086b8848f2d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44386551261"
+      }
+    },
     {
       "number": 642,
       "title": "Audit 1.0.0: release, accessibilità, prestazioni e manuali",
@@ -531,9 +569,9 @@
       "milestone": "1.0.0",
       "headSha": "e4293964b52fc14e00ef4a114b91007198a89d53",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44317299313"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1525,25 +1563,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "6d9b4b9838f05ae32d90e8cda649349eb943ce41",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 561,
-      "title": "fix(certificates): PDF storico pending_render 503 e DATETIME(6) (#560)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/561",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T11:34:43Z",
-      "mergedAt": "2026-11-17T11:34:41Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d10c344ae2aa9ac019d3ace815665a543c7c45ae",
       "ci": {
         "status": "unknown",
         "conclusion": null,
