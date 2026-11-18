@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T20:34:52.113946+00:00",
+  "generatedAt": "2026-11-18T20:48:06.460682+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fc7bc72d0fbc71b37dab22f56a7f1b7b005ff741",
+  "sourceCommit": "3519b3bf4ff9c61517e9eada5396260b4bbe46fc",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -25,6 +25,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 648,
+      "title": "fix(STA-02): block timed quiz start beyond learning window",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/648",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T20:47:38Z",
+      "mergedAt": "2026-11-18T20:47:35Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c74cc57399c359fddb942d14347807875dbf3724",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44393803998"
+      }
+    },
     {
       "number": 647,
       "title": "docs: reconcile MAIL-08 PR #646 merge, CI and artifact",
@@ -476,9 +495,9 @@
       "milestone": "1.0.0",
       "headSha": "0d3b31fb8503545553b929d01be81e6a169fb82f",
       "ci": {
-        "status": "completed",
-        "conclusion": "cancelled",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44364626570"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -495,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "de81fbbb5b780015e5ed9734df6b45793710fe68",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44365058024"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -514,9 +533,9 @@
       "milestone": "1.0.0",
       "headSha": "fa1bec6e7af724c9941865af4117858255dcd029",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44363889445"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1529,25 +1548,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 568,
-      "title": "feat(certificates): recupero controllato degli attestati mai emessi per completamenti eleggibili",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/568",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T15:46:49Z",
-      "mergedAt": "2026-11-17T15:22:07Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ae7e053a801ad9ae97d1d9b5fc4636bb659148d2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1579,8 +1579,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T20:31:17Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44391196376/artifacts/14467907127"
+    "createdAt": "2026-11-18T20:46:57Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44393803890/artifacts/14467609638"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
