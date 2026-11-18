@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-18T21:00:04.849822+00:00",
+  "generatedAt": "2026-11-18T21:07:55.254813+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c928f917a66f8fa5c68f40f6d5f6b659dc9b579a",
+  "sourceCommit": "7aa1eea9009030f47e25ca6eb476ae471582c0fb",
   "progress": 79.56,
   "progressAsOf": "2026-11-16",
   "progressBasis": "LCM-01 PR #490 adds Joomla integration tests proving existing certificates remain owned and downloadable after course states 0/2/-2 and after upgrade, while classroom resume is denied. The tests found and fixed an SQL binding regression in pending PDF rendering. Prior PRs #484/#486/#488 cover learning access, administrative migration/notifications and historical dashboard. Conservative weighted estimate unchanged (81+81+78+99+68+92+70+72+75)/9 = 79.56% (rounded 80%). Manual Joomla acceptance, backup/storage restore and remaining endpoint/race audit pending.",
@@ -19,19 +19,38 @@
   },
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
     {
+      "number": 653,
+      "title": "feat(QUI-02): conservative trash and restore for question bank",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/653",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-18T21:07:29Z",
+      "mergedAt": "2026-11-18T21:07:27Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "51f6f69911d310a94faa9690591e89e33c0af9ed",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44397201734"
+      }
+    },
+    {
       "number": 651,
       "title": "feat(QUI-02): conservative trash and restore for question bank",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/651",
-      "status": "open",
+      "status": "closed",
       "draft": false,
-      "updated": "2026-11-18T20:58:24Z",
+      "updated": "2026-11-18T21:02:04Z",
       "mergedAt": null,
       "labels": [
         "P1"
@@ -77,8 +96,8 @@
       "milestone": "1.0.0",
       "headSha": "727e346abeb267bffe0b877a26f9382d01202d42",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44396397537"
       }
     },
@@ -495,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "83827a6e381a5a93960b60857c88858835d1dc32",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44369328457"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1529,44 +1548,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 573,
-      "title": "fix(P0 video): consentire la riproduzione di lezioni già completate",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/573",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T19:24:43Z",
-      "mergedAt": "2026-11-17T19:13:19Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "82121d13e5aef5b46fe07000b79f4870d4ace131",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 572,
-      "title": "fix(P0 video): ripristinare la riproduzione YouTube dopo regressione PR #571",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/572",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T18:55:23Z",
-      "mergedAt": "2026-11-17T18:55:20Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f73d1d736d44ea24d28e237c78cf3a3b4ffcb356",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1598,8 +1579,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T20:46:57Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44393803890/artifacts/14467609638"
+    "createdAt": "2026-11-18T21:07:02Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44397201627/artifacts/14471897362"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

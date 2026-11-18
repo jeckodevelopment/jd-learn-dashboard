@@ -467,7 +467,7 @@
     "state": "Completata",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "13;120;194",
+    "prs": "13;120;194;653",
     "todo": "Nessuno nella sola eccezione amministrativa AC-131.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-45; AC-80; AC-131; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Rivalutazioni, disponibilità specifiche, UI/accessibilità completa e collaudo end-to-end dei singoli criteri; vedere anche tempi/annullamenti/proroghe già implementati nelle guide dedicate. AC-131 integrata in main 0.41.27-dev: lista Search Tools separata dal form, crea/duplica/elimina con CSRF/ACL e cancellazione bloccata sulle revisioni usate; collaudo manuale Joomla AC-131 ancora pendente; nessuna funzionalità didattica quiz aggiunta.",
     "criteria": "Sola amministrazione banca esistente: elenco/form, crea/duplica/elimina (AC-131)."
