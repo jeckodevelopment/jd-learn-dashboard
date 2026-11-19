@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:42:47.019935+00:00",
+  "generatedAt": "2026-11-19T10:54:36.305839+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "09e9d42155ba4b03a5a65218ced8fb90751fc4f0",
-  "progress": 54.68,
-  "developmentProgress": 54.68,
+  "sourceCommit": "4c86c1eba9d6d66c11bab24299609d2a389e96fb",
+  "progress": 54.76,
+  "developmentProgress": 54.76,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,10 +21,10 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 68.47,
+      "development_evidence_floor_percent": 69.19,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 7,
+      "missing_criteria": 6,
       "unverifiable_criteria": 20,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 691,
+      "title": "fix(quiz): avvisa prima di uscire con risposte non salvate e aggiorna SCR-07",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/691",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T10:54:12Z",
+      "mergedAt": "2026-11-19T10:54:09Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0042ba30ac6c08acfe20050daa43cab229b93e01",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44508909318"
+      }
+    },
     {
       "number": 690,
       "title": "docs(audit): riconcilia sei criteri realizzati e avanza la baseline a 54,68%",
@@ -461,9 +480,9 @@
       "milestone": "1.0.0",
       "headSha": "b5d7a1914d531d96f1b2cfd88f44ad92da93568a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44418482725"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1642,25 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 612,
-      "title": "docs: consolidate all 214 requirements and record verified lifecycle gaps",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/612",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T09:05:06Z",
-      "mergedAt": "2026-11-18T09:05:03Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "57eb7df69dbe61c5f8b6dfa1defd3472ca6dff92",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T10:28:06Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44505370944/artifacts/14519537629"
+    "createdAt": "2026-11-19T10:51:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44508909318/artifacts/14522595344"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

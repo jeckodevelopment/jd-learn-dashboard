@@ -1402,7 +1402,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "13;177",
+    "prs": "13;177;691",
     "todo": "Completare uniformità dei messaggi uscita/rete nei flussi core; retry avvio/audio già presenti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-52; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Uniformità per tutte le attività, messaggi uscita/rete e verifica reale del browser.",
     "criteria": "Errori di salvataggio.  Mostrare Salvataggio…, Salvato alle…, Salvataggio non riuscito. Conservare temporaneamente in memoria le modifiche non confermate, riprovare con limiti e segnalare il rischio di perdita uscendo. Non mostrare come persistenti dati che il server non ha accettato; non conservare risposte o credenziali in archivi pubblici del browser. Gli intervalli di salvataggio sono quelli PERF-05: l'ultimo segmento non confermato può dover essere rivisto dopo un arresto improvviso"

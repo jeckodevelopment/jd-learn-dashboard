@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T10:42:47.019935+00:00",
+  "generatedAt": "2026-11-19T10:54:36.305839+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T10:54:09Z",
+      "commit": "4c86c1eba9d6d66c11bab24299609d2a389e96fb",
+      "number": 691,
+      "title": "fix(quiz): avvisa prima di uscire con risposte non salvate e aggiorna SCR-07",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/691"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T10:54:36.305839+00:00",
+      "commit": "4c86c1eba9d6d66c11bab24299609d2a389e96fb",
+      "from": 54.68,
+      "to": 54.76,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T10:42:14Z",
