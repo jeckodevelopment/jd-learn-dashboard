@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T17:58:31.420044+00:00",
+  "generatedAt": "2026-11-19T18:00:01.155792+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "2808fd60102637ade9b4ee6f01190a24ad149378",
+  "sourceCommit": "10006e3ac35c27ed0555d2f212696b4c9538e59a",
   "progress": 55.52,
   "developmentProgress": 55.52,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 717,
+      "title": "docs(DOC-05): tracciare merge #716 e nuovo avanzamento 55,52%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/717",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T17:59:34Z",
+      "mergedAt": "2026-11-19T17:59:31Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "cd6022331dacb54f61b3022679d99324d3309eb3",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44582899384"
+      }
+    },
     {
       "number": 716,
       "title": "feat(DOC-05): collega tutte le guide IT/EN a manuali locali di 29 capitoli",
@@ -384,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "d8da5513b76597f9fe68969c54bc81874768ee1e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44535894494"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1659,25 +1679,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "af4732a138007a42b8b13eb8830431828681ce81",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 639,
-      "title": "fix: refresh Smart Search after archived course workflow (0.60.8)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/639",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T19:16:44Z",
-      "mergedAt": "2026-11-18T19:16:41Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f8c4a137430e0904cecc2c6d43c3a36d1a389b5d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
