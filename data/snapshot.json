@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T13:25:16.131754+00:00",
+  "generatedAt": "2026-11-19T13:47:07.260460+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "81e3929146bd35b641044ea24bc3dc84281a17ee",
+  "sourceCommit": "941c823feca478a4463dce551cbcc6ff8a4ab503",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 704,
+      "title": "feat(SCR-01): filtri Categoria e reset paginazione URL coerenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/704",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T13:46:38Z",
+      "mergedAt": "2026-11-19T13:46:36Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d8da5513b76597f9fe68969c54bc81874768ee1e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44535894494"
+      }
+    },
     {
       "number": 703,
       "title": "docs(audit): riconciliare SCR-01/sorts e avanzamento JD Learn",
@@ -384,9 +403,9 @@
       "milestone": "1.0.0",
       "headSha": "0042ba30ac6c08acfe20050daa43cab229b93e01",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44508909318"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1657,25 +1676,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 625,
-      "title": "fix: close course admissions and delivery when moving to trash (0.60.4)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/625",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:11:56Z",
-      "mergedAt": "2026-11-18T18:11:53Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4157e335d82af01137ff3712fac01b68c0764070",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1707,8 +1707,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T13:19:39Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44531560674/artifacts/14533797377"
+    "createdAt": "2026-11-19T13:45:53Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44535894494/artifacts/14535409306"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
