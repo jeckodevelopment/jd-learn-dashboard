@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T23:33:04.613575+00:00",
+  "generatedAt": "2026-11-19T23:59:23.198820+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T23:58:54Z",
+      "commit": "85dd32a63f77397f1fcba2b61ee32ccffd36c344",
+      "number": 740,
+      "title": "feat(DOC-07): diagnostica scheduler azionabile e ACL per operatori (0.64.0)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/740"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T23:32:32Z",

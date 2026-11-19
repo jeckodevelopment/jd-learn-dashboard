@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T23:33:04.613575+00:00",
+  "generatedAt": "2026-11-19T23:59:23.198820+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c1c13b3e2c3843adde2c56d68bfc1a394985fbf8",
+  "sourceCommit": "85dd32a63f77397f1fcba2b61ee32ccffd36c344",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 740,
+      "title": "feat(DOC-07): diagnostica scheduler azionabile e ACL per operatori (0.64.0)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/740",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T23:58:56Z",
+      "mergedAt": "2026-11-19T23:58:54Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0d43931cb28d45e68031bbccb0d9a7840fbbdead",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44641537868"
+      }
+    },
     {
       "number": 739,
       "title": "docs(CAT-02): registrare merge e build verificata PR #738",
@@ -364,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "7e1beffe21ff7d5d276a8b3f655c8f86c29e0bf1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44616754113"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -384,9 +403,9 @@
       "milestone": "1.0.0",
       "headSha": "066b502b566cf952b81bc5f93079a71ce990d035",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44607806595"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,25 +1696,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 664,
-      "title": "docs: reconcile functional audit batch 14",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/664",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:45:58Z",
-      "mergedAt": "2026-11-18T21:45:55Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5420299e40fcaae8b8e480063318b1661a2dbd29",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1726,9 +1726,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.63.4-dev",
-    "createdAt": "2026-11-19T23:30:57Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44637574907/artifacts/14585362197"
+    "name": "JD-Learn-0.64.0-dev",
+    "createdAt": "2026-11-19T23:58:29Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44641537845/artifacts/14587720154"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
