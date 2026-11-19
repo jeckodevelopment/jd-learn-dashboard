@@ -1677,7 +1677,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "187",
+    "prs": "187;693",
     "todo": "Chiudere gli ulteriori vincoli/anteprime baseline non coperti; catena corrente, percorsi e prerequisiti già presenti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-60; AC-61; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Prerequisiti/sequenze, restrizioni aggiuntive di lezione, anteprime e percorsi non ancora implementati; configurazioni non supportate chiuse.",
     "criteria": "Catena di accesso.  Verificare disponibilità di corso/versione, stato e accesso delle categorie applicabili, account, livello del corso, iscrizione didattica e prerequisiti. Il livello della scheda riguarda soltanto la presentazione promozionale. Le categorie limitano la visibilità secondo le proprie regole e non concedono mai accesso alle lezioni. L'implementazione deve verificare esplicitamente le categorie ascendenti: il viewing access level non va confuso con l'ereditarietà dei permessi di modifica. Una voce di menu nascosta non protegge una risorsa; un URL diretto applica gli stessi controlli del servizio. Un account Joomla bloccato non scarica attestati tramite vecchi collegamenti"

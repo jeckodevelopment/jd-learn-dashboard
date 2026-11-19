@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:58:01.942591+00:00",
+  "generatedAt": "2026-11-19T11:23:28.024164+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3d225a65efa3aadb54aad1dc6a736cf8aa645fd5",
-  "progress": 54.76,
-  "developmentProgress": 54.76,
+  "sourceCommit": "6286974784d6455247555fbb0524e9c3c1c3cbb8",
+  "progress": 54.82,
+  "developmentProgress": 54.82,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 39.03,
+      "development_evidence_floor_percent": 39.28,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 17,
+      "missing_criteria": 16,
       "unverifiable_criteria": 100,
       "unassessed_criteria": 0
     },
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 693,
+      "title": "fix(certificates): nega attestati agli account Joomla bloccati e aggiorna EDGE-01",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/693",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T11:22:56Z",
+      "mergedAt": "2026-11-19T11:22:53Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "aa16f717ae60fc96fc04ed8730050ff13fdbcba2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44512312072"
+      }
+    },
+    {
       "number": 692,
       "title": "docs: registra SCR-07 merge, CI, artefatto e avanzamento (#691)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/692",
@@ -150,8 +169,8 @@
       "milestone": "1.0.0",
       "headSha": "b7c573f10a601585a7027f354d4aa2fdb90d1cfb",
       "ci": {
-        "status": "pending",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44510048922"
       }
     },
@@ -481,9 +500,9 @@
       "milestone": "1.0.0",
       "headSha": "bbc8fa9a591fc1bfabddbebd3b683b622ae7fe3e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44419466820"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,23 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 614,
-      "title": "feat: atomic course trash and conservative restore (0.59.0)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/614",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T11:29:15Z",
-      "mergedAt": "2026-11-18T11:29:13Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "5607b01d2520981001c90989d97c33c7ea2d9e0c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1695,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T10:51:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44508909318/artifacts/14522595344"
+    "createdAt": "2026-11-19T11:13:36Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44512312000/artifacts/14522879055"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T10:58:01.942591+00:00",
+  "generatedAt": "2026-11-19T11:23:28.024164+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T11:22:53Z",
+      "commit": "6286974784d6455247555fbb0524e9c3c1c3cbb8",
+      "number": 693,
+      "title": "fix(certificates): nega attestati agli account Joomla bloccati e aggiorna EDGE-01",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/693"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T11:23:28.024164+00:00",
+      "commit": "6286974784d6455247555fbb0524e9c3c1c3cbb8",
+      "from": 54.76,
+      "to": 54.82,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T10:57:25Z",
