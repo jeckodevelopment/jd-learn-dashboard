@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T19:34:48.845894+00:00",
+  "generatedAt": "2026-11-19T19:35:59.684111+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T19:35:28Z",
+      "commit": "9a25d2033c7091989bd1735f096071d6094c9539",
+      "number": 725,
+      "title": "docs(DOC-06): consolidare merge, CI e pacchetto PR #724",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/725"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T19:34:11Z",
