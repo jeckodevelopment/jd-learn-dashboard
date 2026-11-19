@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T12:31:06.914104+00:00",
+  "generatedAt": "2026-11-19T12:33:16.797268+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "93f5147a89a3b5c56c213d90160b994e0f7c7c77",
+  "sourceCommit": "010d04d664dccc0d4ad5b28e38e17102ee6d41a6",
   "progress": 54.9,
   "developmentProgress": 54.9,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 698,
+      "title": "docs(SCR-01): registrare merge, CI e artefatto PR #697",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/698",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T12:32:48Z",
+      "mergedAt": "2026-11-19T12:32:45Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fbff924af2adc3597dce2abd48e3d017ebd7d69c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44524775371"
+      }
+    },
     {
       "number": 697,
       "title": "feat(SCR-01): ordinamento catalogo per data di pubblicazione",
@@ -384,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "bc60c11f403705827e57bfb1c42d6e7062bbdd8d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44502309262"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1648,25 +1668,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f0736d58bc08e7b746367811869ee290cb9c38ed",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 619,
-      "title": "fix: prevent premature course reactivation while archived (0.60.2)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/619",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T17:44:41Z",
-      "mergedAt": "2026-11-18T17:44:39Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f8a785b99be135fa10f1622e661ef04c063df15a",
       "ci": {
         "status": "unknown",
         "conclusion": null,

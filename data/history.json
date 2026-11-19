@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T12:31:06.914104+00:00",
+  "generatedAt": "2026-11-19T12:33:16.797268+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T12:32:45Z",
+      "commit": "010d04d664dccc0d4ad5b28e38e17102ee6d41a6",
+      "number": 698,
+      "title": "docs(SCR-01): registrare merge, CI e artefatto PR #697",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/698"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T12:30:29Z",
