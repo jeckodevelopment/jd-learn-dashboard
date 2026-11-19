@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T22:22:29.946364+00:00",
+  "generatedAt": "2026-11-19T22:24:06.027037+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4a7cbcfbebc5daf54d9c53bdb7fd0a953da58fe0",
+  "sourceCommit": "9c86ffcbab5358461b3d8625229f1a895a8c047e",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 733,
+      "title": "docs(QUI-02): registrare merge, CI e pacchetto verificato PR #732",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/733",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T22:23:42Z",
+      "mergedAt": "2026-11-19T22:23:39Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "bb424d5ce5cdd5be202e0af2d6f3742bcbb8337b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44628079382"
+      }
+    },
     {
       "number": 732,
       "title": "fix(QUI-02): bloccare eliminazione diretta delle domande non cestinate (0.63.1)",
@@ -305,9 +325,9 @@
       "milestone": "1.0.0",
       "headSha": "76c7c7720ceddfb08e5a9e4b39b31af2374836fe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44598908929"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1668,25 +1688,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "9c38badf8327ae6bb7ea6475a0e0402fa1bdaa76",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 656,
-      "title": "docs: record reconciliation PR 654 in history",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/656",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:13:29Z",
-      "mergedAt": "2026-11-18T21:13:27Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "68cfeac20131af6aeab9081e2770839979f14bb1",
       "ci": {
         "status": "unknown",
         "conclusion": null,

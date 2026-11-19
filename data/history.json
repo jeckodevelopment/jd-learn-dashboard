@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T22:22:29.946364+00:00",
+  "generatedAt": "2026-11-19T22:24:06.027037+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T22:23:39Z",
+      "commit": "9c86ffcbab5358461b3d8625229f1a895a8c047e",
+      "number": 733,
+      "title": "docs(QUI-02): registrare merge, CI e pacchetto verificato PR #732",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/733"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T22:22:01Z",
