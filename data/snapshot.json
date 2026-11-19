@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T23:31:57.920923+00:00",
+  "generatedAt": "2026-11-19T23:33:04.613575+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ca3ace4c7a298df93936f8f4bddea096ac05d30b",
+  "sourceCommit": "c1c13b3e2c3843adde2c56d68bfc1a394985fbf8",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 739,
+      "title": "docs(CAT-02): registrare merge e build verificata PR #738",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/739",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T23:32:34Z",
+      "mergedAt": "2026-11-19T23:32:32Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4b0cbe757d1cfab5c0c61d6221c18a15ebbf7a0e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44638455614"
+      }
+    },
     {
       "number": 738,
       "title": "fix(CAT-02): stato iscrizione corretto sul catalogo con oltre 50 edizioni (0.63.4)",
@@ -1671,25 +1691,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "5420299e40fcaae8b8e480063318b1661a2dbd29",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 662,
-      "title": "docs: record reconciliation PR 661 in history",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/662",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:34:17Z",
-      "mergedAt": "2026-11-18T21:34:15Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4afbcbc7e87a045e9a737f5f638b9214c1ebcff3",
       "ci": {
         "status": "unknown",
         "conclusion": null,
