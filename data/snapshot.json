@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T19:35:59.684111+00:00",
+  "generatedAt": "2026-11-19T20:14:01.271097+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9a25d2033c7091989bd1735f096071d6094c9539",
+  "sourceCommit": "74e9ce482f4e8881af3e0746a9c41a68be369399",
   "progress": 55.99,
   "developmentProgress": 55.99,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 726,
+      "title": "feat(LIFE-01): anteprima dipendenze e conferma sicura della purga corsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/726",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T20:13:32Z",
+      "mergedAt": "2026-11-19T20:13:29Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2fb88c90e00be094ba74f79de5f3b53a9465e816",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44605697284"
+      }
+    },
     {
       "number": 725,
       "title": "docs(DOC-06): consolidare merge, CI e pacchetto PR #724",
@@ -346,9 +365,9 @@
       "milestone": "1.0.0",
       "headSha": "c5ca27c47f2d67201d4480d65b503f599b665546",
       "ci": {
-        "status": "completed",
-        "conclusion": "cancelled",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44577048018"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -365,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "97e839251ddb4f7e66871a374bfc8b644837ad29",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44576127264"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1670,25 +1689,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 648,
-      "title": "fix(STA-02): block timed quiz start beyond learning window",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/648",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T20:47:38Z",
-      "mergedAt": "2026-11-18T20:47:35Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c74cc57399c359fddb942d14347807875dbf3724",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1719,9 +1719,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.9-dev",
-    "createdAt": "2026-11-19T19:33:38Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44598908929/artifacts/14567007882"
+    "name": "JD-Learn-0.61.0-dev",
+    "createdAt": "2026-11-19T20:13:02Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44605697284/artifacts/14569599913"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T19:35:59.684111+00:00",
+  "generatedAt": "2026-11-19T20:14:01.271097+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T20:13:29Z",
+      "commit": "74e9ce482f4e8881af3e0746a9c41a68be369399",
+      "number": 726,
+      "title": "feat(LIFE-01): anteprima dipendenze e conferma sicura della purga corsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/726"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T19:35:28Z",

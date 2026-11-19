@@ -1512,7 +1512,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "120;490",
+    "prs": "120;490;726",
     "todo": "Completare cestino/ripristino e purga intenzionale con dipendenze/politica; archiviazione corsi già presente.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-50; AC-54; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Lifecycle cestino/archivio e purga intenzionale con analisi delle dipendenze e politica configurata.",
     "criteria": "Dipendenze.  Un corso con iscrizioni, tentativi o attestati non è eliminabile definitivamente con un normale comando editoriale. Cestinamento/archiviazione e cancellazione dei dati sono operazioni diverse. La purga è soggetta a permessi, politica di conservazione e riepilogo dell'impatto. Nessuna eliminazione a cascata non dichiarata"
