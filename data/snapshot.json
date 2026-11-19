@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T13:20:45.333358+00:00",
+  "generatedAt": "2026-11-19T13:25:16.131754+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7fd8a235b65da7fb185728cef997527aabfd4f5c",
-  "progress": 54.98,
-  "developmentProgress": 54.98,
+  "sourceCommit": "81e3929146bd35b641044ea24bc3dc84281a17ee",
+  "progress": 55.05,
+  "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,10 +21,10 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 70.64,
+      "development_evidence_floor_percent": 71.37,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 4,
+      "missing_criteria": 3,
       "unverifiable_criteria": 20,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 703,
+      "title": "docs(audit): riconciliare SCR-01/sorts e avanzamento JD Learn",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/703",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T13:24:38Z",
+      "mergedAt": "2026-11-19T13:24:35Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f69631db26824b6720efdef82b70c20b1869ee31",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44532999032"
+      }
+    },
     {
       "number": 702,
       "title": "feat(SCR-01): ordinamento editoriale configurabile del catalogo",
@@ -384,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "f3ff63832d5d0ae2744eb616db24081299a0c436",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44508042726"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1651,25 +1671,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "4157e335d82af01137ff3712fac01b68c0764070",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 623,
-      "title": "docs(ci): registrare il collaudo end-to-end della sincronizzazione dashboard",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/623",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:05:51Z",
-      "mergedAt": "2026-11-18T18:05:48Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0d3b31fb8503545553b929d01be81e6a169fb82f",
       "ci": {
         "status": "unknown",
         "conclusion": null,

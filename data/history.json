@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T13:20:45.333358+00:00",
+  "generatedAt": "2026-11-19T13:25:16.131754+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T13:24:35Z",
+      "commit": "81e3929146bd35b641044ea24bc3dc84281a17ee",
+      "number": 703,
+      "title": "docs(audit): riconciliare SCR-01/sorts e avanzamento JD Learn",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/703"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T13:25:16.131754+00:00",
+      "commit": "81e3929146bd35b641044ea24bc3dc84281a17ee",
+      "from": 54.98,
+      "to": 55.05,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T13:20:13Z",
