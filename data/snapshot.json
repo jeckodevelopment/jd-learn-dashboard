@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T23:17:25.025287+00:00",
+  "generatedAt": "2026-11-19T23:18:44.131633+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b422d4ec0830a5afc7dbd64f5860c3603bb225f3",
+  "sourceCommit": "78ea0652f315c0521b71563988aadc3fe0c2d56b",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 737,
+      "title": "docs(STU-01): registrare merge e build verificata PR #736",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/737",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T23:18:14Z",
+      "mergedAt": "2026-11-19T23:18:12Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9ce01400d76439ff82e3e11489ec854a2a25feb4",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44636397341"
+      }
+    },
     {
       "number": 736,
       "title": "fix(STU-01): Riprendi attraversa lo storico oltre 50 attività (0.63.3)",
@@ -1670,25 +1690,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "497355641ec971144dbe45941cab7f37c20a97ac",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 660,
-      "title": "docs: record reconciliation PR 658 in history",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/660",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:25:17Z",
-      "mergedAt": "2026-11-18T21:25:15Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "eabd4fb1051b09a64a860367bc0b4fdd11b5a41e",
       "ci": {
         "status": "unknown",
         "conclusion": null,
