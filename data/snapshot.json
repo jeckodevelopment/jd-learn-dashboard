@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T22:38:04.163543+00:00",
+  "generatedAt": "2026-11-19T23:17:25.025287+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "51a668b09d453eda2efe84a76fd0caa403b518a5",
+  "sourceCommit": "b422d4ec0830a5afc7dbd64f5860c3603bb225f3",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 736,
+      "title": "fix(STU-01): Riprendi attraversa lo storico oltre 50 attività (0.63.3)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/736",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T23:16:58Z",
+      "mergedAt": "2026-11-19T23:16:56Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "684857d2c90402fb42b3777760ef3cdea1c62b48",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44635635715"
+      }
+    },
     {
       "number": 735,
       "title": "docs(JOO-01): registrare merge e pacchetto verificato PR #734",
@@ -1675,25 +1694,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 659,
-      "title": "docs: reconcile CAT-02 PR #657 merge, CI and installable package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/659",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:23:24Z",
-      "mergedAt": "2026-11-18T21:23:22Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c0fab67328d2190ea9b56a5c2b27eb643e6f8977",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1724,9 +1724,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.63.2-dev",
-    "createdAt": "2026-11-19T22:34:20Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44629252767/artifacts/14581157992"
+    "name": "JD-Learn-0.63.3-dev",
+    "createdAt": "2026-11-19T23:16:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44635635715/artifacts/14584007329"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

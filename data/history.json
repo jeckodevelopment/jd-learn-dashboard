@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T22:38:04.163543+00:00",
+  "generatedAt": "2026-11-19T23:17:25.025287+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T23:16:56Z",
+      "commit": "b422d4ec0830a5afc7dbd64f5860c3603bb225f3",
+      "number": 736,
+      "title": "fix(STU-01): Riprendi attraversa lo storico oltre 50 attività (0.63.3)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/736"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T22:37:26Z",

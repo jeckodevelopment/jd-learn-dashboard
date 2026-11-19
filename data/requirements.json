@@ -324,7 +324,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "138;185;502;508;510;514",
+    "prs": "138;185;502;508;510;514;736",
     "todo": "Completare uniformità dei messaggi di blocco e della UI core; attestati e attività quiz differiti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-03; AC-26; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Attestati, attività dettagliate da correggere/ripetere e completamento della UI.",
     "criteria": "Area personale, stato/avanzamento e ripresa autorizzata dei corsi core."
