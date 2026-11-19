@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T21:26:25.346100+00:00",
+  "generatedAt": "2026-11-19T21:51:15.569109+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T21:50:42Z",
+      "commit": "d575a99aa7236421ed37ea8f5bb2982b56193a73",
+      "number": 730,
+      "title": "feat(STA-02): messaggi pre-avvio e guard completo su scadenze quiz",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/730"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-19T21:26:25.346100+00:00",
