@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T12:33:16.797268+00:00",
+  "generatedAt": "2026-11-19T12:49:12.892672+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T12:48:47Z",
+      "commit": "5efc71ffee43e5df0be59140cd63152b3da64a08",
+      "number": 699,
+      "title": "feat(SCR-01): errore recuperabile e Riprova nel catalogo",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/699"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T12:32:45Z",
