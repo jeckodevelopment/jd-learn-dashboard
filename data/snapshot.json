@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T16:58:11.193081+00:00",
+  "generatedAt": "2026-11-19T17:25:18.504102+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "80d75a4d665d44e6c42e718ad2355db5e06afa20",
+  "sourceCommit": "a12ea7d40c3fbcad7810b60ddc9ab99a903c62fb",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 714,
+      "title": "feat(DOC-05): guida contestuale bilingue per tutte le 29 viste backend",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/714",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T17:24:49Z",
+      "mergedAt": "2026-11-19T17:24:46Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "97e839251ddb4f7e66871a374bfc8b644837ad29",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44576127264"
+      }
+    },
     {
       "number": 713,
       "title": "docs(DOC-05): registrare merge, test e artefatto PR #712",
@@ -385,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "796b0c0465dd27d2a089453f0b658fe8f0b11bdf",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44529481325"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -405,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "92ac3dd3275061cde9aa429b08fe1a34b0789731",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44527560659"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1663,25 +1682,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 635,
-      "title": "Audit 1.0.0: registro verificabile e prime evidenze sul lifecycle",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/635",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T19:02:26Z",
-      "mergedAt": "2026-11-18T19:02:23Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "005e2df1f52ffee347df0da8ca0d38c2d73ed9eb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1713,8 +1713,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T16:56:00Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44570712298/artifacts/14554950876"
+    "createdAt": "2026-11-19T17:24:14Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44576127264/artifacts/14555769395"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
