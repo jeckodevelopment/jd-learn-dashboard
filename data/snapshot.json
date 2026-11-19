@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T14:22:34.274593+00:00",
+  "generatedAt": "2026-11-19T14:24:44.697970+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a07ef6036d2de4970f8ab4284b77583a5b687038",
+  "sourceCommit": "d5eb3118f08ecf806cb76fdc608e1a7977c227bc",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 707,
+      "title": "docs(SCR-01): evidenze CI HTTP, merge e limiti PR #706",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/707",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T14:24:08Z",
+      "mergedAt": "2026-11-19T14:24:06Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8f828970cff93a1035f25ed6baac090634196b2e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44543200543"
+      }
+    },
     {
       "number": 706,
       "title": "test(SCR-01): verifiche HTTP reali filtri, URL e reset paginazione",
@@ -1653,25 +1673,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "853ef27c8246205b9782bf3ddc2d064fa4a8ab6d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 628,
-      "title": "docs: reconcile PR #627 merge, CI and 0.60.5 build",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/628",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:24:56Z",
-      "mergedAt": "2026-11-18T18:24:54Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "83827a6e381a5a93960b60857c88858835d1dc32",
       "ci": {
         "status": "unknown",
         "conclusion": null,
