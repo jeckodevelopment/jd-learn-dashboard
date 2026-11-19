@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:15:08.759587+00:00",
+  "generatedAt": "2026-11-19T10:16:14.377283+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3380ad8bd8bf29b507c4b777b461ea3df57b153e",
+  "sourceCommit": "f3a99681d69a4736287b5eab3315f707151a7da0",
   "progress": 54.12,
   "developmentProgress": 54.12,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,10 +139,10 @@
       "number": 686,
       "title": "feat(course): azioni contestuali per iscrizioni e richieste (CAT-02/SCR-03)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/686",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-19T10:11:06Z",
-      "mergedAt": null,
+      "updated": "2026-11-19T10:15:38Z",
+      "mergedAt": "2026-11-19T10:15:36Z",
       "labels": [
         "P1"
       ],
@@ -1653,25 +1653,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "83cfd00d1a59ba1b26fc5442c923d487e9213809",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 607,
-      "title": "docs: complete 1.0.0 requirement criteria inventory (214/214)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/607",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T07:04:24Z",
-      "mergedAt": "2026-11-18T07:04:22Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0cb4b9e28d757a8a1a0f1c2f17e4bd3e3e12df29",
       "ci": {
         "status": "unknown",
         "conclusion": null,
