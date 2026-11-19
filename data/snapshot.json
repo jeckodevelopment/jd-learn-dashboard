@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:16:14.377283+00:00",
+  "generatedAt": "2026-11-19T10:17:48.713465+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f3a99681d69a4736287b5eab3315f707151a7da0",
+  "sourceCommit": "a36bd24fefa78834d0cff7a9eba686698ccdd644",
   "progress": 54.12,
   "developmentProgress": 54.12,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 687,
+      "title": "docs: registra merge, CI e artefatto CAT-02/SCR-03 (#686)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/687",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T10:17:24Z",
+      "mergedAt": "2026-11-19T10:17:21Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2dfd3fc98b17bd2024c71e5719a9b3e57abd62f2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44504141590"
+      }
+    },
     {
       "number": 686,
       "title": "feat(course): azioni contestuali per iscrizioni e richieste (CAT-02/SCR-03)",
@@ -1634,25 +1654,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "73cf113caf33a5fdbfc8c3ffc50e7736a09fba97",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 608,
-      "title": "docs: verify provider architecture criteria against implementation evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/608",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T07:09:14Z",
-      "mergedAt": "2026-11-18T07:09:11Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "83cfd00d1a59ba1b26fc5442c923d487e9213809",
       "ci": {
         "status": "unknown",
         "conclusion": null,
