@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T10:54:36.305839+00:00",
+  "generatedAt": "2026-11-19T10:58:01.942591+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T10:57:25Z",
+      "commit": "3d225a65efa3aadb54aad1dc6a736cf8aa645fd5",
+      "number": 692,
+      "title": "docs: registra SCR-07 merge, CI, artefatto e avanzamento (#691)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/692"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T10:54:09Z",

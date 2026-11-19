@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:54:36.305839+00:00",
+  "generatedAt": "2026-11-19T10:58:01.942591+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4c86c1eba9d6d66c11bab24299609d2a389e96fb",
+  "sourceCommit": "3d225a65efa3aadb54aad1dc6a736cf8aa645fd5",
   "progress": 54.76,
   "developmentProgress": 54.76,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 692,
+      "title": "docs: registra SCR-07 merge, CI, artefatto e avanzamento (#691)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/692",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T10:57:28Z",
+      "mergedAt": "2026-11-19T10:57:25Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b7c573f10a601585a7027f354d4aa2fdb90d1cfb",
+      "ci": {
+        "status": "pending",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44510048922"
+      }
+    },
     {
       "number": 691,
       "title": "fix(quiz): avvisa prima di uscire con risposte non salvate e aggiorna SCR-07",
@@ -500,9 +520,9 @@
       "milestone": "1.0.0",
       "headSha": "891882f26f2c4ecfffbd0e41569d466f434935bc",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44418669108"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1639,23 +1659,6 @@
       "labels": [],
       "milestone": "1.0.0",
       "headSha": "5607b01d2520981001c90989d97c33c7ea2d9e0c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 613,
-      "title": "feat: show archived courses in native Joomla administrator list (0.58.0)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/613",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T09:29:25Z",
-      "mergedAt": "2026-11-18T09:29:23Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "d97b957b58ec82f01a2ecccf75e6480db250057d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
