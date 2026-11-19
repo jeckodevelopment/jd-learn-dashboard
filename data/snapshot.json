@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T11:47:12.647304+00:00",
+  "generatedAt": "2026-11-19T12:31:06.914104+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "cbe88231cdb08c983f37e75e6cf04ff2f309d5e6",
+  "sourceCommit": "93f5147a89a3b5c56c213d90160b994e0f7c7c77",
   "progress": 54.9,
   "developmentProgress": 54.9,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 697,
+      "title": "feat(SCR-01): ordinamento catalogo per data di pubblicazione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/697",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T12:30:31Z",
+      "mergedAt": "2026-11-19T12:30:29Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c424a24d9fffdb71f45454cbfc38db8f6ec1a720",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44523730847"
+      }
+    },
     {
       "number": 696,
       "title": "docs: registra SCR-01 pending approval, CI e avanzamento (#695)",
@@ -384,9 +403,9 @@
       "milestone": "1.0.0",
       "headSha": "583bfaaed81eb614b777e8b1bc65e07edfbff9b0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44500941584"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -404,9 +423,9 @@
       "milestone": "1.0.0",
       "headSha": "0761a193a828d680dbb5030e162c7ace9dd9c5a9",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44499992290"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1653,25 +1672,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 618,
-      "title": "docs: consolidamento unico baseline 1.0.0 e gate di riconciliazione",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/618",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T16:34:10Z",
-      "mergedAt": "2026-11-18T16:34:07Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4723758d8aa08f403b8373d732473cfe59e6460c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1703,8 +1703,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T11:44:33Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44516781395/artifacts/14525968438"
+    "createdAt": "2026-11-19T12:29:11Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44523730847/artifacts/14529537524"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
