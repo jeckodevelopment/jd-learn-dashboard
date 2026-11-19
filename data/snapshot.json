@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T22:36:28.295655+00:00",
+  "generatedAt": "2026-11-19T22:38:04.163543+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8eaaed0edf20ec2dbd48d803c982b6406719d822",
+  "sourceCommit": "51a668b09d453eda2efe84a76fd0caa403b518a5",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 735,
+      "title": "docs(JOO-01): registrare merge e pacchetto verificato PR #734",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/735",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T22:37:28Z",
+      "mergedAt": "2026-11-19T22:37:26Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "867c85ee2f24f3faecaf491fd365bf2da622ef24",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44630256053"
+      }
+    },
     {
       "number": 734,
       "title": "fix(JOO-01): eliminare ZIP Action Log duplicato e bloccare package inconsistenti (0.63.2)",
@@ -1669,25 +1689,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c0fab67328d2190ea9b56a5c2b27eb643e6f8977",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 658,
-      "title": "docs: reconcile functional audit batch 12",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/658",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:23:22Z",
-      "mergedAt": "2026-11-18T21:23:20Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6a3cdb1189fb4000149c468d893b5c28579c3133",
       "ci": {
         "status": "unknown",
         "conclusion": null,

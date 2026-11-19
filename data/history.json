@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T22:36:28.295655+00:00",
+  "generatedAt": "2026-11-19T22:38:04.163543+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T22:37:26Z",
+      "commit": "51a668b09d453eda2efe84a76fd0caa403b518a5",
+      "number": 735,
+      "title": "docs(JOO-01): registrare merge e pacchetto verificato PR #734",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/735"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T22:36:02Z",
