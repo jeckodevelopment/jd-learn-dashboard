@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T16:57:08.249571+00:00",
+  "generatedAt": "2026-11-19T16:58:11.193081+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T16:57:45Z",
+      "commit": "80d75a4d665d44e6c42e718ad2355db5e06afa20",
+      "number": 713,
+      "title": "docs(DOC-05): registrare merge, test e artefatto PR #712",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/713"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T16:56:31Z",
