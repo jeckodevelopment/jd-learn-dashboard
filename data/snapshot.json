@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T23:18:44.131633+00:00",
+  "generatedAt": "2026-11-19T23:31:57.920923+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "78ea0652f315c0521b71563988aadc3fe0c2d56b",
+  "sourceCommit": "ca3ace4c7a298df93936f8f4bddea096ac05d30b",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 738,
+      "title": "fix(CAT-02): stato iscrizione corretto sul catalogo con oltre 50 edizioni (0.63.4)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/738",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T23:31:26Z",
+      "mergedAt": "2026-11-19T23:31:23Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fe28888b62480107f961b079d0ef4c9e325750da",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44637574912"
+      }
+    },
     {
       "number": 737,
       "title": "docs(STU-01): registrare merge e build verificata PR #736",
@@ -364,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "2fb88c90e00be094ba74f79de5f3b53a9465e816",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44605697284"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1676,25 +1695,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 661,
-      "title": "docs: reconcile functional audit batch 13",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/661",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:33:23Z",
-      "mergedAt": "2026-11-18T21:33:20Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "497355641ec971144dbe45941cab7f37c20a97ac",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1725,9 +1725,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.63.3-dev",
-    "createdAt": "2026-11-19T23:16:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44635635715/artifacts/14584007329"
+    "name": "JD-Learn-0.63.4-dev",
+    "createdAt": "2026-11-19T23:30:57Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44637574907/artifacts/14585362197"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T23:18:44.131633+00:00",
+  "generatedAt": "2026-11-19T23:31:57.920923+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T23:31:23Z",
+      "commit": "ca3ace4c7a298df93936f8f4bddea096ac05d30b",
+      "number": 738,
+      "title": "fix(CAT-02): stato iscrizione corretto sul catalogo con oltre 50 edizioni (0.63.4)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/738"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T23:18:12Z",
