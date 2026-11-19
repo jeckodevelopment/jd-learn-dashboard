@@ -1336,7 +1336,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "162;669;672;675;678;680;695;697;699;702;704",
+    "prs": "162;669;672;675;678;680;695;697;699;702;704;706",
     "todo": "Ricerca/ordinamenti, elenco alternativo, ulteriori filtri e schede complete; default/layout e criteri SCR-01 non ancora tutti soddisfatti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-85; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Ricerca/ordinamenti, elenco alternativo, ulteriori filtri e schede complete; default/layout e criteri SCR-01 non ancora tutti soddisfatti.",
     "criteria": "Catalogo/categoria.  Ricerca e filtri persistono nell'URL per condivisione e navigazione avanti/indietro. Cambiare filtro ritorna alla prima pagina. Default: 12 elementi, ordinamento editoriale, alternative titolo/data/durata; limiti applicati dal server. Scheda ripetuta: immagine, titolo, descrizione breve, durata, difficoltà, docenti e azione disponibile. Nessun dato promozionale riservato compare in un risultato pubblico. Zero risultati mostra filtri attivi e azione Azzera filtri; errore backend mostra Riprova senza perdere i filtri"

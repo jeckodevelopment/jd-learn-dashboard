@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T13:48:59.259948+00:00",
+  "generatedAt": "2026-11-19T14:22:34.274593+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b66b0eb1d6157cb60d7260b584cf92ff71f926d4",
+  "sourceCommit": "a07ef6036d2de4970f8ab4284b77583a5b687038",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 706,
+      "title": "test(SCR-01): verifiche HTTP reali filtri, URL e reset paginazione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/706",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T14:22:02Z",
+      "mergedAt": "2026-11-19T14:21:59Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9105436173ff4a77c78b3951817c0d9e504f8ef1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44541920102"
+      }
+    },
     {
       "number": 705,
       "title": "docs(SCR-01): registrare merge, CI e artefatto PR #704",
@@ -365,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "8333ff93cfb17c41b57fe74a109de68c26f3bd62",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44514476725"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -384,9 +403,9 @@
       "milestone": "1.0.0",
       "headSha": "aa16f717ae60fc96fc04ed8730050ff13fdbcba2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44512312072"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1658,25 +1677,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 627,
-      "title": "fix: reflect suspended course delivery in learning pathways (0.60.5)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/627",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:23:26Z",
-      "mergedAt": "2026-11-18T18:23:23Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5e96c1f02ce89da597d5c74bc0407a53c2d07c27",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1708,8 +1708,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T13:45:53Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44535894494/artifacts/14535409306"
+    "createdAt": "2026-11-19T14:20:00Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44541920102/artifacts/14537604239"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

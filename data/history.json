@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T13:48:59.259948+00:00",
+  "generatedAt": "2026-11-19T14:22:34.274593+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T14:21:59Z",
+      "commit": "a07ef6036d2de4970f8ab4284b77583a5b687038",
+      "number": 706,
+      "title": "test(SCR-01): verifiche HTTP reali filtri, URL e reset paginazione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/706"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T13:48:29Z",
