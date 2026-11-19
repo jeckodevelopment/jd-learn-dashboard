@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:17:48.713465+00:00",
+  "generatedAt": "2026-11-19T10:29:37.557302+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a36bd24fefa78834d0cff7a9eba686698ccdd644",
+  "sourceCommit": "bec6c0ac8b44cb59af428e4b395f86e946a4567b",
   "progress": 54.12,
   "developmentProgress": 54.12,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 688,
+      "title": "fix(pathway): percentuale aggregata solo con requisiti e iscrizioni completi (SCR-04)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/688",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T10:29:04Z",
+      "mergedAt": "2026-11-19T10:29:02Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ffae94f9b43a4adc510b8f4c921016ef5c8686ce",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44505370944"
+      }
+    },
     {
       "number": 687,
       "title": "docs: registra merge, CI e artefatto CAT-02/SCR-03 (#686)",
@@ -481,9 +500,9 @@
       "milestone": "1.0.0",
       "headSha": "ed31dbdb1b8eaf9d2e4ebfe60add61567f4d3610",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44412462267"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -501,9 +520,9 @@
       "milestone": "1.0.0",
       "headSha": "7ca0ed1cc2deb350a0e24dfb71602156c1d3d09d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44412507855"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1640,25 +1659,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 609,
-      "title": "docs: reconcile frontend implementation evidence for 10 criteria",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/609",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T07:30:58Z",
-      "mergedAt": "2026-11-18T07:30:56Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "73cf113caf33a5fdbfc8c3ffc50e7736a09fba97",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1690,8 +1690,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T10:15:04Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44503275448/artifacts/14517703773"
+    "createdAt": "2026-11-19T10:28:06Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44505370944/artifacts/14519537629"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

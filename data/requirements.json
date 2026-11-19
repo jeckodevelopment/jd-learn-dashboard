@@ -1369,7 +1369,7 @@
     "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;147",
+    "prs": "93;147;688",
     "todo": "Nessuno nel sottoinsieme aggregazione della prima stabile.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-79; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Verificare nella CI e manualmente nel Joomla reale l’ordine, accesso, stato studente e assenza di divulgazione dei corsi nascosti; nessun attestato o sblocco automatico.",
     "criteria": "Percorso.  Elenco ordinato di corsi; ogni elemento mostra il proprio accesso e stato personale. Percentuale aggregata solo se lo studente ha iscrizioni e requisiti definiti per i corsi necessari; evitare un 100% del percorso calcolato ignorando corsi bloccati. Nella prima release nessun rilascio di attestato di percorso né migrazione automatica fra percorsi"

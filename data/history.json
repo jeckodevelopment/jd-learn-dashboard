@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T10:17:48.713465+00:00",
+  "generatedAt": "2026-11-19T10:29:37.557302+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T10:29:02Z",
+      "commit": "bec6c0ac8b44cb59af428e4b395f86e946a4567b",
+      "number": 688,
+      "title": "fix(pathway): percentuale aggregata solo con requisiti e iscrizioni completi (SCR-04)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/688"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T10:17:21Z",
