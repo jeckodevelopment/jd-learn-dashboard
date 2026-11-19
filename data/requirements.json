@@ -467,7 +467,7 @@
     "state": "Completata",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "13;120;194",
+    "prs": "13;120;194;732",
     "todo": "Nessuno nella sola eccezione amministrativa AC-131.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-45; AC-80; AC-131; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Rivalutazioni, disponibilità specifiche, UI/accessibilità completa e collaudo end-to-end dei singoli criteri; vedere anche tempi/annullamenti/proroghe già implementati nelle guide dedicate. AC-131 integrata in main 0.41.27-dev: lista Search Tools separata dal form, crea/duplica/elimina con CSRF/ACL e cancellazione bloccata sulle revisioni usate; collaudo manuale Joomla AC-131 ancora pendente; nessuna funzionalità didattica quiz aggiunta.",
     "criteria": "Sola amministrazione banca esistente: elenco/form, crea/duplica/elimina (AC-131)."
@@ -1315,8 +1315,8 @@
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "13;730",
-    "todo": "Completare precedenze, UI e accomodamenti dei calendari core non coperti; proroghe/edizioni avanzate differite.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-51; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Precedenze/UI e disponibilità formative complete, accomodamenti/accessibilità e tutte le scadenze della baseline.",
+    "todo": "Verificare, senza presumere un bug, l'applicazione immutabile delle finestre su tentativi già avviati in tutte le combinazioni di modifica globale, corso ed edizione. Nessuna lacuna confermata su avvio o troncamento.",
+    "tests": "Eseguire collaudo Joomla AC-51 con scadenze di iscrizione, edizione, lezione, corso, calendario e tempo individualizzato; verificare esattamente 60/60 e blocco 30/60, assenza consumo tentativi, IT/EN, accessibilità, tentativi aperti e aggiornamento delle finestre. Registrare risultati in docs/QA_TESTBOOK.md.",
     "criteria": "Le finestre già applicate al tentativo sono congelate; proroghe individuali devono essere autorizzate e tracciate. Se un quiz ha una data finale di disponibilità, non consentire un avvio che dia meno tempo del limite previsto; modalità alternativa di troncamento a scadenza solo esplicita e mostrata prima di iniziare"
   },
   {

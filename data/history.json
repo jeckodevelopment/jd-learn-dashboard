@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T21:55:21.305516+00:00",
+  "generatedAt": "2026-11-19T22:22:29.946364+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T22:22:01Z",
+      "commit": "4a7cbcfbebc5daf54d9c53bdb7fd0a953da58fe0",
+      "number": 732,
+      "title": "fix(QUI-02): bloccare eliminazione diretta delle domande non cestinate (0.63.1)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/732"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T22:22:29.946364+00:00",
+      "commit": "4a7cbcfbebc5daf54d9c53bdb7fd0a953da58fe0",
+      "from": 56.34,
+      "to": 56.57,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T21:54:45Z",

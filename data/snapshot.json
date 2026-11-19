@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T21:55:21.305516+00:00",
+  "generatedAt": "2026-11-19T22:22:29.946364+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "07a5fa3ebae5fc4e493b8ba55c7609f80f1e1028",
-  "progress": 56.34,
-  "developmentProgress": 56.34,
+  "sourceCommit": "4a7cbcfbebc5daf54d9c53bdb7fd0a953da58fe0",
+  "progress": 56.57,
+  "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -45,10 +45,10 @@
       "label": "Iscrizioni, lezioni e progressi",
       "requirements": 19,
       "weight_percent": 8.88,
-      "development_evidence_floor_percent": 67.54,
+      "development_evidence_floor_percent": 70.18,
       "manual_acceptance_coverage_percent": 5.26,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 2,
+      "missing_criteria": 0,
       "unverifiable_criteria": 18,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 732,
+      "title": "fix(QUI-02): bloccare eliminazione diretta delle domande non cestinate (0.63.1)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/732",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T22:22:03Z",
+      "mergedAt": "2026-11-19T22:22:01Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9a61ce4dcd5639460ad1340917f1cfdb2e2b836e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44626978924"
+      }
+    },
     {
       "number": 731,
       "title": "docs(STA-02): riconciliare PR #730 e avanzamento comprovato 56,57%",
@@ -306,9 +325,9 @@
       "milestone": "1.0.0",
       "headSha": "ab392fe1781fe442f37ec77dcba3176e134eb42f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44595897967"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -326,9 +345,9 @@
       "milestone": "1.0.0",
       "headSha": "78d6a9044fcc1dfe2712419f8908c36fb6e2811c",
       "ci": {
-        "status": "completed",
-        "conclusion": "cancelled",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44594854756"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1673,25 +1692,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 654,
-      "title": "docs: reconcile functional audit batches 9 to 11",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/654",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:11:47Z",
-      "mergedAt": "2026-11-18T21:11:45Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "db37dc237465cae72cb1085c270ac8882ffac6be",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1722,9 +1722,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.63.0-dev",
-    "createdAt": "2026-11-19T21:50:08Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44621877143/artifacts/14578011787"
+    "name": "JD-Learn-0.63.1-dev",
+    "createdAt": "2026-11-19T22:20:33Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44626978924/artifacts/14579333344"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
