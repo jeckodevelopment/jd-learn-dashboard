@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T09:26:53.211734+00:00",
+  "generatedAt": "2026-11-19T09:52:05.914930+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fcd2a7fc6ff3c127473e3b1a0884bd3ba44bcc84",
+  "sourceCommit": "132ec4f9cc22e29918be878a67aa939d4bd6c4f1",
   "progress": 54.12,
   "developmentProgress": 54.12,
   "manualAcceptanceProgress": 4.67,
@@ -25,6 +25,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 683,
+      "title": "feat(metrics): riconciliazione automatica avanzamento per nove macroaree",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/683",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T09:51:35Z",
+      "mergedAt": "2026-11-19T09:51:33Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0761a193a828d680dbb5030e162c7ace9dd9c5a9",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44499992290"
+      }
+    },
     {
       "number": 682,
       "title": "fix: show current development and QA dashboard metrics",
@@ -391,9 +411,9 @@
       "milestone": "1.0.0",
       "headSha": "b91df4190ed406c00eeab3634326df1a6c8a8777",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44407663524"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -410,9 +430,9 @@
       "milestone": "1.0.0",
       "headSha": "365744d19e2266d50eeae6493496c8dfc6ea0232",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44406651165"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -429,9 +449,9 @@
       "milestone": "1.0.0",
       "headSha": "e58e9aaedbd6b5203498fc9d7c57d0f3ce25c985",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44405516459"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1522,26 +1542,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "4592317788ae1f320b06f7ce9f1729fa064c22b7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 604,
-      "title": "docs(progress): rendicontazione post-merge audit UI/PERF #603",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/604",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-17T23:57:50Z",
-      "mergedAt": "2026-11-17T23:57:49Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "364143ed346ce4ab2dae7402e604469217fdd1df",
       "ci": {
         "status": "unknown",
         "conclusion": null,

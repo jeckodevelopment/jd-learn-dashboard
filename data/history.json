@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T09:26:53.211734+00:00",
+  "generatedAt": "2026-11-19T09:52:05.914930+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T09:51:33Z",
+      "commit": "132ec4f9cc22e29918be878a67aa939d4bd6c4f1",
+      "number": 683,
+      "title": "feat(metrics): riconciliazione automatica avanzamento per nove macroaree",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/683"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-18T23:48:16Z",
