@@ -1,0 +1,45 @@
+name: Validate dashboard pull requests
+on:
+  pull_request:
+    paths:
+      - 'web/**'
+      - 'scripts/**'
+      - '.github/workflows/validate-pr.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Python and JavaScript syntax
+        run: |
+          python -m py_compile scripts/sync.py
+          node --check web/app.js
+      - name: Validate canonical reconciliation and dashboard mapping
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.request import urlopen
+          url='https://raw.githubusercontent.com/jeckodevelopment/jd_learn/main/docs/REQUIREMENTS_RECONCILIATION.json'
+          with urlopen(url,timeout=35) as response:
+              data=json.load(response)
+          progress=data['implementation_progress']
+          areas=progress['macroareas']
+          assert len(areas)==9
+          assert len({a['id'] for a in areas})==9
+          assert sum(a['requirements'] for a in areas)==214
+          assert round(sum(a['development_evidence_floor_percent']*a['requirements'] for a in areas)/214,1)==round(progress['development_evidence_floor_percent'],1)
+          js=Path('web/app.js').read_text()
+          sync=Path('scripts/sync.py').read_text()
+          assert 'macroCards+cardsByGroup' in js
+          assert '"macroareas": macroareas' in sync
+          print('Nine macroareas and canonical evidence percentages validated')
+          PY
