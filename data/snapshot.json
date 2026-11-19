@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:05:57.444550+00:00",
+  "generatedAt": "2026-11-19T10:15:08.759587+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "3380ad8bd8bf29b507c4b777b461ea3df57b153e",
   "progress": 54.12,
@@ -15,16 +15,145 @@
     "coverage_percent": 4.67,
     "fully_accepted_percent": 0
   },
+  "macroareas": [
+    {
+      "id": "catalogue",
+      "label": "Catalogo, frontend e navigazione",
+      "requirements": 23,
+      "weight_percent": 10.75,
+      "development_evidence_floor_percent": 63.25,
+      "manual_acceptance_coverage_percent": 13.04,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 13,
+      "unverifiable_criteria": 20,
+      "unassessed_criteria": 0
+    },
+    {
+      "id": "authoring",
+      "label": "Corsi, versioni e pubblicazione",
+      "requirements": 20,
+      "weight_percent": 9.35,
+      "development_evidence_floor_percent": 69.19,
+      "manual_acceptance_coverage_percent": 0,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 1,
+      "unverifiable_criteria": 23,
+      "unassessed_criteria": 0
+    },
+    {
+      "id": "learning",
+      "label": "Iscrizioni, lezioni e progressi",
+      "requirements": 19,
+      "weight_percent": 8.88,
+      "development_evidence_floor_percent": 67.54,
+      "manual_acceptance_coverage_percent": 5.26,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 2,
+      "unverifiable_criteria": 18,
+      "unassessed_criteria": 0
+    },
+    {
+      "id": "video",
+      "label": "Provider e fruizione video",
+      "requirements": 18,
+      "weight_percent": 8.41,
+      "development_evidence_floor_percent": 63.8,
+      "manual_acceptance_coverage_percent": 0,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 4,
+      "unverifiable_criteria": 21,
+      "unassessed_criteria": 0
+    },
+    {
+      "id": "materials",
+      "label": "Materiali, quiz e attestati",
+      "requirements": 17,
+      "weight_percent": 7.94,
+      "development_evidence_floor_percent": 69.41,
+      "manual_acceptance_coverage_percent": 17.65,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 1,
+      "unverifiable_criteria": 14,
+      "unassessed_criteria": 0
+    },
+    {
+      "id": "communications",
+      "label": "Email e notifiche",
+      "requirements": 13,
+      "weight_percent": 6.07,
+      "development_evidence_floor_percent": 63.46,
+      "manual_acceptance_coverage_percent": 15.38,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 1,
+      "unverifiable_criteria": 11,
+      "unassessed_criteria": 0
+    },
+    {
+      "id": "integration",
+      "label": "Joomla, ACL e configurazione",
+      "requirements": 38,
+      "weight_percent": 17.76,
+      "development_evidence_floor_percent": 52.85,
+      "manual_acceptance_coverage_percent": 2.63,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 2,
+      "unverifiable_criteria": 37,
+      "unassessed_criteria": 0
+    },
+    {
+      "id": "security",
+      "label": "Privacy, sicurezza e compatibilità",
+      "requirements": 51,
+      "weight_percent": 23.83,
+      "development_evidence_floor_percent": 39.03,
+      "manual_acceptance_coverage_percent": 0,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 17,
+      "unverifiable_criteria": 100,
+      "unassessed_criteria": 0
+    },
+    {
+      "id": "delivery",
+      "label": "Packaging, documentazione e reporting",
+      "requirements": 15,
+      "weight_percent": 7.01,
+      "development_evidence_floor_percent": 20.56,
+      "manual_acceptance_coverage_percent": 0,
+      "manual_fully_accepted_percent": 0,
+      "missing_criteria": 22,
+      "unverifiable_criteria": 24,
+      "unassessed_criteria": 0
+    }
+  ],
   "progressAsOf": "2026-11-15",
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 686,
+      "title": "feat(course): azioni contestuali per iscrizioni e richieste (CAT-02/SCR-03)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/686",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-19T10:11:06Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7af780641a1a9e374099d0a29c080c195cac96ee",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44503275500"
+      }
+    },
     {
       "number": 685,
       "title": "docs: registra merge e artefatto della PR #684 (CAT-01)",
@@ -371,9 +500,9 @@
       "milestone": "1.0.0",
       "headSha": "81445a6a018883b1c91831055fb154d877fb4860",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44411232827"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1579,8 +1708,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T09:59:42Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44500941584/artifacts/14516933600"
+    "createdAt": "2026-11-19T10:15:04Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44503275448/artifacts/14517703773"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
