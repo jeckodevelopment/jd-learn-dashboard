@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T12:50:59.390107+00:00",
+  "generatedAt": "2026-11-19T13:03:22.229224+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e494a4a68f9d4272882f39b6fe944aa0630fa879",
-  "progress": 54.9,
-  "developmentProgress": 54.9,
+  "sourceCommit": "140e487b6f2509f16895cd284dc7658313f811b7",
+  "progress": 54.98,
+  "developmentProgress": 54.98,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,10 +21,10 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 69.92,
+      "development_evidence_floor_percent": 70.64,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 5,
+      "missing_criteria": 4,
       "unverifiable_criteria": 20,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 701,
+      "title": "docs(audit): riconciliare SCR-01/empty_error e aggiornare avanzamento",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/701",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T13:02:56Z",
+      "mergedAt": "2026-11-19T13:02:53Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "796b0c0465dd27d2a089453f0b658fe8f0b11bdf",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44529481325"
+      }
+    },
     {
       "number": 700,
       "title": "docs(SCR-01): registrare evidenze merge e CI PR #699",
@@ -384,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "ffae94f9b43a4adc510b8f4c921016ef5c8686ce",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44505370944"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -404,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "2dfd3fc98b17bd2024c71e5719a9b3e57abd62f2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44504141590"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1650,25 +1670,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "de81fbbb5b780015e5ed9734df6b45793710fe68",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 622,
-      "title": "fix: block individual enrollment reactivation when course delivery is closed (0.60.3)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/622",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:00:18Z",
-      "mergedAt": "2026-11-18T18:00:15Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "fa1bec6e7af724c9941865af4117858255dcd029",
       "ci": {
         "status": "unknown",
         "conclusion": null,

@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T12:50:59.390107+00:00",
+  "generatedAt": "2026-11-19T13:03:22.229224+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T13:02:53Z",
+      "commit": "140e487b6f2509f16895cd284dc7658313f811b7",
+      "number": 701,
+      "title": "docs(audit): riconciliare SCR-01/empty_error e aggiornare avanzamento",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/701"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T13:03:22.229224+00:00",
+      "commit": "140e487b6f2509f16895cd284dc7658313f811b7",
+      "from": 54.9,
+      "to": 54.98,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T12:50:28Z",
