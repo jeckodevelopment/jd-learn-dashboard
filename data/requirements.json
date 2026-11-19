@@ -984,7 +984,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "88",
+    "prs": "88;728",
     "todo": "Plugin actionlog e copertura amministrativa generale (pubblicazione, ulteriori rettifiche/revoche) ancora da completare; il writer esistente non è un plugin generale.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-24; AC-72; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Plugin actionlog e copertura amministrativa generale (pubblicazione, ulteriori rettifiche/revoche) ancora da completare; il writer esistente non è un plugin generale.",
     "criteria": "User Actions Log; Plugin per il registro azioni Joomla sulle operazioni amministrative rilevanti; audit didattico complementare e senza duplicazione indiscriminata di dati"

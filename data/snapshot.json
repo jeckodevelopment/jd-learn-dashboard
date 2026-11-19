@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T20:22:35.139167+00:00",
+  "generatedAt": "2026-11-19T21:21:20.799826+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ad0df273885ffa849038fddadaf85c3bea61d21f",
+  "sourceCommit": "fe9b2dd973a7af3a8cd2aa380f97fa213c8afb4f",
   "progress": 56.11,
   "developmentProgress": 56.11,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 728,
+      "title": "feat(CORE-17): plugin nativo Joomla User Actions Log per transizioni corsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/728",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T21:20:57Z",
+      "mergedAt": "2026-11-19T21:20:55Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7e1beffe21ff7d5d276a8b3f655c8f86c29e0bf1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44616754113"
+      }
+    },
     {
       "number": 727,
       "title": "docs(LIFE-01): riconciliare PR #726 e avanzamento minimo 56,11%",
@@ -326,9 +345,9 @@
       "milestone": "1.0.0",
       "headSha": "a4d235572fd9f83d6326583cca2622df562038c0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44585956020"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1671,25 +1690,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 650,
-      "title": "docs: reconcile functional audit batches 7 and 8",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/650",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T20:57:24Z",
-      "mergedAt": "2026-11-18T20:57:22Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "727e346abeb267bffe0b877a26f9382d01202d42",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1720,9 +1720,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.61.0-dev",
-    "createdAt": "2026-11-19T20:13:02Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44605697284/artifacts/14569599913"
+    "name": "JD-Learn-0.62.0-dev",
+    "createdAt": "2026-11-19T21:19:20Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44616754113/artifacts/14576051329"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

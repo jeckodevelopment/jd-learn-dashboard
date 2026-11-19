@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T20:22:35.139167+00:00",
+  "generatedAt": "2026-11-19T21:21:20.799826+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T21:20:55Z",
+      "commit": "fe9b2dd973a7af3a8cd2aa380f97fa213c8afb4f",
+      "number": 728,
+      "title": "feat(CORE-17): plugin nativo Joomla User Actions Log per transizioni corsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/728"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-19T20:22:35.139167+00:00",
