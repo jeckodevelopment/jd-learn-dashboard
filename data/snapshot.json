@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T11:45:29.635551+00:00",
+  "generatedAt": "2026-11-19T11:47:12.647304+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "864748b8c5e75f119f21d2efe7a5c0b1527bda88",
+  "sourceCommit": "cbe88231cdb08c983f37e75e6cf04ff2f309d5e6",
   "progress": 54.9,
   "developmentProgress": 54.9,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 696,
+      "title": "docs: registra SCR-01 pending approval, CI e avanzamento (#695)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/696",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T11:46:41Z",
+      "mergedAt": "2026-11-19T11:46:38Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "32de6cab7ce43e0afc211a92aab241978e566389",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44517734654"
+      }
+    },
     {
       "number": 695,
       "title": "feat(catalog): richieste di iscrizione pendenti nelle card e avanzamento SCR-01",
@@ -1647,25 +1667,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "4723758d8aa08f403b8373d732473cfe59e6460c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 616,
-      "title": "docs: clarify historical LCM-02 status after PR #614/#615",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/616",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T14:18:44Z",
-      "mergedAt": "2026-11-18T14:18:42Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "583299551a778340fe1a358d74835e0182444a0d",
       "ci": {
         "status": "unknown",
         "conclusion": null,

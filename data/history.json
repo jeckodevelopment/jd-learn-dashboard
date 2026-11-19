@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T11:45:29.635551+00:00",
+  "generatedAt": "2026-11-19T11:47:12.647304+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T11:46:38Z",
+      "commit": "cbe88231cdb08c983f37e75e6cf04ff2f309d5e6",
+      "number": 696,
+      "title": "docs: registra SCR-01 pending approval, CI e avanzamento (#695)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/696"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T11:45:04Z",
