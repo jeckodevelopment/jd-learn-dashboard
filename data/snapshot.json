@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T16:43:13.973779+00:00",
+  "generatedAt": "2026-11-19T16:57:08.249571+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7a777a0438e9c11317b6e2a8ba5070e0c03088cd",
+  "sourceCommit": "d768ea8226e753add377d79c1addb60b21dfc366",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 712,
+      "title": "feat(DOC-05): guida contestuale IT/EN per programma, email e attestati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/712",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T16:56:33Z",
+      "mergedAt": "2026-11-19T16:56:31Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "539e002baed50656df2d922ee1e4f521e55173a9",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44570712449"
+      }
+    },
     {
       "number": 711,
       "title": "docs(DOC-05): registrare evidenze finali PR #710",
@@ -405,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "fbff924af2adc3597dce2abd48e3d017ebd7d69c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44524775371"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1662,25 +1681,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 633,
-      "title": "fix: refresh Smart Search after course trash and restore (0.60.7)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/633",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:54:02Z",
-      "mergedAt": "2026-11-18T18:53:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "62bb399817938af53b26c07eb82208b8cb6e5eeb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1712,8 +1712,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T16:39:57Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44567957467/artifacts/14552169491"
+    "createdAt": "2026-11-19T16:56:00Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44570712298/artifacts/14554950876"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
