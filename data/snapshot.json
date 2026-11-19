@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T13:47:07.260460+00:00",
+  "generatedAt": "2026-11-19T13:48:59.259948+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "941c823feca478a4463dce551cbcc6ff8a4ab503",
+  "sourceCommit": "b66b0eb1d6157cb60d7260b584cf92ff71f926d4",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 705,
+      "title": "docs(SCR-01): registrare merge, CI e artefatto PR #704",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/705",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T13:48:32Z",
+      "mergedAt": "2026-11-19T13:48:29Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f8da0848de65def14c56453792175264c47113f3",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44537023515"
+      }
+    },
     {
       "number": 704,
       "title": "feat(SCR-01): filtri Categoria e reset paginazione URL coerenti",
@@ -384,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "b7c573f10a601585a7027f354d4aa2fdb90d1cfb",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44510048922"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1652,25 +1672,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "5e96c1f02ce89da597d5c74bc0407a53c2d07c27",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 626,
-      "title": "docs: reconcile PR #625 merge and 0.60.4 build evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/626",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:13:35Z",
-      "mergedAt": "2026-11-18T18:13:33Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c946d57a9a74bd7dd9b10890756ed846d39b0f7a",
       "ci": {
         "status": "unknown",
         "conclusion": null,
