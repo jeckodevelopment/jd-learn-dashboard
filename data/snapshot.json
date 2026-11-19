@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T14:24:44.697970+00:00",
+  "generatedAt": "2026-11-19T15:57:05.523322+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d5eb3118f08ecf806cb76fdc608e1a7977c227bc",
+  "sourceCommit": "63b013fcdda97ed59727260911ab5146e2b3c3ec",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 708,
+      "title": "test(UI-01): inventariare anteprima lezione e revoca consenso con gate DOM",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/708",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T15:56:36Z",
+      "mergedAt": "2026-11-19T15:56:33Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "aa2d8a67d16823fcc7279f4e96cc31a023027ebb",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44559678763"
+      }
+    },
     {
       "number": 707,
       "title": "docs(SCR-01): evidenze CI HTTP, merge e limiti PR #706",
@@ -384,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "4f15a979aae25c53210acc3c366c81d3c0ced241",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44516781628"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1659,25 +1679,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 630,
-      "title": "docs: expose actual 1.0.0 functional criteria audit backlog",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/630",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:34:58Z",
-      "mergedAt": "2026-11-18T18:34:55Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "853ef27c8246205b9782bf3ddc2d064fa4a8ab6d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1709,8 +1710,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T14:20:00Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44541920102/artifacts/14537604239"
+    "createdAt": "2026-11-19T15:56:04Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44559678763/artifacts/14547221324"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
