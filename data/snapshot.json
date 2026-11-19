@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T11:25:29.125463+00:00",
+  "generatedAt": "2026-11-19T11:45:29.635551+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "687cc284676a9baaa3a25c9ced15381d17d5c104",
-  "progress": 54.82,
-  "developmentProgress": 54.82,
+  "sourceCommit": "864748b8c5e75f119f21d2efe7a5c0b1527bda88",
+  "progress": 54.9,
+  "developmentProgress": 54.9,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,10 +21,10 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 69.19,
+      "development_evidence_floor_percent": 69.92,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 6,
+      "missing_criteria": 5,
       "unverifiable_criteria": 20,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 695,
+      "title": "feat(catalog): richieste di iscrizione pendenti nelle card e avanzamento SCR-01",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/695",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T11:45:07Z",
+      "mergedAt": "2026-11-19T11:45:04Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4f15a979aae25c53210acc3c366c81d3c0ced241",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44516781628"
+      }
+    },
     {
       "number": 694,
       "title": "docs: registra protezione attestati EDGE-01, CI e artefatto (#693)",
@@ -385,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "88e58939dc65b18356ed9d970006853eff3e2b3c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44423813658"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -405,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "1e08ec69be874c80d302a537049d948fc36e38c2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44421163334"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1652,23 +1671,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 617,
-      "title": "fix: archived courses never reopen admissions or delivery on restore (0.60.1)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/617",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T13:54:24Z",
-      "mergedAt": "2026-11-18T13:54:22Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "e4293964b52fc14e00ef4a114b91007198a89d53",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1702,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T11:13:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44512312000/artifacts/14522879055"
+    "createdAt": "2026-11-19T11:44:33Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44516781395/artifacts/14525968438"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
