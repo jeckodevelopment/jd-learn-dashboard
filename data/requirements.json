@@ -2488,12 +2488,12 @@
   {
     "id": "MAIL-08",
     "area": "MAIL",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "313;325;415;429;439;440;442;444;646;720",
-    "todo": "Ricognizione puntuale ancora necessaria per distinguere incrementi implementati e residui; nessuna completezza attribuita in assenza di evidenze specifiche.",
-    "tests": "Verificare flussi e permessi con Joomla 6.2, SMTP reale, upgrade e scenari negativi; registrare ogni esito nel testbook.",
+    "todo": "Nessuno dei due criteri tecnici MAIL-08; eventuali bug rilevati dal collaudo saranno tracciati separatamente.",
+    "tests": "Collaudo Joomla/SMTP reale: stessa anteprima dopo refresh e doppio clic senza duplicati; nuova anteprima nuovo test; autorizzazioni, conteggio, upgrade 0.60.8 a 0.60.9, CSRF e incertezze SMTP. Non dichiarare invio recapitato sulla sola base della coda.",
     "criteria": "Anteprima resa, conteggio destinatari, conferma esplicita e test verso indirizzo autorizzato; impedire doppi invii da doppio click."
   },
   {

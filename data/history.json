@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T18:45:15.029927+00:00",
+  "generatedAt": "2026-11-19T18:49:49.648567+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-19T18:49:49.648567+00:00",
+      "commit": "bc3b7f88032a6e825de3c8879936339bfba40ffd",
+      "id": "MAIL-08",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T18:49:17Z",
+      "commit": "bc3b7f88032a6e825de3c8879936339bfba40ffd",
+      "number": 721,
+      "title": "docs(MAIL-08): consolidare PATCH 0.60.9 e avanzamento 55,99%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/721"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T18:49:49.648567+00:00",
+      "commit": "bc3b7f88032a6e825de3c8879936339bfba40ffd",
+      "from": 55.76,
+      "to": 55.99,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T18:44:46Z",

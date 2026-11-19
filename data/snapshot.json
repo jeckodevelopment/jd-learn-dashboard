@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T18:45:15.029927+00:00",
+  "generatedAt": "2026-11-19T18:49:49.648567+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d082b7259d3c2b16e5f0fd9ecdfee812b55e685b",
-  "progress": 55.76,
-  "developmentProgress": 55.76,
+  "sourceCommit": "bc3b7f88032a6e825de3c8879936339bfba40ffd",
+  "progress": 55.99,
+  "developmentProgress": 55.99,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 721,
+      "title": "docs(MAIL-08): consolidare PATCH 0.60.9 e avanzamento 55,99%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/721",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T18:49:19Z",
+      "mergedAt": "2026-11-19T18:49:17Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "91d51acb73d9ca957fe993ad6328f22f74114c0f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44591719204"
+      }
+    },
     {
       "number": 720,
       "title": "fix(MAIL-08): invio test idempotente su refresh — PATCH SemVer 0.60.9",
@@ -364,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "dba2c334ecfbc77de234ffb3d29e61f946856f3b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44560656764"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1661,25 +1681,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "abf2a7aea13ecf154fe22a9a932304c70e32fbd1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 644,
-      "title": "Audit 1.0.0: editor, ACL, ciclo di vita e trasporto Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/644",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T20:02:10Z",
-      "mergedAt": "2026-11-18T20:02:08Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "885d4dbfab96429761a49ab04006f086b8848f2d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
