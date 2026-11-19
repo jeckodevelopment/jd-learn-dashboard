@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T22:24:06.027037+00:00",
+  "generatedAt": "2026-11-19T22:36:28.295655+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T22:36:02Z",
+      "commit": "8eaaed0edf20ec2dbd48d803c982b6406719d822",
+      "number": 734,
+      "title": "fix(JOO-01): eliminare ZIP Action Log duplicato e bloccare package inconsistenti (0.63.2)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/734"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T22:23:39Z",

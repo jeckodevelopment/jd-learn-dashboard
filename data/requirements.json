@@ -753,7 +753,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "1;110;128;203;236;243;249",
+    "prs": "1;110;128;203;236;243;249;734",
     "todo": "Completare update server/firma e istruzioni di manutenzione/recovery per il core; installazione/upgrade già implementati.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-14; AC-76; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Update server/firma, backup-ripristino verificato, matrice completa su patch corrente e documentazione finale di tutti i moduli.",
     "criteria": "Pacchetto installabile contenente componente principale, estensioni necessarie e moduli di visualizzazione opzionali. Usare utenti, ACL, editor, lingue, menu, routing e aggiornamenti Joomla; nessuna modifica al core. Nome tecnico e marchio da definire"
