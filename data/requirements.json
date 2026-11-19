@@ -2565,12 +2565,12 @@
   {
     "id": "DOC-05",
     "area": "DOC",
-    "state": "Non iniziata",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "710;712;714",
-    "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
-    "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
+    "prs": "710;712;714;716",
+    "todo": "Nessuno per i tre criteri tecnici DOC-05; eventuali correzioni verranno tracciate se emergono dal collaudo Joomla reale.",
+    "tests": "Eseguire tutte le 29 viste e i 58 link su Joomla IT/EN, installazione e upgrade, ACL, tastiera, screen reader, viewport mobile; registrare esiti reali.",
     "criteria": "Guida contestuale IT/EN per schermate amministrative Joomla, collegata ai capitoli pertinenti del manuale."
   },
   {

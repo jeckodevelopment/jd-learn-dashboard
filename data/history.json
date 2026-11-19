@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T17:26:49.537862+00:00",
+  "generatedAt": "2026-11-19T17:58:31.420044+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-19T17:58:31.420044+00:00",
+      "commit": "2808fd60102637ade9b4ee6f01190a24ad149378",
+      "id": "DOC-05",
+      "from": "Non iniziata",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T17:57:51Z",
+      "commit": "2808fd60102637ade9b4ee6f01190a24ad149378",
+      "number": 716,
+      "title": "feat(DOC-05): collega tutte le guide IT/EN a manuali locali di 29 capitoli",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/716"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T17:58:31.420044+00:00",
+      "commit": "2808fd60102637ade9b4ee6f01190a24ad149378",
+      "from": 55.05,
+      "to": 55.52,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T17:26:17Z",

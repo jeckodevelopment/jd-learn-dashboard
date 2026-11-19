@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T17:26:49.537862+00:00",
+  "generatedAt": "2026-11-19T17:58:31.420044+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "28b601668f150c5be3c2bab2e84288d713abe409",
-  "progress": 55.05,
-  "developmentProgress": 55.05,
+  "sourceCommit": "2808fd60102637ade9b4ee6f01190a24ad149378",
+  "progress": 55.52,
+  "developmentProgress": 55.52,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -117,10 +117,10 @@
       "label": "Packaging, documentazione e reporting",
       "requirements": 15,
       "weight_percent": 7.01,
-      "development_evidence_floor_percent": 20.56,
+      "development_evidence_floor_percent": 27.22,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 22,
+      "missing_criteria": 19,
       "unverifiable_criteria": 24,
       "unassessed_criteria": 0
     }
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 716,
+      "title": "feat(DOC-05): collega tutte le guide IT/EN a manuali locali di 29 capitoli",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/716",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T17:57:53Z",
+      "mergedAt": "2026-11-19T17:57:51Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "741b4a7cea71664c9859f76af9a20ce1926fe262",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44581977287"
+      }
+    },
     {
       "number": 715,
       "title": "docs(DOC-05): registrare prove di integrazione e pacchetto PR #714",
@@ -385,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "f69631db26824b6720efdef82b70c20b1869ee31",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44532999032"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -404,9 +423,9 @@
       "milestone": "1.0.0",
       "headSha": "1d34445ec7b9608907fac1ba8baa3e0822cc0934",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44531560674"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1664,25 +1683,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 638,
-      "title": "Audit 1.0.0: provider video, storage e validazione dei dati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/638",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T19:09:40Z",
-      "mergedAt": "2026-11-18T19:09:38Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "506430f12c71e9fd943233c8b6efd11c56e3d7e7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1714,8 +1714,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T17:24:14Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44576127264/artifacts/14555769395"
+    "createdAt": "2026-11-19T17:57:07Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44581977264/artifacts/14558898957"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
