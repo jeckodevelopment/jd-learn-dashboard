@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T11:23:28.024164+00:00",
+  "generatedAt": "2026-11-19T11:25:29.125463+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "6286974784d6455247555fbb0524e9c3c1c3cbb8",
+  "sourceCommit": "687cc284676a9baaa3a25c9ced15381d17d5c104",
   "progress": 54.82,
   "developmentProgress": 54.82,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 694,
+      "title": "docs: registra protezione attestati EDGE-01, CI e artefatto (#693)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/694",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T11:25:09Z",
+      "mergedAt": "2026-11-19T11:25:06Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8333ff93cfb17c41b57fe74a109de68c26f3bd62",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44514476725"
+      }
+    },
     {
       "number": 693,
       "title": "fix(certificates): nega attestati agli account Joomla bloccati e aggiorna EDGE-01",
@@ -404,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "f267f5dc0bdff1e3db6d2e6355a80e810eb3654f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44420426374"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1644,23 +1664,6 @@
       "labels": [],
       "milestone": "1.0.0",
       "headSha": "e4293964b52fc14e00ef4a114b91007198a89d53",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 615,
-      "title": "feat: guard permanent course deletion by historical dependencies (0.60.0)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/615",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T11:55:58Z",
-      "mergedAt": "2026-11-18T11:55:56Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "4f93ef85646082c50d2efa03cabdddbd530dd5cf",
       "ci": {
         "status": "unknown",
         "conclusion": null,

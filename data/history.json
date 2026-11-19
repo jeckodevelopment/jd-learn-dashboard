@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T11:23:28.024164+00:00",
+  "generatedAt": "2026-11-19T11:25:29.125463+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T11:25:06Z",
+      "commit": "687cc284676a9baaa3a25c9ced15381d17d5c104",
+      "number": 694,
+      "title": "docs: registra protezione attestati EDGE-01, CI e artefatto (#693)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/694"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T11:22:53Z",
