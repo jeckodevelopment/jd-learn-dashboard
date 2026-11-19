@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T10:04:11.037291+00:00",
+  "generatedAt": "2026-11-19T10:05:57.444550+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T10:05:31Z",
+      "commit": "3380ad8bd8bf29b507c4b777b461ea3df57b153e",
+      "number": 685,
+      "title": "docs: registra merge e artefatto della PR #684 (CAT-01)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/685"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T10:03:33Z",

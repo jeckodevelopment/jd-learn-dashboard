@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:04:11.037291+00:00",
+  "generatedAt": "2026-11-19T10:05:57.444550+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3155bcccfc6af392c5eb87bf051eac9fe65c50a0",
+  "sourceCommit": "3380ad8bd8bf29b507c4b777b461ea3df57b153e",
   "progress": 54.12,
   "developmentProgress": 54.12,
   "manualAcceptanceProgress": 4.67,
@@ -25,6 +25,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 685,
+      "title": "docs: registra merge e artefatto della PR #684 (CAT-01)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/685",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T10:05:33Z",
+      "mergedAt": "2026-11-19T10:05:31Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "bc60c11f403705827e57bfb1c42d6e7062bbdd8d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44502309262"
+      }
+    },
     {
       "number": 684,
       "title": "feat(catalog): filtro facoltativo per corsi disponibili (CAT-01)",
@@ -371,9 +391,9 @@
       "milestone": "1.0.0",
       "headSha": "e781f14dc68dee0aa4fe554a0e52e89840400941",
       "ci": {
-        "status": "completed",
-        "conclusion": "cancelled",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44410207094"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1523,25 +1543,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "0cb4b9e28d757a8a1a0f1c2f17e4bd3e3e12df29",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 606,
-      "title": "docs: reconcile 12 additional 1.0.0 requirements (tranche 8)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/606",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T06:55:51Z",
-      "mergedAt": "2026-11-18T06:55:48Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a85b5f3add47a5c1ca6e93a6875bb186ee0509ea",
       "ci": {
         "status": "unknown",
         "conclusion": null,
