@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T16:42:10.592527+00:00",
+  "generatedAt": "2026-11-19T16:43:13.973779+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "6054d1e5f7bd1fe1d28c6606339387164466c3bc",
+  "sourceCommit": "7a777a0438e9c11317b6e2a8ba5070e0c03088cd",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 711,
+      "title": "docs(DOC-05): registrare evidenze finali PR #710",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/711",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T16:42:43Z",
+      "mergedAt": "2026-11-19T16:42:40Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c6d8fa6df3668f52bdc5c887b584ea1bc9dba44d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44569076248"
+      }
+    },
     {
       "number": 710,
       "title": "feat(DOC-05): guida contestuale offline IT/EN nelle schermate core",
@@ -404,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "c424a24d9fffdb71f45454cbfc38db8f6ec1a720",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44523730847"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1656,25 +1676,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "62bb399817938af53b26c07eb82208b8cb6e5eeb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 632,
-      "title": "docs: reconcile PR #629 CI and 0.60.6 package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/632",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:43:52Z",
-      "mergedAt": "2026-11-18T18:43:51Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ed4d572b1482e16155f8389283e3fadbca988f71",
       "ci": {
         "status": "unknown",
         "conclusion": null,
