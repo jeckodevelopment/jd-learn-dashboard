@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T21:51:15.569109+00:00",
+  "generatedAt": "2026-11-19T21:55:21.305516+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d575a99aa7236421ed37ea8f5bb2982b56193a73",
+  "sourceCommit": "07a5fa3ebae5fc4e493b8ba55c7609f80f1e1028",
   "progress": 56.34,
   "developmentProgress": 56.34,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 731,
+      "title": "docs(STA-02): riconciliare PR #730 e avanzamento comprovato 56,57%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/731",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T21:54:48Z",
+      "mergedAt": "2026-11-19T21:54:45Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1f5ffc8a1fc2a53ab239a9819e5243940b1683b9",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44623387606"
+      }
+    },
     {
       "number": 730,
       "title": "feat(STA-02): messaggi pre-avvio e guard completo su scadenze quiz",
@@ -326,9 +346,9 @@
       "milestone": "1.0.0",
       "headSha": "91d51acb73d9ca957fe993ad6328f22f74114c0f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44591719204"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1667,25 +1687,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "db37dc237465cae72cb1085c270ac8882ffac6be",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 655,
-      "title": "docs: reconcile QUI-02 PR #653 merge, CI and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/655",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:09:11Z",
-      "mergedAt": "2026-11-18T21:09:08Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0bdc97da33977574f1a4057475345636f8557c5e",
       "ci": {
         "status": "unknown",
         "conclusion": null,
