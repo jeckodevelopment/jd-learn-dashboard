@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T15:57:05.523322+00:00",
+  "generatedAt": "2026-11-19T15:58:57.108344+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "63b013fcdda97ed59727260911ab5146e2b3c3ec",
+  "sourceCommit": "be9d8e4abb76c1c9d794fedce28cd1d15860e0bc",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 709,
+      "title": "docs(UI-01): tracciare merge e CI della PR #708",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/709",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T15:58:25Z",
+      "mergedAt": "2026-11-19T15:58:23Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "dba2c334ecfbc77de234ffb3d29e61f946856f3b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44560656764"
+      }
+    },
     {
       "number": 708,
       "title": "test(UI-01): inventariare anteprima lezione e revoca consenso con gate DOM",
@@ -385,9 +405,9 @@
       "milestone": "1.0.0",
       "headSha": "32de6cab7ce43e0afc211a92aab241978e566389",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44517734654"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1655,25 +1675,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "1c7182340d530bd11009dddf7be556319ad1bafc",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 631,
-      "title": "docs(audit): reconcile CAT-04 Finder implementation with code evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/631",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:39:25Z",
-      "mergedAt": "2026-11-18T18:39:23Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0df2b448a23e2d6a38ca73fcb40a67c235569cde",
       "ci": {
         "status": "unknown",
         "conclusion": null,

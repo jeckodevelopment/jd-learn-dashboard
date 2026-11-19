@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T15:57:05.523322+00:00",
+  "generatedAt": "2026-11-19T15:58:57.108344+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T15:58:23Z",
+      "commit": "be9d8e4abb76c1c9d794fedce28cd1d15860e0bc",
+      "number": 709,
+      "title": "docs(UI-01): tracciare merge e CI della PR #708",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/709"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T15:56:33Z",
