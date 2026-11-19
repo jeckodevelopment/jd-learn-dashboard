@@ -161,6 +161,10 @@ def main():
     packages = [a for a in artifacts if a.get("name", "").startswith("JD-Learn-") and not a.get("expired")]
     packages.sort(key=lambda a: a.get("created_at", ""), reverse=True)
     latest = packages[0] if packages else None
+    reconciliation = json.loads(get(RAW + "/docs/REQUIREMENTS_RECONCILIATION.json"))
+    macroareas = (reconciliation.get("implementation_progress") or {}).get("macroareas") or []
+    if len(macroareas) != 9 or sum(int(a["requirements"]) for a in macroareas) != 214:
+        raise RuntimeError("Invalid or incomplete macroarea reconciliation")
     estimate = evidence.get("current_implementation_estimate") or {}
     progress = estimate.get("development_evidence_floor_percent", estimate.get("percent"))
     manual_progress = estimate.get("manual_acceptance_coverage_percent")
@@ -180,6 +184,7 @@ def main():
         "developmentProgress": progress,
         "manualAcceptanceProgress": manual_progress,
         "manualAcceptance": manual_acceptance,
+        "macroareas": macroareas,
         "progressAsOf": evidence.get("updated_at"),
         "progressBasis": estimate_basis,
         "counts": {
