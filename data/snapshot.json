@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T09:52:05.914930+00:00",
+  "generatedAt": "2026-11-19T10:04:11.037291+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "132ec4f9cc22e29918be878a67aa939d4bd6c4f1",
+  "sourceCommit": "3155bcccfc6af392c5eb87bf051eac9fe65c50a0",
   "progress": 54.12,
   "developmentProgress": 54.12,
   "manualAcceptanceProgress": 4.67,
@@ -26,6 +26,25 @@
   },
   "prs": [
     {
+      "number": 684,
+      "title": "feat(catalog): filtro facoltativo per corsi disponibili (CAT-01)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/684",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T10:03:36Z",
+      "mergedAt": "2026-11-19T10:03:33Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "583bfaaed81eb614b777e8b1bc65e07edfbff9b0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44500941584"
+      }
+    },
+    {
       "number": 683,
       "title": "feat(metrics): riconciliazione automatica avanzamento per nove macroaree",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/683",
@@ -40,8 +59,8 @@
       "milestone": "1.0.0",
       "headSha": "0761a193a828d680dbb5030e162c7ace9dd9c5a9",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44499992290"
       }
     },
@@ -372,9 +391,9 @@
       "milestone": "1.0.0",
       "headSha": "9867d948cdfcc8fc6bdf185ca776830b94f72976",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44409338081"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -391,9 +410,9 @@
       "milestone": "1.0.0",
       "headSha": "3327f3d6bacd8c98e69c4fefe613384be3f8a609",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44408381363"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1528,25 +1547,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 605,
-      "title": "docs(evidence): allineare audit 129/214 dopo #603/#604",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/605",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T01:58:37Z",
-      "mergedAt": "2026-11-18T01:58:34Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4592317788ae1f320b06f7ce9f1729fa064c22b7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1578,8 +1578,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-18T23:53:01Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44423813658/artifacts/14483616361"
+    "createdAt": "2026-11-19T09:59:42Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44500941584/artifacts/14516933600"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
