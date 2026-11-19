@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T17:25:18.504102+00:00",
+  "generatedAt": "2026-11-19T17:26:49.537862+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a12ea7d40c3fbcad7810b60ddc9ab99a903c62fb",
+  "sourceCommit": "28b601668f150c5be3c2bab2e84288d713abe409",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 715,
+      "title": "docs(DOC-05): registrare prove di integrazione e pacchetto PR #714",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/715",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T17:26:20Z",
+      "mergedAt": "2026-11-19T17:26:17Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c5ca27c47f2d67201d4480d65b503f599b665546",
+      "ci": {
+        "status": "completed",
+        "conclusion": "cancelled",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44577048018"
+      }
+    },
     {
       "number": 714,
       "title": "feat(DOC-05): guida contestuale bilingue per tutte le 29 viste backend",
@@ -1658,25 +1678,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "506430f12c71e9fd943233c8b6efd11c56e3d7e7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 637,
-      "title": "Audit 1.0.0: catalogo, roster e installazione",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/637",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T19:08:14Z",
-      "mergedAt": "2026-11-18T19:08:11Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d78ea029827bec2f11cb14117f558f4f113434b1",
       "ci": {
         "status": "unknown",
         "conclusion": null,
