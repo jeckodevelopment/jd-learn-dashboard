@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T12:49:12.892672+00:00",
+  "generatedAt": "2026-11-19T12:50:59.390107+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T12:50:28Z",
+      "commit": "e494a4a68f9d4272882f39b6fe944aa0630fa879",
+      "number": 700,
+      "title": "docs(SCR-01): registrare evidenze merge e CI PR #699",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/700"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T12:48:47Z",

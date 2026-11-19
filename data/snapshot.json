@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T12:49:12.892672+00:00",
+  "generatedAt": "2026-11-19T12:50:59.390107+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "5efc71ffee43e5df0be59140cd63152b3da64a08",
+  "sourceCommit": "e494a4a68f9d4272882f39b6fe944aa0630fa879",
   "progress": 54.9,
   "developmentProgress": 54.9,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 700,
+      "title": "docs(SCR-01): registrare evidenze merge e CI PR #699",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/700",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T12:50:30Z",
+      "mergedAt": "2026-11-19T12:50:28Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "92ac3dd3275061cde9aa429b08fe1a34b0789731",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44527560659"
+      }
+    },
     {
       "number": 699,
       "title": "feat(SCR-01): errore recuperabile e Riprova nel catalogo",
@@ -1649,25 +1669,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "fa1bec6e7af724c9941865af4117858255dcd029",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 620,
-      "title": "ci: notifica dashboard di rilascio a ogni aggiornamento di main",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/620",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T17:53:27Z",
-      "mergedAt": "2026-11-18T17:53:25Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a84dc739d1a9690e33526ddc03338eac9e8f7fbe",
       "ci": {
         "status": "unknown",
         "conclusion": null,
