@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T18:21:17.860840+00:00",
+  "generatedAt": "2026-11-19T18:26:54.139993+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-19T18:26:54.139993+00:00",
+      "commit": "5369efa820141d71eccf94aaac18b19828b95eba",
+      "id": "JOO-04",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T18:26:24Z",
+      "commit": "5369efa820141d71eccf94aaac18b19828b95eba",
+      "number": 719,
+      "title": "docs(JOO-04): chiusura audit Scheduler e avanzamento 55,76%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/719"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T18:26:54.139993+00:00",
+      "commit": "5369efa820141d71eccf94aaac18b19828b95eba",
+      "from": 55.52,
+      "to": 55.76,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T18:20:30Z",

@@ -783,12 +783,12 @@
   {
     "id": "JOO-04",
     "area": "JOO",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "202;718",
-    "todo": "Completare diagnostica e conservazione core; Scheduler materiali già implementato, notifiche/code avanzate differite.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-18; AC-73; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Notifiche/purga/code generali, diagnostica e tutte le routine previste.",
+    "todo": "Nessuno dei due criteri tecnici JOO-04; eventuali bug emersi dai collaudi saranno tracciati separatamente.",
+    "tests": "Eseguire su Joomla i tre task con cron CLI e Lazy Scheduler; verificare ultima/prossima esecuzione, assenza, disabilitazione, duplicati, ritardi oltre 10 minuti, fallimenti, ACL e IT/EN. Un task email riuscito non certifica consegna SMTP.",
     "criteria": "Attività pianificate per notifiche, scadenze e pulizie, con diagnostica dell'ultima esecuzione. Le autorizzazioni e le scadenze sono comunque controllate al momento dell'accesso: un task in ritardo non deve lasciare aperto un corso scaduto"
   },
   {

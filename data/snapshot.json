@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T18:21:17.860840+00:00",
+  "generatedAt": "2026-11-19T18:26:54.139993+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c289d42ce72e10a1c2547b7d95c1aa931a8c3eaa",
-  "progress": 55.52,
-  "developmentProgress": 55.52,
+  "sourceCommit": "5369efa820141d71eccf94aaac18b19828b95eba",
+  "progress": 55.76,
+  "developmentProgress": 55.76,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -93,10 +93,10 @@
       "label": "Joomla, ACL e configurazione",
       "requirements": 38,
       "weight_percent": 17.76,
-      "development_evidence_floor_percent": 52.85,
+      "development_evidence_floor_percent": 54.17,
       "manual_acceptance_coverage_percent": 2.63,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 2,
+      "missing_criteria": 1,
       "unverifiable_criteria": 37,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 719,
+      "title": "docs(JOO-04): chiusura audit Scheduler e avanzamento 55,76%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/719",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T18:26:26Z",
+      "mergedAt": "2026-11-19T18:26:24Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6d05e056e586a3ccf9d2defb67d40d6b21003e6f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44587652160"
+      }
+    },
     {
       "number": 718,
       "title": "feat(JOO-04): monitora stato e ritardi di tutti i task Joomla JD Learn",
@@ -384,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "9105436173ff4a77c78b3951817c0d9e504f8ef1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44541920102"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1660,25 +1680,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "2ab279536b9eaf50dd2972162fe36cb4bf1786d2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 641,
-      "title": "Audit 1.0.0: quiz, accesso didattico, notifiche e attestati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/641",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T19:32:13Z",
-      "mergedAt": "2026-11-18T19:32:11Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "acc991d02a7a551bd58f0cbbfa89c1cde2bea09b",
       "ci": {
         "status": "unknown",
         "conclusion": null,
