@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T15:58:57.108344+00:00",
+  "generatedAt": "2026-11-19T16:42:10.592527+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "be9d8e4abb76c1c9d794fedce28cd1d15860e0bc",
+  "sourceCommit": "6054d1e5f7bd1fe1d28c6606339387164466c3bc",
   "progress": 55.05,
   "developmentProgress": 55.05,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 710,
+      "title": "feat(DOC-05): guida contestuale offline IT/EN nelle schermate core",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/710",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T16:41:38Z",
+      "mergedAt": "2026-11-19T16:41:35Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a934f257912ed3d12a314dda9d09a14eee4bd069",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44567957623"
+      }
+    },
     {
       "number": 709,
       "title": "docs(UI-01): tracciare merge e CI della PR #708",
@@ -1661,25 +1680,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 629,
-      "title": "fix: distinguish suspended course delivery from restricted access in pathways (0.60.6)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/629",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T18:42:19Z",
-      "mergedAt": "2026-11-18T18:42:17Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1c7182340d530bd11009dddf7be556319ad1bafc",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1711,8 +1711,8 @@
   },
   "package": {
     "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T15:56:04Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44559678763/artifacts/14547221324"
+    "createdAt": "2026-11-19T16:39:57Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44567957467/artifacts/14552169491"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
