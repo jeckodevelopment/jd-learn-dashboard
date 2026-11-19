@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:29:37.557302+00:00",
+  "generatedAt": "2026-11-19T10:31:01.287520+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "bec6c0ac8b44cb59af428e4b395f86e946a4567b",
+  "sourceCommit": "ae0ed4b89754f81fb36a082cb8d34a96feeb429d",
   "progress": 54.12,
   "developmentProgress": 54.12,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 689,
+      "title": "docs: registra integrazione SCR-04, CI e artefatto (#688)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/689",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T10:30:27Z",
+      "mergedAt": "2026-11-19T10:30:24Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "94f9ba10b4ffce04ca86bbe594a86e68f4033073",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44506216944"
+      }
+    },
     {
       "number": 688,
       "title": "fix(pathway): percentuale aggregata solo con requisiti e iscrizioni completi (SCR-04)",
@@ -1635,25 +1655,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "484387ccc57c5a877b8ac668b1ce087b0d205ed6",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 610,
-      "title": "docs: reconcile course lifecycle guarantees and identify LCM-01/02 gaps",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/610",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T07:33:37Z",
-      "mergedAt": "2026-11-18T07:33:35Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "44fe01cf25e3ba94e7752302bae88bc614e09bb4",
       "ci": {
         "status": "unknown",
         "conclusion": null,
