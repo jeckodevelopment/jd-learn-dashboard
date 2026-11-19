@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T19:13:37.589942+00:00",
+  "generatedAt": "2026-11-19T19:34:48.845894+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T19:34:11Z",
+      "commit": "7944a52459ac43aa7618682831ef6b097032e8ec",
+      "number": 724,
+      "title": "feat(DOC-06): aiuti nativi IT/EN per accessi, presentazione e calendario corso",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/724"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T19:13:06Z",
