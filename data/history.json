@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T20:14:01.271097+00:00",
+  "generatedAt": "2026-11-19T20:22:35.139167+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-19T20:22:35.139167+00:00",
+      "commit": "ad0df273885ffa849038fddadaf85c3bea61d21f",
+      "id": "LIFE-01",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T20:21:53Z",
+      "commit": "ad0df273885ffa849038fddadaf85c3bea61d21f",
+      "number": 727,
+      "title": "docs(LIFE-01): riconciliare PR #726 e avanzamento minimo 56,11%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/727"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T20:22:35.139167+00:00",
+      "commit": "ad0df273885ffa849038fddadaf85c3bea61d21f",
+      "from": 55.99,
+      "to": 56.11,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T20:13:29Z",

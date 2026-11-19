@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T20:14:01.271097+00:00",
+  "generatedAt": "2026-11-19T20:22:35.139167+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "74e9ce482f4e8881af3e0746a9c41a68be369399",
-  "progress": 55.99,
-  "developmentProgress": 55.99,
+  "sourceCommit": "ad0df273885ffa849038fddadaf85c3bea61d21f",
+  "progress": 56.11,
+  "developmentProgress": 56.11,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -33,10 +33,10 @@
       "label": "Corsi, versioni e pubblicazione",
       "requirements": 20,
       "weight_percent": 9.35,
-      "development_evidence_floor_percent": 69.19,
+      "development_evidence_floor_percent": 70.44,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 1,
+      "missing_criteria": 0,
       "unverifiable_criteria": 23,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 727,
+      "title": "docs(LIFE-01): riconciliare PR #726 e avanzamento minimo 56,11%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/727",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T20:21:55Z",
+      "mergedAt": "2026-11-19T20:21:53Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "066b502b566cf952b81bc5f93079a71ce990d035",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44607806595"
+      }
+    },
     {
       "number": 726,
       "title": "feat(LIFE-01): anteprima dipendenze e conferma sicura della purga corsi",
@@ -326,9 +346,9 @@
       "milestone": "1.0.0",
       "headSha": "cd6022331dacb54f61b3022679d99324d3309eb3",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44582899384"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -345,9 +365,9 @@
       "milestone": "1.0.0",
       "headSha": "741b4a7cea71664c9859f76af9a20ce1926fe262",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44581977287"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1665,25 +1685,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "727e346abeb267bffe0b877a26f9382d01202d42",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 649,
-      "title": "docs: reconcile STA-02 PR #648 merge, CI and artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/649",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T20:49:45Z",
-      "mergedAt": "2026-11-18T20:49:43Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3f2c26778dccf5dbbc3dd7845669bd21f227b1e8",
       "ci": {
         "status": "unknown",
         "conclusion": null,

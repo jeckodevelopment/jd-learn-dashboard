@@ -1509,12 +1509,12 @@
   {
     "id": "LIFE-01",
     "area": "LIFE",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "120;490;726",
-    "todo": "Completare cestino/ripristino e purga intenzionale con dipendenze/politica; archiviazione corsi già presente.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-50; AC-54; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Lifecycle cestino/archivio e purga intenzionale con analisi delle dipendenze e politica configurata.",
+    "todo": "Nessuno dei quattro criteri tecnici LIFE-01 è rimasto scoperto dopo l'anteprima di impatto e la conferma di purga conservativa. Eventuali difetti rilevati dai collaudi manuali saranno tracciati separatamente.",
+    "tests": "Collaudo Joomla su corso vuoto/non vuoto, ACL, CSRF, revisione concorrente, nuove dipendenze, history Joomla, lingua IT/EN e accessibilità; registrare esiti e build secondo docs/QA_TESTBOOK.md.",
     "criteria": "Dipendenze.  Un corso con iscrizioni, tentativi o attestati non è eliminabile definitivamente con un normale comando editoriale. Cestinamento/archiviazione e cancellazione dei dati sono operazioni diverse. La purga è soggetta a permessi, politica di conservazione e riepilogo dell'impatto. Nessuna eliminazione a cascata non dichiarata"
   },
   {
