@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T18:37:16.712023+00:00",
+  "generatedAt": "2026-11-19T18:45:15.029927+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T18:44:46Z",
+      "commit": "d082b7259d3c2b16e5f0fd9ecdfee812b55e685b",
+      "number": 720,
+      "title": "fix(MAIL-08): invio test idempotente su refresh — PATCH SemVer 0.60.9",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/720"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-19T18:26:54.139993+00:00",

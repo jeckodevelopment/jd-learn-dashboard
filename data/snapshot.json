@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T18:37:16.712023+00:00",
+  "generatedAt": "2026-11-19T18:45:15.029927+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "5369efa820141d71eccf94aaac18b19828b95eba",
+  "sourceCommit": "d082b7259d3c2b16e5f0fd9ecdfee812b55e685b",
   "progress": 55.76,
   "developmentProgress": 55.76,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 720,
+      "title": "fix(MAIL-08): invio test idempotente su refresh — PATCH SemVer 0.60.9",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/720",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T18:44:48Z",
+      "mergedAt": "2026-11-19T18:44:46Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "38676a98088aa27615c7aff362ab4108ceae0fb0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44590258016"
+      }
+    },
     {
       "number": 719,
       "title": "docs(JOO-04): chiusura audit Scheduler e avanzamento 55,76%",
@@ -365,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "aa2d8a67d16823fcc7279f4e96cc31a023027ebb",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44559678763"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -385,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "8f828970cff93a1035f25ed6baac090634196b2e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44543200543"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1666,25 +1685,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 642,
-      "title": "Audit 1.0.0: release, accessibilità, prestazioni e manuali",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/642",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T19:58:19Z",
-      "mergedAt": "2026-11-18T19:58:16Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2ab279536b9eaf50dd2972162fe36cb4bf1786d2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1715,9 +1715,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.60.8-dev",
-    "createdAt": "2026-11-19T18:19:34Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44585956020/artifacts/14559179665"
+    "name": "JD-Learn-0.60.9-dev",
+    "createdAt": "2026-11-19T18:43:59Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44590257501/artifacts/14561834129"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
