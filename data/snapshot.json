@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T10:31:01.287520+00:00",
+  "generatedAt": "2026-11-19T10:42:47.019935+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ae0ed4b89754f81fb36a082cb8d34a96feeb429d",
-  "progress": 54.12,
-  "developmentProgress": 54.12,
+  "sourceCommit": "09e9d42155ba4b03a5a65218ced8fb90751fc4f0",
+  "progress": 54.68,
+  "developmentProgress": 54.68,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,10 +21,10 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 63.25,
+      "development_evidence_floor_percent": 68.47,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 13,
+      "missing_criteria": 7,
       "unverifiable_criteria": 20,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 690,
+      "title": "docs(audit): riconcilia sei criteri realizzati e avanza la baseline a 54,68%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/690",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T10:42:17Z",
+      "mergedAt": "2026-11-19T10:42:14Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f3ff63832d5d0ae2744eb616db24081299a0c436",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44508042726"
+      }
+    },
     {
       "number": 689,
       "title": "docs: registra integrazione SCR-04, CI e artefatto (#688)",
@@ -481,9 +501,9 @@
       "milestone": "1.0.0",
       "headSha": "7014c1f59a8880ab2dad824bc78bf4799102d1f7",
       "ci": {
-        "status": "completed",
-        "conclusion": "cancelled",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44416028670"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -500,9 +520,9 @@
       "milestone": "1.0.0",
       "headSha": "ea32e9552b1060d81eb1c506b5972321236f2c67",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44415053155"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1636,25 +1656,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "57eb7df69dbe61c5f8b6dfa1defd3472ca6dff92",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 611,
-      "title": "docs: reconcile four ACL/security criteria with direct-request evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/611",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T08:52:26Z",
-      "mergedAt": "2026-11-18T08:52:23Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "484387ccc57c5a877b8ac668b1ce087b0d205ed6",
       "ci": {
         "status": "unknown",
         "conclusion": null,

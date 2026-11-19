@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T10:31:01.287520+00:00",
+  "generatedAt": "2026-11-19T10:42:47.019935+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-19T10:42:14Z",
+      "commit": "09e9d42155ba4b03a5a65218ced8fb90751fc4f0",
+      "number": 690,
+      "title": "docs(audit): riconcilia sei criteri realizzati e avanza la baseline a 54,68%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/690"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-19T10:42:47.019935+00:00",
+      "commit": "09e9d42155ba4b03a5a65218ced8fb90751fc4f0",
+      "from": 54.12,
+      "to": 54.68,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T10:30:24Z",
