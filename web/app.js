@@ -189,6 +189,10 @@ function features(){
   return (r.id+" "+(areaNames[r.area]||"")+" "+r.criteria+" "+r.todo+" "+r.state).toLowerCase().includes(model.query.toLowerCase());
  });
  const areas=featureAreas();
+ const macroareas=(model.snapshot?.macroareas||[]);
+ const macroCards=model.filter!=="phase2"&&model.area==="all"&&macroareas.length===9
+  ? '<section class="area-section"><div class="section-title"><h2>Avanzamento comprovato per macroarea</h2><span class="aside">9 macroaree · 214 requisiti</span></div><p class="secondary">Percentuali basate sulle evidenze dei criteri della matrice ufficiale. Il collaudo manuale resta separato.</p><div class="areas">'+macroareas.map(a=>'<div class="card area-card"><div class="area-card-head"><h3>'+esc(a.label)+'</h3><span class="area-code">'+a.requirements+' requisiti</span></div><div class="area-progress"><strong>'+pct(a.development_evidence_floor_percent)+'</strong><span>Peso '+pct(a.weight_percent)+'</span></div><div class="meter"><span style="width:'+a.development_evidence_floor_percent+'%"></span></div><p class="secondary">Collaudi avviati: '+pct(a.manual_acceptance_coverage_percent)+'</p></div>').join('')+'</div></section>'
+  : '';
  const cardsByGroup=areaGroups.map(groupName=>{
   const included=areas.filter(([key])=>(areaInfo[key]||[])[2]===groupName);
   if(!included.length)return "";
@@ -207,8 +211,8 @@ function features(){
  const fallback=unknown.length?'<div class="section-title"><h2>Altre aree</h2></div><div class="areas">'+unknown.map(([key,group])=>'<button class="card area-card" data-area="'+esc(key)+'"><h3>'+esc(key)+'</h3><p class="area-description">Area da classificare</p><strong>'+pct(100*group.filter(completed).length/group.length)+'</strong></button>').join("")+'</div>':"";
  const areaOptions='<div class="toolbar"><select id="area" aria-label="Seleziona area funzionale"><option value="all">Tutte le aree</option>'+areas.map(([k])=>'<option value="'+esc(k)+'" '+(model.area===k?"selected":"")+'>'+esc(areaNames[k]||k)+'</option>').join("")+'</select></div>';
  return pageHeader("Funzionalità","Aree descritte in linguaggio chiaro, con avanzamento e requisiti di dettaglio. Le sigle sono solo riferimenti tecnici.")+
- '<div class="notice">Le percentuali nelle schede indicano la quota di requisiti interamente implementati nell’area. Non equivalgono alla stima ponderata di avanzamento del progetto. I requisiti misti possono includere anche lavorazioni di fase 2.</div>'+
- cardsByGroup+fallback+
+ '<div class="notice">Le percentuali delle schede di dettaglio sottostanti indicano la quota di requisiti interamente implementati per prefisso. Non equivalgono alla stima ponderata di avanzamento del progetto. I requisiti misti possono includere anche lavorazioni di fase 2.</div>'+
+ macroCards+cardsByGroup+fallback+
  section("Matrice requisiti","Implementazione e collaudo Joomla distinti")+areaOptions+toolbar({filters:options,count:rows.length})+
  '<div class="card data-list">'+(rows.length?rows.slice(0,120).map(rowRequirement).join(""):'<div class="empty">Nessun requisito trovato.</div>')+'</div>'+
  (rows.length>120?'<p class="note" style="margin-top:12px">Mostrati i primi 120 risultati: restringi la ricerca.</p>':"");
