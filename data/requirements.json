@@ -981,12 +981,12 @@
   {
     "id": "CORE-17",
     "area": "CORE",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "88;728",
-    "todo": "Plugin actionlog e copertura amministrativa generale (pubblicazione, ulteriori rettifiche/revoche) ancora da completare; il writer esistente non è un plugin generale.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-24; AC-72; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Plugin actionlog e copertura amministrativa generale (pubblicazione, ulteriori rettifiche/revoche) ancora da completare; il writer esistente non è un plugin generale.",
+    "todo": "Nessuno dei due criteri tecnici CORE-17 è rimasto scoperto dopo il plugin actionlog e l'evento post-commit. Eventuali difetti emersi dal collaudo saranno tracciati separatamente.",
+    "tests": "Collaudo manuale Joomla: transizioni di workflow, rollback e negazioni senza log, plugin disabilitato e upgrade, IT/EN, ACL ridotte, payload minimo e assenza duplicazioni con l'audit transazionale; registrare nel testbook.",
     "criteria": "User Actions Log; Plugin per il registro azioni Joomla sulle operazioni amministrative rilevanti; audit didattico complementare e senza duplicazione indiscriminata di dati"
   },
   {

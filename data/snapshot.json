@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T21:21:20.799826+00:00",
+  "generatedAt": "2026-11-19T21:26:25.346100+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fe9b2dd973a7af3a8cd2aa380f97fa213c8afb4f",
-  "progress": 56.11,
-  "developmentProgress": 56.11,
+  "sourceCommit": "1fead62e533c899e4b322815f3a0c67db6f23118",
+  "progress": 56.34,
+  "developmentProgress": 56.34,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -93,10 +93,10 @@
       "label": "Joomla, ACL e configurazione",
       "requirements": 38,
       "weight_percent": 17.76,
-      "development_evidence_floor_percent": 54.17,
+      "development_evidence_floor_percent": 55.48,
       "manual_acceptance_coverage_percent": 2.63,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 1,
+      "missing_criteria": 0,
       "unverifiable_criteria": 37,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 729,
+      "title": "docs(CORE-17): riconciliare Action Log PR #728 e avanzamento 56,34%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/729",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-19T21:26:01Z",
+      "mergedAt": "2026-11-19T21:25:58Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "820d9db6ab85b2b73502a0e9dda29abb34246b6d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44618591268"
+      }
+    },
     {
       "number": 728,
       "title": "feat(CORE-17): plugin nativo Joomla User Actions Log per transizioni corsi",
@@ -326,9 +346,9 @@
       "milestone": "1.0.0",
       "headSha": "6d05e056e586a3ccf9d2defb67d40d6b21003e6f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44587652160"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1666,25 +1686,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "51f6f69911d310a94faa9690591e89e33c0af9ed",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 652,
-      "title": "docs: record reconciliation PR 650 in history",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/652",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T20:59:40Z",
-      "mergedAt": "2026-11-18T20:59:38Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4dc6505ab70fe58362fa766d229809f77981603c",
       "ci": {
         "status": "unknown",
         "conclusion": null,
