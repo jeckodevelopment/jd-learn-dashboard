@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T18:59:16.384219+00:00",
+  "generatedAt": "2026-11-20T19:45:02.880933+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7a865989d9fce99caab8a2911e584bf7700b0646",
-  "progress": 57.48,
-  "developmentProgress": 57.48,
+  "sourceCommit": "303682e550a8268351b764bb7f15a6be21f8678a",
+  "progress": 57.94,
+  "developmentProgress": 57.94,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -13,7 +13,7 @@
     "requirements_passed": 0,
     "requirements_failed": 0,
     "coverage_percent": 4.67,
-    "fully_accepted_percent": 0
+    "fully_accepted_percent": 0.0
   },
   "macroareas": [
     {
@@ -23,7 +23,7 @@
       "weight_percent": 10.75,
       "development_evidence_floor_percent": 74.41,
       "manual_acceptance_coverage_percent": 13.04,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 1,
       "unverifiable_criteria": 20,
       "unassessed_criteria": 0
@@ -34,8 +34,8 @@
       "requirements": 20,
       "weight_percent": 9.35,
       "development_evidence_floor_percent": 70.44,
-      "manual_acceptance_coverage_percent": 0,
-      "manual_fully_accepted_percent": 0,
+      "manual_acceptance_coverage_percent": 0.0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 23,
       "unassessed_criteria": 0
@@ -47,7 +47,7 @@
       "weight_percent": 8.88,
       "development_evidence_floor_percent": 70.18,
       "manual_acceptance_coverage_percent": 5.26,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 18,
       "unassessed_criteria": 0
@@ -58,8 +58,8 @@
       "requirements": 18,
       "weight_percent": 8.41,
       "development_evidence_floor_percent": 65.65,
-      "manual_acceptance_coverage_percent": 0,
-      "manual_fully_accepted_percent": 0,
+      "manual_acceptance_coverage_percent": 0.0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 2,
       "unverifiable_criteria": 21,
       "unassessed_criteria": 0
@@ -71,7 +71,7 @@
       "weight_percent": 7.94,
       "development_evidence_floor_percent": 70.59,
       "manual_acceptance_coverage_percent": 17.65,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 14,
       "unassessed_criteria": 0
@@ -83,7 +83,7 @@
       "weight_percent": 6.07,
       "development_evidence_floor_percent": 67.31,
       "manual_acceptance_coverage_percent": 15.38,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 11,
       "unassessed_criteria": 0
@@ -95,7 +95,7 @@
       "weight_percent": 17.76,
       "development_evidence_floor_percent": 55.48,
       "manual_acceptance_coverage_percent": 2.63,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 37,
       "unassessed_criteria": 0
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 40.65,
-      "manual_acceptance_coverage_percent": 0,
-      "manual_fully_accepted_percent": 0,
-      "missing_criteria": 13,
+      "development_evidence_floor_percent": 42.61,
+      "manual_acceptance_coverage_percent": 0.0,
+      "manual_fully_accepted_percent": 0.0,
+      "missing_criteria": 11,
       "unverifiable_criteria": 100,
       "unassessed_criteria": 0
     },
@@ -118,8 +118,8 @@
       "requirements": 15,
       "weight_percent": 7.01,
       "development_evidence_floor_percent": 27.22,
-      "manual_acceptance_coverage_percent": 0,
-      "manual_fully_accepted_percent": 0,
+      "manual_acceptance_coverage_percent": 0.0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 19,
       "unverifiable_criteria": 24,
       "unassessed_criteria": 0
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 811,
+      "title": "fix(SEC-P1): threat review completa e fail-closed dello storage video locale",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/811",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T19:44:49Z",
+      "mergedAt": "2026-11-20T19:44:25Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "06b81e75b5266c0682202c1b4027a2e721eee989",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44804133149"
+      }
+    },
+    {
       "number": 810,
       "title": "fix(SEC-P1): conflict on mutated replay of queued course communication",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/810",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-20T18:58:45Z",
+      "updated": "2026-11-20T18:59:10Z",
       "mergedAt": "2026-11-20T18:58:43Z",
       "labels": [
         "P0"
@@ -363,9 +382,9 @@
       "milestone": "1.0.0",
       "headSha": "bf42d380d61a8b63c3e4e545120fcd7aeb261685",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44776584062"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -382,9 +401,9 @@
       "milestone": "1.0.0",
       "headSha": "caf7d7c1a81192c95c422b7782aa269d17756592",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44775729425"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -402,9 +421,9 @@
       "milestone": "1.0.0",
       "headSha": "bcb65b0bce813f1ef118ede5a3a7cc1e1b6597ea",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44770934014"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -421,9 +440,9 @@
       "milestone": "1.0.0",
       "headSha": "b250824aa28c101aa48bc95534e4d123565533e7",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44770004898"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -441,9 +460,9 @@
       "milestone": "1.0.0",
       "headSha": "4fefd7ba680cf9e5ae0891f555a4c39318b8dad5",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44768453108"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1680,25 +1699,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 730,
-      "title": "feat(STA-02): messaggi pre-avvio e guard completo su scadenze quiz",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/730",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T21:50:44Z",
-      "mergedAt": "2026-11-19T21:50:42Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ef5be076997b95b30f5d0fcfac4b2d14ea3cebdd",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1742,8 +1742,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T18:58:13Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44797158469/artifacts/14660020026"
+    "createdAt": "2026-11-20T19:42:48Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44804133128/artifacts/14662172229"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
