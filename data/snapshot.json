@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T20:37:44.616636+00:00",
+  "generatedAt": "2026-11-20T20:39:08.058168+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "baac34bc7fc0d585235fe5f86576b12ebd549c1e",
+  "sourceCommit": "9d06e2a90a5a9d3fad45ab5f5563790070e785aa",
   "progress": 57.94,
   "developmentProgress": 57.94,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 819,
+      "title": "docs(history): registrare merge, CI, artefatto e checksum DOC-08 #818",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/819",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T20:38:46Z",
+      "mergedAt": "2026-11-20T20:38:44Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "aa0499fa49731fdb932c3344dd75dd91a7f7f6dd",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44813128108"
+      }
+    },
     {
       "number": 818,
       "title": "test(DOC-08): matrice dei 21 flussi core e gate documentale fail-closed per release",
@@ -1678,25 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "4b0cbe757d1cfab5c0c61d6221c18a15ebbf7a0e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 738,
-      "title": "fix(CAT-02): stato iscrizione corretto sul catalogo con oltre 50 edizioni (0.63.4)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/738",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T23:31:26Z",
-      "mergedAt": "2026-11-19T23:31:23Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "fe28888b62480107f961b079d0ef4c9e325750da",
       "ci": {
         "status": "unknown",
         "conclusion": null,
