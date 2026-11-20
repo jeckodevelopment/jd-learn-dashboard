@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T12:23:55.958893+00:00",
+  "generatedAt": "2026-11-20T12:35:22.593892+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c7a22d4723156c313bc146b7a7b13b7b1b739be6",
+  "sourceCommit": "b6059f1e03e3c6f06a474f1d9da9ac00870a0be7",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 768,
+      "title": "fix(SECDEV-03): impedire spoofing Unicode nei nomi dei materiali",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/768",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T12:34:46Z",
+      "mergedAt": "2026-11-20T12:34:43Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c1930ac499362e0b5c6527c5d57e4cf021bbfe68",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44736323165"
+      }
+    },
     {
       "number": 767,
       "title": "docs(history): PR #766, criterio PBASE-03 e artefatto verificato",
@@ -1685,25 +1704,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 688,
-      "title": "fix(pathway): percentuale aggregata solo con requisiti e iscrizioni completi (SCR-04)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/688",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T10:29:04Z",
-      "mergedAt": "2026-11-19T10:29:02Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ffae94f9b43a4adc510b8f4c921016ef5c8686ce",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1734,9 +1734,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.4-dev",
-    "createdAt": "2026-11-20T12:20:08Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44734368008/artifacts/14628002487"
+    "name": "JD-Learn-0.64.5-dev",
+    "createdAt": "2026-11-20T12:34:05Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44736323165/artifacts/14628508329"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

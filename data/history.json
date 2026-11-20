@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T12:23:55.958893+00:00",
+  "generatedAt": "2026-11-20T12:35:22.593892+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T12:34:43Z",
+      "commit": "b6059f1e03e3c6f06a474f1d9da9ac00870a0be7",
+      "number": 768,
+      "title": "fix(SECDEV-03): impedire spoofing Unicode nei nomi dei materiali",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/768"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T12:23:20Z",
