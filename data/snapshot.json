@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T22:00:39.949748+00:00",
+  "generatedAt": "2026-11-20T22:02:12.027977+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "697eec113fd5d19f67d58568ac80a18484d31ce6",
+  "sourceCommit": "8354434548590465435584ddce1ff28645b96f5a",
   "progress": 58.8,
   "developmentProgress": 58.8,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 829,
+      "title": "docs(SEC-P2): archive PR #828 merge, PHP advisory QA and artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/829",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T22:01:35Z",
+      "mergedAt": "2026-11-20T22:01:32Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7337ed5e3eac3d31a8dbced9c9d9be1385fd74f0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44825313579"
+      }
+    },
     {
       "number": 828,
       "title": "fix(security): SEC-P2 require November PHP security patches in CI",
@@ -366,9 +386,9 @@
       "milestone": "1.0.0",
       "headSha": "9b4bcf60f7e3383f949b7479746b41b5dea31612",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44811469340"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1676,26 +1696,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "d283009d8b2fbe7968431b4c0b0dcc9df9b60839",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 748,
-      "title": "docs(SEC-P4): inventario storage completo, guida privacy EN e gate CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/748",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T07:52:05Z",
-      "mergedAt": "2026-11-20T07:52:03Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ddfabbac2860d43497c2aa006163205f774a445f",
       "ci": {
         "status": "unknown",
         "conclusion": null,
