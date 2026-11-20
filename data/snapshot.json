@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T17:43:38.367119+00:00",
+  "generatedAt": "2026-11-20T17:45:12.765263+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b9d835907bbbd101357e877793127092e36a119c",
+  "sourceCommit": "7c31ff28957cb2348c11a09844adbfd764189072",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 805,
+      "title": "docs(history): merge e pacchetto SEC-P1 PR #804",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/805",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T17:44:42Z",
+      "mergedAt": "2026-11-20T17:44:40Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "365ad7bd3cd0ad21093685aaf130eafffbb64081",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44786101720"
+      }
+    },
     {
       "number": 804,
       "title": "test(SEC-P1): blocco identità obsoleta nelle migrazioni iscrizioni",
@@ -422,9 +442,9 @@
       "milestone": "1.0.0",
       "headSha": "e6ff1a19641f04681ac8d5f59aa08253f4f5a240",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44761364037"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1676,25 +1696,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "5376d34ce4f971d23ec9a92ef511b400dbc42b81",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 724,
-      "title": "feat(DOC-06): aiuti nativi IT/EN per accessi, presentazione e calendario corso",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/724",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T19:34:13Z",
-      "mergedAt": "2026-11-19T19:34:11Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "76c7c7720ceddfb08e5a9e4b39b31af2374836fe",
       "ci": {
         "status": "unknown",
         "conclusion": null,

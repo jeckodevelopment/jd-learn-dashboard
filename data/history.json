@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T17:43:38.367119+00:00",
+  "generatedAt": "2026-11-20T17:45:12.765263+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T17:44:40Z",
+      "commit": "7c31ff28957cb2348c11a09844adbfd764189072",
+      "number": 805,
+      "title": "docs(history): merge e pacchetto SEC-P1 PR #804",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/805"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T17:42:56Z",
@@ -1594,14 +1602,6 @@
       "number": 625,
       "title": "fix: close course admissions and delivery when moving to trash (0.60.4)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/625"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T18:05:48Z",
-      "commit": "d0c3c3825e4a0d1a2ccb8ec49275794e37bfcbc8",
-      "number": 623,
-      "title": "docs(ci): registrare il collaudo end-to-end della sincronizzazione dashboard",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/623"
     }
   ]
 }
