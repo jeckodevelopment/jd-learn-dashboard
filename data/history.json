@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T22:29:18.346084+00:00",
+  "generatedAt": "2026-11-20T22:40:39.785484+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T22:40:08Z",
+      "commit": "899a78f43951f47754bbd41c510da83a1d629ec7",
+      "number": 832,
+      "title": "test(core): consolidate HTTP-06 request boundary regressions",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/832"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T22:28:39Z",
@@ -1594,14 +1602,6 @@
       "number": 659,
       "title": "docs: reconcile CAT-02 PR #657 merge, CI and installable package",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/659"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T21:23:20Z",
-      "commit": "6172f6589abbcd37f2a56b9549d547fe14e192eb",
-      "number": 658,
-      "title": "docs: reconcile functional audit batch 12",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/658"
     }
   ]
 }

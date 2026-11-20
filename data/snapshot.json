@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T22:29:18.346084+00:00",
+  "generatedAt": "2026-11-20T22:40:39.785484+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fd269c5dd27e9bc0d1f2b53e32e424b7c06b4845",
+  "sourceCommit": "899a78f43951f47754bbd41c510da83a1d629ec7",
   "progress": 58.8,
   "developmentProgress": 58.8,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 832,
+      "title": "test(core): consolidate HTTP-06 request boundary regressions",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/832",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T22:40:11Z",
+      "mergedAt": "2026-11-20T22:40:08Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8006b9bef1a5442c1c7d2e3eb2172729fcab78cb",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44830311444"
+      }
+    },
     {
       "number": 831,
       "title": "test(core): HTTP-06 Joomla task contracts and negative boundary cases",
@@ -1679,26 +1698,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 751,
-      "title": "docs(history): registrare merge e CI ASVS #750",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/751",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T08:40:56Z",
-      "mergedAt": "2026-11-20T08:40:53Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3cc64d499b9e87440a3089a8a166aa394830cc21",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1742,8 +1741,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T22:27:33Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44828590939/artifacts/14674529572"
+    "createdAt": "2026-11-20T22:39:59Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44830311444/artifacts/14674024988"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
