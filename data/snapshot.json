@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T22:40:39.785484+00:00",
+  "generatedAt": "2026-11-20T22:41:44.788105+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "899a78f43951f47754bbd41c510da83a1d629ec7",
+  "sourceCommit": "8750ba2b676853e17a05dc5d7e5ff7506ec58081",
   "progress": 58.8,
   "developmentProgress": 58.8,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 833,
+      "title": "docs(history): record HTTP-06 PR #832 merge, CI and ZIP checksum",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/833",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T22:41:18Z",
+      "mergedAt": "2026-11-20T22:41:15Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f301683aa8f82c3e2f9028c874cc67915f7d7637",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44830924397"
+      }
+    },
     {
       "number": 832,
       "title": "test(core): consolidate HTTP-06 request boundary regressions",
@@ -1674,25 +1694,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "d2d951d45db7427e57dd26a03a15deb6311cdf08",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 752,
-      "title": "test(security): coprire IDOR cross-course su download allegati privati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/752",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T08:57:58Z",
-      "mergedAt": "2026-11-20T08:57:55Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "907355c3853512cdaae1725ca7d8dac280b0b74e",
       "ci": {
         "status": "unknown",
         "conclusion": null,

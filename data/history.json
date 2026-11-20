@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T22:40:39.785484+00:00",
+  "generatedAt": "2026-11-20T22:41:44.788105+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T22:41:15Z",
+      "commit": "8750ba2b676853e17a05dc5d7e5ff7506ec58081",
+      "number": 833,
+      "title": "docs(history): record HTTP-06 PR #832 merge, CI and ZIP checksum",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/833"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T22:40:08Z",
@@ -1594,14 +1602,6 @@
       "number": 660,
       "title": "docs: record reconciliation PR 658 in history",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/660"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T21:23:22Z",
-      "commit": "6172f6589abbcd37f2a56b9549d547fe14e192eb",
-      "number": 659,
-      "title": "docs: reconcile CAT-02 PR #657 merge, CI and installable package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/659"
     }
   ]
 }
