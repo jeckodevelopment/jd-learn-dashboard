@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T08:24:41.604722+00:00",
+  "generatedAt": "2026-11-20T08:39:48.773422+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T08:39:22Z",
+      "commit": "e9ebaeac0fb59092dc6f051fdee21e07754d394c",
+      "number": 750,
+      "title": "docs(security): fissare OWASP ASVS v5.0.0 e gate CI SECDEV-07",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/750"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-20T08:39:48.773422+00:00",
+      "commit": "e9ebaeac0fb59092dc6f051fdee21e07754d394c",
+      "from": 57.23,
+      "to": 57.32,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T07:53:38Z",

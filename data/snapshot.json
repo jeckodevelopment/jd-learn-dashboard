@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T08:24:41.604722+00:00",
+  "generatedAt": "2026-11-20T08:39:48.773422+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "11e8cfd44d2558b8e4c19183e8d5a2967a5a7ee4",
-  "progress": 57.23,
-  "developmentProgress": 57.23,
+  "sourceCommit": "e9ebaeac0fb59092dc6f051fdee21e07754d394c",
+  "progress": 57.32,
+  "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 40.26,
+      "development_evidence_floor_percent": 40.65,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 14,
+      "missing_criteria": 13,
       "unverifiable_criteria": 100,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 750,
+      "title": "docs(security): fissare OWASP ASVS v5.0.0 e gate CI SECDEV-07",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/750",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T08:39:24Z",
+      "mergedAt": "2026-11-20T08:39:22Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "73dd6848692d468848e8dc9c5f8c000bd71a39ff",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44703716914"
+      }
+    },
     {
       "number": 749,
       "title": "docs(history): registrare merge e CI di SEC-P4 #748",
@@ -387,9 +407,9 @@
       "milestone": "1.0.0",
       "headSha": "9ce01400d76439ff82e3e11489ec854a2a25feb4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44636397341"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -406,9 +426,9 @@
       "milestone": "1.0.0",
       "headSha": "684857d2c90402fb42b3777760ef3cdea1c62b48",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44635635715"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1680,26 +1700,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 674,
-      "title": "docs: complete PR follow-through policy",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/674",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:37:27Z",
-      "mergedAt": "2026-11-18T22:37:24Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ed31dbdb1b8eaf9d2e4ebfe60add61567f4d3610",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1731,8 +1731,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.1-dev",
-    "createdAt": "2026-11-20T07:51:31Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44697596200/artifacts/14611197871"
+    "createdAt": "2026-11-20T08:38:56Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44703716914/artifacts/14613714038"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
