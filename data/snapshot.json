@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T08:41:26.158689+00:00",
+  "generatedAt": "2026-11-20T08:58:27.380541+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "cc90a010e67d48bfdeae226fc4e618498d8f3d02",
+  "sourceCommit": "0002b6eeb1937f5b18d9cfc766c65532fefb125a",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 752,
+      "title": "test(security): coprire IDOR cross-course su download allegati privati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/752",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T08:57:58Z",
+      "mergedAt": "2026-11-20T08:57:55Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "907355c3853512cdaae1725ca7d8dac280b0b74e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44706062371"
+      }
+    },
     {
       "number": 751,
       "title": "docs(history): registrare merge e CI ASVS #750",
@@ -1681,26 +1700,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 676,
-      "title": "docs: record SCR-01 card PR 675 merge and artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/676",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:55:33Z",
-      "mergedAt": "2026-11-18T22:55:30Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7014c1f59a8880ab2dad824bc78bf4799102d1f7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1732,8 +1731,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.1-dev",
-    "createdAt": "2026-11-20T08:38:56Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44703716914/artifacts/14613714038"
+    "createdAt": "2026-11-20T08:56:50Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44706062371/artifacts/14615526404"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
