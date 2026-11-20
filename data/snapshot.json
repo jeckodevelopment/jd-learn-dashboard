@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T17:07:39.998921+00:00",
+  "generatedAt": "2026-11-20T17:09:44.003594+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "014a5be22759642373539def87944eb684cb4354",
+  "sourceCommit": "797d248c710521c53e341b473608b1d4e733a0b7",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 801,
+      "title": "docs(history): SEC-P1 PR #800, prove CI e checksum ZIP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/801",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T17:09:10Z",
+      "mergedAt": "2026-11-20T17:09:08Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ea862c3cb6f642012552669b0e8a1bc8689598df",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44780371688"
+      }
+    },
     {
       "number": 800,
       "title": "fix(SEC-P1): ACL aggiornate su attestati e guida email amministrativa",
@@ -1677,25 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "91d51acb73d9ca957fe993ad6328f22f74114c0f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 720,
-      "title": "fix(MAIL-08): invio test idempotente su refresh — PATCH SemVer 0.60.9",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/720",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T18:44:48Z",
-      "mergedAt": "2026-11-19T18:44:46Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "38676a98088aa27615c7aff362ab4108ceae0fb0",
       "ci": {
         "status": "unknown",
         "conclusion": null,
