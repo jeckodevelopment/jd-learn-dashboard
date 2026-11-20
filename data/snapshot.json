@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T22:56:46.360321+00:00",
+  "generatedAt": "2026-11-20T23:10:48.901212+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "6cbf4e3f966e20eaefa5095c55c93b9f41534713",
-  "progress": 59.11,
-  "developmentProgress": 59.11,
+  "sourceCommit": "716237cb8ba7e71d5b8dbc52e1c457f6425832d0",
+  "progress": 59.42,
+  "developmentProgress": 59.42,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -117,10 +117,10 @@
       "label": "Packaging, documentazione e reporting",
       "requirements": 15,
       "weight_percent": 7.01,
-      "development_evidence_floor_percent": 37.22,
+      "development_evidence_floor_percent": 41.67,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 14,
+      "missing_criteria": 12,
       "unverifiable_criteria": 24,
       "unassessed_criteria": 0
     }
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 836,
+      "title": "feat(admin): close DOC-07 with safe actionable configuration diagnostics",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/836",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T23:10:22Z",
+      "mergedAt": "2026-11-20T23:10:19Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5d4a59c53e48c74517d82fb0a2480fa794e44cbe",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44834082974"
+      }
+    },
     {
       "number": 835,
       "title": "docs(history): record PBASE-02 PR #834 merge and verified package",
@@ -402,9 +421,9 @@
       "milestone": "1.0.0",
       "headSha": "7b1fc4f06c8058179c5a39216000bce2d5c76b79",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44820004814"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1679,26 +1698,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 755,
-      "title": "docs(history): merge, CI e pacchetto verificato della PR #754",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/755",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T09:24:00Z",
-      "mergedAt": "2026-11-20T09:23:58Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "289078c6a7d122da5bfa59da464b99ca7f3c3ad5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1742,8 +1741,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T22:53:52Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44832138102/artifacts/14676118830"
+    "createdAt": "2026-11-20T23:08:45Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44834082916/artifacts/14676583190"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

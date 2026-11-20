@@ -2587,11 +2587,11 @@
   {
     "id": "DOC-07",
     "area": "DOC",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "740;758;760;787;789;816",
-    "todo": "Completare altri test di configurazione e flussi ad alto rischio; nessuna completezza certificata.",
+    "prs": "740;758;760;787;789;816;836",
+    "todo": "Nessuno nel perimetro implementativo: procedure sicure e diagnostica configurativa per Scheduler e provider video con rimedi localizzati e gate ACL/assenza side effect; collaudo reale e prove degradate esterne ancora da eseguire.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Procedure guidate, test di configurazione e messaggi attuabili per operazioni ad alto rischio."
   },
