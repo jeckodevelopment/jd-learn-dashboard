@@ -5,8 +5,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Parziale",
-    "prs": "209;210;211;213;418;496;498;524;684",
-    "todo": "Nessuna lacuna runtime specifica individuata nel catalogo e nella ricollocazione delle dipendenze. Restano da verificare le combinazioni complete di associazioni/lifecycle e gli scenari di accettazione Joomla.",
+    "prs": "209;210;211;213;418;496;498;524;684;742",
+    "todo": "Corretto il falso positivo della ricerca su caratteri speciali CAT-01; nessuna nuova funzione fuori piano introdotta. Restano da verificare le combinazioni complete di associazioni/lifecycle e gli scenari di accettazione Joomla.",
     "tests": "Collaudo Joomla: filtri combinati, traduzioni e associazioni, paginazione, gestione dipendenze e cancellazione successiva, ruoli e layout; nessuna informazione di corsi/profili/percorsi non accessibili.",
     "criteria": "Catalogo.  Viste a schede ed elenco, paginazione, ricerca per titolo e descrizione; filtri per categoria, percorso, docente, difficoltà, lingua e durata. Filtro sui tag e sui corsi disponibili. Non esporre titoli o descrizioni di contenuti riservati salvo scheda promozionale esplicitamente pubblica"
   },

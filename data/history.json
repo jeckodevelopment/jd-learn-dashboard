@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T00:55:07.027210+00:00",
+  "generatedAt": "2026-11-20T06:33:15.471829+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T06:32:51Z",
+      "commit": "e6164562a15c58676dbf85c2b7a1fac2f650a902",
+      "number": 742,
+      "title": "fix(CAT-01): ricerca letterale nel catalogo per % _ ! (0.64.1)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/742"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T00:00:09Z",
