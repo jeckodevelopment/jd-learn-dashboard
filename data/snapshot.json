@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T23:10:48.901212+00:00",
+  "generatedAt": "2026-11-20T23:12:09.220396+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "716237cb8ba7e71d5b8dbc52e1c457f6425832d0",
+  "sourceCommit": "f72e043c1e051f3965c48f1a6770719e81883411",
   "progress": 59.42,
   "developmentProgress": 59.42,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 837,
+      "title": "docs(history): archive DOC-07 PR #836 merge and verified Joomla package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/837",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T23:11:39Z",
+      "mergedAt": "2026-11-20T23:11:36Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c7e4442c761c253851a480d2a623a3b17e101720",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44834875212"
+      }
+    },
     {
       "number": 836,
       "title": "feat(admin): close DOC-07 with safe actionable configuration diagnostics",
@@ -402,9 +422,9 @@
       "milestone": "1.0.0",
       "headSha": "5b9f87f3b3c3487ae309f0ace2a7d687da01ea5c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44820736819"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1673,26 +1693,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f6554c5970db311e76efd6009a45d9341efece38",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 756,
-      "title": "docs(PBASE-02): allineare le guide dei quattro provider video ai manifest e al codice",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/756",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T09:50:25Z",
-      "mergedAt": "2026-11-20T09:50:22Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ab8b9f172cf1f4a66e56ee8d6574b5df8241be72",
       "ci": {
         "status": "unknown",
         "conclusion": null,
