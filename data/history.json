@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T22:02:12.027977+00:00",
+  "generatedAt": "2026-11-20T22:13:19.633477+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T22:12:46Z",
+      "commit": "0bfee45044f90d7e83eb36484eaf8e51af77b262",
+      "number": 830,
+      "title": "test(frontend): strengthen UI-07 real Joomla DOM and CSS compatibility",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/830"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T22:01:32Z",
@@ -1594,14 +1602,6 @@
       "number": 657,
       "title": "feat(CAT-02): show published completion criteria on course page",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/657"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T21:13:27Z",
-      "commit": "75fee20138fe0b2b6daf588d5f721a239e9f2c45",
-      "number": 656,
-      "title": "docs: record reconciliation PR 654 in history",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/656"
     }
   ]
 }
