@@ -2634,7 +2634,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "408;772;774;775;777;779;781",
+    "prs": "408;772;774;775;777;779;781;783",
     "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook. Collaudare template Joomla personalizzati HTML/plain, escaping e regressioni preview su sito di prova; CI non equivale ad accettazione.",
     "criteria": "Audit sistematico di minacce/codice: ACL, IDOR, CSRF, XSS, SQLi, SSRF, upload, traversal, asset privati, token e code; findings tracciati."
