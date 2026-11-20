@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T22:41:44.788105+00:00",
+  "generatedAt": "2026-11-20T22:55:47.132592+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8750ba2b676853e17a05dc5d7e5ff7506ec58081",
-  "progress": 58.8,
-  "developmentProgress": 58.8,
+  "sourceCommit": "747c024f68aac1649f9e5ca925b08e813c0c71d9",
+  "progress": 59.11,
+  "developmentProgress": 59.11,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -57,11 +57,11 @@
       "label": "Provider e fruizione video",
       "requirements": 18,
       "weight_percent": 8.41,
-      "development_evidence_floor_percent": 67.5,
+      "development_evidence_floor_percent": 71.2,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 1,
-      "unverifiable_criteria": 21,
+      "missing_criteria": 0,
+      "unverifiable_criteria": 20,
       "unassessed_criteria": 0
     },
     {
@@ -125,7 +125,7 @@
       "unassessed_criteria": 0
     }
   ],
-  "progressAsOf": "2026-11-15",
+  "progressAsOf": "2026-11-20",
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 834,
+      "title": "feat(video): close PBASE-02 provider specification requirement with release gate",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/834",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T22:55:15Z",
+      "mergedAt": "2026-11-20T22:55:13Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c34c3ddea936e8d9af54a56d54c9dd9cad15655f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44832138124"
+      }
+    },
     {
       "number": 833,
       "title": "docs(history): record HTTP-06 PR #832 merge, CI and ZIP checksum",
@@ -383,9 +402,9 @@
       "milestone": "1.0.0",
       "headSha": "135b88461bdfbcd66ed541a8528cbdda5e477e9b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44816907232"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -403,9 +422,9 @@
       "milestone": "1.0.0",
       "headSha": "aa07c73ef9b2cf92d523019e434d604d4adf705d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44816085916"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1679,26 +1698,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 753,
-      "title": "docs(history): merge e CI della review IDOR allegati #752",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/753",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T08:59:32Z",
-      "mergedAt": "2026-11-20T08:59:29Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d2d951d45db7427e57dd26a03a15deb6311cdf08",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1742,8 +1741,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T22:39:59Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44830311444/artifacts/14674024988"
+    "createdAt": "2026-11-20T22:53:52Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44832138102/artifacts/14676118830"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
