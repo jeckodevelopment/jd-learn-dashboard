@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T14:18:23.647623+00:00",
+  "generatedAt": "2026-11-20T14:21:17.005268+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fb03fdabd7161ce3190334e9e36975106e148fef",
+  "sourceCommit": "c52606e97c190a433e0fe103b041b53af8ca5fb0",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 782,
+      "title": "docs(history): evidenze merge e pacchetto SEC-P1 PR #781",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/782",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T14:20:46Z",
+      "mergedAt": "2026-11-20T14:20:43Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "98b11537c7240b81a5130456fdd8d4242847474f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44752439335"
+      }
+    },
     {
       "number": 781,
       "title": "fix(SEC-P1): richiedere permesso audit per coda email globale e riconciliazione",
@@ -442,9 +462,9 @@
       "milestone": "1.0.0",
       "headSha": "7945f5f48d7ddaea0248f8b14ef14fb084b2ffbe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44734368100"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,25 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f69631db26824b6720efdef82b70c20b1869ee31",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 702,
-      "title": "feat(SCR-01): ordinamento editoriale configurabile del catalogo",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/702",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T13:20:17Z",
-      "mergedAt": "2026-11-19T13:20:13Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1d34445ec7b9608907fac1ba8baa3e0822cc0934",
       "ci": {
         "status": "unknown",
         "conclusion": null,
