@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T13:46:23.036110+00:00",
+  "generatedAt": "2026-11-20T13:48:39.376224+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b59fe7075541ae91f655099a4b6995ea0b62464b",
+  "sourceCommit": "a5128d9cad21c66ba22da1c914780f71fe47ce76",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 778,
+      "title": "docs(history): merge e pacchetto SEC-P1 PR #777",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/778",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T13:48:12Z",
+      "mergedAt": "2026-11-20T13:48:09Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "88f5bdd2aca28785b6e1c455f7cb1fa4c9f63864",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44747421170"
+      }
+    },
     {
       "number": 777,
       "title": "fix(SEC-P1): autorizzazione aggiornata per l'editing dei profili docenti",
@@ -404,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "39438885229778756f5e2f5120bf015daf826732",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44726099423"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,26 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "602accc443ac85af520109c496c4957e1d9910af",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 698,
-      "title": "docs(SCR-01): registrare merge, CI e artefatto PR #697",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/698",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T12:32:48Z",
-      "mergedAt": "2026-11-19T12:32:45Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "fbff924af2adc3597dce2abd48e3d017ebd7d69c",
       "ci": {
         "status": "unknown",
         "conclusion": null,
