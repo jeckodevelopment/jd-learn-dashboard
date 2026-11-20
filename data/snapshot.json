@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T22:13:19.633477+00:00",
+  "generatedAt": "2026-11-20T22:29:18.346084+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0bfee45044f90d7e83eb36484eaf8e51af77b262",
+  "sourceCommit": "fd269c5dd27e9bc0d1f2b53e32e424b7c06b4845",
   "progress": 58.8,
   "developmentProgress": 58.8,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 831,
+      "title": "test(core): HTTP-06 Joomla task contracts and negative boundary cases",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/831",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T22:29:04Z",
+      "mergedAt": "2026-11-20T22:28:39Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9debbbb677873a8289e4c559ae6c159e14837e38",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44828590939"
+      }
+    },
+    {
       "number": 830,
       "title": "test(frontend): strengthen UI-07 real Joomla DOM and CSS compatibility",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/830",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-20T22:12:49Z",
+      "updated": "2026-11-20T22:13:17Z",
       "mergedAt": "2026-11-20T22:12:46Z",
       "labels": [
         "P1"
@@ -365,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "aa0499fa49731fdb932c3344dd75dd91a7f7f6dd",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44813128108"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1680,26 +1699,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 750,
-      "title": "docs(security): fissare OWASP ASVS v5.0.0 e gate CI SECDEV-07",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/750",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T08:39:24Z",
-      "mergedAt": "2026-11-20T08:39:22Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "73dd6848692d468848e8dc9c5f8c000bd71a39ff",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1743,8 +1742,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T22:12:18Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44826412488/artifacts/14675170381"
+    "createdAt": "2026-11-20T22:27:33Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44828590939/artifacts/14674529572"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

@@ -2172,8 +2172,8 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "",
-    "todo": "Allineamento endpoint per tutte le funzioni ancora da implementare; il catalogo progettuale non è elenco di API già disponibili.",
+    "prs": "831",
+    "todo": "Completare tracciabilità sistematica di tutti gli endpoint effettivi del core e casi limite di RELEASE_SCOPE_MATRIX; collaudo manuale e prove su altri ruoli/oggetti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-104; AC-93; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Allineamento endpoint per tutte le funzioni ancora da implementare; il catalogo progettuale non è elenco di API già disponibili.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
   },
