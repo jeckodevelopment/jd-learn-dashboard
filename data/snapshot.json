@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T10:09:11.352464+00:00",
+  "generatedAt": "2026-11-20T10:11:06.502375+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a882bb7245bd22ae856c30589b7f4e14f69f368a",
+  "sourceCommit": "7b914f94cdda1c2ac6a9460a969819e75810eed7",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 759,
+      "title": "docs(history): merge, CI e pacchetto verificato della PR #758",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/759",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T10:10:35Z",
+      "mergedAt": "2026-11-20T10:10:32Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "139dec640a5a8c586665f2f6178de35fd5f784f1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44716881387"
+      }
+    },
     {
       "number": 758,
       "title": "fix(DOC-07): guidance per stato dei provider video in dashboard",
@@ -367,9 +387,9 @@
       "milestone": "1.0.0",
       "headSha": "d417790084fb112a705ce7c23b49ddb2c5200ce8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44695748792"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,25 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f267f5dc0bdff1e3db6d2e6355a80e810eb3654f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 589,
-      "title": "docs: riconciliare stato main fino a #587 e anonimizzare riferimenti di prova",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/589",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-18T23:18:57Z",
-      "mergedAt": null,
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9a5aa82ab7db608d8417f6a42d97791ec2b24ffa",
       "ci": {
         "status": "unknown",
         "conclusion": null,
