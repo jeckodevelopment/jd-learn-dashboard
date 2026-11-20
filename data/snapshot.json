@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T23:30:30.789581+00:00",
+  "generatedAt": "2026-11-20T23:31:50.095450+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d8322da1dcde53dc3974302afb80305c6b480451",
+  "sourceCommit": "e7765ef6d22c53a4b60e2f5f6e75d98129ac6622",
   "progress": 59.66,
   "developmentProgress": 59.66,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 839,
+      "title": "docs(history): record UI-07 PR #838 merge, CI and package checksum",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/839",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T23:31:22Z",
+      "mergedAt": "2026-11-20T23:31:19Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9c681c495b3bb9eb43978ef2f9c5128274244f24",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44837336647"
+      }
+    },
     {
       "number": 838,
       "title": "feat(frontend): complete UI-07 versioned DOM contracts across views and shared partials",
@@ -363,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "75ca6e473ef8c7f612007633ae8e6e66711cd4c0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44823996463"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1673,25 +1693,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "139dec640a5a8c586665f2f6178de35fd5f784f1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 758,
-      "title": "fix(DOC-07): guidance per stato dei provider video in dashboard",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/758",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T10:08:47Z",
-      "mergedAt": "2026-11-20T10:08:44Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "16d89941d6295b35aaf4651c3bf5842da2ebc653",
       "ci": {
         "status": "unknown",
         "conclusion": null,
