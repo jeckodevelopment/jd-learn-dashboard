@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T13:32:40.194583+00:00",
+  "generatedAt": "2026-11-20T13:46:23.036110+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T13:45:51Z",
+      "commit": "b59fe7075541ae91f655099a4b6995ea0b62464b",
+      "number": 777,
+      "title": "fix(SEC-P1): autorizzazione aggiornata per l'editing dei profili docenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/777"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T13:32:01Z",
@@ -1594,14 +1602,6 @@
       "number": 600,
       "title": "docs(progress): audit sicurezza, privacy, configurazione e core Joomla 1.0.0",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/600"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-17T22:55:59Z",
-      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
-      "number": 599,
-      "title": "docs(progress): rendicontazione post-merge audit NOT/MAIL/CERT/JOO #598",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/599"
     }
   ]
 }
