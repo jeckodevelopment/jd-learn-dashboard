@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T07:22:49.581379+00:00",
+  "generatedAt": "2026-11-20T07:32:22.167794+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9df20e27d3567e6af0530798dbb52c1c993ebc79",
-  "progress": 56.9,
-  "developmentProgress": 56.9,
+  "sourceCommit": "0803e295f45bcfdfdb8c84c460b8114ac4a7ed97",
+  "progress": 56.99,
+  "developmentProgress": 56.99,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -69,10 +69,10 @@
       "label": "Materiali, quiz e attestati",
       "requirements": 17,
       "weight_percent": 7.94,
-      "development_evidence_floor_percent": 69.41,
+      "development_evidence_floor_percent": 70.59,
       "manual_acceptance_coverage_percent": 17.65,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 1,
+      "missing_criteria": 0,
       "unverifiable_criteria": 14,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 746,
+      "title": "docs(audit): QUI-02 cestino e ACL già implementati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/746",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T07:31:49Z",
+      "mergedAt": "2026-11-20T07:31:47Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "321093814ff4f14dc7772e915498ecaba76ef589",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44695565718"
+      }
+    },
     {
       "number": 745,
       "title": "docs(history): tracciare merge e CI della rettifica audit #744",
@@ -404,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "9a61ce4dcd5639460ad1340917f1cfdb2e2b836e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44626978924"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1674,26 +1694,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "e781f14dc68dee0aa4fe554a0e52e89840400941",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 670,
-      "title": "docs: reconcile SCR-01 PR 669 merge, CI and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/670",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:13:15Z",
-      "mergedAt": "2026-11-18T22:13:13Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9867d948cdfcc8fc6bdf185ca776830b94f72976",
       "ci": {
         "status": "unknown",
         "conclusion": null,
