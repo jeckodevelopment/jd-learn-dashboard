@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T14:35:01.332140+00:00",
+  "generatedAt": "2026-11-20T14:37:26.123558+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b493d8198b1936093329f34aca6fe99f9ad71bb9",
+  "sourceCommit": "b744954577726950b8145b4bb6dfa32c18dd799c",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 784,
+      "title": "docs(history): prove merge e pacchetto SEC-P1 PR #783",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/784",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T14:36:53Z",
+      "mergedAt": "2026-11-20T14:36:50Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ce2ead38b7546e84510c52b5792b60472a3bc9a7",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44755036287"
+      }
+    },
     {
       "number": 783,
       "title": "fix(SEC-P1): minimizzare le note diagnostiche nella riconciliazione email",
@@ -441,9 +461,9 @@
       "milestone": "1.0.0",
       "headSha": "c1930ac499362e0b5c6527c5d57e4cf021bbfe68",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44736323165"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,25 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f8da0848de65def14c56453792175264c47113f3",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 704,
-      "title": "feat(SCR-01): filtri Categoria e reset paginazione URL coerenti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/704",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T13:46:38Z",
-      "mergedAt": "2026-11-19T13:46:36Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d8da5513b76597f9fe68969c54bc81874768ee1e",
       "ci": {
         "status": "unknown",
         "conclusion": null,
