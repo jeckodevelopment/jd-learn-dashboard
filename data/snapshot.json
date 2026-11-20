@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T10:26:37.057857+00:00",
+  "generatedAt": "2026-11-20T11:07:30.895660+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4ef862304e1ac4bb93deec84aa834fe9c0dfd33b",
+  "sourceCommit": "e4ab8bdd2ad12319bfec36a97abed69d26275d91",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 762,
+      "title": "fix(PBASE-03): bloccare build Joomla se mancano guide dei plugin video base",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/762",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T11:07:00Z",
+      "mergedAt": "2026-11-20T11:06:58Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "666be6ea55f275741f7d6a83be7453049f180afe",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44724299242"
+      }
+    },
     {
       "number": 761,
       "title": "docs(history): registrare merge, CI e artefatto della PR #760",
@@ -386,9 +405,9 @@
       "milestone": "1.0.0",
       "headSha": "d283009d8b2fbe7968431b4c0b0dcc9df9b60839",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44698214026"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1683,26 +1702,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 682,
-      "title": "fix: show current development and QA dashboard metrics",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/682",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T23:48:18Z",
-      "mergedAt": "2026-11-18T23:48:16Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "88e58939dc65b18356ed9d970006853eff3e2b3c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1733,9 +1732,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.3-dev",
-    "createdAt": "2026-11-20T10:23:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44718310286/artifacts/14620592595"
+    "name": "JD-Learn-0.64.4-dev",
+    "createdAt": "2026-11-20T11:06:24Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44724299242/artifacts/14623661283"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
