@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T12:21:20.260169+00:00",
+  "generatedAt": "2026-11-20T12:23:55.958893+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "66499eb823b3c64a9f7d7437d429f31d842e0bd4",
+  "sourceCommit": "c7a22d4723156c313bc146b7a7b13b7b1b739be6",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 767,
+      "title": "docs(history): PR #766, criterio PBASE-03 e artefatto verificato",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/767",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T12:23:22Z",
+      "mergedAt": "2026-11-20T12:23:20Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "85942b298733615c459c22d36ff95e8e112a9d27",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44735216175"
+      }
+    },
     {
       "number": 766,
       "title": "docs(PBASE-03): guide per ruolo ed esempio plugin Joomla v1 verificabile",
@@ -367,9 +387,9 @@
       "milestone": "1.0.0",
       "headSha": "289078c6a7d122da5bfa59da464b99ca7f3c3ad5",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44710309769"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1679,26 +1699,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "ffae94f9b43a4adc510b8f4c921016ef5c8686ce",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 687,
-      "title": "docs: registra merge, CI e artefatto CAT-02/SCR-03 (#686)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/687",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T10:17:24Z",
-      "mergedAt": "2026-11-19T10:17:21Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2dfd3fc98b17bd2024c71e5719a9b3e57abd62f2",
       "ci": {
         "status": "unknown",
         "conclusion": null,
