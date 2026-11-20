@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T13:20:28.944015+00:00",
+  "generatedAt": "2026-11-20T13:30:58.734430+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "63467c9bf5cf25384a252035242f73fc4ab21bbd",
+  "sourceCommit": "4ab4d5e4e5cb23bea839173b95e2ddcae2fec149",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 775,
+      "title": "fix(SEC-P1): identità Joomla corrente nelle riassegnazioni categorie",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/775",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T13:30:29Z",
+      "mergedAt": "2026-11-20T13:30:26Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c8bd8e4fcba4cc8b2e5ec1ffe713cb3a663a80a1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44744160830"
+      }
+    },
     {
       "number": 774,
       "title": "test(SEC-P1): gate completo dei controller Joomla e guardie HTTP/CSRF",
@@ -1684,25 +1703,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 695,
-      "title": "feat(catalog): richieste di iscrizione pendenti nelle card e avanzamento SCR-01",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/695",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T11:45:07Z",
-      "mergedAt": "2026-11-19T11:45:04Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4f15a979aae25c53210acc3c366c81d3c0ced241",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1733,9 +1733,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.6-dev",
-    "createdAt": "2026-11-20T13:19:39Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44742600560/artifacts/14632016676"
+    "name": "JD-Learn-0.64.7-dev",
+    "createdAt": "2026-11-20T13:30:04Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44744160818/artifacts/14633075428"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
