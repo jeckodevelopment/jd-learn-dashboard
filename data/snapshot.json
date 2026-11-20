@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T21:39:57.705947+00:00",
+  "generatedAt": "2026-11-20T21:41:04.543804+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d72ea4af07a20ae99d93474775c9a2780531a80f",
+  "sourceCommit": "f5cc438de3425b8503c90951e2331da598e889a8",
   "progress": 58.8,
   "developmentProgress": 58.8,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 825,
+      "title": "docs(SEC-P2/SEC-P3): record PR #824 merge, CI and ZIP checksum",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/825",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T21:40:40Z",
+      "mergedAt": "2026-11-20T21:40:38Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1d2e7946c40e8293fdcfc4484c61dcd0826665b3",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44822347784"
+      }
+    },
     {
       "number": 824,
       "title": "fix(security): SEC-P2 package scan and SEC-P3 privacy mail retention",
@@ -1678,26 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "d549e96e75f03e5df826000323425620c4e80066",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 744,
-      "title": "docs(audit): correggere falsi gap SCR-05 e UI-01 già implementati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/744",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T07:20:52Z",
-      "mergedAt": "2026-11-20T07:20:50Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "edcb62bf639e2e46daae7f0da83de1c9ffa4cf4f",
       "ci": {
         "status": "unknown",
         "conclusion": null,
