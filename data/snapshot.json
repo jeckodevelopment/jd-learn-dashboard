@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T23:18:58.369614+00:00",
+  "generatedAt": "2026-11-20T23:30:30.789581+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f72e043c1e051f3965c48f1a6770719e81883411",
-  "progress": 59.42,
-  "developmentProgress": 59.42,
+  "sourceCommit": "d8322da1dcde53dc3974302afb80305c6b480451",
+  "progress": 59.66,
+  "developmentProgress": 59.66,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,10 +21,10 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 74.41,
+      "development_evidence_floor_percent": 76.58,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 1,
+      "missing_criteria": 0,
       "unverifiable_criteria": 20,
       "unassessed_criteria": 0
     },
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 1,
     "p0": 0,
     "p1": 1
@@ -139,19 +139,19 @@
       "number": 838,
       "title": "feat(frontend): complete UI-07 versioned DOM contracts across views and shared partials",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/838",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-20T23:18:03Z",
-      "mergedAt": null,
+      "updated": "2026-11-20T23:30:04Z",
+      "mergedAt": "2026-11-20T23:30:02Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "59f9db4c7c9e71314f26eaf0ead57f8659e8a028",
+      "headSha": "f89b9679f0a1e04c25bd7998fe6d43a20941fc79",
       "ci": {
-        "status": "pending",
-        "conclusion": null,
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44835766331"
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44836629359"
       }
     },
     {
@@ -382,9 +382,9 @@
       "milestone": "1.0.0",
       "headSha": "98af81e0b65b6fee8db855deb635d20e57a0cfb0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44823263136"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1697,26 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 757,
-      "title": "docs(history): registrare merge, CI e artefatto verificato della PR #756",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/757",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T09:52:11Z",
-      "mergedAt": "2026-11-20T09:52:07Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f6554c5970db311e76efd6009a45d9341efece38",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1760,8 +1740,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T23:08:45Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44834082916/artifacts/14676583190"
+    "createdAt": "2026-11-20T23:28:41Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44836629359/artifacts/14678054712"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

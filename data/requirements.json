@@ -1124,11 +1124,11 @@
   {
     "id": "UI-07",
     "area": "UI",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "177;190;830",
-    "todo": "Completare verifica DOM runtime su tutte le viste, partial e moduli; compatibilità con override di template reali.",
+    "prs": "177;190;830;838",
+    "todo": "Nessuno nel perimetro implementativo delle mappe DOM: 17 viste e quattro partial censiti con gate CI; moduli esterni e override reali rimangono verifiche di accettazione Joomla.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-34; AC-93; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Tutte le viste/classi/variabili della baseline, modalità stile essenziale, due personalizzazioni indipendenti e browser/accessibilità completi.",
     "criteria": "Documentazione e stabilità.  Distribuire una guida per vista con mappa DOM, ID/classi/variabili, esempi di CSS e percorsi degli override. Aggiornarla insieme a ogni aggiunta o modifica. Cambiamenti incompatibili richiedono versione dichiarata, changelog e guida di migrazione; ove possibile introdurre prima selettori compatibili. Testare almeno due personalizzazioni indipendenti e l'assenza di ID duplicati quando componente e moduli sono presenti nella stessa pagina"
   },
