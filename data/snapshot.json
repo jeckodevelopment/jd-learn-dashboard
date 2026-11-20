@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T17:55:04.224346+00:00",
+  "generatedAt": "2026-11-20T17:56:18.923205+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e2ac62920e38d0e640582c46a3cbd8a2bac6dad2",
+  "sourceCommit": "86a29631e526cc2d65266de2592fa07941dcee9e",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 807,
+      "title": "docs(history): evidenze merge e pacchetto SEC-P1 PR #806",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/807",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T17:55:54Z",
+      "mergedAt": "2026-11-20T17:55:52Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "cea68e6dc03227dac8269e2f1311ccca1bf58a0c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44787885158"
+      }
+    },
     {
       "number": 806,
       "title": "test(SEC-P1): verifiche negative consolidate su tutte le operazioni iscrizioni",
@@ -422,9 +442,9 @@
       "milestone": "1.0.0",
       "headSha": "534723e5a91ecb6a362c777b53cedd9cf34b1c7d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44764215627"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1676,25 +1696,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "066b502b566cf952b81bc5f93079a71ce990d035",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 726,
-      "title": "feat(LIFE-01): anteprima dipendenze e conferma sicura della purga corsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/726",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T20:13:32Z",
-      "mergedAt": "2026-11-19T20:13:29Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2fb88c90e00be094ba74f79de5f3b53a9465e816",
       "ci": {
         "status": "unknown",
         "conclusion": null,
