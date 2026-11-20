@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T12:35:22.593892+00:00",
+  "generatedAt": "2026-11-20T12:37:34.166833+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b6059f1e03e3c6f06a474f1d9da9ac00870a0be7",
+  "sourceCommit": "c34c313e091c3baa75a25013a37d231b1a0a6bdb",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 769,
+      "title": "docs(history): merge e pacchetto SECDEV-03 PR #768",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/769",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T12:37:12Z",
+      "mergedAt": "2026-11-20T12:37:10Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3e100e5ed8edf54d57eaff712e6220177c6181cb",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44737182474"
+      }
+    },
     {
       "number": 768,
       "title": "fix(SECDEV-03): impedire spoofing Unicode nei nomi dei materiali",
@@ -386,9 +406,9 @@
       "milestone": "1.0.0",
       "headSha": "ab8b9f172cf1f4a66e56ee8d6574b5df8241be72",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44713304090"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1679,26 +1699,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f3ff63832d5d0ae2744eb616db24081299a0c436",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 689,
-      "title": "docs: registra integrazione SCR-04, CI e artefatto (#688)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/689",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T10:30:27Z",
-      "mergedAt": "2026-11-19T10:30:24Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "94f9ba10b4ffce04ca86bbe594a86e68f4033073",
       "ci": {
         "status": "unknown",
         "conclusion": null,

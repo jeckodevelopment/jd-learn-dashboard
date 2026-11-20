@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T12:35:22.593892+00:00",
+  "generatedAt": "2026-11-20T12:37:34.166833+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T12:37:10Z",
+      "commit": "c34c313e091c3baa75a25013a37d231b1a0a6bdb",
+      "number": 769,
+      "title": "docs(history): merge e pacchetto SECDEV-03 PR #768",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/769"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T12:34:43Z",
