@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T21:51:15.513396+00:00",
+  "generatedAt": "2026-11-20T21:52:43.892358+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a4cc7fc676d26753f37ed80ac3419df65f00424b",
+  "sourceCommit": "1d49de7bd927f0d18271a84842ddf22e3e835b31",
   "progress": 58.8,
   "developmentProgress": 58.8,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 827,
+      "title": "docs(SEC-P2): archive PR #826 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/827",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T21:52:09Z",
+      "mergedAt": "2026-11-20T21:52:07Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "75ca6e473ef8c7f612007633ae8e6e66711cd4c0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44823996463"
+      }
+    },
     {
       "number": 826,
       "title": "fix(security): consolidate SEC-P2 source, workflow and deployment hardening",
@@ -367,9 +387,9 @@
       "milestone": "1.0.0",
       "headSha": "b60afac6da0ae430c6f5474b7cccf8ed2befd485",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44809779851"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,26 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "d417790084fb112a705ce7c23b49ddb2c5200ce8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 746,
-      "title": "docs(audit): QUI-02 cestino e ACL già implementati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/746",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T07:31:49Z",
-      "mergedAt": "2026-11-20T07:31:47Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "321093814ff4f14dc7772e915498ecaba76ef589",
       "ci": {
         "status": "unknown",
         "conclusion": null,
