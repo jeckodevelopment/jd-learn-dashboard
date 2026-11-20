@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T07:33:49.564323+00:00",
+  "generatedAt": "2026-11-20T07:52:35.473387+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T07:52:03Z",
+      "commit": "91e229f216ac126543625fb9bb432306d835b594",
+      "number": 748,
+      "title": "docs(SEC-P4): inventario storage completo, guida privacy EN e gate CI",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/748"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-20T07:52:35.473387+00:00",
+      "commit": "91e229f216ac126543625fb9bb432306d835b594",
+      "from": 56.99,
+      "to": 57.23,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T07:33:15Z",

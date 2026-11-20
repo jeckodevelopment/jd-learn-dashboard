@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T07:33:49.564323+00:00",
+  "generatedAt": "2026-11-20T07:52:35.473387+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "279633f1116c0feba4195943c3931f6baf8114b8",
-  "progress": 56.99,
-  "developmentProgress": 56.99,
+  "sourceCommit": "91e229f216ac126543625fb9bb432306d835b594",
+  "progress": 57.23,
+  "developmentProgress": 57.23,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 39.28,
+      "development_evidence_floor_percent": 40.26,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 16,
+      "missing_criteria": 14,
       "unverifiable_criteria": 100,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 748,
+      "title": "docs(SEC-P4): inventario storage completo, guida privacy EN e gate CI",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/748",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T07:52:05Z",
+      "mergedAt": "2026-11-20T07:52:03Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ddfabbac2860d43497c2aa006163205f774a445f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44697596200"
+      }
+    },
     {
       "number": 747,
       "title": "docs(history): merge e controlli della correzione audit QUI-02 #746",
@@ -386,9 +406,9 @@
       "milestone": "1.0.0",
       "headSha": "867c85ee2f24f3faecaf491fd365bf2da622ef24",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44630256053"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -405,9 +425,9 @@
       "milestone": "1.0.0",
       "headSha": "56726560f4768bbad5f7730ca8ab383fcfe02fa0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44629252767"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1680,25 +1700,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 672,
-      "title": "feat(SCR-01): order published courses by estimated duration",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/672",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:30:02Z",
-      "mergedAt": "2026-11-18T22:30:00Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "81445a6a018883b1c91831055fb154d877fb4860",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1730,8 +1731,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.1-dev",
-    "createdAt": "2026-11-20T06:32:05Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44688001828/artifacts/14607791041"
+    "createdAt": "2026-11-20T07:51:31Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44697596200/artifacts/14611197871"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
