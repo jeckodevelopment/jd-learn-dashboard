@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T12:54:17.443843+00:00",
+  "generatedAt": "2026-11-20T12:56:19.332893+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "484198cccb59a2bcc6adc05f849adeb43f50ddb0",
+  "sourceCommit": "09f9202ac0577d5e2b4cbd9e9dddeb624a8f07c8",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 771,
+      "title": "docs(history): registrare merge CI e artefatto SEC-P1 PR #770",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/771",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T12:55:48Z",
+      "mergedAt": "2026-11-20T12:55:46Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ebc5667327f860ca3e306c21b7bbfec4691b4631",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44739802527"
+      }
+    },
     {
       "number": 770,
       "title": "test(SEC-P1): copertura ACL negativa download amministrativo attestati",
@@ -1679,25 +1699,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "b7c573f10a601585a7027f354d4aa2fdb90d1cfb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 691,
-      "title": "fix(quiz): avvisa prima di uscire con risposte non salvate e aggiorna SCR-07",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/691",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T10:54:12Z",
-      "mergedAt": "2026-11-19T10:54:09Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0042ba30ac6c08acfe20050daa43cab229b93e01",
       "ci": {
         "status": "unknown",
         "conclusion": null,

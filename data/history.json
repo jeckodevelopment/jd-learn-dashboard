@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T12:54:17.443843+00:00",
+  "generatedAt": "2026-11-20T12:56:19.332893+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T12:55:46Z",
+      "commit": "09f9202ac0577d5e2b4cbd9e9dddeb624a8f07c8",
+      "number": 771,
+      "title": "docs(history): registrare merge CI e artefatto SEC-P1 PR #770",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/771"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T12:53:48Z",
