@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T09:50:56.657255+00:00",
+  "generatedAt": "2026-11-20T09:52:34.102652+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c11ea9736e4f87cde6c1eef010d71bcec36fb607",
+  "sourceCommit": "dc4c828203ab2f34e0b095f98835d62d36392e23",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 757,
+      "title": "docs(history): registrare merge, CI e artefatto verificato della PR #756",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/757",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T09:52:11Z",
+      "mergedAt": "2026-11-20T09:52:07Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f6554c5970db311e76efd6009a45d9341efece38",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44714268746"
+      }
+    },
     {
       "number": 756,
       "title": "docs(PBASE-02): allineare le guide dei quattro provider video ai manifest e al codice",
@@ -388,9 +408,9 @@
       "milestone": "1.0.0",
       "headSha": "edcb62bf639e2e46daae7f0da83de1c9ffa4cf4f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44694248757"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,25 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "9e791d53b4551b2890da4412da9449c8f79195d4",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 663,
-      "title": "feat(SCR-05): link learner empty state directly to course catalog",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/663",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-18T23:18:49Z",
-      "mergedAt": null,
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d61fed9cf395d0f64c8cee2ba017a2ff0b24140b",
       "ci": {
         "status": "unknown",
         "conclusion": null,
