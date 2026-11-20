@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T23:12:09.220396+00:00",
+  "generatedAt": "2026-11-20T23:18:58.369614+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "f72e043c1e051f3965c48f1a6770719e81883411",
   "progress": 59.42,
@@ -129,12 +129,31 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 1,
     "p0": 0,
     "p1": 1
   },
   "prs": [
+    {
+      "number": 838,
+      "title": "feat(frontend): complete UI-07 versioned DOM contracts across views and shared partials",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/838",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-20T23:18:03Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "59f9db4c7c9e71314f26eaf0ead57f8659e8a028",
+      "ci": {
+        "status": "pending",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44835766331"
+      }
+    },
     {
       "number": 837,
       "title": "docs(history): archive DOC-07 PR #836 merge and verified Joomla package",
@@ -383,9 +402,9 @@
       "milestone": "1.0.0",
       "headSha": "1d2e7946c40e8293fdcfc4484c61dcd0826665b3",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44822347784"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -402,9 +421,9 @@
       "milestone": "1.0.0",
       "headSha": "80aa1bc8afd926ef320bd06c93b30c9f595025ea",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44821449479"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
