@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T15:36:52.366876+00:00",
+  "generatedAt": "2026-11-20T15:38:12.824087+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7089140d068bb73984f45bf961c37ebb8fd98db1",
+  "sourceCommit": "0e6300c1ae80909d35ecc44e4b1da8415f983894",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 792,
+      "title": "docs(history): registrare merge e artefatto SEC-P1 PR #791",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/792",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T15:37:38Z",
+      "mergedAt": "2026-11-20T15:37:35Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "152a7686dd8553658bc8e44c78f4a41f642ad118",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44765090955"
+      }
+    },
     {
       "number": 791,
       "title": "fix(SEC-P1): usare destinatario Joomla aggiornato per consenso double opt-in",
@@ -1677,25 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c8742442c3071f2917bd58d1dc024ca2627086ac",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 712,
-      "title": "feat(DOC-05): guida contestuale IT/EN per programma, email e attestati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/712",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T16:56:33Z",
-      "mergedAt": "2026-11-19T16:56:31Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "539e002baed50656df2d922ee1e4f521e55173a9",
       "ci": {
         "status": "unknown",
         "conclusion": null,
