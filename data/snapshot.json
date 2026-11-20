@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T13:48:39.376224+00:00",
+  "generatedAt": "2026-11-20T13:58:55.317230+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a5128d9cad21c66ba22da1c914780f71fe47ce76",
+  "sourceCommit": "fadb3821265da836331dac15cb065b0281415bb5",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 779,
+      "title": "test(SEC-P1): isolare destinatari e accodamento comunicazioni tra corsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/779",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T13:58:17Z",
+      "mergedAt": "2026-11-20T13:58:15Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "117795aab7bfbd3a8a1ef5b24b6bad8d3955cc8f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44748360213"
+      }
+    },
     {
       "number": 778,
       "title": "docs(history): merge e pacchetto SEC-P1 PR #777",
@@ -404,9 +423,9 @@
       "milestone": "1.0.0",
       "headSha": "d4a575dba4742590f6af4bd6ebb6e0dd043ce623",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44726437423"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1684,25 +1703,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 699,
-      "title": "feat(SCR-01): errore recuperabile e Riprova nel catalogo",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/699",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T12:48:49Z",
-      "mergedAt": "2026-11-19T12:48:47Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "602accc443ac85af520109c496c4957e1d9910af",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1734,8 +1734,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.8-dev",
-    "createdAt": "2026-11-20T13:45:23Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44746563679/artifacts/14634070876"
+    "createdAt": "2026-11-20T13:57:38Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44748359797/artifacts/14634756302"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
