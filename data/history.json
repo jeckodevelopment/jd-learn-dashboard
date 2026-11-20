@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-19T23:59:23.198820+00:00",
+  "generatedAt": "2026-11-20T00:00:36.702823+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T00:00:09Z",
+      "commit": "ef200edcb35e5de626ac1a9da217e2ccef342415",
+      "number": 741,
+      "title": "docs(DOC-07): registrare merge e build verificata PR #740",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/741"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-19T23:58:54Z",

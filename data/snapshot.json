@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-19T23:59:23.198820+00:00",
+  "generatedAt": "2026-11-20T00:00:36.702823+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "85dd32a63f77397f1fcba2b61ee32ccffd36c344",
+  "sourceCommit": "ef200edcb35e5de626ac1a9da217e2ccef342415",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 741,
+      "title": "docs(DOC-07): registrare merge e build verificata PR #740",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/741",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T00:00:11Z",
+      "mergedAt": "2026-11-20T00:00:09Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "cb37686f33391c1ff7c52e7d101e19544b730d87",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44642181648"
+      }
+    },
     {
       "number": 740,
       "title": "feat(DOC-07): diagnostica scheduler azionabile e ACL per operatori (0.64.0)",
@@ -364,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "820d9db6ab85b2b73502a0e9dda29abb34246b6d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44618591268"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1672,25 +1692,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "e58e9aaedbd6b5203498fc9d7c57d0f3ce25c985",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 665,
-      "title": "docs: complete functional audit of JD Learn 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/665",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T21:49:01Z",
-      "mergedAt": "2026-11-18T21:48:59Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "941471ef97f4c6f76ef662cacaabdf2617637014",
       "ci": {
         "status": "unknown",
         "conclusion": null,
