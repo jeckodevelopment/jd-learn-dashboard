@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T20:04:33.100867+00:00",
+  "generatedAt": "2026-11-20T20:05:44.719975+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "1dac0c1bd9ae44c97c5682490fbb0cbf433af69c",
+  "sourceCommit": "2475c49a2d23c8298340b34d715505f73e0fa8db",
   "progress": 57.94,
   "developmentProgress": 57.94,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 813,
+      "title": "docs(UI-07): registrare merge CI e pacchetto PR #812",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/813",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T20:05:18Z",
+      "mergedAt": "2026-11-20T20:05:15Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "61fdbe6ca99d6ee259488310b24551aab8779fff",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44808038807"
+      }
+    },
     {
       "number": 812,
       "title": "test(UI-07): contratto DOM versionato completo delle 17 viste e gate CSS/override",
@@ -363,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "ea862c3cb6f642012552669b0e8a1bc8689598df",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44780371688"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1675,25 +1695,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "bb424d5ce5cdd5be202e0af2d6f3742bcbb8337b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 732,
-      "title": "fix(QUI-02): bloccare eliminazione diretta delle domande non cestinate (0.63.1)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/732",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T22:22:03Z",
-      "mergedAt": "2026-11-19T22:22:01Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9a61ce4dcd5639460ad1340917f1cfdb2e2b836e",
       "ci": {
         "status": "unknown",
         "conclusion": null,
