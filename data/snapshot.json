@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T16:11:27.941863+00:00",
+  "generatedAt": "2026-11-20T16:12:55.685051+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "cc82f1e6d071463b7a1a99e044ca8c7beb66a448",
+  "sourceCommit": "022f4552813ec7d3f06fa27ee69506c40db77418",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 797,
+      "title": "docs(history): registrare SEC-P1 PR #796, CI e ZIP installabile",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/797",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T16:12:32Z",
+      "mergedAt": "2026-11-20T16:12:29Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "bcb65b0bce813f1ef118ede5a3a7cc1e1b6597ea",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44770934014"
+      }
+    },
     {
       "number": 796,
       "title": "fix(SEC-P1): rivalidare destinatari della coda email prima di SMTP",
@@ -1677,25 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "cd6022331dacb54f61b3022679d99324d3309eb3",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 716,
-      "title": "feat(DOC-05): collega tutte le guide IT/EN a manuali locali di 29 capitoli",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/716",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T17:57:53Z",
-      "mergedAt": "2026-11-19T17:57:51Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "741b4a7cea71664c9859f76af9a20ce1926fe262",
       "ci": {
         "status": "unknown",
         "conclusion": null,
