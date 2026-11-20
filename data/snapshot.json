@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T17:35:18.298187+00:00",
+  "generatedAt": "2026-11-20T17:43:38.367119+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8330751f060e38a0cb979278a487940616df850a",
+  "sourceCommit": "b9d835907bbbd101357e877793127092e36a119c",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 804,
+      "title": "test(SEC-P1): blocco identità obsoleta nelle migrazioni iscrizioni",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/804",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T17:42:58Z",
+      "mergedAt": "2026-11-20T17:42:56Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "14f8a1c1d975fed12ee5b81360620769a3008659",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44785203185"
+      }
+    },
     {
       "number": 803,
       "title": "docs(history): merge, CI e pacchetto SEC-P1 PR #802",
@@ -1681,26 +1700,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 723,
-      "title": "docs(DOC-08): registrare merge, CI e pacchetto PR #722",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/723",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T19:13:09Z",
-      "mergedAt": "2026-11-19T19:13:06Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ab392fe1781fe442f37ec77dcba3176e134eb42f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1744,8 +1743,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T17:32:16Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44783620345/artifacts/14654335124"
+    "createdAt": "2026-11-20T17:42:24Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44785203185/artifacts/14653099747"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
