@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T16:45:19.302719+00:00",
+  "generatedAt": "2026-11-20T16:46:48.886710+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T16:46:19Z",
+      "commit": "84f4e47149cf0e10159ebb956618cd604b7480a3",
+      "number": 799,
+      "title": "docs(history): merge, CI e checksum SEC-P1 PR #798",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/799"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T16:44:47Z",
@@ -1594,14 +1602,6 @@
       "number": 619,
       "title": "fix: prevent premature course reactivation while archived (0.60.2)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/619"
-    },
-    {
-      "type": "requirement_changed",
-      "at": "2026-11-18T17:37:20.230655+00:00",
-      "commit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
-      "id": "LCM-01",
-      "from": "Non iniziata",
-      "to": "Parziale"
     }
   ]
 }

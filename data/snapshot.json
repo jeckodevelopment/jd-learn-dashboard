@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T16:45:19.302719+00:00",
+  "generatedAt": "2026-11-20T16:46:48.886710+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9e1acf13468b31ab267aa6e24eb5c7b59accc59d",
+  "sourceCommit": "84f4e47149cf0e10159ebb956618cd604b7480a3",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 799,
+      "title": "docs(history): merge, CI e checksum SEC-P1 PR #798",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/799",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T16:46:22Z",
+      "mergedAt": "2026-11-20T16:46:19Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "bf42d380d61a8b63c3e4e545120fcd7aeb261685",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44776584062"
+      }
+    },
     {
       "number": 798,
       "title": "fix(SEC-P1): imporre identità corrente su tutti i produttori della coda SMTP",
@@ -403,9 +423,9 @@
       "milestone": "1.0.0",
       "headSha": "ce2ead38b7546e84510c52b5792b60472a3bc9a7",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44755036287"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,25 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "6d05e056e586a3ccf9d2defb67d40d6b21003e6f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 718,
-      "title": "feat(JOO-04): monitora stato e ritardi di tutti i task Joomla JD Learn",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/718",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T18:20:32Z",
-      "mergedAt": "2026-11-19T18:20:30Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a4d235572fd9f83d6326583cca2622df562038c0",
       "ci": {
         "status": "unknown",
         "conclusion": null,
