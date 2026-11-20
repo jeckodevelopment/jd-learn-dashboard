@@ -2645,7 +2645,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "",
+    "prs": "822",
     "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Hardening runtime/supply chain: dipendenze, segreti, logging, package, CSP e integrazioni provider; nessun finding critico/alto irrisolto."
@@ -2656,7 +2656,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "",
+    "prs": "822",
     "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Privacy by design: dati e trattamenti, export/cancellazione Joomla, retention email/progressi/attestati, backup e diritti; verifiche con account di prova."
