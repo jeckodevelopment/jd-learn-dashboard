@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T14:49:03.096896+00:00",
+  "generatedAt": "2026-11-20T14:51:14.948393+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b88429b4311e1b7e4b44927ba9234473bff418a9",
+  "sourceCommit": "ad034e4a9969641daf474cc784294b2534286a6f",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 786,
+      "title": "docs(history): merge, CI e artefatto SEC-P1 PR #785",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/786",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T14:50:43Z",
+      "mergedAt": "2026-11-20T14:50:41Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "968a30a506ef47ecd025e36a3afbd95c824deb9b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44757245670"
+      }
+    },
     {
       "number": 785,
       "title": "test(SEC-P1): due processi Joomla concorrenti sulla riconciliazione email",
@@ -1678,25 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "8f828970cff93a1035f25ed6baac090634196b2e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 706,
-      "title": "test(SCR-01): verifiche HTTP reali filtri, URL e reset paginazione",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/706",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T14:22:02Z",
-      "mergedAt": "2026-11-19T14:21:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9105436173ff4a77c78b3951817c0d9e504f8ef1",
       "ci": {
         "status": "unknown",
         "conclusion": null,

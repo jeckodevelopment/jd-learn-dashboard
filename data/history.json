@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T14:49:03.096896+00:00",
+  "generatedAt": "2026-11-20T14:51:14.948393+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T14:50:41Z",
+      "commit": "ad034e4a9969641daf474cc784294b2534286a6f",
+      "number": 786,
+      "title": "docs(history): merge, CI e artefatto SEC-P1 PR #785",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/786"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T14:48:35Z",
@@ -1594,14 +1602,6 @@
       "number": 609,
       "title": "docs: reconcile frontend implementation evidence for 10 criteria",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/609"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T07:09:11Z",
-      "commit": "7d70f136e6ccdac5d867a0bfe562a28b81ffc980",
-      "number": 608,
-      "title": "docs: verify provider architecture criteria against implementation evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/608"
     }
   ]
 }
