@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T17:33:30.123888+00:00",
+  "generatedAt": "2026-11-20T17:35:18.298187+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d8a9dc06722afa6cceaade60823c1897a39ef063",
+  "sourceCommit": "8330751f060e38a0cb979278a487940616df850a",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 803,
+      "title": "docs(history): merge, CI e pacchetto SEC-P1 PR #802",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/803",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T17:34:51Z",
+      "mergedAt": "2026-11-20T17:34:49Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "94b4dc94d8cd00f9215394ccf02ed09a463acab8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44784566601"
+      }
+    },
     {
       "number": 802,
       "title": "test(SEC-P1): negare accesso roster con account bloccato dopo il login",
@@ -403,9 +423,9 @@
       "milestone": "1.0.0",
       "headSha": "c88116af7d6b4edf69c59dd1301292374fb5b137",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44759934241"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1676,26 +1696,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "ab392fe1781fe442f37ec77dcba3176e134eb42f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 722,
-      "title": "docs(DOC-08): matrice iniziale flussi core e gate collegamenti IT/EN",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/722",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T19:11:19Z",
-      "mergedAt": "2026-11-19T19:11:16Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "78d6a9044fcc1dfe2712419f8908c36fb6e2811c",
       "ci": {
         "status": "unknown",
         "conclusion": null,
