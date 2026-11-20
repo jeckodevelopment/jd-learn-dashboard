@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T07:52:35.473387+00:00",
+  "generatedAt": "2026-11-20T07:54:06.718653+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T07:53:38Z",
+      "commit": "11e8cfd44d2558b8e4c19183e8d5a2967a5a7ee4",
+      "number": 749,
+      "title": "docs(history): registrare merge e CI di SEC-P4 #748",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/749"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T07:52:03Z",

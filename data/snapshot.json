@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T07:52:35.473387+00:00",
+  "generatedAt": "2026-11-20T07:54:06.718653+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "91e229f216ac126543625fb9bb432306d835b594",
+  "sourceCommit": "11e8cfd44d2558b8e4c19183e8d5a2967a5a7ee4",
   "progress": 57.23,
   "developmentProgress": 57.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 749,
+      "title": "docs(history): registrare merge e CI di SEC-P4 #748",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/749",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T07:53:40Z",
+      "mergedAt": "2026-11-20T07:53:38Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d283009d8b2fbe7968431b4c0b0dcc9df9b60839",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44698214026"
+      }
+    },
     {
       "number": 748,
       "title": "docs(SEC-P4): inventario storage completo, guida privacy EN e gate CI",
@@ -1675,26 +1695,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "ed31dbdb1b8eaf9d2e4ebfe60add61567f4d3610",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 673,
-      "title": "docs: reconcile SCR-01 duration PR 672 merge and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/673",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:32:58Z",
-      "mergedAt": "2026-11-18T22:32:56Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7ca0ed1cc2deb350a0e24dfb71602156c1d3d09d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
