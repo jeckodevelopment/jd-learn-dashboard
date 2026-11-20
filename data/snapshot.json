@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T13:58:55.317230+00:00",
+  "generatedAt": "2026-11-20T14:00:39.185856+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fadb3821265da836331dac15cb065b0281415bb5",
+  "sourceCommit": "55e3fae472d6b8ff0b2f31df7ce20250afb7023e",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 780,
+      "title": "docs(history): registrare merge e pacchetto SEC-P1 PR #779",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/780",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T14:00:02Z",
+      "mergedAt": "2026-11-20T13:59:59Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8dad4004ef409675d9e9080fe899cc041d32989d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44749187322"
+      }
+    },
     {
       "number": 779,
       "title": "test(SEC-P1): isolare destinatari e accodamento comunicazioni tra corsi",
@@ -1678,26 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "796b0c0465dd27d2a089453f0b658fe8f0b11bdf",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 700,
-      "title": "docs(SCR-01): registrare evidenze merge e CI PR #699",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/700",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T12:50:30Z",
-      "mergedAt": "2026-11-19T12:50:28Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "92ac3dd3275061cde9aa429b08fe1a34b0789731",
       "ci": {
         "status": "unknown",
         "conclusion": null,
