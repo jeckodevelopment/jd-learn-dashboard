@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T15:19:54.522487+00:00",
+  "generatedAt": "2026-11-20T15:21:19.291359+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "5dfce95b4183211a28d069687ebfc5925c2a820e",
+  "sourceCommit": "7328a5570b0ea12f1ace4ca3429cce5940f9f527",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 790,
+      "title": "docs(history): evidenze merge, CI e ZIP della PR #789",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/790",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T15:20:43Z",
+      "mergedAt": "2026-11-20T15:20:41Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "74043209cfab92d04bbbd85f5c991daa69b99959",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44762219226"
+      }
+    },
     {
       "number": 789,
       "title": "fix(DOC-07): rifiutare date Scheduler impossibili nella diagnostica",
@@ -441,9 +461,9 @@
       "milestone": "1.0.0",
       "headSha": "161de3d9edcd1964dcc607332c3a4e820c0a391f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44742600560"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,25 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c6d8fa6df3668f52bdc5c887b584ea1bc9dba44d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 710,
-      "title": "feat(DOC-05): guida contestuale offline IT/EN nelle schermate core",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/710",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T16:41:38Z",
-      "mergedAt": "2026-11-19T16:41:35Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a934f257912ed3d12a314dda9d09a14eee4bd069",
       "ci": {
         "status": "unknown",
         "conclusion": null,
