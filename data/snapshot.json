@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T14:51:14.948393+00:00",
+  "generatedAt": "2026-11-20T15:05:34.974325+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ad034e4a9969641daf474cc784294b2534286a6f",
+  "sourceCommit": "6a25359f4fbfb023c085cdb73ac0df7f2a7b35f5",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 787,
+      "title": "fix(DOC-07): evidenziare task Scheduler duplicati anche se disabilitati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/787",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T15:05:01Z",
+      "mergedAt": "2026-11-20T15:04:59Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "767d23b96aea1cefb999497742c37602208d8d1c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44758752844"
+      }
+    },
     {
       "number": 786,
       "title": "docs(history): merge, CI e artefatto SEC-P1 PR #785",
@@ -442,9 +461,9 @@
       "milestone": "1.0.0",
       "headSha": "ebc5667327f860ca3e306c21b7bbfec4691b4631",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44739802527"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -461,9 +480,9 @@
       "milestone": "1.0.0",
       "headSha": "7a58b4e6b88f3f60192e721b09cd1ed68501d8c4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44738962497"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1683,26 +1702,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 707,
-      "title": "docs(SCR-01): evidenze CI HTTP, merge e limiti PR #706",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/707",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T14:24:08Z",
-      "mergedAt": "2026-11-19T14:24:06Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8f828970cff93a1035f25ed6baac090634196b2e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1733,9 +1732,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.10-dev",
-    "createdAt": "2026-11-20T14:48:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44756127973/artifacts/14639730335"
+    "name": "JD-Learn-0.64.11-dev",
+    "createdAt": "2026-11-20T15:03:12Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44758750931/artifacts/14639932150"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
