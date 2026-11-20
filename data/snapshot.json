@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T11:18:59.113945+00:00",
+  "generatedAt": "2026-11-20T12:21:20.260169+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "2499e06d1a2b7659f8a8dc75d3ac32d451914a57",
-  "progress": 57.4,
-  "developmentProgress": 57.4,
+  "sourceCommit": "66499eb823b3c64a9f7d7437d429f31d842e0bd4",
+  "progress": 57.48,
+  "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -57,10 +57,10 @@
       "label": "Provider e fruizione video",
       "requirements": 18,
       "weight_percent": 8.41,
-      "development_evidence_floor_percent": 64.72,
+      "development_evidence_floor_percent": 65.65,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 3,
+      "missing_criteria": 2,
       "unverifiable_criteria": 21,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 766,
+      "title": "docs(PBASE-03): guide per ruolo ed esempio plugin Joomla v1 verificabile",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/766",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T12:20:51Z",
+      "mergedAt": "2026-11-20T12:20:49Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7945f5f48d7ddaea0248f8b14ef14fb084b2ffbe",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44734368100"
+      }
+    },
     {
       "number": 765,
       "title": "docs(history): registrare PR #764 e avanzamento comprovato 57,40%",
@@ -366,9 +386,9 @@
       "milestone": "1.0.0",
       "headSha": "d5f223a016411687ab211a64914a627fdea82d81",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44709301941"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -386,9 +406,9 @@
       "milestone": "1.0.0",
       "headSha": "d2d951d45db7427e57dd26a03a15deb6311cdf08",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44706841260"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1684,25 +1704,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 686,
-      "title": "feat(course): azioni contestuali per iscrizioni e richieste (CAT-02/SCR-03)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/686",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T10:15:38Z",
-      "mergedAt": "2026-11-19T10:15:36Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7af780641a1a9e374099d0a29c080c195cac96ee",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1734,8 +1735,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.4-dev",
-    "createdAt": "2026-11-20T11:06:24Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44724299242/artifacts/14623661283"
+    "createdAt": "2026-11-20T12:20:08Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44734368008/artifacts/14628002487"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

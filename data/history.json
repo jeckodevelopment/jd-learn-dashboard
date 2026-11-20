@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T11:18:59.113945+00:00",
+  "generatedAt": "2026-11-20T12:21:20.260169+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T12:20:49Z",
+      "commit": "66499eb823b3c64a9f7d7437d429f31d842e0bd4",
+      "number": 766,
+      "title": "docs(PBASE-03): guide per ruolo ed esempio plugin Joomla v1 verificabile",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/766"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-20T12:21:20.260169+00:00",
+      "commit": "66499eb823b3c64a9f7d7437d429f31d842e0bd4",
+      "from": 57.4,
+      "to": 57.48,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T11:18:26Z",
