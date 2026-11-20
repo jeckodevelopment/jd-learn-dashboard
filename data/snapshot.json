@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T07:21:21.815109+00:00",
+  "generatedAt": "2026-11-20T07:22:49.581379+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "1f81f4059a30e22eab7282d9defb05109a9ed237",
+  "sourceCommit": "9df20e27d3567e6af0530798dbb52c1c993ebc79",
   "progress": 56.9,
   "developmentProgress": 56.9,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 745,
+      "title": "docs(history): tracciare merge e CI della rettifica audit #744",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/745",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T07:22:15Z",
+      "mergedAt": "2026-11-20T07:22:13Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d549e96e75f03e5df826000323425620c4e80066",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44694405237"
+      }
+    },
     {
       "number": 744,
       "title": "docs(audit): correggere falsi gap SCR-05 e UI-01 già implementati",
@@ -1674,25 +1694,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "9867d948cdfcc8fc6bdf185ca776830b94f72976",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 669,
-      "title": "feat(SCR-01): clear catalog filters from empty search results",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/669",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:12:07Z",
-      "mergedAt": "2026-11-18T22:12:05Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3327f3d6bacd8c98e69c4fefe613384be3f8a609",
       "ci": {
         "status": "unknown",
         "conclusion": null,

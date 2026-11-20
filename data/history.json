@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T07:21:21.815109+00:00",
+  "generatedAt": "2026-11-20T07:22:49.581379+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T07:22:13Z",
+      "commit": "9df20e27d3567e6af0530798dbb52c1c993ebc79",
+      "number": 745,
+      "title": "docs(history): tracciare merge e CI della rettifica audit #744",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/745"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T07:20:50Z",
