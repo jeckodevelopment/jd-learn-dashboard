@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T12:56:19.332893+00:00",
+  "generatedAt": "2026-11-20T13:10:31.072754+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "09f9202ac0577d5e2b4cbd9e9dddeb624a8f07c8",
+  "sourceCommit": "deefafce4087c02a199bbd83418c141857c872c1",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 772,
+      "title": "fix(SEC-P1): protezione Referer dei token consenso e inventario superfici 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/772",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T13:10:06Z",
+      "mergedAt": "2026-11-20T13:10:03Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8123e8c8712ca56bb0ffb7fcd7197647a5bf3ed4",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44741268242"
+      }
+    },
     {
       "number": 771,
       "title": "docs(history): registrare merge CI e artefatto SEC-P1 PR #770",
@@ -386,9 +405,9 @@
       "milestone": "1.0.0",
       "headSha": "139dec640a5a8c586665f2f6178de35fd5f784f1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44716881387"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -405,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "16d89941d6295b35aaf4651c3bf5842da2ebc653",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44715952545"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1684,26 +1703,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 692,
-      "title": "docs: registra SCR-07 merge, CI, artefatto e avanzamento (#691)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/692",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T10:57:28Z",
-      "mergedAt": "2026-11-19T10:57:25Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b7c573f10a601585a7027f354d4aa2fdb90d1cfb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1734,9 +1733,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.5-dev",
-    "createdAt": "2026-11-20T12:53:09Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44738962497/artifacts/14628894368"
+    "name": "JD-Learn-0.64.6-dev",
+    "createdAt": "2026-11-20T13:09:42Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44741268224/artifacts/14630079654"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
