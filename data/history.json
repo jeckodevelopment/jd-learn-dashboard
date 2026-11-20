@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T11:07:30.895660+00:00",
+  "generatedAt": "2026-11-20T11:09:40.592116+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T11:09:12Z",
+      "commit": "0a107952532b9db9a6816b75ff4cc5c31b1f7f94",
+      "number": 763,
+      "title": "docs(history): registrare merge, CI e pacchetto della PR #762",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/763"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T11:06:58Z",

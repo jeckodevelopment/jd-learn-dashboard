@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T11:07:30.895660+00:00",
+  "generatedAt": "2026-11-20T11:09:40.592116+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e4ab8bdd2ad12319bfec36a97abed69d26275d91",
+  "sourceCommit": "0a107952532b9db9a6816b75ff4cc5c31b1f7f94",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 763,
+      "title": "docs(history): registrare merge, CI e pacchetto della PR #762",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/763",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T11:09:15Z",
+      "mergedAt": "2026-11-20T11:09:12Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a7de16a12bdfc7f2f84ec470d3dfc4e889fb4be7",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44725142657"
+      }
+    },
     {
       "number": 762,
       "title": "fix(PBASE-03): bloccare build Joomla se mancano guide dei plugin video base",
@@ -385,9 +405,9 @@
       "milestone": "1.0.0",
       "headSha": "73dd6848692d468848e8dc9c5f8c000bd71a39ff",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44703716914"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,26 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "583bfaaed81eb614b777e8b1bc65e07edfbff9b0",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 683,
-      "title": "feat(metrics): riconciliazione automatica avanzamento per nove macroaree",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/683",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T09:51:35Z",
-      "mergedAt": "2026-11-19T09:51:33Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0761a193a828d680dbb5030e162c7ace9dd9c5a9",
       "ci": {
         "status": "unknown",
         "conclusion": null,
