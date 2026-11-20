@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T21:30:23.053603+00:00",
+  "generatedAt": "2026-11-20T21:39:57.705947+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T21:39:21Z",
+      "commit": "d72ea4af07a20ae99d93474775c9a2780531a80f",
+      "number": 824,
+      "title": "fix(security): SEC-P2 package scan and SEC-P3 privacy mail retention",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/824"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T21:29:55Z",
@@ -1594,14 +1602,6 @@
       "number": 650,
       "title": "docs: reconcile functional audit batches 7 and 8",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/650"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T20:49:43Z",
-      "commit": "404aa1efb7f31d13a71dcb2cc8bab4ec4147be4e",
-      "number": 649,
-      "title": "docs: reconcile STA-02 PR #648 merge, CI and artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/649"
     }
   ]
 }
