@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T10:24:39.899437+00:00",
+  "generatedAt": "2026-11-20T10:26:37.057857+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "731645a986baeaab9d2b321bf1e3f6f52b19f5f3",
+  "sourceCommit": "4ef862304e1ac4bb93deec84aa834fe9c0dfd33b",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 761,
+      "title": "docs(history): registrare merge, CI e artefatto della PR #760",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/761",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T10:26:11Z",
+      "mergedAt": "2026-11-20T10:26:09Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2da0180a2b8c286a2f370463a8c299d25e18b724",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44719107434"
+      }
+    },
     {
       "number": 760,
       "title": "fix(DOC-07): non dichiarare operativi task con regole scheduler corrotte",
@@ -1678,26 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "88e58939dc65b18356ed9d970006853eff3e2b3c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 681,
-      "title": "docs: reconcile SCR-01 enrollment cards PR 680 merge and artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/681",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T23:29:59Z",
-      "mergedAt": "2026-11-18T23:29:56Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1e08ec69be874c80d302a537049d948fc36e38c2",
       "ci": {
         "status": "unknown",
         "conclusion": null,
