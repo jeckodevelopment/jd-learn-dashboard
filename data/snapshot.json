@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T10:11:06.502375+00:00",
+  "generatedAt": "2026-11-20T10:24:39.899437+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7b914f94cdda1c2ac6a9460a969819e75810eed7",
+  "sourceCommit": "731645a986baeaab9d2b321bf1e3f6f52b19f5f3",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 760,
+      "title": "fix(DOC-07): non dichiarare operativi task con regole scheduler corrotte",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/760",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T10:24:15Z",
+      "mergedAt": "2026-11-20T10:24:13Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c0f3a6456947d9880aa801345621bc5e3a404a25",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44718310286"
+      }
+    },
     {
       "number": 759,
       "title": "docs(history): merge, CI e pacchetto verificato della PR #758",
@@ -367,9 +386,9 @@
       "milestone": "1.0.0",
       "headSha": "ddfabbac2860d43497c2aa006163205f774a445f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44697596200"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1684,25 +1703,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 680,
-      "title": "feat(SCR-01): personal enrollment state and safe resume on catalog cards",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/680",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T23:28:25Z",
-      "mergedAt": "2026-11-18T23:28:22Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f267f5dc0bdff1e3db6d2e6355a80e810eb3654f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1733,9 +1733,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.2-dev",
-    "createdAt": "2026-11-20T10:07:16Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44715952404/artifacts/14619932015"
+    "name": "JD-Learn-0.64.3-dev",
+    "createdAt": "2026-11-20T10:23:36Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44718310286/artifacts/14620592595"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

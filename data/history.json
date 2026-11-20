@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T10:11:06.502375+00:00",
+  "generatedAt": "2026-11-20T10:24:39.899437+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T10:24:13Z",
+      "commit": "731645a986baeaab9d2b321bf1e3f6f52b19f5f3",
+      "number": 760,
+      "title": "fix(DOC-07): non dichiarare operativi task con regole scheduler corrotte",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/760"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T10:10:32Z",
