@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T20:15:48.359543+00:00",
+  "generatedAt": "2026-11-20T20:17:24.423442+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b35115ee1a62595f7efd3baa0b52acbb46731ed5",
+  "sourceCommit": "d2ecd8ffc1a8b2eec2e9d81531bd404a3748ec5f",
   "progress": 57.94,
   "developmentProgress": 57.94,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 815,
+      "title": "docs(history): registrare merge, CI e pacchetto PBASE-02 #814",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/815",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T20:16:45Z",
+      "mergedAt": "2026-11-20T20:16:42Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b60afac6da0ae430c6f5474b7cccf8ed2befd485",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44809779851"
+      }
+    },
     {
       "number": 814,
       "title": "docs(PBASE-02): contratti completi dei quattro provider video e gate anti-drift",
@@ -305,9 +325,9 @@
       "milestone": "1.0.0",
       "headSha": "a6d4d374423ccaf3eda8cf68146639b863d616fe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44786981897"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -325,9 +345,9 @@
       "milestone": "1.0.0",
       "headSha": "365ad7bd3cd0ad21093685aaf130eafffbb64081",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44786101720"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1676,25 +1696,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "867c85ee2f24f3faecaf491fd365bf2da622ef24",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 734,
-      "title": "fix(JOO-01): eliminare ZIP Action Log duplicato e bloccare package inconsistenti (0.63.2)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/734",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T22:36:05Z",
-      "mergedAt": "2026-11-19T22:36:02Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "56726560f4768bbad5f7730ca8ab383fcfe02fa0",
       "ci": {
         "status": "unknown",
         "conclusion": null,
