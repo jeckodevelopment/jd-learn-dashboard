@@ -2293,7 +2293,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "203;762",
+    "prs": "203;762;764",
     "todo": "Verificare copertura completa del gate e consolidare manuali amministratore/autore/sviluppatore e istruzioni ACL/backup/ripristino dei quattro provider; prova di un quinto plugin differita.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-118; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Manuali consolidati completi, ACL/backup/ripristino e guida/esempio provider terzi senza patch; distinguere parametri progettati da effettivamente implementati.",
     "criteria": "Guide e contratti.  Il documento Sviluppo_sicuro_e_specifiche_plugin_video_1.0.md contiene le schede e i dizionari dei parametri; Servizi_endpoint_LMS_Joomla_1.0.md il contratto comune. Consegnare guide amministratore/autore/sviluppatore ed esempio di estensione compatibile. Contratto, manuali, changelog e test seguono ogni modifica; assenza di documentazione di un plugin base blocca l'accettazione del pacchetto"

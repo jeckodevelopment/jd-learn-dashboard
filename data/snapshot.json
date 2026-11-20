@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T11:09:40.592116+00:00",
+  "generatedAt": "2026-11-20T11:16:54.478786+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0a107952532b9db9a6816b75ff4cc5c31b1f7f94",
-  "progress": 57.32,
-  "developmentProgress": 57.32,
+  "sourceCommit": "7044a32d67742a025b8d016fcbec9a71e7a120ff",
+  "progress": 57.4,
+  "developmentProgress": 57.4,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -57,10 +57,10 @@
       "label": "Provider e fruizione video",
       "requirements": 18,
       "weight_percent": 8.41,
-      "development_evidence_floor_percent": 63.8,
+      "development_evidence_floor_percent": 64.72,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 4,
+      "missing_criteria": 3,
       "unverifiable_criteria": 21,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 764,
+      "title": "docs(PBASE-03): promuovere il gate packaging comprovato e sincronizzare 57,40%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/764",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T11:16:26Z",
+      "mergedAt": "2026-11-20T11:16:24Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "39438885229778756f5e2f5120bf015daf826732",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44726099423"
+      }
+    },
     {
       "number": 763,
       "title": "docs(history): registrare merge, CI e pacchetto della PR #762",
@@ -385,9 +405,9 @@
       "milestone": "1.0.0",
       "headSha": "3cc64d499b9e87440a3089a8a166aa394830cc21",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44704395765"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,25 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "bc60c11f403705827e57bfb1c42d6e7062bbdd8d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 684,
-      "title": "feat(catalog): filtro facoltativo per corsi disponibili (CAT-01)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/684",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T10:03:36Z",
-      "mergedAt": "2026-11-19T10:03:33Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "583bfaaed81eb614b777e8b1bc65e07edfbff9b0",
       "ci": {
         "status": "unknown",
         "conclusion": null,

@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T11:09:40.592116+00:00",
+  "generatedAt": "2026-11-20T11:16:54.478786+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T11:16:24Z",
+      "commit": "7044a32d67742a025b8d016fcbec9a71e7a120ff",
+      "number": 764,
+      "title": "docs(PBASE-03): promuovere il gate packaging comprovato e sincronizzare 57,40%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/764"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-20T11:16:54.478786+00:00",
+      "commit": "7044a32d67742a025b8d016fcbec9a71e7a120ff",
+      "from": 57.32,
+      "to": 57.4,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T11:09:12Z",
