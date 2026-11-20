@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T08:58:27.380541+00:00",
+  "generatedAt": "2026-11-20T08:59:57.741649+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0002b6eeb1937f5b18d9cfc766c65532fefb125a",
+  "sourceCommit": "1b4e9d897b71a00605fe1bd18852312d9d08c844",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 753,
+      "title": "docs(history): merge e CI della review IDOR allegati #752",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/753",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T08:59:32Z",
+      "mergedAt": "2026-11-20T08:59:29Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d2d951d45db7427e57dd26a03a15deb6311cdf08",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44706841260"
+      }
+    },
     {
       "number": 752,
       "title": "test(security): coprire IDOR cross-course su download allegati privati",
@@ -407,9 +427,9 @@
       "milestone": "1.0.0",
       "headSha": "4b0cbe757d1cfab5c0c61d6221c18a15ebbf7a0e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44638455614"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1675,26 +1695,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "b5d7a1914d531d96f1b2cfd88f44ad92da93568a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 677,
-      "title": "feat: separate release development and QA progress",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/677",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T23:12:25Z",
-      "mergedAt": "2026-11-18T23:12:23Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "891882f26f2c4ecfffbd0e41569d466f434935bc",
       "ci": {
         "status": "unknown",
         "conclusion": null,
