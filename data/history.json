@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T20:28:21.965820+00:00",
+  "generatedAt": "2026-11-20T20:37:44.616636+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T20:37:13Z",
+      "commit": "baac34bc7fc0d585235fe5f86576b12ebd549c1e",
+      "number": 818,
+      "title": "test(DOC-08): matrice dei 21 flussi core e gate documentale fail-closed per release",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/818"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T20:27:43Z",
@@ -1594,14 +1602,6 @@
       "number": 641,
       "title": "Audit 1.0.0: quiz, accesso didattico, notifiche e attestati",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/641"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T19:18:45Z",
-      "commit": "28859210068fb7c1a5a7ac9ce6fd61051293ac4b",
-      "number": 640,
-      "title": "docs: reconcile PR #639 archive Finder CI and 0.60.8 artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/640"
     }
   ]
 }

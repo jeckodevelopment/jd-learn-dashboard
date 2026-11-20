@@ -2601,7 +2601,7 @@
     "state": "Non iniziata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "",
+    "prs": "818",
     "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Matrice di copertura documentale e gate prima della release: nessun flusso core senza guida e accettazione registrata."
