@@ -2535,7 +2535,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "",
+    "prs": "820",
     "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Manuale amministratore completo per corsi, versioni, lezioni, iscritti, provider, ACL, email, attestati, privacy e manutenzione; tutte le schermate verificate."
@@ -2587,7 +2587,7 @@
   {
     "id": "DOC-07",
     "area": "DOC",
-    "state": "Non iniziata",
+    "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "740;758;760;787;789;816",
@@ -2598,7 +2598,7 @@
   {
     "id": "DOC-08",
     "area": "DOC",
-    "state": "Non iniziata",
+    "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "818",

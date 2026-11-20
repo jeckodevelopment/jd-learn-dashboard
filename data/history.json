@@ -1,8 +1,40 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T20:39:08.058168+00:00",
+  "generatedAt": "2026-11-20T21:02:53.175084+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-20T21:02:53.175084+00:00",
+      "commit": "17541521b691f9aa58fb84c4baa3ecc1ec194eb3",
+      "id": "DOC-07",
+      "from": "Non iniziata",
+      "to": "Parziale"
+    },
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-20T21:02:53.175084+00:00",
+      "commit": "17541521b691f9aa58fb84c4baa3ecc1ec194eb3",
+      "id": "DOC-08",
+      "from": "Non iniziata",
+      "to": "Parziale"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T21:02:19Z",
+      "commit": "17541521b691f9aa58fb84c4baa3ecc1ec194eb3",
+      "number": 820,
+      "title": "docs(DOC-02): manuali amministratore completi e avanzamento sviluppo riconciliato",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/820"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-20T21:02:53.175084+00:00",
+      "commit": "17541521b691f9aa58fb84c4baa3ecc1ec194eb3",
+      "from": 57.94,
+      "to": 58.8,
+      "asOf": "2026-11-15"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T20:38:44Z",
@@ -1570,38 +1602,6 @@
       "number": 646,
       "title": "fix(MAIL-08): deduplicate repeated test emails",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/646"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T20:14:32Z",
-      "commit": "e01c88fa0531c5eda9ab4ef27528ad1c48b9b8b3",
-      "number": 645,
-      "title": "docs: reconcile quiz completion notification PR #643 evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/645"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T20:11:35Z",
-      "commit": "6c333424eb9890dfd61349891da4e2c659733c57",
-      "number": 643,
-      "title": "fix: inviare notifica di completamento corso anche dopo quiz",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/643"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T20:02:08Z",
-      "commit": "64ac22af4de8251d2a4baa314d5b9acbf5f6561c",
-      "number": 644,
-      "title": "Audit 1.0.0: editor, ACL, ciclo di vita e trasporto Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/644"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T19:58:16Z",
-      "commit": "30b59ca6052f4c21e315620fd246029d019e0fda",
-      "number": 642,
-      "title": "Audit 1.0.0: release, accessibilità, prestazioni e manuali",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/642"
     }
   ]
 }
