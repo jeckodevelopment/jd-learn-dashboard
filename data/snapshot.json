@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T15:21:19.291359+00:00",
+  "generatedAt": "2026-11-20T15:36:52.366876+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7328a5570b0ea12f1ace4ca3429cce5940f9f527",
+  "sourceCommit": "7089140d068bb73984f45bf961c37ebb8fd98db1",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 791,
+      "title": "fix(SEC-P1): usare destinatario Joomla aggiornato per consenso double opt-in",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/791",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T15:36:20Z",
+      "mergedAt": "2026-11-20T15:36:18Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "534723e5a91ecb6a362c777b53cedd9cf34b1c7d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44764215627"
+      }
+    },
     {
       "number": 790,
       "title": "docs(history): evidenze merge, CI e ZIP della PR #789",
@@ -423,9 +442,9 @@
       "milestone": "1.0.0",
       "headSha": "c89c5cc086d37bbe30e1407972a86679c13bc6ce",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44745052910"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -442,9 +461,9 @@
       "milestone": "1.0.0",
       "headSha": "c8bd8e4fcba4cc8b2e5ec1ffe713cb3a663a80a1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44744160830"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1682,26 +1701,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 711,
-      "title": "docs(DOC-05): registrare evidenze finali PR #710",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/711",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T16:42:43Z",
-      "mergedAt": "2026-11-19T16:42:40Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c6d8fa6df3668f52bdc5c887b584ea1bc9dba44d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1732,9 +1731,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.12-dev",
-    "createdAt": "2026-11-20T15:18:47Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44761363793/artifacts/14641234400"
+    "name": "JD-Learn-0.64.13-dev",
+    "createdAt": "2026-11-20T15:35:47Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44764215627/artifacts/14642179660"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
