@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T15:05:34.974325+00:00",
+  "generatedAt": "2026-11-20T15:07:37.158699+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "6a25359f4fbfb023c085cdb73ac0df7f2a7b35f5",
+  "sourceCommit": "ec4623bd371c225a4f685ab6ff0b4e7dd7669e8c",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 788,
+      "title": "docs(history): registrare merge, CI e artefatto DOC-07 PR #787",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/788",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T15:07:02Z",
+      "mergedAt": "2026-11-20T15:07:00Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c88116af7d6b4edf69c59dd1301292374fb5b137",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44759934241"
+      }
+    },
     {
       "number": 787,
       "title": "fix(DOC-07): evidenziare task Scheduler duplicati anche se disabilitati",
@@ -441,9 +461,9 @@
       "milestone": "1.0.0",
       "headSha": "8123e8c8712ca56bb0ffb7fcd7197647a5bf3ed4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44741268242"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,26 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "dba2c334ecfbc77de234ffb3d29e61f946856f3b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 708,
-      "title": "test(UI-01): inventariare anteprima lezione e revoca consenso con gate DOM",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/708",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T15:56:36Z",
-      "mergedAt": "2026-11-19T15:56:33Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "aa2d8a67d16823fcc7279f4e96cc31a023027ebb",
       "ci": {
         "status": "unknown",
         "conclusion": null,
