@@ -2590,7 +2590,7 @@
     "state": "Non iniziata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "740;758;760;787;789",
+    "prs": "740;758;760;787;789;816",
     "todo": "Completare altri test di configurazione e flussi ad alto rischio; nessuna completezza certificata.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Procedure guidate, test di configurazione e messaggi attuabili per operazioni ad alto rischio."

@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T20:17:24.423442+00:00",
+  "generatedAt": "2026-11-20T20:26:52.355467+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d2ecd8ffc1a8b2eec2e9d81531bd404a3748ec5f",
+  "sourceCommit": "201682a06ffdf9550e0630ecca38d1ceccc0d105",
   "progress": 57.94,
   "developmentProgress": 57.94,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 816,
+      "title": "feat(DOC-07): guide sicure e verifiche ACL per operazioni amministrative critiche",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/816",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T20:26:19Z",
+      "mergedAt": "2026-11-20T20:26:17Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "50a13ebd7b4a530accce9bb3da0ecc18a49ed2ed",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44810595284"
+      }
+    },
     {
       "number": 815,
       "title": "docs(history): registrare merge, CI e pacchetto PBASE-02 #814",
@@ -286,9 +306,9 @@
       "milestone": "1.0.0",
       "headSha": "b7ad98e83f4edc2538f6d8a6bb611e44d7a4ead3",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44790909315"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -306,9 +326,9 @@
       "milestone": "1.0.0",
       "headSha": "cea68e6dc03227dac8269e2f1311ccca1bf58a0c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44787885158"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1681,26 +1701,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 735,
-      "title": "docs(JOO-01): registrare merge e pacchetto verificato PR #734",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/735",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T22:37:28Z",
-      "mergedAt": "2026-11-19T22:37:26Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "867c85ee2f24f3faecaf491fd365bf2da622ef24",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1744,8 +1744,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T20:14:52Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44809019110/artifacts/14663869525"
+    "createdAt": "2026-11-20T20:25:56Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44810595154/artifacts/14666146991"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
