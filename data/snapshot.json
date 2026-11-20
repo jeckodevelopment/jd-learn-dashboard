@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T20:26:52.355467+00:00",
+  "generatedAt": "2026-11-20T20:28:21.965820+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "201682a06ffdf9550e0630ecca38d1ceccc0d105",
+  "sourceCommit": "f02ebd9d6f9d0f8cbc71e6015a37632bfc7d20e9",
   "progress": 57.94,
   "developmentProgress": 57.94,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 817,
+      "title": "docs(history): registrare merge, CI e pacchetto DOC-07 PR #816",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/817",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T20:27:45Z",
+      "mergedAt": "2026-11-20T20:27:43Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9b4bcf60f7e3383f949b7479746b41b5dea31612",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44811469340"
+      }
+    },
     {
       "number": 816,
       "title": "feat(DOC-07): guide sicure e verifiche ACL per operazioni amministrative critiche",
@@ -287,9 +307,9 @@
       "milestone": "1.0.0",
       "headSha": "23f8b29b65bea5efcc5237a3be35401b0a910d2d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44792602823"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,25 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "9ce01400d76439ff82e3e11489ec854a2a25feb4",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 736,
-      "title": "fix(STU-01): Riprendi attraversa lo storico oltre 50 attività (0.63.3)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/736",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T23:16:58Z",
-      "mergedAt": "2026-11-19T23:16:56Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "684857d2c90402fb42b3777760ef3cdea1c62b48",
       "ci": {
         "status": "unknown",
         "conclusion": null,
