@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T07:32:22.167794+00:00",
+  "generatedAt": "2026-11-20T07:33:49.564323+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0803e295f45bcfdfdb8c84c460b8114ac4a7ed97",
+  "sourceCommit": "279633f1116c0feba4195943c3931f6baf8114b8",
   "progress": 56.99,
   "developmentProgress": 56.99,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 747,
+      "title": "docs(history): merge e controlli della correzione audit QUI-02 #746",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/747",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T07:33:18Z",
+      "mergedAt": "2026-11-20T07:33:15Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d417790084fb112a705ce7c23b49ddb2c5200ce8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44695748792"
+      }
+    },
     {
       "number": 746,
       "title": "docs(audit): QUI-02 cestino e ACL già implementati",
@@ -405,9 +425,9 @@
       "milestone": "1.0.0",
       "headSha": "bb424d5ce5cdd5be202e0af2d6f3742bcbb8337b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44628079382"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1674,26 +1694,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "81445a6a018883b1c91831055fb154d877fb4860",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 671,
-      "title": "chore: enforce PR metadata and functional doc sync",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/671",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:26:30Z",
-      "mergedAt": "2026-11-18T22:26:28Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e781f14dc68dee0aa4fe554a0e52e89840400941",
       "ci": {
         "status": "unknown",
         "conclusion": null,
