@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T13:30:58.734430+00:00",
+  "generatedAt": "2026-11-20T13:32:40.194583+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4ab4d5e4e5cb23bea839173b95e2ddcae2fec149",
+  "sourceCommit": "1a30d36338deed67c3495537c3aacb00a335f28c",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 776,
+      "title": "docs(history): merge e pacchetto SEC-P1 PR #775",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/776",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T13:32:02Z",
+      "mergedAt": "2026-11-20T13:32:01Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c89c5cc086d37bbe30e1407972a86679c13bc6ce",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44745052910"
+      }
+    },
     {
       "number": 775,
       "title": "fix(SEC-P1): identità Joomla corrente nelle riassegnazioni categorie",
@@ -404,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "666be6ea55f275741f7d6a83be7453049f180afe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44724299242"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,26 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c424a24d9fffdb71f45454cbfc38db8f6ec1a720",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 696,
-      "title": "docs: registra SCR-01 pending approval, CI e avanzamento (#695)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/696",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T11:46:41Z",
-      "mergedAt": "2026-11-19T11:46:38Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "32de6cab7ce43e0afc211a92aab241978e566389",
       "ci": {
         "status": "unknown",
         "conclusion": null,
