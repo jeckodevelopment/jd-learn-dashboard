@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T06:33:15.471829+00:00",
+  "generatedAt": "2026-11-20T06:34:59.225951+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T06:34:35Z",
+      "commit": "b1fa994642e7ca3911e323962d3e8c0442dff37a",
+      "number": 743,
+      "title": "docs(CAT-01): registrare merge e artefatto verificato PR #742",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/743"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T06:32:51Z",

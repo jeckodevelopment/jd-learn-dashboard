@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T06:33:15.471829+00:00",
+  "generatedAt": "2026-11-20T06:34:59.225951+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e6164562a15c58676dbf85c2b7a1fac2f650a902",
+  "sourceCommit": "b1fa994642e7ca3911e323962d3e8c0442dff37a",
   "progress": 56.57,
   "developmentProgress": 56.57,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 743,
+      "title": "docs(CAT-01): registrare merge e artefatto verificato PR #742",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/743",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T06:34:37Z",
+      "mergedAt": "2026-11-20T06:34:35Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "55866721c7af41cf9ce75a018872212504ea0077",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44688691389"
+      }
+    },
     {
       "number": 742,
       "title": "fix(CAT-01): ricerca letterale nel catalogo per % _ ! (0.64.1)",
@@ -383,9 +403,9 @@
       "milestone": "1.0.0",
       "headSha": "ef5be076997b95b30f5d0fcfac4b2d14ea3cebdd",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44621877143"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1673,25 +1693,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "b91df4190ed406c00eeab3634326df1a6c8a8777",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 667,
-      "title": "feat(SCR-05): link empty learner-course state to catalog (rebased)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/667",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:02:00Z",
-      "mergedAt": "2026-11-18T22:01:58Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "365744d19e2266d50eeae6493496c8dfc6ea0232",
       "ci": {
         "status": "unknown",
         "conclusion": null,
