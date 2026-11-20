@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T18:20:23.748970+00:00",
+  "generatedAt": "2026-11-20T18:29:49.761249+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "94f05d72da4f2a593a9d2da4c88323ee073a3e57",
+  "sourceCommit": "9e8292f502f7500dedde1284f03bf51dde18ddd8",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 809,
+      "title": "test(SEC-P1): revoca HTTP reale su gestione stato e ammissioni",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/809",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T18:29:36Z",
+      "mergedAt": "2026-11-20T18:29:13Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "23f8b29b65bea5efcc5237a3be35401b0a910d2d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44792602823"
+      }
+    },
+    {
       "number": 808,
       "title": "test(SEC-P1): matrice threat-control e guardie trasversali plugin task media",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/808",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-20T18:19:45Z",
+      "updated": "2026-11-20T18:20:21Z",
       "mergedAt": "2026-11-20T18:19:42Z",
       "labels": [
         "P0"
@@ -442,9 +461,9 @@
       "milestone": "1.0.0",
       "headSha": "152a7686dd8553658bc8e44c78f4a41f642ad118",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44765090955"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1681,25 +1700,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 728,
-      "title": "feat(CORE-17): plugin nativo Joomla User Actions Log per transizioni corsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/728",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T21:20:57Z",
-      "mergedAt": "2026-11-19T21:20:55Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7e1beffe21ff7d5d276a8b3f655c8f86c29e0bf1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1743,8 +1743,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T18:18:29Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44790909315/artifacts/14657255855"
+    "createdAt": "2026-11-20T18:28:56Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44792602823/artifacts/14657186705"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
