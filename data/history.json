@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T17:56:18.923205+00:00",
+  "generatedAt": "2026-11-20T18:20:23.748970+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T18:19:42Z",
+      "commit": "94f05d72da4f2a593a9d2da4c88323ee073a3e57",
+      "number": 808,
+      "title": "test(SEC-P1): matrice threat-control e guardie trasversali plugin task media",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/808"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T17:55:52Z",
@@ -1594,14 +1602,6 @@
       "number": 628,
       "title": "docs: reconcile PR #627 merge, CI and 0.60.5 build",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/628"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T18:23:23Z",
-      "commit": "244ba6837bd305be57c48eb35c0947164fe2bb14",
-      "number": 627,
-      "title": "fix: reflect suspended course delivery in learning pathways (0.60.5)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/627"
     }
   ]
 }

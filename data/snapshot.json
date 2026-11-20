@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T17:56:18.923205+00:00",
+  "generatedAt": "2026-11-20T18:20:23.748970+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "86a29631e526cc2d65266de2592fa07941dcee9e",
+  "sourceCommit": "94f05d72da4f2a593a9d2da4c88323ee073a3e57",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 808,
+      "title": "test(SEC-P1): matrice threat-control e guardie trasversali plugin task media",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/808",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T18:19:45Z",
+      "mergedAt": "2026-11-20T18:19:42Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b7ad98e83f4edc2538f6d8a6bb611e44d7a4ead3",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44790909315"
+      }
+    },
     {
       "number": 807,
       "title": "docs(history): evidenze merge e pacchetto SEC-P1 PR #806",
@@ -1681,26 +1700,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 727,
-      "title": "docs(LIFE-01): riconciliare PR #726 e avanzamento minimo 56,11%",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/727",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T20:21:55Z",
-      "mergedAt": "2026-11-19T20:21:53Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "066b502b566cf952b81bc5f93079a71ce990d035",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1744,8 +1743,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T17:53:18Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44786981897/artifacts/14654048975"
+    "createdAt": "2026-11-20T18:18:29Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44790909315/artifacts/14657255855"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
