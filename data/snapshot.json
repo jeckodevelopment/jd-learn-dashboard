@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T14:00:39.185856+00:00",
+  "generatedAt": "2026-11-20T14:18:23.647623+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "55e3fae472d6b8ff0b2f31df7ce20250afb7023e",
+  "sourceCommit": "fb03fdabd7161ce3190334e9e36975106e148fef",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 781,
+      "title": "fix(SEC-P1): richiedere permesso audit per coda email globale e riconciliazione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/781",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T14:17:47Z",
+      "mergedAt": "2026-11-20T14:17:45Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ba75d2309001c98f92c66cca9b1d1de7b72c467e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44751097403"
+      }
+    },
     {
       "number": 780,
       "title": "docs(history): registrare merge e pacchetto SEC-P1 PR #779",
@@ -1683,26 +1702,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 701,
-      "title": "docs(audit): riconciliare SCR-01/empty_error e aggiornare avanzamento",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/701",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T13:02:56Z",
-      "mergedAt": "2026-11-19T13:02:53Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "796b0c0465dd27d2a089453f0b658fe8f0b11bdf",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1733,9 +1732,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.8-dev",
-    "createdAt": "2026-11-20T13:57:38Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44748359797/artifacts/14634756302"
+    "name": "JD-Learn-0.64.9-dev",
+    "createdAt": "2026-11-20T14:15:19Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44751097178/artifacts/14635561724"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

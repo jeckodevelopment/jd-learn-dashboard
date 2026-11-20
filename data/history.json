@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T14:00:39.185856+00:00",
+  "generatedAt": "2026-11-20T14:18:23.647623+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T14:17:45Z",
+      "commit": "fb03fdabd7161ce3190334e9e36975106e148fef",
+      "number": 781,
+      "title": "fix(SEC-P1): richiedere permesso audit per coda email globale e riconciliazione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/781"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T13:59:59Z",
@@ -1594,14 +1602,6 @@
       "number": 604,
       "title": "docs(progress): rendicontazione post-merge audit UI/PERF #603",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/604"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-17T23:56:13Z",
-      "commit": "11b7abfb53ce434c0d85ac5cfd614fbd05101f94",
-      "number": 603,
-      "title": "docs(progress): audit UI, accessibilità e prestazioni della 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/603"
     }
   ]
 }
