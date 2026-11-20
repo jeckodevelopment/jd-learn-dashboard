@@ -2282,7 +2282,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "203;228;756",
+    "prs": "203;228;756;814",
     "todo": "Completare i dettagli contrattuali non ancora verificati nelle guide aggiornate dei quattro provider; prova Cloudflare reale con account/SDK/browser, backup/ripristino e provider terzi documentati.",
     "tests": "Eseguire i controlli manuali dei quattro provider previsti in docs/QA_TESTBOOK.md; registrare il testbook Cloudflare con account reale, aggiornamento plugin, configurazione conservata e riproduzione/rinnovo con consenso.",
     "criteria": "Specifiche per singolo plugin.  Documentare per ciascuno identita/versione, prerequisiti, manifest/dipendenze, parametri con tipi/default/obblighi, formati sorgente, dati lezione, capacita, player/eventi, ripresa/completamento, privacy/consenso, errori, prestazioni, limitazioni, aggiornamento/disattivazione/rimozione e collaudi. Il solo contratto astratto non e documentazione sufficiente dei quattro plugin"

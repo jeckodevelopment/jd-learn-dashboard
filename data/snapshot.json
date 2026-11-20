@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T20:05:44.719975+00:00",
+  "generatedAt": "2026-11-20T20:15:48.359543+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "2475c49a2d23c8298340b34d715505f73e0fa8db",
+  "sourceCommit": "b35115ee1a62595f7efd3baa0b52acbb46731ed5",
   "progress": 57.94,
   "developmentProgress": 57.94,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 814,
+      "title": "docs(PBASE-02): contratti completi dei quattro provider video e gate anti-drift",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/814",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T20:15:17Z",
+      "mergedAt": "2026-11-20T20:15:14Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e27187d53df9657656fb934d754d6866f447d63b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44809019110"
+      }
+    },
     {
       "number": 813,
       "title": "docs(UI-07): registrare merge CI e pacchetto PR #812",
@@ -324,9 +344,9 @@
       "milestone": "1.0.0",
       "headSha": "14f8a1c1d975fed12ee5b81360620769a3008659",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44785203185"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -344,9 +364,9 @@
       "milestone": "1.0.0",
       "headSha": "94b4dc94d8cd00f9215394ccf02ed09a463acab8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44784566601"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -363,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "17c7fb7baf310072bbddf11da2bedb42021e3c75",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44783620345"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1680,26 +1700,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 733,
-      "title": "docs(QUI-02): registrare merge, CI e pacchetto verificato PR #732",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/733",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T22:23:42Z",
-      "mergedAt": "2026-11-19T22:23:39Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "bb424d5ce5cdd5be202e0af2d6f3742bcbb8337b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1743,8 +1743,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T20:03:44Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44807120863/artifacts/14663217613"
+    "createdAt": "2026-11-20T20:14:52Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44809019110/artifacts/14663869525"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

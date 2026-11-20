@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T20:05:44.719975+00:00",
+  "generatedAt": "2026-11-20T20:15:48.359543+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T20:15:14Z",
+      "commit": "b35115ee1a62595f7efd3baa0b52acbb46731ed5",
+      "number": 814,
+      "title": "docs(PBASE-02): contratti completi dei quattro provider video e gate anti-drift",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/814"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T20:05:15Z",
@@ -1594,14 +1602,6 @@
       "number": 637,
       "title": "Audit 1.0.0: catalogo, roster e installazione",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/637"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T19:02:23Z",
-      "commit": "35f361e5031ac3a55265db46b6698f281e8cba34",
-      "number": 635,
-      "title": "Audit 1.0.0: registro verificabile e prime evidenze sul lifecycle",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/635"
     }
   ]
 }
