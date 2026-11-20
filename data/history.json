@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T08:39:48.773422+00:00",
+  "generatedAt": "2026-11-20T08:41:26.158689+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T08:40:53Z",
+      "commit": "cc90a010e67d48bfdeae226fc4e618498d8f3d02",
+      "number": 751,
+      "title": "docs(history): registrare merge e CI ASVS #750",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/751"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T08:39:22Z",

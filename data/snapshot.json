@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T08:39:48.773422+00:00",
+  "generatedAt": "2026-11-20T08:41:26.158689+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e9ebaeac0fb59092dc6f051fdee21e07754d394c",
+  "sourceCommit": "cc90a010e67d48bfdeae226fc4e618498d8f3d02",
   "progress": 57.32,
   "developmentProgress": 57.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 751,
+      "title": "docs(history): registrare merge e CI ASVS #750",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/751",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T08:40:56Z",
+      "mergedAt": "2026-11-20T08:40:53Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3cc64d499b9e87440a3089a8a166aa394830cc21",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44704395765"
+      }
+    },
     {
       "number": 750,
       "title": "docs(security): fissare OWASP ASVS v5.0.0 e gate CI SECDEV-07",
@@ -387,9 +407,9 @@
       "milestone": "1.0.0",
       "headSha": "fe28888b62480107f961b079d0ef4c9e325750da",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44637574912"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1676,25 +1696,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "7014c1f59a8880ab2dad824bc78bf4799102d1f7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 675,
-      "title": "feat(SCR-01): explicit catalog card action and enrollment information",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/675",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-18T22:53:54Z",
-      "mergedAt": "2026-11-18T22:53:51Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ea32e9552b1060d81eb1c506b5972321236f2c67",
       "ci": {
         "status": "unknown",
         "conclusion": null,
