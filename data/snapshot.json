@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T16:46:48.886710+00:00",
+  "generatedAt": "2026-11-20T17:07:39.998921+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "84f4e47149cf0e10159ebb956618cd604b7480a3",
+  "sourceCommit": "014a5be22759642373539def87944eb684cb4354",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 800,
+      "title": "fix(SEC-P1): ACL aggiornate su attestati e guida email amministrativa",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/800",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T17:07:16Z",
+      "mergedAt": "2026-11-20T17:07:14Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ccedf932075779f2de39e382aa7db9cfb51eb81d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44779440516"
+      }
+    },
     {
       "number": 799,
       "title": "docs(history): merge, CI e checksum SEC-P1 PR #798",
@@ -384,9 +403,9 @@
       "milestone": "1.0.0",
       "headSha": "968a30a506ef47ecd025e36a3afbd95c824deb9b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44757245670"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -403,9 +422,9 @@
       "milestone": "1.0.0",
       "headSha": "403994045cc9dafe535344920bb98f63ba92545d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44756127973"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1682,26 +1701,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 719,
-      "title": "docs(JOO-04): chiusura audit Scheduler e avanzamento 55,76%",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/719",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T18:26:26Z",
-      "mergedAt": "2026-11-19T18:26:24Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6d05e056e586a3ccf9d2defb67d40d6b21003e6f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1744,9 +1743,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.16-dev",
-    "createdAt": "2026-11-20T16:44:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44775729425/artifacts/14649652777"
+    "name": "JD-Learn-0.64.17-dev",
+    "createdAt": "2026-11-20T17:06:47Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44779440516/artifacts/14650837679"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
