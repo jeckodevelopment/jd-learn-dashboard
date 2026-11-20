@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T11:16:54.478786+00:00",
+  "generatedAt": "2026-11-20T11:18:59.113945+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T11:18:26Z",
+      "commit": "2499e06d1a2b7659f8a8dc75d3ac32d451914a57",
+      "number": 765,
+      "title": "docs(history): registrare PR #764 e avanzamento comprovato 57,40%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/765"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T11:16:24Z",

@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T11:16:54.478786+00:00",
+  "generatedAt": "2026-11-20T11:18:59.113945+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7044a32d67742a025b8d016fcbec9a71e7a120ff",
+  "sourceCommit": "2499e06d1a2b7659f8a8dc75d3ac32d451914a57",
   "progress": 57.4,
   "developmentProgress": 57.4,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 765,
+      "title": "docs(history): registrare PR #764 e avanzamento comprovato 57,40%",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/765",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T11:18:29Z",
+      "mergedAt": "2026-11-20T11:18:26Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d4a575dba4742590f6af4bd6ebb6e0dd043ce623",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44726437423"
+      }
+    },
     {
       "number": 764,
       "title": "docs(PBASE-03): promuovere il gate packaging comprovato e sincronizzare 57,40%",
@@ -385,9 +405,9 @@
       "milestone": "1.0.0",
       "headSha": "907355c3853512cdaae1725ca7d8dac280b0b74e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44706062371"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,26 +1698,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "7af780641a1a9e374099d0a29c080c195cac96ee",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 685,
-      "title": "docs: registra merge e artefatto della PR #684 (CAT-01)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/685",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T10:05:33Z",
-      "mergedAt": "2026-11-19T10:05:31Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "bc60c11f403705827e57bfb1c42d6e7062bbdd8d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
