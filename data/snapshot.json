@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T16:12:55.685051+00:00",
+  "generatedAt": "2026-11-20T16:45:19.302719+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "022f4552813ec7d3f06fa27ee69506c40db77418",
+  "sourceCommit": "9e1acf13468b31ab267aa6e24eb5c7b59accc59d",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 798,
+      "title": "fix(SEC-P1): imporre identità corrente su tutti i produttori della coda SMTP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/798",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T16:44:50Z",
+      "mergedAt": "2026-11-20T16:44:47Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "caf7d7c1a81192c95c422b7782aa269d17756592",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44775729425"
+      }
+    },
     {
       "number": 797,
       "title": "docs(history): registrare SEC-P1 PR #796, CI e ZIP installabile",
@@ -403,9 +422,9 @@
       "milestone": "1.0.0",
       "headSha": "563f963e4dd4b7401330fdc3519341e41735238c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44753686010"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -423,9 +442,9 @@
       "milestone": "1.0.0",
       "headSha": "98b11537c7240b81a5130456fdd8d4242847474f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44752439335"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1682,26 +1701,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 717,
-      "title": "docs(DOC-05): tracciare merge #716 e nuovo avanzamento 55,52%",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/717",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T17:59:34Z",
-      "mergedAt": "2026-11-19T17:59:31Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "cd6022331dacb54f61b3022679d99324d3309eb3",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1744,9 +1743,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.15-dev",
-    "createdAt": "2026-11-20T16:10:26Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44770004898/artifacts/14646198873"
+    "name": "JD-Learn-0.64.16-dev",
+    "createdAt": "2026-11-20T16:44:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44775729425/artifacts/14649652777"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
