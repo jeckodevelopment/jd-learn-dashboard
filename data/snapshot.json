@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T13:10:31.072754+00:00",
+  "generatedAt": "2026-11-20T13:12:21.349950+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "deefafce4087c02a199bbd83418c141857c872c1",
+  "sourceCommit": "3b8953ffabd24ef0f89c4dc8f536e4d281209f49",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 773,
+      "title": "docs(history): merge CI e pacchetto SEC-P1 PR #772",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/773",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T13:11:59Z",
+      "mergedAt": "2026-11-20T13:11:56Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b97a4a6b3fb5900591fb614ade98e3e444d3ea60",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44742089392"
+      }
+    },
     {
       "number": 772,
       "title": "fix(SEC-P1): protezione Referer dei token consenso e inventario superfici 1.0.0",
@@ -1679,25 +1699,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "8333ff93cfb17c41b57fe74a109de68c26f3bd62",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 693,
-      "title": "fix(certificates): nega attestati agli account Joomla bloccati e aggiorna EDGE-01",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/693",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T11:22:56Z",
-      "mergedAt": "2026-11-19T11:22:53Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "aa16f717ae60fc96fc04ed8730050ff13fdbcba2",
       "ci": {
         "status": "unknown",
         "conclusion": null,
