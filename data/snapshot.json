@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T15:38:12.824087+00:00",
+  "generatedAt": "2026-11-20T15:56:55.734146+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0e6300c1ae80909d35ecc44e4b1da8415f983894",
+  "sourceCommit": "e71303714951c5b1ef3575d1c7440933cba0105a",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -130,11 +130,30 @@
   "counts": {
     "requirements": 249,
     "prOpen": 0,
-    "issuesOpen": 0,
+    "issuesOpen": 1,
     "p0": 0,
-    "p1": 0
+    "p1": 1
   },
   "prs": [
+    {
+      "number": 794,
+      "title": "fix(SEC-P1): restringere dispatch e censire task dei 37 controller Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/794",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T15:56:29Z",
+      "mergedAt": "2026-11-20T15:56:27Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f9a073b1c303d948fab06376c989775791f290d6",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44767509405"
+      }
+    },
     {
       "number": 792,
       "title": "docs(history): registrare merge e artefatto SEC-P1 PR #791",
@@ -423,9 +442,9 @@
       "milestone": "1.0.0",
       "headSha": "88f5bdd2aca28785b6e1c455f7cb1fa4c9f63864",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44747421170"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -442,9 +461,9 @@
       "milestone": "1.0.0",
       "headSha": "ae02b46ef4bc7ad876d4f589168e2dfc9f49a731",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44746563679"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1682,29 +1701,21 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 713,
-      "title": "docs(DOC-05): registrare merge, test e artefatto PR #712",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/713",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T16:57:48Z",
-      "mergedAt": "2026-11-19T16:57:45Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c8742442c3071f2917bd58d1dc024ca2627086ac",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 793,
+      "title": "Crea / Modifica corso: errore pulsanti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/issues/793",
+      "priority": "P1",
+      "labels": [
+        "P1"
+      ],
+      "updated": "2026-11-20T15:49:00Z",
+      "milestone": "1.0.0"
+    }
+  ],
   "manualQa": {
     "schema": 1,
     "updatedAt": "2026-11-17",
@@ -1732,9 +1743,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.13-dev",
-    "createdAt": "2026-11-20T15:35:47Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44764215627/artifacts/14642179660"
+    "name": "JD-Learn-0.64.14-dev",
+    "createdAt": "2026-11-20T15:56:07Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44767509403/artifacts/14644693824"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
