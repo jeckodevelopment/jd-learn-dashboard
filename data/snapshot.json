@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T21:28:47.778138+00:00",
+  "generatedAt": "2026-11-20T21:30:23.053603+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fba27eb76cb2085a234d5f2398ab1ddd6784bc4c",
+  "sourceCommit": "170a3354ac19a6126edfd6456ae4ddd70f730ea9",
   "progress": 58.8,
   "developmentProgress": 58.8,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 823,
+      "title": "docs(SEC-P2/SEC-P3): record PR #822 merge, CI and package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/823",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T21:29:57Z",
+      "mergedAt": "2026-11-20T21:29:55Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5b9f87f3b3c3487ae309f0ace2a7d687da01ea5c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44820736819"
+      }
+    },
     {
       "number": 822,
       "title": "fix(security): consolidate SEC-P2 legacy storage review and SEC-P3 privacy removal guard",
@@ -349,9 +369,9 @@
       "milestone": "1.0.0",
       "headSha": "bf5a6b2d4cd866774ac031e7379bd451b87dd646",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44807120863"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1679,25 +1699,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "55866721c7af41cf9ce75a018872212504ea0077",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 742,
-      "title": "fix(CAT-01): ricerca letterale nel catalogo per % _ ! (0.64.1)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/742",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T06:32:53Z",
-      "mergedAt": "2026-11-20T06:32:51Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "bac81adb5934ec25a9449bd3be86a9fadf8aa1b5",
       "ci": {
         "status": "unknown",
         "conclusion": null,
