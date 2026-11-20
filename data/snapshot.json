@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T13:12:21.349950+00:00",
+  "generatedAt": "2026-11-20T13:20:28.944015+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3b8953ffabd24ef0f89c4dc8f536e4d281209f49",
+  "sourceCommit": "63467c9bf5cf25384a252035242f73fc4ab21bbd",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 774,
+      "title": "test(SEC-P1): gate completo dei controller Joomla e guardie HTTP/CSRF",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/774",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T13:20:02Z",
+      "mergedAt": "2026-11-20T13:19:59Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "161de3d9edcd1964dcc607332c3a4e820c0a391f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44742600560"
+      }
+    },
     {
       "number": 773,
       "title": "docs(history): merge CI e pacchetto SEC-P1 PR #772",
@@ -386,9 +405,9 @@
       "milestone": "1.0.0",
       "headSha": "2da0180a2b8c286a2f370463a8c299d25e18b724",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44719107434"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -405,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "c0f3a6456947d9880aa801345621bc5e3a404a25",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44718310286"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1684,26 +1703,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 694,
-      "title": "docs: registra protezione attestati EDGE-01, CI e artefatto (#693)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/694",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T11:25:09Z",
-      "mergedAt": "2026-11-19T11:25:06Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8333ff93cfb17c41b57fe74a109de68c26f3bd62",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1735,8 +1734,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.6-dev",
-    "createdAt": "2026-11-20T13:09:42Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44741268224/artifacts/14630079654"
+    "createdAt": "2026-11-20T13:19:39Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44742600560/artifacts/14632016676"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
