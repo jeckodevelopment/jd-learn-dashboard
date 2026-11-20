@@ -2216,7 +2216,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "187",
+    "prs": "187;754",
     "todo": "Estendere validazioni e autorizzazioni alle azioni core ancora mancanti; revisione indipendente e prove della matrice ruoli restano verifiche.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-113; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Copertura completa delle azioni ancora mancanti, revisione sicurezza indipendente e test di tutti i ruoli/oggetti; nessuna certificazione ASVS.",
     "criteria": "Identita, autorizzazioni e richieste.  Utenti/sessioni e livelli Joomla; controllo oggetto/parent a ogni operazione, CSRF su mutazioni browser, metodo HTTP, concorrenza e idempotenza. La presenza di un token CSRF non equivale a un permesso. I job e i plugin non acquisiscono privilegi generici da super user"
