@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-20T15:56:55.734146+00:00",
+  "generatedAt": "2026-11-20T15:58:31.636371+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-20T15:57:57Z",
+      "commit": "c537bee28981bbcc74234d83b3667b168e16eb22",
+      "number": 795,
+      "title": "docs(history): tracciare CI, merge e ZIP di SEC-P1 PR #794",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/795"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T15:56:27Z",
@@ -1594,14 +1602,6 @@
       "number": 617,
       "title": "fix: archived courses never reopen admissions or delivery on restore (0.60.1)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/617"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T11:55:56Z",
-      "commit": "01ce6027eb8e3ad7c946d50b9edd285770f7f54d",
-      "number": 615,
-      "title": "feat: guard permanent course deletion by historical dependencies (0.60.0)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/615"
     }
   ]
 }

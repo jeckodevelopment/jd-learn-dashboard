@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T15:56:55.734146+00:00",
+  "generatedAt": "2026-11-20T15:58:31.636371+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e71303714951c5b1ef3575d1c7440933cba0105a",
+  "sourceCommit": "c537bee28981bbcc74234d83b3667b168e16eb22",
   "progress": 57.48,
   "developmentProgress": 57.48,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 795,
+      "title": "docs(history): tracciare CI, merge e ZIP di SEC-P1 PR #794",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/795",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T15:58:00Z",
+      "mergedAt": "2026-11-20T15:57:57Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4fefd7ba680cf9e5ae0891f555a4c39318b8dad5",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44768453108"
+      }
+    },
     {
       "number": 794,
       "title": "fix(SEC-P1): restringere dispatch e censire task dei 37 controller Joomla",
@@ -422,9 +442,9 @@
       "milestone": "1.0.0",
       "headSha": "117795aab7bfbd3a8a1ef5b24b6bad8d3955cc8f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44748360213"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,25 +1697,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c5ca27c47f2d67201d4480d65b503f599b665546",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 714,
-      "title": "feat(DOC-05): guida contestuale bilingue per tutte le 29 viste backend",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/714",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T17:24:49Z",
-      "mergedAt": "2026-11-19T17:24:46Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "97e839251ddb4f7e66871a374bfc8b644837ad29",
       "ci": {
         "status": "unknown",
         "conclusion": null,
