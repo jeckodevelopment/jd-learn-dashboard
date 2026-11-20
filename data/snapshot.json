@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-20T21:02:53.175084+00:00",
+  "generatedAt": "2026-11-20T21:04:42.665806+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "17541521b691f9aa58fb84c4baa3ecc1ec194eb3",
+  "sourceCommit": "e080cd8635243d2972690130cce3312b75d74e89",
   "progress": 58.8,
   "developmentProgress": 58.8,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 821,
+      "title": "docs(history): registrare merge, CI, pacchetto e progresso DOC-02 PR #820",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/821",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-20T21:04:12Z",
+      "mergedAt": "2026-11-20T21:04:09Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "135b88461bdfbcd66ed541a8528cbdda5e477e9b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44816907232"
+      }
+    },
     {
       "number": 820,
       "title": "docs(DOC-02): manuali amministratore completi e avanzamento sviluppo riconciliato",
@@ -1679,25 +1699,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "cb37686f33391c1ff7c52e7d101e19544b730d87",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 740,
-      "title": "feat(DOC-07): diagnostica scheduler azionabile e ACL per operatori (0.64.0)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/740",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-19T23:58:56Z",
-      "mergedAt": "2026-11-19T23:58:54Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0d43931cb28d45e68031bbccb0d9a7840fbbdead",
       "ci": {
         "status": "unknown",
         "conclusion": null,
