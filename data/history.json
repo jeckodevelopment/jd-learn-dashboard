@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T21:47:20.731602+00:00",
+  "generatedAt": "2026-11-21T22:12:17.574540+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T22:11:46Z",
+      "commit": "b725b47b40210cffbfcb20421cc029e40932b88d",
+      "number": 889,
+      "title": "fix(LCM-04): prevent teacher purge while linked to Joomla account",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/889"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T21:46:53Z",
@@ -1594,14 +1602,6 @@
       "number": 722,
       "title": "docs(DOC-08): matrice iniziale flussi core e gate collegamenti IT/EN",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/722"
-    },
-    {
-      "type": "requirement_changed",
-      "at": "2026-11-19T18:49:49.648567+00:00",
-      "commit": "bc3b7f88032a6e825de3c8879936339bfba40ffd",
-      "id": "MAIL-08",
-      "from": "Parziale",
-      "to": "Completata"
     }
   ]
 }
