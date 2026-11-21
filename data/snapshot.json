@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T15:13:28.840663+00:00",
+  "generatedAt": "2026-11-21T15:16:08.143666+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "55e5f48b55dc4ed1536ab23bf12f87be87696427",
+  "sourceCommit": "ddb14c89deb4bd53ebd9dd38659b409bd706da93",
   "progress": 60.87,
   "developmentProgress": 60.87,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 866,
+      "title": "docs(LES-03): record PR 865 merge and verified 0.64.21 Joomla package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/866",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T15:15:39Z",
+      "mergedAt": "2026-11-21T15:15:38Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0b8d2f45edde665afdd7a9d90b3252324161dffe",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44918127166"
+      }
+    },
     {
       "number": 865,
       "title": "fix(LES-03): support Windows absolute paths for private storage",
@@ -384,9 +404,9 @@
       "milestone": "1.0.0",
       "headSha": "8619d8e360efda8c8a3403ca530aa1206b509805",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44904965034"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1673,25 +1693,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "968a30a506ef47ecd025e36a3afbd95c824deb9b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 785,
-      "title": "test(SEC-P1): due processi Joomla concorrenti sulla riconciliazione email",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/785",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T14:48:37Z",
-      "mergedAt": "2026-11-20T14:48:35Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "403994045cc9dafe535344920bb98f63ba92545d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
