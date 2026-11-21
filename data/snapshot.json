@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T11:37:23.975482+00:00",
+  "generatedAt": "2026-11-21T11:39:14.894710+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "122c6ed6e5bca7b4a275f360d140b18b1b26d2f2",
+  "sourceCommit": "09ed28574f0694ce2629c0ba752988d961158bc8",
   "progress": 60.12,
   "developmentProgress": 60.12,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 849,
+      "title": "docs(history): archive SEC-P2 completion PR 848 and verified package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/849",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T11:38:44Z",
+      "mergedAt": "2026-11-21T11:38:43Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "92a7852e9fe89e331db2ae766a0a3aa72fe1e96d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44900048934"
+      }
+    },
     {
       "number": 848,
       "title": "security(SEC-P2): evidence-backed high/critical finding review and deployment blockers",
@@ -286,9 +306,9 @@
       "milestone": "1.0.0",
       "headSha": "34427d0ecc12b75c661025936ebc40880f613da9",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44894756115"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1672,25 +1692,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "3e100e5ed8edf54d57eaff712e6220177c6181cb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 768,
-      "title": "fix(SECDEV-03): impedire spoofing Unicode nei nomi dei materiali",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/768",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T12:34:46Z",
-      "mergedAt": "2026-11-20T12:34:43Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c1930ac499362e0b5c6527c5d57e4cf021bbfe68",
       "ci": {
         "status": "unknown",
         "conclusion": null,
