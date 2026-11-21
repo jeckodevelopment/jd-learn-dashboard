@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T21:45:37.993632+00:00",
+  "generatedAt": "2026-11-21T21:47:20.731602+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T21:46:53Z",
+      "commit": "9ab1f372ab84eaac52152c836dab6751315bd4e6",
+      "number": 888,
+      "title": "docs(LCM-03): reconcile PR #887 merge, CI and Joomla package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/888"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T21:45:10Z",
@@ -1594,14 +1602,6 @@
       "id": "MAIL-08",
       "from": "Parziale",
       "to": "Completata"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T18:49:17Z",
-      "commit": "bc3b7f88032a6e825de3c8879936339bfba40ffd",
-      "number": 721,
-      "title": "docs(MAIL-08): consolidare PATCH 0.60.9 e avanzamento 55,99%",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/721"
     }
   ]
 }

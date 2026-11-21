@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T21:45:37.993632+00:00",
+  "generatedAt": "2026-11-21T21:47:20.731602+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ab398b32222fb71580a69650e94186801e3d72a0",
+  "sourceCommit": "9ab1f372ab84eaac52152c836dab6751315bd4e6",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 888,
+      "title": "docs(LCM-03): reconcile PR #887 merge, CI and Joomla package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/888",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T21:46:55Z",
+      "mergedAt": "2026-11-21T21:46:53Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "80b2d65519245077fbce78c33bd9826405350054",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44953226385"
+      }
+    },
     {
       "number": 887,
       "title": "fix(LCM-03): enforce native checkout for direct pathway editorial saves",
@@ -342,9 +362,9 @@
       "milestone": "1.0.0",
       "headSha": "8c67a72f17d02c368e811053f412a5f9157ad408",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44937403670"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1669,25 +1689,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "23f8b29b65bea5efcc5237a3be35401b0a910d2d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 808,
-      "title": "test(SEC-P1): matrice threat-control e guardie trasversali plugin task media",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/808",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T18:20:21Z",
-      "mergedAt": "2026-11-20T18:19:42Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b7ad98e83f4edc2538f6d8a6bb611e44d7a4ead3",
       "ci": {
         "status": "unknown",
         "conclusion": null,
