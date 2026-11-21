@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T13:41:01.727361+00:00",
+  "generatedAt": "2026-11-21T13:48:53.005494+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "aafb718857b35ed27dfb5b0e6ed2d86845af6541",
-  "progress": 60.69,
-  "developmentProgress": 60.69,
+  "sourceCommit": "f58a39aec930a84d4da4ab32d59d559f2cfaf58f",
+  "progress": 60.78,
+  "developmentProgress": 60.78,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 46.92,
+      "development_evidence_floor_percent": 47.32,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 6,
+      "missing_criteria": 5,
       "unverifiable_criteria": 100,
       "unassessed_criteria": 0
     },
@@ -129,12 +129,52 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 1,
     "p0": 0,
     "p1": 1
   },
   "prs": [
+    {
+      "number": 860,
+      "title": "docs(SECDEV-07/02): reconcile verified SAST gates and development metrics",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/860",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-21T13:48:34Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d5ca537a93c21579f6389e21541a16d9b3613f6d",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 859,
+      "title": "docs(SECDEV-07/02): reconcile verified SAST/style/SCA controls and progress",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/859",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T13:48:23Z",
+      "mergedAt": "2026-11-21T13:48:21Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5775768c85234e54c01ab2d3ee4f18ab7b8b6a6a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44910596720"
+      }
+    },
     {
       "number": 858,
       "title": "security(SECDEV-07/02): add pinned cross-language SAST, style and package SCA gates",
@@ -1672,26 +1712,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "117795aab7bfbd3a8a1ef5b24b6bad8d3955cc8f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 778,
-      "title": "docs(history): merge e pacchetto SEC-P1 PR #777",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/778",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T13:48:12Z",
-      "mergedAt": "2026-11-20T13:48:09Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "88f5bdd2aca28785b6e1c455f7cb1fa4c9f63864",
       "ci": {
         "status": "unknown",
         "conclusion": null,

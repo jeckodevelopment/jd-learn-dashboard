@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T13:41:01.727361+00:00",
+  "generatedAt": "2026-11-21T13:48:53.005494+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T13:48:21Z",
+      "commit": "f58a39aec930a84d4da4ab32d59d559f2cfaf58f",
+      "number": 859,
+      "title": "docs(SECDEV-07/02): reconcile verified SAST/style/SCA controls and progress",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/859"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-21T13:48:53.005494+00:00",
+      "commit": "f58a39aec930a84d4da4ab32d59d559f2cfaf58f",
+      "from": 60.69,
+      "to": 60.78,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T13:40:34Z",
@@ -1586,22 +1602,6 @@
       "number": 696,
       "title": "docs: registra SCR-01 pending approval, CI e avanzamento (#695)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/696"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T11:45:04Z",
-      "commit": "864748b8c5e75f119f21d2efe7a5c0b1527bda88",
-      "number": 695,
-      "title": "feat(catalog): richieste di iscrizione pendenti nelle card e avanzamento SCR-01",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/695"
-    },
-    {
-      "type": "estimate_changed",
-      "at": "2026-11-19T11:45:29.635551+00:00",
-      "commit": "864748b8c5e75f119f21d2efe7a5c0b1527bda88",
-      "from": 54.82,
-      "to": 54.9,
-      "asOf": "2026-11-15"
     }
   ]
 }
