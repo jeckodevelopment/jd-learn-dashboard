@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T22:45:34.659867+00:00",
+  "generatedAt": "2026-11-21T22:57:58.393654+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T22:57:24Z",
+      "commit": "60e33330001774dd8e89d33fc8c0c9c823ab4cfd",
+      "number": 893,
+      "title": "fix(CAT-02): show public lesson preview only for supported text lessons",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/893"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T22:45:02Z",
@@ -1594,14 +1602,6 @@
       "number": 726,
       "title": "feat(LIFE-01): anteprima dipendenze e conferma sicura della purga corsi",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/726"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T19:35:28Z",
-      "commit": "9a25d2033c7091989bd1735f096071d6094c9539",
-      "number": 725,
-      "title": "docs(DOC-06): consolidare merge, CI e pacchetto PR #724",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/725"
     }
   ]
 }
