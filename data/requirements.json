@@ -2642,11 +2642,11 @@
   {
     "id": "SEC-P2",
     "area": "SEC",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "822;824;826;828;842;844;846",
-    "todo": "SEC-P2/criterion_01 implementato; SEC-P2/criterion_02 resta da chiudere con risk review e inventario finding high/critical. Collaudo reale di CSP, logging e storage classificato separatamente come accettazione Joomla.",
+    "prs": "822;824;826;828;842;844;846;848",
+    "todo": "Nessuno: entrambi i criteri SEC-P2 implementati e coperti da evidenze del software e della CI. Riesame del core Joomla e dei video legacy sul sito di prova rimane gate di accettazione/rilascio separato; non anticipare go-live.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Hardening runtime/supply chain: dipendenze, segreti, logging, package, CSP e integrazioni provider; nessun finding critico/alto irrisolto."
   },

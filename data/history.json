@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T11:19:30.182306+00:00",
+  "generatedAt": "2026-11-21T11:37:23.975482+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-21T11:37:23.975482+00:00",
+      "commit": "122c6ed6e5bca7b4a275f360d140b18b1b26d2f2",
+      "id": "SEC-P2",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T11:37:01Z",
+      "commit": "122c6ed6e5bca7b4a275f360d140b18b1b26d2f2",
+      "number": 848,
+      "title": "security(SEC-P2): evidence-backed high/critical finding review and deployment blockers",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/848"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-21T11:37:23.975482+00:00",
+      "commit": "122c6ed6e5bca7b4a275f360d140b18b1b26d2f2",
+      "from": 59.89,
+      "to": 60.12,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T11:19:06Z",
@@ -1578,30 +1602,6 @@
       "number": 685,
       "title": "docs: registra merge e artefatto della PR #684 (CAT-01)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/685"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T10:03:33Z",
-      "commit": "3155bcccfc6af392c5eb87bf051eac9fe65c50a0",
-      "number": 684,
-      "title": "feat(catalog): filtro facoltativo per corsi disponibili (CAT-01)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/684"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T09:51:33Z",
-      "commit": "132ec4f9cc22e29918be878a67aa939d4bd6c4f1",
-      "number": 683,
-      "title": "feat(metrics): riconciliazione automatica avanzamento per nove macroaree",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/683"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T23:48:16Z",
-      "commit": "fcd2a7fc6ff3c127473e3b1a0884bd3ba44bcc84",
-      "number": 682,
-      "title": "fix: show current development and QA dashboard metrics",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/682"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T11:19:30.182306+00:00",
+  "generatedAt": "2026-11-21T11:37:23.975482+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c5a1ac1e06f1c32e445a25cb74a95593e199abfa",
-  "progress": 59.89,
-  "developmentProgress": 59.89,
+  "sourceCommit": "122c6ed6e5bca7b4a275f360d140b18b1b26d2f2",
+  "progress": 60.12,
+  "developmentProgress": 60.12,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 43.59,
+      "development_evidence_floor_percent": 44.57,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 10,
+      "missing_criteria": 9,
       "unverifiable_criteria": 100,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 848,
+      "title": "security(SEC-P2): evidence-backed high/critical finding review and deployment blockers",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/848",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T11:37:03Z",
+      "mergedAt": "2026-11-21T11:37:01Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0c1e05b150273f1a437f1d3f97a1692fc26dad75",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44899594920"
+      }
+    },
     {
       "number": 847,
       "title": "docs(history): SEC-P2 PR 846 merge, verified package and progress",
@@ -287,9 +306,9 @@
       "milestone": "1.0.0",
       "headSha": "06bf20b28bddb868153c1634a288c9073f4cb1fc",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44894656598"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -307,9 +326,9 @@
       "milestone": "1.0.0",
       "headSha": "9c681c495b3bb9eb43978ef2f9c5128274244f24",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44837336647"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -326,9 +345,9 @@
       "milestone": "1.0.0",
       "headSha": "f89b9679f0a1e04c25bd7998fe6d43a20941fc79",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44836629359"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,26 +1696,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 767,
-      "title": "docs(history): PR #766, criterio PBASE-03 e artefatto verificato",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/767",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T12:23:22Z",
-      "mergedAt": "2026-11-20T12:23:20Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "85942b298733615c459c22d36ff95e8e112a9d27",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1740,8 +1739,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.18-dev",
-    "createdAt": "2026-11-21T11:16:56Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44898047577/artifacts/14704926471"
+    "createdAt": "2026-11-21T11:36:11Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44899594920/artifacts/14704944223"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
