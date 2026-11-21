@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T21:24:10.427665+00:00",
+  "generatedAt": "2026-11-21T21:27:02.890448+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T21:26:26Z",
+      "commit": "cfec36ae8210347473619ff8c94324f3d0c7ffcd",
+      "number": 886,
+      "title": "docs(LCM-03/04): reconcile PR #885 merge and CI evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/886"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T21:23:43Z",
@@ -1594,14 +1602,6 @@
       "from": 55.76,
       "to": 55.99,
       "asOf": "2026-11-15"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T18:44:46Z",
-      "commit": "d082b7259d3c2b16e5f0fd9ecdfee812b55e685b",
-      "number": 720,
-      "title": "fix(MAIL-08): invio test idempotente su refresh — PATCH SemVer 0.60.9",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/720"
     }
   ]
 }

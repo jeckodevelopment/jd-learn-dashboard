@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T21:24:10.427665+00:00",
+  "generatedAt": "2026-11-21T21:27:02.890448+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "648145b9d4844166806f6a1b2ce0681d98e60be8",
+  "sourceCommit": "cfec36ae8210347473619ff8c94324f3d0c7ffcd",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 886,
+      "title": "docs(LCM-03/04): reconcile PR #885 merge and CI evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/886",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T21:26:28Z",
+      "mergedAt": "2026-11-21T21:26:26Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "06349f114b57edc378c4544194fb1a26432e179c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44951441744"
+      }
+    },
     {
       "number": 885,
       "title": "fix(LCM-03/04): protect native Joomla multilingual references on purge",
@@ -1669,25 +1689,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "cea68e6dc03227dac8269e2f1311ccca1bf58a0c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 806,
-      "title": "test(SEC-P1): verifiche negative consolidate su tutte le operazioni iscrizioni",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/806",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T17:54:29Z",
-      "mergedAt": "2026-11-20T17:54:26Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a6d4d374423ccaf3eda8cf68146639b863d616fe",
       "ci": {
         "status": "unknown",
         "conclusion": null,
