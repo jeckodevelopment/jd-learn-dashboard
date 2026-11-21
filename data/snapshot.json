@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T22:12:17.574540+00:00",
+  "generatedAt": "2026-11-21T22:13:58.479182+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b725b47b40210cffbfcb20421cc029e40932b88d",
+  "sourceCommit": "550eb3db51f9efaf56bfa247d8e14fab052b7f74",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 890,
+      "title": "docs(LCM-04): reconcile PR #889 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/890",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T22:13:30Z",
+      "mergedAt": "2026-11-21T22:13:28Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3298f623157155e9edb284524eb8ea66e1266075",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44955537418"
+      }
+    },
     {
       "number": 889,
       "title": "fix(LCM-04): prevent teacher purge while linked to Joomla account",
@@ -343,9 +363,9 @@
       "milestone": "1.0.0",
       "headSha": "ca2ab1fbaeed543ee7500f343cf10858e5d7195b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44940538244"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1670,25 +1690,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "06b81e75b5266c0682202c1b4027a2e721eee989",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 810,
-      "title": "fix(SEC-P1): conflict on mutated replay of queued course communication",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/810",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T18:59:10Z",
-      "mergedAt": "2026-11-20T18:58:43Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "85d45c05c29d14858c7ad22fb616ef952f42c69f",
       "ci": {
         "status": "unknown",
         "conclusion": null,
