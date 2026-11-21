@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T22:13:58.479182+00:00",
+  "generatedAt": "2026-11-21T22:42:03.388498+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "550eb3db51f9efaf56bfa247d8e14fab052b7f74",
+  "sourceCommit": "840bc037f8dd4203db492fcd8f3be1409e726774",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 891,
+      "title": "fix(LES-02): unify safe HTML policy for pathways and teacher biographies",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/891",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T22:41:37Z",
+      "mergedAt": "2026-11-21T22:41:35Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "248bbd634f8c0c241b339fe4c0d02c3881b24495",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44957653022"
+      }
+    },
     {
       "number": 890,
       "title": "docs(LCM-04): reconcile PR #889 merge, CI and package evidence",
@@ -1676,25 +1695,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 811,
-      "title": "fix(SEC-P1): threat review completa e fail-closed dello storage video locale",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/811",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T19:44:49Z",
-      "mergedAt": "2026-11-20T19:44:25Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "06b81e75b5266c0682202c1b4027a2e721eee989",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1738,8 +1738,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T22:11:26Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44955053271/artifacts/14726583923"
+    "createdAt": "2026-11-21T22:41:02Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44957653022/artifacts/14728063638"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
