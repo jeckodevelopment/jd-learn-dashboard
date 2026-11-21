@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T17:14:42.786015+00:00",
+  "generatedAt": "2026-11-21T17:27:16.321036+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9793b110851db55a8661d54ae13594a7c630ed07",
+  "sourceCommit": "e6d6abfbadaab147924a374c2c5b454f90eb3a14",
   "progress": 60.97,
   "developmentProgress": 60.97,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 874,
+      "title": "feat(SCR-16): consolidate effective course and menu inheritance diagnostics",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/874",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T17:26:51Z",
+      "mergedAt": "2026-11-21T17:26:49Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3c6529cac329aca8a8ad00157349701d1510ddae",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44929559431"
+      }
+    },
     {
       "number": 873,
       "title": "fix(SCR-16): diagnose private video root and ffprobe before reporting local video ready",
@@ -1678,25 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 794,
-      "title": "fix(SEC-P1): restringere dispatch e censire task dei 37 controller Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/794",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T15:56:29Z",
-      "mergedAt": "2026-11-20T15:56:27Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f9a073b1c303d948fab06376c989775791f290d6",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1740,8 +1740,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T17:13:43Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44928507305/artifacts/14716778262"
+    "createdAt": "2026-11-21T17:25:57Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44929559431/artifacts/14717521331"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
