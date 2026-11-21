@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T12:34:45.289973+00:00",
+  "generatedAt": "2026-11-21T12:40:11.956138+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "bee22c0ba9420a4d65f78dda0a43c4021ac4e0d1",
-  "progress": 60.12,
-  "developmentProgress": 60.12,
+  "sourceCommit": "5c3eb3744e93c8e9abd66b9a0fe5d2da47faadeb",
+  "progress": 60.59,
+  "developmentProgress": 60.59,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 44.57,
+      "development_evidence_floor_percent": 46.53,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 9,
+      "missing_criteria": 7,
       "unverifiable_criteria": 100,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 853,
+      "title": "docs(SEC-P3): reconcile completed software criteria and verified package after PR 852",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/853",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T12:39:47Z",
+      "mergedAt": "2026-11-21T12:39:45Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8619d8e360efda8c8a3403ca530aa1206b509805",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44904965034"
+      }
+    },
     {
       "number": 852,
       "title": "security(SEC-P3): complete privacy inventory, multi-user Joomla tests and rights procedures",
@@ -227,9 +247,9 @@
       "milestone": "1.0.0",
       "headSha": "0c1e05b150273f1a437f1d3f97a1692fc26dad75",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44899594920"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1672,25 +1692,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "b97a4a6b3fb5900591fb614ade98e3e444d3ea60",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 772,
-      "title": "fix(SEC-P1): protezione Referer dei token consenso e inventario superfici 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/772",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T13:10:06Z",
-      "mergedAt": "2026-11-20T13:10:03Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8123e8c8712ca56bb0ffb7fcd7197647a5bf3ed4",
       "ci": {
         "status": "unknown",
         "conclusion": null,

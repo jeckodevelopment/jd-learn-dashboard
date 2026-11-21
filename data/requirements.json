@@ -2653,12 +2653,12 @@
   {
     "id": "SEC-P3",
     "area": "SEC",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "822;824;850;852",
-    "todo": "PR #852: inventario di 47 tabelle; gate anti-deriva; procedure privacy e backup IT/EN; test Joomla multiutente e consensi nei tre stati. Chiusura implementativa subordinata a CI e riconciliazione del ledger; accettazione manuale e policy di retention del titolare separate.",
-    "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
+    "todo": "Nessuno sui due criteri SEC-P3 dopo PR #852 e verifiche CI; il titolare deve definire ed esercitare retention e backup.",
+    "tests": "Collaudi Joomla manuali con ruoli reali, export e rimozione con dati di prova, backup/restore e replay richieste, cookie/provider e approvazione della policy del titolare; CI non equivale all'accettazione.",
     "criteria": "Privacy by design: dati e trattamenti, export/cancellazione Joomla, retention email/progressi/attestati, backup e diritti; verifiche con account di prova."
   },
   {
