@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T22:57:58.393654+00:00",
+  "generatedAt": "2026-11-21T22:59:32.501043+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "60e33330001774dd8e89d33fc8c0c9c823ab4cfd",
+  "sourceCommit": "4ed35e729f554c3c2457a60d5fcd82d36c63f9bf",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 1,
     "p0": 0,
     "p1": 1
@@ -139,17 +139,20 @@
       "number": 894,
       "title": "docs(CAT-02): reconcile PR #893 merge and build evidence",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/894",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-21T22:57:44Z",
-      "mergedAt": null,
-      "labels": [],
-      "milestone": null,
+      "updated": "2026-11-21T22:58:58Z",
+      "mergedAt": "2026-11-21T22:58:56Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
       "headSha": "4356a9f65bbf9e62f2e0f8a397f00a919b5142d1",
       "ci": {
-        "status": "pending",
-        "conclusion": null,
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44959398628"
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44959400478"
       }
     },
     {
@@ -1686,26 +1689,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "b60afac6da0ae430c6f5474b7cccf8ed2befd485",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 814,
-      "title": "docs(PBASE-02): contratti completi dei quattro provider video e gate anti-drift",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/814",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T20:15:17Z",
-      "mergedAt": "2026-11-20T20:15:14Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e27187d53df9657656fb934d754d6866f447d63b",
       "ci": {
         "status": "unknown",
         "conclusion": null,
