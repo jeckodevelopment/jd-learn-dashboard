@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T18:52:55.510167+00:00",
+  "generatedAt": "2026-11-21T19:11:33.273983+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "336d10c546aa109381231cf1260758b0e91fd509",
+  "sourceCommit": "61cc397c152ad6e515dc3d6104aea63862c29c3c",
   "progress": 60.97,
   "developmentProgress": 60.97,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 878,
+      "title": "fix(SCR-16): restore provider diagnostics labels and enforce manager ACL",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/878",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T19:11:04Z",
+      "mergedAt": "2026-11-21T19:11:02Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e8856f91d83bf5893585d4726ebfa9c0f9a56203",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44939119073"
+      }
+    },
     {
       "number": 877,
       "title": "fix(SCR-16): validate inherited settings and sanitize provider diagnostics",
@@ -362,9 +381,9 @@
       "milestone": "1.0.0",
       "headSha": "0b8d2f45edde665afdd7a9d90b3252324161dffe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44918127166"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1676,25 +1695,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 798,
-      "title": "fix(SEC-P1): imporre identità corrente su tutti i produttori della coda SMTP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/798",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T16:44:50Z",
-      "mergedAt": "2026-11-20T16:44:47Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "caf7d7c1a81192c95c422b7782aa269d17756592",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1738,8 +1738,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T18:51:18Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44937403644/artifacts/14720860359"
+    "createdAt": "2026-11-21T19:10:32Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44939119035/artifacts/14720489326"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
