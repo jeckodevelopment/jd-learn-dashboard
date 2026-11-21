@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T22:42:03.388498+00:00",
+  "generatedAt": "2026-11-21T22:45:34.659867+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T22:45:02Z",
+      "commit": "a9a4340c319f6c2d756b050d451bf42c337bbddd",
+      "number": 892,
+      "title": "docs(LES-02): reconcile PR #891 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/892"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T22:41:35Z",
@@ -1594,14 +1602,6 @@
       "number": 725,
       "title": "docs(DOC-06): consolidare merge, CI e pacchetto PR #724",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/725"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T19:34:11Z",
-      "commit": "7944a52459ac43aa7618682831ef6b097032e8ec",
-      "number": 724,
-      "title": "feat(DOC-06): aiuti nativi IT/EN per accessi, presentazione e calendario corso",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/724"
     }
   ]
 }

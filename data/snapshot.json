@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T22:42:03.388498+00:00",
+  "generatedAt": "2026-11-21T22:45:34.659867+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "840bc037f8dd4203db492fcd8f3be1409e726774",
+  "sourceCommit": "a9a4340c319f6c2d756b050d451bf42c337bbddd",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 892,
+      "title": "docs(LES-02): reconcile PR #891 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/892",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T22:45:04Z",
+      "mergedAt": "2026-11-21T22:45:02Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "29ac87d0b2f7fc3530353b38ccc594de8def506c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44958264702"
+      }
+    },
     {
       "number": 891,
       "title": "fix(LES-02): unify safe HTML policy for pathways and teacher biographies",
@@ -1670,26 +1690,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "61fdbe6ca99d6ee259488310b24551aab8779fff",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 812,
-      "title": "test(UI-07): contratto DOM versionato completo delle 17 viste e gate CSS/override",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/812",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T20:04:05Z",
-      "mergedAt": "2026-11-20T20:04:03Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "bf5a6b2d4cd866774ac031e7379bd451b87dd646",
       "ci": {
         "status": "unknown",
         "conclusion": null,
