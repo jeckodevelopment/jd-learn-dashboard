@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T13:15:19.339418+00:00",
+  "generatedAt": "2026-11-21T13:16:55.366758+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "1e64bfb89857aec7adeb68a7d15fb50e61a84b9f",
+  "sourceCommit": "39f36ad754f143c17b6bf85e93f8e8a349d0f64b",
   "progress": 60.69,
   "developmentProgress": 60.69,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,26 @@
   },
   "prs": [
     {
+      "number": 857,
+      "title": "docs(SECDEV-07): record verified CI and merge evidence for PR 856",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/857",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T13:16:31Z",
+      "mergedAt": "2026-11-21T13:16:28Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "faa62455bb951a200079e1e818dd4e6fbbb90548",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44907980009"
+      }
+    },
+    {
       "number": 856,
       "title": "ci(SECDEV-07): add tracked Python/JavaScript syntax gate with negative fixtures",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/856",
@@ -247,9 +267,9 @@
       "milestone": "1.0.0",
       "headSha": "20aaadf68ea5ebd4361d6bb154a2a0d7ffb5d52a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44902375028"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1672,26 +1692,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "ae02b46ef4bc7ad876d4f589168e2dfc9f49a731",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 776,
-      "title": "docs(history): merge e pacchetto SEC-P1 PR #775",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/776",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T13:32:02Z",
-      "mergedAt": "2026-11-20T13:32:01Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c89c5cc086d37bbe30e1407972a86679c13bc6ce",
       "ci": {
         "status": "unknown",
         "conclusion": null,

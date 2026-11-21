@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T13:15:19.339418+00:00",
+  "generatedAt": "2026-11-21T13:16:55.366758+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T13:16:28Z",
+      "commit": "39f36ad754f143c17b6bf85e93f8e8a349d0f64b",
+      "number": 857,
+      "title": "docs(SECDEV-07): record verified CI and merge evidence for PR 856",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/857"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T13:14:50Z",
@@ -1594,14 +1602,6 @@
       "number": 694,
       "title": "docs: registra protezione attestati EDGE-01, CI e artefatto (#693)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/694"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T11:22:53Z",
-      "commit": "6286974784d6455247555fbb0524e9c3c1c3cbb8",
-      "number": 693,
-      "title": "fix(certificates): nega attestati agli account Joomla bloccati e aggiorna EDGE-01",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/693"
     }
   ]
 }
