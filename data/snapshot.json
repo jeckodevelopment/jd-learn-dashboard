@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T04:14:19.568044+00:00",
+  "generatedAt": "2026-11-21T10:31:28.588648+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e7765ef6d22c53a4b60e2f5f6e75d98129ac6622",
+  "sourceCommit": "3ba2accf2b37c1755a31b0c6024519cd5ef10fd4",
   "progress": 59.66,
   "developmentProgress": 59.66,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 840,
+      "title": "docs(DOC-04): versioned Joomla extension contracts and reproducible technical procedures",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/840",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T10:30:59Z",
+      "mergedAt": "2026-11-21T10:30:56Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "06bf20b28bddb868153c1634a288c9073f4cb1fc",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44894656598"
+      }
+    },
     {
       "number": 839,
       "title": "docs(history): record UI-07 PR #838 merge, CI and package checksum",
@@ -363,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "b323188315564b0e357f10e32c2f01b3ebe0d80e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44824610890"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1673,26 +1693,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c0f3a6456947d9880aa801345621bc5e3a404a25",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 759,
-      "title": "docs(history): merge, CI e pacchetto verificato della PR #758",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/759",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T10:10:35Z",
-      "mergedAt": "2026-11-20T10:10:32Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "139dec640a5a8c586665f2f6178de35fd5f784f1",
       "ci": {
         "status": "unknown",
         "conclusion": null,

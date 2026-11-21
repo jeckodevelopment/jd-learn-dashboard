@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T04:14:19.568044+00:00",
+  "generatedAt": "2026-11-21T10:31:28.588648+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T10:30:56Z",
+      "commit": "3ba2accf2b37c1755a31b0c6024519cd5ef10fd4",
+      "number": 840,
+      "title": "docs(DOC-04): versioned Joomla extension contracts and reproducible technical procedures",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/840"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-20T23:31:19Z",
@@ -1594,14 +1602,6 @@
       "number": 674,
       "title": "docs: complete PR follow-through policy",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/674"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T22:32:56Z",
-      "commit": "622e5d28282399b0da1c8ef6fc56174ddeed23c8",
-      "number": 673,
-      "title": "docs: reconcile SCR-01 duration PR 672 merge and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/673"
     }
   ]
 }
