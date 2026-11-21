@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T10:57:42.814864+00:00",
+  "generatedAt": "2026-11-21T11:18:08.756859+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "98b1fb32faa9d87997da0277a81153fd6667d6e7",
-  "progress": 59.66,
-  "developmentProgress": 59.66,
+  "sourceCommit": "f13f88dd8b7f8cef0af4b7328cf810a39a7b0c57",
+  "progress": 59.89,
+  "developmentProgress": 59.89,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 42.61,
+      "development_evidence_floor_percent": 43.59,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 11,
+      "missing_criteria": 10,
       "unverifiable_criteria": 100,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 846,
+      "title": "security(SEC-P2): block unreviewed bundled runtime dependencies in Joomla package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/846",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T11:17:44Z",
+      "mergedAt": "2026-11-21T11:17:42Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c3bfbb693df06fcae7e6b0fc9f3fa2376e060efa",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44898047577"
+      }
+    },
     {
       "number": 845,
       "title": "docs(history): record SEC-P2 historical credential scan PR 844",
@@ -326,9 +345,9 @@
       "milestone": "1.0.0",
       "headSha": "5d4a59c53e48c74517d82fb0a2480fa794e44cbe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44834082974"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -346,9 +365,9 @@
       "milestone": "1.0.0",
       "headSha": "a7176fc81c18f9fcdce108f66ce05b20e44f7a31",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44832905647"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -365,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "c34c3ddea936e8d9af54a56d54c9dd9cad15655f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44832138124"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,26 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 765,
-      "title": "docs(history): registrare PR #764 e avanzamento comprovato 57,40%",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/765",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T11:18:29Z",
-      "mergedAt": "2026-11-20T11:18:26Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d4a575dba4742590f6af4bd6ebb6e0dd043ce623",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1741,8 +1740,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.18-dev",
-    "createdAt": "2026-11-21T10:55:35Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44896235811/artifacts/14704416718"
+    "createdAt": "2026-11-21T11:16:56Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44898047577/artifacts/14704926471"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

@@ -2645,8 +2645,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "822;824;826;828;842;844",
-    "todo": "Eseguire verifica di advisory completi e storico segreti, patch/versioni su hosting reale, CSP/log, storage legacy e provider; documentare eventuali findings prima della release.",
+    "prs": "822;824;826;828;842;844;846",
+    "todo": "SEC-P2/criterion_01 implementato; SEC-P2/criterion_02 resta da chiudere con risk review e inventario finding high/critical. Collaudo reale di CSP, logging e storage classificato separatamente come accettazione Joomla.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Hardening runtime/supply chain: dipendenze, segreti, logging, package, CSP e integrazioni provider; nessun finding critico/alto irrisolto."
   },
