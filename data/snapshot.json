@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T17:03:16.554305+00:00",
+  "generatedAt": "2026-11-21T17:14:42.786015+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "77c69585ddd0ee2584d2b35de34da21a523c3928",
+  "sourceCommit": "9793b110851db55a8661d54ae13594a7c630ed07",
   "progress": 60.97,
   "developmentProgress": 60.97,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 873,
+      "title": "fix(SCR-16): diagnose private video root and ffprobe before reporting local video ready",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/873",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T17:14:16Z",
+      "mergedAt": "2026-11-21T17:14:14Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2dac015e7ae5a61baab0a1242c7fae6c46d99961",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44928507305"
+      }
+    },
     {
       "number": 872,
       "title": "docs(SCR-16): reconcile unified diagnostics criterion 01 as implemented",
@@ -364,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "2ae068a1ed15c74fd97f7d2f0a16f554aaec442c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44912303982"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,26 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 792,
-      "title": "docs(history): registrare merge e artefatto SEC-P1 PR #791",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/792",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T15:37:38Z",
-      "mergedAt": "2026-11-20T15:37:35Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "152a7686dd8553658bc8e44c78f4a41f642ad118",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1741,8 +1740,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T16:50:41Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44926383789/artifacts/14716331066"
+    "createdAt": "2026-11-21T17:13:43Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44928507305/artifacts/14716778262"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
