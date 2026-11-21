@@ -2558,7 +2558,7 @@
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "",
-    "todo": "Eseguire la riclassificazione evidence-based dei criteri DOC-04 dopo il gate del nuovo riferimento; non attribuire l'accettazione manuale.",
+    "todo": "Risolvere con evidenze l'unico criterio ancora unverifiable (descrizione completa struttura package e servizi core nelle varianti richieste); i due criteri di contratti plugin/database e procedure tecniche sono implemented nel registro dopo PR #901.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Riferimento tecnico su struttura pacchetto, servizi, plugin, database, upgrade, scheduler e troubleshooting, con procedure verificabili."
   },

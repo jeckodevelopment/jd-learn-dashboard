@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T23:52:12.800759+00:00",
+  "generatedAt": "2026-11-21T23:59:25.209332+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ef6bc1ae91d0ebc39419eedfa18e7fae3a2f3cd0",
-  "progress": 61.5,
-  "developmentProgress": 61.5,
+  "sourceCommit": "e0e66be441833881d849c9c854dfb81aaee4551e",
+  "progress": 61.73,
+  "developmentProgress": 61.73,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -117,10 +117,10 @@
       "label": "Packaging, documentazione e reporting",
       "requirements": 15,
       "weight_percent": 7.01,
-      "development_evidence_floor_percent": 41.67,
+      "development_evidence_floor_percent": 45,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 12,
+      "missing_criteria": 10,
       "unverifiable_criteria": 24,
       "unassessed_criteria": 0
     }
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 902,
+      "title": "docs(DOC-04): audit two fulfilled criteria and reconcile 61.73% progress",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/902",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T23:58:52Z",
+      "mergedAt": "2026-11-21T23:58:50Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "336536a6cbdc86ea73337904535faef4b8f83068",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44964024832"
+      }
+    },
     {
       "number": 901,
       "title": "docs(DOC-04): versioned architecture and reproducible operations with drift gate",
@@ -1674,25 +1694,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 822,
-      "title": "fix(security): consolidate SEC-P2 legacy storage review and SEC-P3 privacy removal guard",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/822",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T21:28:20Z",
-      "mergedAt": "2026-11-20T21:28:17Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7b1fc4f06c8058179c5a39216000bce2d5c76b79",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1736,8 +1737,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T23:51:21Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44963447507/artifacts/14730760955"
+    "createdAt": "2026-11-21T23:58:29Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44964024832/artifacts/14730931754"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
