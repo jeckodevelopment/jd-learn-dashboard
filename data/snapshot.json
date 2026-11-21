@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T19:27:19.677109+00:00",
+  "generatedAt": "2026-11-21T19:46:06.522191+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "2bd135f1056558ca5c42d8f410159e946c0df374",
-  "progress": 61.34,
-  "developmentProgress": 61.34,
+  "sourceCommit": "10f8c44cb446f9c15cfd7815da7b38576caedd10",
+  "progress": 61.5,
+  "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,11 +21,11 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 80.93,
+      "development_evidence_floor_percent": 82.38,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 15,
+      "unverifiable_criteria": 13,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 880,
+      "title": "fix(SCR-01): persist catalogue filters in Joomla pagination links",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/880",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T19:45:41Z",
+      "mergedAt": "2026-11-21T19:45:39Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4f341e4d0723b559f5816e4d7609484797a58562",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44942221248"
+      }
+    },
     {
       "number": 879,
       "title": "feat(SCR-16): close core configuration diagnostics without plugin side effects",
@@ -341,9 +360,9 @@
       "milestone": "1.0.0",
       "headSha": "23775d96cc9ad05a190ab7e15e70386a952f3b97",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44924931564"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -361,9 +380,9 @@
       "milestone": "1.0.0",
       "headSha": "09047055cb59ace0fe53fb03feb91aca5bb43599",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44920291115"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1675,25 +1694,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 800,
-      "title": "fix(SEC-P1): ACL aggiornate su attestati e guida email amministrativa",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/800",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T17:07:16Z",
-      "mergedAt": "2026-11-20T17:07:14Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ccedf932075779f2de39e382aa7db9cfb51eb81d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1737,8 +1737,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T19:26:22Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44940538244/artifacts/14720869195"
+    "createdAt": "2026-11-21T19:45:08Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44942221224/artifacts/14721834324"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
