@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T17:27:16.321036+00:00",
+  "generatedAt": "2026-11-21T18:14:51.848380+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e6d6abfbadaab147924a374c2c5b454f90eb3a14",
+  "sourceCommit": "3564dab02c6eeb6d7be02952b7e85e6c5260f2f6",
   "progress": 60.97,
   "developmentProgress": 60.97,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 875,
+      "title": "fix(SCR-16): make bounded configuration diagnostics actionable",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/875",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T18:14:23Z",
+      "mergedAt": "2026-11-21T18:14:20Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "11940ccd989af43dea8b968153b6e48962b1195b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44933892277"
+      }
+    },
     {
       "number": 874,
       "title": "feat(SCR-16): consolidate effective course and menu inheritance diagnostics",
@@ -363,9 +382,9 @@
       "milestone": "1.0.0",
       "headSha": "9713248304b17b19377b288d51266a8f59e10934",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44914115463"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -383,9 +402,9 @@
       "milestone": "1.0.0",
       "headSha": "86c0aec23e2967763aa4104aa6f7b44c5eb454d4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44912975571"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,26 +1696,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 795,
-      "title": "docs(history): tracciare CI, merge e ZIP di SEC-P1 PR #794",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/795",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T15:58:00Z",
-      "mergedAt": "2026-11-20T15:57:57Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4fefd7ba680cf9e5ae0891f555a4c39318b8dad5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1740,8 +1739,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T17:25:57Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44929559431/artifacts/14717521331"
+    "createdAt": "2026-11-21T18:13:58Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44933892277/artifacts/14719320860"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

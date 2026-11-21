@@ -1501,7 +1501,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "124;867;869;870;873;874",
+    "prs": "124;867;869;870;873;874;875",
     "todo": "Completare diagnostica delle esecuzioni/task core; code generali e report avanzati differiti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-53; AC-73; AC-84; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Diagnostica operativa completa, code/lease/ultime esecuzioni e dimensionamento dell’hosting.",
     "criteria": "Configurazione/diagnostica.  Parametri globali, valori ereditati, provider, template email, task, storage e controlli iniziali. Mostrare funzionalità non configurate con ragione e istruzioni; nessuna credenziale leggibile. Il controllo connessione non deve pubblicare video, alterare gruppi o inviare messaggi reali senza azione esplicita dell'operatore"

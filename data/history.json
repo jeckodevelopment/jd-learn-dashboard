@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T17:27:16.321036+00:00",
+  "generatedAt": "2026-11-21T18:14:51.848380+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T18:14:20Z",
+      "commit": "3564dab02c6eeb6d7be02952b7e85e6c5260f2f6",
+      "number": 875,
+      "title": "fix(SCR-16): make bounded configuration diagnostics actionable",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/875"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T17:26:49Z",
@@ -1594,14 +1602,6 @@
       "number": 711,
       "title": "docs(DOC-05): registrare evidenze finali PR #710",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/711"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T16:41:35Z",
-      "commit": "6054d1e5f7bd1fe1d28c6606339387164466c3bc",
-      "number": 710,
-      "title": "feat(DOC-05): guida contestuale offline IT/EN nelle schermate core",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/710"
     }
   ]
 }
