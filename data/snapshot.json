@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T23:11:12.814184+00:00",
+  "generatedAt": "2026-11-21T23:12:50.469315+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d3e3c27571a679008453ad2b98c8acf8a72388df",
+  "sourceCommit": "bde4093ffe834b1c7a659406c895b518cbe81f22",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 896,
+      "title": "docs(CAT-02): reconcile PR #895 merge and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/896",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T23:12:22Z",
+      "mergedAt": "2026-11-21T23:12:20Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "214d7a7ff2ad739c2abd3c5622a758aad5876b21",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44960538988"
+      }
+    },
     {
       "number": 895,
       "title": "fix(CAT-02): reject malformed scheduling in public lesson previews",
@@ -403,9 +423,9 @@
       "milestone": "1.0.0",
       "headSha": "a480e61f75918bba4e2f01fc4a8af18d9ab6bfb8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44948567575"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1668,26 +1688,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "9b4bcf60f7e3383f949b7479746b41b5dea31612",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 816,
-      "title": "feat(DOC-07): guide sicure e verifiche ACL per operazioni amministrative critiche",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/816",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T20:26:19Z",
-      "mergedAt": "2026-11-20T20:26:17Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "50a13ebd7b4a530accce9bb3da0ecc18a49ed2ed",
       "ci": {
         "status": "unknown",
         "conclusion": null,
