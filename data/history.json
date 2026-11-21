@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T19:11:33.273983+00:00",
+  "generatedAt": "2026-11-21T19:27:19.677109+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-21T19:27:19.677109+00:00",
+      "commit": "2bd135f1056558ca5c42d8f410159e946c0df374",
+      "id": "SCR-16",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T19:26:48Z",
+      "commit": "2bd135f1056558ca5c42d8f410159e946c0df374",
+      "number": 879,
+      "title": "feat(SCR-16): close core configuration diagnostics without plugin side effects",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/879"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-21T19:27:19.677109+00:00",
+      "commit": "2bd135f1056558ca5c42d8f410159e946c0df374",
+      "from": 60.97,
+      "to": 61.34,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T19:11:02Z",
@@ -1578,30 +1602,6 @@
       "number": 716,
       "title": "feat(DOC-05): collega tutte le guide IT/EN a manuali locali di 29 capitoli",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/716"
-    },
-    {
-      "type": "estimate_changed",
-      "at": "2026-11-19T17:58:31.420044+00:00",
-      "commit": "2808fd60102637ade9b4ee6f01190a24ad149378",
-      "from": 55.05,
-      "to": 55.52,
-      "asOf": "2026-11-15"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T17:26:17Z",
-      "commit": "28b601668f150c5be3c2bab2e84288d713abe409",
-      "number": 715,
-      "title": "docs(DOC-05): registrare prove di integrazione e pacchetto PR #714",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/715"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T17:24:46Z",
-      "commit": "a12ea7d40c3fbcad7810b60ddc9ab99a903c62fb",
-      "number": 714,
-      "title": "feat(DOC-05): guida contestuale bilingue per tutte le 29 viste backend",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/714"
     }
   ]
 }

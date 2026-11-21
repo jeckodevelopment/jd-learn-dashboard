@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T19:11:33.273983+00:00",
+  "generatedAt": "2026-11-21T19:27:19.677109+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "61cc397c152ad6e515dc3d6104aea63862c29c3c",
-  "progress": 60.97,
-  "developmentProgress": 60.97,
+  "sourceCommit": "2bd135f1056558ca5c42d8f410159e946c0df374",
+  "progress": 61.34,
+  "developmentProgress": 61.34,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,11 +21,11 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 77.45,
+      "development_evidence_floor_percent": 80.93,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 19,
+      "unverifiable_criteria": 15,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 879,
+      "title": "feat(SCR-16): close core configuration diagnostics without plugin side effects",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/879",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T19:26:51Z",
+      "mergedAt": "2026-11-21T19:26:48Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ca2ab1fbaeed543ee7500f343cf10858e5d7195b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44940538244"
+      }
+    },
     {
       "number": 878,
       "title": "fix(SCR-16): restore provider diagnostics labels and enforce manager ACL",
@@ -361,9 +380,9 @@
       "milestone": "1.0.0",
       "headSha": "17b677a0e37a7c54a3fcb5149011439f154ffeb6",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44919552427"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1675,26 +1694,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 799,
-      "title": "docs(history): merge, CI e checksum SEC-P1 PR #798",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/799",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T16:46:22Z",
-      "mergedAt": "2026-11-20T16:46:19Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "bf42d380d61a8b63c3e4e545120fcd7aeb261685",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1738,8 +1737,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T19:10:32Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44939119035/artifacts/14720489326"
+    "createdAt": "2026-11-21T19:26:22Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44940538244/artifacts/14720869195"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
