@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T12:09:08.545862+00:00",
+  "generatedAt": "2026-11-21T12:34:45.289973+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "770a2a860f9e6cb719534a59c6825966b43ae55f",
+  "sourceCommit": "bee22c0ba9420a4d65f78dda0a43c4021ac4e0d1",
   "progress": 60.12,
   "developmentProgress": 60.12,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 852,
+      "title": "security(SEC-P3): complete privacy inventory, multi-user Joomla tests and rights procedures",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/852",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T12:34:13Z",
+      "mergedAt": "2026-11-21T12:34:11Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9fe515a4a25eb92d783d11af9c9d5f268c3fcde7",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44904176809"
+      }
+    },
+    {
       "number": 851,
       "title": "docs(history): record SEC-P3 PR 850 merge, CI and package",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/851",
@@ -228,9 +247,9 @@
       "milestone": "1.0.0",
       "headSha": "7c78dedd3efbffccc3f7a518b8eea7c25fb6793d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44898474934"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -247,9 +266,9 @@
       "milestone": "1.0.0",
       "headSha": "c3bfbb693df06fcae7e6b0fc9f3fa2376e060efa",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44898047577"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -267,9 +286,9 @@
       "milestone": "1.0.0",
       "headSha": "e3f00eddeec87955613dea973e822a51ca8f53bb",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44896705962"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -286,9 +305,9 @@
       "milestone": "1.0.0",
       "headSha": "b2b036dc69b2b68bdc40cce1095ff882842c060f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44896235811"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,26 +1696,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 771,
-      "title": "docs(history): registrare merge CI e artefatto SEC-P1 PR #770",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/771",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T12:55:48Z",
-      "mergedAt": "2026-11-20T12:55:46Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ebc5667327f860ca3e306c21b7bbfec4691b4631",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1739,9 +1738,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.18-dev",
-    "createdAt": "2026-11-21T12:06:27Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44901833726/artifacts/14706431932"
+    "name": "JD-Learn-0.64.19-dev",
+    "createdAt": "2026-11-21T12:33:49Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44904176809/artifacts/14707436169"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

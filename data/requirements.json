@@ -2656,8 +2656,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "822;824;850",
-    "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
+    "prs": "822;824;850;852",
+    "todo": "PR #852: inventario di 47 tabelle; gate anti-deriva; procedure privacy e backup IT/EN; test Joomla multiutente e consensi nei tre stati. Chiusura implementativa subordinata a CI e riconciliazione del ledger; accettazione manuale e policy di retention del titolare separate.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Privacy by design: dati e trattamenti, export/cancellazione Joomla, retention email/progressi/attestati, backup e diritti; verifiche con account di prova."
   },
