@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T13:48:53.005494+00:00",
+  "generatedAt": "2026-11-21T14:14:15.904674+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T14:13:40Z",
+      "commit": "8cbaf5ba3742a1bb8eed310364adecff81d2d905",
+      "number": 861,
+      "title": "fix(AUT-04/LES-01): prevent silent truncation of native lesson field values on copy",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/861"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T13:48:21Z",
@@ -1594,14 +1602,6 @@
       "number": 697,
       "title": "feat(SCR-01): ordinamento catalogo per data di pubblicazione",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/697"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T11:46:38Z",
-      "commit": "cbe88231cdb08c983f37e75e6cf04ff2f309d5e6",
-      "number": 696,
-      "title": "docs: registra SCR-01 pending approval, CI e avanzamento (#695)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/696"
     }
   ]
 }

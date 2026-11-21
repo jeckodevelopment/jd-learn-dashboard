@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T13:48:53.005494+00:00",
+  "generatedAt": "2026-11-21T14:14:15.904674+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f58a39aec930a84d4da4ab32d59d559f2cfaf58f",
+  "sourceCommit": "8cbaf5ba3742a1bb8eed310364adecff81d2d905",
   "progress": 60.78,
   "developmentProgress": 60.78,
   "manualAcceptanceProgress": 4.67,
@@ -129,19 +129,38 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 1,
     "p0": 0,
     "p1": 1
   },
   "prs": [
     {
+      "number": 861,
+      "title": "fix(AUT-04/LES-01): prevent silent truncation of native lesson field values on copy",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/861",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T14:13:43Z",
+      "mergedAt": "2026-11-21T14:13:40Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2ae068a1ed15c74fd97f7d2f0a16f554aaec442c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44912303982"
+      }
+    },
+    {
       "number": 860,
       "title": "docs(SECDEV-07/02): reconcile verified SAST gates and development metrics",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/860",
-      "status": "open",
+      "status": "closed",
       "draft": false,
-      "updated": "2026-11-21T13:48:34Z",
+      "updated": "2026-11-21T13:50:31Z",
       "mergedAt": null,
       "labels": [
         "documentation",
@@ -1678,45 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 780,
-      "title": "docs(history): registrare merge e pacchetto SEC-P1 PR #779",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/780",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T14:00:02Z",
-      "mergedAt": "2026-11-20T13:59:59Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8dad4004ef409675d9e9080fe899cc041d32989d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 779,
-      "title": "test(SEC-P1): isolare destinatari e accodamento comunicazioni tra corsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/779",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T13:58:17Z",
-      "mergedAt": "2026-11-20T13:58:15Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "117795aab7bfbd3a8a1ef5b24b6bad8d3955cc8f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1759,9 +1739,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.19-dev",
-    "createdAt": "2026-11-21T13:39:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44909562794/artifacts/14709416811"
+    "name": "JD-Learn-0.64.20-dev",
+    "createdAt": "2026-11-21T14:13:10Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44912303968/artifacts/14711005135"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
