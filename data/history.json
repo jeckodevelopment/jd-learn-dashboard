@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T13:16:55.366758+00:00",
+  "generatedAt": "2026-11-21T13:41:01.727361+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T13:40:34Z",
+      "commit": "aafb718857b35ed27dfb5b0e6ed2d86845af6541",
+      "number": 858,
+      "title": "security(SECDEV-07/02): add pinned cross-language SAST, style and package SCA gates",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/858"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T13:16:28Z",
@@ -1594,14 +1602,6 @@
       "from": 54.82,
       "to": 54.9,
       "asOf": "2026-11-15"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T11:25:06Z",
-      "commit": "687cc284676a9baaa3a25c9ced15381d17d5c104",
-      "number": 694,
-      "title": "docs: registra protezione attestati EDGE-01, CI e artefatto (#693)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/694"
     }
   ]
 }

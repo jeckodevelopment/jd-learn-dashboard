@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T13:16:55.366758+00:00",
+  "generatedAt": "2026-11-21T13:41:01.727361+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "39f36ad754f143c17b6bf85e93f8e8a349d0f64b",
+  "sourceCommit": "aafb718857b35ed27dfb5b0e6ed2d86845af6541",
   "progress": 60.69,
   "developmentProgress": 60.69,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 858,
+      "title": "security(SECDEV-07/02): add pinned cross-language SAST, style and package SCA gates",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/858",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T13:40:36Z",
+      "mergedAt": "2026-11-21T13:40:34Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "00c07227bddf73073a0e342b8b9e788a6aec7950",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44909562794"
+      }
+    },
     {
       "number": 857,
       "title": "docs(SECDEV-07): record verified CI and merge evidence for PR 856",
@@ -1678,25 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 777,
-      "title": "fix(SEC-P1): autorizzazione aggiornata per l'editing dei profili docenti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/777",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T13:45:53Z",
-      "mergedAt": "2026-11-20T13:45:51Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ae02b46ef4bc7ad876d4f589168e2dfc9f49a731",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1740,8 +1740,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.19-dev",
-    "createdAt": "2026-11-21T13:14:30Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44907541009/artifacts/14708323269"
+    "createdAt": "2026-11-21T13:39:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44909562794/artifacts/14709416811"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
