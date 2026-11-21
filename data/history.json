@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T12:58:51.450767+00:00",
+  "generatedAt": "2026-11-21T13:03:28.220460+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T13:02:53Z",
+      "commit": "59947471683569e52f67a1ca127bd9412ebc6204",
+      "number": 855,
+      "title": "docs(SECDEV-07): reconcile verified process after PR 854 and update development floor",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/855"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-21T13:03:28.220460+00:00",
+      "commit": "59947471683569e52f67a1ca127bd9412ebc6204",
+      "from": 60.59,
+      "to": 60.69,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T12:58:20Z",
@@ -1586,22 +1602,6 @@
       "from": 54.76,
       "to": 54.82,
       "asOf": "2026-11-15"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T10:57:25Z",
-      "commit": "3d225a65efa3aadb54aad1dc6a736cf8aa645fd5",
-      "number": 692,
-      "title": "docs: registra SCR-07 merge, CI, artefatto e avanzamento (#691)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/692"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T10:54:09Z",
-      "commit": "4c86c1eba9d6d66c11bab24299609d2a389e96fb",
-      "number": 691,
-      "title": "fix(quiz): avvisa prima di uscire con risposte non salvate e aggiorna SCR-07",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/691"
     }
   ]
 }

@@ -2249,8 +2249,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "196",
-    "todo": "Completare strumenti di stile/analisi statica/scansioni e report di qualità mancanti; esecuzione dell’accettazione, audit, carico e recovery nelle verifiche residue.",
+    "prs": "196;854",
+    "todo": "SECDEV-07/criterion_02: strumenti/reports SAST, stile e SCA completi ancora da integrare; criterion_04/05 review finali non verificabili. Il processo verificabile (criterion_01) è implementato e integrato PR #854.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-116; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Matrice completa AC/provider non eseguita, analisi statica/stile/scan completi, audit sicurezza, browser/accessibilità, carico e recovery. Nessun ASVS/WCAG o rilascio certificato.",
     "criteria": "Processo verificabile.  Modello delle minacce, revisione codice sensibile, lockfile/inventario dipendenze, lint/stile/analisi statica/scansione segreti e dipendenze, test positivi e negativi. OWASP ASVS come riferimento con versione fissata, senza certificazioni implicite. Vulnerabilita critiche/alte confermate e pertinenti non risolte bloccano la distribuzione; non applicabilita e falsi positivi motivati"
   },
