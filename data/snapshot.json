@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T21:09:55.649418+00:00",
+  "generatedAt": "2026-11-21T21:11:32.124234+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "89c0c93598eb19e6ff81f36d3d0bf718a8b469fc",
+  "sourceCommit": "8bcb7c2a5628ad6d96fe6adba5046dd0494553ac",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 884,
+      "title": "docs(LCM-03): reconcile PR #883 CI, merge and package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/884",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T21:11:04Z",
+      "mergedAt": "2026-11-21T21:11:01Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7f13911ddef7a592c94547ffd4d9a361fd748b78",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44950121414"
+      }
+    },
     {
       "number": 883,
       "title": "fix(LCM-03): honor Joomla checkout locks for pathway lifecycle mutations",
@@ -321,9 +341,9 @@
       "milestone": "1.0.0",
       "headSha": "3c6529cac329aca8a8ad00157349701d1510ddae",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44929559431"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1669,25 +1689,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "365ad7bd3cd0ad21093685aaf130eafffbb64081",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 804,
-      "title": "test(SEC-P1): blocco identità obsoleta nelle migrazioni iscrizioni",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/804",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T17:42:58Z",
-      "mergedAt": "2026-11-20T17:42:56Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "14f8a1c1d975fed12ee5b81360620769a3008659",
       "ci": {
         "status": "unknown",
         "conclusion": null,
