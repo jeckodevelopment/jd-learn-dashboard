@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T14:16:59.083020+00:00",
+  "generatedAt": "2026-11-21T14:34:54.133919+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "80143f0fbd58c383450261b820eccdb8dc620439",
+  "sourceCommit": "da73279d0b28d8d05109bc08d1814623af13c102",
   "progress": 60.78,
   "developmentProgress": 60.78,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 863,
+      "title": "fix(AUT-04): fail-closed saved mappings and exercise migration integrity in Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/863",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T14:34:22Z",
+      "mergedAt": "2026-11-21T14:34:20Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9713248304b17b19377b288d51266a8f59e10934",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44914115463"
+      }
+    },
     {
       "number": 862,
       "title": "docs(AUT-04/LES-01): record PR 861 merge and 0.64.20 evidence",
@@ -1678,26 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 782,
-      "title": "docs(history): evidenze merge e pacchetto SEC-P1 PR #781",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/782",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T14:20:46Z",
-      "mergedAt": "2026-11-20T14:20:43Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "98b11537c7240b81a5130456fdd8d4242847474f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1740,9 +1739,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.20-dev",
-    "createdAt": "2026-11-21T14:13:10Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44912303968/artifacts/14711005135"
+    "name": "JD-Learn-0.64.21-dev",
+    "createdAt": "2026-11-21T14:32:43Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44914115463/artifacts/14710958481"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
