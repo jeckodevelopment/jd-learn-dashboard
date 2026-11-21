@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T20:53:58.582797+00:00",
+  "generatedAt": "2026-11-21T21:09:55.649418+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T21:09:24Z",
+      "commit": "89c0c93598eb19e6ff81f36d3d0bf718a8b469fc",
+      "number": 883,
+      "title": "fix(LCM-03): honor Joomla checkout locks for pathway lifecycle mutations",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/883"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T20:53:34Z",
@@ -1594,14 +1602,6 @@
       "number": 719,
       "title": "docs(JOO-04): chiusura audit Scheduler e avanzamento 55,76%",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/719"
-    },
-    {
-      "type": "estimate_changed",
-      "at": "2026-11-19T18:26:54.139993+00:00",
-      "commit": "5369efa820141d71eccf94aaac18b19828b95eba",
-      "from": 55.52,
-      "to": 55.76,
-      "asOf": "2026-11-15"
     }
   ]
 }
