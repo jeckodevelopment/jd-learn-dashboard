@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T11:18:08.756859+00:00",
+  "generatedAt": "2026-11-21T11:19:30.182306+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f13f88dd8b7f8cef0af4b7328cf810a39a7b0c57",
+  "sourceCommit": "c5a1ac1e06f1c32e445a25cb74a95593e199abfa",
   "progress": 59.89,
   "developmentProgress": 59.89,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 847,
+      "title": "docs(history): SEC-P2 PR 846 merge, verified package and progress",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/847",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T11:19:09Z",
+      "mergedAt": "2026-11-21T11:19:06Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7c78dedd3efbffccc3f7a518b8eea7c25fb6793d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44898474934"
+      }
+    },
     {
       "number": 846,
       "title": "security(SEC-P2): block unreviewed bundled runtime dependencies in Joomla package",
@@ -326,9 +346,9 @@
       "milestone": "1.0.0",
       "headSha": "c7e4442c761c253851a480d2a623a3b17e101720",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44834875212"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1672,26 +1692,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "85942b298733615c459c22d36ff95e8e112a9d27",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 766,
-      "title": "docs(PBASE-03): guide per ruolo ed esempio plugin Joomla v1 verificabile",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/766",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T12:20:51Z",
-      "mergedAt": "2026-11-20T12:20:49Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7945f5f48d7ddaea0248f8b14ef14fb084b2ffbe",
       "ci": {
         "status": "unknown",
         "conclusion": null,
