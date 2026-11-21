@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T20:51:31.250387+00:00",
+  "generatedAt": "2026-11-21T20:53:58.582797+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T20:53:34Z",
+      "commit": "fecd9c67b4bb01ef69ed38219430772f98c22a48",
+      "number": 882,
+      "title": "docs(LCM-03): reconcile PR #881 merge and verified build",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/882"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T20:50:57Z",
@@ -1594,14 +1602,6 @@
       "from": 55.52,
       "to": 55.76,
       "asOf": "2026-11-15"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T18:20:30Z",
-      "commit": "c289d42ce72e10a1c2547b7d95c1aa931a8c3eaa",
-      "number": 718,
-      "title": "feat(JOO-04): monitora stato e ritardi di tutti i task Joomla JD Learn",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/718"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T20:51:31.250387+00:00",
+  "generatedAt": "2026-11-21T20:53:58.582797+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c9bdbed5aae6e5acfe511ca236ea29f2c8c1f7e2",
+  "sourceCommit": "fecd9c67b4bb01ef69ed38219430772f98c22a48",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 882,
+      "title": "docs(LCM-03): reconcile PR #881 merge and verified build",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/882",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T20:53:36Z",
+      "mergedAt": "2026-11-21T20:53:34Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a480e61f75918bba4e2f01fc4a8af18d9ab6bfb8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44948567575"
+      }
+    },
     {
       "number": 881,
       "title": "fix(LCM-03): preserve pathway associations on partial saves",
@@ -321,9 +341,9 @@
       "milestone": "1.0.0",
       "headSha": "df3defcafa512f4968b55490fdcdc02b92292669",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44927774379"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1669,25 +1689,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "94b4dc94d8cd00f9215394ccf02ed09a463acab8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 802,
-      "title": "test(SEC-P1): negare accesso roster con account bloccato dopo il login",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/802",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T17:33:05Z",
-      "mergedAt": "2026-11-20T17:33:01Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "17c7fb7baf310072bbddf11da2bedb42021e3c75",
       "ci": {
         "status": "unknown",
         "conclusion": null,
