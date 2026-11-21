@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T16:37:26.409068+00:00",
+  "generatedAt": "2026-11-21T16:52:18.207101+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f2da7001983dfc62c25fa1207e7cbfadde6b031b",
+  "sourceCommit": "f987d4ce7032a45342bcfc50df181b33ab7f33d8",
   "progress": 60.87,
   "developmentProgress": 60.87,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 870,
+      "title": "feat(SCR-16): consolidate configuration diagnostics and actual document-root protection",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/870",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T16:51:52Z",
+      "mergedAt": "2026-11-21T16:51:50Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "171fc31b0ee0575dca52be1c3c3651047e675727",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44926383797"
+      }
+    },
     {
       "number": 869,
       "title": "feat(SCR-16): read-only canonical Joomla mail template readiness in dashboard",
@@ -364,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "00c07227bddf73073a0e342b8b9e788a6aec7950",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44909562794"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -384,9 +403,9 @@
       "milestone": "1.0.0",
       "headSha": "faa62455bb951a200079e1e818dd4e6fbbb90548",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44907980009"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -403,9 +422,9 @@
       "milestone": "1.0.0",
       "headSha": "2615fc93a9503e4fa3ead8084d2a7b08ed3b73cb",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44907541009"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1678,25 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 789,
-      "title": "fix(DOC-07): rifiutare date Scheduler impossibili nella diagnostica",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/789",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T15:19:21Z",
-      "mergedAt": "2026-11-20T15:19:19Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e6ff1a19641f04681ac8d5f59aa08253f4f5a240",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1740,8 +1740,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T16:34:34Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44924931531/artifacts/14715800003"
+    "createdAt": "2026-11-21T16:50:41Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44926383789/artifacts/14716331066"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
