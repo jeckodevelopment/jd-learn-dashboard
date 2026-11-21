@@ -2711,7 +2711,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "575;576;577",
+    "prs": "575;576;577;881",
     "todo": "Cancellazione solo di percorsi cestinati e vuoti; azioni massive e controllo ACL implementati in PR #577. Resta verifica dei riferimenti esterni e collaudo manuale. Archiviazione PR #575; cestinazione e ripristino conservativo PR #576",
     "tests": "Verifiche descritte in docs/LIFECYCLE_1.0.0_APPROVED.md; registrare esiti QA_TESTBOOK.md",
     "criteria": "Percorsi: archiviazione, cestinazione/ripristino ed eliminazione condizionata senza alterare corsi aggregati; storico preservato"

@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T20:02:06.005519+00:00",
+  "generatedAt": "2026-11-21T20:51:31.250387+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "10f8c44cb446f9c15cfd7815da7b38576caedd10",
+  "sourceCommit": "c9bdbed5aae6e5acfe511ca236ea29f2c8c1f7e2",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 881,
+      "title": "fix(LCM-03): preserve pathway associations on partial saves",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/881",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T20:51:00Z",
+      "mergedAt": "2026-11-21T20:50:57Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a2d49e24e2590369facfcf6474793cd592ea42dc",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44948010714"
+      }
+    },
     {
       "number": 880,
       "title": "fix(SCR-01): persist catalogue filters in Joomla pagination links",
@@ -322,9 +341,9 @@
       "milestone": "1.0.0",
       "headSha": "ec709c3a57d27deb4d5ff27c3034110cc0b13ead",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44927337836"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -341,9 +360,9 @@
       "milestone": "1.0.0",
       "headSha": "171fc31b0ee0575dca52be1c3c3651047e675727",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44926383797"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1674,26 +1693,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 801,
-      "title": "docs(history): SEC-P1 PR #800, prove CI e checksum ZIP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/801",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T17:09:10Z",
-      "mergedAt": "2026-11-20T17:09:08Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ea862c3cb6f642012552669b0e8a1bc8689598df",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1737,8 +1736,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T19:45:08Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44942221224/artifacts/14721834324"
+    "createdAt": "2026-11-21T20:50:22Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44948010714/artifacts/14724820789"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
