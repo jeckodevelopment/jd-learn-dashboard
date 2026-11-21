@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T13:03:28.220460+00:00",
+  "generatedAt": "2026-11-21T13:15:19.339418+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "59947471683569e52f67a1ca127bd9412ebc6204",
+  "sourceCommit": "1e64bfb89857aec7adeb68a7d15fb50e61a84b9f",
   "progress": 60.69,
   "developmentProgress": 60.69,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 856,
+      "title": "ci(SECDEV-07): add tracked Python/JavaScript syntax gate with negative fixtures",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/856",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T13:14:53Z",
+      "mergedAt": "2026-11-21T13:14:50Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2615fc93a9503e4fa3ead8084d2a7b08ed3b73cb",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44907541009"
+      }
+    },
     {
       "number": 855,
       "title": "docs(SECDEV-07): reconcile verified process after PR 854 and update development floor",
@@ -1678,25 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 775,
-      "title": "fix(SEC-P1): identità Joomla corrente nelle riassegnazioni categorie",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/775",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T13:30:29Z",
-      "mergedAt": "2026-11-20T13:30:26Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c8bd8e4fcba4cc8b2e5ec1ffe713cb3a663a80a1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1740,8 +1740,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.19-dev",
-    "createdAt": "2026-11-21T12:57:08Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44906074041/artifacts/14707749081"
+    "createdAt": "2026-11-21T13:14:30Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44907541009/artifacts/14708323269"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
