@@ -16,7 +16,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "162;207;468;500;522;686;738;893",
+    "prs": "162;207;468;500;522;686;738;893;895",
     "todo": "Completare anteprime pubbliche e uniformità delle azioni della scheda core; metadati canonical/social di base implementati dalla PR #207.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-41; AC-42; AC-121; AC-124; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Completare azioni per approvazioni/anteprime/attestati, metadati social e regole di completamento; collaudo integrale della scheda e dei collegamenti docente.",
     "criteria": "Scheda e azioni di accesso/avvio/ripresa, docenti e programma non quiz."
