@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T10:56:23.625955+00:00",
+  "generatedAt": "2026-11-21T10:57:42.814864+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "97e2bd73dd304c804fb0ceb8bd73e186c243c652",
+  "sourceCommit": "98b1fb32faa9d87997da0277a81153fd6667d6e7",
   "progress": 59.66,
   "developmentProgress": 59.66,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 845,
+      "title": "docs(history): record SEC-P2 historical credential scan PR 844",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/845",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T10:57:15Z",
+      "mergedAt": "2026-11-21T10:57:13Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e3f00eddeec87955613dea973e822a51ca8f53bb",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44896705962"
+      }
+    },
     {
       "number": 844,
       "title": "security(SEC-P2): scan complete Git source history for known credentials",
@@ -1673,26 +1693,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "d4a575dba4742590f6af4bd6ebb6e0dd043ce623",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 764,
-      "title": "docs(PBASE-03): promuovere il gate packaging comprovato e sincronizzare 57,40%",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/764",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T11:16:26Z",
-      "mergedAt": "2026-11-20T11:16:24Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "39438885229778756f5e2f5120bf015daf826732",
       "ci": {
         "status": "unknown",
         "conclusion": null,
