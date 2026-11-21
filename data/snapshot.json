@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T23:31:13.050835+00:00",
+  "generatedAt": "2026-11-21T23:41:45.709015+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "5f0a99f70a1b83710872db8da039b582c2ce9e7d",
+  "sourceCommit": "c0f87fb2a6854ec5beebaa39ad29d9764b63c237",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 900,
+      "title": "docs(CAT-01): close 5/5 catalogue core implementation criteria",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/900",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T23:41:18Z",
+      "mergedAt": "2026-11-21T23:41:16Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0bf029c9034dd0cda8461fe750fcb81cc14966c1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44962537785"
+      }
+    },
     {
       "number": 899,
       "title": "docs(LES-01,STU-04): record PR #898 post-merge evidence",
@@ -385,9 +405,9 @@
       "milestone": "1.0.0",
       "headSha": "3d27f14a1bb8c50a76cefefa1398521fd2d8377c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44952684717"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -405,9 +425,9 @@
       "milestone": "1.0.0",
       "headSha": "06349f114b57edc378c4544194fb1a26432e179c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44951441744"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1673,26 +1693,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 820,
-      "title": "docs(DOC-02): manuali amministratore completi e avanzamento sviluppo riconciliato",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/820",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T21:02:21Z",
-      "mergedAt": "2026-11-20T21:02:19Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "aa07c73ef9b2cf92d523019e434d604d4adf705d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1736,8 +1736,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T23:28:53Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44961654815/artifacts/14730310737"
+    "createdAt": "2026-11-21T23:39:37Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44962537785/artifacts/14730362205"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
