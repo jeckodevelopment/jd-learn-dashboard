@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T16:52:18.207101+00:00",
+  "generatedAt": "2026-11-21T16:58:36.776456+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f987d4ce7032a45342bcfc50df181b33ab7f33d8",
+  "sourceCommit": "4898673ff9e617275caaa77797322c8ef06875c5",
   "progress": 60.87,
   "developmentProgress": 60.87,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 871,
+      "title": "docs(SCR-16): reconcile PR 870 CI, package and remaining criterion evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/871",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T16:58:14Z",
+      "mergedAt": "2026-11-21T16:58:12Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ec709c3a57d27deb4d5ff27c3034110cc0b13ead",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44927337836"
+      }
+    },
     {
       "number": 870,
       "title": "feat(SCR-16): consolidate configuration diagnostics and actual document-root protection",
@@ -364,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "5775768c85234e54c01ab2d3ee4f18ab7b8b6a6a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44910596720"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1672,26 +1692,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "534723e5a91ecb6a362c777b53cedd9cf34b1c7d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 790,
-      "title": "docs(history): evidenze merge, CI e ZIP della PR #789",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/790",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T15:20:43Z",
-      "mergedAt": "2026-11-20T15:20:41Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "74043209cfab92d04bbbd85f5c991daa69b99959",
       "ci": {
         "status": "unknown",
         "conclusion": null,
