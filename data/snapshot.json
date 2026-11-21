@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T15:37:53.150719+00:00",
+  "generatedAt": "2026-11-21T15:40:34.749360+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "eeb4eb138ffdd1d793bacbcdb94ef00a08ad1d38",
+  "sourceCommit": "df7711e86f0a11e807f8de7d090ac9ce1c80d04e",
   "progress": 60.87,
   "developmentProgress": 60.87,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 868,
+      "title": "docs(SCR-16): record PR 867 merge and verified Joomla package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/868",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T15:40:01Z",
+      "mergedAt": "2026-11-21T15:39:59Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "09047055cb59ace0fe53fb03feb91aca5bb43599",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44920291115"
+      }
+    },
     {
       "number": 867,
       "title": "feat(SCR-16): private material storage read-only health diagnostic",
@@ -1673,25 +1693,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c88116af7d6b4edf69c59dd1301292374fb5b137",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 787,
-      "title": "fix(DOC-07): evidenziare task Scheduler duplicati anche se disabilitati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/787",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T15:05:01Z",
-      "mergedAt": "2026-11-20T15:04:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "767d23b96aea1cefb999497742c37602208d8d1c",
       "ci": {
         "status": "unknown",
         "conclusion": null,
