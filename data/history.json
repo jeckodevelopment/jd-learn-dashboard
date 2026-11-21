@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T14:39:26.996127+00:00",
+  "generatedAt": "2026-11-21T15:13:28.840663+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T15:12:58Z",
+      "commit": "55e5f48b55dc4ed1536ab23bf12f87be87696427",
+      "number": 865,
+      "title": "fix(LES-03): support Windows absolute paths for private storage",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/865"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T14:38:56Z",
@@ -1594,14 +1602,6 @@
       "number": 701,
       "title": "docs(audit): riconciliare SCR-01/empty_error e aggiornare avanzamento",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/701"
-    },
-    {
-      "type": "estimate_changed",
-      "at": "2026-11-19T13:03:22.229224+00:00",
-      "commit": "140e487b6f2509f16895cd284dc7658313f811b7",
-      "from": 54.9,
-      "to": 54.98,
-      "asOf": "2026-11-15"
     }
   ]
 }

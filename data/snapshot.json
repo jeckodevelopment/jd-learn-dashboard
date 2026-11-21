@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T14:39:26.996127+00:00",
+  "generatedAt": "2026-11-21T15:13:28.840663+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "348407215e8e858c01f3a2456463fef78d7a1b73",
+  "sourceCommit": "55e5f48b55dc4ed1536ab23bf12f87be87696427",
   "progress": 60.87,
   "developmentProgress": 60.87,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 865,
+      "title": "fix(LES-03): support Windows absolute paths for private storage",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/865",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T15:13:01Z",
+      "mergedAt": "2026-11-21T15:12:58Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0c4824e5070e389fadfb9ecccde35ecd4b88c923",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44917464916"
+      }
+    },
     {
       "number": 864,
       "title": "docs(AUT-04): close verified enrollment mapping criterion after PR #863",
@@ -1678,26 +1697,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 784,
-      "title": "docs(history): prove merge e pacchetto SEC-P1 PR #783",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/784",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T14:36:53Z",
-      "mergedAt": "2026-11-20T14:36:50Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ce2ead38b7546e84510c52b5792b60472a3bc9a7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1741,8 +1740,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T14:32:43Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44914115463/artifacts/14710958481"
+    "createdAt": "2026-11-21T15:12:27Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44917464916/artifacts/14712606041"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
