@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T23:21:52.115322+00:00",
+  "generatedAt": "2026-11-21T23:29:41.343810+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9b25ae5959aa4148bf9e408d785283c6596e1312",
+  "sourceCommit": "596a1cc3d9897b99854022a373bb0572d65c13f4",
   "progress": 61.5,
   "developmentProgress": 61.5,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 898,
+      "title": "docs(LES-01,STU-04): close completed core implementations",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/898",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T23:29:09Z",
+      "mergedAt": "2026-11-21T23:29:07Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0e368918e3e0ad2d8a2f03801710087a95150e21",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44961654815"
+      }
+    },
     {
       "number": 897,
       "title": "docs(CAT-02): close 5/5 core criteria without manual acceptance",
@@ -404,9 +424,9 @@
       "milestone": "1.0.0",
       "headSha": "7f13911ddef7a592c94547ffd4d9a361fd748b78",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44950121414"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1673,26 +1693,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 818,
-      "title": "test(DOC-08): matrice dei 21 flussi core e gate documentale fail-closed per release",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/818",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T20:37:15Z",
-      "mergedAt": "2026-11-20T20:37:13Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4f7952c981afbd68d75062dd13247a773def8960",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1736,8 +1736,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T23:21:06Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44960992767/artifacts/14729462253"
+    "createdAt": "2026-11-21T23:28:53Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44961654815/artifacts/14730310737"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

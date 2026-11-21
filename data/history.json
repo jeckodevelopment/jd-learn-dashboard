@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T23:21:52.115322+00:00",
+  "generatedAt": "2026-11-21T23:29:41.343810+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-21T23:29:41.343810+00:00",
+      "commit": "596a1cc3d9897b99854022a373bb0572d65c13f4",
+      "id": "LES-01",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-21T23:29:41.343810+00:00",
+      "commit": "596a1cc3d9897b99854022a373bb0572d65c13f4",
+      "id": "STU-04",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T23:29:07Z",
+      "commit": "596a1cc3d9897b99854022a373bb0572d65c13f4",
+      "number": 898,
+      "title": "docs(LES-01,STU-04): close completed core implementations",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/898"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-21T23:21:52.115322+00:00",
@@ -1578,30 +1602,6 @@
       "number": 730,
       "title": "feat(STA-02): messaggi pre-avvio e guard completo su scadenze quiz",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/730"
-    },
-    {
-      "type": "requirement_changed",
-      "at": "2026-11-19T21:26:25.346100+00:00",
-      "commit": "1fead62e533c899e4b322815f3a0c67db6f23118",
-      "id": "CORE-17",
-      "from": "Parziale",
-      "to": "Completata"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T21:25:58Z",
-      "commit": "1fead62e533c899e4b322815f3a0c67db6f23118",
-      "number": 729,
-      "title": "docs(CORE-17): riconciliare Action Log PR #728 e avanzamento 56,34%",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/729"
-    },
-    {
-      "type": "estimate_changed",
-      "at": "2026-11-19T21:26:25.346100+00:00",
-      "commit": "1fead62e533c899e4b322815f3a0c67db6f23118",
-      "from": 56.11,
-      "to": 56.34,
-      "asOf": "2026-11-15"
     }
   ]
 }
