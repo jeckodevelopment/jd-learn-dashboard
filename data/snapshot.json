@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T10:45:34.591338+00:00",
+  "generatedAt": "2026-11-21T10:46:46.661236+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "69c714b9545552e5d4126f46fc0870751b54997c",
+  "sourceCommit": "39f3d18a8445e638d0eed96efefbf64de39e03b3",
   "progress": 59.66,
   "developmentProgress": 59.66,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 843,
+      "title": "docs(history): archive SEC-P2 PR 842 and verified ZIP checksum",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/843",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T10:46:19Z",
+      "mergedAt": "2026-11-21T10:46:17Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "945bb621388b9df7dc6ffa4d93993fd68ea4b649",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44895877338"
+      }
+    },
     {
       "number": 842,
       "title": "security(SEC-P2): enforce safe recursive Joomla ZIP validation in all build paths",
@@ -345,9 +365,9 @@
       "milestone": "1.0.0",
       "headSha": "8006b9bef1a5442c1c7d2e3eb2172729fcab78cb",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44830311444"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1674,25 +1694,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "a7de16a12bdfc7f2f84ec470d3dfc4e889fb4be7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 762,
-      "title": "fix(PBASE-03): bloccare build Joomla se mancano guide dei plugin video base",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/762",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T11:07:00Z",
-      "mergedAt": "2026-11-20T11:06:58Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "666be6ea55f275741f7d6a83be7453049f180afe",
       "ci": {
         "status": "unknown",
         "conclusion": null,
