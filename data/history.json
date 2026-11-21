@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T14:34:54.133919+00:00",
+  "generatedAt": "2026-11-21T14:39:26.996127+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T14:38:56Z",
+      "commit": "348407215e8e858c01f3a2456463fef78d7a1b73",
+      "number": 864,
+      "title": "docs(AUT-04): close verified enrollment mapping criterion after PR #863",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/864"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-21T14:39:26.996127+00:00",
+      "commit": "348407215e8e858c01f3a2456463fef78d7a1b73",
+      "from": 60.78,
+      "to": 60.87,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T14:34:20Z",
@@ -1586,22 +1602,6 @@
       "from": 54.9,
       "to": 54.98,
       "asOf": "2026-11-15"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T12:50:28Z",
-      "commit": "e494a4a68f9d4272882f39b6fe944aa0630fa879",
-      "number": 700,
-      "title": "docs(SCR-01): registrare evidenze merge e CI PR #699",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/700"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T12:48:47Z",
-      "commit": "5efc71ffee43e5df0be59140cd63152b3da64a08",
-      "number": 699,
-      "title": "feat(SCR-01): errore recuperabile e Riprova nel catalogo",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/699"
     }
   ]
 }
