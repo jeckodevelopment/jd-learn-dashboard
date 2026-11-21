@@ -2711,7 +2711,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "575;576;577;881;883",
+    "prs": "575;576;577;881;883;885",
     "todo": "Cancellazione solo di percorsi cestinati e vuoti; azioni massive e controllo ACL implementati in PR #577. Resta verifica dei riferimenti esterni e collaudo manuale. Archiviazione PR #575; cestinazione e ripristino conservativo PR #576",
     "tests": "Verifiche descritte in docs/LIFECYCLE_1.0.0_APPROVED.md; registrare esiti QA_TESTBOOK.md",
     "criteria": "Percorsi: archiviazione, cestinazione/ripristino ed eliminazione condizionata senza alterare corsi aggregati; storico preservato"
@@ -2722,7 +2722,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "578;579",
+    "prs": "578;579;885",
     "todo": "Cancellazione condizionata su assegnazioni e versioni didattiche storiche implementata in PR #579; restano audit riferimenti di estensioni esterne e accettazione Joomla reale",
     "tests": "Verifiche descritte in docs/LIFECYCLE_1.0.0_APPROVED.md; registrare esiti QA_TESTBOOK.md",
     "criteria": "Docenti: non pubblicazione, cestinazione/ripristino, cancellazione condizionata; mantenere account Joomla e riferimenti storici"
