@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T10:31:28.588648+00:00",
+  "generatedAt": "2026-11-21T10:32:33.957062+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3ba2accf2b37c1755a31b0c6024519cd5ef10fd4",
+  "sourceCommit": "3586d4644c2955ec85395ccffb9ae37f441605fb",
   "progress": 59.66,
   "developmentProgress": 59.66,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 841,
+      "title": "docs(history): archive DOC-04 PR 840 merge and verified CI",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/841",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T10:32:05Z",
+      "mergedAt": "2026-11-21T10:32:02Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "34427d0ecc12b75c661025936ebc40880f613da9",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44894756115"
+      }
+    },
     {
       "number": 840,
       "title": "docs(DOC-04): versioned Joomla extension contracts and reproducible technical procedures",
@@ -364,9 +384,9 @@
       "milestone": "1.0.0",
       "headSha": "7337ed5e3eac3d31a8dbced9c9d9be1385fd74f0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44825313579"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1674,25 +1694,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "2da0180a2b8c286a2f370463a8c299d25e18b724",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 760,
-      "title": "fix(DOC-07): non dichiarare operativi task con regole scheduler corrotte",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/760",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T10:24:15Z",
-      "mergedAt": "2026-11-20T10:24:13Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c0f3a6456947d9880aa801345621bc5e3a404a25",
       "ci": {
         "status": "unknown",
         "conclusion": null,
