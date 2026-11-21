@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T18:14:51.848380+00:00",
+  "generatedAt": "2026-11-21T18:30:04.253140+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3564dab02c6eeb6d7be02952b7e85e6c5260f2f6",
+  "sourceCommit": "e15cf0706a99c8e1bd6fab293df2a150a317b004",
   "progress": 60.97,
   "developmentProgress": 60.97,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 876,
+      "title": "fix(SCR-16): isolate diagnostic scan completeness by source",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/876",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T18:29:41Z",
+      "mergedAt": "2026-11-21T18:29:39Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "78e9d2ff42679122b9c9e60b11a861168dfbefd1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44935419929"
+      }
+    },
     {
       "number": 875,
       "title": "fix(SCR-16): make bounded configuration diagnostics actionable",
@@ -363,9 +382,9 @@
       "milestone": "1.0.0",
       "headSha": "982a7b30fbd75773c601bd13d74ca980e5536d65",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44914915031"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1677,25 +1696,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 796,
-      "title": "fix(SEC-P1): rivalidare destinatari della coda email prima di SMTP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/796",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T16:10:55Z",
-      "mergedAt": "2026-11-20T16:10:53Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b250824aa28c101aa48bc95534e4d123565533e7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1739,8 +1739,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T18:13:58Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44933892277/artifacts/14719320860"
+    "createdAt": "2026-11-21T18:29:14Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44935419834/artifacts/14719017908"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
