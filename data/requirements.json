@@ -2558,7 +2558,7 @@
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "",
-    "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
+    "todo": "Eseguire la riclassificazione evidence-based dei criteri DOC-04 dopo il gate del nuovo riferimento; non attribuire l'accettazione manuale.",
     "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
     "criteria": "Riferimento tecnico su struttura pacchetto, servizi, plugin, database, upgrade, scheduler e troubleshooting, con procedure verificabili."
   },
