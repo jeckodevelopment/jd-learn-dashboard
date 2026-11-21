@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T10:32:33.957062+00:00",
+  "generatedAt": "2026-11-21T10:45:34.591338+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-21T10:45:14Z",
+      "commit": "69c714b9545552e5d4126f46fc0870751b54997c",
+      "number": 842,
+      "title": "security(SEC-P2): enforce safe recursive Joomla ZIP validation in all build paths",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/842"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T10:32:02Z",
@@ -1594,14 +1602,6 @@
       "number": 676,
       "title": "docs: record SCR-01 card PR 675 merge and artifact",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/676"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-18T22:53:51Z",
-      "commit": "ef1911265ad754436b5b87d139c79a0454d217cd",
-      "number": 675,
-      "title": "feat(SCR-01): explicit catalog card action and enrollment information",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/675"
     }
   ]
 }

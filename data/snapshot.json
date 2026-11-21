@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T10:32:33.957062+00:00",
+  "generatedAt": "2026-11-21T10:45:34.591338+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3586d4644c2955ec85395ccffb9ae37f441605fb",
+  "sourceCommit": "69c714b9545552e5d4126f46fc0870751b54997c",
   "progress": 59.66,
   "developmentProgress": 59.66,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 842,
+      "title": "security(SEC-P2): enforce safe recursive Joomla ZIP validation in all build paths",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/842",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T10:45:17Z",
+      "mergedAt": "2026-11-21T10:45:14Z",
+      "labels": [
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "32186a14be9ec44482c4336dca0548a0e50d0c20",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44895509858"
+      }
+    },
     {
       "number": 841,
       "title": "docs(history): archive DOC-04 PR 840 merge and verified CI",
@@ -345,9 +364,9 @@
       "milestone": "1.0.0",
       "headSha": "9debbbb677873a8289e4c559ae6c159e14837e38",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44828590939"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -364,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "94effc8018cad16468af2de547436f87e636c6d9",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44826412632"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1679,26 +1698,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 761,
-      "title": "docs(history): registrare merge, CI e artefatto della PR #760",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/761",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T10:26:11Z",
-      "mergedAt": "2026-11-20T10:26:09Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2da0180a2b8c286a2f370463a8c299d25e18b724",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [
@@ -1741,9 +1740,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.17-dev",
-    "createdAt": "2026-11-20T23:28:41Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44836629359/artifacts/14678054712"
+    "name": "JD-Learn-0.64.18-dev",
+    "createdAt": "2026-11-21T10:44:55Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44895509812/artifacts/14704140626"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
