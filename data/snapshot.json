@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T12:07:21.904798+00:00",
+  "generatedAt": "2026-11-21T12:09:08.545862+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "cb2b453c344c58994d8f8f73f3a26af5ed7ecd47",
+  "sourceCommit": "770a2a860f9e6cb719534a59c6825966b43ae55f",
   "progress": 60.12,
   "developmentProgress": 60.12,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 851,
+      "title": "docs(history): record SEC-P3 PR 850 merge, CI and package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/851",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T12:08:44Z",
+      "mergedAt": "2026-11-21T12:08:42Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "20aaadf68ea5ebd4361d6bb154a2a0d7ffb5d52a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44902375028"
+      }
+    },
     {
       "number": 850,
       "title": "fix(SEC-P3): safe Joomla Privacy mail export and terminal queue redaction",
@@ -286,9 +306,9 @@
       "milestone": "1.0.0",
       "headSha": "945bb621388b9df7dc6ffa4d93993fd68ea4b649",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44895877338"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1672,25 +1692,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "ebc5667327f860ca3e306c21b7bbfec4691b4631",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 770,
-      "title": "test(SEC-P1): copertura ACL negativa download amministrativo attestati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/770",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T12:53:50Z",
-      "mergedAt": "2026-11-20T12:53:48Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7a58b4e6b88f3f60192e721b09cd1ed68501d8c4",
       "ci": {
         "status": "unknown",
         "conclusion": null,
