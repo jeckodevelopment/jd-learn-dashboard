@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T14:14:15.904674+00:00",
+  "generatedAt": "2026-11-21T14:16:59.083020+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8cbaf5ba3742a1bb8eed310364adecff81d2d905",
+  "sourceCommit": "80143f0fbd58c383450261b820eccdb8dc620439",
   "progress": 60.78,
   "developmentProgress": 60.78,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 1
   },
   "prs": [
+    {
+      "number": 862,
+      "title": "docs(AUT-04/LES-01): record PR 861 merge and 0.64.20 evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/862",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-21T14:16:29Z",
+      "mergedAt": "2026-11-21T14:16:27Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "86c0aec23e2967763aa4104aa6f7b44c5eb454d4",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44912975571"
+      }
+    },
     {
       "number": 861,
       "title": "fix(AUT-04/LES-01): prevent silent truncation of native lesson field values on copy",
@@ -1673,25 +1693,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "98b11537c7240b81a5130456fdd8d4242847474f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 781,
-      "title": "fix(SEC-P1): richiedere permesso audit per coda email globale e riconciliazione",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/781",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T14:17:47Z",
-      "mergedAt": "2026-11-20T14:17:45Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ba75d2309001c98f92c66cca9b1d1de7b72c467e",
       "ci": {
         "status": "unknown",
         "conclusion": null,
