@@ -2686,12 +2686,12 @@
   {
     "id": "LCM-01",
     "area": "LCM",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "617;619;622;625",
-    "todo": "Ricontrollo trasversale dei blocchi dei producer, download, migrazioni, notifiche e storico e accettazione su Joomla reale.",
-    "tests": "Testare accesso delle iscrizioni pregresse dopo archiviazione e ripristino; riapertura solo esplicita; preservazione attestati e storico; ACL e URL diretti.",
+    "prs": "617;619;622;625;950;951",
+    "todo": "Nessuno nel core LCM-01: archiviazione e blocco di ingressi didattici diretti e retry e conservazione storico e ripristino con gate chiusi dimostrati da test Joomla. Integrazioni terze e browser/hosting reali restano da collaudare.",
+    "tests": "Collaudo Joomla separato su ruoli autorizzati e limitati e su URL diretti di iscrizioni pregresse e video/quiz da tab gia aperte; controllare accessi post-restore solo con riapertura esplicita e permanenza di storico e attestati.",
     "criteria": "Archiviazione corsi: blocco nuove iscrizioni e fruizione anche da endpoint diretti; preservare storico personale, frequenze, progressi e attestati; riattivazione senza riapertura automatica"
   },
   {

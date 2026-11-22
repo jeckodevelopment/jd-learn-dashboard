@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T19:15:17.827415+00:00",
+  "generatedAt": "2026-11-22T19:23:52.091947+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9b383ef855139bbbd1da28bacb90d37300e25275",
-  "progress": 62.49,
-  "developmentProgress": 62.49,
+  "sourceCommit": "70757b4ce78de51265fc4f35b2ae4a3923baba37",
+  "progress": 62.65,
+  "developmentProgress": 62.65,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -33,11 +33,11 @@
       "label": "Corsi, versioni e pubblicazione",
       "requirements": 20,
       "weight_percent": 9.35,
-      "development_evidence_floor_percent": 74.27,
+      "development_evidence_floor_percent": 75.94,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 19,
+      "unverifiable_criteria": 18,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 952,
+      "title": "docs(LCM-01): close implementation 3/3 with verified direct-access gates",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/952",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T19:23:21Z",
+      "mergedAt": "2026-11-22T19:23:19Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1a852a62f75ab88e03f58b6ad21b0dca4b1c651d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45060339590"
+      }
+    },
     {
       "number": 951,
       "title": "test(LCM-01): deny archived course video and quiz retries",
@@ -420,9 +440,9 @@
       "milestone": "1.0.0",
       "headSha": "af47061cd72e471cd42847bff0d20af6a518e74d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45044185582"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -440,9 +460,9 @@
       "milestone": "1.0.0",
       "headSha": "e9a185682d631a5d84157444acbda87a1dbeba5e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45043869186"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1643,26 +1663,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f76f86815bdb69fe56197a3ea9ad9504e00f7fce",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 898,
-      "title": "docs(LES-01,STU-04): close completed core implementations",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/898",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T23:29:09Z",
-      "mergedAt": "2026-11-21T23:29:07Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0e368918e3e0ad2d8a2f03801710087a95150e21",
       "ci": {
         "status": "unknown",
         "conclusion": null,
