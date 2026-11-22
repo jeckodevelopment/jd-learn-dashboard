@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:02:30.948557+00:00",
+  "generatedAt": "2026-11-22T16:03:59.894359+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0b63d08c4c745d4d4e31af8f02590cfe9ce7d5bf",
+  "sourceCommit": "7d2b3d9cf51787486c62e0f0f68076a9350b6c55",
   "progress": 62.32,
   "developmentProgress": 62.32,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 2,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -158,18 +158,18 @@
       "number": 933,
       "title": "test(AUT-01): preserve invalid module and lesson editor state",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/933",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-22T15:58:36Z",
-      "mergedAt": null,
+      "updated": "2026-11-22T16:03:27Z",
+      "mergedAt": "2026-11-22T16:03:25Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
       "headSha": "e567a24e731aeba9b3336ecbd02e0ad628aed79c",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45041222828"
       }
     },
@@ -398,9 +398,9 @@
       "milestone": "1.0.0",
       "headSha": "efa4d9a57edc5d1ae74343a4175f2d2fb6fd8062",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45023789540"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1688,25 +1688,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 877,
-      "title": "fix(SCR-16): validate inherited settings and sanitize provider diagnostics",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/877",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T18:52:30Z",
-      "mergedAt": "2026-11-21T18:52:28Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8c67a72f17d02c368e811053f412a5f9157ad408",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1738,8 +1719,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T16:01:20Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45040966411/artifacts/14761628445"
+    "createdAt": "2026-11-22T16:03:45Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45041284691/artifacts/14761798382"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
