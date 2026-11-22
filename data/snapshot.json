@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T07:22:15.731871+00:00",
+  "generatedAt": "2026-11-22T11:06:27.082541+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3ef182e62948727da8c55bae22cae9d30d85f022",
-  "progress": 61.73,
-  "developmentProgress": 61.73,
+  "sourceCommit": "f5e92e47f1ff86b33d1c0290d9a48f4371a79dc4",
+  "progress": 61.92,
+  "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -21,11 +21,11 @@
       "label": "Catalogo, frontend e navigazione",
       "requirements": 23,
       "weight_percent": 10.75,
-      "development_evidence_floor_percent": 82.38,
+      "development_evidence_floor_percent": 84.12,
       "manual_acceptance_coverage_percent": 13.04,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 13,
+      "unverifiable_criteria": 11,
       "unassessed_criteria": 0
     },
     {
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 2,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -141,27 +141,27 @@
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/908",
       "status": "open",
       "draft": false,
-      "updated": "2026-11-22T01:47:13Z",
+      "updated": "2026-11-22T11:06:06Z",
       "mergedAt": null,
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "967bef8093e710293f6649808bd73426a442f3f0",
+      "headSha": "21870d4515da8786628d6c850386bb9725a8e4e6",
       "ci": {
-        "status": "completed",
-        "conclusion": "failure",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44973075684"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
       "number": 907,
       "title": "fix(CAT-04): enforce private robots headers across teaching routes and guarded SEO views",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/907",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-22T01:16:53Z",
-      "mergedAt": null,
+      "updated": "2026-11-22T11:06:00Z",
+      "mergedAt": "2026-11-22T11:05:58Z",
       "labels": [
         "P1"
       ],
@@ -1686,25 +1686,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "8619d8e360efda8c8a3403ca530aa1206b509805",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 852,
-      "title": "security(SEC-P3): complete privacy inventory, multi-user Joomla tests and rights procedures",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/852",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T12:34:13Z",
-      "mergedAt": "2026-11-21T12:34:11Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9fe515a4a25eb92d783d11af9c9d5f268c3fcde7",
       "ci": {
         "status": "unknown",
         "conclusion": null,
