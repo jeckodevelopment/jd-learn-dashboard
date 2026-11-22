@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T14:06:32.848784+00:00",
+  "generatedAt": "2026-11-22T14:16:08.173859+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c3447281daf6e136a8c867d49b37d25729130240",
+  "sourceCommit": "1ae797f86aa4f29dbc58a123486eb655642b3550",
   "progress": 62.23,
   "developmentProgress": 62.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 927,
+      "title": "test(AUT-04): verify real disposable database backup and restoration of historical certificates",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/927",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T14:15:37Z",
+      "mergedAt": "2026-11-22T14:15:35Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "41ccc50366f2c638bcdf0f21197aa8c3111bee83",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45031295709"
+      }
+    },
     {
       "number": 926,
       "title": "test(AUT-01): preserve stale editor inputs without overwriting newer revision",
@@ -400,9 +419,9 @@
       "milestone": "1.0.0",
       "headSha": "3a49e0f32d5e974f8291027cdc514fdab9310ea8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45019030790"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,26 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 872,
-      "title": "docs(SCR-16): reconcile unified diagnostics criterion 01 as implemented",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/872",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T17:02:50Z",
-      "mergedAt": "2026-11-21T17:02:47Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "df3defcafa512f4968b55490fdcdc02b92292669",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T14:04:58Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45030333681/artifacts/14757273915"
+    "createdAt": "2026-11-22T14:14:13Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45031295641/artifacts/14758240481"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
