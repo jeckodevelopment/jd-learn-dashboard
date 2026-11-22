@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T13:34:47.299515+00:00",
+  "generatedAt": "2026-11-22T13:57:12.864585+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f75fa5449d25499ce5013f04d89720f8d07d4c66",
+  "sourceCommit": "aed0dbd127ff0a240355822d77bcac1acd63f6ed",
   "progress": 62.23,
   "developmentProgress": 62.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 925,
+      "title": "feat(AUT-03): expose video provider tracking incompatibility before publication",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/925",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T13:56:44Z",
+      "mergedAt": "2026-11-22T13:56:42Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c28b522a546f7a6081da80affaa68f5229385334",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45029611042"
+      }
+    },
     {
       "number": 924,
       "title": "test(AUT-01): retain all course editor fields after rejected save",
@@ -382,9 +401,9 @@
       "milestone": "1.0.0",
       "headSha": "e8280f3c158e94fac5c1013f5805dc8114afabb6",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45018631496"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1651,25 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 870,
-      "title": "feat(SCR-16): consolidate configuration diagnostics and actual document-root protection",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/870",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T16:51:52Z",
-      "mergedAt": "2026-11-21T16:51:50Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "171fc31b0ee0575dca52be1c3c3651047e675727",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T13:33:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45027728439/artifacts/14755999422"
+    "createdAt": "2026-11-22T13:56:18Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45029611042/artifacts/14757337624"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
