@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T18:04:31.022508+00:00",
+  "generatedAt": "2026-11-22T18:13:43.223365+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T18:13:10Z",
+      "commit": "e66f857ee4921121cb0c03d4c1f181c310ba55d9",
+      "number": 947,
+      "title": "fix(LES-02): reject credential-bearing links in editorial HTML",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/947"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T18:04:05Z",
@@ -1594,14 +1602,6 @@
       "number": 784,
       "title": "docs(history): prove merge e pacchetto SEC-P1 PR #783",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/784"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T14:34:21Z",
-      "commit": "b493d8198b1936093329f34aca6fe99f9ad71bb9",
-      "number": 783,
-      "title": "fix(SEC-P1): minimizzare le note diagnostiche nella riconciliazione email",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/783"
     }
   ]
 }

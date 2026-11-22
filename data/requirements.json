@@ -115,7 +115,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "183;891;938;939;943",
+    "prs": "183;891;938;939;943;947",
     "todo": "Completare la copertura dei contesti editoriali e dei plugin contenuto autorizzati; nessun nuovo provider richiesto.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-66; AC-95; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Provider terzi generici, tutti i contesti/autori/plugin contenuto e prove browser/provider reali.",
     "criteria": "Consentire solo provider e incorporamenti autorizzati; niente script o iframe arbitrari per autori non autorizzati. I collegamenti esterni non devono ricevere credenziali del sito"

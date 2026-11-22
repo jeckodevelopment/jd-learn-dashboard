@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T18:04:31.022508+00:00",
+  "generatedAt": "2026-11-22T18:13:43.223365+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "23bfd323b227c233a9eaad02653d485c90ca9291",
+  "sourceCommit": "e66f857ee4921121cb0c03d4c1f181c310ba55d9",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 947,
+      "title": "fix(LES-02): reject credential-bearing links in editorial HTML",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/947",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T18:13:13Z",
+      "mergedAt": "2026-11-22T18:13:10Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a9c237ccbb01046c04f5c557507538a3336e1bf2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45053224362"
+      }
+    },
     {
       "number": 946,
       "title": "docs(LES-03): record PR #945 merge, CI and package evidence",
@@ -422,9 +441,9 @@
       "milestone": "1.0.0",
       "headSha": "f5686b2f8c3d94e7b4628cbb245b2589aaa5e5a1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45041284691"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -441,9 +460,9 @@
       "milestone": "1.0.0",
       "headSha": "e567a24e731aeba9b3336ecbd02e0ad628aed79c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45041222828"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1651,25 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 893,
-      "title": "fix(CAT-02): show public lesson preview only for supported text lessons",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/893",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T22:57:26Z",
-      "mergedAt": "2026-11-21T22:57:24Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a8a6e87a9a278e65f492d8ec948bb590faed3d34",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T18:01:58Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45052338447/artifacts/14765269414"
+    "createdAt": "2026-11-22T18:12:53Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45053224362/artifacts/14766710554"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
