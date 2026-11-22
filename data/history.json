@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T18:24:46.832273+00:00",
+  "generatedAt": "2026-11-22T18:33:25.023513+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T18:32:58Z",
+      "commit": "7c09719a162eb7d527d09f165fea0664d26a2410",
+      "number": 950,
+      "title": "test(LCM-01): deny direct learning endpoints for inactive courses",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/950"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T18:24:23Z",
@@ -1594,14 +1602,6 @@
       "number": 787,
       "title": "fix(DOC-07): evidenziare task Scheduler duplicati anche se disabilitati",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/787"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T14:50:41Z",
-      "commit": "ad034e4a9969641daf474cc784294b2534286a6f",
-      "number": 786,
-      "title": "docs(history): merge, CI e artefatto SEC-P1 PR #785",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/786"
     }
   ]
 }

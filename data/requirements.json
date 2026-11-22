@@ -126,7 +126,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "202;865;940",
+    "prs": "202;865;940;945",
     "todo": "Completare lifecycle/conservazione e configurazioni di storage non ancora coperte.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-02; AC-67; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Tutti gli scenari di consegna/storage, prove su hosting reale e ciclo di conservazione; protezione non impedisce copie autorizzate.",
     "criteria": "I file riservati sono consegnati tramite controllo autorizzativo o URL temporanei. Un MP4 collocato in una cartella pubblica resta accessibile a chi ne conosce l'URL. La protezione dall'accesso diretto non impedisce registrazione dello schermo o copia da parte di un utente autorizzato"
