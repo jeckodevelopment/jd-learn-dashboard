@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T00:37:27.468288+00:00",
+  "generatedAt": "2026-11-22T07:22:15.731871+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "3ef182e62948727da8c55bae22cae9d30d85f022",
   "progress": 61.73,
@@ -129,12 +129,50 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 2,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 908,
+      "title": "fix(CAT-04): align Finder public index, robots and multilingual SEO checks",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/908",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-22T01:47:13Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "967bef8093e710293f6649808bd73426a442f3f0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44973075684"
+      }
+    },
+    {
+      "number": 907,
+      "title": "fix(CAT-04): enforce private robots headers across teaching routes and guarded SEO views",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/907",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-22T01:16:53Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ebb7579c4978b9db3b2dad4383e407a8bdade3ce",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44970712098"
+      }
+    },
     {
       "number": 906,
       "title": "docs(CAT-04): reconcile PR #905 post-merge verification evidence",
@@ -150,9 +188,9 @@
       "milestone": "1.0.0",
       "headSha": "7d8f2b3adc1b3b973731d86951ea2ac9e8c3437d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44967410674"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -169,9 +207,9 @@
       "milestone": "1.0.0",
       "headSha": "2763325f944dc827551f620a0aa20926871d0a6b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44966845895"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -189,9 +227,9 @@
       "milestone": "1.0.0",
       "headSha": "a6c37e0a9eb53b3f508a33c301e3ec46d5a2f350",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44966088829"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -208,9 +246,9 @@
       "milestone": "1.0.0",
       "headSha": "4a593d4406333d1310007a661c0c3ffea22ab615",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44965041010"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -694,9 +732,9 @@
       "milestone": "1.0.0",
       "headSha": "336536a6cbdc86ea73337904535faef4b8f83068",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44964024832"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -714,9 +752,9 @@
       "milestone": "1.0.0",
       "headSha": "a28e5b833fa6f5dcd22897b524d2acf119994515",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44963447507"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -734,9 +772,9 @@
       "milestone": "1.0.0",
       "headSha": "0bf029c9034dd0cda8461fe750fcb81cc14966c1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44962537785"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -754,9 +792,9 @@
       "milestone": "1.0.0",
       "headSha": "f76f86815bdb69fe56197a3ea9ad9504e00f7fce",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44962058268"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -774,9 +812,9 @@
       "milestone": "1.0.0",
       "headSha": "0e368918e3e0ad2d8a2f03801710087a95150e21",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44961654815"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -794,9 +832,9 @@
       "milestone": "1.0.0",
       "headSha": "6ea07669f48c0437b9bd690b24b7e68c85bfbb60",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44960992845"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -814,9 +852,9 @@
       "milestone": "1.0.0",
       "headSha": "214d7a7ff2ad739c2abd3c5622a758aad5876b21",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44960538988"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1702,9 +1740,9 @@
     ]
   },
   "package": {
-    "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-22T00:33:31Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44966845881/artifacts/14731508674"
+    "name": "JD-Learn-0.64.22-dev",
+    "createdAt": "2026-11-22T01:21:24Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44970712096/artifacts/14734130070"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
