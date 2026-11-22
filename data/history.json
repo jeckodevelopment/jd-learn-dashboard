@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T20:47:47.810471+00:00",
+  "generatedAt": "2026-11-22T21:00:27.366336+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-22T21:00:27.366336+00:00",
+      "commit": "047986bc8a58f93eff431009f02b1229b81566a4",
+      "id": "LCM-04",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T20:59:58Z",
+      "commit": "047986bc8a58f93eff431009f02b1229b81566a4",
+      "number": 960,
+      "title": "docs(LCM-04): chiusura implementativa con contratto FK esterne verificato",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/960"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-22T21:00:27.366336+00:00",
+      "commit": "047986bc8a58f93eff431009f02b1229b81566a4",
+      "from": 62.74,
+      "to": 62.86,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T20:47:15Z",
@@ -1578,30 +1602,6 @@
       "number": 805,
       "title": "docs(history): merge e pacchetto SEC-P1 PR #804",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/805"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T17:42:56Z",
-      "commit": "b9d835907bbbd101357e877793127092e36a119c",
-      "number": 804,
-      "title": "test(SEC-P1): blocco identità obsoleta nelle migrazioni iscrizioni",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/804"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T17:34:49Z",
-      "commit": "8330751f060e38a0cb979278a487940616df850a",
-      "number": 803,
-      "title": "docs(history): merge, CI e pacchetto SEC-P1 PR #802",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/803"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T17:33:01Z",
-      "commit": "d8a9dc06722afa6cceaade60823c1897a39ef063",
-      "number": 802,
-      "title": "test(SEC-P1): negare accesso roster con account bloccato dopo il login",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/802"
     }
   ]
 }

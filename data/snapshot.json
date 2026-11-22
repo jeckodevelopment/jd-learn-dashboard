@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T20:47:47.810471+00:00",
+  "generatedAt": "2026-11-22T21:00:27.366336+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f86864702d6c31f7d5709712050181779b678645",
-  "progress": 62.74,
-  "developmentProgress": 62.74,
+  "sourceCommit": "047986bc8a58f93eff431009f02b1229b81566a4",
+  "progress": 62.86,
+  "developmentProgress": 62.86,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -33,11 +33,11 @@
       "label": "Corsi, versioni e pubblicazione",
       "requirements": 20,
       "weight_percent": 9.35,
-      "development_evidence_floor_percent": 76.94,
+      "development_evidence_floor_percent": 78.19,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 17,
+      "unverifiable_criteria": 16,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 960,
+      "title": "docs(LCM-04): chiusura implementativa con contratto FK esterne verificato",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/960",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T21:00:00Z",
+      "mergedAt": "2026-11-22T20:59:58Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d259dcc761eb5e20cc4339559f6f19f70885beb0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45069465057"
+      }
+    },
     {
       "number": 959,
       "title": "docs(LCM-04): record merge and CI evidence for PR 958",
@@ -305,9 +325,9 @@
       "milestone": "1.0.0",
       "headSha": "65744530428080cfe6766777377a5cf1e8b3f5aa",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45059160428"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -324,9 +344,9 @@
       "milestone": "1.0.0",
       "headSha": "59258b87a2fa1d3291e3d7500ca9906ddedfa65d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45055203072"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1643,25 +1663,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "9b75046c565a095edab08fee20dc348a00336d13",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 341,
-      "title": "docs: align post-merge SEC-P1 evidence and testbook",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/341",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-22T00:03:55Z",
-      "mergedAt": null,
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "327710fa7700f7304574ca79b2b35e02125ba8e3",
       "ci": {
         "status": "unknown",
         "conclusion": null,
