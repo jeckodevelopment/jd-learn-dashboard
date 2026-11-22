@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:48:04.456571+00:00",
+  "generatedAt": "2026-11-22T16:54:37.848470+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7628334d23d7f25e7e41ee4edfaacc608badd479",
+  "sourceCommit": "de752702635ecb697ed9a4a393037bf69b10b2f3",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 940,
+      "title": "test(LES-03): block direct HTTP disclosure of managed private assets",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/940",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T16:54:08Z",
+      "mergedAt": "2026-11-22T16:54:06Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "288b060692c42c7b79ef96a8ef92efb4f6bc5b7f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45045903474"
+      }
+    },
     {
       "number": 939,
       "title": "fix(LES-02): reject credentials in video URL fragments and camelCase keys",
@@ -1651,25 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 885,
-      "title": "fix(LCM-03/04): protect native Joomla multilingual references on purge",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/885",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T21:23:45Z",
-      "mergedAt": "2026-11-21T21:23:43Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5429bd7b75a1f7f5f25ec11d5fc56ca72d2408e6",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T16:46:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45045283534/artifacts/14763511428"
+    "createdAt": "2026-11-22T16:53:02Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45045903474/artifacts/14764165094"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
