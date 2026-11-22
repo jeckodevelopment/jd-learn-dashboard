@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T11:41:41.162681+00:00",
+  "generatedAt": "2026-11-22T11:43:42.952196+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f6b46fb28747f49b5f3542dbc75a2308923c9bbb",
+  "sourceCommit": "d5d31246849da5c5ec890075b7eabe6497cf85f4",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 912,
+      "title": "docs(DOC-10): record #911 CI, merge and artifact evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/912",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T11:43:21Z",
+      "mergedAt": "2026-11-22T11:43:18Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e8280f3c158e94fac5c1013f5805dc8114afabb6",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45018631496"
+      }
+    },
     {
       "number": 911,
       "title": "feat(DOC-10): bind release candidate evidence to ZIP, feed and notes",
@@ -1647,26 +1667,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "00c07227bddf73073a0e342b8b9e788a6aec7950",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 857,
-      "title": "docs(SECDEV-07): record verified CI and merge evidence for PR 856",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/857",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T13:16:31Z",
-      "mergedAt": "2026-11-21T13:16:28Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "faa62455bb951a200079e1e818dd4e6fbbb90548",
       "ci": {
         "status": "unknown",
         "conclusion": null,
