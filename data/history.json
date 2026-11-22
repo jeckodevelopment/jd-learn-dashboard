@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T17:38:19.979525+00:00",
+  "generatedAt": "2026-11-22T17:45:06.831244+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T17:44:40Z",
+      "commit": "929d18ff5ac4e358b877b3736f233ee94806f37e",
+      "number": 943,
+      "title": "fix(LES-02): suppress editorial link referrer disclosure",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/943"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T17:37:46Z",
@@ -1594,14 +1602,6 @@
       "number": 780,
       "title": "docs(history): registrare merge e pacchetto SEC-P1 PR #779",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/780"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T13:58:15Z",
-      "commit": "fadb3821265da836331dac15cb065b0281415bb5",
-      "number": 779,
-      "title": "test(SEC-P1): isolare destinatari e accodamento comunicazioni tra corsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/779"
     }
   ]
 }
