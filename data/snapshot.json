@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T21:49:35.096654+00:00",
+  "generatedAt": "2026-11-22T21:51:58.129632+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "2a34a2d21312ce32c2fb649093e8d8252a2b8eef",
+  "sourceCommit": "0b49c0a95e0fbeddb6801bb287aed0504170cd8f",
   "progress": 62.86,
   "developmentProgress": 62.86,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,26 @@
   },
   "prs": [
     {
+      "number": 964,
+      "title": "docs(LCM-05): riconciliazione ACL granulari verificata in CI",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/964",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T21:51:40Z",
+      "mergedAt": "2026-11-22T21:51:37Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "aab7c11936a5680951125a341bcf78fba438f047",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45074322357"
+      }
+    },
+    {
       "number": 963,
       "title": "test(LCM-05): ACL granulari per percorso via modello e HTTP",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/963",
@@ -266,9 +286,9 @@
       "milestone": "1.0.0",
       "headSha": "2adb17e4147307d1a3480b238f7ed607ec59309e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45066356070"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -285,9 +305,9 @@
       "milestone": "1.0.0",
       "headSha": "8a6c7142442e30ed8842cef3c171c619dabd0e60",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45065520060"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1644,25 +1664,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "adc897684496898c79fb3f8093634f62c3e352e2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 389,
-      "title": "docs: record PR 388 merge and verified package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/389",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:08Z",
-      "mergedAt": "2026-11-14T22:39:36Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "387569fa94aef22d99fa82d36b4e0487cc2ecbf0",
       "ci": {
         "status": "unknown",
         "conclusion": null,
