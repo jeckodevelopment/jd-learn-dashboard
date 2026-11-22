@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:21:53.312903+00:00",
+  "generatedAt": "2026-11-22T16:25:49.499964+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "640a6075c6647a08af4c438f41a4280fc940b2d5",
+  "sourceCommit": "4c903cb8e1897054cc08dba168072faf80dbb8c5",
   "progress": 62.41,
   "developmentProgress": 62.41,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 936,
+      "title": "docs(AUT-01): close all AUT-01–05 implementation criteria",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/936",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T16:25:21Z",
+      "mergedAt": "2026-11-22T16:25:19Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "dc9bf5c09ab566f9506d1417ea9178f84f580043",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45043664187"
+      }
+    },
     {
       "number": 935,
       "title": "fix(AUT-01): restore Joomla lesson field values after rejected save",
@@ -341,9 +361,9 @@
       "milestone": "1.0.0",
       "headSha": "c28b522a546f7a6081da80affaa68f5229385334",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45029611042"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -360,9 +380,9 @@
       "milestone": "1.0.0",
       "headSha": "9ed31265dfd33190e0acc3d8a989b48a2d29dc37",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45027728439"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1646,25 +1666,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "a480e61f75918bba4e2f01fc4a8af18d9ab6bfb8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 881,
-      "title": "fix(LCM-03): preserve pathway associations on partial saves",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/881",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T20:51:00Z",
-      "mergedAt": "2026-11-21T20:50:57Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a2d49e24e2590369facfcf6474793cd592ea42dc",
       "ci": {
         "status": "unknown",
         "conclusion": null,
