@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T15:52:04.958453+00:00",
+  "generatedAt": "2026-11-22T16:02:30.948557+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a5f42a92b5bbc93813f8651ee25de0b6f79c63b0",
+  "sourceCommit": "0b63d08c4c745d4d4e31af8f02590cfe9ce7d5bf",
   "progress": 62.32,
   "developmentProgress": 62.32,
   "manualAcceptanceProgress": 4.67,
@@ -129,12 +129,69 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 2,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 931,
+      "title": "test(AUT-03): validate provider captions and tracking readiness matrix",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/931",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-22T15:59:18Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f5686b2f8c3d94e7b4628cbb245b2589aaa5e5a1",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45041284691"
+      }
+    },
+    {
+      "number": 933,
+      "title": "test(AUT-01): preserve invalid module and lesson editor state",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/933",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-22T15:58:36Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e567a24e731aeba9b3336ecbd02e0ad628aed79c",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45041222828"
+      }
+    },
+    {
+      "number": 932,
+      "title": "test(AUT-01): retain all fields on stale editor revision",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/932",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T16:02:01Z",
+      "mergedAt": "2026-11-22T16:01:59Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "57b7a7c18c55533e702a92c8856085988509de11",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45040966411"
+      }
+    },
     {
       "number": 930,
       "title": "test(AUT-01): retain editor input after required title rejection",
@@ -360,9 +417,9 @@
       "milestone": "1.0.0",
       "headSha": "1d33cfa3de02822e3431bac1503abdbafa48e3df",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45023053745"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1650,25 +1707,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 876,
-      "title": "fix(SCR-16): isolate diagnostic scan completeness by source",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/876",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T18:29:41Z",
-      "mergedAt": "2026-11-21T18:29:39Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "78e9d2ff42679122b9c9e60b11a861168dfbefd1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1738,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T15:51:19Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45040079012/artifacts/14761995182"
+    "createdAt": "2026-11-22T16:01:20Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45040966411/artifacts/14761628445"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
