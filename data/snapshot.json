@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T22:37:55.367947+00:00",
+  "generatedAt": "2026-11-22T22:54:11.521460+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d25d061d8ad82112f1b2d08d31e35b9222860085",
+  "sourceCommit": "ec1c8aaf56748386b644fb53ff274abacff3f240",
   "progress": 63.06,
   "developmentProgress": 63.06,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 968,
+      "title": "test(SECDEV-03): cross-surface evidence and CSV injection tripwire",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/968",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:53:45Z",
+      "mergedAt": "2026-11-22T22:53:42Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a58cc66d16dddab84e0197e22347305d40c0fa1d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45079693089"
+      }
+    },
     {
       "number": 967,
       "title": "test(SECDEV-03): negative SQL-like catalog search payloads",
@@ -1658,26 +1677,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 511,
-      "title": "docs(frontend): reconcile FE-05 certificates PR #510 evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/511",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:57Z",
-      "mergedAt": "2026-11-16T17:41:09Z",
-      "labels": [
-        "documentation",
-        "frontend"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "967839d388300f3375eb9f938dc0a9f54975f78c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1709,8 +1708,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T22:37:07Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45078172760/artifacts/14776855004"
+    "createdAt": "2026-11-22T22:53:21Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45079693089/artifacts/14777285156"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
