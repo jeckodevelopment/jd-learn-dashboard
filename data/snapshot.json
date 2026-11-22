@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T11:17:48.455182+00:00",
+  "generatedAt": "2026-11-22T11:20:01.753755+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "314e7f031f04f06f1c15c9aaa0f7d1630e92be0e",
+  "sourceCommit": "e93ee97b6844dfd0443d3c0767daf9e12e6cb30f",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,10 +139,10 @@
       "number": 908,
       "title": "fix(CAT-04): align Finder public index, robots and multilingual SEO checks",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/908",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-22T11:15:00Z",
-      "mergedAt": null,
+      "updated": "2026-11-22T11:19:34Z",
+      "mergedAt": "2026-11-22T11:19:32Z",
       "labels": [
         "P1"
       ],
@@ -1672,25 +1672,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 854,
-      "title": "security(SECDEV-07): enforce source-backed security assurance and residual risk ledger",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/854",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T12:58:22Z",
-      "mergedAt": "2026-11-21T12:58:20Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c9464d5da2f993e1246a1fd7b0d312ccf3e2efc5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1722,8 +1703,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T01:21:24Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44970712096/artifacts/14734130070"
+    "createdAt": "2026-11-22T11:19:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45016381150/artifacts/14751808092"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
