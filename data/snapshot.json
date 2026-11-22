@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T00:12:37.641129+00:00",
+  "generatedAt": "2026-11-22T00:16:01.697124+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "b3d1212b8e7278cb5456347e5f74318dc6220a01",
   "progress": 61.73,
@@ -129,12 +129,29 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 904,
+      "title": "docs(DOC-10): candidate release notes with limitations and verification gate",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/904",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-22T00:15:54Z",
+      "mergedAt": null,
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "52d70e9e8fa13b267f171f5c26a3e74a48820c55",
+      "ci": {
+        "status": "queued",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44965768864"
+      }
+    },
     {
       "number": 903,
       "title": "fix(COURSE): restore non-closing Save toolbar action (#793)",
@@ -852,9 +869,9 @@
       "milestone": "1.0.0",
       "headSha": "248bbd634f8c0c241b339fe4c0d02c3881b24495",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44957653022"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
