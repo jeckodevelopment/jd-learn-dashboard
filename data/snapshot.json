@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T19:45:37.321810+00:00",
+  "generatedAt": "2026-11-22T20:00:47.323106+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3b65b1e553ac68f5c366ada7af9c1316bef311f5",
+  "sourceCommit": "36ae5751cf914da594b1b5ab3288e3283759dba4",
   "progress": 62.65,
   "developmentProgress": 62.65,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 954,
+      "title": "test(LCM-02): complete core implementation criteria and authorization regression",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/954",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T20:00:15Z",
+      "mergedAt": "2026-11-22T20:00:13Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5e32af886766ead07b793464c3a7921aa253061d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45063445275"
+      }
+    },
     {
       "number": 953,
       "title": "test(LCM-02): deny course purge with Joomla multilingual associations",
@@ -383,9 +403,9 @@
       "milestone": "1.0.0",
       "headSha": "836b0277be188823f584cc48795f346cb4aa6f03",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45050412689"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -402,9 +422,9 @@
       "milestone": "1.0.0",
       "headSha": "5c08ae7a69e4e10bace0708200622c2a034db575",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45049842678"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -421,9 +441,9 @@
       "milestone": "1.0.0",
       "headSha": "288b060692c42c7b79ef96a8ef92efb4f6bc5b7f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45045903474"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,26 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 900,
-      "title": "docs(CAT-01): close 5/5 catalogue core implementation criteria",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/900",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T23:41:18Z",
-      "mergedAt": "2026-11-21T23:41:16Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0bf029c9034dd0cda8461fe750fcb81cc14966c1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T19:43:32Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45061947021/artifacts/14769897163"
+    "createdAt": "2026-11-22T20:00:03Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45063445223/artifacts/14770582697"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

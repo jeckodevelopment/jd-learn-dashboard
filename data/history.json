@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T19:45:37.321810+00:00",
+  "generatedAt": "2026-11-22T20:00:47.323106+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-22T20:00:47.323106+00:00",
+      "commit": "36ae5751cf914da594b1b5ab3288e3283759dba4",
+      "id": "LCM-02",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T20:00:13Z",
+      "commit": "36ae5751cf914da594b1b5ab3288e3283759dba4",
+      "number": 954,
+      "title": "test(LCM-02): complete core implementation criteria and authorization regression",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/954"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T19:45:08Z",
@@ -1586,22 +1602,6 @@
       "number": 795,
       "title": "docs(history): tracciare CI, merge e ZIP di SEC-P1 PR #794",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/795"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T15:56:27Z",
-      "commit": "e71303714951c5b1ef3575d1c7440933cba0105a",
-      "number": 794,
-      "title": "fix(SEC-P1): restringere dispatch e censire task dei 37 controller Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/794"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T15:37:35Z",
-      "commit": "0e6300c1ae80909d35ecc44e4b1da8415f983894",
-      "number": 792,
-      "title": "docs(history): registrare merge e artefatto SEC-P1 PR #791",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/792"
     }
   ]
 }

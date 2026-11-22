@@ -2697,12 +2697,12 @@
   {
     "id": "LCM-02",
     "area": "LCM",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "613;614;615;625;903",
-    "todo": "Validazione completa ACL su ruoli limitati, riferimenti terze parti, history e coerenza operativa con tutte le funzioni; la purga dei corsi con dipendenze rimane vietata.",
-    "tests": "Verificare in Joomla test di purga positiva e negativa, dipendenze esterne, URL diretti e permanenza di iscrizioni, progressi e attestati.",
+    "prs": "613;614;615;625;903;953",
+    "todo": "Nessuno nel core LCM-02: filtri, toolbar, transizioni, purge di un corso vuoto, ACL e protezione delle dipendenze note sono implementati. Nessuna garanzia per riferimenti non dichiarati di estensioni terze.",
+    "tests": "Collaudo manuale differito: ruoli limitati, URL diretti, persistenza degli storici e compatibilita con estensioni terze installate. La CI copre solo Joomla core e JD Learn.",
     "criteria": "Corsi: toolbar e filtri Joomla, cestinazione/ripristino, eliminazione fisica vietata in presenza di utenti o dipendenze storiche"
   },
   {
