@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T12:07:45.310777+00:00",
+  "generatedAt": "2026-11-22T12:10:18.069828+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0928540ef7eada757af872839a6b4ef8e32dbf68",
+  "sourceCommit": "fffcbf1aa3cd8db82750f2840148e5bc452627f6",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 916,
+      "title": "docs(ISC-07): capture PR 915 merge and validated artifact evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/916",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T12:09:45Z",
+      "mergedAt": "2026-11-22T12:09:43Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "443223d788cae1e2f8e57116d11e52dcbae42ba0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45020751590"
+      }
+    },
     {
       "number": 915,
       "title": "fix(ISC-07): invalidate persistent video sessions on enrollment revocation",
@@ -1647,25 +1667,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "86c0aec23e2967763aa4104aa6f7b44c5eb454d4",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 861,
-      "title": "fix(AUT-04/LES-01): prevent silent truncation of native lesson field values on copy",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/861",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T14:13:43Z",
-      "mergedAt": "2026-11-21T14:13:40Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2ae068a1ed15c74fd97f7d2f0a16f554aaec442c",
       "ci": {
         "status": "unknown",
         "conclusion": null,
