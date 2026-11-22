@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T17:36:06.627819+00:00",
+  "generatedAt": "2026-11-22T17:38:19.979525+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ee5e10be48069468a7fdcbf3a61d9d617f35ac03",
+  "sourceCommit": "1badd6921bb8cdf4c00aba6a47a0fd32794348cb",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 942,
+      "title": "docs(LES-04): record PR #941 merge and validated artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/942",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T17:37:49Z",
+      "mergedAt": "2026-11-22T17:37:46Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "836b0277be188823f584cc48795f346cb4aa6f03",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45050412689"
+      }
+    },
     {
       "number": 941,
       "title": "test(LES-04): enforce managed upload capacity limits",
@@ -1645,25 +1665,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "80b2d65519245077fbce78c33bd9826405350054",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 887,
-      "title": "fix(LCM-03): enforce native checkout for direct pathway editorial saves",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/887",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T21:45:13Z",
-      "mergedAt": "2026-11-21T21:45:10Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3d27f14a1bb8c50a76cefefa1398521fd2d8377c",
       "ci": {
         "status": "unknown",
         "conclusion": null,
