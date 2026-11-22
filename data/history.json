@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T18:13:43.223365+00:00",
+  "generatedAt": "2026-11-22T18:19:56.810631+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T18:19:30Z",
+      "commit": "833d7412ba60e654a6754f7dfe75c50748b59606",
+      "number": 948,
+      "title": "fix(LES-02): apply credential-safe links to lesson bodies",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/948"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T18:13:10Z",
@@ -1594,14 +1602,6 @@
       "number": 785,
       "title": "test(SEC-P1): due processi Joomla concorrenti sulla riconciliazione email",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/785"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T14:36:50Z",
-      "commit": "b744954577726950b8145b4bb6dfa32c18dd799c",
-      "number": 784,
-      "title": "docs(history): prove merge e pacchetto SEC-P1 PR #783",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/784"
     }
   ]
 }

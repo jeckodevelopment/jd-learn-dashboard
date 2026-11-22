@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T18:13:43.223365+00:00",
+  "generatedAt": "2026-11-22T18:19:56.810631+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e66f857ee4921121cb0c03d4c1f181c310ba55d9",
+  "sourceCommit": "833d7412ba60e654a6754f7dfe75c50748b59606",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 948,
+      "title": "fix(LES-02): apply credential-safe links to lesson bodies",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/948",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T18:19:32Z",
+      "mergedAt": "2026-11-22T18:19:30Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "aede2300552f7cfad9178790302b9dfc1b04ab71",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45053968452"
+      }
+    },
     {
       "number": 947,
       "title": "fix(LES-02): reject credential-bearing links in editorial HTML",
@@ -422,9 +441,9 @@
       "milestone": "1.0.0",
       "headSha": "0b3f199b8d072dacbfe66f1ea66fa4677c349c6f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45042166680"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1650,26 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 894,
-      "title": "docs(CAT-02): reconcile PR #893 merge and build evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/894",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T22:58:58Z",
-      "mergedAt": "2026-11-21T22:58:56Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4356a9f65bbf9e62f2e0f8a397f00a919b5142d1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T18:12:53Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45053224362/artifacts/14766710554"
+    "createdAt": "2026-11-22T18:19:09Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45053968452/artifacts/14766961529"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
