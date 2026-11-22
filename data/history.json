@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T18:03:04.017046+00:00",
+  "generatedAt": "2026-11-22T18:04:31.022508+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T18:04:05Z",
+      "commit": "23bfd323b227c233a9eaad02653d485c90ca9291",
+      "number": 946,
+      "title": "docs(LES-03): record PR #945 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/946"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T18:02:30Z",
@@ -1594,14 +1602,6 @@
       "number": 783,
       "title": "fix(SEC-P1): minimizzare le note diagnostiche nella riconciliazione email",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/783"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T14:20:43Z",
-      "commit": "c52606e97c190a433e0fe103b041b53af8ca5fb0",
-      "number": 782,
-      "title": "docs(history): evidenze merge e pacchetto SEC-P1 PR #781",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/782"
     }
   ]
 }

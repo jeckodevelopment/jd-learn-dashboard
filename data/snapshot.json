@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T18:03:04.017046+00:00",
+  "generatedAt": "2026-11-22T18:04:31.022508+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "39c628870210945276c21025c85edccc9bd54e1c",
+  "sourceCommit": "23bfd323b227c233a9eaad02653d485c90ca9291",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,46 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 946,
+      "title": "docs(LES-03): record PR #945 merge, CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/946",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T18:04:07Z",
+      "mergedAt": "2026-11-22T18:04:05Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7d2a8285cf6c5ad5d8d4a6d267f15cea62ecaae1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45052854812"
+      }
+    },
+    {
+      "number": 860,
+      "title": "docs(SECDEV-07/02): reconcile verified SAST gates and development metrics",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/860",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-22T18:02:57Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d5ca537a93c21579f6389e21541a16d9b3613f6d",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
     {
       "number": 945,
       "title": "test(LES-03): block anonymous HEAD and Range on managed private files",
@@ -420,9 +460,9 @@
       "milestone": "1.0.0",
       "headSha": "57b7a7c18c55533e702a92c8856085988509de11",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45040966411"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1625,45 +1665,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "a8a6e87a9a278e65f492d8ec948bb590faed3d34",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 892,
-      "title": "docs(LES-02): reconcile PR #891 merge, CI and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/892",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T22:45:04Z",
-      "mergedAt": "2026-11-21T22:45:02Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "29ac87d0b2f7fc3530353b38ccc594de8def506c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 891,
-      "title": "fix(LES-02): unify safe HTML policy for pathways and teacher biographies",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/891",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T22:41:37Z",
-      "mergedAt": "2026-11-21T22:41:35Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "248bbd634f8c0c241b339fe4c0d02c3881b24495",
       "ci": {
         "status": "unknown",
         "conclusion": null,
