@@ -2733,8 +2733,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "581;582;584;586;627;629;633;639;961;962;963",
-    "todo": "LCM-05 rimane gate parziale: integrare test HTTP/CSRF, ACL per record e regressioni Finder/SEO, storico e upgrade; nessun intervento runtime nelle PR #581 e #582 GET 405 e POST senza token 403 coperti da PR #584; rimangono prove con token valido e ACL granulari. Con PR #586 coperta una transizione positiva HTTP. PR #961 amplia i controlli HTTP a token CSRF alterato, PR #962 verifica atomicità e rifiuto di selezioni miste via HTTP; PR #963 introduce prove ACL Joomla per record con utente delegato, selezioni miste e POST HTTP; Finder/SEO, storico e upgrade da consolidare.",
+    "prs": "581;582;584;586;627;629;633;639;961;962;963;964;965",
+    "todo": "LCM-05 rimane gate parziale: integrare test HTTP/CSRF, ACL per record e regressioni Finder/SEO, storico e upgrade; nessun intervento runtime nelle PR #581 e #582 GET 405 e POST senza token 403 coperti da PR #584; rimangono prove con token valido e ACL granulari. Con PR #586 coperta una transizione positiva HTTP. PR #961 amplia i controlli HTTP a token CSRF alterato, PR #962 verifica atomicità e rifiuto di selezioni miste via HTTP; PR #963 confermata in CI #45073750176 4/4: ACL per record con delegato e HTTP verificati, criterio granular_acl implementato; restano Finder/SEO, storico e upgrade.",
     "tests": "Collaudo Joomla reale di URL diretti, permessi, POST/CSRF, conservazione relazioni, Finder/SEO, storico, upgrade e interfaccia; registrare evidenze nel QA_TESTBOOK Test negativo HTTP automatico #584 completato; casi positivi e altri gate ancora pendenti.",
     "criteria": "Gate: test ACL, CSRF, endpoint diretti, Finder/catalogo, attestati/storico, migrazione dati, UI e accettazione Joomla"
   }

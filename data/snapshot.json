@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T21:51:58.129632+00:00",
+  "generatedAt": "2026-11-22T22:15:33.036904+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0b49c0a95e0fbeddb6801bb287aed0504170cd8f",
-  "progress": 62.86,
-  "developmentProgress": 62.86,
+  "sourceCommit": "387eab0ceacd12b61a74dbba51340e90ef17392d",
+  "progress": 62.93,
+  "developmentProgress": 62.93,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -33,11 +33,11 @@
       "label": "Corsi, versioni e pubblicazione",
       "requirements": 20,
       "weight_percent": 9.35,
-      "development_evidence_floor_percent": 78.19,
+      "development_evidence_floor_percent": 78.9,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 16,
+      "unverifiable_criteria": 15,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,253 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 965,
+      "title": "test(LCM-05): Finder lifecycle e conservazione dati durante upgrade",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/965",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:15:02Z",
+      "mergedAt": "2026-11-22T22:14:59Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d99610f36a18c158bf44d355e27fc84cf4246e42",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45076048712"
+      }
+    },
+    {
+      "number": 333,
+      "title": "docs: plan comprehensive 1.0.0 manuals and contextual Joomla help",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/333",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:01:22Z",
+      "mergedAt": "2026-11-13T22:13:25Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c4afcc8b1d5b961fb3c20727babddadcb61c157b",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 330,
+      "title": "docs: reconcile MAIL-11 implementation and Joomla acceptance",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/330",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:01:19Z",
+      "mergedAt": "2026-11-13T22:01:08Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "64421238fe377b86cbbc02338029bf16a1cdd75c",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 311,
+      "title": "docs: traccia MAIL-11 nella matrice requisiti 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/311",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:01:16Z",
+      "mergedAt": "2026-11-13T13:52:18Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9835b04232846c868025fa65567065505f5c4ed9",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 294,
+      "title": "docs: integrate essential certificates into JD Learn 1.0.0 plan",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/294",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:01:13Z",
+      "mergedAt": "2026-11-12T20:53:20Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f43bd0cfec8af238daf67fdf90766afeb712e640",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 293,
+      "title": "docs: includere attestati PDF essenziali nel piano JD Learn 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/293",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-22T22:01:10Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3eacd33e68c2317742ca03935b92f7f01b7b8d70",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 292,
+      "title": "docs: sync email notification status after PR #291",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/292",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:01:07Z",
+      "mergedAt": "2026-11-12T20:48:08Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f0191d8a3c416d8d97fdff3afeadd9f3b3287152",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 290,
+      "title": "docs: approvazione requisiti Mail Templates e piano PR 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/290",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:01:04Z",
+      "mergedAt": "2026-11-12T20:12:07Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "848bdfe728cf6ef681585c8ed0ccecf875ae30ed",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 269,
+      "title": "docs: register IMP-01 history coverage and next priority",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/269",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:01:01Z",
+      "mergedAt": "2026-11-12T10:42:52Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d7d65cc9aba13bcd72f4b3acbff46615d768a062",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 174,
+      "title": "docs: decisioni Credentials T-008–T-015 e scenari corso/percorso",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/174",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:00:58Z",
+      "mergedAt": "2026-11-10T07:45:22Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f58596d41e79b8aee6a585e61e456a05eeefaae5",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 171,
+      "title": "docs: piano Credentials (21 PR) e milestone C0–C5 post-1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/171",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:00:56Z",
+      "mergedAt": "2026-11-10T07:17:06Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fd7e5400f2f6fe88860c576f6bd27bfc3060dc97",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 166,
+      "title": "docs: architettura nativa JD Learn Credentials (T-001–T-007)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/166",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:00:53Z",
+      "mergedAt": "2026-11-09T22:47:52Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a3a977d4681408993b32c43df90de29c0f12128f",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 163,
+      "title": "docs: specifica JD Learn Credentials — Open Badges 3.0 (post-1.0.0)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/163",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:00:50Z",
+      "mergedAt": "2026-11-09T22:26:32Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "dbfb27f52185267d87c584d5e6bb667b82f4bf48",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
     {
       "number": 964,
       "title": "docs(LCM-05): riconciliazione ACL granulari verificata in CI",
@@ -1430,245 +1677,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 485,
-      "title": "Docs: riconcilia evidenze post-merge LCM-01 / PR #484",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/485",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:48Z",
-      "mergedAt": "2026-11-16T10:17:41Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d7718b8f02162d28deb26c9b8b3dcfc1c4656c23",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 481,
-      "title": "Fix: elimina ordinamenti duplicati nella vista Attestati",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/481",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:45Z",
-      "mergedAt": "2026-11-16T09:18:00Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "32131f717d6348ec1df94789c264d64bd8f13c7a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 409,
-      "title": "docs: riconcilia evidenze PR #407, build 0.57.6-dev e issue #394",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/409",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:42Z",
-      "mergedAt": "2026-11-15T13:24:43Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b3a1acf9f5d1647dcd3a11712623324263b6bb2a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 405,
-      "title": "docs: reconcile MAIL-H #403 merge, verified CI and 0.57.5 Joomla artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/405",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:38Z",
-      "mergedAt": "2026-11-15T13:04:01Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a4701fe91074bf23a422d7ad56b3b6919103154c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 402,
-      "title": "docs: record MAIL-G #401 merged CI and installable 0.57.4-dev artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/402",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:35Z",
-      "mergedAt": "2026-11-15T12:48:24Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ff5eb1fa52d6570c3e797411f51722590842a509",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 401,
-      "title": "feat(mail-g): optional notifications to authorized managers of pending enrollments",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/401",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:32Z",
-      "mergedAt": "2026-11-15T12:46:24Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "5332d26fa41a5a579e70e0819ce38bef6a306310",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 400,
-      "title": "docs: reconcile merged MAIL-G #399 CI and installable artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/400",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:29Z",
-      "mergedAt": "2026-11-15T12:29:35Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ab0654f23bc3fa7bc4e42fa185726d8679adea2f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 399,
-      "title": "feat(mail-g): notify migrated learners of significant teaching-version changes",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/399",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:26Z",
-      "mergedAt": "2026-11-15T12:27:00Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "0bc10cec02b82b25f1de71a257343df86c871627",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 398,
-      "title": "docs: record MAIL-G #397 merge, package checksum and CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/398",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:23Z",
-      "mergedAt": "2026-11-15T12:08:48Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "079ef7c31a423edef77606556b3cd23e359af1de",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 397,
-      "title": "feat(mail-g): notify active learners when scheduled lessons become available",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/397",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:20Z",
-      "mergedAt": "2026-11-15T12:06:54Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "e9df62e89409b4df6e986cc13aad332a98ba49d5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 396,
-      "title": "docs: record MAIL-H #395 merge, CI and installable package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/396",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:17Z",
-      "mergedAt": "2026-11-15T11:24:39Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "fa18363f4ba665dc6ec9176731e4494544ea0856",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 393,
-      "title": "docs: record #391 package checksum",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/393",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:14Z",
-      "mergedAt": "2026-11-14T22:58:43Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5e021cffc8f2cec93bf6936192f0cae20b196153",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 392,
-      "title": "docs: record merged PR #391 evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/392",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:11Z",
-      "mergedAt": "2026-11-14T22:57:43Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "adc897684496898c79fb3f8093634f62c3e352e2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1708,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T21:48:24Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45073750176/artifacts/14774646597"
+    "createdAt": "2026-11-22T22:13:13Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45076048707/artifacts/14774484260"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
