@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T11:54:14.598793+00:00",
+  "generatedAt": "2026-11-22T12:07:45.310777+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7dc0b7ed0744229c3905e8a8d46833c20854cfec",
+  "sourceCommit": "0928540ef7eada757af872839a6b4ef8e32dbf68",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 915,
+      "title": "fix(ISC-07): invalidate persistent video sessions on enrollment revocation",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/915",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T12:07:21Z",
+      "mergedAt": "2026-11-22T12:07:19Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "161876c50330776e04831eac33427e2c084cfa18",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45020144665"
+      }
+    },
     {
       "number": 914,
       "title": "docs(ISC-07): record merged PR 913 CI and artifact evidence",
@@ -1652,26 +1671,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 860,
-      "title": "docs(SECDEV-07/02): reconcile verified SAST gates and development metrics",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/860",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-21T13:50:31Z",
-      "mergedAt": null,
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d5ca537a93c21579f6389e21541a16d9b3613f6d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1703,8 +1702,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T11:51:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45019030790/artifacts/14752563496"
+    "createdAt": "2026-11-22T12:06:48Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45020144665/artifacts/14754090264"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

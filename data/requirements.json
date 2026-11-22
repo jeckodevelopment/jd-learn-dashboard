@@ -302,7 +302,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "13;484;486;488;913",
+    "prs": "13;484;486;488;913;915",
     "todo": "Nessuna nuova revoca istantanea promessa: controlli correnti presenti. Copertura integrale di tutti i contesti da confermare; mantenere Parziale fino alla ricognizione puntuale.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-25; AC-59; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Collaudo completo browser/dispositivi/provider, scadenze/notifiche e integrazione esterna; token già emessi non revocabili istantaneamente.",
     "criteria": "Perdita e recupero dell'accesso.  Il controllo del livello si applica a ogni richiesta protetta, inclusi salvataggi, consegna quiz, download e rilascio/rinnovo token video. Non basta verificarlo al login: eliminare le autorizzazioni obsolete nelle sessioni persistenti e nelle cache secondo i meccanismi supportati dalla release Joomla target. La perdita del livello blocca nuove operazioni LMS e non cancella progressi, tentativi o attestati già emessi. Al ripristino del livello lo studente ritrova il proprio storico, salvo nuova edizione formativa o cancellazione prevista dalla politica adottata. Un quiz già avviato non attribuisce più risultati da nuove risposte non autorizzate: il server può chiuderlo sulle risposte già salvate secondo la sua scadenza. Questa regola prevale sulla tolleranza per la sola scadenza didattica descritta in QUI-05"
