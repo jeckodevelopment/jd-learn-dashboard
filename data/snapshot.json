@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:03:59.894359+00:00",
+  "generatedAt": "2026-11-22T16:05:11.902111+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7d2b3d9cf51787486c62e0f0f68076a9350b6c55",
+  "sourceCommit": "279a635779ab0ec76667b2cb8ae9b761c8041829",
   "progress": 62.32,
   "developmentProgress": 62.32,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,18 +139,18 @@
       "number": 931,
       "title": "test(AUT-03): validate provider captions and tracking readiness matrix",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/931",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-22T15:59:18Z",
-      "mergedAt": null,
+      "updated": "2026-11-22T16:04:44Z",
+      "mergedAt": "2026-11-22T16:04:41Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
       "headSha": "f5686b2f8c3d94e7b4628cbb245b2589aaa5e5a1",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45041284691"
       }
     },
@@ -1664,25 +1664,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "ca2ab1fbaeed543ee7500f343cf10858e5d7195b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 878,
-      "title": "fix(SCR-16): restore provider diagnostics labels and enforce manager ACL",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/878",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T19:11:04Z",
-      "mergedAt": "2026-11-21T19:11:02Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e8856f91d83bf5893585d4726ebfa9c0f9a56203",
       "ci": {
         "status": "unknown",
         "conclusion": null,
