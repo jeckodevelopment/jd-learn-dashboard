@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T16:54:37.848470+00:00",
+  "generatedAt": "2026-11-22T17:36:06.627819+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T17:35:34Z",
+      "commit": "ee5e10be48069468a7fdcbf3a61d9d617f35ac03",
+      "number": 941,
+      "title": "test(LES-04): enforce managed upload capacity limits",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/941"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T16:54:06Z",
@@ -1594,14 +1602,6 @@
       "number": 778,
       "title": "docs(history): merge e pacchetto SEC-P1 PR #777",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/778"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T13:45:51Z",
-      "commit": "b59fe7075541ae91f655099a4b6995ea0b62464b",
-      "number": 777,
-      "title": "fix(SEC-P1): autorizzazione aggiornata per l'editing dei profili docenti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/777"
     }
   ]
 }

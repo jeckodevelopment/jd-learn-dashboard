@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:54:37.848470+00:00",
+  "generatedAt": "2026-11-22T17:36:06.627819+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "de752702635ecb697ed9a4a393037bf69b10b2f3",
+  "sourceCommit": "ee5e10be48069468a7fdcbf3a61d9d617f35ac03",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 941,
+      "title": "test(LES-04): enforce managed upload capacity limits",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/941",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T17:35:37Z",
+      "mergedAt": "2026-11-22T17:35:34Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5c08ae7a69e4e10bace0708200622c2a034db575",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45049842678"
+      }
+    },
     {
       "number": 940,
       "title": "test(LES-03): block direct HTTP disclosure of managed private assets",
@@ -1650,26 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 886,
-      "title": "docs(LCM-03/04): reconcile PR #885 merge and CI evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/886",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T21:26:28Z",
-      "mergedAt": "2026-11-21T21:26:26Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "06349f114b57edc378c4544194fb1a26432e179c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T16:53:02Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45045903474/artifacts/14764165094"
+    "createdAt": "2026-11-22T17:35:05Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45049842678/artifacts/14764878959"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
