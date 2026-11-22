@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T13:57:12.864585+00:00",
+  "generatedAt": "2026-11-22T14:06:32.848784+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "aed0dbd127ff0a240355822d77bcac1acd63f6ed",
+  "sourceCommit": "c3447281daf6e136a8c867d49b37d25729130240",
   "progress": 62.23,
   "developmentProgress": 62.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 926,
+      "title": "test(AUT-01): preserve stale editor inputs without overwriting newer revision",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/926",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T14:06:12Z",
+      "mergedAt": "2026-11-22T14:06:09Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fab2c57a6729945aefbbbdfd783827b69d304f17",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45030333681"
+      }
+    },
     {
       "number": 925,
       "title": "feat(AUT-03): expose video provider tracking incompatibility before publication",
@@ -1650,26 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 871,
-      "title": "docs(SCR-16): reconcile PR 870 CI, package and remaining criterion evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/871",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T16:58:14Z",
-      "mergedAt": "2026-11-21T16:58:12Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ec709c3a57d27deb4d5ff27c3034110cc0b13ead",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T13:56:18Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45029611042/artifacts/14757337624"
+    "createdAt": "2026-11-22T14:04:58Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45030333681/artifacts/14757273915"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
