@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T21:16:59.547230+00:00",
+  "generatedAt": "2026-11-22T21:49:35.096654+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T21:49:01Z",
+      "commit": "2a34a2d21312ce32c2fb649093e8d8252a2b8eef",
+      "number": 963,
+      "title": "test(LCM-05): ACL granulari per percorso via modello e HTTP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/963"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T21:16:29Z",
@@ -1594,14 +1602,6 @@
       "number": 808,
       "title": "test(SEC-P1): matrice threat-control e guardie trasversali plugin task media",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/808"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T17:55:52Z",
-      "commit": "86a29631e526cc2d65266de2592fa07941dcee9e",
-      "number": 807,
-      "title": "docs(history): evidenze merge e pacchetto SEC-P1 PR #806",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/807"
     }
   ]
 }

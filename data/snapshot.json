@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T21:16:59.547230+00:00",
+  "generatedAt": "2026-11-22T21:49:35.096654+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ad405fa530e8da7683030cc35c9221b966285933",
+  "sourceCommit": "2a34a2d21312ce32c2fb649093e8d8252a2b8eef",
   "progress": 62.86,
   "developmentProgress": 62.86,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 963,
+      "title": "test(LCM-05): ACL granulari per percorso via modello e HTTP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/963",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T21:49:03Z",
+      "mergedAt": "2026-11-22T21:49:01Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5160753a852af583d37cdb075559849fc0796fcc",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45073750189"
+      }
+    },
     {
       "number": 962,
       "title": "test(LCM-05): atomicità selezioni miste del lifecycle via HTTP",
@@ -285,9 +304,9 @@
       "milestone": "1.0.0",
       "headSha": "fea14c861d541867c12cf847cf6ae5a8b3ff6b68",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45064705869"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -305,9 +324,9 @@
       "milestone": "1.0.0",
       "headSha": "5e32af886766ead07b793464c3a7921aa253061d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45063445275"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,25 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 385,
-      "title": "Document #364 merge evidence and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/385",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:04Z",
-      "mergedAt": "2026-11-14T21:43:04Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "aa11afa0f0633afe1d43d6421e59ea34dc2ed3ee",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T21:16:09Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45070635609/artifacts/14773476002"
+    "createdAt": "2026-11-22T21:48:24Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45073750176/artifacts/14774646597"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
