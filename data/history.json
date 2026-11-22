@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T22:15:33.036904+00:00",
+  "generatedAt": "2026-11-22T22:23:22.084327+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-22T22:23:22.084327+00:00",
+      "commit": "8e114a799600086e69a56a32ac6dc126dc7d5c41",
+      "id": "LCM-05",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T22:22:50Z",
+      "commit": "8e114a799600086e69a56a32ac6dc126dc7d5c41",
+      "number": 966,
+      "title": "docs(LCM-05): chiusura implementativa del gate lifecycle 7/7",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/966"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-22T22:23:22.084327+00:00",
+      "commit": "8e114a799600086e69a56a32ac6dc126dc7d5c41",
+      "from": 62.93,
+      "to": 63.06,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T22:14:59Z",
@@ -1578,30 +1602,6 @@
       "number": 812,
       "title": "test(UI-07): contratto DOM versionato completo delle 17 viste e gate CSS/override",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/812"
-    },
-    {
-      "type": "requirement_changed",
-      "at": "2026-11-20T19:45:02.880933+00:00",
-      "commit": "303682e550a8268351b764bb7f15a6be21f8678a",
-      "id": "SEC-P1",
-      "from": "Parziale",
-      "to": "Completata"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T19:44:25Z",
-      "commit": "303682e550a8268351b764bb7f15a6be21f8678a",
-      "number": 811,
-      "title": "fix(SEC-P1): threat review completa e fail-closed dello storage video locale",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/811"
-    },
-    {
-      "type": "estimate_changed",
-      "at": "2026-11-20T19:45:02.880933+00:00",
-      "commit": "303682e550a8268351b764bb7f15a6be21f8678a",
-      "from": 57.48,
-      "to": 57.94,
-      "asOf": "2026-11-15"
     }
   ]
 }

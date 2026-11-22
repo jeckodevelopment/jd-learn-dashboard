@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T22:15:33.036904+00:00",
+  "generatedAt": "2026-11-22T22:23:22.084327+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "387eab0ceacd12b61a74dbba51340e90ef17392d",
-  "progress": 62.93,
-  "developmentProgress": 62.93,
+  "sourceCommit": "8e114a799600086e69a56a32ac6dc126dc7d5c41",
+  "progress": 63.06,
+  "developmentProgress": 63.06,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -33,11 +33,11 @@
       "label": "Corsi, versioni e pubblicazione",
       "requirements": 20,
       "weight_percent": 9.35,
-      "development_evidence_floor_percent": 78.9,
+      "development_evidence_floor_percent": 80.33,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 15,
+      "unverifiable_criteria": 13,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 966,
+      "title": "docs(LCM-05): chiusura implementativa del gate lifecycle 7/7",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/966",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:22:53Z",
+      "mergedAt": "2026-11-22T22:22:50Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b665d3aa38ba97b2379b059dcc258f24591a5c64",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45077278256"
+      }
+    },
     {
       "number": 965,
       "title": "test(LCM-05): Finder lifecycle e conservazione dati durante upgrade",
@@ -474,9 +494,9 @@
       "milestone": "1.0.0",
       "headSha": "d259dcc761eb5e20cc4339559f6f19f70885beb0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45069465057"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -494,9 +514,9 @@
       "milestone": "1.0.0",
       "headSha": "bfc3b86b6c4279d1b339053b41caa47528110fd0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45068267596"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -513,9 +533,9 @@
       "milestone": "1.0.0",
       "headSha": "37de5d2d4f0e2d137bdc0884bf5d9e673b78d567",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45067620487"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1653,25 +1673,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "04849967139cfd05b648008808f6beb68691c554",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 487,
-      "title": "Docs: riconcilia evidenze post-merge LCM-01 / PR #486",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/487",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:51Z",
-      "mergedAt": "2026-11-16T10:46:03Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e6d60671cda6eff0191d57eebcbad4b9732ebea9",
       "ci": {
         "status": "unknown",
         "conclusion": null,
