@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T18:33:25.023513+00:00",
+  "generatedAt": "2026-11-22T19:15:17.827415+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7c09719a162eb7d527d09f165fea0664d26a2410",
+  "sourceCommit": "9b383ef855139bbbd1da28bacb90d37300e25275",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 951,
+      "title": "test(LCM-01): deny archived course video and quiz retries",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/951",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T19:14:44Z",
+      "mergedAt": "2026-11-22T19:14:42Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "65744530428080cfe6766777377a5cf1e8b3f5aa",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45059160428"
+      }
+    },
     {
       "number": 950,
       "title": "test(LCM-01): deny direct learning endpoints for inactive courses",
@@ -441,9 +460,9 @@
       "milestone": "1.0.0",
       "headSha": "dc9bf5c09ab566f9506d1417ea9178f84f580043",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45043664187"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,26 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 897,
-      "title": "docs(CAT-02): close 5/5 core criteria without manual acceptance",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/897",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T23:21:27Z",
-      "mergedAt": "2026-11-21T23:21:25Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6ea07669f48c0437b9bd690b24b7e68c85bfbb60",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T18:32:38Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45055203061/artifacts/14766619957"
+    "createdAt": "2026-11-22T19:14:16Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45059160428/artifacts/14768702042"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
