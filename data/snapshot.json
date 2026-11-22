@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T20:45:32.750757+00:00",
+  "generatedAt": "2026-11-22T20:47:47.810471+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "2f652b787b461e9385d352d477a87fee7e04d7e4",
+  "sourceCommit": "f86864702d6c31f7d5709712050181779b678645",
   "progress": 62.74,
   "developmentProgress": 62.74,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 959,
+      "title": "docs(LCM-04): record merge and CI evidence for PR 958",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/959",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T20:47:18Z",
+      "mergedAt": "2026-11-22T20:47:15Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "bfc3b86b6c4279d1b339053b41caa47528110fd0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45068267596"
+      }
+    },
     {
       "number": 958,
       "title": "fix(LCM-04): protect teacher deletion against external foreign keys",
@@ -1642,25 +1662,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "327710fa7700f7304574ca79b2b35e02125ba8e3",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 340,
-      "title": "docs: record SEC-P1 merge and verified 0.56.18 package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/340",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-22T00:03:52Z",
-      "mergedAt": null,
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "294e5e023adb7c33a2541e92914f57d6e9d97261",
       "ci": {
         "status": "unknown",
         "conclusion": null,

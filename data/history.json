@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T20:45:32.750757+00:00",
+  "generatedAt": "2026-11-22T20:47:47.810471+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T20:47:15Z",
+      "commit": "f86864702d6c31f7d5709712050181779b678645",
+      "number": 959,
+      "title": "docs(LCM-04): record merge and CI evidence for PR 958",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/959"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T20:45:07Z",
@@ -1594,14 +1602,6 @@
       "number": 802,
       "title": "test(SEC-P1): negare accesso roster con account bloccato dopo il login",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/802"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T17:09:08Z",
-      "commit": "797d248c710521c53e341b473608b1d4e733a0b7",
-      "number": 801,
-      "title": "docs(history): SEC-P1 PR #800, prove CI e checksum ZIP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/801"
     }
   ]
 }
