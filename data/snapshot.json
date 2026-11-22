@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T00:25:55.594475+00:00",
+  "generatedAt": "2026-11-22T00:34:40.828120+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "35ac27134d9d56f65e166f13e3c41564b929544c",
+  "sourceCommit": "405674cf8c2235f9a40087bd3fd6d891710b909f",
   "progress": 61.73,
   "developmentProgress": 61.73,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 905,
+      "title": "fix(CAT-04): noindex and private cache headers for teacher profile editor",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/905",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:34:08Z",
+      "mergedAt": "2026-11-22T00:34:06Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2763325f944dc827551f620a0aa20926871d0a6b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44966845895"
+      }
+    },
     {
       "number": 904,
       "title": "docs(DOC-10): candidate release notes with limitations and verification gate",
@@ -814,9 +833,9 @@
       "milestone": "1.0.0",
       "headSha": "4356a9f65bbf9e62f2e0f8a397f00a919b5142d1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44959400478"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -833,9 +852,9 @@
       "milestone": "1.0.0",
       "headSha": "a8a6e87a9a278e65f492d8ec948bb590faed3d34",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44958905114"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1653,25 +1672,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 850,
-      "title": "fix(SEC-P3): safe Joomla Privacy mail export and terminal queue redaction",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/850",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T12:06:53Z",
-      "mergedAt": "2026-11-21T12:06:50Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1329847206265ab249f29c2deb6516ccfaf1b230",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1703,8 +1703,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-22T00:25:07Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44966088806/artifacts/14731995174"
+    "createdAt": "2026-11-22T00:33:31Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44966845881/artifacts/14731508674"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

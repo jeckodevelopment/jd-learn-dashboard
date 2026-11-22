@@ -38,7 +38,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "162;204;207;208;482;520;522;524;526;528",
+    "prs": "162;204;207;208;482;520;522;524;526;528;905",
     "todo": "Verificare le combinazioni non coperte di menu, SEF, lingue e breadcrumb; alias SEF per corso/categoria/percorso e canonical base sono implementati dalle PR #207/#208.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-69; AC-85; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Alias/canonical/social SEO completi e collaudo interattivo del Finder previsto in IMP-07.",
     "criteria": "Ricerca Joomla e SEO.  Voci di menu, URL leggibili, metadati, immagini social per schede pubbliche; integrazione Smart Search. Area personale, risultati e contenuti protetti esclusi dall'indicizzazione. Il motore di ricerca applica gli stessi vincoli di accesso della navigazione"
