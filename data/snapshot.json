@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T11:06:27.082541+00:00",
+  "generatedAt": "2026-11-22T11:17:48.455182+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f5e92e47f1ff86b33d1c0290d9a48f4371a79dc4",
+  "sourceCommit": "314e7f031f04f06f1c15c9aaa0f7d1630e92be0e",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -141,17 +141,37 @@
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/908",
       "status": "open",
       "draft": false,
-      "updated": "2026-11-22T11:06:06Z",
+      "updated": "2026-11-22T11:15:00Z",
       "mergedAt": null,
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "21870d4515da8786628d6c850386bb9725a8e4e6",
+      "headSha": "15039aca574b2d060ed9a0421e49d1bd789a91c6",
       "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45016381179"
+      }
+    },
+    {
+      "number": 909,
+      "title": "docs: reconcile LCM-03/04 external-reference evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/909",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T11:17:21Z",
+      "mergedAt": "2026-11-22T11:17:19Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1b6235b0a8faf1aedca1e5cf5348291f029dca9f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45016500047"
       }
     },
     {
@@ -1666,26 +1686,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "c9464d5da2f993e1246a1fd7b0d312ccf3e2efc5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 853,
-      "title": "docs(SEC-P3): reconcile completed software criteria and verified package after PR 852",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/853",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T12:39:47Z",
-      "mergedAt": "2026-11-21T12:39:45Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8619d8e360efda8c8a3403ca530aa1206b509805",
       "ci": {
         "status": "unknown",
         "conclusion": null,
