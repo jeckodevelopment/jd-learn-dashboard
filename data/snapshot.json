@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:31:17.945140+00:00",
+  "generatedAt": "2026-11-22T16:35:27.585421+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "eac832cb18d623f842dddd84378e8a1e3ad88768",
+  "sourceCommit": "988da5558c7d2d43efe68905f19a4a05a9a24b1c",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,18 +139,18 @@
       "number": 938,
       "title": "fix(LES-02): reject credential parameters in shared video URLs",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/938",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-22T16:30:09Z",
-      "mergedAt": null,
+      "updated": "2026-11-22T16:35:04Z",
+      "mergedAt": "2026-11-22T16:35:01Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
       "headSha": "af47061cd72e471cd42847bff0d20af6a518e74d",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45044185582"
       }
     },
@@ -169,8 +169,8 @@
       "milestone": "1.0.0",
       "headSha": "e9a185682d631a5d84157444acbda87a1dbeba5e",
       "ci": {
-        "status": "pending",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45043869186"
       }
     },
@@ -1671,25 +1671,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 883,
-      "title": "fix(LCM-03): honor Joomla checkout locks for pathway lifecycle mutations",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/883",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T21:09:26Z",
-      "mergedAt": "2026-11-21T21:09:24Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8e5e2968cd7009919497ad1cd4fe5d8c349425ea",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1721,8 +1702,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T16:20:03Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45042826741/artifacts/14762940364"
+    "createdAt": "2026-11-22T16:34:45Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45044185582/artifacts/14762243751"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
