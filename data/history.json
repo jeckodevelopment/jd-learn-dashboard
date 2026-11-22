@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T00:34:40.828120+00:00",
+  "generatedAt": "2026-11-22T00:37:27.468288+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T00:37:04Z",
+      "commit": "3ef182e62948727da8c55bae22cae9d30d85f022",
+      "number": 906,
+      "title": "docs(CAT-04): reconcile PR #905 post-merge verification evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/906"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T00:34:06Z",
@@ -1594,14 +1602,6 @@
       "number": 739,
       "title": "docs(CAT-02): registrare merge e build verificata PR #738",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/739"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T23:31:23Z",
-      "commit": "ca3ace4c7a298df93936f8f4bddea096ac05d30b",
-      "number": 738,
-      "title": "fix(CAT-02): stato iscrizione corretto sul catalogo con oltre 50 edizioni (0.63.4)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/738"
     }
   ]
 }

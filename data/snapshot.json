@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T00:34:40.828120+00:00",
+  "generatedAt": "2026-11-22T00:37:27.468288+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "405674cf8c2235f9a40087bd3fd6d891710b909f",
+  "sourceCommit": "3ef182e62948727da8c55bae22cae9d30d85f022",
   "progress": 61.73,
   "developmentProgress": 61.73,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 906,
+      "title": "docs(CAT-04): reconcile PR #905 post-merge verification evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/906",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:37:06Z",
+      "mergedAt": "2026-11-22T00:37:04Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7d8f2b3adc1b3b973731d86951ea2ac9e8c3437d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44967410674"
+      }
+    },
     {
       "number": 905,
       "title": "fix(CAT-04): noindex and private cache headers for teacher profile editor",
@@ -813,9 +833,9 @@
       "milestone": "1.0.0",
       "headSha": "ef3daf587f5241242c0008d24005a0930c0aa33d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44960004879"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,26 +1667,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "9fe515a4a25eb92d783d11af9c9d5f268c3fcde7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 851,
-      "title": "docs(history): record SEC-P3 PR 850 merge, CI and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/851",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T12:08:44Z",
-      "mergedAt": "2026-11-21T12:08:42Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "20aaadf68ea5ebd4361d6bb154a2a0d7ffb5d52a",
       "ci": {
         "status": "unknown",
         "conclusion": null,
