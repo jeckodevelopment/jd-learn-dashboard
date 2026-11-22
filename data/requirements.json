@@ -2708,12 +2708,12 @@
   {
     "id": "LCM-03",
     "area": "LCM",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "575;576;577;881;883;885;887;955;956",
-    "todo": "Cancellazione solo di percorsi cestinati e vuoti; azioni massive e controllo ACL implementati in PR #577. Guard su riferimenti FK esterni aggiunto; riferimenti senza FK e collaudo manuale esclusi. Archiviazione PR #575; cestinazione e ripristino conservativo PR #576",
-    "tests": "Verifiche descritte in docs/LIFECYCLE_1.0.0_APPROVED.md; registrare esiti QA_TESTBOOK.md",
+    "todo": "Nessuno nel contratto core/FK: archiviazione, cestinazione, ripristino, purga condizionata e blocco FK di terze parti implementati. Nessuna garanzia per riferimenti senza FK.",
+    "tests": "Collaudo Joomla differito: ruoli, HTTP/CSRF, corsi condivisi, rollback e integrazioni effettivamente installate; audit manuale dei riferimenti senza FK.",
     "criteria": "Percorsi: archiviazione, cestinazione/ripristino ed eliminazione condizionata senza alterare corsi aggregati; storico preservato"
   },
   {

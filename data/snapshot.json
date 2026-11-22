@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T20:22:04.019193+00:00",
+  "generatedAt": "2026-11-22T20:27:06.987989+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "33a79cdcd34ea54cc742110fab60dbb4e9667cfa",
-  "progress": 62.65,
-  "developmentProgress": 62.65,
+  "sourceCommit": "cce8ec38ac7bc57d69a284a04b63d1ec046a53c8",
+  "progress": 62.74,
+  "developmentProgress": 62.74,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -33,11 +33,11 @@
       "label": "Corsi, versioni e pubblicazione",
       "requirements": 20,
       "weight_percent": 9.35,
-      "development_evidence_floor_percent": 75.94,
+      "development_evidence_floor_percent": 76.94,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 18,
+      "unverifiable_criteria": 17,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 957,
+      "title": "docs(LCM-03): close five implementation criteria under declared FK integration contract",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/957",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T20:26:43Z",
+      "mergedAt": "2026-11-22T20:26:41Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2adb17e4147307d1a3480b238f7ed607ec59309e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45066356070"
+      }
+    },
     {
       "number": 956,
       "title": "fix(LCM-03): protect external FK-backed pathway histories from purge",
@@ -323,9 +343,9 @@
       "milestone": "1.0.0",
       "headSha": "a9c237ccbb01046c04f5c557507538a3336e1bf2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45053224362"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -343,9 +363,9 @@
       "milestone": "1.0.0",
       "headSha": "7d2a8285cf6c5ad5d8d4a6d267f15cea62ecaae1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45052854812"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1641,25 +1661,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "2f5c232ff2dbdd6d6b83313c9e8c9e5e492daeb1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 334,
-      "title": "docs: plan SEC release gate and cookie/CMP documentation for 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/334",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:03:46Z",
-      "mergedAt": "2026-11-13T22:26:53Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ff7eb1d2fd1c52b3b036368b889bbc7f28730201",
       "ci": {
         "status": "unknown",
         "conclusion": null,
