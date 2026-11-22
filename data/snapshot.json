@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T21:00:27.366336+00:00",
+  "generatedAt": "2026-11-22T21:10:03.315470+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "047986bc8a58f93eff431009f02b1229b81566a4",
+  "sourceCommit": "96c32c7f87772e43b2bafc44a530886b305b09aa",
   "progress": 62.86,
   "developmentProgress": 62.86,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 961,
+      "title": "test(LCM-05): regressioni HTTP su CSRF alterato per sei task lifecycle",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/961",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T21:09:42Z",
+      "mergedAt": "2026-11-22T21:09:40Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1d3512c4cffb7f97a7d5fea47a6e52b451e5ec25",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45069977893"
+      }
+    },
     {
       "number": 960,
       "title": "docs(LCM-04): chiusura implementativa con contratto FK esterne verificato",
@@ -306,9 +325,9 @@
       "milestone": "1.0.0",
       "headSha": "1a852a62f75ab88e03f58b6ad21b0dca4b1c651d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45060339590"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,25 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 342,
-      "title": "docs: align 0.56.18 next steps and email guide",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/342",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:03:58Z",
-      "mergedAt": "2026-11-13T23:04:03Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9b75046c565a095edab08fee20dc348a00336d13",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T20:43:26Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45067620472/artifacts/14772023216"
+    "createdAt": "2026-11-22T21:09:10Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45069977893/artifacts/14772684407"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
