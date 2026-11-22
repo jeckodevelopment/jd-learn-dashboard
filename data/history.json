@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T15:37:15.376066+00:00",
+  "generatedAt": "2026-11-22T15:52:04.958453+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T15:51:38Z",
+      "commit": "a5f42a92b5bbc93813f8651ee25de0b6f79c63b0",
+      "number": 930,
+      "title": "test(AUT-01): retain editor input after required title rejection",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/930"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-22T14:46:33.716574+00:00",
@@ -1594,14 +1602,6 @@
       "number": 764,
       "title": "docs(PBASE-03): promuovere il gate packaging comprovato e sincronizzare 57,40%",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/764"
-    },
-    {
-      "type": "estimate_changed",
-      "at": "2026-11-20T11:16:54.478786+00:00",
-      "commit": "7044a32d67742a025b8d016fcbec9a71e7a120ff",
-      "from": 57.32,
-      "to": 57.4,
-      "asOf": "2026-11-15"
     }
   ]
 }

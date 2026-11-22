@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T15:37:15.376066+00:00",
+  "generatedAt": "2026-11-22T15:52:04.958453+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4afa70735833781de2ee92b7e4eebe1d92c8f7cb",
+  "sourceCommit": "a5f42a92b5bbc93813f8651ee25de0b6f79c63b0",
   "progress": 62.32,
   "developmentProgress": 62.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 930,
+      "title": "test(AUT-01): retain editor input after required title rejection",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/930",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T15:51:40Z",
+      "mergedAt": "2026-11-22T15:51:38Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "588232f7d700d692abbd9ab0dd2378ba470d1a39",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45040079012"
+      }
+    },
     {
       "number": 929,
       "title": "docs(AUT-04): close implementation audit with verified historical integrity evidence",
@@ -361,9 +380,9 @@
       "milestone": "1.0.0",
       "headSha": "55521b794be0171e35a3b0845e97b69537cae5b8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45022534609"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1650,25 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 875,
-      "title": "fix(SCR-16): make bounded configuration diagnostics actionable",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/875",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T18:14:23Z",
-      "mergedAt": "2026-11-21T18:14:20Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "11940ccd989af43dea8b968153b6e48962b1195b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T14:32:16Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45032956231/artifacts/14757808988"
+    "createdAt": "2026-11-22T15:51:19Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45040079012/artifacts/14761995182"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
