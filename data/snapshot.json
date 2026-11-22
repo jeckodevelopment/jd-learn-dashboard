@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:35:27.585421+00:00",
+  "generatedAt": "2026-11-22T16:48:04.456571+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "988da5558c7d2d43efe68905f19a4a05a9a24b1c",
+  "sourceCommit": "7628334d23d7f25e7e41ee4edfaacc608badd479",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 939,
+      "title": "fix(LES-02): reject credentials in video URL fragments and camelCase keys",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/939",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T16:47:32Z",
+      "mergedAt": "2026-11-22T16:47:30Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5899d09ee34665a9b671bf4582938169738f4ac5",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45045283534"
+      }
+    },
     {
       "number": 938,
       "title": "fix(LES-02): reject credential parameters in shared video URLs",
@@ -343,9 +362,9 @@
       "milestone": "1.0.0",
       "headSha": "01fa010f9a5a32547b99083c6bc08559366dcaf5",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45032956231"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1651,26 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 884,
-      "title": "docs(LCM-03): reconcile PR #883 CI, merge and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/884",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T21:11:04Z",
-      "mergedAt": "2026-11-21T21:11:01Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7f13911ddef7a592c94547ffd4d9a361fd748b78",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1702,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T16:34:45Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45044185582/artifacts/14762243751"
+    "createdAt": "2026-11-22T16:46:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45045283534/artifacts/14763511428"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
