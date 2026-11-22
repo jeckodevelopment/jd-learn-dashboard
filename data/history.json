@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T17:45:06.831244+00:00",
+  "generatedAt": "2026-11-22T17:57:19.587666+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T17:56:47Z",
+      "commit": "4bedb6bc1008301482390294412d4b4147810313",
+      "number": 944,
+      "title": "docs(LES-02): record PR #943 post-merge evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/944"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T17:44:40Z",
@@ -1594,14 +1602,6 @@
       "number": 781,
       "title": "fix(SEC-P1): richiedere permesso audit per coda email globale e riconciliazione",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/781"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T13:59:59Z",
-      "commit": "55e3fae472d6b8ff0b2f31df7ce20250afb7023e",
-      "number": 780,
-      "title": "docs(history): registrare merge e pacchetto SEC-P1 PR #779",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/780"
     }
   ]
 }

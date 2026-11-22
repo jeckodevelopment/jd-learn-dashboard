@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T17:45:06.831244+00:00",
+  "generatedAt": "2026-11-22T17:57:19.587666+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "929d18ff5ac4e358b877b3736f233ee94806f37e",
+  "sourceCommit": "4bedb6bc1008301482390294412d4b4147810313",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 944,
+      "title": "docs(LES-02): record PR #943 post-merge evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/944",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T17:56:49Z",
+      "mergedAt": "2026-11-22T17:56:47Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d0982a215b55865def22d6416e373d75b7d82efe",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45051222690"
+      }
+    },
     {
       "number": 943,
       "title": "fix(LES-02): suppress editorial link referrer disclosure",
@@ -400,9 +420,9 @@
       "milestone": "1.0.0",
       "headSha": "588232f7d700d692abbd9ab0dd2378ba470d1a39",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45040079012"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1645,25 +1665,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "3298f623157155e9edb284524eb8ea66e1266075",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 889,
-      "title": "fix(LCM-04): prevent teacher purge while linked to Joomla account",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/889",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T22:11:49Z",
-      "mergedAt": "2026-11-21T22:11:46Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "dea057334dde4ed75441ab0d493202f2fe89cd26",
       "ci": {
         "status": "unknown",
         "conclusion": null,
