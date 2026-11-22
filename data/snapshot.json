@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T23:59:25.209332+00:00",
+  "generatedAt": "2026-11-22T00:12:37.641129+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e0e66be441833881d849c9c854dfb81aaee4551e",
+  "sourceCommit": "b3d1212b8e7278cb5456347e5f74318dc6220a01",
   "progress": 61.73,
   "developmentProgress": 61.73,
   "manualAcceptanceProgress": 4.67,
@@ -130,11 +130,496 @@
   "counts": {
     "requirements": 249,
     "prOpen": 0,
-    "issuesOpen": 1,
+    "issuesOpen": 0,
     "p0": 0,
-    "p1": 1
+    "p1": 0
   },
   "prs": [
+    {
+      "number": 903,
+      "title": "fix(COURSE): restore non-closing Save toolbar action (#793)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/903",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:12:09Z",
+      "mergedAt": "2026-11-22T00:12:07Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4a593d4406333d1310007a661c0c3ffea22ab615",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44965041010"
+      }
+    },
+    {
+      "number": 523,
+      "title": "docs(frontend): reconcile FE-09 PR #522 integration evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/523",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:05:00Z",
+      "mergedAt": "2026-11-16T19:40:45Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "e7f9a628958e4fe3db0d854fa9341370d188c51a",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 511,
+      "title": "docs(frontend): reconcile FE-05 certificates PR #510 evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/511",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:57Z",
+      "mergedAt": "2026-11-16T17:41:09Z",
+      "labels": [
+        "documentation",
+        "frontend"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "967839d388300f3375eb9f938dc0a9f54975f78c",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 489,
+      "title": "Docs: riconcilia evidenze post-merge LCM-01 / PR #488",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/489",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:54Z",
+      "mergedAt": "2026-11-16T11:05:26Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "04849967139cfd05b648008808f6beb68691c554",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 487,
+      "title": "Docs: riconcilia evidenze post-merge LCM-01 / PR #486",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/487",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:51Z",
+      "mergedAt": "2026-11-16T10:46:03Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e6d60671cda6eff0191d57eebcbad4b9732ebea9",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 485,
+      "title": "Docs: riconcilia evidenze post-merge LCM-01 / PR #484",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/485",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:48Z",
+      "mergedAt": "2026-11-16T10:17:41Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d7718b8f02162d28deb26c9b8b3dcfc1c4656c23",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 481,
+      "title": "Fix: elimina ordinamenti duplicati nella vista Attestati",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/481",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:45Z",
+      "mergedAt": "2026-11-16T09:18:00Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "32131f717d6348ec1df94789c264d64bd8f13c7a",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 409,
+      "title": "docs: riconcilia evidenze PR #407, build 0.57.6-dev e issue #394",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/409",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:42Z",
+      "mergedAt": "2026-11-15T13:24:43Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b3a1acf9f5d1647dcd3a11712623324263b6bb2a",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 405,
+      "title": "docs: reconcile MAIL-H #403 merge, verified CI and 0.57.5 Joomla artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/405",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:38Z",
+      "mergedAt": "2026-11-15T13:04:01Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a4701fe91074bf23a422d7ad56b3b6919103154c",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 402,
+      "title": "docs: record MAIL-G #401 merged CI and installable 0.57.4-dev artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/402",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:35Z",
+      "mergedAt": "2026-11-15T12:48:24Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ff5eb1fa52d6570c3e797411f51722590842a509",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 401,
+      "title": "feat(mail-g): optional notifications to authorized managers of pending enrollments",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/401",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:32Z",
+      "mergedAt": "2026-11-15T12:46:24Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "5332d26fa41a5a579e70e0819ce38bef6a306310",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 400,
+      "title": "docs: reconcile merged MAIL-G #399 CI and installable artifact",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/400",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:29Z",
+      "mergedAt": "2026-11-15T12:29:35Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ab0654f23bc3fa7bc4e42fa185726d8679adea2f",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 399,
+      "title": "feat(mail-g): notify migrated learners of significant teaching-version changes",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/399",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:26Z",
+      "mergedAt": "2026-11-15T12:27:00Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "0bc10cec02b82b25f1de71a257343df86c871627",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 398,
+      "title": "docs: record MAIL-G #397 merge, package checksum and CI",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/398",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:23Z",
+      "mergedAt": "2026-11-15T12:08:48Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "079ef7c31a423edef77606556b3cd23e359af1de",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 397,
+      "title": "feat(mail-g): notify active learners when scheduled lessons become available",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/397",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:20Z",
+      "mergedAt": "2026-11-15T12:06:54Z",
+      "labels": [],
+      "milestone": "1.0.0",
+      "headSha": "e9df62e89409b4df6e986cc13aad332a98ba49d5",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 396,
+      "title": "docs: record MAIL-H #395 merge, CI and installable package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/396",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:17Z",
+      "mergedAt": "2026-11-15T11:24:39Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fa18363f4ba665dc6ec9176731e4494544ea0856",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 393,
+      "title": "docs: record #391 package checksum",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/393",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:14Z",
+      "mergedAt": "2026-11-14T22:58:43Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5e021cffc8f2cec93bf6936192f0cae20b196153",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 392,
+      "title": "docs: record merged PR #391 evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/392",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:11Z",
+      "mergedAt": "2026-11-14T22:57:43Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "adc897684496898c79fb3f8093634f62c3e352e2",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 389,
+      "title": "docs: record PR 388 merge and verified package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/389",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:08Z",
+      "mergedAt": "2026-11-14T22:39:36Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "387569fa94aef22d99fa82d36b4e0487cc2ecbf0",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 385,
+      "title": "Document #364 merge evidence and package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/385",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:04Z",
+      "mergedAt": "2026-11-14T21:43:04Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "aa11afa0f0633afe1d43d6421e59ea34dc2ed3ee",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 343,
+      "title": "docs: clarify release 3 Web Services and headless LMS roadmap",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/343",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:04:01Z",
+      "mergedAt": "2026-11-13T23:19:29Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "76739412241ecf771e29270f3cb22fac21a5a721",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 342,
+      "title": "docs: align 0.56.18 next steps and email guide",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/342",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:03:58Z",
+      "mergedAt": "2026-11-13T23:04:03Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9b75046c565a095edab08fee20dc348a00336d13",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 341,
+      "title": "docs: align post-merge SEC-P1 evidence and testbook",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/341",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-22T00:03:55Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "327710fa7700f7304574ca79b2b35e02125ba8e3",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 340,
+      "title": "docs: record SEC-P1 merge and verified 0.56.18 package",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/340",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-22T00:03:52Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "294e5e023adb7c33a2541e92914f57d6e9d97261",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 336,
+      "title": "docs: plan Joomla Privacy consent visibility and complete JD Learn export/removal",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/336",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:03:49Z",
+      "mergedAt": "2026-11-13T22:34:34Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2f5c232ff2dbdd6d6b83313c9e8c9e5e492daeb1",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 334,
+      "title": "docs: plan SEC release gate and cookie/CMP documentation for 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/334",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T00:03:46Z",
+      "mergedAt": "2026-11-13T22:26:53Z",
+      "labels": [
+        "documentation"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ff7eb1d2fd1c52b3b036368b889bbc7f28730201",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
     {
       "number": 902,
       "title": "docs(DOC-04): audit two fulfilled criteria and reconcile 61.73% progress",
@@ -387,9 +872,9 @@
       "milestone": "1.0.0",
       "headSha": "3298f623157155e9edb284524eb8ea66e1266075",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44955537418"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -406,9 +891,9 @@
       "milestone": "1.0.0",
       "headSha": "dea057334dde4ed75441ab0d493202f2fe89cd26",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44955053276"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1187,528 +1672,9 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 848,
-      "title": "security(SEC-P2): evidence-backed high/critical finding review and deployment blockers",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/848",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T11:37:03Z",
-      "mergedAt": "2026-11-21T11:37:01Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0c1e05b150273f1a437f1d3f97a1692fc26dad75",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 847,
-      "title": "docs(history): SEC-P2 PR 846 merge, verified package and progress",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/847",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T11:19:09Z",
-      "mergedAt": "2026-11-21T11:19:06Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7c78dedd3efbffccc3f7a518b8eea7c25fb6793d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 846,
-      "title": "security(SEC-P2): block unreviewed bundled runtime dependencies in Joomla package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/846",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T11:17:44Z",
-      "mergedAt": "2026-11-21T11:17:42Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c3bfbb693df06fcae7e6b0fc9f3fa2376e060efa",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 845,
-      "title": "docs(history): record SEC-P2 historical credential scan PR 844",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/845",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T10:57:15Z",
-      "mergedAt": "2026-11-21T10:57:13Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e3f00eddeec87955613dea973e822a51ca8f53bb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 844,
-      "title": "security(SEC-P2): scan complete Git source history for known credentials",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/844",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T10:55:54Z",
-      "mergedAt": "2026-11-21T10:55:52Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b2b036dc69b2b68bdc40cce1095ff882842c060f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 843,
-      "title": "docs(history): archive SEC-P2 PR 842 and verified ZIP checksum",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/843",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T10:46:19Z",
-      "mergedAt": "2026-11-21T10:46:17Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "945bb621388b9df7dc6ffa4d93993fd68ea4b649",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 842,
-      "title": "security(SEC-P2): enforce safe recursive Joomla ZIP validation in all build paths",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/842",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T10:45:17Z",
-      "mergedAt": "2026-11-21T10:45:14Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "32186a14be9ec44482c4336dca0548a0e50d0c20",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 841,
-      "title": "docs(history): archive DOC-04 PR 840 merge and verified CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/841",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T10:32:05Z",
-      "mergedAt": "2026-11-21T10:32:02Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "34427d0ecc12b75c661025936ebc40880f613da9",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 840,
-      "title": "docs(DOC-04): versioned Joomla extension contracts and reproducible technical procedures",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/840",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T10:30:59Z",
-      "mergedAt": "2026-11-21T10:30:56Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "06bf20b28bddb868153c1634a288c9073f4cb1fc",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 839,
-      "title": "docs(history): record UI-07 PR #838 merge, CI and package checksum",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/839",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T23:31:22Z",
-      "mergedAt": "2026-11-20T23:31:19Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9c681c495b3bb9eb43978ef2f9c5128274244f24",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 838,
-      "title": "feat(frontend): complete UI-07 versioned DOM contracts across views and shared partials",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/838",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T23:30:04Z",
-      "mergedAt": "2026-11-20T23:30:02Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f89b9679f0a1e04c25bd7998fe6d43a20941fc79",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 837,
-      "title": "docs(history): archive DOC-07 PR #836 merge and verified Joomla package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/837",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T23:11:39Z",
-      "mergedAt": "2026-11-20T23:11:36Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c7e4442c761c253851a480d2a623a3b17e101720",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 836,
-      "title": "feat(admin): close DOC-07 with safe actionable configuration diagnostics",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/836",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T23:10:22Z",
-      "mergedAt": "2026-11-20T23:10:19Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5d4a59c53e48c74517d82fb0a2480fa794e44cbe",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 835,
-      "title": "docs(history): record PBASE-02 PR #834 merge and verified package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/835",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T22:56:16Z",
-      "mergedAt": "2026-11-20T22:56:14Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a7176fc81c18f9fcdce108f66ce05b20e44f7a31",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 834,
-      "title": "feat(video): close PBASE-02 provider specification requirement with release gate",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/834",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T22:55:15Z",
-      "mergedAt": "2026-11-20T22:55:13Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c34c3ddea936e8d9af54a56d54c9dd9cad15655f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 833,
-      "title": "docs(history): record HTTP-06 PR #832 merge, CI and ZIP checksum",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/833",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T22:41:18Z",
-      "mergedAt": "2026-11-20T22:41:15Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f301683aa8f82c3e2f9028c874cc67915f7d7637",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 832,
-      "title": "test(core): consolidate HTTP-06 request boundary regressions",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/832",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T22:40:11Z",
-      "mergedAt": "2026-11-20T22:40:08Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8006b9bef1a5442c1c7d2e3eb2172729fcab78cb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 831,
-      "title": "test(core): HTTP-06 Joomla task contracts and negative boundary cases",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/831",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T22:29:04Z",
-      "mergedAt": "2026-11-20T22:28:39Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9debbbb677873a8289e4c559ae6c159e14837e38",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 830,
-      "title": "test(frontend): strengthen UI-07 real Joomla DOM and CSS compatibility",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/830",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T22:13:17Z",
-      "mergedAt": "2026-11-20T22:12:46Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "94effc8018cad16468af2de547436f87e636c6d9",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 829,
-      "title": "docs(SEC-P2): archive PR #828 merge, PHP advisory QA and artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/829",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T22:01:35Z",
-      "mergedAt": "2026-11-20T22:01:32Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7337ed5e3eac3d31a8dbced9c9d9be1385fd74f0",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 828,
-      "title": "fix(security): SEC-P2 require November PHP security patches in CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/828",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T22:00:12Z",
-      "mergedAt": "2026-11-20T22:00:10Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b323188315564b0e357f10e32c2f01b3ebe0d80e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 827,
-      "title": "docs(SEC-P2): archive PR #826 merge, CI and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/827",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T21:52:09Z",
-      "mergedAt": "2026-11-20T21:52:07Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "75ca6e473ef8c7f612007633ae8e6e66711cd4c0",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 826,
-      "title": "fix(security): consolidate SEC-P2 source, workflow and deployment hardening",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/826",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T21:50:50Z",
-      "mergedAt": "2026-11-20T21:50:48Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "98af81e0b65b6fee8db855deb635d20e57a0cfb0",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 825,
-      "title": "docs(SEC-P2/SEC-P3): record PR #824 merge, CI and ZIP checksum",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/825",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T21:40:40Z",
-      "mergedAt": "2026-11-20T21:40:38Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1d2e7946c40e8293fdcfc4484c61dcd0826665b3",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 824,
-      "title": "fix(security): SEC-P2 package scan and SEC-P3 privacy mail retention",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/824",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T21:39:24Z",
-      "mergedAt": "2026-11-20T21:39:21Z",
-      "labels": [
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "80aa1bc8afd926ef320bd06c93b30c9f595025ea",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 823,
-      "title": "docs(SEC-P2/SEC-P3): record PR #822 merge, CI and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/823",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-20T21:29:57Z",
-      "mergedAt": "2026-11-20T21:29:55Z",
-      "labels": [
-        "documentation",
-        "P0"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5b9f87f3b3c3487ae309f0ace2a7d687da01ea5c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
-  "issues": [
-    {
-      "number": 793,
-      "title": "Crea / Modifica corso: errore pulsanti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/issues/793",
-      "priority": "P1",
-      "labels": [
-        "P1"
-      ],
-      "updated": "2026-11-20T15:49:00Z",
-      "milestone": "1.0.0"
-    }
-  ],
+  "issues": [],
   "manualQa": {
     "schema": 1,
     "updatedAt": "2026-11-17",
@@ -1737,8 +1703,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-21T23:58:29Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44964024832/artifacts/14730931754"
+    "createdAt": "2026-11-22T00:11:38Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44965041004/artifacts/14731456984"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-21T23:59:25.209332+00:00",
+  "generatedAt": "2026-11-22T00:12:37.641129+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T00:12:07Z",
+      "commit": "b3d1212b8e7278cb5456347e5f74318dc6220a01",
+      "number": 903,
+      "title": "fix(COURSE): restore non-closing Save toolbar action (#793)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/903"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-21T23:58:50Z",
@@ -1594,14 +1602,6 @@
       "number": 736,
       "title": "fix(STU-01): Riprendi attraversa lo storico oltre 50 attività (0.63.3)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/736"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-19T22:37:26Z",
-      "commit": "51a668b09d453eda2efe84a76fd0caa403b518a5",
-      "number": 735,
-      "title": "docs(JOO-01): registrare merge e pacchetto verificato PR #734",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/735"
     }
   ]
 }
