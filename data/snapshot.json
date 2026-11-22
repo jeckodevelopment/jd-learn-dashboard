@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T18:19:56.810631+00:00",
+  "generatedAt": "2026-11-22T18:24:46.832273+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "833d7412ba60e654a6754f7dfe75c50748b59606",
+  "sourceCommit": "a91177d551bd313509fa539d638f5bf0dd0081b5",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 949,
+      "title": "docs(LES-01–04): reconcile software evidence and pending acceptance",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/949",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T18:24:26Z",
+      "mergedAt": "2026-11-22T18:24:23Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5b0b9296c1cbfe8d518f9c8d2138319fed7781ed",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45054802955"
+      }
+    },
     {
       "number": 948,
       "title": "fix(LES-02): apply credential-safe links to lesson bodies",
@@ -1645,25 +1665,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "214d7a7ff2ad739c2abd3c5622a758aad5876b21",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 895,
-      "title": "fix(CAT-02): reject malformed scheduling in public lesson previews",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/895",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T23:10:46Z",
-      "mergedAt": "2026-11-21T23:10:44Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ef3daf587f5241242c0008d24005a0930c0aa33d",
       "ci": {
         "status": "unknown",
         "conclusion": null,

@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T18:19:56.810631+00:00",
+  "generatedAt": "2026-11-22T18:24:46.832273+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T18:24:23Z",
+      "commit": "a91177d551bd313509fa539d638f5bf0dd0081b5",
+      "number": 949,
+      "title": "docs(LES-01–04): reconcile software evidence and pending acceptance",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/949"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T18:19:30Z",
@@ -1594,14 +1602,6 @@
       "number": 786,
       "title": "docs(history): merge, CI e artefatto SEC-P1 PR #785",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/786"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T14:48:35Z",
-      "commit": "b88429b4311e1b7e4b44927ba9234473bff418a9",
-      "number": 785,
-      "title": "test(SEC-P1): due processi Joomla concorrenti sulla riconciliazione email",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/785"
     }
   ]
 }
