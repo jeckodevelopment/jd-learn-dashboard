@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T11:52:28.398717+00:00",
+  "generatedAt": "2026-11-22T11:54:14.598793+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e72ae5c0c878ccde63cef371f87a9ba8090d5488",
+  "sourceCommit": "7dc0b7ed0744229c3905e8a8d46833c20854cfec",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 914,
+      "title": "docs(ISC-07): record merged PR 913 CI and artifact evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/914",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T11:53:42Z",
+      "mergedAt": "2026-11-22T11:53:39Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8f086a9172adc82f66d915af116f90aa94fc459e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45019453726"
+      }
+    },
     {
       "number": 913,
       "title": "test(ISC-07): block video session replay after mid-stream enrollment revocation",
@@ -1647,26 +1667,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "d5ca537a93c21579f6389e21541a16d9b3613f6d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 859,
-      "title": "docs(SECDEV-07/02): reconcile verified SAST/style/SCA controls and progress",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/859",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T13:48:23Z",
-      "mergedAt": "2026-11-21T13:48:21Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5775768c85234e54c01ab2d3ee4f18ab7b8b6a6a",
       "ci": {
         "status": "unknown",
         "conclusion": null,
