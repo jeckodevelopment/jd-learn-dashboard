@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T13:11:40.570732+00:00",
+  "generatedAt": "2026-11-22T13:34:47.299515+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "61d8277f33db51f9b1c8edf31365803bb76fb828",
+  "sourceCommit": "f75fa5449d25499ce5013f04d89720f8d07d4c66",
   "progress": 62.23,
   "developmentProgress": 62.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 924,
+      "title": "test(AUT-01): retain all course editor fields after rejected save",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/924",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T13:34:23Z",
+      "mergedAt": "2026-11-22T13:34:21Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9ed31265dfd33190e0acc3d8a989b48a2d29dc37",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45027728439"
+      }
+    },
     {
       "number": 923,
       "title": "test(AUT-04): exercise historical certificate retention in programme restore",
@@ -382,9 +401,9 @@
       "milestone": "1.0.0",
       "headSha": "8eea731f0b88977c302699f14e388ad0ba5808f6",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45017944908"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1651,25 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 869,
-      "title": "feat(SCR-16): read-only canonical Joomla mail template readiness in dashboard",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/869",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T16:36:53Z",
-      "mergedAt": "2026-11-21T16:36:51Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "23775d96cc9ad05a190ab7e15e70386a952f3b97",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T13:10:53Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45025663096/artifacts/14754908985"
+    "createdAt": "2026-11-22T13:33:36Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45027728439/artifacts/14755999422"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
