@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T13:05:18.675768+00:00",
+  "generatedAt": "2026-11-22T13:11:40.570732+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "1c27324f51e6b3f5ff9261b837678d88df221c57",
+  "sourceCommit": "61d8277f33db51f9b1c8edf31365803bb76fb828",
   "progress": 62.23,
   "developmentProgress": 62.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 923,
+      "title": "test(AUT-04): exercise historical certificate retention in programme restore",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/923",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T13:11:18Z",
+      "mergedAt": "2026-11-22T13:11:15Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2f9d63e95c3bdc682538c776173270f272d6a05e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45025663096"
+      }
+    },
     {
       "number": 922,
       "title": "test(AUT-04): preserve issued certificate records through programme restore",
@@ -1651,26 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 868,
-      "title": "docs(SCR-16): record PR 867 merge and verified Joomla package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/868",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T15:40:01Z",
-      "mergedAt": "2026-11-21T15:39:59Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "09047055cb59ace0fe53fb03feb91aca5bb43599",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1702,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T13:04:12Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45025115919/artifacts/14755855517"
+    "createdAt": "2026-11-22T13:10:53Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45025663096/artifacts/14754908985"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
