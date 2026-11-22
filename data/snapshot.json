@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T12:41:26.204111+00:00",
+  "generatedAt": "2026-11-22T12:50:07.976142+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4fdb759147c699d1e1f03020f0a7185b3f19ecf7",
+  "sourceCommit": "081a0762976f72c105a2a2c2d85f4f6b748303d3",
   "progress": 62.23,
   "developmentProgress": 62.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 920,
+      "title": "test(AUT-04): preserve historical certificates through enrollment migration and upgrade",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/920",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T12:49:33Z",
+      "mergedAt": "2026-11-22T12:49:31Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "efa4d9a57edc5d1ae74343a4175f2d2fb6fd8062",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45023789540"
+      }
+    },
     {
       "number": 919,
       "title": "feat(AUT-03): distinguish remote subtitle availability from editorial transcripts",
@@ -344,9 +363,9 @@
       "milestone": "1.0.0",
       "headSha": "15039aca574b2d060ed9a0421e49d1bd789a91c6",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45016381179"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -364,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "1b6235b0a8faf1aedca1e5cf5348291f029dca9f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45016500047"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1652,25 +1671,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 865,
-      "title": "fix(LES-03): support Windows absolute paths for private storage",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/865",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T15:13:01Z",
-      "mergedAt": "2026-11-21T15:12:58Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0c4824e5070e389fadfb9ecccde35ecd4b88c923",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1702,8 +1702,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T12:39:33Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45023053725/artifacts/14754801381"
+    "createdAt": "2026-11-22T12:49:04Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45023789539/artifacts/14755615440"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

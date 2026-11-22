@@ -82,7 +82,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "65;183;192;861;863",
+    "prs": "65;183;192;861;863;920",
     "todo": "Completare i soli criteri di versionamento non coperti; migrazione singola con equivalenze già presente, non da reimplementare.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-10; AC-48; AC-71; AC-119; AC-120; AC-125; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Migrazioni esplicite con equivalenze, collaudo completo del recupero con tutti i ruoli/risorse e AC-119/120/125.",
     "criteria": "Versioni.  La revisione editoriale usa Joomla Content History, con confronto e ripristino autorizzati. Il normale salvataggio dei dati promozionali di un corso pubblicato aggiorna la scheda corrente e conserva lo stato pubblicato. Il percorso di modifica distingue chiaramente dati editoriali e programma didattico, senza una classificazione aggiuntiva obbligatoria per ogni normale salvataggio. Modifiche di struttura, lezioni, materiali, obbligatorietà o valutazione si preparano in una copia di lavoro completa del programma corrente e si pubblicano come nuova versione didattica, con conferma dell’impatto. Gli iscritti esistenti restano sulla versione assegnata; i nuovi usano la versione attiva. Migrazione degli iscritti solo esplicita, con anteprima dell’impatto e mappatura delle equivalenze. Un aggiornamento o un ripristino editoriale non revoca attestati, non azzera risultati e non sovrascrive contenuti didattici storici."
