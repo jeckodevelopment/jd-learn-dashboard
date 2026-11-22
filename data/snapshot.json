@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T21:14:52.879768+00:00",
+  "generatedAt": "2026-11-22T21:16:59.547230+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "96c32c7f87772e43b2bafc44a530886b305b09aa",
+  "sourceCommit": "ad405fa530e8da7683030cc35c9221b966285933",
   "progress": 62.86,
   "developmentProgress": 62.86,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,10 +139,10 @@
       "number": 962,
       "title": "test(LCM-05): atomicità selezioni miste del lifecycle via HTTP",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/962",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-22T21:10:51Z",
-      "mergedAt": null,
+      "updated": "2026-11-22T21:16:31Z",
+      "mergedAt": "2026-11-22T21:16:29Z",
       "labels": [
         "P1"
       ],
@@ -1668,25 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 343,
-      "title": "docs: clarify release 3 Web Services and headless LMS roadmap",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/343",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:01Z",
-      "mergedAt": "2026-11-13T23:19:29Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "76739412241ecf771e29270f3cb22fac21a5a721",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1718,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T21:09:10Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45069977893/artifacts/14772684407"
+    "createdAt": "2026-11-22T21:16:09Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45070635609/artifacts/14773476002"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
