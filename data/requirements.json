@@ -49,7 +49,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "60;65;104;122;138;169;183;192;388;391",
+    "prs": "60;65;104;122;138;169;183;192;388;391;935",
     "todo": "Nessuna lacuna runtime concreta individuata da IMP-01 nel flusso incluso; restano da verificare tutte le combinazioni dei criteri: stato conservativamente Parziale.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-96; AC-80; AC-119; AC-120; AC-121; AC-126; AC-127; AC-130; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Completare regole avanzate/attestato e campi/snapshot pertinenti e dipendenze M02/M03/M08/M10; collaudo integrale AC-96/119/120/121/126/127 su ruoli, risorse, browser/mobile/tastiera e accessibilità. R-06: collaudo completo su SDK/browser/account reali, live e configurazioni restanti; flusso ordinario implementato nella0.39 e in verifica. Vista elenco docenti da rifare secondo un pattern standard Joomla, con form separato e navigazione coerente (AC-130). AC-133: collaudare conteggi e link nel perimetro ACL, filtro combinato e traduzione titolo secondo issue #117.",
     "criteria": "Authoring corso/programma non quiz, duplicazione, riordino e salvataggi nativi."

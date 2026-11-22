@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T16:11:14.915072+00:00",
+  "generatedAt": "2026-11-22T16:21:53.312903+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T16:21:24Z",
+      "commit": "640a6075c6647a08af4c438f41a4280fc940b2d5",
+      "number": 935,
+      "title": "fix(AUT-01): restore Joomla lesson field values after rejected save",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/935"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-22T16:11:14.915072+00:00",
@@ -1594,14 +1602,6 @@
       "number": 770,
       "title": "test(SEC-P1): copertura ACL negativa download amministrativo attestati",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/770"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T12:37:10Z",
-      "commit": "c34c313e091c3baa75a25013a37d231b1a0a6bdb",
-      "number": 769,
-      "title": "docs(history): merge e pacchetto SECDEV-03 PR #768",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/769"
     }
   ]
 }

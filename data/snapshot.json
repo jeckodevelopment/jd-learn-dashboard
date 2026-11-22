@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:11:14.915072+00:00",
+  "generatedAt": "2026-11-22T16:21:53.312903+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "96967abb4782f9855bfcdcfc8b941b07f6789c1d",
+  "sourceCommit": "640a6075c6647a08af4c438f41a4280fc940b2d5",
   "progress": 62.41,
   "developmentProgress": 62.41,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,19 +139,19 @@
       "number": 935,
       "title": "fix(AUT-01): restore Joomla lesson field values after rejected save",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/935",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-22T16:10:28Z",
-      "mergedAt": null,
+      "updated": "2026-11-22T16:21:26Z",
+      "mergedAt": "2026-11-22T16:21:24Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "cd3ad33886b826af69d3a9b7faf7bf0bead3d3dd",
+      "headSha": "2d40f045e698e4ffcfce6c9da6aa075d0890aae9",
       "ci": {
         "status": "completed",
-        "conclusion": "failure",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45042331114"
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45042826741"
       }
     },
     {
@@ -379,9 +379,9 @@
       "milestone": "1.0.0",
       "headSha": "2f9d63e95c3bdc682538c776173270f272d6a05e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45025663096"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -398,9 +398,9 @@
       "milestone": "1.0.0",
       "headSha": "4e2936a7f28eadef48bfb5d82b822c8e3acf35b4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45025115919"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1670,25 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 880,
-      "title": "fix(SCR-01): persist catalogue filters in Joomla pagination links",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/880",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T19:45:41Z",
-      "mergedAt": "2026-11-21T19:45:39Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4f341e4d0723b559f5816e4d7609484797a58562",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1720,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T16:03:45Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45041284691/artifacts/14761798382"
+    "createdAt": "2026-11-22T16:20:03Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45042826741/artifacts/14762940364"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
