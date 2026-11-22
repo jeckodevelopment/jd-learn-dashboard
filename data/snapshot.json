@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T22:54:11.521460+00:00",
+  "generatedAt": "2026-11-22T23:03:45.027369+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ec1c8aaf56748386b644fb53ff274abacff3f240",
+  "sourceCommit": "2da4758313dc6f78194e6e797c2030eb13b0ed88",
   "progress": 63.06,
   "developmentProgress": 63.06,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 969,
+      "title": "test(SECDEV-03): prova SQL injection con binding su MySQL e MariaDB reali",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/969",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T23:03:17Z",
+      "mergedAt": "2026-11-22T23:03:15Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fd12cf8a2e145008593099eef208b1ab093a37a8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45080575395"
+      }
+    },
     {
       "number": 968,
       "title": "test(SECDEV-03): cross-surface evidence and CSV injection tripwire",
@@ -493,9 +512,9 @@
       "milestone": "1.0.0",
       "headSha": "6b1bb743325b92388a3d97bd95cd001677aa57c1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45070635610"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1660,23 +1679,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 523,
-      "title": "docs(frontend): reconcile FE-09 PR #522 integration evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/523",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:05:00Z",
-      "mergedAt": "2026-11-16T19:40:45Z",
-      "labels": [],
-      "milestone": "1.0.0",
-      "headSha": "e7f9a628958e4fe3db0d854fa9341370d188c51a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1708,8 +1710,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T22:53:21Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45079693089/artifacts/14777285156"
+    "createdAt": "2026-11-22T23:02:32Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45080575395/artifacts/14777440949"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
