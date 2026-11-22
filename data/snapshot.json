@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T22:23:22.084327+00:00",
+  "generatedAt": "2026-11-22T22:37:55.367947+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8e114a799600086e69a56a32ac6dc126dc7d5c41",
+  "sourceCommit": "d25d061d8ad82112f1b2d08d31e35b9222860085",
   "progress": 63.06,
   "developmentProgress": 63.06,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 967,
+      "title": "test(SECDEV-03): negative SQL-like catalog search payloads",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/967",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T22:37:25Z",
+      "mergedAt": "2026-11-22T22:37:23Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "78691e3f85cee0198a04d13e4aff786d6689c68e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45078172760"
+      }
+    },
     {
       "number": 966,
       "title": "docs(LCM-05): chiusura implementativa del gate lifecycle 7/7",
@@ -474,9 +493,9 @@
       "milestone": "1.0.0",
       "headSha": "1d3512c4cffb7f97a7d5fea47a6e52b451e5ec25",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45069977893"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1659,25 +1678,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 489,
-      "title": "Docs: riconcilia evidenze post-merge LCM-01 / PR #488",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/489",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:04:54Z",
-      "mergedAt": "2026-11-16T11:05:26Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "04849967139cfd05b648008808f6beb68691c554",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1709,8 +1709,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T22:13:13Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45076048707/artifacts/14774484260"
+    "createdAt": "2026-11-22T22:37:07Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45078172760/artifacts/14776855004"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
