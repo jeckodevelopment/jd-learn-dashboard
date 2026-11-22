@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T17:57:19.587666+00:00",
+  "generatedAt": "2026-11-22T18:03:04.017046+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T18:02:30Z",
+      "commit": "39c628870210945276c21025c85edccc9bd54e1c",
+      "number": 945,
+      "title": "test(LES-03): block anonymous HEAD and Range on managed private files",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/945"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T17:56:47Z",
@@ -1594,14 +1602,6 @@
       "number": 782,
       "title": "docs(history): evidenze merge e pacchetto SEC-P1 PR #781",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/782"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T14:17:45Z",
-      "commit": "fb03fdabd7161ce3190334e9e36975106e148fef",
-      "number": 781,
-      "title": "fix(SEC-P1): richiedere permesso audit per coda email globale e riconciliazione",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/781"
     }
   ]
 }

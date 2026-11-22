@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T17:57:19.587666+00:00",
+  "generatedAt": "2026-11-22T18:03:04.017046+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4bedb6bc1008301482390294412d4b4147810313",
+  "sourceCommit": "39c628870210945276c21025c85edccc9bd54e1c",
   "progress": 62.49,
   "developmentProgress": 62.49,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 945,
+      "title": "test(LES-03): block anonymous HEAD and Range on managed private files",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/945",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T18:02:32Z",
+      "mergedAt": "2026-11-22T18:02:30Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9cf674f39cd67131b6dde449b58862946fb0dd05",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45052338447"
+      }
+    },
     {
       "number": 944,
       "title": "docs(LES-02): record PR #943 post-merge evidence",
@@ -1650,26 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 890,
-      "title": "docs(LCM-04): reconcile PR #889 merge, CI and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/890",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T22:13:30Z",
-      "mergedAt": "2026-11-21T22:13:28Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3298f623157155e9edb284524eb8ea66e1266075",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T17:44:10Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45050704718/artifacts/14765154377"
+    "createdAt": "2026-11-22T18:01:58Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45052338447/artifacts/14765269414"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
