@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T00:16:01.697124+00:00",
+  "generatedAt": "2026-11-22T00:25:55.594475+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b3d1212b8e7278cb5456347e5f74318dc6220a01",
+  "sourceCommit": "35ac27134d9d56f65e166f13e3c41564b929544c",
   "progress": 61.73,
   "developmentProgress": 61.73,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,17 +139,20 @@
       "number": 904,
       "title": "docs(DOC-10): candidate release notes with limitations and verification gate",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/904",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-22T00:15:54Z",
-      "mergedAt": null,
-      "labels": [],
+      "updated": "2026-11-22T00:25:24Z",
+      "mergedAt": "2026-11-22T00:25:22Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
       "milestone": "1.0.0",
-      "headSha": "52d70e9e8fa13b267f171f5c26a3e74a48820c55",
+      "headSha": "a6c37e0a9eb53b3f508a33c301e3ec46d5a2f350",
       "ci": {
-        "status": "queued",
-        "conclusion": null,
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44965768864"
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44966088829"
       }
     },
     {
@@ -850,9 +853,9 @@
       "milestone": "1.0.0",
       "headSha": "29ac87d0b2f7fc3530353b38ccc594de8def506c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44958264702"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1669,26 +1672,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 849,
-      "title": "docs(history): archive SEC-P2 completion PR 848 and verified package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/849",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T11:38:44Z",
-      "mergedAt": "2026-11-21T11:38:43Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "92a7852e9fe89e331db2ae766a0a3aa72fe1e96d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1720,8 +1703,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.21-dev",
-    "createdAt": "2026-11-22T00:11:38Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44965041004/artifacts/14731456984"
+    "createdAt": "2026-11-22T00:25:07Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44966088806/artifacts/14731995174"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
