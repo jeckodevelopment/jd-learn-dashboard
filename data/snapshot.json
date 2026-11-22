@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T21:10:03.315470+00:00",
+  "generatedAt": "2026-11-22T21:14:52.879768+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "96c32c7f87772e43b2bafc44a530886b305b09aa",
   "progress": 62.86,
@@ -129,12 +129,31 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 962,
+      "title": "test(LCM-05): atomicità selezioni miste del lifecycle via HTTP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/962",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-22T21:10:51Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6b1bb743325b92388a3d97bd95cd001677aa57c1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45070635610"
+      }
+    },
     {
       "number": 961,
       "title": "test(LCM-05): regressioni HTTP su CSRF alterato per sei task lifecycle",
@@ -305,9 +324,9 @@
       "milestone": "1.0.0",
       "headSha": "08efcdfb290770f5fa432e69c072c84e8c5d634d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45061947021"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
