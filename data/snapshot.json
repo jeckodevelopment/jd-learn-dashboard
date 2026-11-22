@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T11:43:42.952196+00:00",
+  "generatedAt": "2026-11-22T11:52:28.398717+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d5d31246849da5c5ec890075b7eabe6497cf85f4",
+  "sourceCommit": "e72ae5c0c878ccde63cef371f87a9ba8090d5488",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 913,
+      "title": "test(ISC-07): block video session replay after mid-stream enrollment revocation",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/913",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T11:52:01Z",
+      "mergedAt": "2026-11-22T11:51:59Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3a49e0f32d5e974f8291027cdc514fdab9310ea8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45019030790"
+      }
+    },
+    {
       "number": 912,
       "title": "docs(DOC-10): record #911 CI, merge and artifact evidence",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/912",
@@ -247,9 +266,9 @@
       "milestone": "1.0.0",
       "headSha": "ebb7579c4978b9db3b2dad4383e407a8bdade3ce",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/44970712098"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1653,25 +1672,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 858,
-      "title": "security(SECDEV-07/02): add pinned cross-language SAST, style and package SCA gates",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/858",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T13:40:36Z",
-      "mergedAt": "2026-11-21T13:40:34Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "00c07227bddf73073a0e342b8b9e788a6aec7950",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1703,8 +1703,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T11:40:57Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45017944908/artifacts/14753060721"
+    "createdAt": "2026-11-22T11:51:36Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45019030790/artifacts/14752563496"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
