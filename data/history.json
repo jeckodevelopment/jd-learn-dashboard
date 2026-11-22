@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T16:05:11.902111+00:00",
+  "generatedAt": "2026-11-22T16:11:14.915072+00:00",
   "events": [
+    {
+      "type": "requirement_changed",
+      "at": "2026-11-22T16:11:14.915072+00:00",
+      "commit": "96967abb4782f9855bfcdcfc8b941b07f6789c1d",
+      "id": "AUT-03",
+      "from": "Parziale",
+      "to": "Completata"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T16:10:47Z",
+      "commit": "96967abb4782f9855bfcdcfc8b941b07f6789c1d",
+      "number": 934,
+      "title": "docs(AUT-03): close implemented publication readiness criteria",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/934"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-22T16:11:14.915072+00:00",
+      "commit": "96967abb4782f9855bfcdcfc8b941b07f6789c1d",
+      "from": 62.32,
+      "to": 62.41,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T16:04:41Z",
@@ -1578,30 +1602,6 @@
       "number": 769,
       "title": "docs(history): merge e pacchetto SECDEV-03 PR #768",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/769"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T12:34:43Z",
-      "commit": "b6059f1e03e3c6f06a474f1d9da9ac00870a0be7",
-      "number": 768,
-      "title": "fix(SECDEV-03): impedire spoofing Unicode nei nomi dei materiali",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/768"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T12:23:20Z",
-      "commit": "c7a22d4723156c313bc146b7a7b13b7b1b739be6",
-      "number": 767,
-      "title": "docs(history): PR #766, criterio PBASE-03 e artefatto verificato",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/767"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T12:20:49Z",
-      "commit": "66499eb823b3c64a9f7d7437d429f31d842e0bd4",
-      "number": 766,
-      "title": "docs(PBASE-03): guide per ruolo ed esempio plugin Joomla v1 verificabile",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/766"
     }
   ]
 }

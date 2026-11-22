@@ -68,11 +68,11 @@
   {
     "id": "AUT-03",
     "area": "AUT",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "86;143;183;202;272;284;530;919;925",
-    "todo": "Avvisi baseline su trascrizione e provider non tracciabili a livello capability locali aggiunti; resta non automaticamente rilevabile la presenza effettiva di sottotitoli/caption su ciascuna sorgente remota. PR #284 / 0.54.0-dev integra l’avviso sulla durata video non verificata in sola consultazione; apprendimento mantiene il blocco. Modalità consultazione e assenza sessioni/progressi implementate; cicli e prerequisiti già presenti.",
+    "prs": "86;143;183;202;272;284;530;919;925;931",
+    "todo": "Nessuno nel perimetro implementativo 1.0.0: checklist e blocchi locali dei quattro provider sono coperti da test automatici. La reale disponibilità di sottotitoli e lingue della singola sorgente remota richiede collaudo nel player e non viene certificata dalla checklist.",
     "tests": "Eseguire e registrare gli scenari previsti sul sottoinsieme core: AC-86; modalità consultazione AC-78/86 con durata assente (avviso, non blocco) e durata confermata (avviso rimosso); apprendimento con durata assente (blocco); assenza sessioni/progressi; provider/sorgenti non validi; regressione apprendimento standard. Accettazione Joomla ancora pendente.",
     "criteria": "Preflight dei contenuti inclusi, dipendenze e risorse."
   },

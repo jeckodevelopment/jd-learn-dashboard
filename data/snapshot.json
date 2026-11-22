@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T16:05:11.902111+00:00",
+  "generatedAt": "2026-11-22T16:11:14.915072+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "279a635779ab0ec76667b2cb8ae9b761c8041829",
-  "progress": 62.32,
-  "developmentProgress": 62.32,
+  "sourceCommit": "96967abb4782f9855bfcdcfc8b941b07f6789c1d",
+  "progress": 62.41,
+  "developmentProgress": 62.41,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -33,11 +33,11 @@
       "label": "Corsi, versioni e pubblicazione",
       "requirements": 20,
       "weight_percent": 9.35,
-      "development_evidence_floor_percent": 72.44,
+      "development_evidence_floor_percent": 73.44,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 21,
+      "unverifiable_criteria": 20,
       "unassessed_criteria": 0
     },
     {
@@ -129,12 +129,51 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 935,
+      "title": "fix(AUT-01): restore Joomla lesson field values after rejected save",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/935",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-22T16:10:28Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "cd3ad33886b826af69d3a9b7faf7bf0bead3d3dd",
+      "ci": {
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45042331114"
+      }
+    },
+    {
+      "number": 934,
+      "title": "docs(AUT-03): close implemented publication readiness criteria",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/934",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T16:10:50Z",
+      "mergedAt": "2026-11-22T16:10:47Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0b3f199b8d072dacbfe66f1ea66fa4677c349c6f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45042166680"
+      }
+    },
     {
       "number": 931,
       "title": "test(AUT-03): validate provider captions and tracking readiness matrix",
@@ -379,9 +418,9 @@
       "milestone": "1.0.0",
       "headSha": "ed3b887df8a2f614b196632d64dd1dcfde8eea66",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45024476455"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1645,25 +1684,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "4f341e4d0723b559f5816e4d7609484797a58562",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 879,
-      "title": "feat(SCR-16): close core configuration diagnostics without plugin side effects",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/879",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T19:26:51Z",
-      "mergedAt": "2026-11-21T19:26:48Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ca2ab1fbaeed543ee7500f343cf10858e5d7195b",
       "ci": {
         "status": "unknown",
         "conclusion": null,
