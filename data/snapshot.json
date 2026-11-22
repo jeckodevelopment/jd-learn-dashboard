@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T12:10:18.069828+00:00",
+  "generatedAt": "2026-11-22T12:26:41.430684+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fffcbf1aa3cd8db82750f2840148e5bc452627f6",
+  "sourceCommit": "8956326c596261841ce6817853e6ca570f90465f",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 917,
+      "title": "fix(ISC-07): close server-side revocation across video, quiz and protected downloads",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/917",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T12:26:13Z",
+      "mergedAt": "2026-11-22T12:26:10Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "91848925c9e9d90d10a9fe5bd2296d0a7dac677d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45021815917"
+      }
+    },
     {
       "number": 916,
       "title": "docs(ISC-07): capture PR 915 merge and validated artifact evidence",
@@ -1652,26 +1671,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 862,
-      "title": "docs(AUT-04/LES-01): record PR 861 merge and 0.64.20 evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/862",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T14:16:29Z",
-      "mergedAt": "2026-11-21T14:16:27Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "86c0aec23e2967763aa4104aa6f7b44c5eb454d4",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1703,8 +1702,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T12:06:48Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45020144665/artifacts/14754090264"
+    "createdAt": "2026-11-22T12:25:13Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45021815907/artifacts/14753693166"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

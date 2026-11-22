@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T12:10:18.069828+00:00",
+  "generatedAt": "2026-11-22T12:26:41.430684+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T12:26:10Z",
+      "commit": "8956326c596261841ce6817853e6ca570f90465f",
+      "number": 917,
+      "title": "fix(ISC-07): close server-side revocation across video, quiz and protected downloads",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/917"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T12:09:43Z",
@@ -1594,14 +1602,6 @@
       "number": 749,
       "title": "docs(history): registrare merge e CI di SEC-P4 #748",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/749"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T07:52:03Z",
-      "commit": "91e229f216ac126543625fb9bb432306d835b594",
-      "number": 748,
-      "title": "docs(SEC-P4): inventario storage completo, guida privacy EN e gate CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/748"
     }
   ]
 }
