@@ -2722,7 +2722,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "578;579;885;889",
+    "prs": "578;579;885;889;958",
     "todo": "Cancellazione condizionata su assegnazioni e versioni didattiche storiche implementata in PR #579; restano audit riferimenti di estensioni esterne e accettazione Joomla reale",
     "tests": "Verifiche descritte in docs/LIFECYCLE_1.0.0_APPROVED.md; registrare esiti QA_TESTBOOK.md",
     "criteria": "Docenti: non pubblicazione, cestinazione/ripristino, cancellazione condizionata; mantenere account Joomla e riferimenti storici"

@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T20:27:06.987989+00:00",
+  "generatedAt": "2026-11-22T20:45:32.750757+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "cce8ec38ac7bc57d69a284a04b63d1ec046a53c8",
+  "sourceCommit": "2f652b787b461e9385d352d477a87fee7e04d7e4",
   "progress": 62.74,
   "developmentProgress": 62.74,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 958,
+      "title": "fix(LCM-04): protect teacher deletion against external foreign keys",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/958",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T20:45:10Z",
+      "mergedAt": "2026-11-22T20:45:07Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "37de5d2d4f0e2d137bdc0884bf5d9e673b78d567",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45067620487"
+      }
+    },
     {
       "number": 957,
       "title": "docs(LCM-03): close five implementation criteria under declared FK integration contract",
@@ -305,9 +324,9 @@
       "milestone": "1.0.0",
       "headSha": "5b0b9296c1cbfe8d518f9c8d2138319fed7781ed",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45054802955"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -324,9 +343,9 @@
       "milestone": "1.0.0",
       "headSha": "aede2300552f7cfad9178790302b9dfc1b04ab71",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45053968452"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 336,
-      "title": "docs: plan Joomla Privacy consent visibility and complete JD Learn export/removal",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/336",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:03:49Z",
-      "mergedAt": "2026-11-13T22:34:34Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2f5c232ff2dbdd6d6b83313c9e8c9e5e492daeb1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T20:21:03Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45065520029/artifacts/14770948467"
+    "createdAt": "2026-11-22T20:43:26Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45067620472/artifacts/14772023216"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

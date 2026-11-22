@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T20:27:06.987989+00:00",
+  "generatedAt": "2026-11-22T20:45:32.750757+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T20:45:07Z",
+      "commit": "2f652b787b461e9385d352d477a87fee7e04d7e4",
+      "number": 958,
+      "title": "fix(LCM-04): protect teacher deletion against external foreign keys",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/958"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-22T20:27:06.987989+00:00",
@@ -1594,14 +1602,6 @@
       "number": 801,
       "title": "docs(history): SEC-P1 PR #800, prove CI e checksum ZIP",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/801"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T17:07:14Z",
-      "commit": "014a5be22759642373539def87944eb684cb4354",
-      "number": 800,
-      "title": "fix(SEC-P1): ACL aggiornate su attestati e guida email amministrativa",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/800"
     }
   ]
 }
