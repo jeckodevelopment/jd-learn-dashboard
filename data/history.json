@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-22T20:13:34.787653+00:00",
+  "generatedAt": "2026-11-22T20:22:04.019193+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-22T20:21:33Z",
+      "commit": "33a79cdcd34ea54cc742110fab60dbb4e9667cfa",
+      "number": 956,
+      "title": "fix(LCM-03): protect external FK-backed pathway histories from purge",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/956"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T20:13:12Z",
@@ -1594,14 +1602,6 @@
       "number": 797,
       "title": "docs(history): registrare SEC-P1 PR #796, CI e ZIP installabile",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/797"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T16:10:53Z",
-      "commit": "cc82f1e6d071463b7a1a99e044ca8c7beb66a448",
-      "number": 796,
-      "title": "fix(SEC-P1): rivalidare destinatari della coda email prima di SMTP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/796"
     }
   ]
 }

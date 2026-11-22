@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T20:13:34.787653+00:00",
+  "generatedAt": "2026-11-22T20:22:04.019193+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e598cff148f01222871e6afa87ccbcd81c8ce0d7",
+  "sourceCommit": "33a79cdcd34ea54cc742110fab60dbb4e9667cfa",
   "progress": 62.65,
   "developmentProgress": 62.65,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 956,
+      "title": "fix(LCM-03): protect external FK-backed pathway histories from purge",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/956",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T20:21:35Z",
+      "mergedAt": "2026-11-22T20:21:33Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8a6c7142442e30ed8842cef3c171c619dabd0e60",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45065520060"
+      }
+    },
     {
       "number": 955,
       "title": "test(LCM-03): preserve shared-course pathways through lifecycle transitions",
@@ -363,9 +382,9 @@
       "milestone": "1.0.0",
       "headSha": "9cf674f39cd67131b6dde449b58862946fb0dd05",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45052338447"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -383,9 +402,9 @@
       "milestone": "1.0.0",
       "headSha": "d0982a215b55865def22d6416e373d75b7d82efe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45051222690"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1646,26 +1665,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 902,
-      "title": "docs(DOC-04): audit two fulfilled criteria and reconcile 61.73% progress",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/902",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T23:58:52Z",
-      "mergedAt": "2026-11-21T23:58:50Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "336536a6cbdc86ea73337904535faef4b8f83068",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1696,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T20:12:54Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45064705869/artifacts/14770986706"
+    "createdAt": "2026-11-22T20:21:03Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45065520029/artifacts/14770948467"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
