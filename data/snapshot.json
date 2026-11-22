@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T11:24:39.322118+00:00",
+  "generatedAt": "2026-11-22T11:41:41.162681+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7f4bff0461934ac17f1944064d0c667f3370b55a",
+  "sourceCommit": "f6b46fb28747f49b5f3542dbc75a2308923c9bbb",
   "progress": 61.92,
   "developmentProgress": 61.92,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 911,
+      "title": "feat(DOC-10): bind release candidate evidence to ZIP, feed and notes",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/911",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T11:41:15Z",
+      "mergedAt": "2026-11-22T11:41:13Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8eea731f0b88977c302699f14e388ad0ba5808f6",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45017944908"
+      }
+    },
     {
       "number": 910,
       "title": "docs(CAT-04): record #907/#908 CI, merge and package evidence",
@@ -1653,25 +1672,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 856,
-      "title": "ci(SECDEV-07): add tracked Python/JavaScript syntax gate with negative fixtures",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/856",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T13:14:53Z",
-      "mergedAt": "2026-11-21T13:14:50Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2615fc93a9503e4fa3ead8084d2a7b08ed3b73cb",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1703,8 +1703,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T11:19:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45016381150/artifacts/14751808092"
+    "createdAt": "2026-11-22T11:40:57Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45017944908/artifacts/14753060721"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
