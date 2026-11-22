@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T14:16:08.173859+00:00",
+  "generatedAt": "2026-11-22T14:33:28.730127+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "1ae797f86aa4f29dbc58a123486eb655642b3550",
+  "sourceCommit": "1dbea29aa47d256e9f425938b191c2e1b30896a4",
   "progress": 62.23,
   "developmentProgress": 62.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 928,
+      "title": "test(AUT-04): restore encrypted certificate PDF alongside Joomla database",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/928",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T14:33:03Z",
+      "mergedAt": "2026-11-22T14:33:00Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "01fa010f9a5a32547b99083c6bc08559366dcaf5",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45032956231"
+      }
+    },
     {
       "number": 927,
       "title": "test(AUT-04): verify real disposable database backup and restoration of historical certificates",
@@ -400,9 +419,9 @@
       "milestone": "1.0.0",
       "headSha": "8f086a9172adc82f66d915af116f90aa94fc459e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45019453726"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,25 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 873,
-      "title": "fix(SCR-16): diagnose private video root and ffprobe before reporting local video ready",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/873",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T17:14:16Z",
-      "mergedAt": "2026-11-21T17:14:14Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2dac015e7ae5a61baab0a1242c7fae6c46d99961",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T14:14:13Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45031295641/artifacts/14758240481"
+    "createdAt": "2026-11-22T14:32:16Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45032956231/artifacts/14757808988"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
