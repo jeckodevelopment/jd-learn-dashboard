@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-22T12:53:30.678266+00:00",
+  "generatedAt": "2026-11-22T13:05:18.675768+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "074352c2e3fd2f4fb4b16eac1fe131ec725a65cd",
+  "sourceCommit": "1c27324f51e6b3f5ff9261b837678d88df221c57",
   "progress": 62.23,
   "developmentProgress": 62.23,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 922,
+      "title": "test(AUT-04): preserve issued certificate records through programme restore",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/922",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-22T13:04:48Z",
+      "mergedAt": "2026-11-22T13:04:45Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4e2936a7f28eadef48bfb5d82b822c8e3acf35b4",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45025115919"
+      }
+    },
     {
       "number": 921,
       "title": "docs(AUT-04): register PR 920 verified merge and certificate retention evidence",
@@ -364,9 +383,9 @@
       "milestone": "1.0.0",
       "headSha": "9c9b4621a5727050876753bb78fe4c4450a3d455",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45017061198"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1652,25 +1671,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 867,
-      "title": "feat(SCR-16): private material storage read-only health diagnostic",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/867",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-21T15:37:25Z",
-      "mergedAt": "2026-11-21T15:37:23Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "17b677a0e37a7c54a3fcb5149011439f154ffeb6",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1702,8 +1702,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-22T12:49:04Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45023789539/artifacts/14755615440"
+    "createdAt": "2026-11-22T13:04:12Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45025115919/artifacts/14755855517"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
