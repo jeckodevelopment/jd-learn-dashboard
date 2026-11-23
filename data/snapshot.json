@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T07:27:24.220552+00:00",
+  "generatedAt": "2026-11-23T07:35:32.697447+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d9aaef0fa8ee4daee7330e524935d45c074c1ff8",
+  "sourceCommit": "f24558d086273f03dd05b5286244abafc984c315",
   "progress": 63.06,
   "developmentProgress": 63.06,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 972,
+      "title": "fix(SECDEV-03): rifiutare tipi non validi nell’artwork dei percorsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/972",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T07:35:01Z",
+      "mergedAt": "2026-11-23T07:34:59Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f70a9f65a71e8e3688482aa36f0c644592bcaeca",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45131526136"
+      }
+    },
     {
       "number": 971,
       "title": "test(SECDEV-03): XSS e mass assignment negativi sui percorsi Joomla",
@@ -1659,25 +1678,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 905,
-      "title": "fix(CAT-04): noindex and private cache headers for teacher profile editor",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/905",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:34:08Z",
-      "mergedAt": "2026-11-22T00:34:06Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2763325f944dc827551f620a0aa20926871d0a6b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1709,8 +1709,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T07:26:19Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45130394573/artifacts/14797198277"
+    "createdAt": "2026-11-23T07:34:30Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45131526136/artifacts/14798301601"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
