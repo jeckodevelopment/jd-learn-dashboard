@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T15:38:55.446927+00:00",
+  "generatedAt": "2026-11-23T15:53:55.210147+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d498aa6aa89f17e77b76a87fc76cd67e94d9d985",
+  "sourceCommit": "51084b8a9a287f61ca14f988758e3a045442a5dd",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 994,
+      "title": "style(SECDEV-02): correggere 43 rilievi strutturali PSR-12 nei test",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/994",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T15:53:26Z",
+      "mergedAt": "2026-11-23T15:53:23Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "84bc14f3da3a803a3e958559079ed3a69e81d47c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "cancelled",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45209170823"
+      }
+    },
     {
       "number": 993,
       "title": "style(SECDEV-02): altre 51 correzioni PSR-12 con rollback per file",
@@ -1651,25 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 927,
-      "title": "test(AUT-04): verify real disposable database backup and restoration of historical certificates",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/927",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T14:15:37Z",
-      "mergedAt": "2026-11-22T14:15:35Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "41ccc50366f2c638bcdf0f21197aa8c3111bee83",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T15:37:18Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45206283842/artifacts/14833342843"
+    "createdAt": "2026-11-23T15:52:52Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45209170805/artifacts/14836145778"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
