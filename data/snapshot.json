@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T07:17:41.458626+00:00",
+  "generatedAt": "2026-11-23T07:27:24.220552+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3c0bc91203dadbf2fdff3fd37195f086db3e9b57",
+  "sourceCommit": "d9aaef0fa8ee4daee7330e524935d45c074c1ff8",
   "progress": 63.06,
   "developmentProgress": 63.06,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 971,
+      "title": "test(SECDEV-03): XSS e mass assignment negativi sui percorsi Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/971",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T07:26:54Z",
+      "mergedAt": "2026-11-23T07:26:51Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b5a61f4c573c85a206a058530dec7eef1f53897d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45130394573"
+      }
+    },
     {
       "number": 970,
       "title": "test(SECDEV-03): estendere il gate CSV a servizi e modelli distribuiti",
@@ -1659,26 +1678,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 904,
-      "title": "docs(DOC-10): candidate release notes with limitations and verification gate",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/904",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:25:24Z",
-      "mergedAt": "2026-11-22T00:25:22Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a6c37e0a9eb53b3f508a33c301e3ec46d5a2f350",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1710,8 +1709,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T07:16:40Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45129383008/artifacts/14797810656"
+    "createdAt": "2026-11-23T07:26:19Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45130394573/artifacts/14797198277"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
