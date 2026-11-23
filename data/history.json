@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T07:43:18.451652+00:00",
+  "generatedAt": "2026-11-23T07:59:15.969740+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T07:58:41Z",
+      "commit": "f8a804187038ffe9ccdf29c3223d5e0284e3a8f0",
+      "number": 974,
+      "title": "fix(SECDEV-03): bloccare token negli URL pubblici dei docenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/974"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T07:42:46Z",
@@ -1594,14 +1602,6 @@
       "from": 57.94,
       "to": 58.8,
       "asOf": "2026-11-15"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T20:38:44Z",
-      "commit": "9d06e2a90a5a9d3fad45ab5f5563790070e785aa",
-      "number": 819,
-      "title": "docs(history): registrare merge, CI, artefatto e checksum DOC-08 #818",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/819"
     }
   ]
 }

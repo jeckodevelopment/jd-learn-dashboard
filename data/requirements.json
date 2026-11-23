@@ -2205,7 +2205,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "187;768;972;973",
+    "prs": "187;768;972;973;974",
     "todo": "Estendere validazioni e autorizzazioni alle azioni core ancora mancanti; revisione indipendente e prove della matrice ruoli restano verifiche.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-112; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Copertura completa delle azioni ancora mancanti, revisione sicurezza indipendente e test di tutti i ruoli/oggetti; nessuna certificazione ASVS.",
     "criteria": "Input, query e output.  Validazione server, campi allowlist, query con binding tramite servizi Joomla, output contestualmente codificato e HTML filtrato. Test contro SQL injection, XSS, mass assignment e formule CSV. Nessuna concatenazione di input come query o esecuzione dinamica di codice non attendibile"

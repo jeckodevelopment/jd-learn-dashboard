@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T07:43:18.451652+00:00",
+  "generatedAt": "2026-11-23T07:59:15.969740+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ceec960def1f26233f360dc8ba170f8a64487f44",
+  "sourceCommit": "f8a804187038ffe9ccdf29c3223d5e0284e3a8f0",
   "progress": 63.06,
   "developmentProgress": 63.06,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 974,
+      "title": "fix(SECDEV-03): bloccare token negli URL pubblici dei docenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/974",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T07:58:44Z",
+      "mergedAt": "2026-11-23T07:58:41Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c46f60e3217096da1a16bb11f0dc29a798c9e028",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45134212671"
+      }
+    },
     {
       "number": 973,
       "title": "fix(SECDEV-03): binding SQL associazioni percorso–corso",
@@ -569,9 +588,9 @@
       "milestone": "1.0.0",
       "headSha": "5160753a852af583d37cdb075559849fc0796fcc",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45073750189"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1658,25 +1677,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 907,
-      "title": "fix(CAT-04): enforce private robots headers across teaching routes and guarded SEO views",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/907",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T11:06:00Z",
-      "mergedAt": "2026-11-22T11:05:58Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ebb7579c4978b9db3b2dad4383e407a8bdade3ce",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1708,8 +1708,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T07:42:19Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45132489877/artifacts/14798571588"
+    "createdAt": "2026-11-23T07:58:01Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45134212671/artifacts/14799452081"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
