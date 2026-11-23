@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T23:16:21.438664+00:00",
+  "generatedAt": "2026-11-23T23:35:59.442396+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "51a4d94d078e18ebd121c5921f65bfe60052bcdb",
+  "sourceCommit": "e709fd8271c7566783ef8ca009644e52663d6e61",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1006,
+      "title": "style(SECDEV-02): consolidate HTML attribute line lengths in course and curriculum views",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1006",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T23:35:29Z",
+      "mergedAt": "2026-11-23T23:35:27Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "af1f04214495b3fdc0ef78602c6085f0e9213abf",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45289181775"
+      }
+    },
     {
       "number": 1005,
       "title": "test(SECDEV-02): verificare metodi Joomla su istanze costruite direttamente",
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 939,
-      "title": "fix(LES-02): reject credentials in video URL fragments and camelCase keys",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/939",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T16:47:32Z",
-      "mergedAt": "2026-11-22T16:47:30Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5899d09ee34665a9b671bf4582938169738f4ac5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T23:14:24Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45286313069/artifacts/14870934625"
+    "createdAt": "2026-11-23T23:35:08Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45289181775/artifacts/14873411877"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
