@@ -1,8 +1,32 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T11:07:50.655397+00:00",
+  "generatedAt": "2026-11-23T14:01:27.601719+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T14:00:52Z",
+      "commit": "0d8ee7d824c982194239b7ad1a4325bc461201c0",
+      "number": 987,
+      "title": "style(SECDEV-02): terzo batch massivo PHPCBF PSR-12 sul PHP tracciato",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/987"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T13:16:29Z",
+      "commit": "0d8ee7d824c982194239b7ad1a4325bc461201c0",
+      "number": 986,
+      "title": "style(SECDEV-02): correggere 7.444 rilievi strutturali PSR-12 in 262 PHP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/986"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T11:46:57Z",
+      "commit": "0d8ee7d824c982194239b7ad1a4325bc461201c0",
+      "number": 985,
+      "title": "style(SECDEV-02): correggere in massa 31.062 violazioni PSR-12 su 152 file",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/985"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T11:07:14Z",
@@ -1578,30 +1602,6 @@
       "from": 58.8,
       "to": 59.11,
       "asOf": "2026-11-20"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T22:41:15Z",
-      "commit": "8750ba2b676853e17a05dc5d7e5ff7506ec58081",
-      "number": 833,
-      "title": "docs(history): record HTTP-06 PR #832 merge, CI and ZIP checksum",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/833"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T22:40:08Z",
-      "commit": "899a78f43951f47754bbd41c510da83a1d629ec7",
-      "number": 832,
-      "title": "test(core): consolidate HTTP-06 request boundary regressions",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/832"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T22:28:39Z",
-      "commit": "fd269c5dd27e9bc0d1f2b53e32e424b7c06b4845",
-      "number": 831,
-      "title": "test(core): HTTP-06 Joomla task contracts and negative boundary cases",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/831"
     }
   ]
 }

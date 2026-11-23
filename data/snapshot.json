@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T11:07:50.655397+00:00",
+  "generatedAt": "2026-11-23T14:01:27.601719+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "65e9b9eb2e57819fec5865728e7a3d97c8f403df",
+  "sourceCommit": "0d8ee7d824c982194239b7ad1a4325bc461201c0",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,63 @@
   },
   "prs": [
     {
+      "number": 987,
+      "title": "style(SECDEV-02): terzo batch massivo PHPCBF PSR-12 sul PHP tracciato",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/987",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T14:00:54Z",
+      "mergedAt": "2026-11-23T14:00:52Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6ee5b7a0f9612a6ab9eeb0707095638b74b81e33",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45188578513"
+      }
+    },
+    {
+      "number": 986,
+      "title": "style(SECDEV-02): correggere 7.444 rilievi strutturali PSR-12 in 262 PHP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/986",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T13:16:32Z",
+      "mergedAt": "2026-11-23T13:16:29Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3362a63c799d7a8d056631cce775f32b207e057e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45172533249"
+      }
+    },
+    {
+      "number": 985,
+      "title": "style(SECDEV-02): correggere in massa 31.062 violazioni PSR-12 su 152 file",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/985",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T11:47:00Z",
+      "mergedAt": "2026-11-23T11:46:57Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6595930f31f68495d9ecb01d6be694995ad97104",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45167347480"
+      }
+    },
+    {
       "number": 984,
       "title": "style(SECDEV-02): classificare e ridurre il debito PSR-12 per priorità",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/984",
@@ -149,9 +206,9 @@
       "milestone": "1.0.0",
       "headSha": "1feb0bbbdfd1c2a446ba9dc1e88e2a744496c938",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45160762320"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -168,9 +225,9 @@
       "milestone": "1.0.0",
       "headSha": "b93d508b7c1d0125c5e9135b11544f193d927b27",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45155667147"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -187,9 +244,9 @@
       "milestone": "1.0.0",
       "headSha": "8427e6216387a78edb33dde6b5439e938139f415",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45154057225"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -206,9 +263,9 @@
       "milestone": "1.0.0",
       "headSha": "285cb3f5590e98b3af2bb74e1d8ddc983dfd5435",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45151752619"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -225,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "04eb25ed3f3cb06710d6d5622159b74ba3e1f9e3",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45149656800"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -244,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "b2da052000c98dda9e8e91e5edd2153175e15e15",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45146699259"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -263,9 +320,9 @@
       "milestone": "1.0.0",
       "headSha": "d6c08694c193fda22af405b0980247c3cc07b302",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45145562243"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +339,9 @@
       "milestone": "1.0.0",
       "headSha": "189da566eec81e3abd0d46ef89c41ac874f45158",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45143410769"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -301,9 +358,9 @@
       "milestone": "1.0.0",
       "headSha": "a69bfcc55f197e1cb576f2ea23d6200dd2e05adf",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45140643146"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -320,9 +377,9 @@
       "milestone": "1.0.0",
       "headSha": "2ff6848c2c494627aa71be8e9679fa0dd0453ee9",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45138096758"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1614,64 +1671,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 920,
-      "title": "test(AUT-04): preserve historical certificates through enrollment migration and upgrade",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/920",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T12:49:33Z",
-      "mergedAt": "2026-11-22T12:49:31Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "efa4d9a57edc5d1ae74343a4175f2d2fb6fd8062",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 919,
-      "title": "feat(AUT-03): distinguish remote subtitle availability from editorial transcripts",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/919",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T12:40:57Z",
-      "mergedAt": "2026-11-22T12:40:54Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1d33cfa3de02822e3431bac1503abdbafa48e3df",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 918,
-      "title": "docs(ISC-07): close 3/3 implemented criteria and reconcile 1.0.0 progress",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/918",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T12:30:32Z",
-      "mergedAt": "2026-11-22T12:30:29Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "55521b794be0171e35a3b0845e97b69537cae5b8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1703,8 +1702,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T11:06:31Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45160762320/artifacts/14810748936"
+    "createdAt": "2026-11-23T14:00:18Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45188578015/artifacts/14824337999"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
