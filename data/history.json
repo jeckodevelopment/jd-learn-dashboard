@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T09:49:13.947117+00:00",
+  "generatedAt": "2026-11-23T10:04:25.119080+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T10:03:49Z",
+      "commit": "b4863d0f56ce5be1b65f5b0dfe9add940cd9c764",
+      "number": 981,
+      "title": "fix(SECDEV-02): localizzare e risolvere il debito PHP PSR-4 residuo",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/981"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T09:48:46Z",
@@ -1594,14 +1602,6 @@
       "number": 828,
       "title": "fix(security): SEC-P2 require November PHP security patches in CI",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/828"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T21:52:07Z",
-      "commit": "1d49de7bd927f0d18271a84842ddf22e3e835b31",
-      "number": 827,
-      "title": "docs(SEC-P2): archive PR #826 merge, CI and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/827"
     }
   ]
 }

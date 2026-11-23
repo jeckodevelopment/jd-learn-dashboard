@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T09:49:13.947117+00:00",
+  "generatedAt": "2026-11-23T10:04:25.119080+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "89be030c011440e53551db3016a2b0f54cb7815f",
+  "sourceCommit": "b4863d0f56ce5be1b65f5b0dfe9add940cd9c764",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 981,
+      "title": "fix(SECDEV-02): localizzare e risolvere il debito PHP PSR-4 residuo",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/981",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T10:03:52Z",
+      "mergedAt": "2026-11-23T10:03:49Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "285cb3f5590e98b3af2bb74e1d8ddc983dfd5435",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45151752619"
+      }
+    },
     {
       "number": 980,
       "title": "test(SECDEV-02): inventario PHP PSR-4 completo e blocco regressioni di stile",
@@ -301,9 +320,9 @@
       "milestone": "1.0.0",
       "headSha": "f70a9f65a71e8e3688482aa36f0c644592bcaeca",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45131526136"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -320,9 +339,9 @@
       "milestone": "1.0.0",
       "headSha": "b5a61f4c573c85a206a058530dec7eef1f53897d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45130394573"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -339,9 +358,9 @@
       "milestone": "1.0.0",
       "headSha": "5193d571f2846a4f17d6cd0f70788fbe0b3e73a5",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45129383008"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1654,26 +1673,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 914,
-      "title": "docs(ISC-07): record merged PR 913 CI and artifact evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/914",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T11:53:42Z",
-      "mergedAt": "2026-11-22T11:53:39Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8f086a9172adc82f66d915af116f90aa94fc459e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1705,8 +1704,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T09:48:14Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45149656800/artifacts/14805748096"
+    "createdAt": "2026-11-23T10:02:26Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45151752619/artifacts/14807750244"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
