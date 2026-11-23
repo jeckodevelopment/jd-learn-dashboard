@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T20:38:36.031199+00:00",
+  "generatedAt": "2026-11-23T20:52:25.538860+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0d5898d740ba28dfc8519c3f8705d4ac1e433502",
+  "sourceCommit": "4af0fe9e071370362b5afcecf1e417d7ce1f7a15",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1000,
+      "title": "style(SECDEV-02): 271 rilievi PSR-12 rimossi in 9 test PHP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1000",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T20:51:55Z",
+      "mergedAt": "2026-11-23T20:51:52Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e908ff3883e5786a778190a71eae174f0340a9be",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45262852513"
+      }
+    },
+    {
       "number": 999,
       "title": "style(SECDEV-02): format long learning and quiz arrays without runtime changes",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/999",
@@ -149,8 +168,8 @@
       "milestone": "1.0.0",
       "headSha": "35b51240eb043da2214a2ab1a3643dc685d774ac",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45261436401"
       }
     },
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "7a7febedaca4c7cdf0df532c2bcc9048a059dbdf",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45206283948"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1650,25 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 931,
-      "title": "test(AUT-03): validate provider captions and tracking readiness matrix",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/931",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T16:04:44Z",
-      "mergedAt": "2026-11-22T16:04:41Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f5686b2f8c3d94e7b4628cbb245b2589aaa5e5a1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T20:36:12Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45260176692/artifacts/14859173859"
+    "createdAt": "2026-11-23T20:51:18Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45262852513/artifacts/14860274182"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
