@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T08:27:42.594321+00:00",
+  "generatedAt": "2026-11-23T08:46:44.049358+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a0348efcc9fbe8f6785b0312f83ac18077ef78e4",
-  "progress": 63.53,
-  "developmentProgress": 63.53,
+  "sourceCommit": "ba1c3c0dba1259b2b09b62c40facd7fc48be0d47",
+  "progress": 63.64,
+  "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,11 +105,11 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 49.28,
+      "development_evidence_floor_percent": 49.77,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 4,
-      "unverifiable_criteria": 97,
+      "unverifiable_criteria": 96,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 976,
+      "title": "test(SECDEV-01): controllo antiregressione del confine MVC nei template Joomla",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/976",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T08:46:11Z",
+      "mergedAt": "2026-11-23T08:46:09Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a69bfcc55f197e1cb576f2ea23d6200dd2e05adf",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45140643146"
+      }
+    },
     {
       "number": 975,
       "title": "test(SECDEV-03): completamento gate implementativo e riconciliazione criteri 1.0.0",
@@ -321,9 +340,9 @@
       "milestone": "1.0.0",
       "headSha": "b665d3aa38ba97b2379b059dcc258f24591a5c64",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45077278256"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -340,9 +359,9 @@
       "milestone": "1.0.0",
       "headSha": "d99610f36a18c158bf44d355e27fc84cf4246e42",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45076048712"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1657,25 +1676,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 908,
-      "title": "fix(CAT-04): align Finder public index, robots and multilingual SEO checks",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/908",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T11:19:34Z",
-      "mergedAt": "2026-11-22T11:19:32Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "15039aca574b2d060ed9a0421e49d1bd789a91c6",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1707,8 +1707,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T08:26:48Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45138096459/artifacts/14801112247"
+    "createdAt": "2026-11-23T08:45:39Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45140643146/artifacts/14801079946"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

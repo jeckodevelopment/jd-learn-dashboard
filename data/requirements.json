@@ -2180,12 +2180,12 @@
   {
     "id": "SECDEV-01",
     "area": "SECDEV",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93",
-    "todo": "Completare Finder e i servizi/trasporti core non coperti; Privacy già presente. Notifiche/report avanzati/attestati/import e Web Services esterni differiti.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-110; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Servizi mancanti (privacy/Finder/notifiche/report/attestati/import), trasporti e UI completi; stile PSR-12/analisi statica e patch corrente non certificati. Web Services esterni differiti.",
+    "prs": "93;976",
+    "todo": "Nessuno nel perimetro implementativo MVC di SECDEV-01 1.0.0: 4/4 criteri implementati, con nuove superfici sottoposte a gate antiregressione.",
+    "tests": "Collaudo manuale Joomla Non eseguita: AC-110, layout e override realmente installati, profili e permessi per corso. Gli aspetti Finder, Privacy, import, release e PSR-12 restano nei propri requisiti; non sono blocchi implementativi MVC SECDEV-01.",
     "criteria": "MVC Joomla.  Implementare controller, model, view e tmpl con le classi e convenzioni MVC Joomla; servizi applicativi condivisi tramite dependency injection. Controller sottili, modelli per dati/form e layout privi di query e logica autorizzativa/didattica. Nessun motore MVC o bootstrap parallelo"
   },
   {
