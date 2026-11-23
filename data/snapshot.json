@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T17:50:38.057672+00:00",
+  "generatedAt": "2026-11-23T18:47:23.497059+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a689785c10116e46534f6e4fe882d3eb53dfd47b",
+  "sourceCommit": "1d589c1b8f4b00f462e983c0b3cb7cd1edf0f7c6",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 996,
+      "title": "style(SECDEV-02): 326 rilievi PSR-12 eliminati in 82 file PHP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/996",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T18:46:54Z",
+      "mergedAt": "2026-11-23T18:46:51Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "4876dda36f81e97e1c116d2114cdea8ba8befdd7",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45241078692"
+      }
+    },
+    {
       "number": 995,
       "title": "style(SECDEV-02): raggruppare i trait Joomla nativi di JlmsComponent",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/995",
@@ -244,9 +263,9 @@
       "milestone": "1.0.0",
       "headSha": "6519ff18d1eb441876d5e2e517b8869389166a7f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45195722737"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "959b206501fcc2cd8398f7a5c345ee6c51564be8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45193298154"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "ba09d4a0950189bdf31c9809e603fc5797c83d35",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45190800645"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1650,26 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 929,
-      "title": "docs(AUT-04): close implementation audit with verified historical integrity evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/929",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T14:46:09Z",
-      "mergedAt": "2026-11-22T14:46:06Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8712e71151c051f657e8f09f0b5cd4fabfa456ea",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T17:49:23Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45230915263/artifacts/14846858174"
+    "createdAt": "2026-11-23T18:46:11Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45241078692/artifacts/14852975220"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

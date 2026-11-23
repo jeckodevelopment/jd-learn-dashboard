@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T17:50:38.057672+00:00",
+  "generatedAt": "2026-11-23T18:47:23.497059+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T18:46:51Z",
+      "commit": "1d589c1b8f4b00f462e983c0b3cb7cd1edf0f7c6",
+      "number": 996,
+      "title": "style(SECDEV-02): 326 rilievi PSR-12 eliminati in 82 file PHP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/996"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T17:49:58Z",
@@ -1594,14 +1602,6 @@
       "number": 838,
       "title": "feat(frontend): complete UI-07 versioned DOM contracts across views and shared partials",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/838"
-    },
-    {
-      "type": "estimate_changed",
-      "at": "2026-11-20T23:30:30.789581+00:00",
-      "commit": "d8322da1dcde53dc3974302afb80305c6b480451",
-      "from": 59.42,
-      "to": 59.66,
-      "asOf": "2026-11-20"
     }
   ]
 }
