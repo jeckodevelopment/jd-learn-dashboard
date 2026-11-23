@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T07:35:32.697447+00:00",
+  "generatedAt": "2026-11-23T07:43:18.451652+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f24558d086273f03dd05b5286244abafc984c315",
+  "sourceCommit": "ceec960def1f26233f360dc8ba170f8a64487f44",
   "progress": 63.06,
   "developmentProgress": 63.06,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 973,
+      "title": "fix(SECDEV-03): binding SQL associazioni percorso–corso",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/973",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T07:42:49Z",
+      "mergedAt": "2026-11-23T07:42:46Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "50cd2612d5c93ad1a677ee514aafe506e3bd0b47",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45132489877"
+      }
+    },
     {
       "number": 972,
       "title": "fix(SECDEV-03): rifiutare tipi non validi nell’artwork dei percorsi",
@@ -1658,26 +1677,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 906,
-      "title": "docs(CAT-04): reconcile PR #905 post-merge verification evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/906",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T00:37:06Z",
-      "mergedAt": "2026-11-22T00:37:04Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7d8f2b3adc1b3b973731d86951ea2ac9e8c3437d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1709,8 +1708,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T07:34:30Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45131526136/artifacts/14798301601"
+    "createdAt": "2026-11-23T07:42:19Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45132489877/artifacts/14798571588"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
