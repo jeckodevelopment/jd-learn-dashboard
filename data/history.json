@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T01:56:29.849330+00:00",
+  "generatedAt": "2026-11-23T07:17:41.458626+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T07:17:07Z",
+      "commit": "3c0bc91203dadbf2fdff3fd37195f086db3e9b57",
+      "number": 970,
+      "title": "test(SECDEV-03): estendere il gate CSV a servizi e modelli distribuiti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/970"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-22T23:03:15Z",
@@ -1594,14 +1602,6 @@
       "number": 816,
       "title": "feat(DOC-07): guide sicure e verifiche ACL per operazioni amministrative critiche",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/816"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T20:16:42Z",
-      "commit": "d2ecd8ffc1a8b2eec2e9d81531bd404a3748ec5f",
-      "number": 815,
-      "title": "docs(history): registrare merge, CI e pacchetto PBASE-02 #814",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/815"
     }
   ]
 }
