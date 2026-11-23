@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T15:53:55.210147+00:00",
+  "generatedAt": "2026-11-23T17:50:38.057672+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "51084b8a9a287f61ca14f988758e3a045442a5dd",
+  "sourceCommit": "a689785c10116e46534f6e4fe882d3eb53dfd47b",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 995,
+      "title": "style(SECDEV-02): raggruppare i trait Joomla nativi di JlmsComponent",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/995",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T17:49:59Z",
+      "mergedAt": "2026-11-23T17:49:58Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9f5fd0ffdd266b393b7c2adcc5a1be7972490a65",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45230915263"
+      }
+    },
     {
       "number": 994,
       "title": "style(SECDEV-02): correggere 43 rilievi strutturali PSR-12 nei test",
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "6ee5b7a0f9612a6ab9eeb0707095638b74b81e33",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45188578513"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1651,25 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 928,
-      "title": "test(AUT-04): restore encrypted certificate PDF alongside Joomla database",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/928",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T14:33:03Z",
-      "mergedAt": "2026-11-22T14:33:00Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "01fa010f9a5a32547b99083c6bc08559366dcaf5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T15:52:52Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45209170805/artifacts/14836145778"
+    "createdAt": "2026-11-23T17:49:23Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45230915263/artifacts/14846858174"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
