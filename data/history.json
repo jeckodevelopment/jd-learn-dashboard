@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T09:22:15.403898+00:00",
+  "generatedAt": "2026-11-23T09:29:24.267048+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T09:28:55Z",
+      "commit": "5ed0c3cf880017197f3cc3c9fa85cf844330f70a",
+      "number": 979,
+      "title": "test(SECDEV-02): impedire reintroduzione di API legacy Joomla 6",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/979"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T09:21:44Z",
@@ -1594,14 +1602,6 @@
       "number": 826,
       "title": "fix(security): consolidate SEC-P2 source, workflow and deployment hardening",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/826"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T21:40:38Z",
-      "commit": "f5cc438de3425b8503c90951e2331da598e889a8",
-      "number": 825,
-      "title": "docs(SEC-P2/SEC-P3): record PR #824 merge, CI and ZIP checksum",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/825"
     }
   ]
 }
