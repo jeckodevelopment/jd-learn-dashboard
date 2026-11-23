@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T07:59:15.969740+00:00",
+  "generatedAt": "2026-11-23T08:27:42.594321+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f8a804187038ffe9ccdf29c3223d5e0284e3a8f0",
-  "progress": 63.06,
-  "developmentProgress": 63.06,
+  "sourceCommit": "a0348efcc9fbe8f6785b0312f83ac18077ef78e4",
+  "progress": 63.53,
+  "developmentProgress": 63.53,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,11 +105,11 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 47.32,
+      "development_evidence_floor_percent": 49.28,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 5,
-      "unverifiable_criteria": 100,
+      "missing_criteria": 4,
+      "unverifiable_criteria": 97,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 975,
+      "title": "test(SECDEV-03): completamento gate implementativo e riconciliazione criteri 1.0.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/975",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T08:27:08Z",
+      "mergedAt": "2026-11-23T08:27:06Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2ff6848c2c494627aa71be8e9679fa0dd0453ee9",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45138096758"
+      }
+    },
     {
       "number": 974,
       "title": "fix(SECDEV-03): bloccare token negli URL pubblici dei docenti",
@@ -569,9 +588,9 @@
       "milestone": "1.0.0",
       "headSha": "aab7c11936a5680951125a341bcf78fba438f047",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45074322357"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1657,26 +1676,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 909,
-      "title": "docs: reconcile LCM-03/04 external-reference evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/909",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T11:17:21Z",
-      "mergedAt": "2026-11-22T11:17:19Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1b6235b0a8faf1aedca1e5cf5348291f029dca9f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1708,8 +1707,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T07:58:01Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45134212671/artifacts/14799452081"
+    "createdAt": "2026-11-23T08:26:48Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45138096459/artifacts/14801112247"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
