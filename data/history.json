@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T10:19:07.239256+00:00",
+  "generatedAt": "2026-11-23T10:30:21.630463+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T10:29:50Z",
+      "commit": "edfee7faf1be5fdf379ecefe96276180354e1530",
+      "number": 983,
+      "title": "test(SECDEV-02): prova Joomla 6 senza plugin di retrocompatibilità",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/983"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T10:18:35Z",
@@ -1594,14 +1602,6 @@
       "number": 830,
       "title": "test(frontend): strengthen UI-07 real Joomla DOM and CSS compatibility",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/830"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T22:01:32Z",
-      "commit": "8354434548590465435584ddce1ff28645b96f5a",
-      "number": 829,
-      "title": "docs(SEC-P2): archive PR #828 merge, PHP advisory QA and artifact",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/829"
     }
   ]
 }
