@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T21:38:20.017028+00:00",
+  "generatedAt": "2026-11-23T21:56:18.980270+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8e9d060c7d67ffc3eaf07cbb8acfffd1fa219d7d",
+  "sourceCommit": "23225aee9a9f9af1770c17e2c979e7ec90e727e0",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1003,
+      "title": "test(SECDEV-02): bloccare API core Joomla incompatibili sulla patch target 6.2.0",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1003",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T21:56:08Z",
+      "mergedAt": "2026-11-23T21:55:47Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6f0c2e3f556ac287cde8ff342bb3ce3cc1b77a6d",
+      "ci": {
+        "status": "queued",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45274667108"
+      }
+    },
     {
       "number": 1002,
       "title": "style(SECDEV-02): ridurre le righe lunghe del template curriculum",
@@ -1648,26 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 936,
-      "title": "docs(AUT-01): close all AUT-01–05 implementation criteria",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/936",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T16:25:21Z",
-      "mergedAt": "2026-11-22T16:25:19Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "dc9bf5c09ab566f9506d1417ea9178f84f580043",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T21:37:21Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45270500772/artifacts/14865816282"
+    "createdAt": "2026-11-23T21:55:14Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45273699940/artifacts/14866003964"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
