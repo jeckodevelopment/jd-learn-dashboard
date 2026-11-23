@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T08:46:44.049358+00:00",
+  "generatedAt": "2026-11-23T09:07:20.534393+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ba1c3c0dba1259b2b09b62c40facd7fc48be0d47",
+  "sourceCommit": "68c51af5d367ad1999a1d6c5ed05a2328f860e7a",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 977,
+      "title": "test(SECDEV-02): proteggere contratti PHP/PSR-4 e integrità core in CI",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/977",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T09:06:54Z",
+      "mergedAt": "2026-11-23T09:06:51Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "189da566eec81e3abd0d46ef89c41ac874f45158",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45143410769"
+      }
+    },
     {
       "number": 976,
       "title": "test(SECDEV-01): controllo antiregressione del confine MVC nei template Joomla",
@@ -1656,26 +1675,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 910,
-      "title": "docs(CAT-04): record #907/#908 CI, merge and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/910",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T11:24:10Z",
-      "mergedAt": "2026-11-22T11:24:07Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9c9b4621a5727050876753bb78fe4c4450a3d455",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1707,8 +1706,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T08:45:39Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45140643146/artifacts/14801079946"
+    "createdAt": "2026-11-23T09:06:18Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45143410769/artifacts/14803875535"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

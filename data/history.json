@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T08:46:44.049358+00:00",
+  "generatedAt": "2026-11-23T09:07:20.534393+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T09:06:51Z",
+      "commit": "68c51af5d367ad1999a1d6c5ed05a2328f860e7a",
+      "number": 977,
+      "title": "test(SECDEV-02): proteggere contratti PHP/PSR-4 e integrità core in CI",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/977"
+    },
     {
       "type": "requirement_changed",
       "at": "2026-11-23T08:46:44.049358+00:00",
@@ -1594,14 +1602,6 @@
       "number": 824,
       "title": "fix(security): SEC-P2 package scan and SEC-P3 privacy mail retention",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/824"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T21:29:55Z",
-      "commit": "170a3354ac19a6126edfd6456ae4ddd70f730ea9",
-      "number": 823,
-      "title": "docs(SEC-P2/SEC-P3): record PR #822 merge, CI and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/823"
     }
   ]
 }
