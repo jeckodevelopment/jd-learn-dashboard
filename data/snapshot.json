@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T21:56:18.980270+00:00",
+  "generatedAt": "2026-11-23T22:23:23.675979+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "23225aee9a9f9af1770c17e2c979e7ec90e727e0",
+  "sourceCommit": "9bf8c452e4f8f7fbc853ffa12d511df761205358",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1004,
+      "title": "test(SECDEV-02): audit completo dei simboli Joomla e metodi statici nei PHP distribuiti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1004",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T22:22:55Z",
+      "mergedAt": "2026-11-23T22:22:52Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "971c84d9cca5e02c3f6ef76a1266d3a36a8ba07a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45277985057"
+      }
+    },
+    {
       "number": 1003,
       "title": "test(SECDEV-02): bloccare API core Joomla incompatibili sulla patch target 6.2.0",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1003",
@@ -149,8 +168,8 @@
       "milestone": "1.0.0",
       "headSha": "6f0c2e3f556ac287cde8ff342bb3ce3cc1b77a6d",
       "ci": {
-        "status": "queued",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45274667108"
       }
     },
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "4e0fd6c86db20ba410db41d7944ddd0f641d366b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45246615806"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "4876dda36f81e97e1c116d2114cdea8ba8befdd7",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45241078692"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,26 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 937,
-      "title": "docs(AUT): record verified closure, merges and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/937",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T16:30:47Z",
-      "mergedAt": "2026-11-22T16:30:46Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e9a185682d631a5d84157444acbda87a1dbeba5e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T21:55:14Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45273699940/artifacts/14866003964"
+    "createdAt": "2026-11-23T22:22:21Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45277985057/artifacts/14868312448"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
