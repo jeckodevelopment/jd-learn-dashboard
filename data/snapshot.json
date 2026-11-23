@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T14:01:27.601719+00:00",
+  "generatedAt": "2026-11-23T14:13:14.531985+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0d8ee7d824c982194239b7ad1a4325bc461201c0",
+  "sourceCommit": "fc5d5ba301712ed556d010801156235f4637340e",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 988,
+      "title": "test(SECDEV-02): convalida vincolante delle evidenze CORE-01–23",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/988",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T14:12:41Z",
+      "mergedAt": "2026-11-23T14:12:39Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ba09d4a0950189bdf31c9809e603fc5797c83d35",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45190800645"
+      }
+    },
     {
       "number": 987,
       "title": "style(SECDEV-02): terzo batch massivo PHPCBF PSR-12 sul PHP tracciato",
@@ -1651,26 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 921,
-      "title": "docs(AUT-04): register PR 920 verified merge and certificate retention evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/921",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T12:52:58Z",
-      "mergedAt": "2026-11-22T12:52:56Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ed3b887df8a2f614b196632d64dd1dcfde8eea66",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1702,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T14:00:18Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45188578015/artifacts/14824337999"
+    "createdAt": "2026-11-23T14:12:13Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45190800645/artifacts/14826551633"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
