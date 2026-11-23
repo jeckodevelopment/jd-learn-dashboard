@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T09:29:24.267048+00:00",
+  "generatedAt": "2026-11-23T09:49:13.947117+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "5ed0c3cf880017197f3cc3c9fa85cf844330f70a",
+  "sourceCommit": "89be030c011440e53551db3016a2b0f54cb7815f",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 980,
+      "title": "test(SECDEV-02): inventario PHP PSR-4 completo e blocco regressioni di stile",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/980",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T09:48:49Z",
+      "mergedAt": "2026-11-23T09:48:46Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "04eb25ed3f3cb06710d6d5622159b74ba3e1f9e3",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45149656800"
+      }
+    },
     {
       "number": 979,
       "title": "test(SECDEV-02): impedire reintroduzione di API legacy Joomla 6",
@@ -339,9 +358,9 @@
       "milestone": "1.0.0",
       "headSha": "fd12cf8a2e145008593099eef208b1ab093a37a8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45080575395"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1655,25 +1674,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 913,
-      "title": "test(ISC-07): block video session replay after mid-stream enrollment revocation",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/913",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T11:52:01Z",
-      "mergedAt": "2026-11-22T11:51:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3a49e0f32d5e974f8291027cdc514fdab9310ea8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1705,8 +1705,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T09:28:34Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45146699259/artifacts/14803959190"
+    "createdAt": "2026-11-23T09:48:14Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45149656800/artifacts/14805748096"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
