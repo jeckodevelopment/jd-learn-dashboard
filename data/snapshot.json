@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T21:19:00.412901+00:00",
+  "generatedAt": "2026-11-23T21:38:20.017028+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "850e3ec3c09573752f32d18b0292b62789e74123",
+  "sourceCommit": "8e9d060c7d67ffc3eaf07cbb8acfffd1fa219d7d",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1002,
+      "title": "style(SECDEV-02): ridurre le righe lunghe del template curriculum",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1002",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T21:37:50Z",
+      "mergedAt": "2026-11-23T21:37:48Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5ace66f442c44e148d0f8736d5295097a4ceae50",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45270500772"
+      }
+    },
+    {
       "number": 1001,
       "title": "style(SECDEV-02): semplificare 33 dipendenze del provider DI Joomla",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1001",
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "9f5fd0ffdd266b393b7c2adcc5a1be7972490a65",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45230915263"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "84bc14f3da3a803a3e958559079ed3a69e81d47c",
       "ci": {
-        "status": "completed",
-        "conclusion": "cancelled",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45209170823"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,25 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 935,
-      "title": "fix(AUT-01): restore Joomla lesson field values after rejected save",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/935",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T16:21:26Z",
-      "mergedAt": "2026-11-22T16:21:24Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2d40f045e698e4ffcfce6c9da6aa075d0890aae9",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T21:18:00Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45267439331/artifacts/14862828476"
+    "createdAt": "2026-11-23T21:37:21Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45270500772/artifacts/14865816282"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
