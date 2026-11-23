@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T15:29:31.930316+00:00",
+  "generatedAt": "2026-11-23T15:38:55.446927+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T15:38:22Z",
+      "commit": "d498aa6aa89f17e77b76a87fc76cd67e94d9d985",
+      "number": 993,
+      "title": "style(SECDEV-02): altre 51 correzioni PSR-12 con rollback per file",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/993"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T15:29:06Z",
@@ -1594,14 +1602,6 @@
       "id": "DOC-07",
       "from": "Parziale",
       "to": "Completata"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T23:10:19Z",
-      "commit": "716237cb8ba7e71d5b8dbc52e1c457f6425832d0",
-      "number": 836,
-      "title": "feat(admin): close DOC-07 with safe actionable configuration diagnostics",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/836"
     }
   ]
 }
