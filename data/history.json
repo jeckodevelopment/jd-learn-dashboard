@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T10:39:38.938677+00:00",
+  "generatedAt": "2026-11-23T11:07:50.655397+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T11:07:14Z",
+      "commit": "65e9b9eb2e57819fec5865728e7a3d97c8f403df",
+      "number": 984,
+      "title": "style(SECDEV-02): classificare e ridurre il debito PSR-12 per priorità",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/984"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T10:29:50Z",
@@ -1594,14 +1602,6 @@
       "number": 831,
       "title": "test(core): HTTP-06 Joomla task contracts and negative boundary cases",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/831"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T22:12:46Z",
-      "commit": "0bfee45044f90d7e83eb36484eaf8e51af77b262",
-      "number": 830,
-      "title": "test(frontend): strengthen UI-07 real Joomla DOM and CSS compatibility",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/830"
     }
   ]
 }

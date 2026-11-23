@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T10:39:38.938677+00:00",
+  "generatedAt": "2026-11-23T11:07:50.655397+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "edfee7faf1be5fdf379ecefe96276180354e1530",
+  "sourceCommit": "65e9b9eb2e57819fec5865728e7a3d97c8f403df",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 984,
+      "title": "style(SECDEV-02): classificare e ridurre il debito PSR-12 per priorità",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/984",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T11:07:17Z",
+      "mergedAt": "2026-11-23T11:07:14Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1feb0bbbdfd1c2a446ba9dc1e88e2a744496c938",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45160762320"
+      }
+    },
     {
       "number": 983,
       "title": "test(SECDEV-02): prova Joomla 6 senza plugin di retrocompatibilità",
@@ -320,9 +339,9 @@
       "milestone": "1.0.0",
       "headSha": "c46f60e3217096da1a16bb11f0dc29a798c9e028",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45134212671"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1653,25 +1672,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 917,
-      "title": "fix(ISC-07): close server-side revocation across video, quiz and protected downloads",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/917",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T12:26:13Z",
-      "mergedAt": "2026-11-22T12:26:10Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "91848925c9e9d90d10a9fe5bd2296d0a7dac677d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1703,8 +1703,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T10:28:10Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45155667147/artifacts/14808956129"
+    "createdAt": "2026-11-23T11:06:31Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45160762320/artifacts/14810748936"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
