@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T22:33:53.824792+00:00",
+  "generatedAt": "2026-11-23T23:16:21.438664+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9bf8c452e4f8f7fbc853ffa12d511df761205358",
+  "sourceCommit": "51a4d94d078e18ebd121c5921f65bfe60052bcdb",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1005,
+      "title": "test(SECDEV-02): verificare metodi Joomla su istanze costruite direttamente",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1005",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T23:15:48Z",
+      "mergedAt": "2026-11-23T23:15:45Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0dd81f43fd72091b982de801b2ddb5f67e96a1c2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45286313069"
+      }
+    },
+    {
       "number": 1004,
       "title": "test(SECDEV-02): audit completo dei simboli Joomla e metodi statici nei PHP distribuiti",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1004",
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "02c67c02272414145ee539e8094dfcca80a2d1f1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45250108413"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 938,
-      "title": "fix(LES-02): reject credential parameters in shared video URLs",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/938",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T16:35:04Z",
-      "mergedAt": "2026-11-22T16:35:01Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "af47061cd72e471cd42847bff0d20af6a518e74d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T22:22:21Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45277985057/artifacts/14868312448"
+    "createdAt": "2026-11-23T23:14:24Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45286313069/artifacts/14870934625"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
