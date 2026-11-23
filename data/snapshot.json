@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T10:04:25.119080+00:00",
+  "generatedAt": "2026-11-23T10:19:07.239256+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b4863d0f56ce5be1b65f5b0dfe9add940cd9c764",
+  "sourceCommit": "355db045bdde985864c408beccbfb708480addba",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 982,
+      "title": "test(SECDEV-02): audit PSR-12 reale su tutti i PHP con PHP_CodeSniffer",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/982",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T10:18:37Z",
+      "mergedAt": "2026-11-23T10:18:35Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8427e6216387a78edb33dde6b5439e938139f415",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45154057225"
+      }
+    },
     {
       "number": 981,
       "title": "fix(SECDEV-02): localizzare e risolvere il debito PHP PSR-4 residuo",
@@ -1654,25 +1673,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 915,
-      "title": "fix(ISC-07): invalidate persistent video sessions on enrollment revocation",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/915",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T12:07:21Z",
-      "mergedAt": "2026-11-22T12:07:19Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "161876c50330776e04831eac33427e2c084cfa18",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1704,8 +1704,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T10:02:26Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45151752619/artifacts/14807750244"
+    "createdAt": "2026-11-23T10:17:52Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45154057225/artifacts/14807662736"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T10:04:25.119080+00:00",
+  "generatedAt": "2026-11-23T10:19:07.239256+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T10:18:35Z",
+      "commit": "355db045bdde985864c408beccbfb708480addba",
+      "number": 982,
+      "title": "test(SECDEV-02): audit PSR-12 reale su tutti i PHP con PHP_CodeSniffer",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/982"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T10:03:49Z",
@@ -1594,14 +1602,6 @@
       "number": 829,
       "title": "docs(SEC-P2): archive PR #828 merge, PHP advisory QA and artifact",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/829"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-20T22:00:10Z",
-      "commit": "697eec113fd5d19f67d58568ac80a18484d31ce6",
-      "number": 828,
-      "title": "fix(security): SEC-P2 require November PHP security patches in CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/828"
     }
   ]
 }
