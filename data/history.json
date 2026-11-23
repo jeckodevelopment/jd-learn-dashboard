@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-23T19:19:32.847971+00:00",
+  "generatedAt": "2026-11-23T19:40:09.097695+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-23T19:39:39Z",
+      "commit": "2219b0c7d0ae6e5d431544799dd749e6f1173fe7",
+      "number": 998,
+      "title": "style(SECDEV-02): refactor 28 fluent query files with 229 fewer PSR-12 findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/998"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-23T19:18:51Z",
@@ -1594,14 +1602,6 @@
       "number": 839,
       "title": "docs(history): record UI-07 PR #838 merge, CI and package checksum",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/839"
-    },
-    {
-      "type": "requirement_changed",
-      "at": "2026-11-20T23:30:30.789581+00:00",
-      "commit": "d8322da1dcde53dc3974302afb80305c6b480451",
-      "id": "UI-07",
-      "from": "Parziale",
-      "to": "Completata"
     }
   ]
 }

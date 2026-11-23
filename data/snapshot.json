@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T19:19:32.847971+00:00",
+  "generatedAt": "2026-11-23T19:40:09.097695+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "cc77dd374fcbe7e2b142b156f850fac814c64fd8",
+  "sourceCommit": "2219b0c7d0ae6e5d431544799dd749e6f1173fe7",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 998,
+      "title": "style(SECDEV-02): refactor 28 fluent query files with 229 fewer PSR-12 findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/998",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-23T19:39:42Z",
+      "mergedAt": "2026-11-23T19:39:39Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "02c67c02272414145ee539e8094dfcca80a2d1f1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45250108413"
+      }
+    },
+    {
       "number": 997,
       "title": "style(SECDEV-02): safe repository-wide PHP line wraps with token and PHPCS rollback",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/997",
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "5f3ff48bbbb05bd5ad25a73349da944069695f9e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45201062097"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1650,25 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 932,
-      "title": "test(AUT-01): retain all fields on stale editor revision",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/932",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T16:02:01Z",
-      "mergedAt": "2026-11-22T16:01:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "57b7a7c18c55533e702a92c8856085988509de11",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T19:18:13Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45246615806/artifacts/14853843378"
+    "createdAt": "2026-11-23T19:39:00Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45250108413/artifacts/14857101284"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
