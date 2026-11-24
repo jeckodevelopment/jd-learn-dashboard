@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T17:31:08.320671+00:00",
+  "generatedAt": "2026-11-24T17:36:10.623023+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "debb8bfeec3d23869daf588d379fa4df62af9b4c",
+  "sourceCommit": "01e2ba3cb0d22907935933fc82dfe06feaa173da",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,32 @@
   },
   "prs": [
     {
+      "number": 1020,
+      "title": "docs(SECDEV-02): reconcile #1019 with final green CI (811→331)",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1020",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T17:35:37Z",
+      "mergedAt": "2026-11-24T17:35:34Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c7734a4a4d870dc7365621a7594b78bf8b717b88",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45449994120"
+      }
+    },
+    {
       "number": 1019,
-      "title": "refactor(SECDEV-02): mass PSR-12 remediation −489 findings in 119 PHP files",
+      "title": "refactor(SECDEV-02): mass PSR-12 remediation −480 findings (final CI)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1019",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-24T17:30:29Z",
+      "updated": "2026-11-24T17:33:08Z",
       "mergedAt": "2026-11-24T17:30:27Z",
       "labels": [
         "P1"
@@ -149,9 +169,9 @@
       "milestone": "1.0.0",
       "headSha": "502a5bc5cbd78ea58dbe08cd185ef108a7b921e2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45448336480"
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45449850145"
       }
     },
     {
@@ -1638,26 +1658,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "08efcdfb290770f5fa432e69c072c84e8c5d634d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 952,
-      "title": "docs(LCM-01): close implementation 3/3 with verified direct-access gates",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/952",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T19:23:21Z",
-      "mergedAt": "2026-11-22T19:23:19Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1a852a62f75ab88e03f58b6ad21b0dca4b1c651d",
       "ci": {
         "status": "unknown",
         "conclusion": null,
