@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T07:25:10.142149+00:00",
+  "generatedAt": "2026-11-24T08:02:34.031724+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b6e6650c397d0099e1bdefbd48662b05730307c8",
+  "sourceCommit": "fd07bcda2ed63bb4a88947bb24e457fc576644b7",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1010,
+      "title": "style(SECDEV-02): single bulk AST-safe refactor removes 250 PSR-12 findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1010",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T08:02:01Z",
+      "mergedAt": "2026-11-24T08:01:59Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b7b59a758456effc3562de081ffcf52d62857daf",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45351838407"
+      }
+    },
+    {
       "number": 1009,
       "title": "style(SECDEV-02): structural PHP expression refactoring with 56 PSR12 findings removed",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1009",
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "6f0c2e3f556ac287cde8ff342bb3ce3cc1b77a6d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45274667108"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "5ace66f442c44e148d0f8736d5295097a4ceae50",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45270500772"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1646,25 +1665,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 943,
-      "title": "fix(LES-02): suppress editorial link referrer disclosure",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/943",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T17:44:42Z",
-      "mergedAt": "2026-11-22T17:44:40Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "502003ca4d106349c35e92e9a7a4b66112a96c1a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1696,8 +1696,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T07:24:04Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45346916000/artifacts/14898712088"
+    "createdAt": "2026-11-24T08:00:57Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45351838407/artifacts/14901181281"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
