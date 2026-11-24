@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-24T08:39:25.769772+00:00",
+  "generatedAt": "2026-11-24T09:15:01.819597+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-24T09:12:06Z",
+      "commit": "b8fd5660dfe7236df95e62ae63d0dafa67349abc",
+      "number": 1012,
+      "title": "style(SECDEV-02): consolidate 156 PSR-12 fixes across PHP source and tests",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1012"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-24T08:38:44Z",
@@ -1594,14 +1602,6 @@
       "number": 850,
       "title": "fix(SEC-P3): safe Joomla Privacy mail export and terminal queue redaction",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/850"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T11:38:43Z",
-      "commit": "09ed28574f0694ce2629c0ba752988d961158bc8",
-      "number": 849,
-      "title": "docs(history): archive SEC-P2 completion PR 848 and verified package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/849"
     }
   ]
 }
