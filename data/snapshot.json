@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T09:15:01.819597+00:00",
+  "generatedAt": "2026-11-24T10:05:56.313778+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b8fd5660dfe7236df95e62ae63d0dafa67349abc",
+  "sourceCommit": "35b4b760d336df9f8edeeae8d67f7dabec0cda97",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -129,12 +129,48 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1013,
+      "title": "style(SECDEV-02): massive PSR-12 remediation of 1,149 remaining findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1013",
+      "status": "open",
+      "draft": true,
+      "updated": "2026-11-24T09:57:02Z",
+      "mergedAt": null,
+      "labels": [],
+      "milestone": null,
+      "headSha": "b9639d2061e07eb4d1c8134f0bab2a02f822157b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45370037921"
+      }
+    },
+    {
+      "number": 1014,
+      "title": "refactor(SECDEV-02): guarded class imports and SQL text cleanup, 53 PSR12 findings removed",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1014",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T10:05:21Z",
+      "mergedAt": "2026-11-24T10:05:18Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b1bc10e08e292f00bd13753e39fa03a8dd28350b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45370292987"
+      }
+    },
     {
       "number": 1012,
       "title": "style(SECDEV-02): consolidate 156 PSR-12 fixes across PHP source and tests",
@@ -263,9 +299,9 @@
       "milestone": "1.0.0",
       "headSha": "af1f04214495b3fdc0ef78602c6085f0e9213abf",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45289181775"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +318,9 @@
       "milestone": "1.0.0",
       "headSha": "0dd81f43fd72091b982de801b2ddb5f67e96a1c2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45286313069"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1644,26 +1680,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 860,
-      "title": "docs(SECDEV-07/02): reconcile verified SAST gates and development metrics",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/860",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-22T18:02:57Z",
-      "mergedAt": null,
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d5ca537a93c21579f6389e21541a16d9b3613f6d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1695,8 +1711,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T09:11:29Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45362074119/artifacts/14905103331"
+    "createdAt": "2026-11-24T10:04:52Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45370292987/artifacts/14909785167"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
