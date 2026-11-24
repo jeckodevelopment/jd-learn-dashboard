@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T06:20:54.625585+00:00",
+  "generatedAt": "2026-11-24T06:49:28.921597+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "848c975b7cd935592af17938d0c3694c0a957182",
+  "sourceCommit": "04e9ba44bd02aa134daab6c3db7b1b8d586e7d2e",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1008,
+      "title": "style(SECDEV-02): bulk PSR-12 remediation — 680 findings removed in one PR",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1008",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T06:48:53Z",
+      "mergedAt": "2026-11-24T06:48:50Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "05fef456f006afd4f1d7e18e82263055c8567717",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45342387712"
+      }
+    },
+    {
       "number": 1007,
       "title": "style(SECDEV-02): eliminate 88 PSR12 findings across PHP templates",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1007",
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "6fce61d52fb2cd9ca4dff30844e1850dcb79d856",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45267439331"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 941,
-      "title": "test(LES-04): enforce managed upload capacity limits",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/941",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T17:35:37Z",
-      "mergedAt": "2026-11-22T17:35:34Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5c08ae7a69e4e10bace0708200622c2a034db575",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T06:14:05Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45338322467/artifacts/14894607944"
+    "createdAt": "2026-11-24T06:47:58Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45342387712/artifacts/14896932235"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
