@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T10:05:56.313778+00:00",
+  "generatedAt": "2026-11-24T10:49:51.288438+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "35b4b760d336df9f8edeeae8d67f7dabec0cda97",
+  "sourceCommit": "8546dcba4e4d335c48d3bdd0a9fb34296f89935b",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -137,19 +137,22 @@
   "prs": [
     {
       "number": 1013,
-      "title": "style(SECDEV-02): massive PSR-12 remediation of 1,149 remaining findings",
+      "title": "style(SECDEV-02): verified bulk PHP PSR-12 remediation — 30 findings removed",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1013",
-      "status": "open",
-      "draft": true,
-      "updated": "2026-11-24T09:57:02Z",
-      "mergedAt": null,
-      "labels": [],
-      "milestone": null,
-      "headSha": "b9639d2061e07eb4d1c8134f0bab2a02f822157b",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T10:49:22Z",
+      "mergedAt": "2026-11-24T10:49:20Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7fde0318fb3fa76fbe36f2c81856d2035667e7e0",
       "ci": {
         "status": "completed",
-        "conclusion": "failure",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45370037921"
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45377517028"
       }
     },
     {
@@ -280,9 +283,9 @@
       "milestone": "1.0.0",
       "headSha": "70a534c677e246ec298efd68d921936aea4f1a15",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45338322467"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1660,26 +1663,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 946,
-      "title": "docs(LES-03): record PR #945 merge, CI and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/946",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T18:04:07Z",
-      "mergedAt": "2026-11-22T18:04:05Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7d2a8285cf6c5ad5d8d4a6d267f15cea62ecaae1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1711,8 +1694,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T10:04:52Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45370292987/artifacts/14909785167"
+    "createdAt": "2026-11-24T10:48:46Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45377517028/artifacts/14913090602"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
