@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T11:59:49.828435+00:00",
+  "generatedAt": "2026-11-24T13:37:21.421193+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "94aaf4b9329737c8caa796d7c1fc1e0643e0ba17",
+  "sourceCommit": "f52ac0ee67b228dd939a65ebbed759e3d23431be",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1017,
+      "title": "style(SECDEV-02): structural closure batch for remaining PSR-12 findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1017",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T13:36:42Z",
+      "mergedAt": "2026-11-24T13:36:39Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "aeafff4499585ab73991b8d323e68352fc1fc83b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45404227631"
+      }
+    },
+    {
       "number": 1016,
       "title": "style(SECDEV-02): structural bulk remediation of PHP/HTML long lines",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1016",
@@ -189,9 +208,9 @@
       "milestone": "1.0.0",
       "headSha": "7fde0318fb3fa76fbe36f2c81856d2035667e7e0",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45377517028"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -208,9 +227,9 @@
       "milestone": "1.0.0",
       "headSha": "b1bc10e08e292f00bd13753e39fa03a8dd28350b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45370292987"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -227,9 +246,9 @@
       "milestone": "1.0.0",
       "headSha": "52acf06a8d44d5454b53b2ea43bb0ed512ff6323",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45362074119"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1644,26 +1663,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 949,
-      "title": "docs(LES-01–04): reconcile software evidence and pending acceptance",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/949",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T18:24:26Z",
-      "mergedAt": "2026-11-22T18:24:23Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5b0b9296c1cbfe8d518f9c8d2138319fed7781ed",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1695,8 +1694,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T11:58:35Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45388207951/artifacts/14917692555"
+    "createdAt": "2026-11-24T13:35:36Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45404227631/artifacts/14925850190"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
