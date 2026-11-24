@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T17:36:10.623023+00:00",
+  "generatedAt": "2026-11-24T17:57:13.838208+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "01e2ba3cb0d22907935933fc82dfe06feaa173da",
+  "sourceCommit": "7105c7b016ff13f84620f27d783fc6785c155271",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,26 @@
   },
   "prs": [
     {
+      "number": 1021,
+      "title": "style(SECDEV-02): guarded logical-expression reflow in core services",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1021",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T17:56:47Z",
+      "mergedAt": "2026-11-24T17:56:44Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5dfca297c04dc06e08cd27e3b4ae244228dfd65a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45453054867"
+      }
+    },
+    {
       "number": 1020,
       "title": "docs(SECDEV-02): reconcile #1019 with final green CI (811→331)",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1020",
@@ -169,8 +189,8 @@
       "milestone": "1.0.0",
       "headSha": "502a5bc5cbd78ea58dbe08cd185ef108a7b921e2",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45449850145"
       }
     },
@@ -1644,25 +1664,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 953,
-      "title": "test(LCM-02): deny course purge with Joomla multilingual associations",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/953",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T19:45:10Z",
-      "mergedAt": "2026-11-22T19:45:08Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "08efcdfb290770f5fa432e69c072c84e8c5d634d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1694,8 +1695,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T17:29:55Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45448336480/artifacts/14948126468"
+    "createdAt": "2026-11-24T17:56:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45453054867/artifacts/14948719913"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

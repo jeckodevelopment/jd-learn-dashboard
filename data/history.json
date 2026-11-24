@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-24T17:36:10.623023+00:00",
+  "generatedAt": "2026-11-24T17:57:13.838208+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-24T17:56:44Z",
+      "commit": "7105c7b016ff13f84620f27d783fc6785c155271",
+      "number": 1021,
+      "title": "style(SECDEV-02): guarded logical-expression reflow in core services",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1021"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-24T17:35:34Z",
@@ -1594,14 +1602,6 @@
       "number": 856,
       "title": "ci(SECDEV-07): add tracked Python/JavaScript syntax gate with negative fixtures",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/856"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T13:02:53Z",
-      "commit": "59947471683569e52f67a1ca127bd9412ebc6204",
-      "number": 855,
-      "title": "docs(SECDEV-07): reconcile verified process after PR 854 and update development floor",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/855"
     }
   ]
 }
