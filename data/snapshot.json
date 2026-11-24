@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-23T23:35:59.442396+00:00",
+  "generatedAt": "2026-11-24T06:15:02.170741+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "e709fd8271c7566783ef8ca009644e52663d6e61",
+  "sourceCommit": "848c975b7cd935592af17938d0c3694c0a957182",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1007,
+      "title": "style(SECDEV-02): eliminate 88 PSR12 findings across PHP templates",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1007",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T06:14:29Z",
+      "mergedAt": "2026-11-24T06:14:27Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "70a534c677e246ec298efd68d921936aea4f1a15",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45338322467"
+      }
+    },
+    {
       "number": 1006,
       "title": "style(SECDEV-02): consolidate HTML attribute line lengths in course and curriculum views",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1006",
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "e908ff3883e5786a778190a71eae174f0340a9be",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45262852513"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "35b51240eb043da2214a2ab1a3643dc685d774ac",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45261436401"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 940,
-      "title": "test(LES-03): block direct HTTP disclosure of managed private assets",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/940",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T16:54:08Z",
-      "mergedAt": "2026-11-22T16:54:06Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "288b060692c42c7b79ef96a8ef92efb4f6bc5b7f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-23T23:35:08Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45289181775/artifacts/14873411877"
+    "createdAt": "2026-11-24T06:14:05Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45338322467/artifacts/14894607944"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

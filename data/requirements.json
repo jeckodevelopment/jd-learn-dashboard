@@ -2194,7 +2194,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006",
+    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007",
     "todo": "Completare Finder e i servizi/trasporti core non coperti; Privacy già presente. Notifiche/report avanzati/attestati/import e Web Services esterni differiti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-111; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Servizi mancanti (privacy/Finder/notifiche/report/attestati/import), trasporti e UI completi; stile PSR-12/analisi statica e patch corrente non certificati. Web Services esterni differiti.",
     "criteria": "Core e PHP.  Applicare la matrice CORE-01–23 e le best practices Joomla/PHP, PSR-12, namespace e contratti tipizzati/documentati. Usare runtime supportati e verificare API della patch target; nessuna modifica del core o dipendenza intenzionale da API rimosse. Motivare ogni servizio core non pertinente senza duplicarlo automaticamente"
