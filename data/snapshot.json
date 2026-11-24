@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T11:19:51.187938+00:00",
+  "generatedAt": "2026-11-24T11:59:49.828435+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f01a76243f19f9e2daf0ad4eccf5722773e70fef",
+  "sourceCommit": "94aaf4b9329737c8caa796d7c1fc1e0643e0ba17",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1016,
+      "title": "style(SECDEV-02): structural bulk remediation of PHP/HTML long lines",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1016",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T11:59:17Z",
+      "mergedAt": "2026-11-24T11:59:13Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f28183c45ab94fd2ffe48ea639763de11ccbba6e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45388207951"
+      }
+    },
+    {
       "number": 1015,
       "title": "style(SECDEV-02): consolidated guarded remediation of remaining PSR-12 debt",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1015",
@@ -227,9 +246,9 @@
       "milestone": "1.0.0",
       "headSha": "21c4ee3d4e2cd416476e6d28349f6d5a55764f2f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45357143221"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -246,9 +265,9 @@
       "milestone": "1.0.0",
       "headSha": "b7b59a758456effc3562de081ffcf52d62857daf",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45351838407"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1645,25 +1664,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 948,
-      "title": "fix(LES-02): apply credential-safe links to lesson bodies",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/948",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T18:19:32Z",
-      "mergedAt": "2026-11-22T18:19:30Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "aede2300552f7cfad9178790302b9dfc1b04ab71",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1695,8 +1695,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T11:18:45Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45382320449/artifacts/14914837541"
+    "createdAt": "2026-11-24T11:58:35Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45388207951/artifacts/14917692555"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
