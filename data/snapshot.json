@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T08:02:34.031724+00:00",
+  "generatedAt": "2026-11-24T08:39:25.769772+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fd07bcda2ed63bb4a88947bb24e457fc576644b7",
+  "sourceCommit": "895f26bf7abdff8ddbec172505826c9a1f9efecd",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1011,
+      "title": "style(SECDEV-02): one bulk PR resolves 258 PSR12 findings across prioritized PHP",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1011",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T08:38:47Z",
+      "mergedAt": "2026-11-24T08:38:44Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "21c4ee3d4e2cd416476e6d28349f6d5a55764f2f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45357143221"
+      }
+    },
     {
       "number": 1010,
       "title": "style(SECDEV-02): single bulk AST-safe refactor removes 250 PSR-12 findings",
@@ -1645,26 +1664,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 944,
-      "title": "docs(LES-02): record PR #943 post-merge evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/944",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T17:56:49Z",
-      "mergedAt": "2026-11-22T17:56:47Z",
-      "labels": [
-        "documentation",
-        "P2"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d0982a215b55865def22d6416e373d75b7d82efe",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1696,8 +1695,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T08:00:57Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45351838407/artifacts/14901181281"
+    "createdAt": "2026-11-24T08:37:57Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45357143221/artifacts/14902493829"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
