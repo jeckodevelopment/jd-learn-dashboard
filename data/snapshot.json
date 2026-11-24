@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T10:49:51.288438+00:00",
+  "generatedAt": "2026-11-24T11:19:51.187938+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8546dcba4e4d335c48d3bdd0a9fb34296f89935b",
+  "sourceCommit": "f01a76243f19f9e2daf0ad4eccf5722773e70fef",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,26 @@
   },
   "prs": [
     {
+      "number": 1015,
+      "title": "style(SECDEV-02): consolidated guarded remediation of remaining PSR-12 debt",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1015",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T11:19:17Z",
+      "mergedAt": "2026-11-24T11:19:14Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9a9afd40f2ffc1f9d39ed74313eae75279c46aa1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45382320449"
+      }
+    },
+    {
       "number": 1013,
       "title": "style(SECDEV-02): verified bulk PHP PSR-12 remediation — 30 findings removed",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1013",
@@ -245,9 +265,9 @@
       "milestone": "1.0.0",
       "headSha": "63d2165c5f660453f6273767e3c04372b0e0c3ed",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45346916000"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -264,9 +284,9 @@
       "milestone": "1.0.0",
       "headSha": "05fef456f006afd4f1d7e18e82263055c8567717",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45342387712"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1644,25 +1664,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 947,
-      "title": "fix(LES-02): reject credential-bearing links in editorial HTML",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/947",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T18:13:13Z",
-      "mergedAt": "2026-11-22T18:13:10Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a9c237ccbb01046c04f5c557507538a3336e1bf2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1694,8 +1695,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T10:48:46Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45377517028/artifacts/14913090602"
+    "createdAt": "2026-11-24T11:18:45Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45382320449/artifacts/14914837541"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
