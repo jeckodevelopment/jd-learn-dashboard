@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T13:37:21.421193+00:00",
+  "generatedAt": "2026-11-24T14:18:33.478473+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f52ac0ee67b228dd939a65ebbed759e3d23431be",
+  "sourceCommit": "16e9b0f82492895d5a6368b9d6daae58c4c6ccb6",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1018,
+      "title": "style(SECDEV-02): consolidated structural remediation of remaining 867 PSR-12 findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1018",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T14:18:08Z",
+      "mergedAt": "2026-11-24T14:18:05Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0df21a65be12ee550a597295a25fc24da9a17eb7",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45411383379"
+      }
+    },
+    {
       "number": 1017,
       "title": "style(SECDEV-02): structural closure batch for remaining PSR-12 findings",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1017",
@@ -168,9 +187,9 @@
       "milestone": "1.0.0",
       "headSha": "f28183c45ab94fd2ffe48ea639763de11ccbba6e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45388207951"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -188,9 +207,9 @@
       "milestone": "1.0.0",
       "headSha": "9a9afd40f2ffc1f9d39ed74313eae75279c46aa1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45382320449"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1644,25 +1663,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 950,
-      "title": "test(LCM-01): deny direct learning endpoints for inactive courses",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/950",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T18:33:01Z",
-      "mergedAt": "2026-11-22T18:32:58Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "59258b87a2fa1d3291e3d7500ca9906ddedfa65d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1694,8 +1694,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T13:35:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45404227631/artifacts/14925850190"
+    "createdAt": "2026-11-24T14:16:31Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45411383379/artifacts/14929710015"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
