@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T18:12:48.656158+00:00",
+  "generatedAt": "2026-11-24T18:48:04.316397+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7105c7b016ff13f84620f27d783fc6785c155271",
+  "sourceCommit": "f090b3f20e693152504d7f838c1a02b4feb1a823",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,26 @@
   },
   "prs": [
     {
+      "number": 1022,
+      "title": "refactor(SECDEV-02): mass PSR12 remediation −62 findings (320→258), CI green",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1022",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T18:47:47Z",
+      "mergedAt": "2026-11-24T18:47:25Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a5d1928b1589950365a292546d12e323a4302524",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45463371092"
+      }
+    },
+    {
       "number": 1021,
       "title": "style(SECDEV-02): guarded logical-expression reflow in core services",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1021",
@@ -208,9 +228,9 @@
       "milestone": "1.0.0",
       "headSha": "0df21a65be12ee550a597295a25fc24da9a17eb7",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45411383379"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1644,26 +1664,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 954,
-      "title": "test(LCM-02): complete core implementation criteria and authorization regression",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/954",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T20:00:15Z",
-      "mergedAt": "2026-11-22T20:00:13Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5e32af886766ead07b793464c3a7921aa253061d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1695,8 +1695,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T17:56:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45453054867/artifacts/14948719913"
+    "createdAt": "2026-11-24T18:46:21Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45462250581/artifacts/14953751275"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

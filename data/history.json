@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-24T18:12:48.656158+00:00",
+  "generatedAt": "2026-11-24T18:48:04.316397+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-24T18:47:25Z",
+      "commit": "f090b3f20e693152504d7f838c1a02b4feb1a823",
+      "number": 1022,
+      "title": "refactor(SECDEV-02): mass PSR12 remediation −62 findings (320→258), CI green",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1022"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-24T17:56:44Z",
@@ -1594,14 +1602,6 @@
       "number": 857,
       "title": "docs(SECDEV-07): record verified CI and merge evidence for PR 856",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/857"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T13:14:50Z",
-      "commit": "1e64bfb89857aec7adeb68a7d15fb50e61a84b9f",
-      "number": 856,
-      "title": "ci(SECDEV-07): add tracked Python/JavaScript syntax gate with negative fixtures",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/856"
     }
   ]
 }
