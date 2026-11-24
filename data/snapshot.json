@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T18:48:04.316397+00:00",
+  "generatedAt": "2026-11-24T21:20:32.319490+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f090b3f20e693152504d7f838c1a02b4feb1a823",
+  "sourceCommit": "3d1df8a58e9070f3a125d529a6b957685e311879",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,26 @@
   },
   "prs": [
     {
+      "number": 1023,
+      "title": "refactor(SECDEV-02): mass remediation of 258 residual PSR-12 findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1023",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T21:20:01Z",
+      "mergedAt": "2026-11-24T21:19:58Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a8e8633987925c055aa1f53ce76c6bbca9684633",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45488849392"
+      }
+    },
+    {
       "number": 1022,
       "title": "refactor(SECDEV-02): mass PSR12 remediation −62 findings (320→258), CI green",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1022",
@@ -150,8 +170,8 @@
       "milestone": "1.0.0",
       "headSha": "a5d1928b1589950365a292546d12e323a4302524",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45463371092"
       }
     },
@@ -190,9 +210,9 @@
       "milestone": "1.0.0",
       "headSha": "c7734a4a4d870dc7365621a7594b78bf8b717b88",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45449994120"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -209,9 +229,9 @@
       "milestone": "1.0.0",
       "headSha": "502a5bc5cbd78ea58dbe08cd185ef108a7b921e2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45449850145"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1645,25 +1665,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 955,
-      "title": "test(LCM-03): preserve shared-course pathways through lifecycle transitions",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/955",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T20:13:15Z",
-      "mergedAt": "2026-11-22T20:13:12Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "fea14c861d541867c12cf847cf6ae5a8b3ff6b68",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1695,8 +1696,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T18:46:21Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45462250581/artifacts/14953751275"
+    "createdAt": "2026-11-24T21:19:31Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45488849348/artifacts/14965337484"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
