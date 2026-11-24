@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T21:20:32.319490+00:00",
+  "generatedAt": "2026-11-24T22:45:52.311094+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3d1df8a58e9070f3a125d529a6b957685e311879",
+  "sourceCommit": "7d8d951eac5dedd35f4fecec95089da5eba20a5d",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 1024,
+      "title": "refactor(SECDEV-02): consolidated remediation of 192 remaining PSR-12 findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1024",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-24T22:45:17Z",
+      "mergedAt": "2026-11-24T22:45:15Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "29621f152d843b0c3f8fd1bb8800eb610891bf88",
+      "ci": {
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45503848147"
+      }
+    },
+    {
       "number": 1023,
-      "title": "refactor(SECDEV-02): mass remediation of 258 residual PSR-12 findings",
+      "title": "refactor(SECDEV-02): bulk PSR-12 remediation 258→192 (−66), CI green",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1023",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-24T21:20:01Z",
+      "updated": "2026-11-24T21:20:26Z",
       "mergedAt": "2026-11-24T21:19:58Z",
       "labels": [
         "documentation",
@@ -150,9 +169,9 @@
       "milestone": "1.0.0",
       "headSha": "a8e8633987925c055aa1f53ce76c6bbca9684633",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45488849392"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -170,9 +189,9 @@
       "milestone": "1.0.0",
       "headSha": "a5d1928b1589950365a292546d12e323a4302524",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45463371092"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -190,9 +209,9 @@
       "milestone": "1.0.0",
       "headSha": "5dfca297c04dc06e08cd27e3b4ae244228dfd65a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45453054867"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1646,25 +1665,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 956,
-      "title": "fix(LCM-03): protect external FK-backed pathway histories from purge",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/956",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T20:21:35Z",
-      "mergedAt": "2026-11-22T20:21:33Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8a6c7142442e30ed8842cef3c171c619dabd0e60",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1696,8 +1696,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T21:19:31Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45488849348/artifacts/14965337484"
+    "createdAt": "2026-11-24T22:41:52Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45502399210/artifacts/14971129144"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
