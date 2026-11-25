@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T17:45:17.811722+00:00",
+  "generatedAt": "2026-11-25T19:05:34.420722+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "c049c5910ff7c5933c5aee3fbd8fd9b8449ca741",
+  "sourceCommit": "07bcfddd50837a3796e49a43f2ef5d1eb2a40305",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1041,
+      "title": "fix(SECDEV-02): reconcile all 23 CORE residuals, separate QA and honor expiry opt-in",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1041",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T19:05:01Z",
+      "mergedAt": "2026-11-25T19:04:58Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "10cfb3a72785ae664781479077885e22181472a7",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45680690324"
+      }
+    },
     {
       "number": 1040,
       "title": "feat(SECDEV-02): batch audit all 23 CORE and close native teacher/category/scheduler gaps",
@@ -1642,25 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 294,
-      "title": "docs: integrate essential certificates into JD Learn 1.0.0 plan",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/294",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:01:13Z",
-      "mergedAt": "2026-11-12T20:53:20Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f43bd0cfec8af238daf67fdf90766afeb712e640",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T17:40:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45666331350/artifacts/15047112657"
+    "createdAt": "2026-11-25T19:04:32Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45680690324/artifacts/15054022442"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

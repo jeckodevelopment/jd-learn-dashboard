@@ -995,7 +995,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "288;291;295;297;299;300;307;313;315;317;319;321;323;325;327;332;338;349;350;354;355;356;357;358;360;361;366;367;373;376;364;375;395;397;399;401;424;474;545;548;551;555;1040",
+    "prs": "288;291;295;297;299;300;307;313;315;317;319;321;323;325;327;332;338;349;350;354;355;356;357;358;360;361;366;367;373;376;364;375;395;397;399;401;424;474;545;548;551;555;1040;1041",
     "todo": "Completare gli eventi e le preferenze approvati ancora non collegati; eseguire la verifica SMTP/upgrade della redazione errori e completare retention/audit secondo MAIL-10. Le richieste pending sono aggiunte dalla PR #366, ma approvazione/rifiuto con promozione a iscrizione e relative notifiche sono implementati e integrati in #367; restano verifiche manuali, altri eventi MAIL-G/H, retention e audit generale. MAIL-G primo incremento docente (#376) integrato, collaudo SMTP pendente; restano notifiche nuova lezione, aggiornamenti didattici, avvisi ai responsabili e prova SMTP. Nuove lezioni pianificate: primo incremento #397; restano modifiche didattiche significative e avvisi ai responsabili. Resta avviso ai responsabili delle richieste e collaudo email Joomla/SMTP; MAIL-03 integrazione #399 ancora da accettare. MAIL-G notifiche ai responsabili #401 implementate; restano QA sul sito e scenari limite.",
     "tests": "Collaudare su Joomla/SMTP il dispatch, errori e retry; verificare migrazione di righe legacy, assenza di dettagli nell’output audit, ACL, upgrade e conservazione delle righe e degli stati. Riprovare installazione Joomla 6.2.0 sull'ambiente utente dopo #373 con template esistenti e dati conservati. Verificare su Joomla 6.2.0 notifica docente e SMTP, revoca account e preferenze; l'installazione della precedente 0.56.20-dev è stata confermata dall'utente.",
     "criteria": "Posta e Mail Templates; Mailer e configurazione SMTP Joomla; template LMS registrati nel sistema Mail Templates, traducibili e con variabili documentate"
@@ -1006,7 +1006,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "202;1040",
+    "prs": "202;1040;1041",
     "todo": "Completare diagnostica e routine di conservazione core; pulizia materiali orfani #202 presente. Notifiche/code avanzate fase 2.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-18; AC-73; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Notifiche/purga/code generali, diagnostica e tutte le routine previste.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
@@ -2194,9 +2194,9 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034;1037;1038;1039;1040",
-    "todo": "Completare Finder e i servizi/trasporti core non coperti; Privacy già presente. Notifiche/report avanzati/attestati/import e Web Services esterni differiti.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-111; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Servizi mancanti (privacy/Finder/notifiche/report/attestati/import), trasporti e UI completi; stile PSR-12/analisi statica e patch corrente non certificati. Web Services esterni differiti.",
+    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034;1037;1038;1039;1040;1041",
+    "todo": "17 criteri CORE granulari ancora a carico sviluppo/CI (prove integrative o correzioni da accertare); dettaglio in docs/SECDEV_02_CORE_RESIDUAL_RECONCILIATION_2026-11-25.md. Completare Finder e i servizi/trasporti core non coperti; Privacy già presente. Notifiche/report avanzati/attestati/import e Web Services esterni differiti.",
+    "tests": "6 criteri con dipendenze ambientali/esterne, collaudo NON ESEGUITO. Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-111; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Servizi mancanti (privacy/Finder/notifiche/report/attestati/import), trasporti e UI completi; stile PSR-12/analisi statica e patch corrente non certificati. Web Services esterni differiti.",
     "criteria": "Core e PHP.  Applicare la matrice CORE-01–23 e le best practices Joomla/PHP, PSR-12, namespace e contratti tipizzati/documentati. Usare runtime supportati e verificare API della patch target; nessuna modifica del core o dipendenza intenzionale da API rimosse. Motivare ogni servizio core non pertinente senza duplicarlo automaticamente"
   },
   {
