@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T10:43:30.670418+00:00",
+  "generatedAt": "2026-11-25T11:07:00.564527+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ca03f6143492c3feafaf31b5880c902f62e24f1c",
+  "sourceCommit": "2c41f810d6024c33733b63d8e01c98ef6db7614b",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1031,
+      "title": "test(SECDEV-02): Joomla runtime language keys and private-task HTTP acceptance",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1031",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T11:06:37Z",
+      "mergedAt": "2026-11-25T11:06:34Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f1d2f69eff2046277c1ed62f67a96fcb25660508",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45600293765"
+      }
+    },
     {
       "number": 1030,
       "title": "fix(SECDEV-02): reconcile 23 CORE gaps with verified tests and privacy/language guards",
@@ -1643,25 +1662,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 963,
-      "title": "test(LCM-05): ACL granulari per percorso via modello e HTTP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/963",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T21:49:03Z",
-      "mergedAt": "2026-11-22T21:49:01Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5160753a852af583d37cdb075559849fc0796fcc",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1693,8 +1693,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T10:42:31Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45596628341/artifacts/15013327506"
+    "createdAt": "2026-11-25T11:05:00Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45600293765/artifacts/15014933209"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
