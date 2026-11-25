@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-25T20:49:36.828455+00:00",
+  "generatedAt": "2026-11-25T21:29:08.032548+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-25T21:28:43Z",
+      "commit": "3aa0bfa05845e53b94a196701ce71967b902b785",
+      "number": 1045,
+      "title": "test(SECDEV-02): extend native Finder access and taxonomy regression matrix",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1045"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-25T20:49:06Z",
@@ -1594,14 +1602,6 @@
       "number": 876,
       "title": "fix(SCR-16): isolate diagnostic scan completeness by source",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/876"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T18:14:20Z",
-      "commit": "3564dab02c6eeb6d7be02952b7e85e6c5260f2f6",
-      "number": 875,
-      "title": "fix(SCR-16): make bounded configuration diagnostics actionable",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/875"
     }
   ]
 }

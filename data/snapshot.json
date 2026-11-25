@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T20:49:36.828455+00:00",
+  "generatedAt": "2026-11-25T21:29:08.032548+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4f5ab4253f069806fcc7f6026e1a12e9fb7571b1",
+  "sourceCommit": "3aa0bfa05845e53b94a196701ce71967b902b785",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -129,19 +129,38 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
     {
+      "number": 1045,
+      "title": "test(SECDEV-02): extend native Finder access and taxonomy regression matrix",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1045",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T21:28:45Z",
+      "mergedAt": "2026-11-25T21:28:43Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "26fe9219835f6743173b62d50b8830ac6b75b024",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45703645616"
+      }
+    },
+    {
       "number": 1042,
       "title": "test(SECDEV-02): mass native evidence for CORE tags, Finder, layouts, ACL and i18n",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1042",
-      "status": "open",
+      "status": "closed",
       "draft": false,
-      "updated": "2026-11-25T20:11:00Z",
+      "updated": "2026-11-25T20:49:26Z",
       "mergedAt": null,
       "labels": [
         "P1"
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "3b2266db1baa2e91d5d0babb7a2f6849b926eafe",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45648185527"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1642,44 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 965,
-      "title": "test(LCM-05): Finder lifecycle e conservazione dati durante upgrade",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/965",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:15:02Z",
-      "mergedAt": "2026-11-22T22:14:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d99610f36a18c158bf44d355e27fc84cf4246e42",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 333,
-      "title": "docs: plan comprehensive 1.0.0 manuals and contextual Joomla help",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/333",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:01:22Z",
-      "mergedAt": "2026-11-13T22:13:25Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c4afcc8b1d5b961fb3c20727babddadcb61c157b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1711,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T20:43:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45696958294/artifacts/15061457870"
+    "createdAt": "2026-11-25T21:28:17Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45703645616/artifacts/15065565021"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
