@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T14:05:10.905451+00:00",
+  "generatedAt": "2026-11-25T15:34:12.294513+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "530980768eef016e4138f5bf2ce1e6cc6fe181f3",
+  "sourceCommit": "ac6df5af20a1e1cba64fc13ce96395cd5cbb3641",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 2,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,28 +139,28 @@
       "number": 1036,
       "title": "fix(SECDEV-02): native public content events, teacher fields and Finder language",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1036",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-25T13:38:58Z",
-      "mergedAt": null,
+      "updated": "2026-11-25T15:33:38Z",
+      "mergedAt": "2026-11-25T15:33:36Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "a5acdb98ed72498eda470c5fab5cdf04283af1e5",
+      "headSha": "3a918233ca3b83a5c8145f94277b3e9d54a12692",
       "ci": {
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45625758677"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45645503634"
       }
     },
     {
       "number": 1035,
       "title": "fix(SECDEV-02): native public content events, teacher language fields and Finder locale",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1035",
-      "status": "open",
+      "status": "closed",
       "draft": false,
-      "updated": "2026-11-25T13:19:13Z",
+      "updated": "2026-11-25T15:28:31Z",
       "mergedAt": null,
       "labels": [
         "P1"
@@ -1661,44 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 269,
-      "title": "docs: register IMP-01 history coverage and next priority",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/269",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:01:01Z",
-      "mergedAt": "2026-11-12T10:42:52Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d7d65cc9aba13bcd72f4b3acbff46615d768a062",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 174,
-      "title": "docs: decisioni Credentials T-008–T-015 e scenari corso/percorso",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/174",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:00:58Z",
-      "mergedAt": "2026-11-10T07:45:22Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f58596d41e79b8aee6a585e61e456a05eeefaae5",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1730,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T14:03:03Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45628987400/artifacts/15029758911"
+    "createdAt": "2026-11-25T15:32:59Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45645503204/artifacts/15036654683"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
