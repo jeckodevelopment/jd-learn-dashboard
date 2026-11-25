@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T07:26:32.970155+00:00",
+  "generatedAt": "2026-11-25T08:56:25.935118+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a081f31c34a203244a34e5c7f89482572894f829",
+  "sourceCommit": "f12e7c5207650b449e72749a73cf3f86bfc8006a",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1027,
+      "title": "refactor(SECDEV-02): reduce PSR-12 findings 102 to 27 with zero regressions",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1027",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T08:56:15Z",
+      "mergedAt": "2026-11-25T08:55:47Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "63c28b9bf0162893a4af25c3e11a6eb2354357ac",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45579625144"
+      }
+    },
     {
       "number": 1026,
       "title": "refactor(SECDEV-02): guarded PSR-12 cleanup, 122 to 102 findings",
@@ -1644,26 +1663,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 959,
-      "title": "docs(LCM-04): record merge and CI evidence for PR 958",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/959",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T20:47:18Z",
-      "mergedAt": "2026-11-22T20:47:15Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "bfc3b86b6c4279d1b339053b41caa47528110fd0",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1695,8 +1694,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T07:25:42Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45567216732/artifacts/15000577623"
+    "createdAt": "2026-11-25T08:55:07Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45579625144/artifacts/15005623313"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
