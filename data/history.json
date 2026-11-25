@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-25T12:02:49.164964+00:00",
+  "generatedAt": "2026-11-25T12:32:25.478928+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-25T12:31:52Z",
+      "commit": "952c03c3924e6f1d826144cb19e20ff6f2ee790e",
+      "number": 1034,
+      "title": "fix(SECDEV-02): enforce record ACL and category ancestor integrity in bulk moves",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1034"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-25T12:02:10Z",
@@ -1594,14 +1602,6 @@
       "number": 868,
       "title": "docs(SCR-16): record PR 867 merge and verified Joomla package",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/868"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T15:37:23Z",
-      "commit": "eeb4eb138ffdd1d793bacbcdb94ef00a08ad1d38",
-      "number": 867,
-      "title": "feat(SCR-16): private material storage read-only health diagnostic",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/867"
     }
   ]
 }

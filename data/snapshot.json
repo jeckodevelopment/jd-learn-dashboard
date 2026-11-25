@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T12:02:49.164964+00:00",
+  "generatedAt": "2026-11-25T12:32:25.478928+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d7e5eec594158d8a881682d7227bfa35253504e0",
+  "sourceCommit": "952c03c3924e6f1d826144cb19e20ff6f2ee790e",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1034,
+      "title": "fix(SECDEV-02): enforce record ACL and category ancestor integrity in bulk moves",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1034",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T12:32:06Z",
+      "mergedAt": "2026-11-25T12:31:52Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "bffb61cdb076aaa431b05f9379ccc6e9d6060a94",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45613491987"
+      }
+    },
     {
       "number": 1033,
       "title": "fix(SECDEV-02/CORE-08): preserve unrelated user attribution during privacy removal",
@@ -1642,25 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 166,
-      "title": "docs: architettura nativa JD Learn Credentials (T-001–T-007)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/166",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:00:53Z",
-      "mergedAt": "2026-11-09T22:47:52Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a3a977d4681408993b32c43df90de29c0f12128f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T12:00:31Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45608971354/artifacts/15019452402"
+    "createdAt": "2026-11-25T12:31:14Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45613491977/artifacts/15020927543"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

@@ -808,7 +808,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "122;162;215",
+    "prs": "122;162;215;1034",
     "todo": "Nessuna lacuna runtime nota per ricollocazione dei record referenziati; le dipendenze native Joomla come sottocategorie continuano a seguire il gestore Categorie. Restano i collaudi Joomla di cestinamento/ripristino, ricollocazione e storici.",
     "tests": "Eseguire e registrare in Joomla i casi di cestinamento, ripristino, ricollocazione atomica per ogni sezione, rifiuto di destinazioni non valide/non autorizzate, conservazione degli storici e tentativo di cancellazione permanente in docs/QA_TESTBOOK.md (PR #215/#225).",
     "criteria": "Categorie / com_categories;  Gestione categorie nativa per i contesti pertinenti, in particolare la classificazione dei corsi, con gerarchia, ordinamento, stato, lingua, accesso e permessi; nessuna tabella di tassonomia parallela. La gestione dei docenti non espone categorie o richiede una scelta di categoria. Eventuali contenitori tecnici preesistenti rimangono un dettaglio di compatibilità, con ACL conservate."
@@ -841,7 +841,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "18",
+    "prs": "18;1034",
     "todo": "Completare permessi/dipendenze di eliminazione e ulteriori azioni core; report/export/rettifiche avanzate differiti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-49; AC-61; AC-123; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Report/export/rettifiche/eliminazioni e intera matrice dei ruoli.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
@@ -951,7 +951,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "204",
+    "prs": "204;1034",
     "todo": "Completare accettazione manuale del Finder; completare i residui SEO tracciati in CAT-04.",
     "tests": "Eseguire e registrare AC-41 e AC-69 sul sito Joomla di prova secondo docs/QA_TESTBOOK.md; la CI non sostituisce l’accettazione manuale.",
     "criteria": "Smart Search / com_finder; Plugin Finder, contesti e aggiornamento dell'indice su modifica/stato/accesso/lingua; indicizzare solo schede o parti di contenuto autorizzate"
@@ -2194,7 +2194,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033",
+    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034",
     "todo": "Completare Finder e i servizi/trasporti core non coperti; Privacy già presente. Notifiche/report avanzati/attestati/import e Web Services esterni differiti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-111; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Servizi mancanti (privacy/Finder/notifiche/report/attestati/import), trasporti e UI completi; stile PSR-12/analisi statica e patch corrente non certificati. Web Services esterni differiti.",
     "criteria": "Core e PHP.  Applicare la matrice CORE-01–23 e le best practices Joomla/PHP, PSR-12, namespace e contratti tipizzati/documentati. Usare runtime supportati e verificare API della patch target; nessuna modifica del core o dipendenza intenzionale da API rimosse. Motivare ogni servizio core non pertinente senza duplicarlo automaticamente"
