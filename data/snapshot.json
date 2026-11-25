@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T21:58:24.479280+00:00",
+  "generatedAt": "2026-11-25T22:24:54.682901+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a234d78c9949c39c3fc31fb4aca4606ed6f634ae",
+  "sourceCommit": "0d92e8fd6c8de0c37626e14680a6405966f61e35",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,44 @@
   },
   "prs": [
     {
+      "number": 1047,
+      "title": "fix(SECDEV-02): handle native Finder category-state events",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1047",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T22:24:22Z",
+      "mergedAt": "2026-11-25T22:24:19Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0b2405565ab5ebbd759627fec4774e58679bb0c6",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45711931268"
+      }
+    },
+    {
+      "number": 1042,
+      "title": "test(SECDEV-02): mass native evidence for CORE tags, Finder, layouts, ACL and i18n",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1042",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-25T22:21:25Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "139ff8eafb17fd7f5d443c21efd9bc155e41f80a",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
       "number": 1046,
       "title": "test(SECDEV-02): persisted Finder index lifecycle with native Joomla plugin",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1046",
@@ -171,25 +209,6 @@
         "status": "completed",
         "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45703645616"
-      }
-    },
-    {
-      "number": 1042,
-      "title": "test(SECDEV-02): mass native evidence for CORE tags, Finder, layouts, ACL and i18n",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1042",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-25T20:49:26Z",
-      "mergedAt": null,
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "139ff8eafb17fd7f5d443c21efd9bc155e41f80a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
       }
     },
     {
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "1da6eba2cec647d74924d9309b21590081a7537c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45660997641"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 967,
-      "title": "test(SECDEV-03): negative SQL-like catalog search payloads",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/967",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:37:25Z",
-      "mergedAt": "2026-11-22T22:37:23Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "78691e3f85cee0198a04d13e4aff786d6689c68e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T21:49:08Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45706893957/artifacts/15065952452"
+    "createdAt": "2026-11-25T22:22:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45711931268/artifacts/15069245065"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
