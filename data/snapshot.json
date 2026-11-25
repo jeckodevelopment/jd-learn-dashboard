@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T21:29:08.032548+00:00",
+  "generatedAt": "2026-11-25T21:50:08.492096+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3aa0bfa05845e53b94a196701ce71967b902b785",
+  "sourceCommit": "a234d78c9949c39c3fc31fb4aca4606ed6f634ae",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1046,
+      "title": "test(SECDEV-02): persisted Finder index lifecycle with native Joomla plugin",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1046",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T21:49:36Z",
+      "mergedAt": "2026-11-25T21:49:33Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "67d7d84e1955822afcbe40e6edce817800fbd47e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45706893966"
+      }
+    },
     {
       "number": 1045,
       "title": "test(SECDEV-02): extend native Finder access and taxonomy regression matrix",
@@ -1641,26 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 966,
-      "title": "docs(LCM-05): chiusura implementativa del gate lifecycle 7/7",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/966",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:22:53Z",
-      "mergedAt": "2026-11-22T22:22:50Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b665d3aa38ba97b2379b059dcc258f24591a5c64",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T21:28:17Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45703645616/artifacts/15065565021"
+    "createdAt": "2026-11-25T21:49:08Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45706893957/artifacts/15065952452"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

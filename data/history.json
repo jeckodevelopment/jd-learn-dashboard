@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-25T21:29:08.032548+00:00",
+  "generatedAt": "2026-11-25T21:50:08.492096+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-25T21:49:33Z",
+      "commit": "a234d78c9949c39c3fc31fb4aca4606ed6f634ae",
+      "number": 1046,
+      "title": "test(SECDEV-02): persisted Finder index lifecycle with native Joomla plugin",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1046"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-25T21:28:43Z",
@@ -1594,14 +1602,6 @@
       "number": 877,
       "title": "fix(SCR-16): validate inherited settings and sanitize provider diagnostics",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/877"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T18:29:39Z",
-      "commit": "e15cf0706a99c8e1bd6fab293df2a150a317b004",
-      "number": 876,
-      "title": "fix(SCR-16): isolate diagnostic scan completeness by source",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/876"
     }
   ]
 }
