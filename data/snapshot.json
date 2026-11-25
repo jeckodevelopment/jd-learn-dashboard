@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T02:45:00.309062+00:00",
+  "generatedAt": "2026-11-25T07:26:32.970155+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "883056d62e5480924fff4e3787761e6ccc8b1e7c",
+  "sourceCommit": "a081f31c34a203244a34e5c7f89482572894f829",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -137,21 +137,21 @@
   "prs": [
     {
       "number": 1026,
-      "title": "refactor(SECDEV-02): consolidate final PSR-12 and CORE/API closure",
+      "title": "refactor(SECDEV-02): guarded PSR-12 cleanup, 122 to 102 findings",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1026",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-24T23:18:00Z",
-      "mergedAt": null,
+      "updated": "2026-11-25T07:26:07Z",
+      "mergedAt": "2026-11-25T07:26:04Z",
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "b1e83200493bf6df86ca7ae2af8949e4c73575d3",
+      "headSha": "287f0cbcff04913f4e4c73b440a3bad6cedb83c7",
       "ci": {
         "status": "completed",
-        "conclusion": "failure",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45508781322"
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45567216732"
       }
     },
     {
@@ -168,9 +168,9 @@
       "milestone": "1.0.0",
       "headSha": "8a95de06868d3a182816ba8059620c49e1427a34",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45504712110"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -187,9 +187,9 @@
       "milestone": "1.0.0",
       "headSha": "29621f152d843b0c3f8fd1bb8800eb610891bf88",
       "ci": {
-        "status": "completed",
-        "conclusion": "failure",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45503848147"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1664,25 +1664,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 958,
-      "title": "fix(LCM-04): protect teacher deletion against external foreign keys",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/958",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T20:45:10Z",
-      "mergedAt": "2026-11-22T20:45:07Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "37de5d2d4f0e2d137bdc0884bf5d9e673b78d567",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1714,8 +1695,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-24T22:56:43Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45504712110/artifacts/14973473067"
+    "createdAt": "2026-11-25T07:25:42Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45567216732/artifacts/15000577623"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

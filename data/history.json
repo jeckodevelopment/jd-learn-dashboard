@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-25T02:45:00.309062+00:00",
+  "generatedAt": "2026-11-25T07:26:32.970155+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-25T07:26:04Z",
+      "commit": "a081f31c34a203244a34e5c7f89482572894f829",
+      "number": 1026,
+      "title": "refactor(SECDEV-02): guarded PSR-12 cleanup, 122 to 102 findings",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1026"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-24T22:56:59Z",
@@ -1594,14 +1602,6 @@
       "number": 861,
       "title": "fix(AUT-04/LES-01): prevent silent truncation of native lesson field values on copy",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/861"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T13:48:21Z",
-      "commit": "f58a39aec930a84d4da4ab32d59d559f2cfaf58f",
-      "number": 859,
-      "title": "docs(SECDEV-07/02): reconcile verified SAST/style/SCA controls and progress",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/859"
     }
   ]
 }
