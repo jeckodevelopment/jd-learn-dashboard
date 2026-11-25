@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T09:20:28.857118+00:00",
+  "generatedAt": "2026-11-25T09:33:35.207705+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ba0cf5f901d9e3440dae57acee0528daea6f1dbe",
+  "sourceCommit": "839496bffa41105706e13140479ff4eb81c84b0d",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1029,
+      "title": "fix(SECDEV-02): Joomla 6.2.1 security patch and definitive CORE closure audit",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1029",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T09:33:18Z",
+      "mergedAt": "2026-11-25T09:33:01Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "f04c8df2528760c21328b1472c7bb9ceed85fbba",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45585544552"
+      }
+    },
     {
       "number": 1028,
       "title": "refactor(SECDEV-02): eliminate final 27 PSR-12 findings with native Joomla contracts preserved",
@@ -1643,25 +1662,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 961,
-      "title": "test(LCM-05): regressioni HTTP su CSRF alterato per sei task lifecycle",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/961",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T21:09:42Z",
-      "mergedAt": "2026-11-22T21:09:40Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1d3512c4cffb7f97a7d5fea47a6e52b451e5ec25",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1693,8 +1693,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T09:19:35Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45583375478/artifacts/15008760036"
+    "createdAt": "2026-11-25T09:32:33Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45585544071/artifacts/15008522545"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
