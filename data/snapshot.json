@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T15:34:12.294513+00:00",
+  "generatedAt": "2026-11-25T16:57:06.774619+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ac6df5af20a1e1cba64fc13ce96395cd5cbb3641",
+  "sourceCommit": "bb2438137d8591ce2e080c834145f3a3d9f59a2e",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,44 @@
   },
   "prs": [
     {
+      "number": 1038,
+      "title": "fix(SECDEV-02): secure raw Joomla JSON across frontend and admin, cover audio task",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1038",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T16:56:41Z",
+      "mergedAt": "2026-11-25T16:56:38Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "3b2266db1baa2e91d5d0babb7a2f6849b926eafe",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45648185527"
+      }
+    },
+    {
+      "number": 1035,
+      "title": "fix(SECDEV-02): native public content events, teacher language fields and Finder locale",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1035",
+      "status": "closed",
+      "draft": false,
+      "updated": "2026-11-25T15:34:59Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b85930420ec32bb8d9c3be4348413f2f5626f61d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45622372614"
+      }
+    },
+    {
       "number": 1036,
       "title": "fix(SECDEV-02): native public content events, teacher fields and Finder language",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1036",
@@ -152,25 +190,6 @@
         "status": "completed",
         "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45645503634"
-      }
-    },
-    {
-      "number": 1035,
-      "title": "fix(SECDEV-02): native public content events, teacher language fields and Finder locale",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1035",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-25T15:28:31Z",
-      "mergedAt": null,
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b85930420ec32bb8d9c3be4348413f2f5626f61d",
-      "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45622372614"
       }
     },
     {
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "f1d2f69eff2046277c1ed62f67a96fcb25660508",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45600293765"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1642,25 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 290,
-      "title": "docs: approvazione requisiti Mail Templates e piano PR 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/290",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:01:04Z",
-      "mergedAt": "2026-11-12T20:12:07Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "848bdfe728cf6ef681585c8ed0ccecf875ae30ed",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T15:32:59Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45645503204/artifacts/15036654683"
+    "createdAt": "2026-11-25T15:47:53Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45648185473/artifacts/15036934780"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
