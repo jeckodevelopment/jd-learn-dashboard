@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T11:34:30.434263+00:00",
+  "generatedAt": "2026-11-25T12:02:49.164964+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7b28921c3b79b8dd0960a6becef086e8f6808644",
+  "sourceCommit": "d7e5eec594158d8a881682d7227bfa35253504e0",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 1033,
+      "title": "fix(SECDEV-02/CORE-08): preserve unrelated user attribution during privacy removal",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1033",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T12:02:34Z",
+      "mergedAt": "2026-11-25T12:02:10Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "87be39a60a6f08037b2327938f43c8678bed5aae",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45608971377"
+      }
+    },
+    {
       "number": 1032,
       "title": "test(SECDEV-02): verify every private Joomla task across three isolated sessions",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1032",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-25T11:33:56Z",
+      "updated": "2026-11-25T11:34:32Z",
       "mergedAt": "2026-11-25T11:33:53Z",
       "labels": [
         "P1"
@@ -1642,25 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 163,
-      "title": "docs: specifica JD Learn Credentials — Open Badges 3.0 (post-1.0.0)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/163",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:00:50Z",
-      "mergedAt": "2026-11-09T22:26:32Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "dbfb27f52185267d87c584d5e6bb667b82f4bf48",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T11:32:54Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45604692796/artifacts/15017567147"
+    "createdAt": "2026-11-25T12:00:31Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45608971354/artifacts/15019452402"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
