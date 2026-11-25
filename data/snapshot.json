@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T22:40:25.906261+00:00",
+  "generatedAt": "2026-11-25T23:15:22.314797+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "82784f4d73022c7f5c01851ad4efadda69b40f70",
+  "sourceCommit": "8f9f836c65764a6d80214588ccf53ef16c83dd16",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1049,
+      "title": "test(SECDEV-02): mixed-record ACL rollback and in-session revocation",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1049",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T23:14:53Z",
+      "mergedAt": "2026-11-25T23:14:50Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1585bdbb4484c65424511e18dc40fb9718c1b9b8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45717693014"
+      }
+    },
     {
       "number": 1048,
       "title": "fix(SECDEV-02): atomic retry claims and bounded Scheduler diagnostics",
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "10cfb3a72785ae664781479077885e22181472a7",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45680690324"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 969,
-      "title": "test(SECDEV-03): prova SQL injection con binding su MySQL e MariaDB reali",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/969",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T23:03:17Z",
-      "mergedAt": "2026-11-22T23:03:15Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "fd12cf8a2e145008593099eef208b1ab093a37a8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T22:38:38Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45714125370/artifacts/15069506619"
+    "createdAt": "2026-11-25T23:03:42Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45717693014/artifacts/15071680050"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
