@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T17:12:17.710751+00:00",
+  "generatedAt": "2026-11-25T17:45:17.811722+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fdaec133ab9cf0612962e4f774f24154466dcbda",
+  "sourceCommit": "c049c5910ff7c5933c5aee3fbd8fd9b8449ca741",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1040,
+      "title": "feat(SECDEV-02): batch audit all 23 CORE and close native teacher/category/scheduler gaps",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1040",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T17:44:50Z",
+      "mergedAt": "2026-11-25T17:44:47Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b4c308337ed5c4e1869942465c371ec7c6316121",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45666331350"
+      }
+    },
+    {
       "number": 1039,
       "title": "fix(SECDEV-02 CORE-13): validate all native Joomla router IDs and aliases",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1039",
@@ -263,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "87be39a60a6f08037b2327938f43c8678bed5aae",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45608971377"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1642,25 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 293,
-      "title": "docs: includere attestati PDF essenziali nel piano JD Learn 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/293",
-      "status": "closed",
-      "draft": false,
-      "updated": "2026-11-22T22:01:10Z",
-      "mergedAt": null,
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3eacd33e68c2317742ca03935b92f7f01b7b8d70",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T17:11:16Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45660997588/artifacts/15045706090"
+    "createdAt": "2026-11-25T17:40:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45666331350/artifacts/15047112657"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

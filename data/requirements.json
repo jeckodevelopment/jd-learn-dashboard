@@ -808,7 +808,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "122;162;215;1034",
+    "prs": "122;162;215;1034;1040",
     "todo": "Nessuna lacuna runtime nota per ricollocazione dei record referenziati; le dipendenze native Joomla come sottocategorie continuano a seguire il gestore Categorie. Restano i collaudi Joomla di cestinamento/ripristino, ricollocazione e storici.",
     "tests": "Eseguire e registrare in Joomla i casi di cestinamento, ripristino, ricollocazione atomica per ogni sezione, rifiuto di destinazioni non valide/non autorizzate, conservazione degli storici e tentativo di cancellazione permanente in docs/QA_TESTBOOK.md (PR #215/#225).",
     "criteria": "Categorie / com_categories;  Gestione categorie nativa per i contesti pertinenti, in particolare la classificazione dei corsi, con gerarchia, ordinamento, stato, lingua, accesso e permessi; nessuna tabella di tassonomia parallela. La gestione dei docenti non espone categorie o richiede una scelta di categoria. Eventuali contenitori tecnici preesistenti rimangono un dettaglio di compatibilità, con ACL conservate."
@@ -841,7 +841,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "18;1034",
+    "prs": "18;1034;1040",
     "todo": "Completare permessi/dipendenze di eliminazione e ulteriori azioni core; report/export/rettifiche avanzate differiti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-49; AC-61; AC-123; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Report/export/rettifiche/eliminazioni e intera matrice dei ruoli.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
@@ -863,7 +863,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "190;194;368",
+    "prs": "190;194;368;1040",
     "todo": "Completare stringhe e language override dei flussi core ancora mancanti; email avanzate differite.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-20; AC-62; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Language Overrides e copertura completa di ogni nuova UI/errore/notifica; email ancora assenti.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
@@ -896,7 +896,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "222",
+    "prs": "222;1040",
     "todo": "Completare eventuali correzioni emerse dai test manuali; le altre entità editoriali non sono incluse.",
     "tests": "Eseguire e registrare AC-19 e AC-64 in Joomla; accettazione manuale ancora pendente.",
     "criteria": "Associazione nativa tag Joomla ai corsi; le altre entità editoriali restano fuori da questa PR."
@@ -962,7 +962,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "183",
+    "prs": "183;1040",
     "todo": "Estendere la copertura agli stati/entità baseline pertinenti non ancora gestiti; revisione/archiviazione/ripristino corsi già presenti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-23; AC-70; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Transizioni editoriali avanzate e copertura di tutte le entità/stati del requisito.",
     "criteria": "Workflow e stati editoriali; Integrare i workflow nativi per i corsi; lezioni e altre entità editoriali usano gli stati nativi e, quando previsto, lo stesso servizio workflow. Le transizioni sono autorizzate"
@@ -995,7 +995,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "288;291;295;297;299;300;307;313;315;317;319;321;323;325;327;332;338;349;350;354;355;356;357;358;360;361;366;367;373;376;364;375;395;397;399;401;424;474;545;548;551;555",
+    "prs": "288;291;295;297;299;300;307;313;315;317;319;321;323;325;327;332;338;349;350;354;355;356;357;358;360;361;366;367;373;376;364;375;395;397;399;401;424;474;545;548;551;555;1040",
     "todo": "Completare gli eventi e le preferenze approvati ancora non collegati; eseguire la verifica SMTP/upgrade della redazione errori e completare retention/audit secondo MAIL-10. Le richieste pending sono aggiunte dalla PR #366, ma approvazione/rifiuto con promozione a iscrizione e relative notifiche sono implementati e integrati in #367; restano verifiche manuali, altri eventi MAIL-G/H, retention e audit generale. MAIL-G primo incremento docente (#376) integrato, collaudo SMTP pendente; restano notifiche nuova lezione, aggiornamenti didattici, avvisi ai responsabili e prova SMTP. Nuove lezioni pianificate: primo incremento #397; restano modifiche didattiche significative e avvisi ai responsabili. Resta avviso ai responsabili delle richieste e collaudo email Joomla/SMTP; MAIL-03 integrazione #399 ancora da accettare. MAIL-G notifiche ai responsabili #401 implementate; restano QA sul sito e scenari limite.",
     "tests": "Collaudare su Joomla/SMTP il dispatch, errori e retry; verificare migrazione di righe legacy, assenza di dettagli nell’output audit, ACL, upgrade e conservazione delle righe e degli stati. Riprovare installazione Joomla 6.2.0 sull'ambiente utente dopo #373 con template esistenti e dati conservati. Verificare su Joomla 6.2.0 notifica docente e SMTP, revoca account e preferenze; l'installazione della precedente 0.56.20-dev è stata confermata dall'utente.",
     "criteria": "Posta e Mail Templates; Mailer e configurazione SMTP Joomla; template LMS registrati nel sistema Mail Templates, traducibili e con variabili documentate"
@@ -1006,7 +1006,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "202",
+    "prs": "202;1040",
     "todo": "Completare diagnostica e routine di conservazione core; pulizia materiali orfani #202 presente. Notifiche/code avanzate fase 2.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-18; AC-73; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Notifiche/purga/code generali, diagnostica e tutte le routine previste.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
@@ -1017,7 +1017,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Parziale",
-    "prs": "21;60;104;108;112;116;120;122;124;128;151;169;202;346;362;365;377;1038",
+    "prs": "21;60;104;108;112;116;120;122;124;128;151;169;202;346;362;365;377;1038;1040",
     "todo": "Completare cestino, selettori e convenzioni amministrative core non coperti; dashboard, docenti e banca separata già presenti. Batch avanzati differiti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-53; AC-74; AC-126; AC-127; AC-132; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Collaudo manuale Dashboard issue #105 superato secondo segnalazione utente (2026-11-08); AC-132: PR #128 integra in 0.41.31-dev il filtro ACL specifico della sidebar; CI standard superata run 42594246627, collaudo Joomla pending; testbook scenario issue #113. In aggiunta restano batch/cestino, selettori ricercabili e altre opzioni delle funzioni non ancora esistenti; verificare AC-134 su Joomla in IT/EN.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
@@ -2194,7 +2194,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034;1037;1038;1039",
+    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034;1037;1038;1039;1040",
     "todo": "Completare Finder e i servizi/trasporti core non coperti; Privacy già presente. Notifiche/report avanzati/attestati/import e Web Services esterni differiti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-111; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Servizi mancanti (privacy/Finder/notifiche/report/attestati/import), trasporti e UI completi; stile PSR-12/analisi statica e patch corrente non certificati. Web Services esterni differiti.",
     "criteria": "Core e PHP.  Applicare la matrice CORE-01–23 e le best practices Joomla/PHP, PSR-12, namespace e contratti tipizzati/documentati. Usare runtime supportati e verificare API della patch target; nessuna modifica del core o dipendenza intenzionale da API rimosse. Motivare ogni servizio core non pertinente senza duplicarlo automaticamente"
