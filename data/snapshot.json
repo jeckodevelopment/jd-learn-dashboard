@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-24T22:57:31.011538+00:00",
+  "generatedAt": "2026-11-25T02:45:00.309062+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "883056d62e5480924fff4e3787761e6ccc8b1e7c",
   "progress": 63.64,
@@ -129,12 +129,31 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1026,
+      "title": "refactor(SECDEV-02): consolidate final PSR-12 and CORE/API closure",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1026",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-24T23:18:00Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b1e83200493bf6df86ca7ae2af8949e4c73575d3",
+      "ci": {
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45508781322"
+      }
+    },
     {
       "number": 1025,
       "title": "style(SECDEV-02): guarded long-line source remediation from 125 baseline",
