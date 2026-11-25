@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-25T12:37:18.840135+00:00",
+  "generatedAt": "2026-11-25T14:05:10.905451+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-25T14:04:37Z",
+      "commit": "530980768eef016e4138f5bf2ce1e6cc6fe181f3",
+      "number": 1037,
+      "title": "fix(SECDEV-02): bound Finder category reindex and protect native association editor",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1037"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-25T12:31:52Z",
@@ -1594,14 +1602,6 @@
       "number": 869,
       "title": "feat(SCR-16): read-only canonical Joomla mail template readiness in dashboard",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/869"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T15:39:59Z",
-      "commit": "df7711e86f0a11e807f8de7d090ac9ce1c80d04e",
-      "number": 868,
-      "title": "docs(SCR-16): record PR 867 merge and verified Joomla package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/868"
     }
   ]
 }

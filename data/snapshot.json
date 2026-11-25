@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T12:37:18.840135+00:00",
+  "generatedAt": "2026-11-25T14:05:10.905451+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "952c03c3924e6f1d826144cb19e20ff6f2ee790e",
+  "sourceCommit": "530980768eef016e4138f5bf2ce1e6cc6fe181f3",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -129,12 +129,69 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 2,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1036,
+      "title": "fix(SECDEV-02): native public content events, teacher fields and Finder language",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1036",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-25T13:38:58Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a5acdb98ed72498eda470c5fab5cdf04283af1e5",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45625758677"
+      }
+    },
+    {
+      "number": 1035,
+      "title": "fix(SECDEV-02): native public content events, teacher language fields and Finder locale",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1035",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-25T13:19:13Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b85930420ec32bb8d9c3be4348413f2f5626f61d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45622372614"
+      }
+    },
+    {
+      "number": 1037,
+      "title": "fix(SECDEV-02): bound Finder category reindex and protect native association editor",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1037",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T14:04:52Z",
+      "mergedAt": "2026-11-25T14:04:37Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "91f4b1ca15b398ad239a4ce212e0d64059a0adba",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45628987431"
+      }
+    },
     {
       "number": 1034,
       "title": "fix(SECDEV-02): enforce record ACL and category ancestor integrity in bulk moves",
@@ -225,9 +282,9 @@
       "milestone": "1.0.0",
       "headSha": "de9029dda5a0cbe1442d6b63bdf353a654da5265",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45596628341"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -244,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "f04c8df2528760c21328b1472c7bb9ceed85fbba",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45585544552"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -263,9 +320,9 @@
       "milestone": "1.0.0",
       "headSha": "7c90157e7f1a296b5ee30563fd56ce7a5964f2b4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45583375478"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1642,25 +1699,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 171,
-      "title": "docs: piano Credentials (21 PR) e milestone C0–C5 post-1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/171",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:00:56Z",
-      "mergedAt": "2026-11-10T07:17:06Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "fd7e5400f2f6fe88860c576f6bd27bfc3060dc97",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1730,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T12:31:14Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45613491977/artifacts/15020927543"
+    "createdAt": "2026-11-25T14:03:03Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45628987400/artifacts/15029758911"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
