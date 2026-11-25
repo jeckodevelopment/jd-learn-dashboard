@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T19:05:34.420722+00:00",
+  "generatedAt": "2026-11-25T20:04:56.521124+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "07bcfddd50837a3796e49a43f2ef5d1eb2a40305",
+  "sourceCommit": "837b3ee07d822d29e15d84c02e10c4ac4a740566",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -129,12 +129,50 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1042,
+      "title": "test(SECDEV-02): mass native evidence for CORE tags, Finder, layouts, ACL and i18n",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1042",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-25T19:37:03Z",
+      "mergedAt": null,
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fe4444632504914ae97e25c8a27d775c244e27c0",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45686974900"
+      }
+    },
+    {
+      "number": 1043,
+      "title": "fix(SECDEV-02): bounded scheduler, secure consent route and 46 native override checks",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1043",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T20:04:32Z",
+      "mergedAt": "2026-11-25T20:04:29Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "0671531bbf25718311a435cacaee946d8e43066a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45690442945"
+      }
+    },
     {
       "number": 1041,
       "title": "fix(SECDEV-02): reconcile all 23 CORE residuals, separate QA and honor expiry opt-in",
@@ -225,9 +263,9 @@
       "milestone": "1.0.0",
       "headSha": "b85930420ec32bb8d9c3be4348413f2f5626f61d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45622372614"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +320,9 @@
       "milestone": "1.0.0",
       "headSha": "bffb61cdb076aaa431b05f9379ccc6e9d6060a94",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45613491987"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1642,25 +1680,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 311,
-      "title": "docs: traccia MAIL-11 nella matrice requisiti 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/311",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:01:16Z",
-      "mergedAt": "2026-11-13T13:52:18Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9835b04232846c868025fa65567065505f5c4ed9",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1692,8 +1711,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T19:04:32Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45680690324/artifacts/15054022442"
+    "createdAt": "2026-11-25T20:03:46Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45690442945/artifacts/15058732164"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

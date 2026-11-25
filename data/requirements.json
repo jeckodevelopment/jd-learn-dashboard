@@ -852,7 +852,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "177;190",
+    "prs": "177;190;1043",
     "todo": "Completare classi/variabili, stile essenziale e personalizzazione dei layout core non coperti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-21; AC-34; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Tutte le viste/classi/variabili della baseline, modalità stile essenziale, due personalizzazioni indipendenti e browser/accessibilità completi.",
     "criteria": "Template override e layout; Viste frontend, moduli distribuiti e sottolayout personalizzabili con i meccanismi standard; logica didattica e autorizzativa fuori dai template"
@@ -940,7 +940,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "68;120;162;202;208;368;1039",
+    "prs": "68;120;162;202;208;368;1039;1043",
     "todo": "Completare combinazioni menu/SEF/lingua/breadcrumb non coperte; routing alias di corso, categoria e percorso integrato dalla PR #208.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-68; AC-124; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Voci create nel gestore menu, SEF/lingue/breadcrumbs/moduli nelle combinazioni complete; percorsi e altri criteri non coperti. Menu e ingresso diretto implementati nella0.40; dashboard rivista nella0.41.8; resta il collaudo completo della navigazione/ACL.",
     "criteria": "Menu, moduli e routing;  Voci menu native per catalogo, categoria, percorso, corso, area personale, Pagina docente e Corsi di un docente; selezione del profilo, parametri, breadcrumbs, URL SEF e associazioni lingua. Le viste docente rispettano pubblicazione, lingua e accesso di profilo, campi e corsi, anche su URL diretto."
@@ -1006,7 +1006,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "202;1040;1041",
+    "prs": "202;1040;1041;1043",
     "todo": "Completare diagnostica e routine di conservazione core; pulizia materiali orfani #202 presente. Notifiche/code avanzate fase 2.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-18; AC-73; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Notifiche/purga/code generali, diagnostica e tutte le routine previste.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
@@ -1028,7 +1028,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;190;1038",
+    "prs": "93;190;1038;1043",
     "todo": "Completare cache metadati e invalidazione multilivello dei flussi core non coperti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-38; AC-75; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Cache metadati e invalidazione complete, test di tutte le viste/chiavi multilivello e carico.",
     "criteria": "Asset, cache e sessione; Web Asset Manager, sessione/token e caching Joomla; cache privata o disabilitata sulle viste personali"
@@ -2194,7 +2194,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034;1037;1038;1039;1040;1041",
+    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034;1037;1038;1039;1040;1041;1043",
     "todo": "17 criteri CORE granulari ancora a carico sviluppo/CI (prove integrative o correzioni da accertare); dettaglio in docs/SECDEV_02_CORE_RESIDUAL_RECONCILIATION_2026-11-25.md. Completare Finder e i servizi/trasporti core non coperti; Privacy già presente. Notifiche/report avanzati/attestati/import e Web Services esterni differiti.",
     "tests": "6 criteri con dipendenze ambientali/esterne, collaudo NON ESEGUITO. Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-111; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Servizi mancanti (privacy/Finder/notifiche/report/attestati/import), trasporti e UI completi; stile PSR-12/analisi statica e patch corrente non certificati. Web Services esterni differiti.",
     "criteria": "Core e PHP.  Applicare la matrice CORE-01–23 e le best practices Joomla/PHP, PSR-12, namespace e contratti tipizzati/documentati. Usare runtime supportati e verificare API della patch target; nessuna modifica del core o dipendenza intenzionale da API rimosse. Motivare ogni servizio core non pertinente senza duplicarlo automaticamente"
