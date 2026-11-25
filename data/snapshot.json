@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T11:07:00.564527+00:00",
+  "generatedAt": "2026-11-25T11:34:30.434263+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "2c41f810d6024c33733b63d8e01c98ef6db7614b",
+  "sourceCommit": "7b28921c3b79b8dd0960a6becef086e8f6808644",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 1032,
+      "title": "test(SECDEV-02): verify every private Joomla task across three isolated sessions",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1032",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T11:33:56Z",
+      "mergedAt": "2026-11-25T11:33:53Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "15965cd081d9f4a33ad62d480aa9b7865d758a30",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45604692796"
+      }
+    },
+    {
       "number": 1031,
       "title": "test(SECDEV-02): Joomla runtime language keys and private-task HTTP acceptance",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1031",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-25T11:06:37Z",
+      "updated": "2026-11-25T11:06:59Z",
       "mergedAt": "2026-11-25T11:06:34Z",
       "labels": [
         "P1"
@@ -225,9 +244,9 @@
       "milestone": "1.0.0",
       "headSha": "63c28b9bf0162893a4af25c3e11a6eb2354357ac",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45579625144"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1642,26 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 964,
-      "title": "docs(LCM-05): riconciliazione ACL granulari verificata in CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/964",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T21:51:40Z",
-      "mergedAt": "2026-11-22T21:51:37Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "aab7c11936a5680951125a341bcf78fba438f047",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1693,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T11:05:00Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45600293765/artifacts/15014933209"
+    "createdAt": "2026-11-25T11:32:54Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45604692796/artifacts/15017567147"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
