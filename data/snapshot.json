@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T20:04:56.521124+00:00",
+  "generatedAt": "2026-11-25T20:49:36.828455+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "837b3ee07d822d29e15d84c02e10c4ac4a740566",
+  "sourceCommit": "4f5ab4253f069806fcc7f6026e1a12e9fb7571b1",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -141,17 +141,36 @@
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1042",
       "status": "open",
       "draft": false,
-      "updated": "2026-11-25T19:37:03Z",
+      "updated": "2026-11-25T20:11:00Z",
       "mergedAt": null,
       "labels": [
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "fe4444632504914ae97e25c8a27d775c244e27c0",
+      "headSha": "139ff8eafb17fd7f5d443c21efd9bc155e41f80a",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 1044,
+      "title": "fix(SECDEV-02): recover CORE native evidence from #1042 after #1043",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1044",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T20:49:08Z",
+      "mergedAt": "2026-11-25T20:49:06Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "724768ee4b4dfc270a0aff295f57461c24dcb52e",
       "ci": {
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45686974900"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45696958294"
       }
     },
     {
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "3a918233ca3b83a5c8145f94277b3e9d54a12692",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45645503634"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -301,9 +320,9 @@
       "milestone": "1.0.0",
       "headSha": "91f4b1ca15b398ad239a4ce212e0d64059a0adba",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45628987431"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1661,25 +1680,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 330,
-      "title": "docs: reconcile MAIL-11 implementation and Joomla acceptance",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/330",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:01:19Z",
-      "mergedAt": "2026-11-13T22:01:08Z",
-      "labels": [
-        "documentation"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "64421238fe377b86cbbc02338029bf16a1cdd75c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1711,8 +1711,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T20:03:46Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45690442945/artifacts/15058732164"
+    "createdAt": "2026-11-25T20:43:36Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45696958294/artifacts/15061457870"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

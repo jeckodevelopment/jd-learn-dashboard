@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-25T20:04:56.521124+00:00",
+  "generatedAt": "2026-11-25T20:49:36.828455+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-25T20:49:06Z",
+      "commit": "4f5ab4253f069806fcc7f6026e1a12e9fb7571b1",
+      "number": 1044,
+      "title": "fix(SECDEV-02): recover CORE native evidence from #1042 after #1043",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1044"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-25T20:04:29Z",
@@ -1594,14 +1602,6 @@
       "number": 875,
       "title": "fix(SCR-16): make bounded configuration diagnostics actionable",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/875"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T17:26:49Z",
-      "commit": "e6d6abfbadaab147924a374c2c5b454f90eb3a14",
-      "number": 874,
-      "title": "feat(SCR-16): consolidate effective course and menu inheritance diagnostics",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/874"
     }
   ]
 }
