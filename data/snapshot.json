@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-25T22:24:54.682901+00:00",
+  "generatedAt": "2026-11-25T22:40:25.906261+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0d92e8fd6c8de0c37626e14680a6405966f61e35",
+  "sourceCommit": "82784f4d73022c7f5c01851ad4efadda69b40f70",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1048,
+      "title": "fix(SECDEV-02): atomic retry claims and bounded Scheduler diagnostics",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1048",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-25T22:39:55Z",
+      "mergedAt": "2026-11-25T22:39:52Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a7490e1515c4eab4579c072980eb06f7c4a3744b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45714125370"
+      }
+    },
     {
       "number": 1047,
       "title": "fix(SECDEV-02): handle native Finder category-state events",
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "b4c308337ed5c4e1869942465c371ec7c6316121",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45666331350"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 968,
-      "title": "test(SECDEV-03): cross-surface evidence and CSV injection tripwire",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/968",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-22T22:53:45Z",
-      "mergedAt": "2026-11-22T22:53:42Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a58cc66d16dddab84e0197e22347305d40c0fa1d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-25T22:22:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45711931268/artifacts/15069245065"
+    "createdAt": "2026-11-25T22:38:38Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45714125370/artifacts/15069506619"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
