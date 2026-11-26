@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T22:17:09.785044+00:00",
+  "generatedAt": "2026-11-26T22:31:26.955345+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "11e1c5eb023fe36ed1ac917c161ab1e8e919ac32",
-  "progress": 64.46,
-  "developmentProgress": 64.46,
+  "sourceCommit": "0b5f8b680e19b71ab3225f28e39635c95a2707b1",
+  "progress": 64.58,
+  "developmentProgress": 64.58,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,10 +105,10 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 50.26,
+      "development_evidence_floor_percent": 50.75,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 4,
+      "missing_criteria": 3,
       "unverifiable_criteria": 95,
       "unassessed_criteria": 0
     },
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1077,
+      "title": "docs(SEC-P5): reconcile E2E implementation and progress",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1077",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T22:31:04Z",
+      "mergedAt": "2026-11-26T22:31:02Z",
+      "labels": [
+        "documentation",
+        "P0"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a9826eda70e8a760e5d70653ab42242cec8ff8ee",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45905121033"
+      }
+    },
     {
       "number": 1076,
       "title": "test(SEC-P5): protect negative end-to-end release coverage",
@@ -304,9 +324,9 @@
       "milestone": "1.0.0",
       "headSha": "75f45b9edb2e555809d30ad8cc2680a916e2bc00",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45875137481"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1639,25 +1659,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "02c67c02272414145ee539e8094dfcca80a2d1f1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 997,
-      "title": "style(SECDEV-02): safe repository-wide PHP line wraps with token and PHPCS rollback",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/997",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T19:18:54Z",
-      "mergedAt": "2026-11-23T19:18:51Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "4e0fd6c86db20ba410db41d7944ddd0f641d366b",
       "ci": {
         "status": "unknown",
         "conclusion": null,

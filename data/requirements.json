@@ -2675,12 +2675,12 @@
   {
     "id": "SEC-P5",
     "area": "SEC",
-    "state": "Non iniziata",
+    "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "",
-    "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
-    "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
+    "prs": "1076",
+    "todo": "SEC-P5/criterion_01 chiuso. Nessun ulteriore codice richiesto per il registro/gate E2E. Criteri 02–03 richiedono review della candidata e gestione finding; criterion_04 è la decisione go/no-go finale.",
+    "tests": "Penetration/risk review indipendente e prove sulla candidata/hosting; collaudo manuale Joomla e decisione finale go/no-go. CI non equivale a tali esiti.",
     "criteria": "Test negativi E2E, penetration/risk review della release candidate, riesame vulnerabilità e gate go/no-go documentato."
   },
   {
