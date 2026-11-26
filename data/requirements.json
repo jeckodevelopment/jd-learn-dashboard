@@ -863,7 +863,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "190;194;368;1040",
+    "prs": "190;194;368;1040;1068",
     "todo": "Completare stringhe e language override dei flussi core ancora mancanti; email avanzate differite.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-20; AC-62; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Language Overrides e copertura completa di ogni nuova UI/errore/notifica; email ancora assenti.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."

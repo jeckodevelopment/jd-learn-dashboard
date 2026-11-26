@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T18:19:45.693086+00:00",
+  "generatedAt": "2026-11-26T18:27:13.045625+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+  "sourceCommit": "065a064e0375d02c40e133a370eb7561579c894b",
   "progress": 63.76,
   "developmentProgress": 63.76,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1068,
+      "title": "fix(CORE-06): reject malformed quoted Joomla language values",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1068",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T18:26:55Z",
+      "mergedAt": "2026-11-26T18:26:53Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "75f45b9edb2e555809d30ad8cc2680a916e2bc00",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45875137481"
+      }
+    },
     {
       "number": 1067,
       "title": "fix(CORE-07): isolate catalog list and category choices by Joomla context",
@@ -282,9 +301,9 @@
       "milestone": "1.0.0",
       "headSha": "305feeb6ebc39ffc63190693d4941f0037ff747a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45808601231"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 988,
-      "title": "test(SECDEV-02): convalida vincolante delle evidenze CORE-01–23",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/988",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T14:12:41Z",
-      "mergedAt": "2026-11-23T14:12:39Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "ba09d4a0950189bdf31c9809e603fc5797c83d35",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T16:47:20Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45861238005/artifacts/15139021089"
+    "createdAt": "2026-11-26T18:25:24Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45875137481/artifacts/15143464314"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
