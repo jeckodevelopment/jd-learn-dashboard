@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T21:43:15.945710+00:00",
+  "generatedAt": "2026-11-26T21:54:00.561347+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "37d3cd17f7afabb192ce429c36d9f1517eacb227",
-  "progress": 63.99,
-  "developmentProgress": 63.99,
+  "sourceCommit": "f4d41f4ab49765d3575dbff45df3564aa923b5aa",
+  "progress": 64.46,
+  "developmentProgress": 64.46,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -117,10 +117,10 @@
       "label": "Packaging, documentazione e reporting",
       "requirements": 15,
       "weight_percent": 7.01,
-      "development_evidence_floor_percent": 45,
+      "development_evidence_floor_percent": 51.67,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
-      "missing_criteria": 10,
+      "missing_criteria": 6,
       "unverifiable_criteria": 24,
       "unassessed_criteria": 0
     }
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1075,
+      "title": "docs(DOC-10): reconcile implementation status and dashboard",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1075",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T21:53:39Z",
+      "mergedAt": "2026-11-26T21:53:37Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a73143004d18a6ad8015084c5457a7968e951b4a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45901036533"
+      }
+    },
     {
       "number": 1074,
       "title": "feat(DOC-10): bind release candidate notes to changelog",
@@ -302,9 +322,9 @@
       "milestone": "1.0.0",
       "headSha": "88d15100485c8c7d75cf750bdc4b18a41cf4a482",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45850091006"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -321,9 +341,9 @@
       "milestone": "1.0.0",
       "headSha": "c892d8c3570b274c34ee40d91653d1a97c759fbf",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45844507902"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1637,25 +1657,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "4876dda36f81e97e1c116d2114cdea8ba8befdd7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 995,
-      "title": "style(SECDEV-02): raggruppare i trait Joomla nativi di JlmsComponent",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/995",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T17:49:59Z",
-      "mergedAt": "2026-11-23T17:49:58Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9f5fd0ffdd266b393b7c2adcc5a1be7972490a65",
       "ci": {
         "status": "unknown",
         "conclusion": null,

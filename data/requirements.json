@@ -2620,12 +2620,12 @@
   {
     "id": "DOC-10",
     "area": "DOC",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "904;911",
-    "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
-    "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
+    "prs": "904;911;1074",
+    "todo": "Nessuno per DOC-10: legame note/changelog/versione/artefatti implementato e verificato.",
+    "tests": "Preparare una candidata publish=false sul main aggiornato e registrare artefatto, versione, checksum e commit. Collaudo Joomla, compatibilità e approvazione della release restano attività manuali distinte.",
     "criteria": "Note di rilascio, changelog, incompatibilità, limiti noti e riferimenti al package coerenti con la versione candidata."
   },
   {
