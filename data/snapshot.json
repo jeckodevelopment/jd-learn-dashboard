@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T18:46:29.956980+00:00",
+  "generatedAt": "2026-11-26T18:56:41.965077+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "eea9a8a5e657224dc0f5343dfe713379828017b9",
+  "sourceCommit": "2d1cd09a1df4de62ffa46495f1f97ffdac3e67a3",
   "progress": 63.76,
   "developmentProgress": 63.76,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1070,
+      "title": "fix(CORE-13): reject repeated separators in Joomla SEO route aliases",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1070",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T18:56:16Z",
+      "mergedAt": "2026-11-26T18:56:13Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5538514c27bedc57232fc27e297abfaeda04d329",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45879153896"
+      }
+    },
     {
       "number": 1069,
       "title": "fix(CORE-10): isolate public teacher course-list cache per context",
@@ -301,9 +320,9 @@
       "milestone": "1.0.0",
       "headSha": "938ae8f2e3efd9913c9e74561b9952591405ab13",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45813040345"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 990,
-      "title": "style(SECDEV-02): riduzione sicura righe lunghe PHP con token e PHPCS invarianti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/990",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T14:40:54Z",
-      "mergedAt": "2026-11-23T14:40:51Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6519ff18d1eb441876d5e2e517b8869389166a7f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T18:45:43Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45877837104/artifacts/15146696162"
+    "createdAt": "2026-11-26T18:55:46Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45879153896/artifacts/15145708034"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
