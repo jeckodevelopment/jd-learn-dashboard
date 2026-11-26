@@ -128,8 +128,12 @@ def main():
             if any(r["manual"].lower() not in {"accettata", "superata", "completata", "verificata"} for r in requirements if r["id"] in refs):
                 raise RuntimeError("Full acceptance evidence is inconsistent with the canonical CSV")
     pulls = paged("/pulls", {"state": "open", "sort": "updated", "direction": "desc"})
-    closed = paged("/pulls", {"state": "closed", "sort": "updated", "direction": "desc"})
-    pull_items = pulls + sorted(closed, key=lambda r: r.get("updated_at", ""), reverse=True)[:80]
+    # The dashboard displays only the 80 most recently updated closed PRs.
+    # Ask GitHub for exactly that window instead of enumerating all history.
+    closed = api("/pulls", {"state": "closed", "sort": "updated", "direction": "desc", "per_page": 80, "page": 1})
+    if not isinstance(closed, list) or len(closed) > 80:
+        raise RuntimeError("Unexpected recent closed pull requests response")
+    pull_items = pulls + closed
     prs = [{
         "number": p["number"], "title": p["title"], "url": p["html_url"],
         "status": "merged" if p.get("merged_at") else ("closed" if p["state"] == "closed" else "open"),
