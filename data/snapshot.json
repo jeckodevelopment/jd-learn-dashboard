@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T21:21:48.486476+00:00",
+  "generatedAt": "2026-11-26T21:43:15.945710+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "3e751181fcb89be238c131958fbe00ebc1dbb990",
+  "sourceCommit": "37d3cd17f7afabb192ce429c36d9f1517eacb227",
   "progress": 63.99,
   "developmentProgress": 63.99,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1074,
+      "title": "feat(DOC-10): bind release candidate notes to changelog",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1074",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T21:42:54Z",
+      "mergedAt": "2026-11-26T21:42:52Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9a5e5f6a4e850995e58f32c261a51f56557e0ad4",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45899449372"
+      }
+    },
     {
       "number": 1073,
       "title": "test(CORE-10): restore teacher fields from Content History",
@@ -320,9 +340,9 @@
       "milestone": "1.0.0",
       "headSha": "55caca9374b84e197d00f9219c9ed99b6680a52c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45837198078"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1641,25 +1661,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 994,
-      "title": "style(SECDEV-02): correggere 43 rilievi strutturali PSR-12 nei test",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/994",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T15:53:26Z",
-      "mergedAt": "2026-11-23T15:53:23Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "84bc14f3da3a803a3e958559079ed3a69e81d47c",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1692,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T21:19:43Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45896779437/artifacts/15153668018"
+    "createdAt": "2026-11-26T21:42:28Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45899449372/artifacts/15155097225"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
