@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T23:27:06.077194+00:00",
+  "generatedAt": "2026-11-26T23:45:52.864887+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "90674ce64778b7328f461c0a1467d3070b2fb0ec",
+  "sourceCommit": "b87769f5538523144c0861b8fa601fb08df81d85",
   "progress": 64.81,
   "developmentProgress": 64.81,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1080,
+      "title": "fix(MAIL-G): advance manager notice batches past queued requests",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1080",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T23:45:27Z",
+      "mergedAt": "2026-11-26T23:45:25Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "442e3d051a26d0273f41ff9014cc710e4c9ceb4f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45912281941"
+      }
+    },
+    {
       "number": 1079,
       "title": "test(CORE-03): verify entitlement revocation across learner contexts",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1079",
@@ -268,9 +287,9 @@
       "milestone": "1.0.0",
       "headSha": "5182bc5bab4c60449e396e25bd9c1e7f66dacb0d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45896779454"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -287,9 +306,9 @@
       "milestone": "1.0.0",
       "headSha": "beaed51b51972365c94bdce945420eb9097c8d56",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45894231918"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1646,25 +1665,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1000,
-      "title": "style(SECDEV-02): 271 rilievi PSR-12 rimossi in 9 test PHP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1000",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T20:51:55Z",
-      "mergedAt": "2026-11-23T20:51:52Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "e908ff3883e5786a778190a71eae174f0340a9be",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1696,8 +1696,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T23:25:51Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45910391500/artifacts/15160505380"
+    "createdAt": "2026-11-26T23:44:55Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45912281816/artifacts/15160522582"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

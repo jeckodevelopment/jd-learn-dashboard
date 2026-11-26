@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-26T23:27:06.077194+00:00",
+  "generatedAt": "2026-11-26T23:45:52.864887+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T23:45:25Z",
+      "commit": "b87769f5538523144c0861b8fa601fb08df81d85",
+      "number": 1080,
+      "title": "fix(MAIL-G): advance manager notice batches past queued requests",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1080"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-26T23:26:39Z",
@@ -1594,14 +1602,6 @@
       "number": 909,
       "title": "docs: reconcile LCM-03/04 external-reference evidence",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/909"
-    },
-    {
-      "type": "requirement_changed",
-      "at": "2026-11-22T11:06:27.082541+00:00",
-      "commit": "f5e92e47f1ff86b33d1c0290d9a48f4371a79dc4",
-      "id": "CAT-04",
-      "from": "Parziale",
-      "to": "Completata"
     }
   ]
 }
