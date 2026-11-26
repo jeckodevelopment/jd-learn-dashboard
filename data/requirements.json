@@ -115,8 +115,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "183;891;938;939;943;947;948",
-    "todo": "Completare la copertura dei contesti editoriali e dei plugin contenuto autorizzati; nessun nuovo provider richiesto.",
+    "prs": "183;891;938;939;943;947;948;1060",
+    "todo": "Nessun difetto di codice confermato nel perimetro dei contesti editoriali distribuiti dopo la PR #1060; plugin terzi e provider e hosting reale restano verifica separata.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-66; AC-95; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Provider terzi generici, tutti i contesti/autori/plugin contenuto e prove browser/provider reali.",
     "criteria": "Consentire solo provider e incorporamenti autorizzati; niente script o iframe arbitrari per autori non autorizzati. I collegamenti esterni non devono ricevere credenziali del sito"
   },
@@ -808,7 +808,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "122;162;215;1034;1040",
+    "prs": "122;162;215;1034;1040;1065",
     "todo": "Nessuna lacuna runtime nota per ricollocazione dei record referenziati; le dipendenze native Joomla come sottocategorie continuano a seguire il gestore Categorie. Restano i collaudi Joomla di cestinamento/ripristino, ricollocazione e storici.",
     "tests": "Eseguire e registrare in Joomla i casi di cestinamento, ripristino, ricollocazione atomica per ogni sezione, rifiuto di destinazioni non valide/non autorizzate, conservazione degli storici e tentativo di cancellazione permanente in docs/QA_TESTBOOK.md (PR #215/#225).",
     "criteria": "Categorie / com_categories;  Gestione categorie nativa per i contesti pertinenti, in particolare la classificazione dei corsi, con gerarchia, ordinamento, stato, lingua, accesso e permessi; nessuna tabella di tassonomia parallela. La gestione dei docenti non espone categorie o richiede una scelta di categoria. Eventuali contenitori tecnici preesistenti rimangono un dettaglio di compatibilità, con ACL conservate."
@@ -830,7 +830,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "122;187",
+    "prs": "122;187;1066",
     "todo": "Nessun sistema di identità/gruppi parallelo richiesto; completare l’uso dei servizi nativi nelle azioni core ancora mancanti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-22; AC-25; AC-38; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Copertura di tutti i flussi residui e collaudo completo con gruppi/livelli dell’estensione esterna.",
     "criteria": "Gruppi utenti e livelli di accesso; Usare gruppi e viewing access levels Joomla; nessun elenco parallelo di identità o livelli; gruppi didattici restano oggetti distinti"
@@ -874,7 +874,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "223;224;1037",
+    "prs": "223;224;1037;1067",
     "todo": "Nessun residuo implementativo per la ricerca nei selettori dei corsi; restano fuori altri oggetti editoriali.",
     "tests": "Eseguire e registrare AC-20/AC-48 in Joomla, inclusi ricerca titolo/ID, combinazioni multi-lingua e conservazione di versioni/iscrizioni/progressi.",
     "criteria": "Multilingua e associazioni; Lingua dei contenuti, filtro lingua e associazioni fra traduzioni di corsi/categorie secondo i contesti supportati; rispetto delle voci menu multilingua"
@@ -1028,7 +1028,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;190;1038;1043",
+    "prs": "93;190;1038;1043;1064",
     "todo": "Completare cache metadati e invalidazione multilivello dei flussi core non coperti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-38; AC-75; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Cache metadati e invalidazione complete, test di tutte le viste/chiavi multilivello e carico.",
     "criteria": "Asset, cache e sessione; Web Asset Manager, sessione/token e caching Joomla; cache privata o disabilitata sulle viste personali"
@@ -1336,8 +1336,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "162;669;672;675;678;680;695;697;699;702;704;706;880",
-    "todo": "Resta la copertura trasversale ACL e riservatezza dei risultati promozionali; filtri URL e paginazione server completati.",
+    "prs": "162;669;672;675;678;680;695;697;699;702;704;706;880;1061",
+    "todo": "La PR #1061 aggiunge prova SQL Joomla contro risultati promozionali di categorie nascoste o lingue diverse anche con ricerca mirata; copertura globale di combinazioni e override ancora da collaudare.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-85; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Ricerca/ordinamenti, elenco alternativo, ulteriori filtri e schede complete; default/layout e criteri SCR-01 non ancora tutti soddisfatti.",
     "criteria": "Catalogo/categoria.  Ricerca e filtri persistono nell'URL per condivisione e navigazione avanti/indietro. Cambiare filtro ritorna alla prima pagina. Default: 12 elementi, ordinamento editoriale, alternative titolo/data/durata; limiti applicati dal server. Scheda ripetuta: immagine, titolo, descrizione breve, durata, difficoltà, docenti e azione disponibile. Nessun dato promozionale riservato compare in un risultato pubblico. Zero risultati mostra filtri attivi e azione Azzera filtri; errore backend mostra Riprova senza perdere i filtri"
   },
@@ -1347,8 +1347,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "15",
-    "todo": "Realizzare e verificare i criteri della descrizione baseline; nessuna copertura dedotta da funzioni vicine.",
+    "prs": "15;1061",
+    "todo": "La PR #1061 separa conteggi diretti e delle sottocategorie nel riepilogo amministrativo e prova la conservazione dei figli; gli spostamenti nativi e le cancellazioni reali rimangono da collaudare.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-60; AC-85; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Realizzare e verificare i criteri della descrizione baseline; nessuna copertura dedotta da funzioni vicine.",
     "criteria": "Categoria.  Titolo, descrizione, eventuali sottocategorie e corsi; categoria con figli nascosti non ne rivela numero o titoli. Eliminazione/spostamento di categoria gestiti in amministrazione con indicazione dei corsi coinvolti. La scheda categoria non concede l'accesso ai corsi elencati"
   },
@@ -1391,8 +1391,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "132;187;190",
-    "todo": "Trascrizione audio implementata da PR #451; completare l’accettazione Joomla. Restano uniformità degli stati dell’aula; indice mobile già presente.",
+    "prs": "132;187;190;1061;1062",
+    "todo": "Trascrizione audio implementata da PR #451; completare l’accettazione Joomla. La PR #1061 aggiunge al completamento HTML un indicatore di salvataggio in corso e blocco doppio invio con ripristino BFCache; La PR #1062 realizza la regola video manuale esplicita nella bozza e nella pubblicazione e nell'aula; i video tracciati restano a soglia obbligatoria e i video manuali non creano sessioni di telemetria di completamento. Restano da collaudare la UX completa e i provider/consensi reali.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-43; AC-44; AC-89; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Trascrizione audio; accettazione Joomla per le navigazioni, stati e UX mobile completa.",
     "criteria": "Aula.  Indice moduli/lezioni, titolo, contenuto, materiali, avanzamento, precedente/successiva e indicatore salvataggio. Aprire una lezione non la completa; per testi/documenti/audio, pulsante Segna come completata. Per video richiesti il pulsante non sostituisce la soglia, salvo scelta editoriale esplicita di regola manuale. In sequenziale, clic su attività bloccata mostra prerequisito e link all'attività da completare. La ripresa preferisce l'ultima attività iniziata ancora disponibile, altrimenti la prima obbligatoria non completata; nessun reindirizzamento a contenuto revocato"
   },
@@ -1413,8 +1413,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "198",
-    "todo": "Completare configurazioni/integrazione CMP e distinzione degli errori non coperti; caricamento condizionato già presente.",
+    "prs": "198;1063",
+    "todo": "PR #1063 introduce l'alternativa didattica esplicita con riferimento interno allo stesso programma e controllo di accesso e disponibilità. Il player mantiene policy e consenso indipendenti. Da collaudare CMP e provider reali.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-30; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): CMP/basi/configurazione del gestore e provider/browser reali; nessuna attestazione di conformità legale complessiva.",
     "criteria": "Contenuto esterno bloccato.  Placeholder locale con provider, motivo e azione disponibile (preferenze di consenso, riprova o assistenza). Nessun poster/SDK remoto prima delle condizioni configurate. Un link esterno alternativo non deve aggirare una scelta di consenso o un controllo di accesso; l'alternativa formativa va configurata esplicitamente"
   },
@@ -2194,7 +2194,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034;1037;1038;1039;1040;1041;1043;1044;1045;1046;1047;1048;1049;1050;1051;1052;1053;1054",
+    "prs": "93;981;984;985;986;987;988;989;990;991;992;993;994;995;996;997;998;999;1000;1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1014;1015;1016;1017;1018;1019;1021;1022;1023;1024;1025;1026;1027;1028;1029;1030;1031;1032;1033;1034;1037;1038;1039;1040;1041;1043;1044;1045;1046;1047;1048;1049;1050;1051;1052;1053;1054;1055;1056;1057;1058;1059",
     "todo": "17 criteri CORE granulari ancora a carico sviluppo/CI (prove integrative o correzioni da accertare); dettaglio in docs/SECDEV_02_CORE_RESIDUAL_RECONCILIATION_2026-11-25.md. Completare Finder e i servizi/trasporti core non coperti; Privacy già presente. Notifiche/report avanzati/attestati/import e Web Services esterni differiti.",
     "tests": "6 criteri con dipendenze ambientali/esterne, collaudo NON ESEGUITO. Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-111; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Servizi mancanti (privacy/Finder/notifiche/report/attestati/import), trasporti e UI completi; stile PSR-12/analisi statica e patch corrente non certificati. Web Services esterni differiti.",
     "criteria": "Core e PHP.  Applicare la matrice CORE-01–23 e le best practices Joomla/PHP, PSR-12, namespace e contratti tipizzati/documentati. Usare runtime supportati e verificare API della patch target; nessuna modifica del core o dipendenza intenzionale da API rimosse. Motivare ogni servizio core non pertinente senza duplicarlo automaticamente"

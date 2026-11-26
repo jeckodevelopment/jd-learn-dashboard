@@ -1,8 +1,120 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-26T00:55:00.440057+00:00",
+  "generatedAt": "2026-11-26T18:19:45.693086+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T16:49:04Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1067,
+      "title": "fix(CORE-07): isolate catalog list and category choices by Joomla context",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1067"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T16:33:33Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1066,
+      "title": "fix(CORE-03): isolate category list cache by Joomla identity and language",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1066"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T15:30:22Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1065,
+      "title": "fix(CORE-01): fail closed on malformed category parent routes",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1065"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T14:20:57Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1064,
+      "title": "fix(CORE-21): enforce no-store before invalid frontend view rejection",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1064"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T13:25:57Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1063,
+      "title": "feat(SCR-08): explicit internal alternatives for unavailable videos and safe copy",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1063"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T12:47:38Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1062,
+      "title": "feat(SCR-06): explicit manual completion rule for video lessons",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1062"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T11:48:45Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1061,
+      "title": "feat(SCR): review nested category dependencies and safe classroom save feedback",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1061"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T11:18:46Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1060,
+      "title": "fix(LES-02): secure lesson authoring, legacy preview, transcripts and outbound links",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1060"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T10:44:20Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1059,
+      "title": "test(SECDEV-02): signed engineering coverage for 17 CORE residuals",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1059"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T10:28:39Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1058,
+      "title": "test(SECDEV-02, CORE-22): enforce Joomla package/core boundary",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1058"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T09:30:20Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1057,
+      "title": "test(SECDEV-02): auditable CORE reuse signoff and implementation closeout ledger",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1057"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T08:46:57Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1056,
+      "title": "test(SECDEV-02): joint taxonomy ACL revocation and multilingual menu routing matrix",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1056"
+    },
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T01:06:28Z",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "number": 1055,
+      "title": "test(SECDEV-02): concurrent history integrity and admin filter recovery",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1055"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-26T18:19:45.693086+00:00",
+      "commit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+      "from": 63.64,
+      "to": 63.76,
+      "asOf": "2026-11-20"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-26T00:54:35Z",
@@ -1490,118 +1602,6 @@
       "number": 896,
       "title": "docs(CAT-02): reconcile PR #895 merge and package evidence",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/896"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T23:10:44Z",
-      "commit": "d3e3c27571a679008453ad2b98c8acf8a72388df",
-      "number": 895,
-      "title": "fix(CAT-02): reject malformed scheduling in public lesson previews",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/895"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T22:58:56Z",
-      "commit": "4ed35e729f554c3c2457a60d5fcd82d36c63f9bf",
-      "number": 894,
-      "title": "docs(CAT-02): reconcile PR #893 merge and build evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/894"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T22:57:24Z",
-      "commit": "60e33330001774dd8e89d33fc8c0c9c823ab4cfd",
-      "number": 893,
-      "title": "fix(CAT-02): show public lesson preview only for supported text lessons",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/893"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T22:45:02Z",
-      "commit": "a9a4340c319f6c2d756b050d451bf42c337bbddd",
-      "number": 892,
-      "title": "docs(LES-02): reconcile PR #891 merge, CI and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/892"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T22:41:35Z",
-      "commit": "840bc037f8dd4203db492fcd8f3be1409e726774",
-      "number": 891,
-      "title": "fix(LES-02): unify safe HTML policy for pathways and teacher biographies",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/891"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T22:13:28Z",
-      "commit": "550eb3db51f9efaf56bfa247d8e14fab052b7f74",
-      "number": 890,
-      "title": "docs(LCM-04): reconcile PR #889 merge, CI and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/890"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T22:11:46Z",
-      "commit": "b725b47b40210cffbfcb20421cc029e40932b88d",
-      "number": 889,
-      "title": "fix(LCM-04): prevent teacher purge while linked to Joomla account",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/889"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T21:46:53Z",
-      "commit": "9ab1f372ab84eaac52152c836dab6751315bd4e6",
-      "number": 888,
-      "title": "docs(LCM-03): reconcile PR #887 merge, CI and Joomla package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/888"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T21:45:10Z",
-      "commit": "ab398b32222fb71580a69650e94186801e3d72a0",
-      "number": 887,
-      "title": "fix(LCM-03): enforce native checkout for direct pathway editorial saves",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/887"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T21:26:26Z",
-      "commit": "cfec36ae8210347473619ff8c94324f3d0c7ffcd",
-      "number": 886,
-      "title": "docs(LCM-03/04): reconcile PR #885 merge and CI evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/886"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T21:23:43Z",
-      "commit": "648145b9d4844166806f6a1b2ce0681d98e60be8",
-      "number": 885,
-      "title": "fix(LCM-03/04): protect native Joomla multilingual references on purge",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/885"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T21:11:01Z",
-      "commit": "8bcb7c2a5628ad6d96fe6adba5046dd0494553ac",
-      "number": 884,
-      "title": "docs(LCM-03): reconcile PR #883 CI, merge and package",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/884"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T21:09:24Z",
-      "commit": "89c0c93598eb19e6ff81f36d3d0bf718a8b469fc",
-      "number": 883,
-      "title": "fix(LCM-03): honor Joomla checkout locks for pathway lifecycle mutations",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/883"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T20:53:34Z",
-      "commit": "fecd9c67b4bb01ef69ed38219430772f98c22a48",
-      "number": 882,
-      "title": "docs(LCM-03): reconcile PR #881 merge and verified build",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/882"
     }
   ]
 }

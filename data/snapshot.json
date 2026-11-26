@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T00:55:00.440057+00:00",
+  "generatedAt": "2026-11-26T18:19:45.693086+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "fbaa4cb3595d5a41c495d8d26494f6568880aaf2",
-  "progress": 63.64,
-  "developmentProgress": 63.64,
+  "sourceCommit": "d4b82ff68c53c979f7f36e2d3ab861b07ad0886b",
+  "progress": 63.76,
+  "developmentProgress": 63.76,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -105,11 +105,11 @@
       "label": "Privacy, sicurezza e compatibilità",
       "requirements": 51,
       "weight_percent": 23.83,
-      "development_evidence_floor_percent": 49.77,
+      "development_evidence_floor_percent": 50.26,
       "manual_acceptance_coverage_percent": 0,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 4,
-      "unverifiable_criteria": 96,
+      "unverifiable_criteria": 95,
       "unassessed_criteria": 0
     },
     {
@@ -136,6 +136,253 @@
   },
   "prs": [
     {
+      "number": 1067,
+      "title": "fix(CORE-07): isolate catalog list and category choices by Joomla context",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1067",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T16:49:07Z",
+      "mergedAt": "2026-11-26T16:49:04Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fa5c926f8b460f511f016c3bd304348a32b6ba6f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45861238005"
+      }
+    },
+    {
+      "number": 1066,
+      "title": "fix(CORE-03): isolate category list cache by Joomla identity and language",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1066",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T16:33:36Z",
+      "mergedAt": "2026-11-26T16:33:33Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "88d15100485c8c7d75cf750bdc4b18a41cf4a482",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45850091006"
+      }
+    },
+    {
+      "number": 1065,
+      "title": "fix(CORE-01): fail closed on malformed category parent routes",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1065",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T15:30:25Z",
+      "mergedAt": "2026-11-26T15:30:22Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c892d8c3570b274c34ee40d91653d1a97c759fbf",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45844507902"
+      }
+    },
+    {
+      "number": 1064,
+      "title": "fix(CORE-21): enforce no-store before invalid frontend view rejection",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1064",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T14:21:00Z",
+      "mergedAt": "2026-11-26T14:20:57Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "55caca9374b84e197d00f9219c9ed99b6680a52c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45837198078"
+      }
+    },
+    {
+      "number": 1063,
+      "title": "feat(SCR-08): explicit internal alternatives for unavailable videos and safe copy",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1063",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T13:25:59Z",
+      "mergedAt": "2026-11-26T13:25:57Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b24a822c5e90bb4ca8da33f9d95ae6494c722f4b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45827939575"
+      }
+    },
+    {
+      "number": 1062,
+      "title": "feat(SCR-06): explicit manual completion rule for video lessons",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1062",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T12:47:41Z",
+      "mergedAt": "2026-11-26T12:47:38Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "8e4398240d74647835bcac5dd45215286af886b8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45822137192"
+      }
+    },
+    {
+      "number": 1061,
+      "title": "feat(SCR): review nested category dependencies and safe classroom save feedback",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1061",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T11:48:47Z",
+      "mergedAt": "2026-11-26T11:48:45Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "938ae8f2e3efd9913c9e74561b9952591405ab13",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45813040345"
+      }
+    },
+    {
+      "number": 1060,
+      "title": "fix(LES-02): secure lesson authoring, legacy preview, transcripts and outbound links",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1060",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T11:18:48Z",
+      "mergedAt": "2026-11-26T11:18:46Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "305feeb6ebc39ffc63190693d4941f0037ff747a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45808601231"
+      }
+    },
+    {
+      "number": 1059,
+      "title": "test(SECDEV-02): signed engineering coverage for 17 CORE residuals",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1059",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T10:44:22Z",
+      "mergedAt": "2026-11-26T10:44:20Z",
+      "labels": [
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "546be5d295aff93a185db46b907e36a4b56657ca",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 1058,
+      "title": "test(SECDEV-02, CORE-22): enforce Joomla package/core boundary",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1058",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T10:28:41Z",
+      "mergedAt": "2026-11-26T10:28:39Z",
+      "labels": [
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "97399f4c4dd8178c1673961ef936e6d85ac391eb",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 1057,
+      "title": "test(SECDEV-02): auditable CORE reuse signoff and implementation closeout ledger",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1057",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T09:30:23Z",
+      "mergedAt": "2026-11-26T09:30:20Z",
+      "labels": [
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "39e282a0e7af5962f90589c9f0d34d3b871af979",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 1056,
+      "title": "test(SECDEV-02): joint taxonomy ACL revocation and multilingual menu routing matrix",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1056",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T08:47:00Z",
+      "mergedAt": "2026-11-26T08:46:57Z",
+      "labels": [
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6d60bc9ac33ea4ad9ee71d764765bc8cff06824b",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
+      "number": 1055,
+      "title": "test(SECDEV-02): concurrent history integrity and admin filter recovery",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1055",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T01:06:31Z",
+      "mergedAt": "2026-11-26T01:06:28Z",
+      "labels": [
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c454f19d2e619581c4fd9af507a1061fe70756a6",
+      "ci": {
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
+      }
+    },
+    {
       "number": 1054,
       "title": "test(SECDEV-02): editorial route decoding and lifecycle transition boundaries",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1054",
@@ -149,9 +396,9 @@
       "milestone": "1.0.0",
       "headSha": "2b449222a9a60c15db1e74ddd0baa2d58c075eb2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45731465738"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -168,9 +415,9 @@
       "milestone": "1.0.0",
       "headSha": "1cf1946997f5e81f055fd9d51637cbc23d9571a2",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45730074633"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -187,9 +434,9 @@
       "milestone": "1.0.0",
       "headSha": "9b6a0ac2fc537b0474f251541d29f677cec9a72f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45729010231"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -206,9 +453,9 @@
       "milestone": "1.0.0",
       "headSha": "257dfa19e63a9c91d8390ee457fc12582fc276bf",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45726529709"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -225,9 +472,9 @@
       "milestone": "1.0.0",
       "headSha": "e96b10d0e83cc0eb6afa42bd72ecf6a1f662a715",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45724854783"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -244,9 +491,9 @@
       "milestone": "1.0.0",
       "headSha": "1585bdbb4484c65424511e18dc40fb9718c1b9b8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45717693014"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -263,9 +510,9 @@
       "milestone": "1.0.0",
       "headSha": "a7490e1515c4eab4579c072980eb06f7c4a3744b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45714125370"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -282,9 +529,9 @@
       "milestone": "1.0.0",
       "headSha": "0b2405565ab5ebbd759627fec4774e58679bb0c6",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45711931268"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -320,9 +567,9 @@
       "milestone": "1.0.0",
       "headSha": "67d7d84e1955822afcbe40e6edce817800fbd47e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45706893966"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -339,9 +586,9 @@
       "milestone": "1.0.0",
       "headSha": "26fe9219835f6743173b62d50b8830ac6b75b024",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45703645616"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -358,9 +605,9 @@
       "milestone": "1.0.0",
       "headSha": "724768ee4b4dfc270a0aff295f57461c24dcb52e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45696958294"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -377,9 +624,9 @@
       "milestone": "1.0.0",
       "headSha": "0671531bbf25718311a435cacaee946d8e43066a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45690442945"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1413,253 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 987,
-      "title": "style(SECDEV-02): terzo batch massivo PHPCBF PSR-12 sul PHP tracciato",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/987",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T14:00:54Z",
-      "mergedAt": "2026-11-23T14:00:52Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6ee5b7a0f9612a6ab9eeb0707095638b74b81e33",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 986,
-      "title": "style(SECDEV-02): correggere 7.444 rilievi strutturali PSR-12 in 262 PHP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/986",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T13:16:32Z",
-      "mergedAt": "2026-11-23T13:16:29Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "3362a63c799d7a8d056631cce775f32b207e057e",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 985,
-      "title": "style(SECDEV-02): correggere in massa 31.062 violazioni PSR-12 su 152 file",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/985",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T11:47:00Z",
-      "mergedAt": "2026-11-23T11:46:57Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6595930f31f68495d9ecb01d6be694995ad97104",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 984,
-      "title": "style(SECDEV-02): classificare e ridurre il debito PSR-12 per priorità",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/984",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T11:07:17Z",
-      "mergedAt": "2026-11-23T11:07:14Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "1feb0bbbdfd1c2a446ba9dc1e88e2a744496c938",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 983,
-      "title": "test(SECDEV-02): prova Joomla 6 senza plugin di retrocompatibilità",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/983",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T10:29:52Z",
-      "mergedAt": "2026-11-23T10:29:50Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b93d508b7c1d0125c5e9135b11544f193d927b27",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 982,
-      "title": "test(SECDEV-02): audit PSR-12 reale su tutti i PHP con PHP_CodeSniffer",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/982",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T10:18:37Z",
-      "mergedAt": "2026-11-23T10:18:35Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8427e6216387a78edb33dde6b5439e938139f415",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 981,
-      "title": "fix(SECDEV-02): localizzare e risolvere il debito PHP PSR-4 residuo",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/981",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T10:03:52Z",
-      "mergedAt": "2026-11-23T10:03:49Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "285cb3f5590e98b3af2bb74e1d8ddc983dfd5435",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 980,
-      "title": "test(SECDEV-02): inventario PHP PSR-4 completo e blocco regressioni di stile",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/980",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T09:48:49Z",
-      "mergedAt": "2026-11-23T09:48:46Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "04eb25ed3f3cb06710d6d5622159b74ba3e1f9e3",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 979,
-      "title": "test(SECDEV-02): impedire reintroduzione di API legacy Joomla 6",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/979",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T09:28:58Z",
-      "mergedAt": "2026-11-23T09:28:55Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b2da052000c98dda9e8e91e5edd2153175e15e15",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 978,
-      "title": "test(SECDEV-02): registro verificabile dei 23 servizi core Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/978",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T09:21:47Z",
-      "mergedAt": "2026-11-23T09:21:44Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "d6c08694c193fda22af405b0980247c3cc07b302",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 977,
-      "title": "test(SECDEV-02): proteggere contratti PHP/PSR-4 e integrità core in CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/977",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T09:06:54Z",
-      "mergedAt": "2026-11-23T09:06:51Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "189da566eec81e3abd0d46ef89c41ac874f45158",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 976,
-      "title": "test(SECDEV-01): controllo antiregressione del confine MVC nei template Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/976",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T08:46:11Z",
-      "mergedAt": "2026-11-23T08:46:09Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a69bfcc55f197e1cb576f2ea23d6200dd2e05adf",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 975,
-      "title": "test(SECDEV-03): completamento gate implementativo e riconciliazione criteri 1.0.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/975",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T08:27:08Z",
-      "mergedAt": "2026-11-23T08:27:06Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "2ff6848c2c494627aa71be8e9679fa0dd0453ee9",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T00:54:14Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45731465738/artifacts/15077242382"
+    "createdAt": "2026-11-26T16:47:20Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45861238005/artifacts/15139021089"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
