@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T18:27:13.045625+00:00",
+  "generatedAt": "2026-11-26T18:46:29.956980+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "065a064e0375d02c40e133a370eb7561579c894b",
+  "sourceCommit": "eea9a8a5e657224dc0f5343dfe713379828017b9",
   "progress": 63.76,
   "developmentProgress": 63.76,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1069,
+      "title": "fix(CORE-10): isolate public teacher course-list cache per context",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1069",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T18:46:13Z",
+      "mergedAt": "2026-11-26T18:46:10Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e48d5f9a1636bf92d2294992601369f91b93b77c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45877837121"
+      }
+    },
     {
       "number": 1068,
       "title": "fix(CORE-06): reject malformed quoted Joomla language values",
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 989,
-      "title": "test(SECDEV-02): contratti nativi CORE-05, 06 e 09 in CI",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/989",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T14:26:22Z",
-      "mergedAt": "2026-11-23T14:26:20Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "959b206501fcc2cd8398f7a5c345ee6c51564be8",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T18:25:24Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45875137481/artifacts/15143464314"
+    "createdAt": "2026-11-26T18:45:43Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45877837104/artifacts/15146696162"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
