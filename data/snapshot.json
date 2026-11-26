@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T22:55:31.123544+00:00",
+  "generatedAt": "2026-11-26T23:27:06.077194+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4e47ac9c8622821775ae0601d88c008db1aea52a",
+  "sourceCommit": "90674ce64778b7328f461c0a1467d3070b2fb0ec",
   "progress": 64.81,
   "developmentProgress": 64.81,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1079,
+      "title": "test(CORE-03): verify entitlement revocation across learner contexts",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1079",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T23:26:42Z",
+      "mergedAt": "2026-11-26T23:26:39Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "333db71648f625d03e75e268cba1e13dbfb99a0a",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45910391523"
+      }
+    },
     {
       "number": 1078,
       "title": "docs(CORE-21): reconcile private cache implementation evidence",
@@ -287,9 +306,9 @@
       "milestone": "1.0.0",
       "headSha": "621df6fd146fd060e9bb4dd54ef3e4e40ef86dac",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45884464216"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1646,25 +1665,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 999,
-      "title": "style(SECDEV-02): format long learning and quiz arrays without runtime changes",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/999",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T20:38:14Z",
-      "mergedAt": "2026-11-23T20:38:00Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "35b51240eb043da2214a2ab1a3643dc685d774ac",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1696,8 +1696,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T22:54:43Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45907230508/artifacts/15159135843"
+    "createdAt": "2026-11-26T23:25:51Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45910391500/artifacts/15160505380"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

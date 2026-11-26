@@ -830,7 +830,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "122;187;1066",
+    "prs": "122;187;1066;1079",
     "todo": "Nessun sistema di identità/gruppi parallelo richiesto; completare l’uso dei servizi nativi nelle azioni core ancora mancanti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-22; AC-25; AC-38; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Copertura di tutti i flussi residui e collaudo completo con gruppi/livelli dell’estensione esterna.",
     "criteria": "Gruppi utenti e livelli di accesso; Usare gruppi e viewing access levels Joomla; nessun elenco parallelo di identità o livelli; gruppi didattici restano oggetti distinti"
