@@ -1006,7 +1006,7 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "202;1040;1041;1043",
+    "prs": "202;1040;1041;1043;1071",
     "todo": "Completare diagnostica e routine di conservazione core; pulizia materiali orfani #202 presente. Notifiche/code avanzate fase 2.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-18; AC-73; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Notifiche/purga/code generali, diagnostica e tutte le routine previste.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
