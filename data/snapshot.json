@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T00:47:31.890556+00:00",
+  "generatedAt": "2026-11-26T00:55:00.440057+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "16338831a4bdb2e812a3bfff3516fa07fff6d21e",
+  "sourceCommit": "fbaa4cb3595d5a41c495d8d26494f6568880aaf2",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1054,
+      "title": "test(SECDEV-02): editorial route decoding and lifecycle transition boundaries",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1054",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T00:54:37Z",
+      "mergedAt": "2026-11-26T00:54:35Z",
+      "labels": [
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "2b449222a9a60c15db1e74ddd0baa2d58c075eb2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45731465738"
+      }
+    },
     {
       "number": 1053,
       "title": "test(SECDEV-02): native multilingual fields and content event safety",
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 974,
-      "title": "fix(SECDEV-03): bloccare token negli URL pubblici dei docenti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/974",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T07:58:44Z",
-      "mergedAt": "2026-11-23T07:58:41Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c46f60e3217096da1a16bb11f0dc29a798c9e028",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T00:46:32Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45730074633/artifacts/15076722177"
+    "createdAt": "2026-11-26T00:54:14Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45731465738/artifacts/15077242382"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
