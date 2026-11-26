@@ -1028,9 +1028,9 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "93;190;1038;1043;1064",
+    "prs": "93;190;1032;1038;1043;1064",
     "todo": "Completare cache metadati e invalidazione multilivello dei flussi core non coperti.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-38; AC-75; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Cache metadati e invalidazione complete, test di tutte le viste/chiavi multilivello e carico.",
+    "tests": "Collaudo manuale Joomla non eseguito; testare proxy/CDN, reverse proxy e separazione tra sessioni su hosting reale. Resta distinta l'implementazione della cache metadata/invalidation multilivello non coperta.",
     "criteria": "Asset, cache e sessione; Web Asset Manager, sessione/token e caching Joomla; cache privata o disabilitata sulle viste personali"
   },
   {

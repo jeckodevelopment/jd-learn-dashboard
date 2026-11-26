@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T22:31:26.955345+00:00",
+  "generatedAt": "2026-11-26T22:55:31.123544+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0b5f8b680e19b71ab3225f28e39635c95a2707b1",
-  "progress": 64.58,
-  "developmentProgress": 64.58,
+  "sourceCommit": "4e47ac9c8622821775ae0601d88c008db1aea52a",
+  "progress": 64.81,
+  "developmentProgress": 64.81,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -93,11 +93,11 @@
       "label": "Joomla, ACL e configurazione",
       "requirements": 38,
       "weight_percent": 17.76,
-      "development_evidence_floor_percent": 55.48,
+      "development_evidence_floor_percent": 56.8,
       "manual_acceptance_coverage_percent": 2.63,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 37,
+      "unverifiable_criteria": 36,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1078,
+      "title": "docs(CORE-21): reconcile private cache implementation evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1078",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T22:55:23Z",
+      "mergedAt": "2026-11-26T22:55:21Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "819bea1c1ce51a189ce38ad2968e868a2a8b2423",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45907230510"
+      }
+    },
     {
       "number": 1077,
       "title": "docs(SEC-P5): reconcile E2E implementation and progress",
@@ -286,9 +306,9 @@
       "milestone": "1.0.0",
       "headSha": "5538514c27bedc57232fc27e297abfaeda04d329",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45879153896"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -305,9 +325,9 @@
       "milestone": "1.0.0",
       "headSha": "e48d5f9a1636bf92d2294992601369f91b93b77c",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45877837121"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1645,25 +1665,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 998,
-      "title": "style(SECDEV-02): refactor 28 fluent query files with 229 fewer PSR-12 findings",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/998",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T19:39:42Z",
-      "mergedAt": "2026-11-23T19:39:39Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "02c67c02272414145ee539e8094dfcca80a2d1f1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1695,8 +1696,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T22:15:46Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45902877659/artifacts/15156214966"
+    "createdAt": "2026-11-26T22:54:43Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45907230508/artifacts/15159135843"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
