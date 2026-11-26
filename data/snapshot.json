@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T20:58:41.000918+00:00",
+  "generatedAt": "2026-11-26T21:21:48.486476+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b83175d317217e01764733bd424bdf7782f1f24e",
+  "sourceCommit": "3e751181fcb89be238c131958fbe00ebc1dbb990",
   "progress": 63.99,
   "developmentProgress": 63.99,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1073,
+      "title": "test(CORE-10): restore teacher fields from Content History",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1073",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T21:21:20Z",
+      "mergedAt": "2026-11-26T21:21:19Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5182bc5bab4c60449e396e25bd9c1e7f66dacb0d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45896779454"
+      }
+    },
     {
       "number": 1072,
       "title": "fix(MAIL-05): complete native email preference inheritance matrix",
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 993,
-      "title": "style(SECDEV-02): altre 51 correzioni PSR-12 con rollback per file",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/993",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T15:38:25Z",
-      "mergedAt": "2026-11-23T15:38:22Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7a7febedaca4c7cdf0df532c2bcc9048a059dbdf",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T20:57:45Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45894231847/artifacts/15153246858"
+    "createdAt": "2026-11-26T21:19:43Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45896779437/artifacts/15153668018"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
