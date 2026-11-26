@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-26T00:35:16.945349+00:00",
+  "generatedAt": "2026-11-26T00:47:31.890556+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-26T00:47:00Z",
+      "commit": "16338831a4bdb2e812a3bfff3516fa07fff6d21e",
+      "number": 1053,
+      "title": "test(SECDEV-02): native multilingual fields and content event safety",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1053"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-26T00:34:39Z",
@@ -1594,14 +1602,6 @@
       "number": 881,
       "title": "fix(LCM-03): preserve pathway associations on partial saves",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/881"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-21T19:45:39Z",
-      "commit": "10f8c44cb446f9c15cfd7815da7b38576caedd10",
-      "number": 880,
-      "title": "fix(SCR-01): persist catalogue filters in Joomla pagination links",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/880"
     }
   ]
 }

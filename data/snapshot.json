@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T00:35:16.945349+00:00",
+  "generatedAt": "2026-11-26T00:47:31.890556+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0dd5f507a490fdca70745c18f83b7e9be6bd18f7",
+  "sourceCommit": "16338831a4bdb2e812a3bfff3516fa07fff6d21e",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1053,
+      "title": "test(SECDEV-02): native multilingual fields and content event safety",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1053",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T00:47:03Z",
+      "mergedAt": "2026-11-26T00:47:00Z",
+      "labels": [
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1cf1946997f5e81f055fd9d51637cbc23d9571a2",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45730074633"
+      }
+    },
     {
       "number": 1052,
       "title": "test(SECDEV-02): resolve statically joined Joomla locale keys",
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 973,
-      "title": "fix(SECDEV-03): binding SQL associazioni percorso–corso",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/973",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T07:42:49Z",
-      "mergedAt": "2026-11-23T07:42:46Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "50cd2612d5c93ad1a677ee514aafe506e3bd0b47",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T00:34:10Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45729010231/artifacts/15075678468"
+    "createdAt": "2026-11-26T00:46:32Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45730074633/artifacts/15076722177"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
