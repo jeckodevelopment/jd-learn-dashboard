@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T00:14:55.040560+00:00",
+  "generatedAt": "2026-11-26T00:35:16.945349+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "62d238f14fc6287aef2767b3c7c1f75be61fd44a",
+  "sourceCommit": "0dd5f507a490fdca70745c18f83b7e9be6bd18f7",
   "progress": 63.64,
   "developmentProgress": 63.64,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1052,
+      "title": "test(SECDEV-02): resolve statically joined Joomla locale keys",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1052",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T00:34:41Z",
+      "mergedAt": "2026-11-26T00:34:39Z",
+      "labels": [
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9b6a0ac2fc537b0474f251541d29f677cec9a72f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45729010231"
+      }
+    },
     {
       "number": 1051,
       "title": "test(SECDEV-02): protect teacher administrative fields from forged updates",
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 972,
-      "title": "fix(SECDEV-03): rifiutare tipi non validi nell’artwork dei percorsi",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/972",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T07:35:01Z",
-      "mergedAt": "2026-11-23T07:34:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f70a9f65a71e8e3688482aa36f0c644592bcaeca",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T00:13:53Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45726529631/artifacts/15075295705"
+    "createdAt": "2026-11-26T00:34:10Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45729010231/artifacts/15075678468"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
