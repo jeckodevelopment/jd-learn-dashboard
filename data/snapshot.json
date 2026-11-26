@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T19:39:25.153001+00:00",
+  "generatedAt": "2026-11-26T20:58:41.000918+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "1f3ff121aec2096f470f9b2eb5d0c0f079bc2116",
-  "progress": 63.76,
-  "developmentProgress": 63.76,
+  "sourceCommit": "b83175d317217e01764733bd424bdf7782f1f24e",
+  "progress": 63.99,
+  "developmentProgress": 63.99,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -81,11 +81,11 @@
       "label": "Email e notifiche",
       "requirements": 13,
       "weight_percent": 6.07,
-      "development_evidence_floor_percent": 67.31,
+      "development_evidence_floor_percent": 71.15,
       "manual_acceptance_coverage_percent": 15.38,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 11,
+      "unverifiable_criteria": 10,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1072,
+      "title": "fix(MAIL-05): complete native email preference inheritance matrix",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1072",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-26T20:58:16Z",
+      "mergedAt": "2026-11-26T20:58:14Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "beaed51b51972365c94bdce945420eb9097c8d56",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45894231918"
+      }
+    },
     {
       "number": 1071,
       "title": "fix(CORE-19): guard all mail skipped transitions by active sending claim",
@@ -301,9 +320,9 @@
       "milestone": "1.0.0",
       "headSha": "b24a822c5e90bb4ca8da33f9d95ae6494c722f4b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45827939575"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1641,25 +1660,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 992,
-      "title": "test(SECDEV-02): bloccare ulteriori API rimosse in Joomla 6",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/992",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T15:29:09Z",
-      "mergedAt": "2026-11-23T15:29:06Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0b63c5e2e5ad87478efd5e8277e101979e80ed58",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1691,8 +1691,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T19:38:37Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45884464216/artifacts/15148283752"
+    "createdAt": "2026-11-26T20:57:45Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45894231847/artifacts/15153246858"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
