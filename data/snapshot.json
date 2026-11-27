@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T20:14:02.657411+00:00",
+  "generatedAt": "2026-11-27T21:14:08.117113+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b931169341cc68f1de28333eec42c0cc517b1a2f",
-  "progress": 65.16,
-  "developmentProgress": 65.16,
+  "sourceCommit": "ab4b9adccd3c12e3cf49e6f876b841e25a5c5248",
+  "progress": 65.32,
+  "developmentProgress": 65.32,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -93,11 +93,11 @@
       "label": "Joomla, ACL e configurazione",
       "requirements": 38,
       "weight_percent": 17.76,
-      "development_evidence_floor_percent": 58.11,
+      "development_evidence_floor_percent": 58.99,
       "manual_acceptance_coverage_percent": 2.63,
       "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 35,
+      "unverifiable_criteria": 34,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1095,
+      "title": "fix(CORE-04): honor teacher edit-own in bulk lifecycle",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1095",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T21:13:45Z",
+      "mergedAt": "2026-11-27T21:13:44Z",
+      "labels": [
+        "P1",
+        "security"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "44d6954bb7c54d2f8f091f4476aa40e78e5144a1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46067251250"
+      }
+    },
     {
       "number": 1094,
       "title": "docs(STU-01): record merged implementation evidence",
@@ -246,9 +266,9 @@
       "milestone": "1.0.0",
       "headSha": "d945decb269a52fbfe72c664c1c78420829ad20f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46016830011"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -265,9 +285,9 @@
       "milestone": "1.0.0",
       "headSha": "bf43c250c1e1d89b7c54f76123c6f2eb7b9d54cb",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46012323583"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,26 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1015,
-      "title": "style(SECDEV-02): consolidated guarded remediation of remaining PSR-12 debt",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1015",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T11:19:17Z",
-      "mergedAt": "2026-11-24T11:19:14Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "9a9afd40f2ffc1f9d39ed74313eae75279c46aa1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T20:05:13Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46060467814/artifacts/15229126833"
+    "createdAt": "2026-11-27T21:08:48Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46067251250/artifacts/15230829543"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

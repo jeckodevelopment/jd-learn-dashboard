@@ -841,9 +841,9 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Non eseguita",
-    "prs": "18;1034;1040",
-    "todo": "Completare permessi/dipendenze di eliminazione e ulteriori azioni core; report/export/rettifiche avanzate differiti.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-49; AC-61; AC-123; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Report/export/rettifiche/eliminazioni e intera matrice dei ruoli.",
+    "prs": "18;1034;1040;1095",
+    "todo": "CORE-04/record_acl: software core verificabile nei contesti corsi, percorsi e docenti con autorizzazione per record e rollback delle selezioni miste; criterio riconciliato nel lotto candidato. Rimane CORE-04/teacher_edit non verificabile: matrice completa di campi, pubblicazione, categoria, lingua e tag. Report/export/rettifiche avanzate differiti.",
+    "tests": "Accettazione manuale Joomla separata: provare ACL record-level e selezioni miste per corsi, percorsi e docenti; verificare la matrice profilo docente e campi riservati. La CI non sostituisce le prove sul sito.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
   },
   {
