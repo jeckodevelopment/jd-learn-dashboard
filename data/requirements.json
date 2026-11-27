@@ -2546,9 +2546,9 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "",
-    "todo": "Eseguire censimento dei deliverable e interventi necessari; nessuna completezza certificata.",
-    "tests": "Eseguire gli scenari approvati sul codice e documentazione della candidata 1.0.0; produrre report e collegamento alla PR/testbook.",
+    "prs": "1082",
+    "todo": "CI da superare per il criterio illustrativo; il walkthrough e la verifica di coerenza con il pacchetto Joomla installato restano distinti. Criteri DOC-03/01, 02 e 04 non promossi da questa PR.",
+    "tests": "Confrontare le illustrazioni con catalogo, area personale, aula e profilo docente nel pacchetto Joomla installato; eseguire il walkthrough docente/studente non sviluppatore e registrare i risultati. Nessuna accettazione manuale anticipata.",
     "criteria": "Manuale docente e studente con percorsi tipici, screenshot accessibili e prove eseguibili da utenti non sviluppatori."
   },
   {

@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T04:55:54.083212+00:00",
+  "generatedAt": "2026-11-27T09:02:12.365825+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "6f039266786d539016d873e46a773a74b5343a40",
+  "sourceCommit": "65ddd01a60e97c4ff6ca47ecd7ce217b27399f4d",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -129,7 +129,7 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 1,
+    "prOpen": 0,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
@@ -139,20 +139,20 @@
       "number": 1082,
       "title": "docs(DOC-03): add accessible student and teacher screen illustrations",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1082",
-      "status": "open",
+      "status": "merged",
       "draft": false,
-      "updated": "2026-11-27T01:05:12Z",
-      "mergedAt": null,
+      "updated": "2026-11-27T09:01:46Z",
+      "mergedAt": "2026-11-27T09:01:43Z",
       "labels": [
         "documentation",
         "P1"
       ],
       "milestone": "1.0.0",
-      "headSha": "a455b885cf2fd97a0561cc1a9282bb50fbb0cd79",
+      "headSha": "d297725aa9655ab25b4e02ff538d95e19d38249d",
       "ci": {
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45920520798"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45969548519"
       }
     },
     {
@@ -227,9 +227,9 @@
       "milestone": "1.0.0",
       "headSha": "819bea1c1ce51a189ce38ad2968e868a2a8b2423",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45907230510"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1666,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1002,
-      "title": "style(SECDEV-02): ridurre le righe lunghe del template curriculum",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1002",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T21:37:50Z",
-      "mergedAt": "2026-11-23T21:37:48Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "5ace66f442c44e148d0f8736d5295097a4ceae50",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1716,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T00:48:04Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45918270600/artifacts/15164040132"
+    "createdAt": "2026-11-27T09:01:13Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45969548519/artifacts/15184646714"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
