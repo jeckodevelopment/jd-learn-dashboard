@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T20:06:25.849881+00:00",
+  "generatedAt": "2026-11-27T20:14:02.657411+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9514c86381b90ce3e0b6d84f16bbf1433c49140c",
+  "sourceCommit": "b931169341cc68f1de28333eec42c0cc517b1a2f",
   "progress": 65.16,
   "developmentProgress": 65.16,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1094,
+      "title": "docs(STU-01): record merged implementation evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1094",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T20:13:39Z",
+      "mergedAt": "2026-11-27T20:13:36Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c838d415cd972c7411c8e403350c0bbe6c8d3b5e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46061983358"
+      }
+    },
     {
       "number": 1093,
       "title": "test(STU-01): close block diagnosis coverage",
@@ -1642,26 +1662,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "9a9afd40f2ffc1f9d39ed74313eae75279c46aa1",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 1013,
-      "title": "style(SECDEV-02): verified bulk PHP PSR-12 remediation — 30 findings removed",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1013",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T10:49:22Z",
-      "mergedAt": "2026-11-24T10:49:20Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7fde0318fb3fa76fbe36f2c81856d2035667e7e0",
       "ci": {
         "status": "unknown",
         "conclusion": null,
