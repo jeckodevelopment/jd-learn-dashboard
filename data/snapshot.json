@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T22:00:10.783235+00:00",
+  "generatedAt": "2026-11-27T22:27:59.198530+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d56c5b52c469eb776145c1cbc6ea78fd1275a1fc",
-  "progress": 65.55,
-  "developmentProgress": 65.55,
+  "sourceCommit": "9f1a88dc59ab3ec0b3f7329cb08458e2e5345c2a",
+  "progress": 65.78,
+  "developmentProgress": 65.78,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -93,11 +93,11 @@
       "label": "Joomla, ACL e configurazione",
       "requirements": 38,
       "weight_percent": 17.76,
-      "development_evidence_floor_percent": 60.31,
+      "development_evidence_floor_percent": 61.62,
       "manual_acceptance_coverage_percent": 2.63,
       "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 33,
+      "unverifiable_criteria": 32,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1099,
+      "title": "test(CORE-14): verify native Finder index events",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1099",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T22:27:38Z",
+      "mergedAt": "2026-11-27T22:27:36Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "7b0dfae62312b3196705def8a01bfc9770cb8c1b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46076074058"
+      }
+    },
     {
       "number": 1098,
       "title": "docs(CORE-03): registra CI e artefatto integrato",
@@ -1651,25 +1670,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1019,
-      "title": "refactor(SECDEV-02): mass PSR-12 remediation −480 findings (final CI)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1019",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T17:33:08Z",
-      "mergedAt": "2026-11-24T17:30:27Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "502a5bc5cbd78ea58dbe08cd185ef108a7b921e2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1701,8 +1701,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T21:53:23Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46072672529/artifacts/15234490645"
+    "createdAt": "2026-11-27T22:26:40Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46076074058/artifacts/15235566174"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
