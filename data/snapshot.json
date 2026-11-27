@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T00:49:12.908412+00:00",
+  "generatedAt": "2026-11-27T04:55:54.083212+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "6f039266786d539016d873e46a773a74b5343a40",
   "progress": 65.04,
@@ -129,12 +129,32 @@
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
-    "prOpen": 0,
+    "prOpen": 1,
     "issuesOpen": 0,
     "p0": 0,
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1082,
+      "title": "docs(DOC-03): add accessible student and teacher screen illustrations",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1082",
+      "status": "open",
+      "draft": false,
+      "updated": "2026-11-27T01:05:12Z",
+      "mergedAt": null,
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "a455b885cf2fd97a0561cc1a9282bb50fbb0cd79",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45920520798"
+      }
+    },
     {
       "number": 1081,
       "title": "feat(CORE-09): add native Joomla tags to pathways",
