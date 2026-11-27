@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T23:17:46.714430+00:00",
+  "generatedAt": "2026-11-27T23:22:47.982610+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
   "sourceCommit": "720a971be02e64394b3bf851dafa2e977ae69fe2",
   "progress": 65.94,
@@ -149,8 +149,8 @@
       "milestone": "1.0.0",
       "headSha": "d6c01f3068b4edbf7f190d44959605681b31161e",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46081643867"
       }
     },
@@ -1700,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T23:16:35Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46080987396/artifacts/15236917845"
+    "createdAt": "2026-11-27T23:22:12Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46081643867/artifacts/15237233447"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
