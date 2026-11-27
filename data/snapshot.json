@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T10:59:37.539156+00:00",
+  "generatedAt": "2026-11-27T11:53:53.404477+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "4935306329ae3fac2cc2ff0cfa6b2b73de66d000",
+  "sourceCommit": "44482f77a8fdb98e3b7425da3fe99a1182a46357",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 1086,
+      "title": "CORE-10: scope lesson custom fields by language",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1086",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T11:53:31Z",
+      "mergedAt": "2026-11-27T11:53:29Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e11ff4dcbb3072c26f48110ab031faf6bf3205a8",
+      "ci": {
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45994135465"
+      }
+    },
+    {
       "number": 1085,
       "title": "feat(STU-01): guide learners through blocked course access",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1085",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-27T10:59:12Z",
+      "updated": "2026-11-27T10:59:45Z",
       "mergedAt": "2026-11-27T10:59:09Z",
       "labels": [
         "P1"
@@ -151,7 +170,7 @@
       "ci": {
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45985749445"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45986736952"
       }
     },
     {
@@ -207,9 +226,9 @@
       "milestone": "1.0.0",
       "headSha": "d297725aa9655ab25b4e02ff538d95e19d38249d",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45969548519"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1006,
-      "title": "style(SECDEV-02): consolidate HTML attribute line lengths in course and curriculum views",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1006",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T23:35:29Z",
-      "mergedAt": "2026-11-23T23:35:27Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "af1f04214495b3fdc0ef78602c6085f0e9213abf",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T10:58:19Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45985749445/artifacts/15190683942"
+    "createdAt": "2026-11-27T11:53:05Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45993247077/artifacts/15194244330"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
