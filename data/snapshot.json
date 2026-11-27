@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T15:27:31.860939+00:00",
+  "generatedAt": "2026-11-27T18:33:54.921977+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "91c95b2417f3746191d46e669fdcbf7d6a5f96d0",
+  "sourceCommit": "23ea8730abe9fe0c1dee9ccf125025977322d181",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1091,
+      "title": "Fix CORE-16 teacher tag history and restore",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1091",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T18:33:32Z",
+      "mergedAt": "2026-11-27T18:33:29Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c6682c10fb18971173f36fd83246665d53134fdd",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46049441199"
+      }
+    },
+    {
       "number": 1090,
       "title": "test(CORE-15): verifica blocco programma durante revisione",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1090",
@@ -149,8 +168,8 @@
       "milestone": "1.0.0",
       "headSha": "ef5f3a43628e5e6b77f32552325543b40fb0cfcd",
       "ci": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46024993700"
       }
     },
@@ -244,9 +263,9 @@
       "milestone": "1.0.0",
       "headSha": "fff735fb1acc6360fd753daacbed04e604ee0a2b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45986736952"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1011,
-      "title": "style(SECDEV-02): one bulk PR resolves 258 PSR12 findings across prioritized PHP",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1011",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T08:38:47Z",
-      "mergedAt": "2026-11-24T08:38:44Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "21c4ee3d4e2cd416476e6d28349f6d5a55764f2f",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T15:19:58Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46023230529/artifacts/15211875708"
+    "createdAt": "2026-11-27T18:32:34Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46049441199/artifacts/15224785395"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
