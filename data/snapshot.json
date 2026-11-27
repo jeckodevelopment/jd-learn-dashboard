@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T14:08:54.542452+00:00",
+  "generatedAt": "2026-11-27T14:43:12.139222+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a1ef391ff617c4daeadb78bed6b345b7f2149dca",
+  "sourceCommit": "92a147284cd79c12fa1ea5cd9cfe852bf29a5d71",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1089,
+      "title": "feat(CORE-20): sort enrollment roster columns",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1089",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T14:42:44Z",
+      "mergedAt": "2026-11-27T14:42:42Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d945decb269a52fbfe72c664c1c78420829ad20f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46016830011"
+      }
+    },
+    {
       "number": 1088,
       "title": "feat(CORE-20): add native pathway list search and filters",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1088",
@@ -225,9 +244,9 @@
       "milestone": "1.0.0",
       "headSha": "60400db7f0f1fad9c249beb3fd995d788d290a85",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45977060462"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1009,
-      "title": "style(SECDEV-02): structural PHP expression refactoring with 56 PSR12 findings removed",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1009",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T07:24:35Z",
-      "mergedAt": "2026-11-24T07:24:33Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "63d2165c5f660453f6273767e3c04372b0e0c3ed",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T14:07:47Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46012323506/artifacts/15204530868"
+    "createdAt": "2026-11-27T14:41:56Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46016830003/artifacts/15208115117"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
