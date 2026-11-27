@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-26T23:45:52.864887+00:00",
+  "generatedAt": "2026-11-27T00:49:12.908412+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "b87769f5538523144c0861b8fa601fb08df81d85",
-  "progress": 64.81,
-  "developmentProgress": 64.81,
+  "sourceCommit": "6f039266786d539016d873e46a773a74b5343a40",
+  "progress": 65.04,
+  "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -93,11 +93,11 @@
       "label": "Joomla, ACL e configurazione",
       "requirements": 38,
       "weight_percent": 17.76,
-      "development_evidence_floor_percent": 56.8,
+      "development_evidence_floor_percent": 58.11,
       "manual_acceptance_coverage_percent": 2.63,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 36,
+      "unverifiable_criteria": 35,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1081,
+      "title": "feat(CORE-09): add native Joomla tags to pathways",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1081",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T00:48:54Z",
+      "mergedAt": "2026-11-27T00:48:51Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "49d50f0dc253f2afed75d4d1245c001c742ed1ec",
+      "ci": {
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45918923825"
+      }
+    },
     {
       "number": 1080,
       "title": "fix(MAIL-G): advance manager notice batches past queued requests",
@@ -208,9 +227,9 @@
       "milestone": "1.0.0",
       "headSha": "a9826eda70e8a760e5d70653ab42242cec8ff8ee",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45905121033"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -228,9 +247,9 @@
       "milestone": "1.0.0",
       "headSha": "5d88478ad16ef6a6c21ff06de945111c708d3865",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45902877659"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -248,9 +267,9 @@
       "milestone": "1.0.0",
       "headSha": "a73143004d18a6ad8015084c5457a7968e951b4a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45901036533"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -268,9 +287,9 @@
       "milestone": "1.0.0",
       "headSha": "9a5e5f6a4e850995e58f32c261a51f56557e0ad4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45899449372"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1646,25 +1665,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1001,
-      "title": "style(SECDEV-02): semplificare 33 dipendenze del provider DI Joomla",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1001",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T21:18:22Z",
-      "mergedAt": "2026-11-23T21:18:20Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6fce61d52fb2cd9ca4dff30844e1850dcb79d856",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1696,8 +1696,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-26T23:44:55Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45912281816/artifacts/15160522582"
+    "createdAt": "2026-11-27T00:48:04Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45918270600/artifacts/15164040132"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

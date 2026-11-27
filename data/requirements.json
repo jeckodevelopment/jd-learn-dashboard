@@ -893,12 +893,12 @@
   {
     "id": "CORE-09",
     "area": "CORE",
-    "state": "Parziale",
+    "state": "Completata",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "222;1040",
-    "todo": "Completare eventuali correzioni emerse dai test manuali; le altre entità editoriali non sono incluse.",
-    "tests": "Eseguire e registrare AC-19 e AC-64 in Joomla; accettazione manuale ancora pendente.",
+    "prs": "222;1040;1081",
+    "todo": "Nessuno nel perimetro core di registrazione/esposizione dei tag per le entità editoriali previste: corsi, docenti e percorsi. Ricerca/ACL sul sito installato e accettazione Joomla sono verifiche manuali.",
+    "tests": "Eseguire AC-19 e AC-64 in Joomla: assegnare, rimuovere e riassegnare tag su corso, docente e percorso; verificare ricerca tag, ACL, lingua e visibilità dopo upgrade. Stato collaudo manuale: In attesa.",
     "criteria": "Associazione nativa tag Joomla ai corsi; le altre entità editoriali restano fuori da questa PR."
   },
   {
