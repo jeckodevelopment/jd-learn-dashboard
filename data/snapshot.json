@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T21:14:08.117113+00:00",
+  "generatedAt": "2026-11-27T21:21:50.500349+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "ab4b9adccd3c12e3cf49e6f876b841e25a5c5248",
+  "sourceCommit": "8fc2658599fbc9cc8d2309585f072cee94170bbd",
   "progress": 65.32,
   "developmentProgress": 65.32,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1096,
+      "title": "docs(CORE-04): record merged ACL increment and CI evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1096",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T21:21:24Z",
+      "mergedAt": "2026-11-27T21:21:22Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d99da1ead3f456906c5c2c633acc27b741e70762",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46069565497"
+      }
+    },
     {
       "number": 1095,
       "title": "fix(CORE-04): honor teacher edit-own in bulk lifecycle",
@@ -1643,25 +1663,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "aeafff4499585ab73991b8d323e68352fc1fc83b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 1016,
-      "title": "style(SECDEV-02): structural bulk remediation of PHP/HTML long lines",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1016",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T11:59:17Z",
-      "mergedAt": "2026-11-24T11:59:13Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f28183c45ab94fd2ffe48ea639763de11ccbba6e",
       "ci": {
         "status": "unknown",
         "conclusion": null,
