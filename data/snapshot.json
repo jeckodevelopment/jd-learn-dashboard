@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T18:41:37.352318+00:00",
+  "generatedAt": "2026-11-27T20:06:25.849881+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "cb2d13c9cffec9524e57a407204ef1e3e44f2991",
-  "progress": 65.04,
-  "developmentProgress": 65.04,
+  "sourceCommit": "9514c86381b90ce3e0b6d84f16bbf1433c49140c",
+  "progress": 65.16,
+  "developmentProgress": 65.16,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -13,7 +13,7 @@
     "requirements_passed": 0,
     "requirements_failed": 0,
     "coverage_percent": 4.67,
-    "fully_accepted_percent": 0
+    "fully_accepted_percent": 0.0
   },
   "macroareas": [
     {
@@ -23,7 +23,7 @@
       "weight_percent": 10.75,
       "development_evidence_floor_percent": 84.12,
       "manual_acceptance_coverage_percent": 13.04,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 11,
       "unassessed_criteria": 0
@@ -34,8 +34,8 @@
       "requirements": 20,
       "weight_percent": 9.35,
       "development_evidence_floor_percent": 80.33,
-      "manual_acceptance_coverage_percent": 0,
-      "manual_fully_accepted_percent": 0,
+      "manual_acceptance_coverage_percent": 0.0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 13,
       "unassessed_criteria": 0
@@ -45,11 +45,11 @@
       "label": "Iscrizioni, lezioni e progressi",
       "requirements": 19,
       "weight_percent": 8.88,
-      "development_evidence_floor_percent": 73.68,
+      "development_evidence_floor_percent": 75.0,
       "manual_acceptance_coverage_percent": 5.26,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 16,
+      "unverifiable_criteria": 15,
       "unassessed_criteria": 0
     },
     {
@@ -58,8 +58,8 @@
       "requirements": 18,
       "weight_percent": 8.41,
       "development_evidence_floor_percent": 71.2,
-      "manual_acceptance_coverage_percent": 0,
-      "manual_fully_accepted_percent": 0,
+      "manual_acceptance_coverage_percent": 0.0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 20,
       "unassessed_criteria": 0
@@ -71,7 +71,7 @@
       "weight_percent": 7.94,
       "development_evidence_floor_percent": 70.59,
       "manual_acceptance_coverage_percent": 17.65,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 14,
       "unassessed_criteria": 0
@@ -83,7 +83,7 @@
       "weight_percent": 6.07,
       "development_evidence_floor_percent": 71.15,
       "manual_acceptance_coverage_percent": 15.38,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 10,
       "unassessed_criteria": 0
@@ -95,7 +95,7 @@
       "weight_percent": 17.76,
       "development_evidence_floor_percent": 58.11,
       "manual_acceptance_coverage_percent": 2.63,
-      "manual_fully_accepted_percent": 0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
       "unverifiable_criteria": 35,
       "unassessed_criteria": 0
@@ -106,8 +106,8 @@
       "requirements": 51,
       "weight_percent": 23.83,
       "development_evidence_floor_percent": 50.75,
-      "manual_acceptance_coverage_percent": 0,
-      "manual_fully_accepted_percent": 0,
+      "manual_acceptance_coverage_percent": 0.0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 3,
       "unverifiable_criteria": 95,
       "unassessed_criteria": 0
@@ -118,8 +118,8 @@
       "requirements": 15,
       "weight_percent": 7.01,
       "development_evidence_floor_percent": 51.67,
-      "manual_acceptance_coverage_percent": 0,
-      "manual_fully_accepted_percent": 0,
+      "manual_acceptance_coverage_percent": 0.0,
+      "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 6,
       "unverifiable_criteria": 24,
       "unassessed_criteria": 0
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1093,
+      "title": "test(STU-01): close block diagnosis coverage",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1093",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T20:06:08Z",
+      "mergedAt": "2026-11-27T20:06:06Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "248930c6ce9ad7e5ec44470c73f4e55a809def69",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46060467814"
+      }
+    },
     {
       "number": 1092,
       "title": "docs: record CORE-16 merge and CI evidence",
@@ -245,9 +264,9 @@
       "milestone": "1.0.0",
       "headSha": "31feac9dc032548400850834576cff2e8f806df3",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46007465928"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1648,25 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1014,
-      "title": "refactor(SECDEV-02): guarded class imports and SQL text cleanup, 53 PSR12 findings removed",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1014",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T10:05:21Z",
-      "mergedAt": "2026-11-24T10:05:18Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b1bc10e08e292f00bd13753e39fa03a8dd28350b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T18:32:34Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46049441199/artifacts/15224785395"
+    "createdAt": "2026-11-27T20:05:13Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46060467814/artifacts/15229126833"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

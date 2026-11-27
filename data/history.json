@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-27T18:41:37.352318+00:00",
+  "generatedAt": "2026-11-27T20:06:25.849881+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-27T20:06:06Z",
+      "commit": "9514c86381b90ce3e0b6d84f16bbf1433c49140c",
+      "number": 1093,
+      "title": "test(STU-01): close block diagnosis coverage",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1093"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-27T20:06:25.849881+00:00",
+      "commit": "9514c86381b90ce3e0b6d84f16bbf1433c49140c",
+      "from": 65.04,
+      "to": 65.16,
+      "asOf": "2026-11-27T13:22:00Z"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-27T18:41:16Z",
@@ -1586,22 +1602,6 @@
       "number": 922,
       "title": "test(AUT-04): preserve issued certificate records through programme restore",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/922"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T12:52:56Z",
-      "commit": "074352c2e3fd2f4fb4b16eac1fe131ec725a65cd",
-      "number": 921,
-      "title": "docs(AUT-04): register PR 920 verified merge and certificate retention evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/921"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T12:49:31Z",
-      "commit": "081a0762976f72c105a2a2c2d85f4f6b748303d3",
-      "number": 920,
-      "title": "test(AUT-04): preserve historical certificates through enrollment migration and upgrade",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/920"
     }
   ]
 }
