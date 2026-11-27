@@ -1,8 +1,24 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-27T21:21:50.500349+00:00",
+  "generatedAt": "2026-11-27T21:55:15.201978+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-27T21:54:49Z",
+      "commit": "93b241a98e400a4bbe7fd03ff8946eafd8623de2",
+      "number": 1097,
+      "title": "test(CORE-03): verifica revoca viewing level tra contesti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1097"
+    },
+    {
+      "type": "estimate_changed",
+      "at": "2026-11-27T21:55:15.201978+00:00",
+      "commit": "93b241a98e400a4bbe7fd03ff8946eafd8623de2",
+      "from": 65.32,
+      "to": 65.55,
+      "asOf": "2026-11-27T13:22:00Z"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-27T21:21:22Z",
@@ -1586,22 +1602,6 @@
       "number": 928,
       "title": "test(AUT-04): restore encrypted certificate PDF alongside Joomla database",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/928"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T14:15:35Z",
-      "commit": "1ae797f86aa4f29dbc58a123486eb655642b3550",
-      "number": 927,
-      "title": "test(AUT-04): verify real disposable database backup and restoration of historical certificates",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/927"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T14:06:09Z",
-      "commit": "c3447281daf6e136a8c867d49b37d25729130240",
-      "number": 926,
-      "title": "test(AUT-01): preserve stale editor inputs without overwriting newer revision",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/926"
     }
   ]
 }

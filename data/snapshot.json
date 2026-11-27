@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T21:21:50.500349+00:00",
+  "generatedAt": "2026-11-27T21:55:15.201978+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "8fc2658599fbc9cc8d2309585f072cee94170bbd",
-  "progress": 65.32,
-  "developmentProgress": 65.32,
+  "sourceCommit": "93b241a98e400a4bbe7fd03ff8946eafd8623de2",
+  "progress": 65.55,
+  "developmentProgress": 65.55,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -93,11 +93,11 @@
       "label": "Joomla, ACL e configurazione",
       "requirements": 38,
       "weight_percent": 17.76,
-      "development_evidence_floor_percent": 58.99,
+      "development_evidence_floor_percent": 60.31,
       "manual_acceptance_coverage_percent": 2.63,
       "manual_fully_accepted_percent": 0.0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 34,
+      "unverifiable_criteria": 33,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1097,
+      "title": "test(CORE-03): verifica revoca viewing level tra contesti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1097",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T21:54:51Z",
+      "mergedAt": "2026-11-27T21:54:49Z",
+      "labels": [
+        "P1",
+        "security"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "db3b617ec6ce3b411d551e1a2decb1384bfe1f2e",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46072672532"
+      }
+    },
     {
       "number": 1096,
       "title": "docs(CORE-04): record merged ACL increment and CI evidence",
@@ -267,9 +287,9 @@
       "milestone": "1.0.0",
       "headSha": "ef5f3a43628e5e6b77f32552325543b40fb0cfcd",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46024993700"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,25 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1017,
-      "title": "style(SECDEV-02): structural closure batch for remaining PSR-12 findings",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1017",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T13:36:42Z",
-      "mergedAt": "2026-11-24T13:36:39Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "aeafff4499585ab73991b8d323e68352fc1fc83b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T21:08:48Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46067251250/artifacts/15230829543"
+    "createdAt": "2026-11-27T21:53:23Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46072672529/artifacts/15234490645"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
