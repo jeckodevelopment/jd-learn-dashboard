@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T14:55:03.751368+00:00",
+  "generatedAt": "2026-11-27T15:27:31.860939+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "92a147284cd79c12fa1ea5cd9cfe852bf29a5d71",
+  "sourceCommit": "91c95b2417f3746191d46e669fdcbf7d6a5f96d0",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1090,
+      "title": "test(CORE-15): verifica blocco programma durante revisione",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1090",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T15:27:10Z",
+      "mergedAt": "2026-11-27T15:27:09Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "ef5f3a43628e5e6b77f32552325543b40fb0cfcd",
+      "ci": {
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46024993700"
+      }
+    },
     {
       "number": 1089,
       "title": "feat(CORE-20): sort enrollment roster columns",
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1010,
-      "title": "style(SECDEV-02): single bulk AST-safe refactor removes 250 PSR-12 findings",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1010",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T08:02:01Z",
-      "mergedAt": "2026-11-24T08:01:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "b7b59a758456effc3562de081ffcf52d62857daf",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T14:41:56Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46016830003/artifacts/15208115117"
+    "createdAt": "2026-11-27T15:19:58Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46023230529/artifacts/15211875708"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

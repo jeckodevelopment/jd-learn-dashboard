@@ -962,7 +962,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "183;1040",
+    "prs": "183;1040;1090",
     "todo": "Estendere la copertura agli stati/entità baseline pertinenti non ancora gestiti; revisione/archiviazione/ripristino corsi già presenti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-23; AC-70; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Transizioni editoriali avanzate e copertura di tutte le entità/stati del requisito.",
     "criteria": "Workflow e stati editoriali; Integrare i workflow nativi per i corsi; lezioni e altre entità editoriali usano gli stati nativi e, quando previsto, lo stesso servizio workflow. Le transizioni sono autorizzate"
