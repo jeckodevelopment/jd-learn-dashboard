@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T22:27:59.198530+00:00",
+  "generatedAt": "2026-11-27T22:38:00.165576+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "9f1a88dc59ab3ec0b3f7329cb08458e2e5345c2a",
+  "sourceCommit": "f0fa25644496724d3798ea746b98bec9e3308f72",
   "progress": 65.78,
   "developmentProgress": 65.78,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1100,
+      "title": "docs(CORE-14): record merged CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1100",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T22:37:38Z",
+      "mergedAt": "2026-11-27T22:37:35Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "b6502afe4bdc9971faf724c942108142e970e62b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46077034964"
+      }
+    },
     {
       "number": 1099,
       "title": "test(CORE-14): verify native Finder index events",
@@ -1645,26 +1665,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "5dfca297c04dc06e08cd27e3b4ae244228dfd65a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 1020,
-      "title": "docs(SECDEV-02): reconcile #1019 with final green CI (811→331)",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1020",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T17:35:37Z",
-      "mergedAt": "2026-11-24T17:35:34Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "c7734a4a4d870dc7365621a7594b78bf8b717b88",
       "ci": {
         "status": "unknown",
         "conclusion": null,

@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-27T22:27:59.198530+00:00",
+  "generatedAt": "2026-11-27T22:38:00.165576+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-27T22:37:35Z",
+      "commit": "f0fa25644496724d3798ea746b98bec9e3308f72",
+      "number": 1100,
+      "title": "docs(CORE-14): record merged CI and package evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1100"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-27T22:27:36Z",
@@ -1594,14 +1602,6 @@
       "number": 930,
       "title": "test(AUT-01): retain editor input after required title rejection",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/930"
-    },
-    {
-      "type": "requirement_changed",
-      "at": "2026-11-22T14:46:33.716574+00:00",
-      "commit": "4afa70735833781de2ee92b7e4eebe1d92c8f7cb",
-      "id": "AUT-04",
-      "from": "Parziale",
-      "to": "Completata"
     }
   ]
 }
