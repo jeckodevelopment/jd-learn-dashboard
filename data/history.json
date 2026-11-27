@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-27T18:33:54.921977+00:00",
+  "generatedAt": "2026-11-27T18:41:37.352318+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-27T18:41:16Z",
+      "commit": "cb2d13c9cffec9524e57a407204ef1e3e44f2991",
+      "number": 1092,
+      "title": "docs: record CORE-16 merge and CI evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1092"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-27T18:33:29Z",
@@ -1594,14 +1602,6 @@
       "number": 920,
       "title": "test(AUT-04): preserve historical certificates through enrollment migration and upgrade",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/920"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T12:40:54Z",
-      "commit": "4fdb759147c699d1e1f03020f0a7185b3f19ecf7",
-      "number": 919,
-      "title": "feat(AUT-03): distinguish remote subtitle availability from editorial transcripts",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/919"
     }
   ]
 }

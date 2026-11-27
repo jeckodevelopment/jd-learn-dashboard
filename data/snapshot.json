@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T18:33:54.921977+00:00",
+  "generatedAt": "2026-11-27T18:41:37.352318+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "23ea8730abe9fe0c1dee9ccf125025977322d181",
+  "sourceCommit": "cb2d13c9cffec9524e57a407204ef1e3e44f2991",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,26 @@
   },
   "prs": [
     {
+      "number": 1092,
+      "title": "docs: record CORE-16 merge and CI evidence",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1092",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T18:41:19Z",
+      "mergedAt": "2026-11-27T18:41:16Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "57cc0c4521d9be3eecf175eca90a338253d1f8e1",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46051157750"
+      }
+    },
+    {
       "number": 1091,
       "title": "Fix CORE-16 teacher tag history and restore",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1091",
@@ -244,9 +264,9 @@
       "milestone": "1.0.0",
       "headSha": "e11ff4dcbb3072c26f48110ab031faf6bf3205a8",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45994213540"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1642,25 +1662,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "b1bc10e08e292f00bd13753e39fa03a8dd28350b",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 1012,
-      "title": "style(SECDEV-02): consolidate 156 PSR-12 fixes across PHP source and tests",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1012",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T09:12:09Z",
-      "mergedAt": "2026-11-24T09:12:06Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "52acf06a8d44d5454b53b2ea43bb0ed512ff6323",
       "ci": {
         "status": "unknown",
         "conclusion": null,
