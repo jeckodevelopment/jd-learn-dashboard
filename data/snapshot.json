@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T11:53:53.404477+00:00",
+  "generatedAt": "2026-11-27T13:27:58.894373+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "44482f77a8fdb98e3b7425da3fe99a1182a46357",
+  "sourceCommit": "0480400a7961e975be946979c498718d23e15334",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -125,7 +125,7 @@
       "unassessed_criteria": 0
     }
   ],
-  "progressAsOf": "2026-11-20",
+  "progressAsOf": "2026-11-27T13:22:00Z",
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 1087,
+      "title": "CORE-20: rendi ricercabili i selettori dei corsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1087",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T13:27:28Z",
+      "mergedAt": "2026-11-27T13:27:26Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "31feac9dc032548400850834576cff2e8f806df3",
+      "ci": {
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46007259919"
+      }
+    },
+    {
       "number": 1086,
       "title": "CORE-10: scope lesson custom fields by language",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1086",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-27T11:53:31Z",
+      "updated": "2026-11-27T11:54:02Z",
       "mergedAt": "2026-11-27T11:53:29Z",
       "labels": [
         "P1"
@@ -150,8 +169,8 @@
       "headSha": "e11ff4dcbb3072c26f48110ab031faf6bf3205a8",
       "ci": {
         "status": "completed",
-        "conclusion": "failure",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45994135465"
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45994213540"
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1007,
-      "title": "style(SECDEV-02): eliminate 88 PSR12 findings across PHP templates",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1007",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T06:14:29Z",
-      "mergedAt": "2026-11-24T06:14:27Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "70a534c677e246ec298efd68d921936aea4f1a15",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T11:53:05Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45993247077/artifacts/15194244330"
+    "createdAt": "2026-11-27T13:26:21Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46006422457/artifacts/15202107534"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

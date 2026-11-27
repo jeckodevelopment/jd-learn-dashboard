@@ -1017,9 +1017,9 @@
     "state": "Parziale",
     "scope": "Misto",
     "manual": "Parziale",
-    "prs": "21;60;104;108;112;116;120;122;124;128;151;169;202;346;362;365;377;1038;1040",
-    "todo": "Completare cestino, selettori e convenzioni amministrative core non coperti; dashboard, docenti e banca separata già presenti. Batch avanzati differiti.",
-    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-53; AC-74; AC-126; AC-127; AC-132; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Collaudo manuale Dashboard issue #105 superato secondo segnalazione utente (2026-11-08); AC-132: PR #128 integra in 0.41.31-dev il filtro ACL specifico della sidebar; CI standard superata run 42594246627, collaudo Joomla pending; testbook scenario issue #113. In aggiunta restano batch/cestino, selettori ricercabili e altre opzioni delle funzioni non ancora esistenti; verificare AC-134 su Joomla in IT/EN.",
+    "prs": "21;60;104;108;112;116;120;122;124;128;151;169;202;346;362;365;377;1038;1040;1087",
+    "todo": "Completare la ricognizione e gli eventuali gap restanti di cestino e convenzioni amministrative core; PR #1087 copre i selettori ricercabili della lista corsi e l'assegnazione docenti. Dashboard e gestione docenti già presenti. Batch avanzati differiti.",
+    "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-53; AC-74; AC-126; AC-127; AC-132; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Collaudo manuale Dashboard issue #105 superato secondo segnalazione utente (2026-11-08); AC-132: PR #128 integra in 0.41.31-dev il filtro ACL specifico della sidebar; CI standard superata run 42594246627, collaudo Joomla pending; testbook scenario issue #113. Restano i collaudi manuali del testbook per batch/cestino e toolbar; in Joomla verificare ricerca interattiva e accessibilità dei quattro filtri corsi, assegnazione/salvataggio/riapertura di più docenti e AC-134 in IT/EN.",
     "criteria": "Criteri baseline applicabili ai flussi core definiti in RELEASE_SCOPE_MATRIX.md."
   },
   {
