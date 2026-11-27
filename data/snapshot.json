@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T09:37:26.674994+00:00",
+  "generatedAt": "2026-11-27T09:48:28.077536+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "125c384c7ff2556b0a7d52bfe6a3d3d2ff0ac179",
+  "sourceCommit": "d66bc394c9000b7746ee5f86abcd182bb518b673",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1084,
+      "title": "feat(CORE-16): expose pathway version history toolbar",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1084",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T09:47:59Z",
+      "mergedAt": "2026-11-27T09:47:56Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "60400db7f0f1fad9c249beb3fd995d788d290a85",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45975906339"
+      }
+    },
     {
       "number": 1083,
       "title": "feat(CORE-16): add native pathway history and restore",
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1004,
-      "title": "test(SECDEV-02): audit completo dei simboli Joomla e metodi statici nei PHP distribuiti",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1004",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T22:22:55Z",
-      "mergedAt": "2026-11-23T22:22:52Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "971c84d9cca5e02c3f6ef76a1266d3a36a8ba07a",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T09:35:50Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45974351503/artifacts/15187135649"
+    "createdAt": "2026-11-27T09:47:19Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45975906339/artifacts/15186679079"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
