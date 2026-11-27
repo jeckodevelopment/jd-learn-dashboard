@@ -973,7 +973,7 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "183;192",
+    "prs": "183;192;1083",
     "todo": "Completare combinazioni di confronto/ripristino dei contenuti core non coperte; recupero programma in nuova bozza già presente.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-23; AC-71; AC-119; AC-125; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Confronto/ripristino tramite UI core in tutte le combinazioni e collaudi AC-23/71/119/125 completi.",
     "criteria": "Content History e blocco modifica;  Storico editoriale Joomla su corsi, profili docente e altre entità editoriali supportate, con confronto e ripristino autorizzati e check-in/check-out contro sovrascritture concorrenti. Un corso pubblicato rimane modificabile con i normali comandi. Il ripristino editoriale conserva stato, versione didattica attiva, iscrizioni e risultati; il recupero di una struttura didattica differente prepara una nuova versione di lavoro, senza mutare la versione assegnata agli iscritti."

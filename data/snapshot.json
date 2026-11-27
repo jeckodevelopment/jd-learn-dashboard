@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T09:02:12.365825+00:00",
+  "generatedAt": "2026-11-27T09:37:26.674994+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "65ddd01a60e97c4ff6ca47ecd7ce217b27399f4d",
+  "sourceCommit": "125c384c7ff2556b0a7d52bfe6a3d3d2ff0ac179",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1083,
+      "title": "feat(CORE-16): add native pathway history and restore",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1083",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T09:37:00Z",
+      "mergedAt": "2026-11-27T09:36:57Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "9c21dc185885cc1d8af2dcd440af220f5c6408fa",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45974351503"
+      }
+    },
+    {
       "number": 1082,
       "title": "docs(DOC-03): add accessible student and teacher screen illustrations",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1082",
@@ -188,9 +207,9 @@
       "milestone": "1.0.0",
       "headSha": "442e3d051a26d0273f41ff9014cc710e4c9ceb4f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45912281941"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -207,9 +226,9 @@
       "milestone": "1.0.0",
       "headSha": "333db71648f625d03e75e268cba1e13dbfb99a0a",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45910391523"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1003,
-      "title": "test(SECDEV-02): bloccare API core Joomla incompatibili sulla patch target 6.2.0",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1003",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T21:56:08Z",
-      "mergedAt": "2026-11-23T21:55:47Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "6f0c2e3f556ac287cde8ff342bb3ce3cc1b77a6d",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T09:01:13Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45969548519/artifacts/15184646714"
+    "createdAt": "2026-11-27T09:35:50Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45974351503/artifacts/15187135649"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
