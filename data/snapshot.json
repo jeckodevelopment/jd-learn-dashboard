@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T21:55:15.201978+00:00",
+  "generatedAt": "2026-11-27T22:00:10.783235+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "93b241a98e400a4bbe7fd03ff8946eafd8623de2",
+  "sourceCommit": "d56c5b52c469eb776145c1cbc6ea78fd1275a1fc",
   "progress": 65.55,
   "developmentProgress": 65.55,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1098,
+      "title": "docs(CORE-03): registra CI e artefatto integrato",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1098",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T21:59:50Z",
+      "mergedAt": "2026-11-27T21:59:47Z",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e6d11ad0e8ea290280a3572bba428f6c50ec70ab",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46073647819"
+      }
+    },
     {
       "number": 1097,
       "title": "test(CORE-03): verifica revoca viewing level tra contesti",
@@ -1645,25 +1665,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "502a5bc5cbd78ea58dbe08cd185ef108a7b921e2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 1018,
-      "title": "style(SECDEV-02): consolidated structural remediation of remaining 867 PSR-12 findings",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1018",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T14:18:08Z",
-      "mergedAt": "2026-11-24T14:18:05Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0df21a65be12ee550a597295a25fc24da9a17eb7",
       "ci": {
         "status": "unknown",
         "conclusion": null,
