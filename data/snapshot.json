@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T09:48:28.077536+00:00",
+  "generatedAt": "2026-11-27T10:59:37.539156+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "d66bc394c9000b7746ee5f86abcd182bb518b673",
+  "sourceCommit": "4935306329ae3fac2cc2ff0cfa6b2b73de66d000",
   "progress": 65.04,
   "developmentProgress": 65.04,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 1085,
+      "title": "feat(STU-01): guide learners through blocked course access",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1085",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-27T10:59:12Z",
+      "mergedAt": "2026-11-27T10:59:09Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fff735fb1acc6360fd753daacbed04e604ee0a2b",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45985749445"
+      }
+    },
+    {
       "number": 1084,
       "title": "feat(CORE-16): expose pathway version history toolbar",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1084",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-27T09:47:59Z",
+      "updated": "2026-11-27T09:50:28Z",
       "mergedAt": "2026-11-27T09:47:56Z",
       "labels": [
         "P1"
@@ -151,7 +170,7 @@
       "ci": {
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45975906339"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45977060462"
       }
     },
     {
@@ -207,9 +226,9 @@
       "milestone": "1.0.0",
       "headSha": "49d50f0dc253f2afed75d4d1245c001c742ed1ec",
       "ci": {
-        "status": "completed",
-        "conclusion": "failure",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45918923825"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1647,25 +1666,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1005,
-      "title": "test(SECDEV-02): verificare metodi Joomla su istanze costruite direttamente",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1005",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-23T23:15:48Z",
-      "mergedAt": "2026-11-23T23:15:45Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "0dd81f43fd72091b982de801b2ddb5f67e96a1c2",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1697,8 +1697,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T09:47:19Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45975906339/artifacts/15186679079"
+    "createdAt": "2026-11-27T10:58:19Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/45985749445/artifacts/15190683942"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

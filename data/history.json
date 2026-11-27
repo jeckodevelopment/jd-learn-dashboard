@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-27T09:48:28.077536+00:00",
+  "generatedAt": "2026-11-27T10:59:37.539156+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-27T10:59:09Z",
+      "commit": "4935306329ae3fac2cc2ff0cfa6b2b73de66d000",
+      "number": 1085,
+      "title": "feat(STU-01): guide learners through blocked course access",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1085"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-27T09:47:56Z",
@@ -1594,14 +1602,6 @@
       "number": 915,
       "title": "fix(ISC-07): invalidate persistent video sessions on enrollment revocation",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/915"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T11:53:39Z",
-      "commit": "7dc0b7ed0744229c3905e8a8d46833c20854cfec",
-      "number": 914,
-      "title": "docs(ISC-07): record merged PR 913 CI and artifact evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/914"
     }
   ]
 }
