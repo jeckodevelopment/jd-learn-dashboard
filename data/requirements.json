@@ -918,8 +918,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "183;1036",
-    "todo": "Completare eventi di preparazione contenuto nei soli contesti/plugin consentiti.",
+    "prs": "183;1036;1104",
+    "todo": "Incremento: anteprima pubblica delle lezioni testuali; completare gli altri contesti di preparazione contenuto ammessi.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-66; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Eventi content prepare per i contesti e plugin ammessi, verifiche con editor diversi; non eseguire plugin indiscriminatamente nelle lezioni.",
     "criteria": "Editor e content plugin; Editor selezionato in Joomla; applicare gli eventi di preparazione contenuto nei contesti documentati, rispettando filtri e autorizzazioni"
   },
