@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-27T23:22:47.982610+00:00",
+  "generatedAt": "2026-11-28T00:46:43.613948+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-28T00:46:24Z",
+      "commit": "dce25d028eb625edce0789240a0c78436ed16a14",
+      "number": 1102,
+      "title": "fix(CORE-16): snapshot persisted course relations",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1102"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-27T23:17:24Z",
@@ -1594,14 +1602,6 @@
       "number": 931,
       "title": "test(AUT-03): validate provider captions and tracking readiness matrix",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/931"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T16:03:25Z",
-      "commit": "7d2b3d9cf51787486c62e0f0f68076a9350b6c55",
-      "number": 933,
-      "title": "test(AUT-01): preserve invalid module and lesson editor state",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/933"
     }
   ]
 }

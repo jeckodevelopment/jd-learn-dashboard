@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T23:22:47.982610+00:00",
+  "generatedAt": "2026-11-28T00:46:43.613948+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "720a971be02e64394b3bf851dafa2e977ae69fe2",
+  "sourceCommit": "dce25d028eb625edce0789240a0c78436ed16a14",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1102,
+      "title": "fix(CORE-16): snapshot persisted course relations",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1102",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T00:46:27Z",
+      "mergedAt": "2026-11-28T00:46:24Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fcd4ab8bb871433a4a91e3a987306e38c2a40eda",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46089082937"
+      }
+    },
     {
       "number": 1101,
       "title": "test(CORE-04): verify delegated teacher profile edits",
@@ -288,9 +307,9 @@
       "milestone": "1.0.0",
       "headSha": "c838d415cd972c7411c8e403350c0bbe6c8d3b5e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46061983358"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,26 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1022,
-      "title": "refactor(SECDEV-02): mass PSR12 remediation −62 findings (320→258), CI green",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1022",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T18:47:47Z",
-      "mergedAt": "2026-11-24T18:47:25Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a5d1928b1589950365a292546d12e323a4302524",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-27T23:22:12Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46081643867/artifacts/15237233447"
+    "createdAt": "2026-11-28T00:44:52Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46089082937/artifacts/15240383124"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
