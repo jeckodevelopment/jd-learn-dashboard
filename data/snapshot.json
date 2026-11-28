@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T16:56:56.575466+00:00",
+  "generatedAt": "2026-11-28T17:19:19.004184+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "84790e07dd976ea8c0b21d39ea11ee243203fb56",
+  "sourceCommit": "446f54d8fd6692de2ab830fabb5b21e7fa52c1c2",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1111,
+      "title": "fix(CORE-10): applica i viewing level ai campi docente",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1111",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T17:18:50Z",
+      "mergedAt": "2026-11-28T17:18:48Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e30333f7f8ae6263895874b861d4ea0bde93541c",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46169236261"
+      }
+    },
+    {
       "number": 1110,
       "title": "docs(CORE-11): registra CI e pacchetto della PR 1109",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1110",
@@ -226,9 +245,9 @@
       "milestone": "1.0.0",
       "headSha": "e9de060a0666adb5ea84a8595fb80855ac69e2c4",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46155168819"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,25 +1668,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1031,
-      "title": "test(SECDEV-02): Joomla runtime language keys and private-task HTTP acceptance",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1031",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-25T11:06:59Z",
-      "mergedAt": "2026-11-25T11:06:34Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f1d2f69eff2046277c1ed62f67a96fcb25660508",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1699,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T16:47:38Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46166611308/artifacts/15271754540"
+    "createdAt": "2026-11-28T17:18:09Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46169236261/artifacts/15272888318"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
