@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T15:46:42.066887+00:00",
+  "generatedAt": "2026-11-28T16:49:24.046701+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "acaecf7fc7bee56905e8af193438b1d3103f86bb",
+  "sourceCommit": "7e7222c21981397a6044167b6fcba41d6e2a9c20",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 1109,
+      "title": "CORE-11: prepara le descrizioni pubbliche dei percorsi",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1109",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T16:49:00Z",
+      "mergedAt": "2026-11-28T16:48:58Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "d2271b89c11f3afd776050c447823424e91aba8d",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46166611337"
+      }
+    },
+    {
       "number": 1108,
       "title": "CORE-13: collega le associazioni lingua dei profili docente",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1108",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-28T15:44:49Z",
+      "updated": "2026-11-28T15:46:51Z",
       "mergedAt": "2026-11-28T15:44:46Z",
       "labels": [
         "P1"
@@ -151,7 +170,7 @@
       "ci": {
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46160943466"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46161661855"
       }
     },
     {
@@ -225,9 +244,9 @@
       "milestone": "1.0.0",
       "headSha": "565ffa1f42c31c1c035ed06f1040fcd2d6dbd0b1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46099318244"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1648,25 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1029,
-      "title": "fix(SECDEV-02): Joomla 6.2.1 security patch and definitive CORE closure audit",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1029",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-25T09:33:18Z",
-      "mergedAt": "2026-11-25T09:33:01Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "f04c8df2528760c21328b1472c7bb9ceed85fbba",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T15:44:01Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46160943466/artifacts/15270206234"
+    "createdAt": "2026-11-28T16:47:38Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46166611308/artifacts/15271754540"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

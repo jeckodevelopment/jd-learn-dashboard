@@ -918,8 +918,8 @@
     "state": "Parziale",
     "scope": "1.0.0",
     "manual": "Non eseguita",
-    "prs": "183;1036;1104;1106",
-    "todo": "Descrizioni categorie visibili agli ospiti e anteprime pubbliche delle lezioni testuali passano dal dispatcher Joomla e dal filtro HTML; restano gli altri contesti di preparazione contenuto ammessi.",
+    "prs": "183;1036;1104;1106;1109",
+    "todo": "Descrizioni categorie visibili agli ospiti e anteprime pubbliche delle lezioni testuali passano dal dispatcher Joomla e dal filtro HTML; restano gli altri contesti di preparazione contenuto ammessi.; Descrizioni dei percorsi pubblici aggiunte dalla PR #1109; restano gli altri contesti authoring non coperti.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-66; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Eventi content prepare per i contesti e plugin ammessi, verifiche con editor diversi; non eseguire plugin indiscriminatamente nelle lezioni. Per le categorie verificare markup consentito, pulizia di script/iframe, contesto `com_jlms.category` e mancato dispatch sulle categorie non pubbliche.",
     "criteria": "Editor e content plugin; Editor selezionato in Joomla; applicare gli eventi di preparazione contenuto nei contesti documentati, rispettando filtri e autorizzazioni"
   },
