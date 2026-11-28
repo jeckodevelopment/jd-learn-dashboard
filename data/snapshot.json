@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T01:53:18.059632+00:00",
+  "generatedAt": "2026-11-28T01:53:43.733643+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "f4f5907390b95157a3ffed84cb9a572108c8876f",
+  "sourceCommit": "4604c07de297b8ef26dc5dfc462f292ca084d33e",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -141,7 +141,7 @@
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1103",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-28T01:53:00Z",
+      "updated": "2026-11-28T01:53:22Z",
       "mergedAt": "2026-11-28T01:52:58Z",
       "labels": [
         "P1"
@@ -149,9 +149,9 @@
       "milestone": "1.0.0",
       "headSha": "e85f9b3b89e4eef70a054278469b8bb5bc2ba16f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46094837458"
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46095351607"
       }
     },
     {
