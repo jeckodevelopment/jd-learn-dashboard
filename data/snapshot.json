@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T17:41:37.390464+00:00",
+  "generatedAt": "2026-11-28T18:11:39.211435+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "1c9fef8c6ac6c21a5f71fa9ebd51bbd435e25375",
+  "sourceCommit": "cf5ac842a3e029fb0dfb445a075cfbe89d3eaf12",
   "progress": 66.17,
   "developmentProgress": 66.17,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1113,
+      "title": "test(CORE-16): verify pathway Content History restore",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1113",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T18:11:18Z",
+      "mergedAt": "2026-11-28T18:11:15Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "c9260925c5894a0aa5c7ca4f0aaf5bc2d73e9a38",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46173891799"
+      }
+    },
     {
       "number": 1112,
       "title": "docs(CORE-10): registra copertura campi e build #1111",
@@ -1650,25 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1033,
-      "title": "fix(SECDEV-02/CORE-08): preserve unrelated user attribution during privacy removal",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1033",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-25T12:02:34Z",
-      "mergedAt": "2026-11-25T12:02:10Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "87be39a60a6f08037b2327938f43c8678bed5aae",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1700,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T17:41:02Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46171224005/artifacts/15274355098"
+    "createdAt": "2026-11-28T18:10:24Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46173891793/artifacts/15274868705"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
