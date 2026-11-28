@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T14:21:42.914664+00:00",
+  "generatedAt": "2026-11-28T14:38:59.277121+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "61d13fb9bb19f58462d36c63ca91c3fc869ee5f9",
+  "sourceCommit": "9ac8cd2df637c438f5258b7e05a4942fd9edc2cb",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -135,6 +135,25 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1106,
+      "title": "Prepara le descrizioni pubbliche delle categorie con i content plugin",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1106",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T14:38:40Z",
+      "mergedAt": "2026-11-28T14:38:38Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e9de060a0666adb5ea84a8595fb80855ac69e2c4",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46155168819"
+      }
+    },
     {
       "number": 1105,
       "title": "Completa filtri e ordinamento della lista Docenti",
@@ -1648,25 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1026,
-      "title": "refactor(SECDEV-02): guarded PSR-12 cleanup, 122 to 102 findings",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1026",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-25T07:26:07Z",
-      "mergedAt": "2026-11-25T07:26:04Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "287f0cbcff04913f4e4c73b440a3bad6cedb83c7",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T14:20:15Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46153736842/artifacts/15266941565"
+    "createdAt": "2026-11-28T14:38:13Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46155168817/artifacts/15267591696"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
