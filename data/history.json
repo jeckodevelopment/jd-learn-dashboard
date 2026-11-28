@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-28T14:39:55.854383+00:00",
+  "generatedAt": "2026-11-28T15:07:18.557427+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-28T15:06:54Z",
+      "commit": "a4ab5f0cd925adb6874f9b59bf5ef37020bf4669",
+      "number": 1107,
+      "title": "Aggiunge il breadcrumb alle schede pubbliche dei docenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1107"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-28T14:38:38Z",
@@ -1594,14 +1602,6 @@
       "number": 936,
       "title": "docs(AUT-01): close all AUT-01–05 implementation criteria",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/936"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T16:21:24Z",
-      "commit": "640a6075c6647a08af4c438f41a4280fc940b2d5",
-      "number": 935,
-      "title": "fix(AUT-01): restore Joomla lesson field values after rejected save",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/935"
     }
   ]
 }

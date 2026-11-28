@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T14:39:55.854383+00:00",
+  "generatedAt": "2026-11-28T15:07:18.557427+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "6a92deda82da8e83a5059446f6f7df0141bd7af5",
+  "sourceCommit": "a4ab5f0cd925adb6874f9b59bf5ef37020bf4669",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1107,
+      "title": "Aggiunge il breadcrumb alle schede pubbliche dei docenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1107",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T15:06:56Z",
+      "mergedAt": "2026-11-28T15:06:54Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "18f32c2e767b7b99fab6495c3b61b269098b2017",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46157623684"
+      }
+    },
+    {
       "number": 1106,
       "title": "Prepara le descrizioni pubbliche delle categorie con i content plugin",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1106",
@@ -244,9 +263,9 @@
       "milestone": "1.0.0",
       "headSha": "d6c01f3068b4edbf7f190d44959605681b31161e",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46081643867"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1648,25 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1027,
-      "title": "refactor(SECDEV-02): reduce PSR-12 findings 102 to 27 with zero regressions",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1027",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-25T08:56:15Z",
-      "mergedAt": "2026-11-25T08:55:47Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "63c28b9bf0162893a4af25c3e11a6eb2354357ac",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T14:38:13Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46155168817/artifacts/15267591696"
+    "createdAt": "2026-11-28T15:06:18Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46157623684/artifacts/15269100074"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
