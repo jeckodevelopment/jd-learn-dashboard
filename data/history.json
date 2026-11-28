@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-28T16:49:24.046701+00:00",
+  "generatedAt": "2026-11-28T16:56:56.575466+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-28T16:56:32Z",
+      "commit": "84790e07dd976ea8c0b21d39ea11ee243203fb56",
+      "number": 1110,
+      "title": "docs(CORE-11): registra CI e pacchetto della PR 1109",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1110"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-28T16:48:58Z",
@@ -1594,14 +1602,6 @@
       "id": "AUT-01",
       "from": "Parziale",
       "to": "Completata"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T16:30:46Z",
-      "commit": "eac832cb18d623f842dddd84378e8a1e3ad88768",
-      "number": 937,
-      "title": "docs(AUT): record verified closure, merges and package evidence",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/937"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T16:49:24.046701+00:00",
+  "generatedAt": "2026-11-28T16:56:56.575466+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "7e7222c21981397a6044167b6fcba41d6e2a9c20",
+  "sourceCommit": "84790e07dd976ea8c0b21d39ea11ee243203fb56",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -125,7 +125,7 @@
       "unassessed_criteria": 0
     }
   ],
-  "progressAsOf": "2026-11-27T13:22:00Z",
+  "progressAsOf": "2026-11-28",
   "progressBasis": "Criterion-based evidence floor with equal weight per in-scope requirement; unverifiable and unassessed criteria count as zero. Manual acceptance is calculated independently from REQUIREMENTS_STATUS.csv.",
   "counts": {
     "requirements": 249,
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1110,
+      "title": "docs(CORE-11): registra CI e pacchetto della PR 1109",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1110",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T16:56:35Z",
+      "mergedAt": "2026-11-28T16:56:32Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "fc16a6f02141c1375a613c2fef231ec625cbfb97",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46167664891"
+      }
+    },
     {
       "number": 1109,
       "title": "CORE-11: prepara le descrizioni pubbliche dei percorsi",
@@ -225,9 +245,9 @@
       "milestone": "1.0.0",
       "headSha": "5df4859611b3e7ce911d706868a57bd1684a5969",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46153736884"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1643,25 +1663,6 @@
       ],
       "milestone": "1.0.0",
       "headSha": "f1d2f69eff2046277c1ed62f67a96fcb25660508",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
-    },
-    {
-      "number": 1030,
-      "title": "fix(SECDEV-02): reconcile 23 CORE gaps with verified tests and privacy/language guards",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1030",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-25T10:43:16Z",
-      "mergedAt": "2026-11-25T10:42:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "de9029dda5a0cbe1442d6b63bdf353a654da5265",
       "ci": {
         "status": "unknown",
         "conclusion": null,
