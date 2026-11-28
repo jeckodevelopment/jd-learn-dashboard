@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T17:19:19.004184+00:00",
+  "generatedAt": "2026-11-28T17:41:37.390464+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "446f54d8fd6692de2ab830fabb5b21e7fa52c1c2",
-  "progress": 65.94,
-  "developmentProgress": 65.94,
+  "sourceCommit": "1c9fef8c6ac6c21a5f71fa9ebd51bbd435e25375",
+  "progress": 66.17,
+  "developmentProgress": 66.17,
   "manualAcceptanceProgress": 4.67,
   "manualAcceptance": {
     "requirements_with_recorded_result": 10,
@@ -93,11 +93,11 @@
       "label": "Joomla, ACL e configurazione",
       "requirements": 38,
       "weight_percent": 17.76,
-      "development_evidence_floor_percent": 62.5,
+      "development_evidence_floor_percent": 63.82,
       "manual_acceptance_coverage_percent": 2.63,
       "manual_fully_accepted_percent": 0,
       "missing_criteria": 0,
-      "unverifiable_criteria": 31,
+      "unverifiable_criteria": 30,
       "unassessed_criteria": 0
     },
     {
@@ -135,6 +135,26 @@
     "p1": 0
   },
   "prs": [
+    {
+      "number": 1112,
+      "title": "docs(CORE-10): registra copertura campi e build #1111",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1112",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T17:41:22Z",
+      "mergedAt": "2026-11-28T17:41:19Z",
+      "labels": [
+        "documentation",
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "6f77280b2dcfddeafb090253398fbe5367bb47ab",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46171224034"
+      }
+    },
     {
       "number": 1111,
       "title": "fix(CORE-10): applica i viewing level ai campi docente",
@@ -226,9 +246,9 @@
       "milestone": "1.0.0",
       "headSha": "18f32c2e767b7b99fab6495c3b61b269098b2017",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46157623684"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1649,25 +1669,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1032,
-      "title": "test(SECDEV-02): verify every private Joomla task across three isolated sessions",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1032",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-25T11:34:32Z",
-      "mergedAt": "2026-11-25T11:33:53Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "15965cd081d9f4a33ad62d480aa9b7865d758a30",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1700,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T17:18:09Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46169236261/artifacts/15272888318"
+    "createdAt": "2026-11-28T17:41:02Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46171224005/artifacts/15274355098"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
