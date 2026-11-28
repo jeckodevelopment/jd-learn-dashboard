@@ -941,7 +941,7 @@
     "scope": "1.0.0",
     "manual": "Non eseguita",
     "prs": "68;120;162;202;208;368;1039;1043;1070;1107;1108",
-    "todo": "Associazioni lingua native per profili docente implementate in PR #1108; breadcrumb docente con deduplicazione del menu diretto. Completare le combinazioni menu/SEF/lingua/breadcrumb non coperte e le altre route.",
+    "todo": "Associazioni lingua native per profili docente implementate con PR #1108 (CI 4/4); breadcrumb docente con deduplicazione del menu diretto. Completare le combinazioni menu/SEF/lingua/breadcrumb non coperte e le altre route.",
     "tests": "Eseguire e registrare gli scenari previsti sul solo sottoinsieme core: AC-68; AC-124; docs/QA_TESTBOOK.md. Limiti della precedente evidenza (da applicare al solo core): Voci create nel gestore menu, SEF/lingue/breadcrumbs/moduli nelle combinazioni complete; percorsi e altri criteri non coperti. Menu e ingresso diretto implementati nella0.40; dashboard rivista nella0.41.8; collaudare anche il breadcrumb docente da lista/scheda corso e da menu diretto senza duplicati, nelle lingue e con URL SEF; resta il collaudo completo della navigazione/ACL.",
     "criteria": "Menu, moduli e routing;  Voci menu native per catalogo, categoria, percorso, corso, area personale, Pagina docente e Corsi di un docente; selezione del profilo, parametri, breadcrumbs, URL SEF e associazioni lingua. Le viste docente rispettano pubblicazione, lingua e accesso di profilo, campi e corsi, anche su URL diretto."
   },
