@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T15:07:38.588219+00:00",
+  "generatedAt": "2026-11-28T15:45:05.075456+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "a4ab5f0cd925adb6874f9b59bf5ef37020bf4669",
+  "sourceCommit": "4c62e390bbae51e2268f67754effc2f0d2003f4b",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1108,
+      "title": "CORE-13: collega le associazioni lingua dei profili docente",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1108",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T15:44:49Z",
+      "mergedAt": "2026-11-28T15:44:46Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "1bd84da7e7725528f682ee9c0b1e2ef0f5fd36bd",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46160943466"
+      }
+    },
+    {
       "number": 1107,
       "title": "Aggiunge il breadcrumb alle schede pubbliche dei docenti",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1107",
@@ -225,9 +244,9 @@
       "milestone": "1.0.0",
       "headSha": "e85f9b3b89e4eef70a054278469b8bb5bc2ba16f",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46095351607"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -244,9 +263,9 @@
       "milestone": "1.0.0",
       "headSha": "fcd4ab8bb871433a4a91e3a987306e38c2a40eda",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46089719978"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1648,25 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1028,
-      "title": "refactor(SECDEV-02): eliminate final 27 PSR-12 findings with native Joomla contracts preserved",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1028",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-25T09:20:19Z",
-      "mergedAt": "2026-11-25T09:20:00Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "7c90157e7f1a296b5ee30563fd56ce7a5964f2b4",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T15:06:18Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46157623684/artifacts/15269100074"
+    "createdAt": "2026-11-28T15:44:01Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46160943466/artifacts/15270206234"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
