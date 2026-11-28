@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T00:46:43.613948+00:00",
+  "generatedAt": "2026-11-28T01:53:18.059632+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "dce25d028eb625edce0789240a0c78436ed16a14",
+  "sourceCommit": "f4f5907390b95157a3ffed84cb9a572108c8876f",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -136,12 +136,31 @@
   },
   "prs": [
     {
+      "number": 1103,
+      "title": "CORE-16: preserva i campi personalizzati nello storico",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1103",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T01:53:00Z",
+      "mergedAt": "2026-11-28T01:52:58Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "e85f9b3b89e4eef70a054278469b8bb5bc2ba16f",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46094837458"
+      }
+    },
+    {
       "number": 1102,
       "title": "fix(CORE-16): snapshot persisted course relations",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1102",
       "status": "merged",
       "draft": false,
-      "updated": "2026-11-28T00:46:27Z",
+      "updated": "2026-11-28T00:46:53Z",
       "mergedAt": "2026-11-28T00:46:24Z",
       "labels": [
         "P1"
@@ -151,7 +170,7 @@
       "ci": {
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46089082937"
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46089719978"
       }
     },
     {
@@ -287,9 +306,9 @@
       "milestone": "1.0.0",
       "headSha": "44d6954bb7c54d2f8f091f4476aa40e78e5144a1",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46067251250"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1648,26 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1023,
-      "title": "refactor(SECDEV-02): bulk PSR-12 remediation 258→192 (−66), CI green",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1023",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T21:20:26Z",
-      "mergedAt": "2026-11-24T21:19:58Z",
-      "labels": [
-        "documentation",
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "a8e8633987925c055aa1f53ce76c6bbca9684633",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1699,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T00:44:52Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46089082937/artifacts/15240383124"
+    "createdAt": "2026-11-28T01:51:47Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46094837458/artifacts/15242742697"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",

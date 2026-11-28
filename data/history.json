@@ -1,8 +1,16 @@
 {
   "schema": 1,
   "baselineAt": "2026-11-17T22:28:02.217447+00:00",
-  "generatedAt": "2026-11-28T00:46:43.613948+00:00",
+  "generatedAt": "2026-11-28T01:53:18.059632+00:00",
   "events": [
+    {
+      "type": "pr_merged",
+      "at": "2026-11-28T01:52:58Z",
+      "commit": "f4f5907390b95157a3ffed84cb9a572108c8876f",
+      "number": 1103,
+      "title": "CORE-16: preserva i campi personalizzati nello storico",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1103"
+    },
     {
       "type": "pr_merged",
       "at": "2026-11-28T00:46:24Z",
@@ -1594,14 +1602,6 @@
       "from": 62.32,
       "to": 62.41,
       "asOf": "2026-11-20"
-    },
-    {
-      "type": "pr_merged",
-      "at": "2026-11-22T16:04:41Z",
-      "commit": "279a635779ab0ec76667b2cb8ae9b761c8041829",
-      "number": 931,
-      "title": "test(AUT-03): validate provider captions and tracking readiness matrix",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/931"
     }
   ]
 }
