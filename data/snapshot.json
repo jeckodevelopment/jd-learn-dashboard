@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-28T14:04:10.863538+00:00",
+  "generatedAt": "2026-11-28T14:21:16.323281+00:00",
   "source": "https://github.com/jeckodevelopment/jd_learn",
-  "sourceCommit": "0853ccf8ea39d77353d7838b3092afed6300a267",
+  "sourceCommit": "33f8a3c22ac4ddd5750f5f5f550b05e600c7295f",
   "progress": 65.94,
   "developmentProgress": 65.94,
   "manualAcceptanceProgress": 4.67,
@@ -136,6 +136,25 @@
   },
   "prs": [
     {
+      "number": 1105,
+      "title": "Completa filtri e ordinamento della lista Docenti",
+      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1105",
+      "status": "merged",
+      "draft": false,
+      "updated": "2026-11-28T14:21:00Z",
+      "mergedAt": "2026-11-28T14:20:57Z",
+      "labels": [
+        "P1"
+      ],
+      "milestone": "1.0.0",
+      "headSha": "5df4859611b3e7ce911d706868a57bd1684a5969",
+      "ci": {
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46153736884"
+      }
+    },
+    {
       "number": 1104,
       "title": "Estende onContentPrepare alle anteprime pubbliche delle lezioni",
       "url": "https://github.com/jeckodevelopment/jd_learn/pull/1104",
@@ -226,9 +245,9 @@
       "milestone": "1.0.0",
       "headSha": "b6502afe4bdc9971faf724c942108142e970e62b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46077034964"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -245,9 +264,9 @@
       "milestone": "1.0.0",
       "headSha": "7b0dfae62312b3196705def8a01bfc9770cb8c1b",
       "ci": {
-        "status": "completed",
-        "conclusion": "success",
-        "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46076074058"
+        "status": "unknown",
+        "conclusion": null,
+        "url": null
       }
     },
     {
@@ -1648,25 +1667,6 @@
         "conclusion": null,
         "url": null
       }
-    },
-    {
-      "number": 1025,
-      "title": "style(SECDEV-02): guarded long-line source remediation from 125 baseline",
-      "url": "https://github.com/jeckodevelopment/jd_learn/pull/1025",
-      "status": "merged",
-      "draft": false,
-      "updated": "2026-11-24T22:57:02Z",
-      "mergedAt": "2026-11-24T22:56:59Z",
-      "labels": [
-        "P1"
-      ],
-      "milestone": "1.0.0",
-      "headSha": "8a95de06868d3a182816ba8059620c49e1427a34",
-      "ci": {
-        "status": "unknown",
-        "conclusion": null,
-        "url": null
-      }
     }
   ],
   "issues": [],
@@ -1698,8 +1698,8 @@
   },
   "package": {
     "name": "JD-Learn-0.64.22-dev",
-    "createdAt": "2026-11-28T02:46:36Z",
-    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46099318213/artifacts/15244393035"
+    "createdAt": "2026-11-28T14:20:15Z",
+    "url": "https://github.com/jeckodevelopment/jd_learn/actions/runs/46153736842/artifacts/15266941565"
   },
   "links": {
     "plan": "https://github.com/jeckodevelopment/jd_learn/blob/main/docs/STABLE_1.0.0_PR_PLAN.md",
